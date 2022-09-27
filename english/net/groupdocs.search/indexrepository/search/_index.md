@@ -1,0 +1,185 @@
+---
+title: Search
+second_title: GroupDocs.Search for .NET API Reference
+description: Searches in all indexes of the repository.
+type: docs
+weight: 70
+url: /net/groupdocs.search/indexrepository/search/
+---
+## Search(string) {#search_2}
+
+Searches in all indexes of the repository.
+
+```csharp
+public SearchResult Search(string query)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | String | The search query. |
+
+### Return Value
+
+The search result.
+
+### Examples
+
+The example demonstrates how to perform search in index repository.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Creating index
+index.Add(documentsFolder); // Indexing documents
+
+SearchResult result = repository.Search(query); // Searching
+```
+
+### See Also
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [IndexRepository](../../indexrepository)
+* namespace [GroupDocs.Search](../../indexrepository)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Search(string, SearchOptions) {#search_3}
+
+Searches in all indexes of the repository.
+
+```csharp
+public SearchResult Search(string query, SearchOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | String | The search query. |
+| options | SearchOptions | The search options. |
+
+### Return Value
+
+The search result.
+
+### Examples
+
+The example demonstrates how to perform search in index repository.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Creating index
+index.Add(documentsFolder); // Indexing documents
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Setting flag of case sensitive search
+
+SearchResult result = repository.Search(query, options); // Searching
+```
+
+### See Also
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* namespace [GroupDocs.Search](../../indexrepository)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery) {#search}
+
+Searches in all indexes of the repository.
+
+```csharp
+public SearchResult Search(SearchQuery query)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | SearchQuery | The search query. |
+
+### Return Value
+
+The search result.
+
+### Examples
+
+The example demonstrates how to perform search in index repository.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Creating index
+index.Add(documentsFolder); // Indexing documents
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Creating search query in object form
+
+SearchResult result = repository.Search(query); // Searching
+```
+
+### See Also
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [IndexRepository](../../indexrepository)
+* namespace [GroupDocs.Search](../../indexrepository)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery, SearchOptions) {#search_1}
+
+Searches in all indexes of the repository.
+
+```csharp
+public SearchResult Search(SearchQuery query, SearchOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | SearchQuery | The search query. |
+| options | SearchOptions | The search options. |
+
+### Return Value
+
+The search result.
+
+### Examples
+
+The example demonstrates how to perform search in index repository.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Creating index
+index.Add(documentsFolder); // Indexing documents
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Setting flag of case sensitive search
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Creating search query in object form
+
+SearchResult result = repository.Search(query, options); // Searching
+```
+
+### See Also
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* namespace [GroupDocs.Search](../../indexrepository)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
