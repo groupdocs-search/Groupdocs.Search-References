@@ -3,7 +3,7 @@ title: IndexInfo
 second_title: GroupDocs.Search for Java API Reference
 description: Contains basic information on an Index.
 type: docs
-weight: 10
+weight: 26
 url: /java/com.groupdocs.search.common/indexinfo/
 ---
 **Inheritance:**
