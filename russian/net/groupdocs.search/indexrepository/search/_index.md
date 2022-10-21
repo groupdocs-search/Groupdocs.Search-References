@@ -1,0 +1,185 @@
+---
+title: Search
+second_title: GroupDocs.Search для справочника API .NET
+description: Поиск по всем индексам репозитория.
+type: docs
+weight: 70
+url: /ru/net/groupdocs.search/indexrepository/search/
+---
+## Search(string) {#search_2}
+
+Поиск по всем индексам репозитория.
+
+```csharp
+public SearchResult Search(string query)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| query | String | Поисковый запрос. |
+
+### Возвращаемое значение
+
+Результат поиска.
+
+### Примеры
+
+Пример демонстрирует, как выполнять поиск в репозитории индексов.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Создание индекса
+index.Add(documentsFolder); // Индексация документов
+
+SearchResult result = repository.Search(query); // Идет поиск
+```
+
+### Смотрите также
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [IndexRepository](../../indexrepository)
+* пространство имен [GroupDocs.Search](../../indexrepository)
+* сборка [GroupDocs.Search](../../../)
+
+---
+
+## Search(string, SearchOptions) {#search_3}
+
+Поиск по всем индексам репозитория.
+
+```csharp
+public SearchResult Search(string query, SearchOptions options)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| query | String | Поисковый запрос. |
+| options | SearchOptions | Параметры поиска. |
+
+### Возвращаемое значение
+
+Результат поиска.
+
+### Примеры
+
+Пример демонстрирует, как выполнять поиск в репозитории индексов.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Создание индекса
+index.Add(documentsFolder); // Индексация документов
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Установка флага поиска с учетом регистра
+
+SearchResult result = repository.Search(query, options); // Идет поиск
+```
+
+### Смотрите также
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* пространство имен [GroupDocs.Search](../../indexrepository)
+* сборка [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery) {#search}
+
+Поиск по всем индексам репозитория.
+
+```csharp
+public SearchResult Search(SearchQuery query)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| query | SearchQuery | Поисковый запрос. |
+
+### Возвращаемое значение
+
+Результат поиска.
+
+### Примеры
+
+Пример демонстрирует, как выполнять поиск в репозитории индексов.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Создание индекса
+index.Add(documentsFolder); // Индексация документов
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Создание поискового запроса в объектной форме
+
+SearchResult result = repository.Search(query); // Идет поиск
+```
+
+### Смотрите также
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [IndexRepository](../../indexrepository)
+* пространство имен [GroupDocs.Search](../../indexrepository)
+* сборка [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery, SearchOptions) {#search_1}
+
+Поиск по всем индексам репозитория.
+
+```csharp
+public SearchResult Search(SearchQuery query, SearchOptions options)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| query | SearchQuery | Поисковый запрос. |
+| options | SearchOptions | Параметры поиска. |
+
+### Возвращаемое значение
+
+Результат поиска.
+
+### Примеры
+
+Пример демонстрирует, как выполнять поиск в репозитории индексов.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Создание индекса
+index.Add(documentsFolder); // Индексация документов
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Установка флага поиска с учетом регистра
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Создание поискового запроса в объектной форме
+
+SearchResult result = repository.Search(query, options); // Идет поиск
+```
+
+### Смотрите также
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* пространство имен [GroupDocs.Search](../../indexrepository)
+* сборка [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->
