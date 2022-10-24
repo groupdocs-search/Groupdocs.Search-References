@@ -3,7 +3,7 @@ title: Document
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the base class for documents added to an index from file system stream or structure.
 type: docs
-weight: 10
+weight: 13
 url: /java/com.groupdocs.search/document/
 ---
 **Inheritance:**
