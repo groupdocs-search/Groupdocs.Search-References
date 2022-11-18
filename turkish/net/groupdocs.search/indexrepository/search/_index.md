@@ -1,0 +1,185 @@
+---
+title: Search
+second_title: .NET API Başvurusu için GroupDocs.Search
+description: Deponun tüm dizinlerinde arama yapar.
+type: docs
+weight: 70
+url: /tr/net/groupdocs.search/indexrepository/search/
+---
+## Search(string) {#search_2}
+
+Deponun tüm dizinlerinde arama yapar.
+
+```csharp
+public SearchResult Search(string query)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| query | String | Arama sorgusu. |
+
+### Geri dönüş değeri
+
+Arama sonucu.
+
+### Örnekler
+
+Örnek, dizin deposunda aramanın nasıl gerçekleştirileceğini gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // indeks oluşturma
+index.Add(documentsFolder); // Belgeleri indeksleme
+
+SearchResult result = repository.Search(query); // Aranıyor
+```
+
+### Ayrıca bakınız
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [IndexRepository](../../indexrepository)
+* ad alanı [GroupDocs.Search](../../indexrepository)
+* toplantı [GroupDocs.Search](../../../)
+
+---
+
+## Search(string, SearchOptions) {#search_3}
+
+Deponun tüm dizinlerinde arama yapar.
+
+```csharp
+public SearchResult Search(string query, SearchOptions options)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| query | String | Arama sorgusu. |
+| options | SearchOptions | Arama seçenekleri. |
+
+### Geri dönüş değeri
+
+Arama sonucu.
+
+### Örnekler
+
+Örnek, dizin deposunda aramanın nasıl gerçekleştirileceğini gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // indeks oluşturma
+index.Add(documentsFolder); // Belgeleri indeksleme
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Büyük/küçük harfe duyarlı arama bayrağı ayarlanıyor
+
+SearchResult result = repository.Search(query, options); // Aranıyor
+```
+
+### Ayrıca bakınız
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* ad alanı [GroupDocs.Search](../../indexrepository)
+* toplantı [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery) {#search}
+
+Deponun tüm dizinlerinde arama yapar.
+
+```csharp
+public SearchResult Search(SearchQuery query)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| query | SearchQuery | Arama sorgusu. |
+
+### Geri dönüş değeri
+
+Arama sonucu.
+
+### Örnekler
+
+Örnek, dizin deposunda aramanın nasıl gerçekleştirileceğini gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // indeks oluşturma
+index.Add(documentsFolder); // Belgeleri indeksleme
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Nesne biçiminde arama sorgusu oluşturma
+
+SearchResult result = repository.Search(query); // Aranıyor
+```
+
+### Ayrıca bakınız
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [IndexRepository](../../indexrepository)
+* ad alanı [GroupDocs.Search](../../indexrepository)
+* toplantı [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery, SearchOptions) {#search_1}
+
+Deponun tüm dizinlerinde arama yapar.
+
+```csharp
+public SearchResult Search(SearchQuery query, SearchOptions options)
+```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| query | SearchQuery | Arama sorgusu. |
+| options | SearchOptions | Arama seçenekleri. |
+
+### Geri dönüş değeri
+
+Arama sonucu.
+
+### Örnekler
+
+Örnek, dizin deposunda aramanın nasıl gerçekleştirileceğini gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // indeks oluşturma
+index.Add(documentsFolder); // Belgeleri indeksleme
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Büyük/küçük harfe duyarlı arama bayrağı ayarlanıyor
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Nesne biçiminde arama sorgusu oluşturma
+
+SearchResult result = repository.Search(query, options); // Aranıyor
+```
+
+### Ayrıca bakınız
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* ad alanı [GroupDocs.Search](../../indexrepository)
+* toplantı [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->
