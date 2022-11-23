@@ -1,14 +1,14 @@
 ---
 title: EnabledForEmbeddedImages
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets a value indicating whether to recognize text in embedded images. The default value is false.
+description: Gets or sets a value indicating whether to recognize text in embedded images for example images in a DOCX document. The default value is false.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages/
 ---
 ## OcrIndexingOptions.EnabledForEmbeddedImages property
 
-Gets or sets a value indicating whether to recognize text in embedded images. The default value is `false`.
+Gets or sets a value indicating whether to recognize text in embedded images (for example, images in a DOCX document). The default value is `false`.
 
 ```csharp
 public bool EnabledForEmbeddedImages { get; set; }

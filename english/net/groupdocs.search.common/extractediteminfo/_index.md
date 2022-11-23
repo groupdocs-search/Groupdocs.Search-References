@@ -3,7 +3,7 @@ title: ExtractedItemInfo
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a container item information.
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.search.common/extractediteminfo/
 ---
 ## ExtractedItemInfo class

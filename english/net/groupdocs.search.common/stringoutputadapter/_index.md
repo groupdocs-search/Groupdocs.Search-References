@@ -3,7 +3,7 @@ title: StringOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output as a String.
 type: docs
-weight: 260
+weight: 310
 url: /net/groupdocs.search.common/stringoutputadapter/
 ---
 ## StringOutputAdapter class
@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | Initializes a new instance of the [`StringOutputAdapter`](../stringoutputadapter) class. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Initializes a new instance of the [`StringOutputAdapter`](../stringoutputadapter) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Gets the output format. |
 
 ## Methods
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // Indexing documents from the specified folder
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Getting information on indexed documents
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // Creating a string output adapter
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // Creating a string output adapter
 index.GetDocumentText(documents[0], adapter); // Generating a document text into the adapter
 String result = adapter.GetResult(); // Getting a result
 ```

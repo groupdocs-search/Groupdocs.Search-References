@@ -1,14 +1,14 @@
 ---
 title: InnerPath
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the inner path for container document item.
+description: Gets the inner path for the container document item.
 type: docs
 weight: 70
 url: /net/groupdocs.search.results/documentinfo/innerpath/
 ---
 ## DocumentInfo.InnerPath property
 
-Gets the inner path for container document item.
+Gets the inner path for the container document item.
 
 ```csharp
 public string InnerPath { get; }

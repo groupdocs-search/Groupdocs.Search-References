@@ -3,7 +3,7 @@ title: OperationFinished
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when an index operation is finished.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.events/eventhub/operationfinished/
 ---
 ## EventHub.OperationFinished event

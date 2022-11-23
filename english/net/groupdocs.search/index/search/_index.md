@@ -6,7 +6,7 @@ type: docs
 weight: 220
 url: /net/groupdocs.search/index/search/
 ---
-## Search(string) {#search_2}
+## Search(string) {#search_3}
 
 Searches in index.
 
@@ -72,7 +72,7 @@ SearchResult result = index.Search(query); // Searching
 
 ---
 
-## Search(string, SearchOptions) {#search_3}
+## Search(string, SearchOptions) {#search_4}
 
 Searches in index.
 
@@ -135,7 +135,7 @@ SearchResult result = index.Search(query, options); // Searching
 
 ---
 
-## Search(SearchQuery) {#search}
+## Search(SearchQuery) {#search_1}
 
 Searches in index.
 
@@ -190,7 +190,7 @@ SearchResult result = index.Search(query); // Searching
 
 ---
 
-## Search(SearchQuery, SearchOptions) {#search_1}
+## Search(SearchQuery, SearchOptions) {#search_2}
 
 Searches in index.
 
@@ -246,6 +246,34 @@ SearchResult result = index.Search(query, options); // Searching
 * class [SearchResult](../../../groupdocs.search.results/searchresult)
 * class [SearchQuery](../../searchquery)
 * class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../index)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchImage, ImageSearchOptions) {#search}
+
+Performs a reverse image search in the index.
+
+```csharp
+public ImageSearchResult Search(SearchImage image, ImageSearchOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | SearchImage | The image to search. |
+| options | ImageSearchOptions | The image search options. |
+
+### Return Value
+
+The result of a reverse image search.
+
+### See Also
+
+* class [ImageSearchResult](../../../groupdocs.search.results/imagesearchresult)
+* class [SearchImage](../../../groupdocs.search.common/searchimage)
+* class [ImageSearchOptions](../../../groupdocs.search.options/imagesearchoptions)
 * class [Index](../../index)
 * namespace [GroupDocs.Search](../../index)
 * assembly [GroupDocs.Search](../../../)

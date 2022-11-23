@@ -3,7 +3,7 @@ title: Version
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the index version.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.search.common/indexinfo/version/
 ---
 ## IndexInfo.Version property

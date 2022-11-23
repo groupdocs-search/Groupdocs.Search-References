@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for OCR processing and indexing recognized text.
 type: docs
-weight: 870
+weight: 1000
 url: /net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
@@ -18,7 +18,8 @@ public class OcrIndexingOptions
 
 | Name | Description |
 | --- | --- |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Gets or sets a value indicating whether to recognize text in embedded images. The default value is `false`. |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | Gets or sets a value indicating whether to recognize text in images that are items in a container (for example, images in a ZIP archive). The default value is `false`. |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Gets or sets a value indicating whether to recognize text in embedded images (for example, images in a DOCX document). The default value is `false`. |
 | [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | Gets or sets a value indicating whether to recognize text in separate image files. The default value is `false`. |
 | [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | Gets or sets an OCR connector that is used for OCR processing. The default value is `null`, which means no OCR is used. |
 

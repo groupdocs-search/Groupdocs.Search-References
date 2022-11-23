@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search result highlighter that highlights search results in an entire document text formatted in HTML.
 type: docs
-weight: 570
+weight: 670
 url: /net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
@@ -11,20 +11,15 @@ url: /net/groupdocs.search.highlighters/htmlhighlighter/
 Represents a search result highlighter that highlights search results in an entire document text formatted in HTML.
 
 ```csharp
+[Obsolete("Please, use the DocumentHighlighter class instead.")]
 public class HtmlHighlighter : Highlighter
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [HtmlHighlighter](htmlhighlighter)(OutputAdapter) | Initializes a new instance of the [`HtmlHighlighter`](../htmlhighlighter) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [OutputAdapter](../../groupdocs.search.highlighters/htmlhighlighter/outputadapter) { get; } | Gets the output adapter passed in the constructor. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Gets the output format. |
 
 ### Remarks
 
@@ -51,7 +46,7 @@ SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // Highlighting found words in the text of a document
 FoundDocument document = result.GetFoundDocument(0);
-OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
+OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
 Highlighter highlighter = new HtmlHighlighter(outputAdapter);
 index.Highlight(document, highlighter);
 ```

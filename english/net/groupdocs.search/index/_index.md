@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the main class for indexing documents and search through them.
 type: docs
-weight: 580
+weight: 680
 url: /net/groupdocs.search/index/
 ---
 ## Index class
@@ -32,18 +32,19 @@ public class Index : IDisposable
 | [Dictionaries](../../groupdocs.search/index/dictionaries) { get; } | Gets the dictionary repository. |
 | [Events](../../groupdocs.search/index/events) { get; } | Gets the event hub for subscribing to events. |
 | [IndexInfo](../../groupdocs.search/index/indexinfo) { get; } | Gets the basic information on the index. |
-| [IndexSettings](../../groupdocs.search/index/indexsettings) { get; } | Gets the index setting. |
+| [IndexSettings](../../groupdocs.search/index/indexsettings) { get; } | Gets the index settings. |
 | [Repository](../../groupdocs.search/index/repository) { get; } | Gets the index repository object if the index is contained in it. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../groupdocs.search/index/add#add_1)(string) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
-| [Add](../../groupdocs.search/index/add#add_3)(string[]) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
-| [Add](../../groupdocs.search/index/add#add)(Document[], IndexingOptions) | Performs indexing operation. Adds documents from file system, stream, or structure. |
-| [Add](../../groupdocs.search/index/add#add_2)(string, IndexingOptions) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
-| [Add](../../groupdocs.search/index/add#add_4)(string[], IndexingOptions) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
+| [Add](../../groupdocs.search/index/add#add_2)(string) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
+| [Add](../../groupdocs.search/index/add#add_4)(string[]) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
+| [Add](../../groupdocs.search/index/add#add)(Document[], IndexingOptions) | Performs indexing operation. Adds documents from file system, stream or structure. |
+| [Add](../../groupdocs.search/index/add#add_1)(ExtractedData[], IndexingOptions) | Performs indexing operation. Adds the extracted data to the index. |
+| [Add](../../groupdocs.search/index/add#add_3)(string, IndexingOptions) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
+| [Add](../../groupdocs.search/index/add#add_5)(string[], IndexingOptions) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
 | [ChangeAttributes](../../groupdocs.search/index/changeattributes)(AttributeChangeBatch) | Applies the specified batch of attribute changes to indexed documents without reindexing during the update operation. |
 | [Delete](../../groupdocs.search/index/delete#delete_1)(string[], UpdateOptions) | Deletes indexed files or folders from the index. Then updates the index without deleted paths. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder. |
 | [Delete](../../groupdocs.search/index/delete#delete)(UpdateOptions, string[]) | Deletes documents indexed from streams or structures. Then updates the index without deleted documents. |
@@ -63,10 +64,11 @@ public class Index : IDisposable
 | [Notify](../../groupdocs.search/index/notify)(Notification) | Passes the specified notification object to the index to perform the notification. |
 | [Optimize](../../groupdocs.search/index/optimize#optimize)() | Minimizes the number of index segments by merging them one with another. This operation improves search performance. |
 | [Optimize](../../groupdocs.search/index/optimize#optimize_1)(MergeOptions) | Minimizes the number of index segments by merging them one with another. This operation improves search performance. |
-| [Search](../../groupdocs.search/index/search#search)(SearchQuery) | Searches in index. |
-| [Search](../../groupdocs.search/index/search#search_2)(string) | Searches in index. |
-| [Search](../../groupdocs.search/index/search#search_1)(SearchQuery, SearchOptions) | Searches in index. |
-| [Search](../../groupdocs.search/index/search#search_3)(string, SearchOptions) | Searches in index. |
+| [Search](../../groupdocs.search/index/search#search_1)(SearchQuery) | Searches in index. |
+| [Search](../../groupdocs.search/index/search#search_3)(string) | Searches in index. |
+| [Search](../../groupdocs.search/index/search#search)(SearchImage, ImageSearchOptions) | Performs a reverse image search in the index. |
+| [Search](../../groupdocs.search/index/search#search_2)(SearchQuery, SearchOptions) | Searches in index. |
+| [Search](../../groupdocs.search/index/search#search_4)(string, SearchOptions) | Searches in index. |
 | [SearchNext](../../groupdocs.search/index/searchnext#searchnext)(ChunkSearchToken) | Continues the chunk search started with method Search. |
 | [SearchNext](../../groupdocs.search/index/searchnext#searchnext_1)(ChunkSearchToken, Cancellation) | Continues the chunk search started with method Search. |
 | [Update](../../groupdocs.search/index/update#update)() | Re-indexes documents that have been changed or deleted since last update. Adds new files that have been added to the indexed folders. |

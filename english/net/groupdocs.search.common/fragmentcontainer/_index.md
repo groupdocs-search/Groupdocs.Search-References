@@ -3,7 +3,7 @@ title: FragmentContainer
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a container for text fragments with highlighted found terms of one document field.
 type: docs
-weight: 130
+weight: 160
 url: /net/groupdocs.search.common/fragmentcontainer/
 ---
 ## FragmentContainer class

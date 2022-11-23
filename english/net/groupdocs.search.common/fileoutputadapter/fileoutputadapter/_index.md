@@ -11,15 +11,17 @@ url: /net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 Initializes a new instance of the [`FileOutputAdapter`](../../fileoutputadapter) class.
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
+| outputFormat | OutputFormat | The output format. |
 | filePath | String | The output file path. |
 
 ### See Also
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * namespace [GroupDocs.Search.Common](../../fileoutputadapter)
 * assembly [GroupDocs.Search](../../../)

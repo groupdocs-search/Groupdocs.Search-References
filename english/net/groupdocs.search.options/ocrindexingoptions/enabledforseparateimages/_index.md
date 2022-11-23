@@ -3,7 +3,7 @@ title: EnabledForSeparateImages
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether to recognize text in separate image files. The default value is false.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.options/ocrindexingoptions/enabledforseparateimages/
 ---
 ## OcrIndexingOptions.EnabledForSeparateImages property

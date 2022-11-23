@@ -3,7 +3,7 @@ title: FileOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output into a file.
 type: docs
-weight: 120
+weight: 150
 url: /net/groupdocs.search.common/fileoutputadapter/
 ---
 ## FileOutputAdapter class
@@ -18,13 +18,14 @@ public class FileOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | Initializes a new instance of the [`FileOutputAdapter`](../fileoutputadapter) class. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Initializes a new instance of the [`FileOutputAdapter`](../fileoutputadapter) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | Gets an output file path. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Gets the output format. |
 
 ### Remarks
 

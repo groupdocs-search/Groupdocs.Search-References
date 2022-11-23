@@ -3,7 +3,7 @@ title: FileLogger
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a logger that logs events and errors to a local file.
 type: docs
-weight: 110
+weight: 140
 url: /net/groupdocs.search.common/filelogger/
 ---
 ## FileLogger class

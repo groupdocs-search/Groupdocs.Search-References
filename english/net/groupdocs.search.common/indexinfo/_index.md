@@ -1,14 +1,14 @@
 ---
 title: IndexInfo
 second_title: GroupDocs.Search for .NET API Reference
-description: Contains basic information on an Index../groupdocs.search/index.
+description: Contains basic information on an Index.
 type: docs
-weight: 180
+weight: 220
 url: /net/groupdocs.search.common/indexinfo/
 ---
 ## IndexInfo class
 
-Contains basic information on an [`Index`](../../groupdocs.search/index).
+Contains basic information on an Index.
 
 ```csharp
 public class IndexInfo
@@ -21,6 +21,8 @@ public class IndexInfo
 | [IndexFolder](../../groupdocs.search.common/indexinfo/indexfolder) { get; } | Gets the full folder name where index is located. |
 | [IndexId](../../groupdocs.search.common/indexinfo/indexid) { get; } | Gets the index unique identifier. |
 | [IndexStatus](../../groupdocs.search.common/indexinfo/indexstatus) { get; } | Gets the index status. |
+| [SegmentCount](../../groupdocs.search.common/indexinfo/segmentcount) { get; } | Gets the number of index segments. |
+| [TermCount](../../groupdocs.search.common/indexinfo/termcount) { get; } | Gets the number of words in the index. |
 | [Version](../../groupdocs.search.common/indexinfo/version) { get; } | Gets the index version. |
 
 ### See Also

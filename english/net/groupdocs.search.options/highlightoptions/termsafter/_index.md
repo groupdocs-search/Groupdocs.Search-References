@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the maximum number of words in a text fragment after highlighted word. The value must be in the range from 0 to 10000. The default value is 7.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

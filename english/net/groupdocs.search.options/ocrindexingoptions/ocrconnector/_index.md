@@ -3,7 +3,7 @@ title: OcrConnector
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets an OCR connector that is used for OCR processing. The default value is null which means no OCR is used.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.options/ocrindexingoptions/ocrconnector/
 ---
 ## OcrIndexingOptions.OcrConnector property

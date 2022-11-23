@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for retrieving document text from an index.
 type: docs
-weight: 960
+weight: 1100
 url: /net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -28,6 +28,7 @@ public class TextOptions
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Gets or sets the cancellation object. The default value is `null`. |
 | [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Gets or sets a value indicating whether the Head tag is generated in the output HTML. The default value is `true`. |
+| [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 

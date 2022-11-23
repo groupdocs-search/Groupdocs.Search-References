@@ -3,7 +3,7 @@ title: DocumentStatus
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a document processing status.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search.common/documentstatus/
 ---
 ## DocumentStatus enumeration

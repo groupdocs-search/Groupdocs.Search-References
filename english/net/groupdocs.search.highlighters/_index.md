@@ -12,6 +12,8 @@ The namespace provides highlighters for highlighting search results in text.
 
 | Class | Description |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Represents a search result highlighter that highlights search results in an entire document text. |
+| [FragmentHighlighter](./fragmenthighlighter) | Represents a search result highlighter that highlights search results in text fragments. |
 | [Highlighter](./highlighter) | Represents the base class of a search result highlighter. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Represents a search result highlighter that highlights search results in HTML formatted text fragments. |
 | [HtmlHighlighter](./htmlhighlighter) | Represents a search result highlighter that highlights search results in an entire document text formatted in HTML. |

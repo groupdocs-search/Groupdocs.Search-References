@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the file type.
 type: docs
-weight: 1020
+weight: 1160
 url: /net/groupdocs.search.results/filetype/
 ---
 ## FileType class

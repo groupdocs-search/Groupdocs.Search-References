@@ -3,7 +3,7 @@ title: ResultBuilderFactory
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the base class of a result builder factory.
 type: docs
-weight: 230
+weight: 270
 url: /net/groupdocs.search.common/resultbuilderfactory/
 ---
 ## ResultBuilderFactory class
@@ -13,6 +13,12 @@ Represents the base class of a result builder factory.
 ```csharp
 public abstract class ResultBuilderFactory
 ```
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Gets the output format. |
 
 ### See Also
 

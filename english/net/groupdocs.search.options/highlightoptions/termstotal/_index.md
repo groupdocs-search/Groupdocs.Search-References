@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the maximum number of words in a text fragment. The value must be in the range from 0 to 10000. The default value is 21.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

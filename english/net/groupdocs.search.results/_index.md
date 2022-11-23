@@ -18,6 +18,8 @@ The namespace provides search result classes.
 | [FormatFamily](./formatfamily) | Specifies a format family that unites several similar formats. |
 | [FoundDocument](./founddocument) | Represents a found document. |
 | [FoundDocumentField](./founddocumentfield) | Represents a found document field. |
+| [FoundImageFrame](./foundimageframe) | Represents a found image frame. |
+| [ImageSearchResult](./imagesearchresult) | Represents the result of a reverse image search. |
 | [PathDeleteResult](./pathdeleteresult) | Represents the result of the operation to delete an indexed file or folder from an index. |
 | [SearchResult](./searchresult) | Represents a search result matching a search query. |
 

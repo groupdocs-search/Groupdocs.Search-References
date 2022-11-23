@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for indexing operation.
 type: docs
-weight: 800
+weight: 930
 url: /net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
@@ -25,6 +25,7 @@ public class IndexingOptions
 | Name | Description |
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | Gets or sets the operation cancellation object. The default value is `null`. |
+| [ImageIndexingOptions](../../groupdocs.search.options/indexingoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |

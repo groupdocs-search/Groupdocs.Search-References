@@ -3,7 +3,7 @@ title: IDocumentLoader
 second_title: GroupDocs.Search for .NET API Reference
 description: Defines the document loader interface that is used to load lazy documents.
 type: docs
-weight: 150
+weight: 180
 url: /net/groupdocs.search.common/idocumentloader/
 ---
 ## IDocumentLoader interface

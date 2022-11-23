@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether inline styles are used to highlight occurrences. The default value is true.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

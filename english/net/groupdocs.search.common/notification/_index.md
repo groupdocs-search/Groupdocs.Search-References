@@ -3,7 +3,7 @@ title: Notification
 second_title: GroupDocs.Search for .NET API Reference
 description: The base class for all notifications to the index. This class also contains methods for creating notification objects.
 type: docs
-weight: 210
+weight: 250
 url: /net/groupdocs.search.common/notification/
 ---
 ## Notification class

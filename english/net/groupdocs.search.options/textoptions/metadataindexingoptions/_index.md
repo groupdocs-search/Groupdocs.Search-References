@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the options for indexing metadata fields.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.search.options/textoptions/metadataindexingoptions/
 ---
 ## TextOptions.MetadataIndexingOptions property
