@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for update operation.
 type: docs
-weight: 980
+weight: 1120
 url: /net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -25,6 +25,7 @@ public class UpdateOptions
 | Name | Description |
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/updateoptions/cancellation) { get; set; } | Gets or sets the operation cancellation object. The default value is `null`. |
+| [ImageIndexingOptions](../../groupdocs.search.options/updateoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |

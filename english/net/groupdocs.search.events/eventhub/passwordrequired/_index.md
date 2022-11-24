@@ -3,7 +3,7 @@ title: PasswordRequired
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when a document requires password for opening.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.search.events/eventhub/passwordrequired/
 ---
 ## EventHub.PasswordRequired event

@@ -1,14 +1,14 @@
 ---
 title: IndexSettings
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the index setting.
+description: Gets the index settings.
 type: docs
 weight: 50
 url: /net/groupdocs.search/index/indexsettings/
 ---
 ## Index.IndexSettings property
 
-Gets the index setting.
+Gets the index settings.
 
 ```csharp
 public IndexSettings IndexSettings { get; }

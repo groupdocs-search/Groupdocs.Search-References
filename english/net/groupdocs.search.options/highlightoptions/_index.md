@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for highlighting found terms.
 type: docs
-weight: 750
+weight: 860
 url: /net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -29,8 +29,11 @@ public class HighlightOptions : TextOptions
 | [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Gets or sets a value indicating whether the Head tag is generated in the output HTML. The default value is `true`. |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Gets or sets a color that is used to highlight occurrences. The default value is #FFD800. |
+| [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Gets of sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Gets of sets the start tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Gets or sets the maximum number of words in a text fragment after highlighted word. The value must be in the range from 0 to 10000. The default value is `7`. |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Gets or sets the maximum number of words in a text fragment before highlighted word. The value must be in the range from 0 to 10000. The default value is `7`. |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Gets or sets the maximum number of words in a text fragment. The value must be in the range from 0 to 10000. The default value is `21`. |

@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Search for .NET API Reference
 description: Defines interface of a word forms provider.
 type: docs
-weight: 390
+weight: 450
 url: /net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface

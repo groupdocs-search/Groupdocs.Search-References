@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Search for .NET API Reference
 description: Returns a String that represents the current DocumentInfogroupdocs.search.results/documentinfo.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.results/documentinfo/tostring/
 ---
 ## DocumentInfo.ToString method

@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /net/groupdocs.search/index/add/
 ---
-## Add(string) {#add_1}
+## Add(string) {#add_2}
 
 Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 
@@ -40,7 +40,7 @@ index.Add(filePath); // Indexing the specified document
 
 ---
 
-## Add(string, IndexingOptions) {#add_2}
+## Add(string, IndexingOptions) {#add_3}
 
 Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 
@@ -79,7 +79,7 @@ index.Add(filePath, options); // Indexing the specified document
 
 ---
 
-## Add(string[]) {#add_3}
+## Add(string[]) {#add_4}
 
 Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
 
@@ -114,7 +114,7 @@ index.Add(paths); // Indexing documents at the specified paths
 
 ---
 
-## Add(string[], IndexingOptions) {#add_4}
+## Add(string[], IndexingOptions) {#add_5}
 
 Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
 
@@ -155,7 +155,7 @@ index.Add(paths, options); // Indexing documents at the specified paths
 
 ## Add(Document[], IndexingOptions) {#add}
 
-Performs indexing operation. Adds documents from file system, stream, or structure.
+Performs indexing operation. Adds documents from file system, stream or structure.
 
 ```csharp
 public void Add(Document[] documents, IndexingOptions options)
@@ -163,12 +163,35 @@ public void Add(Document[] documents, IndexingOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documents | Document[] | The documents from file system, stream, or structure. |
+| documents | Document[] | The documents from file system, stream or structure. |
 | options | IndexingOptions | The indexing options. |
 
 ### See Also
 
 * class [Document](../../../groupdocs.search.common/document)
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../index)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Add(ExtractedData[], IndexingOptions) {#add_1}
+
+Performs indexing operation. Adds the extracted data to the index.
+
+```csharp
+public void Add(ExtractedData[] data, IndexingOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | ExtractedData[] | The extracted data. |
+| options | IndexingOptions | The indexing options. |
+
+### See Also
+
+* class [ExtractedData](../../../groupdocs.search.common/extracteddata)
 * class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
 * class [Index](../../index)
 * namespace [GroupDocs.Search](../../index)

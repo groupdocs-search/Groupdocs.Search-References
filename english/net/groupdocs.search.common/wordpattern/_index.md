@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a word pattern to use in word wildcard search.
 type: docs
-weight: 280
+weight: 340
 url: /net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

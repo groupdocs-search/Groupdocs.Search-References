@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the keyboard layout corrector.
 type: docs
-weight: 810
+weight: 940
 url: /net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class

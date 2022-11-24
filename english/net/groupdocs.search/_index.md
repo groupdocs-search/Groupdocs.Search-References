@@ -12,6 +12,7 @@ The namespace provides classes for indexing and searching text data in documents
 
 | Class | Description |
 | --- | --- |
+| [Extractor](./extractor) | Represents a tool for preliminary data extraction from documents for separating the stage of subsequent fast indexing. |
 | [Index](./index) | Represents the main class for indexing documents and search through them. |
 | [IndexRepository](./indexrepository) | Represents a container for combining multiple indexes and performing common operations on them. |
 | [IndexSettings](./indexsettings) | Represents the index settings that allow to customize the indexing operations. |

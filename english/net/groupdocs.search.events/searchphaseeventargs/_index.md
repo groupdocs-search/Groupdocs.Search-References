@@ -3,7 +3,7 @@ title: SearchPhaseEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the search phase changing events.
 type: docs
-weight: 530
+weight: 600
 url: /net/groupdocs.search.events/searchphaseeventargs/
 ---
 ## SearchPhaseEventArgs class

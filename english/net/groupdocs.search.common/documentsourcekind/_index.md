@@ -3,7 +3,7 @@ title: DocumentSourceKind
 second_title: GroupDocs.Search for .NET API Reference
 description: Defines the kinds of document sources.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.common/documentsourcekind/
 ---
 ## DocumentSourceKind enumeration
@@ -21,6 +21,7 @@ public enum DocumentSourceKind
 | File | `0` | The file document source. |
 | Stream | `1` | The stream document source. |
 | Structure | `2` | The structure document source. |
+| ExtractedData | `3` | The document source of previously extracted data. |
 
 ### See Also
 

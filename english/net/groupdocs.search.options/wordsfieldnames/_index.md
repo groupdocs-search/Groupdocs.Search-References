@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 990
+weight: 1130
 url: /net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class

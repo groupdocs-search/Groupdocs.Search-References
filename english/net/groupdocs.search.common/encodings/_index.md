@@ -3,7 +3,7 @@ title: Encodings
 second_title: GroupDocs.Search for .NET API Reference
 description: Contains names of possible encodings.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.common/encodings/
 ---
 ## Encodings class

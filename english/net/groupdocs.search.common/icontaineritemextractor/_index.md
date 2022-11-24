@@ -3,7 +3,7 @@ title: IContainerItemExtractor
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides methods for extracting items from container documents.
 type: docs
-weight: 140
+weight: 170
 url: /net/groupdocs.search.common/icontaineritemextractor/
 ---
 ## IContainerItemExtractor interface

@@ -3,7 +3,7 @@ title: IFieldExtractor
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides methods for extracting fields from a document.
 type: docs
-weight: 160
+weight: 190
 url: /net/groupdocs.search.common/ifieldextractor/
 ---
 ## IFieldExtractor interface

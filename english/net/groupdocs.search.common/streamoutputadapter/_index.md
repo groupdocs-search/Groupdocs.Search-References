@@ -3,7 +3,7 @@ title: StreamOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output into a Stream.
 type: docs
-weight: 250
+weight: 300
 url: /net/groupdocs.search.common/streamoutputadapter/
 ---
 ## StreamOutputAdapter class
@@ -18,12 +18,13 @@ public class StreamOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | Initializes a new instance of the [`StreamOutputAdapter`](../streamoutputadapter) class. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Initializes a new instance of the [`StreamOutputAdapter`](../streamoutputadapter) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Gets the output format. |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | Gets an output stream. |
 
 ### Remarks

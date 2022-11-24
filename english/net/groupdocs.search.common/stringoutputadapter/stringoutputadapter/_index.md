@@ -11,11 +11,16 @@ url: /net/groupdocs.search.common/stringoutputadapter/stringoutputadapter/
 Initializes a new instance of the [`StringOutputAdapter`](../../stringoutputadapter) class.
 
 ```csharp
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFormat | OutputFormat | The output format. |
 
 ### See Also
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StringOutputAdapter](../../stringoutputadapter)
 * namespace [GroupDocs.Search.Common](../../stringoutputadapter)
 * assembly [GroupDocs.Search](../../../)
