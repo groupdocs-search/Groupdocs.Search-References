@@ -35,10 +35,14 @@ Provides options for highlighting found terms.
 | [setTermsAfter(int value)](#setTermsAfter-int-) | Sets the maximum number of words in a text snippet after highlighted word. |
 | [getTermsTotal()](#getTermsTotal--) | Gets the maximum number of words in a text snippet. |
 | [setTermsTotal(int value)](#setTermsTotal-int-) | Sets the maximum number of words in a text snippet. |
-| [getUseInlineStyles()](#getUseInlineStyles--) | Gets or sets a value indicating whether inline styles are used to highlight occurrences. |
-| [setUseInlineStyles(boolean value)](#setUseInlineStyles-boolean-) | Gets or sets a value indicating whether inline styles are used to highlight occurrences. |
-| [getHighlightColor()](#getHighlightColor--) | Gets or sets a color that is used to highlight occurrences. |
-| [setHighlightColor(Color value)](#setHighlightColor-com.groupdocs.search.options.Color-) | Gets or sets a color that is used to highlight occurrences. |
+| [getUseInlineStyles()](#getUseInlineStyles--) | Gets a value indicating whether inline styles are used to highlight occurrences. |
+| [setUseInlineStyles(boolean value)](#setUseInlineStyles-boolean-) | Sets a value indicating whether inline styles are used to highlight occurrences. |
+| [getHighlightColor()](#getHighlightColor--) | Gets a color that is used to highlight occurrences. |
+| [setHighlightColor(Color value)](#setHighlightColor-com.groupdocs.search.options.Color-) | Sets a color that is used to highlight occurrences. |
+| [getTermHighlightStartTag()](#getTermHighlightStartTag--) | Gets the start tag of the highlighting of the found word. |
+| [setTermHighlightStartTag(String value)](#setTermHighlightStartTag-java.lang.String-) | Sets the start tag of the highlighting of the found word. |
+| [getTermHighlightEndTag()](#getTermHighlightEndTag--) | Gets the end tag of the highlighting of the found word. |
+| [setTermHighlightEndTag(String value)](#setTermHighlightEndTag-java.lang.String-) | Sets the end tag of the highlighting of the found word. |
 ### HighlightOptions() {#HighlightOptions--}
 ```
 public HighlightOptions()
@@ -122,7 +126,7 @@ public final boolean getUseInlineStyles()
 ```
 
 
-Gets or sets a value indicating whether inline styles are used to highlight occurrences. The default value is  true .
+Gets a value indicating whether inline styles are used to highlight occurrences. The default value is  true .
 
 **Returns:**
 boolean - A value indicating whether inline styles are used to highlight occurrences.
@@ -132,7 +136,7 @@ public final void setUseInlineStyles(boolean value)
 ```
 
 
-Gets or sets a value indicating whether inline styles are used to highlight occurrences. The default value is  true .
+Sets a value indicating whether inline styles are used to highlight occurrences. The default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +149,7 @@ public final Color getHighlightColor()
 ```
 
 
-Gets or sets a color that is used to highlight occurrences. The default value is \#FFD800.
+Gets a color that is used to highlight occurrences. The default value is \#FFD800.
 
 **Returns:**
 [Color](../../com.groupdocs.search.options/color) - A color that is used to highlight occurrences.
@@ -155,10 +159,56 @@ public final void setHighlightColor(Color value)
 ```
 
 
-Gets or sets a color that is used to highlight occurrences. The default value is \#FFD800.
+Sets a color that is used to highlight occurrences. The default value is \#FFD800.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../../com.groupdocs.search.options/color) | A color that is used to highlight occurrences. |
+
+### getTermHighlightStartTag() {#getTermHighlightStartTag--}
+```
+public final String getTermHighlightStartTag()
+```
+
+
+Gets the start tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The start tag of the highlighting of the found word.
+### setTermHighlightStartTag(String value) {#setTermHighlightStartTag-java.lang.String-}
+```
+public final void setTermHighlightStartTag(String value)
+```
+
+
+Sets the start tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The start tag of the highlighting of the found word. |
+
+### getTermHighlightEndTag() {#getTermHighlightEndTag--}
+```
+public final String getTermHighlightEndTag()
+```
+
+
+Gets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The end tag of the highlighting of the found word.
+### setTermHighlightEndTag(String value) {#setTermHighlightEndTag-java.lang.String-}
+```
+public final void setTermHighlightEndTag(String value)
+```
+
+
+Sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The end tag of the highlighting of the found word. |
 

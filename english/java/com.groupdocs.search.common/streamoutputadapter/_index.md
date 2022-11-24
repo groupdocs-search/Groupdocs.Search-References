@@ -37,15 +37,15 @@ String indexFolder = "c:\\MyIndex\\";
 
 | Constructor | Description |
 | --- | --- |
-| [StreamOutputAdapter(OutputStream stream)](#StreamOutputAdapter-java.io.OutputStream-) | Initializes a new instance of the  StreamOutputAdapter  class. |
+| [StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)](#StreamOutputAdapter-com.groupdocs.search.options.OutputFormat-java.io.OutputStream-) | Initializes a new instance of the  StreamOutputAdapter  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getStream()](#getStream--) | Gets an output stream. |
-### StreamOutputAdapter(OutputStream stream) {#StreamOutputAdapter-java.io.OutputStream-}
+### StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream) {#StreamOutputAdapter-com.groupdocs.search.options.OutputFormat-java.io.OutputStream-}
 ```
-public StreamOutputAdapter(OutputStream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)
 ```
 
 
@@ -54,6 +54,7 @@ Initializes a new instance of the  StreamOutputAdapter  class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
 | stream | java.io.OutputStream | The output stream. |
 
 ### getStream() {#getStream--}

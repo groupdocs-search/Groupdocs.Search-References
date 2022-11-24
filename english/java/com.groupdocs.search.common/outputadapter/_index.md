@@ -12,7 +12,7 @@ java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.g
 public abstract class OutputAdapter extends ResultBuilderFactory
 ```
 
-Represents the base class of an output adapter that is used to collect an output in a generalized form. The currently available adapters are  FileOutputAdapter ,  StreamOutputAdapter , and  StringOutputAdapter .
+Represents the base class of an output adapter that is used to collect an output in a generalized form. The currently available adapters are  FileOutputAdapter ,  StreamOutputAdapter ,  StructureOutputAdapter , and  StringOutputAdapter .
 
 **Learn more**
 
@@ -20,14 +20,3 @@ Represents the base class of an output adapter that is used to collect an output
 
 
 [Output adapters]: https://docs.groupdocs.com/display/searchjava/Output+adapters
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OutputAdapter()](#OutputAdapter--) |  |
-### OutputAdapter() {#OutputAdapter--}
-```
-public OutputAdapter()
-```
-
-

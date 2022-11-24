@@ -37,19 +37,24 @@ String indexFolder = "c:\\MyIndex\\";
 
 | Constructor | Description |
 | --- | --- |
-| [StringOutputAdapter()](#StringOutputAdapter--) | Initializes a new instance of the  StringOutputAdapter  class. |
+| [StringOutputAdapter(OutputFormat outputFormat)](#StringOutputAdapter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  StringOutputAdapter  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getResult()](#getResult--) | Gets the resulting string. |
-### StringOutputAdapter() {#StringOutputAdapter--}
+### StringOutputAdapter(OutputFormat outputFormat) {#StringOutputAdapter-com.groupdocs.search.options.OutputFormat-}
 ```
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
 
 
 Initializes a new instance of the  StringOutputAdapter  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
 
 ### getResult() {#getResult--}
 ```
