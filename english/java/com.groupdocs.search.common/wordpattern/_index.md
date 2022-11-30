@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a word pattern to use in word wildcard search.
 type: docs
-weight: 35
+weight: 36
 url: /java/com.groupdocs.search.common/wordpattern/
 ---
 **Inheritance:**

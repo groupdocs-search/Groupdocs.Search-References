@@ -61,3 +61,4 @@ The package provides classes to specify additional options of various operations
 | [ImageLocation](../com.groupdocs.search.options/imagelocation) | Specifies an image location. |
 | [IndexType](../com.groupdocs.search.options/indextype) | Specifies an index type. |
 | [NumberOfThreads](../com.groupdocs.search.options/numberofthreads) | Specifies the number of threads. |
+| [OutputFormat](../com.groupdocs.search.options/outputformat) | The output format of a data. |

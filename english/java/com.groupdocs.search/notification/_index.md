@@ -3,7 +3,7 @@ title: Notification
 second_title: GroupDocs.Search for Java API Reference
 description: The base class for all notifications to the index.
 type: docs
-weight: 25
+weight: 23
 url: /java/com.groupdocs.search/notification/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: DocumentStatus
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a document processing status.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.groupdocs.search.common/documentstatus/
 ---
 **Inheritance:**

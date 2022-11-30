@@ -32,12 +32,9 @@ IndexRepository is a container class for combining multiple indexes and performi
 | [IndexRepository](../com.groupdocs.search/indexrepository) | Represents a container for combining multiple indexes and performing common operations on them. |
 | [IndexSettings](../com.groupdocs.search/indexsettings) | Represents the index settings that allow to customize the indexing operations. |
 | [IndexUpdater](../com.groupdocs.search/indexupdater) | Represents an index updater. |
-| [LicenseAssistant](../com.groupdocs.search/licenseassistant) |  |
 | [LicenseRestrictionException](../com.groupdocs.search/licenserestrictionexception) | The exception that is thrown when a license restriction is triggered. |
-| [MeteredAssistant](../com.groupdocs.search/meteredassistant) |  |
 | [Notification](../com.groupdocs.search/notification) | The base class for all notifications to the index. |
 | [PleaseReportException](../com.groupdocs.search/pleasereportexception) | Represents the exception that is thrown when an error occurred in the library. |
-| [ResultBuilderHelper](../com.groupdocs.search/resultbuilderhelper) |  |
 | [SearchDocumentFilter](../com.groupdocs.search/searchdocumentfilter) | Contains methods for creating search document filters. |
 | [SearchImageBase](../com.groupdocs.search/searchimagebase) | Represents the base class for a search image. |
 | [SearchQuery](../com.groupdocs.search/searchquery) | Represents a search query in object form. |

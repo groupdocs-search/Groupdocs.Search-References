@@ -39,6 +39,7 @@ The package provides common classes of the library.
 | [SearchReport](../com.groupdocs.search.common/searchreport) | Represents a detailed information on a search operation. |
 | [StreamOutputAdapter](../com.groupdocs.search.common/streamoutputadapter) | Represents an output adapter that collects output into a  java.io.OutputStream . |
 | [StringOutputAdapter](../com.groupdocs.search.common/stringoutputadapter) | Represents an output adapter that collects output as a  System.String . |
+| [StructureOutputAdapter](../com.groupdocs.search.common/structureoutputadapter) | Represents an output adapter that collects output as a structure containing each field separately. |
 | [WordPattern](../com.groupdocs.search.common/wordpattern) | Represents a word pattern to use in word wildcard search. |
 
 ## Interfaces

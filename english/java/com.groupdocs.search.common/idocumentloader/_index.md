@@ -3,7 +3,7 @@ title: IDocumentLoader
 second_title: GroupDocs.Search for Java API Reference
 description: Defines the document loader interface that is used to load lazy documents.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.groupdocs.search.common/idocumentloader/
 ---```
 public interface IDocumentLoader
