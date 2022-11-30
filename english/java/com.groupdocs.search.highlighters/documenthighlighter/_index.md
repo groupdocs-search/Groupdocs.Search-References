@@ -1,18 +1,18 @@
 ---
-title: HtmlHighlighter
+title: DocumentHighlighter
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a search result highlighter that highlights search results in an entire document text formatted in HTML.
+description: Represents a search result highlighter that highlights search results in an entire document text.
 type: docs
-weight: 12
-url: /java/com.groupdocs.search.highlighters/htmlhighlighter/
+weight: 10
+url: /java/com.groupdocs.search.highlighters/documenthighlighter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.highlighters.Highlighter](../../com.groupdocs.search.highlighters/highlighter)
 ```
-public class HtmlHighlighter extends Highlighter
+public class DocumentHighlighter extends Highlighter
 ```
 
-Represents a search result highlighter that highlights search results in an entire document text formatted in HTML.
+Represents a search result highlighter that highlights search results in an entire document text.
 
 **Learn more**
 
@@ -31,8 +31,8 @@ String indexFolder = "c:\\MyIndex\\";
  SearchResult result = index.search("\"Theory of Relativity\"");
  // Highlighting found words in the text of a document
  FoundDocument document = result.getFoundDocument(0);
- OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
- Highlighter highlighter = new HtmlHighlighter(outputAdapter);
+ OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
+ Highlighter highlighter = new DocumentHighlighter(outputAdapter);
  index.highlight(document, highlighter);
 ```
 
@@ -42,19 +42,19 @@ String indexFolder = "c:\\MyIndex\\";
 
 | Constructor | Description |
 | --- | --- |
-| [HtmlHighlighter(OutputAdapter outputAdapter)](#HtmlHighlighter-com.groupdocs.search.common.OutputAdapter-) | Initializes a new instance of the  HtmlHighlighter  class. |
+| [DocumentHighlighter(OutputAdapter outputAdapter)](#DocumentHighlighter-com.groupdocs.search.common.OutputAdapter-) | Initializes a new instance of the  DocumentHighlighter  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getOutputAdapter()](#getOutputAdapter--) | Gets the output adapter passed in the constructor. |
-### HtmlHighlighter(OutputAdapter outputAdapter) {#HtmlHighlighter-com.groupdocs.search.common.OutputAdapter-}
+### DocumentHighlighter(OutputAdapter outputAdapter) {#DocumentHighlighter-com.groupdocs.search.common.OutputAdapter-}
 ```
-public HtmlHighlighter(OutputAdapter outputAdapter)
+public DocumentHighlighter(OutputAdapter outputAdapter)
 ```
 
 
-Initializes a new instance of the  HtmlHighlighter  class.
+Initializes a new instance of the  DocumentHighlighter  class.
 
 **Parameters:**
 | Parameter | Type | Description |

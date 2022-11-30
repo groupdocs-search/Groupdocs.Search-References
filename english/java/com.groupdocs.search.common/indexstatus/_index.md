@@ -3,7 +3,7 @@ title: IndexStatus
 second_title: GroupDocs.Search for Java API Reference
 description: Specifies an index status.
 type: docs
-weight: 42
+weight: 43
 url: /java/com.groupdocs.search.common/indexstatus/
 ---
 **Inheritance:**

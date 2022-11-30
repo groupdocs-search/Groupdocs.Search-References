@@ -1,24 +1,22 @@
 ---
-title: HtmlFragmentHighlighter
+title: FragmentHighlighter
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a search result highlighter that highlights search results in HTML formatted text fragments.
+description: Represents a search result highlighter that highlights search results in text fragments.
 type: docs
 weight: 11
-url: /java/com.groupdocs.search.highlighters/htmlfragmenthighlighter/
+url: /java/com.groupdocs.search.highlighters/fragmenthighlighter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.highlighters.Highlighter](../../com.groupdocs.search.highlighters/highlighter)
 ```
-public class HtmlFragmentHighlighter extends Highlighter
+public class FragmentHighlighter extends Highlighter
 ```
 
-Represents a search result highlighter that highlights search results in HTML formatted text fragments.
+Represents a search result highlighter that highlights search results in text fragments.
 
 **Learn more**
 
  *  [Highlighting search results][]
-
-The example demonstrates a typical usage of the class.
 
 ```
 String indexFolder = "c:\\MyIndex\\";
@@ -36,7 +34,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setTermsTotal(15);
  // Highlighting found words in the text of a document
  FoundDocument document = result.getFoundDocument(0);
- HtmlFragmentHighlighter highlighter = new HtmlFragmentHighlighter();
+ FragmentHighlighter highlighter = new FragmentHighlighter(OutputFormat.Html);
  index.highlight(document, highlighter, options);
  // Getting the result
  FragmentContainer[] fragmentContainers = highlighter.getResult();
@@ -64,19 +62,24 @@ String indexFolder = "c:\\MyIndex\\";
 
 | Constructor | Description |
 | --- | --- |
-| [HtmlFragmentHighlighter()](#HtmlFragmentHighlighter--) | Initializes a new instance of the  HtmlFragmentHighlighter  class. |
+| [FragmentHighlighter(OutputFormat outputFormat)](#FragmentHighlighter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  FragmentHighlighter  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getResult()](#getResult--) | Gets an array of resulting fragment containers. |
-### HtmlFragmentHighlighter() {#HtmlFragmentHighlighter--}
+### FragmentHighlighter(OutputFormat outputFormat) {#FragmentHighlighter-com.groupdocs.search.options.OutputFormat-}
 ```
-public HtmlFragmentHighlighter()
+public FragmentHighlighter(OutputFormat outputFormat)
 ```
 
 
-Initializes a new instance of the  HtmlFragmentHighlighter  class.
+Initializes a new instance of the  FragmentHighlighter  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
 
 ### getResult() {#getResult--}
 ```

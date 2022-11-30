@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the base class of a search result highlighter.
 type: docs
-weight: 10
+weight: 12
 url: /java/com.groupdocs.search.highlighters/highlighter/
 ---
 **Inheritance:**

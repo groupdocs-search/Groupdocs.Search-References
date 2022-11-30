@@ -36,15 +36,15 @@ String indexFolder = "c:\\MyIndex\\";
 
 | Constructor | Description |
 | --- | --- |
-| [FileOutputAdapter(String filePath)](#FileOutputAdapter-java.lang.String-) | Initializes a new instance of the  FileOutputAdapter  class. |
+| [FileOutputAdapter(OutputFormat outputFormat, String filePath)](#FileOutputAdapter-com.groupdocs.search.options.OutputFormat-java.lang.String-) | Initializes a new instance of the  FileOutputAdapter  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFilePath()](#getFilePath--) | Gets an output file path. |
-### FileOutputAdapter(String filePath) {#FileOutputAdapter-java.lang.String-}
+### FileOutputAdapter(OutputFormat outputFormat, String filePath) {#FileOutputAdapter-com.groupdocs.search.options.OutputFormat-java.lang.String-}
 ```
-public FileOutputAdapter(String filePath)
+public FileOutputAdapter(OutputFormat outputFormat, String filePath)
 ```
 
 
@@ -53,6 +53,7 @@ Initializes a new instance of the  FileOutputAdapter  class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
 | filePath | java.lang.String | The output file path. |
 
 ### getFilePath() {#getFilePath--}

@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Search for Java API Reference
 description: Contains methods for creating search document filters.
 type: docs
-weight: 28
+weight: 25
 url: /java/com.groupdocs.search/searchdocumentfilter/
 ---
 **Inheritance:**

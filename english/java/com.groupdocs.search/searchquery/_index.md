@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a search query in object form.
 type: docs
-weight: 30
+weight: 27
 url: /java/com.groupdocs.search/searchquery/
 ---
 **Inheritance:**

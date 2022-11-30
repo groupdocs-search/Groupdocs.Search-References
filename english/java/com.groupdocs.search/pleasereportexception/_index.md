@@ -3,7 +3,7 @@ title: PleaseReportException
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the exception that is thrown when an error occurred in the library.
 type: docs
-weight: 26
+weight: 24
 url: /java/com.groupdocs.search/pleasereportexception/
 ---
 **Inheritance:**

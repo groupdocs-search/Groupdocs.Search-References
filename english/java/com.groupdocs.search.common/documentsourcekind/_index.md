@@ -3,7 +3,7 @@ title: DocumentSourceKind
 second_title: GroupDocs.Search for Java API Reference
 description: Defines the kinds of document sources.
 type: docs
-weight: 40
+weight: 41
 url: /java/com.groupdocs.search.common/documentsourcekind/
 ---
 **Inheritance:**
