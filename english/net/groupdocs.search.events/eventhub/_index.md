@@ -14,6 +14,19 @@ Provides index events for subscribing.
 public class EventHub
 ```
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [ErrorOccurred](../../groupdocs.search.events/eventhub/erroroccurred) | Occurs when an error happens during an index operation. |
+| event [FileIndexing](../../groupdocs.search.events/eventhub/fileindexing) | Occurs when a document is going to be indexed. |
+| event [ImagePreparing](../../groupdocs.search.events/eventhub/imagepreparing) | Occurs when an image is going to be prepared for indexing. |
+| event [OperationFinished](../../groupdocs.search.events/eventhub/operationfinished) | Occurs when an index operation is finished. |
+| event [OperationProgressChanged](../../groupdocs.search.events/eventhub/operationprogresschanged) | Occurs when the progress of indexing or update operation is changed. |
+| event [PasswordRequired](../../groupdocs.search.events/eventhub/passwordrequired) | Occurs when a document requires password for opening. |
+| event [SearchPhaseCompleted](../../groupdocs.search.events/eventhub/searchphasecompleted) | Occurs when the search phase is completed. |
+| event [StatusChanged](../../groupdocs.search.events/eventhub/statuschanged) | Occurs when the index status changes. |
+
 ### Remarks
 
 **Learn more**
