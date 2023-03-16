@@ -1,14 +1,14 @@
 ---
 title: CharacterType
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Rappresenta un tipo di carattere a seconda di come deve essere indicizzato.
+description: Rappresenta un tipo di carattere a seconda di come dovrebbe essere indicizzato.
 type: docs
-weight: 390
+weight: 400
 url: /it/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration
 
-Rappresenta un tipo di carattere, a seconda di come deve essere indicizzato.
+Rappresenta un tipo di carattere, a seconda di come dovrebbe essere indicizzato.
 
 ```csharp
 public enum CharacterType

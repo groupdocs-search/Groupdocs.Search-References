@@ -33,7 +33,7 @@ public class IndexingReport
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Rapporti di indicizzazione](https://docs.groupdocs.com/display/searchnet/Indexing+reports)
 

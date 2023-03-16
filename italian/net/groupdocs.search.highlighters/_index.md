@@ -12,6 +12,8 @@ Lo spazio dei nomi fornisce evidenziatori per evidenziare i risultati della rice
 
 | Classe | Descrizione |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Rappresenta un evidenziatore dei risultati di ricerca che evidenzia i risultati della ricerca in un intero testo del documento. |
+| [FragmentHighlighter](./fragmenthighlighter) | Rappresenta un evidenziatore dei risultati di ricerca che evidenzia i risultati della ricerca in frammenti di testo. |
 | [Highlighter](./highlighter) | Rappresenta la classe base di un evidenziatore dei risultati di ricerca. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Rappresenta un evidenziatore dei risultati di ricerca che evidenzia i risultati della ricerca in frammenti di testo in formato HTML. |
 | [HtmlHighlighter](./htmlhighlighter) | Rappresenta un evidenziatore dei risultati di ricerca che mette in evidenza i risultati della ricerca in un intero testo del documento formattato in HTML. |

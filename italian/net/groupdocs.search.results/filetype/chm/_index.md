@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Il formato di file CHM rappresenta il file della guida HTML di Microsoft che consiste in una raccolta di pagine HTML. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/chm/ .
+description: Il formato di file CHM rappresenta il file della guida HTML di Microsoft che consiste in una raccolta di pagine HTML. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/chm/ .
 type: docs
 weight: 40
 url: /it/net/groupdocs.search.results/filetype/chm/
 ---
 ## FileType.CHM field
 
-Il formato di file CHM rappresenta il file della guida HTML di Microsoft che consiste in una raccolta di pagine HTML. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/chm/) .
+Il formato di file CHM rappresenta il file della guida HTML di Microsoft che consiste in una raccolta di pagine HTML. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

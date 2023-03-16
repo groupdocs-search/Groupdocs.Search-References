@@ -1,14 +1,14 @@
 ---
 title: ASF
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Advanced Systems Format ASF è un contenitore multimediale digitale progettato principalmente per larchiviazione e la trasmissione di flussi multimediali. Microsoft Windows Media Video WMV è il formato video compresso e Microsoft Windows Media Audio WMA è il formato audio compresso insieme con metadati aggiuntivi nel contenitore ASF sviluppato da Microsoft. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/video/wmv/ .
+description: Advanced Systems Format ASF è un contenitore multimediale digitale progettato principalmente per larchiviazione e la trasmissione di flussi multimediali. Microsoft Windows Media Video WMV è il formato video compresso e Microsoft Windows Media Audio WMA è il formato audio compresso insieme con metadati aggiuntivi nel contenitore ASF sviluppato da Microsoft. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/video/wmv/ .
 type: docs
 weight: 10
 url: /it/net/groupdocs.search.results/filetype/asf/
 ---
 ## FileType.ASF field
 
-Advanced Systems Format (ASF) è un contenitore multimediale digitale progettato principalmente per l'archiviazione e la trasmissione di flussi multimediali. Microsoft Windows Media Video (WMV) è il formato video compresso e Microsoft Windows Media Audio (WMA) è il formato audio compresso insieme con metadati aggiuntivi nel contenitore ASF sviluppato da Microsoft. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/video/wmv/) .
+Advanced Systems Format (ASF) è un contenitore multimediale digitale progettato principalmente per l'archiviazione e la trasmissione di flussi multimediali. Microsoft Windows Media Video (WMV) è il formato video compresso e Microsoft Windows Media Audio (WMA) è il formato audio compresso insieme con metadati aggiuntivi nel contenitore ASF sviluppato da Microsoft. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/video/wmv/) .
 
 ```csharp
 public static readonly FileType ASF;

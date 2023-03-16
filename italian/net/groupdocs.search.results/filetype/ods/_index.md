@@ -1,14 +1,14 @@
 ---
 title: ODS
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet modificabile dallutente. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/spreadsheet/ods/ .
+description: I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet modificabile dallutente. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/spreadsheet/ods/ .
 type: docs
 weight: 390
 url: /it/net/groupdocs.search.results/filetype/ods/
 ---
 ## FileType.ODS field
 
-I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet modificabile dall'utente. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/ods/) .
+I file con estensione ODS rappresentano il formato del documento OpenDocument Spreadsheet modificabile dall'utente. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/spreadsheet/ods/) .
 
 ```csharp
 public static readonly FileType ODS;

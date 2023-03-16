@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta il risultato delloperazione per eliminare file o cartelle indicizzati da un indice.
 type: docs
-weight: 1100
+weight: 1140
 url: /it/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class
@@ -26,7 +26,7 @@ public class DeleteResult
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Elimina percorsi indicizzati](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
 

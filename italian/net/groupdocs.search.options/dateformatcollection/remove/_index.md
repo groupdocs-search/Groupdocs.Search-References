@@ -20,7 +20,7 @@ public bool Remove(DateFormat item)
 
 ### Valore di ritorno
 
-`VERO` se l'articolo è stato rimosso con successo dalla collezione; altrimenti,`falso` . Anche questo metodo restituisce`falso` se l'elemento non viene trovato nella collezione.
+`VERO` se l'articolo è stato rimosso con successo dalla collezione; Altrimenti,`falso` . Anche questo metodo restituisce`falso` se l'elemento non viene trovato nella collezione.
 
 ### Guarda anche
 

@@ -1,14 +1,14 @@
 ---
 title: ODT
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file ODT sono tipi di documenti creati con applicazioni di elaborazione testi basate sul formato OpenDocument File di testo. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere contenuti come testo immagini oggetti e stili. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/wordprocessing/odt/ .
+description: I file ODT sono tipi di documenti creati con applicazioni di elaborazione testi basate sul formato OpenDocument File di testo. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere contenuti come testo immagini oggetti e stili. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/wordprocessing/odt/ .
 type: docs
 weight: 400
 url: /it/net/groupdocs.search.results/filetype/odt/
 ---
 ## FileType.ODT field
 
-I file ODT sono tipi di documenti creati con applicazioni di elaborazione testi basate sul formato OpenDocument File di testo. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere contenuti come testo, immagini, oggetti e stili. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/word-processing/odt/) .
+I file ODT sono tipi di documenti creati con applicazioni di elaborazione testi basate sul formato OpenDocument File di testo. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere contenuti come testo, immagini, oggetti e stili. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/word-processing/odt/) .
 
 ```csharp
 public static readonly FileType ODT;

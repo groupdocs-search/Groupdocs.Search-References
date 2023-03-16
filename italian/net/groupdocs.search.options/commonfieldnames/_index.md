@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un elenco di nomi di campo per la ricerca con facet.
 type: docs
-weight: 720
+weight: 750
 url: /it/net/groupdocs.search.options/commonfieldnames/
 ---
 ## CommonFieldNames class
@@ -27,7 +27,7 @@ public static class CommonFieldNames
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfaccettata](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

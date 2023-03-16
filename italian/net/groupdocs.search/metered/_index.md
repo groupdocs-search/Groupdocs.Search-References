@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumoquihttps//purchase.groupdocs.com/faqs/licensing/metered .
+description: Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumoQuihttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /it/net/groupdocs.search/metered/
 ---
 ## Metered class
 
-Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumo[qui](https://purchase.groupdocs.com/faqs/licensing/metered) .
+Fornisce metodi che consentono di attivare il prodotto con licenza a consumo e recuperare la quantità di MB elaborati. Ulteriori informazioni sulle licenze a consumo[Qui](https://purchase.groupdocs.com/faqs/licensing/metered) .
 
 ```csharp
 public class Metered
@@ -30,7 +30,7 @@ public class Metered
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Limiti di valutazione e licenza](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

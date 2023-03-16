@@ -1,14 +1,14 @@
 ---
 title: XHTML
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: LXHTML è un formato di file basato su testo con markup nellXML utilizzando una riformulazione di HTML 4.0. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/xhtml/ .
+description: LXHTML è un formato di file basato su testo con markup nellXML utilizzando una riformulazione di HTML 4.0. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/xhtml/ .
 type: docs
 weight: 710
 url: /it/net/groupdocs.search.results/filetype/xhtml/
 ---
 ## FileType.XHTML field
 
-L'XHTML è un formato di file basato su testo con markup nell'XML, utilizzando una riformulazione di HTML 4.0. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/xhtml/) .
+L'XHTML è un formato di file basato su testo con markup nell'XML, utilizzando una riformulazione di HTML 4.0. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/xhtml/) .
 
 ```csharp
 public static readonly FileType XHTML;

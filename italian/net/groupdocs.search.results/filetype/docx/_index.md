@@ -1,14 +1,14 @@
 ---
 title: DOCX
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: DOCX è un formato ben noto per i documenti di Microsoft Word. Introdotto a partire dal 2007 con la release di Microsoft Office 2007 la struttura di questo nuovo formato di documento è stata modificata da semplice binary a una combinazione di file XML e binari. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/wordprocessing/docx/ .
+description: DOCX è un formato ben noto per i documenti di Microsoft Word. Introdotto a partire dal 2007 con la release di Microsoft Office 2007 la struttura di questo nuovo formato di documento è stata modificata da semplice binary a una combinazione di file XML e binari. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/wordprocessing/docx/ .
 type: docs
 weight: 140
 url: /it/net/groupdocs.search.results/filetype/docx/
 ---
 ## FileType.DOCX field
 
-DOCX è un formato ben noto per i documenti di Microsoft Word. Introdotto a partire dal 2007 con la release di Microsoft Office 2007, la struttura di questo nuovo formato di documento è stata modificata da semplice binary a una combinazione di file XML e binari. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/word-processing/docx/) .
+DOCX è un formato ben noto per i documenti di Microsoft Word. Introdotto a partire dal 2007 con la release di Microsoft Office 2007, la struttura di questo nuovo formato di documento è stata modificata da semplice binary a una combinazione di file XML e binari. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/word-processing/docx/) .
 
 ```csharp
 public static readonly FileType DOCX;

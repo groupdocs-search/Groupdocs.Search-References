@@ -3,7 +3,7 @@ title: OperationType
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un tipo di operazione sullindice.
 type: docs
-weight: 560
+weight: 570
 url: /it/net/groupdocs.search.events/operationtype/
 ---
 ## OperationType enumeration

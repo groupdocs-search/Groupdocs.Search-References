@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per il correttore di layout della tastiera.
 type: docs
-weight: 910
+weight: 940
 url: /it/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class
@@ -22,7 +22,7 @@ public class KeyboardLayoutCorrectorOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [opzioni di ricerca](https://docs.groupdocs.com/display/searchnet/Search+options)
 * [Correzione del layout della tastiera](https://docs.groupdocs.com/display/searchnet/Keyboard+layout+correction)

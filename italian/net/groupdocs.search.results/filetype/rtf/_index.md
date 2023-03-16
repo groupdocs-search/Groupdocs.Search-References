@@ -1,14 +1,14 @@
 ---
 title: RTF
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Introdotto e documentato da Microsoft il Rich Text Format RTF rappresenta un metodo di codifica di testo e grafica formattati per lutilizzo allinterno delle applicazioni. Il formato facilita lo scambio multipiattaforma document con altri prodotti Microsoft al fine di garantire linteroperabilità. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/rtf/ .
+description: Introdotto e documentato da Microsoft il Rich Text Format RTF rappresenta un metodo di codifica di testo e grafica formattati per lutilizzo allinterno delle applicazioni. Il formato facilita lo scambio multipiattaforma document con altri prodotti Microsoft al fine di garantire linteroperabilità. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/rtf/ .
 type: docs
 weight: 590
 url: /it/net/groupdocs.search.results/filetype/rtf/
 ---
 ## FileType.RTF field
 
-Introdotto e documentato da Microsoft, il Rich Text Format (RTF) rappresenta un metodo di codifica di testo e grafica formattati per l'utilizzo all'interno delle applicazioni. Il formato facilita lo scambio multipiattaforma document con altri prodotti Microsoft, al fine di garantire l'interoperabilità. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/rtf/) .
+Introdotto e documentato da Microsoft, il Rich Text Format (RTF) rappresenta un metodo di codifica di testo e grafica formattati per l'utilizzo all'interno delle applicazioni. Il formato facilita lo scambio multipiattaforma document con altri prodotti Microsoft, al fine di garantire l'interoperabilità. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/rtf/) .
 
 ```csharp
 public static readonly FileType RTF;

@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta gli argomenti per levento di unimmagine che prepara lavvio.
 type: docs
-weight: 520
+weight: 530
 url: /it/net/groupdocs.search.events/imagepreparingeventargs/
 ---
 ## ImagePreparingEventArgs class

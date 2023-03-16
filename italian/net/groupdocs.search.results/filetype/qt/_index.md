@@ -1,14 +1,14 @@
 ---
 title: QT
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Il formato file MOV o QuickTime è un contenitore multimediale sviluppato da Apple contiene una o più tracce ogni traccia contiene un particolare tipo di dati ad esempio video audio testo ecc. Ulteriori informazioni su questo formato file quihttps//wiki.fileformat.com/video/mov/ .
+description: Il formato file MOV o QuickTime è un contenitore multimediale sviluppato da Apple contiene una o più tracce ogni traccia contiene un particolare tipo di dati ad esempio video audio testo ecc. Ulteriori informazioni su questo formato file Quihttps//wiki.fileformat.com/video/mov/ .
 type: docs
 weight: 580
 url: /it/net/groupdocs.search.results/filetype/qt/
 ---
 ## FileType.QT field
 
-Il formato file MOV o QuickTime è un contenitore multimediale sviluppato da Apple: contiene una o più tracce, ogni traccia contiene un particolare tipo di dati, ad esempio video, audio, testo, ecc. Ulteriori informazioni su questo formato file [qui](https://wiki.fileformat.com/video/mov/) .
+Il formato file MOV o QuickTime è un contenitore multimediale sviluppato da Apple: contiene una o più tracce, ogni traccia contiene un particolare tipo di dati, ad esempio video, audio, testo, ecc. Ulteriori informazioni su questo formato file [Qui](https://wiki.fileformat.com/video/mov/) .
 
 ```csharp
 public static readonly FileType QT;

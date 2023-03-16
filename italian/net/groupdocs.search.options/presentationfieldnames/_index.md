@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un elenco di nomi di campo per la ricerca con facet.
 type: docs
-weight: 980
+weight: 1020
 url: /it/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class
@@ -39,7 +39,7 @@ public static class PresentationFieldNames
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfaccettata](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

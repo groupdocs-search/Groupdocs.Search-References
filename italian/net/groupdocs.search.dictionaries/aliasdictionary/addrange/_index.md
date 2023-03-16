@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<KeyValuePair<string, string>> pairs)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*pairs* è`nullo`. |
+| ArgumentNullException | Lanciato quando*pairs* È`nullo`. |
 
 ### Guarda anche
 
@@ -48,7 +48,7 @@ public void AddRange(IEnumerable<AliasReplacementPair> pairs)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*pairs* è`nullo`. |
+| ArgumentNullException | Lanciato quando*pairs* È`nullo`. |
 
 ### Guarda anche
 
@@ -75,7 +75,7 @@ public void AddRange(AliasReplacementPair[] pairs)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*pairs* è`nullo`. |
+| ArgumentNullException | Lanciato quando*pairs* È`nullo`. |
 
 ### Guarda anche
 

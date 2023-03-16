@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per loperazione di unione.
 type: docs
-weight: 930
+weight: 960
 url: /it/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
@@ -29,7 +29,7 @@ public class MergeOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Unire gli indici](https://docs.groupdocs.com/display/searchnet/Merge+indexes)
 * [Ottimizza l'indice](https://docs.groupdocs.com/display/searchnet/Optimize+index)

@@ -20,7 +20,7 @@ public bool Contains(string key)
 
 ### Valore di ritorno
 
-`VERO` se il dizionario contiene una password per il documento; altrimenti,`falso` .
+`VERO` se il dizionario contiene una password per il documento; Altrimenti,`falso` .
 
 ### Guarda anche
 

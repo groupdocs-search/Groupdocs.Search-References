@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per evidenziare i termini trovati.
 type: docs
-weight: 830
+weight: 860
 url: /it/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,14 +24,16 @@ public class HighlightOptions : TextOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ottiene o imposta i campi del documento aggiuntivi utilizzati per l'indicizzazione. Il valore predefinito è`nullo` . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ottiene o imposta i campi del documento aggiuntivi utilizzati per l'indicizzazione. Il valore predefinito è`nullo`. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Ottiene o imposta l'oggetto di annullamento. Il valore predefinito è`nullo` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo` . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo`. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ottiene o imposta un valore che indica se il tag Head è generato nell'HTML di output. Il valore predefinito è`VERO` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Ottiene o imposta un colore utilizzato per evidenziare le occorrenze. Il valore predefinito è #FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ottiene le opzioni di indicizzazione delle immagini per la ricerca inversa delle immagini. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Ottiene le opzioni per l'indicizzazione dei campi dei metadati. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Ottiene le opzioni per l'elaborazione OCR e l'indicizzazione del testo riconosciuto. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Ottiene di imposta il tag di fine dell'evidenziazione della parola trovata. Questo tag viene utilizzato solo durante l'evidenziazione in testo normale. Il valore predefinito è una stringa vuota. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Ottiene di imposta il tag di inizio dell'evidenziazione della parola trovata. Questo tag viene utilizzato solo durante l'evidenziazione in testo semplice. Il valore predefinito è una stringa vuota. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Recupera o imposta il numero massimo di parole in un frammento di testo dopo la parola evidenziata. Il valore deve essere compreso tra 0 e 10000. Il valore predefinito è`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Ottiene o imposta il numero massimo di parole in un frammento di testo prima della parola evidenziata. Il valore deve essere compreso tra 0 e 10000. Il valore predefinito è`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Ottiene o imposta il numero massimo di parole in un frammento di testo. Il valore deve essere compreso tra 0 e 10000. Il valore predefinito è`21` . |
@@ -39,7 +41,7 @@ public class HighlightOptions : TextOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Evidenziazione dei risultati della ricerca](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

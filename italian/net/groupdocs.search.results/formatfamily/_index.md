@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Specifica una famiglia di formati che unisce diversi formati simili.
 type: docs
-weight: 1130
+weight: 1170
 url: /it/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class

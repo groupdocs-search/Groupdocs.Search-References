@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Specifica il numero di thread.
 type: docs
-weight: 950
+weight: 980
 url: /it/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration
@@ -30,7 +30,7 @@ public enum NumberOfThreads
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Impostazioni dell'indice di ricerca](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

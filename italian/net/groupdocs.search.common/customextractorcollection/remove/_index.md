@@ -20,7 +20,7 @@ public bool Remove(IFieldExtractor extractor)
 
 ### Valore di ritorno
 
-`VERO` Se*extractor* è stato rimosso con successo dalla raccolta; altrimenti,`falso` . Anche questo metodo restituisce`falso` Se*extractor* non si trova nella raccolta originale.
+`VERO` Se*extractor* è stato rimosso con successo dalla raccolta; Altrimenti,`falso` . Anche questo metodo restituisce`falso` Se*extractor* non si trova nella raccolta originale.
 
 ### Guarda anche
 

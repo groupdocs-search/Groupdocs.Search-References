@@ -1,14 +1,14 @@
 ---
 title: JP2
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: JPEG 2000 JP2 è un sistema di codifica delle immagini e uno standard di compressione delle immagini allavanguardia. Progettato utilizzando la tecnologia wavelet JPEG 2000 può codificare contenuti senza perdita di qualsiasi qualità contemporaneamente. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/jp2/ .
+description: JPEG 2000 JP2 è un sistema di codifica delle immagini e uno standard di compressione delle immagini allavanguardia. Progettato utilizzando la tecnologia wavelet JPEG 2000 può codificare contenuti senza perdita di qualsiasi qualità contemporaneamente. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/jp2/ .
 type: docs
 weight: 270
 url: /it/net/groupdocs.search.results/filetype/jp2/
 ---
 ## FileType.JP2 field
 
-JPEG 2000 (JP2) è un sistema di codifica delle immagini e uno standard di compressione delle immagini all'avanguardia. Progettato utilizzando la tecnologia wavelet, JPEG 2000 può codificare contenuti senza perdita di qualsiasi qualità contemporaneamente. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/jp2/) .
+JPEG 2000 (JP2) è un sistema di codifica delle immagini e uno standard di compressione delle immagini all'avanguardia. Progettato utilizzando la tecnologia wavelet, JPEG 2000 può codificare contenuti senza perdita di qualsiasi qualità contemporaneamente. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/jp2/) .
 
 ```csharp
 public static readonly FileType JP2;

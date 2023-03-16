@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di stop word.
 type: docs
-weight: 470
+weight: 480
 url: /it/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class
@@ -36,7 +36,7 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Indicizzazione con parole d'arresto](https://docs.groupdocs.com/display/searchnet/Indexing+with+stop+words)
 * [Gestione del dizionario delle parole d'arresto](https://docs.groupdocs.com/display/searchnet/Stop+word+dictionary)

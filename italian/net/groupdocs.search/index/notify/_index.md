@@ -20,7 +20,7 @@ public bool Notify(Notification notification)
 
 ### Valore di ritorno
 
-Ritorna`VERO`se la notifica è stata eseguita con successo; altrimenti`falso` .
+Ritorna`VERO`se la notifica è stata eseguita con successo; Altrimenti`falso` .
 
 ### Guarda anche
 

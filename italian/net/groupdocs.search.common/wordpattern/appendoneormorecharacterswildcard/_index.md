@@ -1,14 +1,14 @@
 ---
 title: AppendOneOrMoreCharactersWildcard
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Aggiunge uno o più caratteri jolly al modello di parola.
+description: Aggiunge uno o più caratteri jolly al modello di parole.
 type: docs
 weight: 40
 url: /it/net/groupdocs.search.common/wordpattern/appendoneormorecharacterswildcard/
 ---
 ## WordPattern.AppendOneOrMoreCharactersWildcard method
 
-Aggiunge uno o più caratteri jolly al modello di parola.
+Aggiunge uno o più caratteri jolly al modello di parole.
 
 ```csharp
 public void AppendOneOrMoreCharactersWildcard()

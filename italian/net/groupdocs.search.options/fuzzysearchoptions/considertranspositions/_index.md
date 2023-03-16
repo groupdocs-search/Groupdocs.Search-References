@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Valore della proprietà
 
-`VERO` se l'algoritmo di ricerca fuzzy considera le trasposizioni; altrimenti`falso`.
+`VERO`se l'algoritmo di ricerca fuzzy considera le trasposizioni; altrimenti`falso`.
 
 ### Guarda anche
 

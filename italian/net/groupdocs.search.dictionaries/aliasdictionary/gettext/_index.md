@@ -26,7 +26,7 @@ Un testo associato all'alias specificato o`nullo`.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*alias* è`nullo`. |
+| ArgumentNullException | Lanciato quando*alias* È`nullo`. |
 
 ### Guarda anche
 

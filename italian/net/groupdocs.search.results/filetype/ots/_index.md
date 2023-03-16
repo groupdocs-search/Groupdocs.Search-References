@@ -1,14 +1,14 @@
 ---
 title: OTS
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Rappresenta il formato di file del modello di foglio di calcolo OpenDocument. Ulteriori informazioni sui formati di file del foglio di calcolo quihttps//wiki.fileformat.com/spreadsheet/ .
+description: Rappresenta il formato di file del modello di foglio di calcolo OpenDocument. Ulteriori informazioni sui formati di file del foglio di calcolo Quihttps//wiki.fileformat.com/spreadsheet/ .
 type: docs
 weight: 430
 url: /it/net/groupdocs.search.results/filetype/ots/
 ---
 ## FileType.OTS field
 
-Rappresenta il formato di file del modello di foglio di calcolo OpenDocument. Ulteriori informazioni sui formati di file del foglio di calcolo [qui](https://wiki.fileformat.com/spreadsheet/) .
+Rappresenta il formato di file del modello di foglio di calcolo OpenDocument. Ulteriori informazioni sui formati di file del foglio di calcolo [Qui](https://wiki.fileformat.com/spreadsheet/) .
 
 ```csharp
 public static readonly FileType OTS;

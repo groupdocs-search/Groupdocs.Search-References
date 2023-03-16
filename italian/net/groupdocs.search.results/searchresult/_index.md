@@ -3,7 +3,7 @@ title: SearchResult
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un risultato di ricerca che corrisponde a una query di ricerca.
 type: docs
-weight: 1190
+weight: 1230
 url: /it/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class
@@ -36,7 +36,7 @@ public class SearchResult : IEnumerable<FoundDocument>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca](https://docs.groupdocs.com/display/searchnet/Searching)
 * [Risultati di ricerca](https://docs.groupdocs.com/display/searchnet/Search+results)

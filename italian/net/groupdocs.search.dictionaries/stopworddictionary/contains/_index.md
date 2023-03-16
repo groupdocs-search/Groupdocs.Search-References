@@ -20,7 +20,7 @@ public bool Contains(string word)
 
 ### Valore di ritorno
 
-`VERO` se la[`StopWordDictionary`](../../stopworddictionary) oggetto contiene la parola specificata; altrimenti,`falso` .
+`VERO` se la[`StopWordDictionary`](../../stopworddictionary) oggetto contiene la parola specificata; Altrimenti,`falso` .
 
 ### Guarda anche
 

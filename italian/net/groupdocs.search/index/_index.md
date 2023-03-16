@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta la classe principale per lindicizzazione dei documenti e la ricerca al loro interno.
 type: docs
-weight: 650
+weight: 680
 url: /it/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | Inizializza una nuova istanza di[`Index`](../index) classe in memoria. |
 | [Index](index#constructor_1)(IndexSettings) | Inizializza una nuova istanza di[`Index`](../index) classe in memoria con particolari impostazioni di indice. |
 | [Index](index#constructor_2)(string) | Inizializza una nuova istanza di[`Index`](../index) class. Crea un nuovo o apre un indice esistente su disco. |
-| [Index](index#constructor_3)(string, bool) | Inizializza una nuova istanza di[`Index`](../index) class. Carica un indice esistente dal disco se*overwriteIfExists* è`falso`; crea un nuovo indice su disco altrimenti. |
+| [Index](index#constructor_3)(string, bool) | Inizializza una nuova istanza di[`Index`](../index) class. Carica un indice esistente dal disco se*overwriteIfExists* È`falso`; crea un nuovo indice su disco altrimenti. |
 | [Index](index#constructor_4)(string, IndexSettings) | Inizializza una nuova istanza di[`Index`](../index) class. Crea un nuovo indice con impostazioni particolari o apre un indice esistente su disco. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | Inizializza una nuova istanza di[`Index`](../index) class. Carica un indice esistente dal disco se*overwriteIfExists* è`falso` ; crea un nuovo indice su disco con particolari impostazioni di indice altrimenti. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | Inizializza una nuova istanza di[`Index`](../index) class. Carica un indice esistente dal disco se*overwriteIfExists* È`falso` ; crea un nuovo indice su disco con particolari impostazioni di indice altrimenti. |
 
 ## Proprietà
 
@@ -76,7 +76,7 @@ public class Index : IDisposable
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Creazione di un indice](https://docs.groupdocs.com/display/searchnet/Creating+an+index)
 * [Indicizzazione](https://docs.groupdocs.com/display/searchnet/Indexing)

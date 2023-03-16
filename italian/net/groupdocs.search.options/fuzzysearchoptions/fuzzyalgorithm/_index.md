@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Ottiene o imposta lalgoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sonoSimilarityLevelgroupdocs.search.options/similaritylevel eTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . Il valore predefinito è unistanza diSimilarityLevelgroupdocs.search.options/similaritylevel con un valore del livello di somiglianza di05 .
+description: Ottiene o imposta lalgoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sonoSimilarityLevelgroupdocs.search.options/similaritylevel ETableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. Il valore predefinito è unistanza diSimilarityLevelgroupdocs.search.options/similaritylevel con un valore del livello di somiglianza di05 .
 type: docs
 weight: 30
 url: /it/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Ottiene o imposta l'algoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sono[`SimilarityLevel`](../../similaritylevel) e[`TableDiscreteFunction`](../../tablediscretefunction) . Il valore predefinito è un'istanza di[`SimilarityLevel`](../../similaritylevel) con un valore del livello di somiglianza di`0,5` .
+Ottiene o imposta l'algoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sono[`SimilarityLevel`](../../similaritylevel) E[`TableDiscreteFunction`](../../tablediscretefunction). Il valore predefinito è un'istanza di[`SimilarityLevel`](../../similaritylevel) con un valore del livello di somiglianza di`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
@@ -22,7 +22,7 @@ L'algoritmo di ricerca fuzzy.
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*value* è`nullo`. |
+| ArgumentNullException | Lanciato quando*value* È`nullo`. |
 
 ### Esempi
 

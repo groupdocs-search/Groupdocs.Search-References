@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni di indicizzazione delle immagini per la ricerca inversa delle immagini.
 type: docs
-weight: 860
+weight: 890
 url: /it/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class

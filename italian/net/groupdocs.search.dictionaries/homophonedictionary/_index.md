@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di omofoni eterografici.
 type: docs
-weight: 430
+weight: 440
 url: /it/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class
@@ -36,7 +36,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca omofoni](https://docs.groupdocs.com/display/searchnet/Homophone+search)
 * [Gestione del dizionario omofono](https://docs.groupdocs.com/display/searchnet/Homophone+dictionary)

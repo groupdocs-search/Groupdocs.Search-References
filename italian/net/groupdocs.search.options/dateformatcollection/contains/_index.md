@@ -20,7 +20,7 @@ public bool Contains(DateFormat item)
 
 ### Valore di ritorno
 
-`VERO` se l'articolo viene trovato nella collezione; altrimenti,`falso`.
+`VERO` se l'articolo viene trovato nella collezione; Altrimenti,`falso`.
 
 ### Guarda anche
 

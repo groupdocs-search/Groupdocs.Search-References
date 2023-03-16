@@ -23,7 +23,7 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*tableOfOutputs* è`nullo`. |
+| ArgumentNullException | Lanciato quando*tableOfOutputs* È`nullo`. |
 | ArgumentException | Generato quando il numero di elementi della tabella è 0. |
 
 ### Guarda anche
@@ -51,7 +51,7 @@ public TableDiscreteFunction(int firstStepLevel, params Step[] steps)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*steps* è`nullo`. |
+| ArgumentNullException | Lanciato quando*steps* È`nullo`. |
 | ArgumentException | Lanciato quando i limiti dei passaggi non sono strettamente crescenti. |
 
 ### Guarda anche

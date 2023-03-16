@@ -38,7 +38,7 @@ public abstract class Document
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Indicizzazione da diverse fonti](https://docs.groupdocs.com/search/net/indexing-from-different-sources/)
 

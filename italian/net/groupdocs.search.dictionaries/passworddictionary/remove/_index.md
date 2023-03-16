@@ -20,7 +20,7 @@ public bool Remove(string key)
 
 ### Valore di ritorno
 
-`VERO` se la password è stata rimossa con successo; altrimenti,`falso` . Anche questo metodo restituisce`falso` Se*key* non è stato trovato nel dizionario.
+`VERO` se la password è stata rimossa con successo; Altrimenti,`falso` . Anche questo metodo restituisce`falso` Se*key* non è stato trovato nel dizionario.
 
 ### Guarda anche
 

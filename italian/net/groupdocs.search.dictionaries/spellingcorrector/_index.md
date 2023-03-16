@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un correttore ortografico per i termini in una query.
 type: docs
-weight: 460
+weight: 470
 url: /it/net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class
@@ -33,7 +33,7 @@ public class SpellingCorrector : DictionaryBase
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Controllo ortografico](https://docs.groupdocs.com/display/searchnet/Spell+checking)
 * [Gestione del correttore ortografico](https://docs.groupdocs.com/display/searchnet/Spelling+corrector)

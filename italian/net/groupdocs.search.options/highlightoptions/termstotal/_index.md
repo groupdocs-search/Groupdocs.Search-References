@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Ottiene o imposta il numero massimo di parole in un frammento di testo. Il valore deve essere compreso tra 0 e 10000. Il valore predefinito è21 .
 type: docs
-weight: 50
+weight: 70
 url: /it/net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

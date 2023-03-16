@@ -26,7 +26,7 @@ Questo metodo restituisce`VERO` se l'alias viene trovato e rimosso correttamente
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*alias* è`nullo`. |
+| ArgumentNullException | Lanciato quando*alias* È`nullo`. |
 
 ### Guarda anche
 

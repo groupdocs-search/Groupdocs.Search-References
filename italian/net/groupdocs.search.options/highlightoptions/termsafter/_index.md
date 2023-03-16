@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Recupera o imposta il numero massimo di parole in un frammento di testo dopo la parola evidenziata. Il valore deve essere compreso tra 0 e 10000. Il valore predefinito è7 .
 type: docs
-weight: 30
+weight: 50
 url: /it/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

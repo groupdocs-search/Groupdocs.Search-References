@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per loperazione di ricerca.
 type: docs
-weight: 1000
+weight: 1040
 url: /it/net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class
@@ -40,7 +40,7 @@ public class SearchOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [opzioni di ricerca](https://docs.groupdocs.com/display/searchnet/Search+options)
 

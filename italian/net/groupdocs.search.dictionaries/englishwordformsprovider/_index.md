@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un fornitore di moduli di parole inglesi.
 type: docs
-weight: 420
+weight: 430
 url: /it/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class
@@ -28,7 +28,7 @@ public class EnglishWordFormsProvider : IWordFormsProvider
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca diverse forme di parole](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
 * [Fornitore di moduli di parole](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)

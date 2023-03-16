@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un elenco di nomi di campo per la ricerca con facet.
 type: docs
-weight: 800
+weight: 830
 url: /it/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class
@@ -29,7 +29,7 @@ public static class FictionBookFieldNames
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfaccettata](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 
