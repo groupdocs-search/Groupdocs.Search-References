@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для операции обновления.
 type: docs
-weight: 1080
+weight: 1120
 url: /ru/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -33,7 +33,7 @@ public class UpdateOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Обновить индекс](https://docs.groupdocs.com/display/searchnet/Update+index)
 * [Удалить проиндексированные пути](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)

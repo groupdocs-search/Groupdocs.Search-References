@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет алгоритм нечеткого поиска который содержит соответствия между длинами слов и количеством допустимых ошибок. Этот алгоритм может быть задан таблицей выходных значений или ступенчатой функцией.
 type: docs
-weight: 1050
+weight: 1090
 url: /ru/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class
@@ -30,7 +30,7 @@ public class TableDiscreteFunction : FuzzyAlgorithm
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Нечеткий поиск](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

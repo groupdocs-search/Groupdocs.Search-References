@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет цвет ARGB альфа красный зеленый синий.
 type: docs
-weight: 710
+weight: 740
 url: /ru/net/groupdocs.search.options/color/
 ---
 ## Color class

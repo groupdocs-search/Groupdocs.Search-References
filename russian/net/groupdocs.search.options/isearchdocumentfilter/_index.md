@@ -3,7 +3,7 @@ title: ISearchDocumentFilter
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет фильтр документов поиска. ИспользованиеSearchDocumentFilter./searchdocumentfilter класс для создания экземпляров фильтра.
 type: docs
-weight: 850
+weight: 880
 url: /ru/net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface

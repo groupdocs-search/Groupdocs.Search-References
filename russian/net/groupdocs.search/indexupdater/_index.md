@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет средство обновления индекса. Этот класс выполняет переиндексацию документов в индексе старой версии.
 type: docs
-weight: 680
+weight: 710
 url: /ru/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class
@@ -30,7 +30,7 @@ public class IndexUpdater
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Обновить индекс](https://docs.groupdocs.com/display/searchnet/Update+index)
 

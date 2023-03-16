@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 980
+weight: 1020
 url: /ru/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class
@@ -39,7 +39,7 @@ public static class PresentationFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет опции для извлечения данных из документов.
 type: docs
-weight: 790
+weight: 820
 url: /ru/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class

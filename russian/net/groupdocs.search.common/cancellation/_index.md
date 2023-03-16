@@ -35,7 +35,7 @@ public class Cancellation
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Параметры индексирования](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 * [Параметры поиска](https://docs.groupdocs.com/display/searchnet/Search+options)

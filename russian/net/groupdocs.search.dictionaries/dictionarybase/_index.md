@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет базовый класс словаря.
 type: docs
-weight: 400
+weight: 410
 url: /ru/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class
@@ -23,7 +23,7 @@ public abstract class DictionaryBase
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Обновить индекс](https://docs.groupdocs.com/display/searchnet/Update+index)
 

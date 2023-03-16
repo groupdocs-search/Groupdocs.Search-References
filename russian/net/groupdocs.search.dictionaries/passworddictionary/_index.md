@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь паролей документов.
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class
@@ -35,7 +35,7 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Индексирование защищенных паролем документов](https://docs.groupdocs.com/display/searchnet/Indexing+password+protected+documents)
 * [Управление паролями к документам](https://docs.groupdocs.com/display/searchnet/Document+passwords)

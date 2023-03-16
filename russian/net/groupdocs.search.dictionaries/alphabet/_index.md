@@ -3,7 +3,7 @@ title: Alphabet
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь символов который используется во время индексации для определения типа символа. Каждый символ может обрабатываться как разделитель как буква или и то и другое.
 type: docs
-weight: 360
+weight: 370
 url: /ru/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class
@@ -33,7 +33,7 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Типы персонажей](https://docs.groupdocs.com/display/searchnet/Character+types)
 * [Управление алфавитом](https://docs.groupdocs.com/display/searchnet/Alphabet)

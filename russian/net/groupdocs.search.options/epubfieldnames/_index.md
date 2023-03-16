@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 780
+weight: 810
 url: /ru/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class
@@ -29,7 +29,7 @@ public static class EpubFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

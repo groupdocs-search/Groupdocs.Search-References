@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет собой контейнер для объединения нескольких индексов и выполнения над ними общих операций.
 type: docs
-weight: 660
+weight: 690
 url: /ru/net/groupdocs.search/indexrepository/
 ---
 ## IndexRepository class
@@ -47,7 +47,7 @@ public class IndexRepository : IDisposable
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Репозиторий поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+repository)
 

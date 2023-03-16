@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет аргументы для события завершения операции индексирования.
 type: docs
-weight: 540
+weight: 550
 url: /ru/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class
@@ -27,7 +27,7 @@ public class OperationFinishedEventArgs : BaseIndexEventArgs
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [События поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

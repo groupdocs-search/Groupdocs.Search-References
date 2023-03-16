@@ -1,22 +1,28 @@
 ---
 title: OutputAdapter
 second_title: GroupDocs.Search для справочника API .NET
-description: Представляет базовый класс адаптера вывода который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптерыFileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter  а такжеStringOutputAdapter./stringoutputadapter .
+description: Представляет базовый класс адаптера вывода который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптерыFileOutputAdapter./fileoutputadapter  StreamOutputAdapter./streamoutputadapter  StructureOutputAdapter./structureoutputadapter  иStringOutputAdapter./stringoutputadapter .
 type: docs
 weight: 260
 url: /ru/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-Представляет базовый класс адаптера вывода, который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптеры:[`FileOutputAdapter`](../fileoutputadapter) ,[`StreamOutputAdapter`](../streamoutputadapter) , а также[`StringOutputAdapter`](../stringoutputadapter) .
+Представляет базовый класс адаптера вывода, который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптеры:[`FileOutputAdapter`](../fileoutputadapter) , [`StreamOutputAdapter`](../streamoutputadapter) , [`StructureOutputAdapter`](../structureoutputadapter) , и[`StringOutputAdapter`](../stringoutputadapter) .
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
 
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
+
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выходные адаптеры](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 

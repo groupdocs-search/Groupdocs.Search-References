@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет поисковый запрос в форме объекта.
 type: docs
-weight: 1200
+weight: 1240
 url: /ru/net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class
@@ -46,7 +46,7 @@ public abstract class SearchQuery
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Идет поиск](https://docs.groupdocs.com/display/searchnet/Searching)
 * [Запросы в текстовом и объектном виде](https://docs.groupdocs.com/display/searchnet/Queries+in+text+and+object+form)

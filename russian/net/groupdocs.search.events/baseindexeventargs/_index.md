@@ -3,7 +3,7 @@ title: BaseIndexEventArgs
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет базовый класс аргументов события.
 type: docs
-weight: 490
+weight: 500
 url: /ru/net/groupdocs.search.events/baseindexeventargs/
 ---
 ## BaseIndexEventArgs class
@@ -25,7 +25,7 @@ public class BaseIndexEventArgs : EventArgs
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [События поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

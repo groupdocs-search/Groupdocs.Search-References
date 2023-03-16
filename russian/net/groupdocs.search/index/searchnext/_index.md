@@ -35,7 +35,7 @@ Index index = new Index(indexFolder); // Создание индекса в ук
 index.Add(documentsFolder); // Индексация документов из указанной папки
 
 SearchOptions options = new SearchOptions();
-options.IsChunkSearch = true; // Включаем поиск чанков
+options.IsChunkSearch = true; // Включаем поиск чанка
 
 SearchResult result = index.Search(query, options); // Запуск поиска чанка
 Console.WriteLine("Document count: " + result.DocumentCount);
@@ -90,7 +90,7 @@ index.Add(documentsFolder); // Индексация документов из у
 
 Cancellation cancellation = new Cancellation(); // Этот объект отмены прерывает все продолжения поиска, если он отменен
 SearchOptions options = new SearchOptions();
-options.IsChunkSearch = true; // Включаем поиск чанков
+options.IsChunkSearch = true; // Включаем поиск чанка
 options.Cancellation = cancellation;
 
 SearchResult result = index.Search(query, options); // Запуск поиска чанка

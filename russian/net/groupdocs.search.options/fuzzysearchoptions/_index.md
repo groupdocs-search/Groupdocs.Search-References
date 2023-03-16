@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет опции нечеткого поиска.
 type: docs
-weight: 820
+weight: 850
 url: /ru/net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class
@@ -20,13 +20,13 @@ public class FuzzySearchOptions
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Получает или задает значение, указывающее, должен ли алгоритм нечеткого поиска рассматривать перестановку двух соседних символов как одну ошибку. Значение по умолчанию:`истинный` . |
 | [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Получает или задает значение, указывающее, включена ли функция нечеткого поиска. Значение по умолчанию:`ЛОЖЬ` . |
-| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поиска:[`SimilarityLevel`](../similaritylevel) а также[`TableDiscreteFunction`](../tablediscretefunction) . Значение по умолчанию — экземпляр[`SimilarityLevel`](../similaritylevel) со значением уровня подобия`0,5` . |
+| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поиска:[`SimilarityLevel`](../similaritylevel) и[`TableDiscreteFunction`](../tablediscretefunction). Значение по умолчанию — экземпляр[`SimilarityLevel`](../similaritylevel) со значением уровня подобия`0,5` . |
 | [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Получает или задает значение, указывающее, будут ли возвращены только лучшие результаты. Значение по умолчанию:`ЛОЖЬ` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Получает или задает максимальное превышение минимального количества найденных ошибок. Значение по умолчанию:`0` . |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Нечеткий поиск](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 * [Параметры поиска](https://docs.groupdocs.com/display/searchnet/Search+options)

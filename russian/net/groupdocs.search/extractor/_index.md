@@ -3,7 +3,7 @@ title: Extractor
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет собой инструмент предварительного извлечения данных из документов для выделения этапа последующего быстрого индексирования.
 type: docs
-weight: 610
+weight: 620
 url: /ru/net/groupdocs.search/extractor/
 ---
 ## Extractor class

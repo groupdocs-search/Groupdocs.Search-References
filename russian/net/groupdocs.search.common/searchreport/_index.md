@@ -35,7 +35,7 @@ public class SearchReport
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Отчеты о поиске](https://docs.groupdocs.com/display/searchnet/Search+reports)
 

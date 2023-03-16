@@ -3,7 +3,7 @@ title: AliasReplacementPair
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет пару псевдоним/замена.
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/groupdocs.search.dictionaries/aliasreplacementpair/
 ---
 ## AliasReplacementPair class

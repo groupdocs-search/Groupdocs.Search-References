@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет найденный документ.
 type: docs
-weight: 1140
+weight: 1180
 url: /ru/net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class
@@ -35,7 +35,7 @@ public class FoundDocument
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Результаты поиска](https://docs.groupdocs.com/display/searchnet/Search+results)
 

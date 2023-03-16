@@ -3,7 +3,7 @@ title: OperationType
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет тип операции с индексом.
 type: docs
-weight: 560
+weight: 570
 url: /ru/net/groupdocs.search.events/operationtype/
 ---
 ## OperationType enumeration

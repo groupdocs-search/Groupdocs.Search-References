@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для индексации полей метаданных.
 type: docs
-weight: 940
+weight: 970
 url: /ru/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class
@@ -30,7 +30,7 @@ public class MetadataIndexingOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Параметры индексирования](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 * MetadataIndexingOptions используются при извлечении текста документа из индекса: [Получение проиндексированных документов](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

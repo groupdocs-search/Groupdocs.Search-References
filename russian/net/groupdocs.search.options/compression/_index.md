@@ -3,7 +3,7 @@ title: Compression
 second_title: GroupDocs.Search для справочника API .NET
 description: Задает уровень сжатия.
 type: docs
-weight: 730
+weight: 760
 url: /ru/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration
@@ -24,7 +24,7 @@ public enum Compression
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Хранение текста проиндексированных документов](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 

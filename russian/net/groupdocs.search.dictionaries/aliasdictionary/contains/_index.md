@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Search для справочника API .NET
-description: Определяет является лиAliasDictionarygroupdocs.search.dictionaries/aliasdictionaryобъект содержит указанный псевдоним.
+description: Определяет является лиAliasDictionarygroupdocs.search.dictionaries/aliasdictionary объект содержит указанный псевдоним.
 type: docs
 weight: 50
 url: /ru/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Определяет, является ли[`AliasDictionary`](../../aliasdictionary)объект содержит указанный псевдоним.
+Определяет, является ли[`AliasDictionary`](../../aliasdictionary) объект содержит указанный псевдоним.
 
 ```csharp
 public bool Contains(string alias)

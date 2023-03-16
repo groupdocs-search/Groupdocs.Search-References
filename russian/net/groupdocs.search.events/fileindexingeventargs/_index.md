@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет аргументы для события начала индексации документа.
 type: docs
-weight: 510
+weight: 520
 url: /ru/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class
@@ -33,7 +33,7 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [События поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

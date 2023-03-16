@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 920
+weight: 950
 url: /ru/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class
@@ -25,7 +25,7 @@ public static class MailFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

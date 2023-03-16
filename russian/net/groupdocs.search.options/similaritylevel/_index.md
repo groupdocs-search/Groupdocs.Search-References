@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет собой алгоритм нечеткого поиска задающий уровень сходства. Алгоритм уровня сходства вычисляет максимальное количество ошибок для слова как обратно пропорциональное длине слова.
 type: docs
-weight: 1010
+weight: 1050
 url: /ru/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -29,7 +29,7 @@ public class SimilarityLevel : FuzzyAlgorithm
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Нечеткий поиск](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

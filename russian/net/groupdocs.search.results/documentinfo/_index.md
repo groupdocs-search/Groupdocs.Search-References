@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет дескриптор индексированного документа.
 type: docs
-weight: 1110
+weight: 1150
 url: /ru/net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class
@@ -36,7 +36,7 @@ public class DocumentInfo
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Результаты поиска](https://docs.groupdocs.com/display/searchnet/Search+results)
 * [Получение проиндексированных документов](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

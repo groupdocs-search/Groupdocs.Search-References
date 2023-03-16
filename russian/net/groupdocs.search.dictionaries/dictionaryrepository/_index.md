@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет хранилище всех словарей вIndex../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /ru/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

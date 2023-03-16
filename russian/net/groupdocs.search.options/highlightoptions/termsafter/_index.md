@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Search для справочника API .NET
 description: Получает или задает максимальное количество слов в текстовом фрагменте после выделенного слова. Значение должно быть в диапазоне от 0 до 10000. Значение по умолчанию7 .
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

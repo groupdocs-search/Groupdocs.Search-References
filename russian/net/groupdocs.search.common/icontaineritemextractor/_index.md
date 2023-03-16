@@ -29,7 +29,7 @@ public interface IContainerItemExtractor : IFieldExtractor
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Пользовательские экстракторы текста](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

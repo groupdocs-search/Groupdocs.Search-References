@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь гетерографических омофонов.
 type: docs
-weight: 430
+weight: 440
 url: /ru/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class
@@ -36,7 +36,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск омофонов](https://docs.groupdocs.com/display/searchnet/Homophone+search)
 * [Управление словарем омофонов](https://docs.groupdocs.com/display/searchnet/Homophone+dictionary)

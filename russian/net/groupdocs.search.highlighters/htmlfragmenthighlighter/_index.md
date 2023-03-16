@@ -3,7 +3,7 @@ title: HtmlFragmentHighlighter
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет средство выделения результатов поиска которое выделяет результаты поиска во фрагментах текста в формате HTML.
 type: docs
-weight: 630
+weight: 660
 url: /ru/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
@@ -11,24 +11,19 @@ url: /ru/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 Представляет средство выделения результатов поиска, которое выделяет результаты поиска во фрагментах текста в формате HTML.
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## Конструкторы
+## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | Инициализирует новый экземпляр[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter) класс. |
-
-## Методы
-
-| Имя | Описание |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | Получает массив результирующих контейнеров фрагментов. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выделение результатов поиска](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

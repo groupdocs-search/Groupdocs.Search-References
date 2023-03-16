@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет базовый класс алгоритмов нечеткого поиска.
 type: docs
-weight: 810
+weight: 840
 url: /ru/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class
@@ -23,7 +23,7 @@ public abstract class FuzzyAlgorithm
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Нечеткий поиск](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

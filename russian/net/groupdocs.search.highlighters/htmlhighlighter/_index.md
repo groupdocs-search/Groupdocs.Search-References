@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет средство выделения результатов поиска которое выделяет результаты поиска во всем тексте документа отформатированном в HTML.
 type: docs
-weight: 640
+weight: 670
 url: /ru/net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
@@ -11,24 +11,19 @@ url: /ru/net/groupdocs.search.highlighters/htmlhighlighter/
 Представляет средство выделения результатов поиска, которое выделяет результаты поиска во всем тексте документа, отформатированном в HTML.
 
 ```csharp
+[Obsolete("Please, use the DocumentHighlighter class instead.")]
 public class HtmlHighlighter : Highlighter
 ```
-
-## Конструкторы
-
-| Имя | Описание |
-| --- | --- |
-| [HtmlHighlighter](htmlhighlighter)(OutputAdapter) | Инициализирует новый экземпляр[`HtmlHighlighter`](../htmlhighlighter) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [OutputAdapter](../../groupdocs.search.highlighters/htmlhighlighter/outputadapter) { get; } | Получает выходной адаптер, переданный конструктору. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выделение результатов поиска](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 
@@ -51,7 +46,7 @@ SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // Подсветка найденных слов в тексте документа
 FoundDocument document = result.GetFoundDocument(0);
-OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
+OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
 Highlighter highlighter = new HtmlHighlighter(outputAdapter);
 index.Highlight(document, highlighter);
 ```

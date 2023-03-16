@@ -33,7 +33,7 @@ public class IndexingReport
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Отчеты об индексировании](https://docs.groupdocs.com/display/searchnet/Indexing+reports)
 

@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет результат операции по удалению проиндексированных файлов или папок из индекса.
 type: docs
-weight: 1100
+weight: 1140
 url: /ru/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class
@@ -26,7 +26,7 @@ public class DeleteResult
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Удалить проиндексированные пути](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
 

@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет поставщика английских словоформ.
 type: docs
-weight: 420
+weight: 430
 url: /ru/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class
@@ -28,7 +28,7 @@ public class EnglishWordFormsProvider : IWordFormsProvider
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск различных словоформ](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
 * [Поставщик словоформ](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)

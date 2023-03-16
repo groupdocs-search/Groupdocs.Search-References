@@ -23,8 +23,8 @@ public void Add(string alias, string text)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Брошен, когда*alias* или же*text* является`нулевой`. |
-| ArgumentException | Псевдоним содержит символы, не входящие в диапазоны ab и 0–9. |
+| ArgumentNullException | Брошен, когда*alias* или*text* является`нулевой`. |
+| ArgumentException | Псевдоним содержит символы, не входящие в диапазоны ab и 0-9. |
 
 ### Смотрите также
 

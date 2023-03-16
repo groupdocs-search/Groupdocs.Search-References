@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs.Search для справочника API .NET
 description: Исключение возникающее при срабатывании ограничения лицензии.
 type: docs
-weight: 600
+weight: 610
 url: /ru/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class
@@ -16,7 +16,7 @@ public class LicenseRestrictionException : ApplicationException
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

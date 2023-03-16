@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Search для справочника API .NET
 description: Определяет интерфейс поставщика словоформ.
 type: docs
-weight: 440
+weight: 450
 url: /ru/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -22,7 +22,7 @@ public interface IWordFormsProvider
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск различных словоформ](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
 * [Поставщик словоформ](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)

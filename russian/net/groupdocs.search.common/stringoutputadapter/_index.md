@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | Имя | Описание |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | Инициализирует новый экземпляр[`StringOutputAdapter`](../stringoutputadapter) класс. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Инициализирует новый экземпляр[`StringOutputAdapter`](../stringoutputadapter) класс. |
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
 
 ## Методы
 
@@ -28,7 +34,7 @@ public class StringOutputAdapter : OutputAdapter
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выходные адаптеры](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // Индексация документов из у
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Получение информации об индексированных документах
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // Создание адаптера строкового вывода
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // Создание адаптера строкового вывода
 index.GetDocumentText(documents[0], adapter); // Генерация текста документа в адаптер
 String result = adapter.GetResult(); // Получение результата
 ```

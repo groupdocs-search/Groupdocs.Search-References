@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет аргументы для события обновления хода операции индексирования.
 type: docs
-weight: 550
+weight: 560
 url: /ru/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class
@@ -32,7 +32,7 @@ public class OperationProgressEventArgs : BaseIndexEventArgs
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [События поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 
