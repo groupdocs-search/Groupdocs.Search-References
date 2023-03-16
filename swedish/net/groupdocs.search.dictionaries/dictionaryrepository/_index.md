@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar ett arkiv med alla ordböcker i enIndex../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /sv/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

@@ -14,6 +14,12 @@ Representerar basklassen för en resultatbyggarfabrik.
 public abstract class ResultBuilderFactory
 ```
 
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
+
 ### Se även
 
 * namnutrymme [GroupDocs.Search.Common](../../groupdocs.search.common)

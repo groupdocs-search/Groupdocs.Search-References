@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar ett ordmönster att använda i ordjokerteckensökning.
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

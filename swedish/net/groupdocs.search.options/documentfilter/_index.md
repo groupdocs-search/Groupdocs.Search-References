@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar basklassen för dokumentfilter. Innehåller metoder för att skapa dokumentfilterinstanser.
 type: docs
-weight: 770
+weight: 800
 url: /sv/net/groupdocs.search.options/documentfilter/
 ---
 ## DocumentFilter class

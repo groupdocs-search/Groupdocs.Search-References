@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för att hämta dokumenttext från ett index.
 type: docs
-weight: 1060
+weight: 1100
 url: /sv/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet är`null` . Observera att detta värde endast används om dokumenttexten inte sparades i indexet. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet är`null`. Observera att detta värde endast används om dokumenttexten inte sparades i indexet. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Hämtar eller ställer in annulleringsobjektet. Standardvärdet är`null` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Hämtar eller ställer in den anpassade textextraheraren som användes för indexering. Standardvärdet är`null` . Observera att detta värde endast används om dokumenttexten inte sparades i indexet. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Hämtar eller ställer in den anpassade textextraheraren som användes för indexering. Standardvärdet är`null`. Observera att detta värde endast används om dokumenttexten inte sparades i indexet. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Hämtar eller ställer in ett värde som indikerar om Head-taggen genereras i utdata-HTML. Standardvärdet är`Sann` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Hämtar bildindexeringsalternativen för omvänd bildsökning. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Hämtar alternativen för att indexera metadatafält. |

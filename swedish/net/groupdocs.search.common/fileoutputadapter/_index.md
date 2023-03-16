@@ -18,13 +18,14 @@ public class FileOutputAdapter : OutputAdapter
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | Initierar en ny instans av[`FileOutputAdapter`](../fileoutputadapter) class. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Initierar en ny instans av[`FileOutputAdapter`](../fileoutputadapter) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | Får en utdatafilsökväg. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ### Anmärkningar
 

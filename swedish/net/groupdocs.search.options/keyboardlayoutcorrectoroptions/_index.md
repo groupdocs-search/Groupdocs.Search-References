@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för tangentbordslayoutkorrigeraren.
 type: docs
-weight: 910
+weight: 940
 url: /sv/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class

@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Search efter .NET API Reference
 description: Definierar gränssnittet för en ordformsleverantör.
 type: docs
-weight: 440
+weight: 450
 url: /sv/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -80,7 +80,7 @@ index.Add(documentsFolder);
 // Ställa in den anpassade ordformsleverantörsinstansen
 index.Dictionaries.WordFormsProvider = new SimpleWordFormsProvider();
  
-// Skapa en sökalternativsinstans
+// Skapar en sökalternativsinstans
 SearchOptions options = new SearchOptions();
 options.UseWordFormsSearch = true; // Möjliggör sökning efter ordformer
   
@@ -88,8 +88,8 @@ options.UseWordFormsSearch = true; // Möjliggör sökning efter ordformer
 SearchResult result = index.Search("relative", options);
   
 // Följande ord kan hittas:
-// släkting
-// släktings
+// relativ
+// relativs
 ```
 
 ### Se även

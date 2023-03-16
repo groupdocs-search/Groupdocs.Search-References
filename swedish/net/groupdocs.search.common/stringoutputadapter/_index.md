@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | namn | Beskrivning |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | Initierar en ny instans av[`StringOutputAdapter`](../stringoutputadapter) class. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Initierar en ny instans av[`StringOutputAdapter`](../stringoutputadapter) class. |
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ## Metoder
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // Indexering av dokument från den angivna mappen
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Få information om indexerade dokument
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // Skapa en strängutgångsadapter
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // Skapa en strängutgångsadapter
 index.GetDocumentText(documents[0], adapter); // Skapar en dokumenttext i adaptern
 String result = adapter.GetResult(); // Får ett resultat
 ```

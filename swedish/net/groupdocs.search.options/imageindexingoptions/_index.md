@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger bildindexeringsalternativ för omvänd bildsökning.
 type: docs
-weight: 860
+weight: 890
 url: /sv/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class

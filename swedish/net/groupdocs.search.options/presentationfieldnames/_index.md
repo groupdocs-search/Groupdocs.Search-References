@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 980
+weight: 1020
 url: /sv/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class

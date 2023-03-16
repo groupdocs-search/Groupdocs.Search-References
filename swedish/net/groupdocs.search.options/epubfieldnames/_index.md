@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 780
+weight: 810
 url: /sv/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class

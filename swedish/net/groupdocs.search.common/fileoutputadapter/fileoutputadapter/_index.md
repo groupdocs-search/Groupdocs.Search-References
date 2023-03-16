@@ -11,15 +11,17 @@ url: /sv/net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 Initierar en ny instans av[`FileOutputAdapter`](../../fileoutputadapter) class.
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Utdataformatet. |
 | filePath | String | Utdatafilens sökväg. |
 
 ### Se även
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * namnutrymme [GroupDocs.Search.Common](../../fileoutputadapter)
 * hopsättning [GroupDocs.Search](../../../)

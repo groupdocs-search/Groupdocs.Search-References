@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 800
+weight: 830
 url: /sv/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class

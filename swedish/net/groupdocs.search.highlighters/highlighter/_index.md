@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar basklassen för en överstrykning av sökresultat.
 type: docs
-weight: 620
+weight: 650
 url: /sv/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
@@ -13,6 +13,12 @@ Representerar basklassen för en överstrykning av sökresultat.
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ### Se även
 

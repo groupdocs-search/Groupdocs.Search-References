@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Fastighetsvärde
 
-`Sann` om den fuzzy sökalgoritmen överväger transpositioner; annars`falsk`.
+`Sann`om den fuzzy sökalgoritmen överväger transpositioner; annars`falsk`.
 
 ### Se även
 

@@ -3,7 +3,7 @@ title: Alphabet
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ordbok med tecken som används under indexering för att detektera teckentyp. Varje tecken kan hanteras som avgränsare som bokstav eller båda.
 type: docs
-weight: 360
+weight: 370
 url: /sv/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class

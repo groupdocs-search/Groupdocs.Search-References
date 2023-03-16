@@ -1,18 +1,24 @@
 ---
 title: OutputAdapter
 second_title: GroupDocs.Search efter .NET API Reference
-description: Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna ärFileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter  ochStringOutputAdapter./stringoutputadapter .
+description: Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna ärFileOutputAdapter./fileoutputadapter  StreamOutputAdapter./streamoutputadapter  StructureOutputAdapter./structureoutputadapter  ochStringOutputAdapter./stringoutputadapter .
 type: docs
 weight: 260
 url: /sv/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna är[`FileOutputAdapter`](../fileoutputadapter) ,[`StreamOutputAdapter`](../streamoutputadapter) , och[`StringOutputAdapter`](../stringoutputadapter) .
+Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna är[`FileOutputAdapter`](../fileoutputadapter) , [`StreamOutputAdapter`](../streamoutputadapter) , [`StructureOutputAdapter`](../structureoutputadapter) , och[`StringOutputAdapter`](../stringoutputadapter) .
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
+
+## Egenskaper
+
+| namn | Beskrivning |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ### Anmärkningar
 

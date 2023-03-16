@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Search efter .NET API Reference
-description: Hämtar eller ställer in fuzzy sökalgoritmen. De för närvarande tillgängliga fuzzy sökalgoritmerna ärSimilarityLevelgroupdocs.search.options/similaritylevel ochTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . Standardvärdet är en instans avSimilarityLevelgroupdocs.search.options/similaritylevel med ett likhetsnivåvärde på05 .
+description: Hämtar eller ställer in fuzzy sökalgoritmen. De för närvarande tillgängliga fuzzy sökalgoritmerna ärSimilarityLevelgroupdocs.search.options/similaritylevel ochTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. Standardvärdet är en instans avSimilarityLevelgroupdocs.search.options/similaritylevel med ett likhetsnivåvärde på05 .
 type: docs
 weight: 30
 url: /sv/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Hämtar eller ställer in fuzzy sökalgoritmen. De för närvarande tillgängliga fuzzy sökalgoritmerna är[`SimilarityLevel`](../../similaritylevel) och[`TableDiscreteFunction`](../../tablediscretefunction) . Standardvärdet är en instans av[`SimilarityLevel`](../../similaritylevel) med ett likhetsnivåvärde på`0,5` .
+Hämtar eller ställer in fuzzy sökalgoritmen. De för närvarande tillgängliga fuzzy sökalgoritmerna är[`SimilarityLevel`](../../similaritylevel) och[`TableDiscreteFunction`](../../tablediscretefunction). Standardvärdet är en instans av[`SimilarityLevel`](../../similaritylevel) med ett likhetsnivåvärde på`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }

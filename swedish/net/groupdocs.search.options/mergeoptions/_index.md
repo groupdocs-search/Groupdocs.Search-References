@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för sammanfogning.
 type: docs
-weight: 930
+weight: 960
 url: /sv/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class

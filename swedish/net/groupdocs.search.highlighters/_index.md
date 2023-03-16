@@ -12,6 +12,8 @@ Namnutrymmet innehåller överstrykningsmedel för att markera sökresultat i te
 
 | Klass | Beskrivning |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Representerar en markör för sökresultat som markerar sökresultat i en hel dokumenttext. |
+| [FragmentHighlighter](./fragmenthighlighter) | Representerar en markör för sökresultat som framhäver sökresultat i textfragment. |
 | [Highlighter](./highlighter) | Representerar basklassen för en överstrykning av sökresultat. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Representerar en överstrykning av sökresultat som framhäver sökresultat i HTML-formaterade textfragment. |
 | [HtmlHighlighter](./htmlhighlighter) | Representerar en överstrykning av sökresultat som markerar sökresultat i en hel dokumenttext formaterad i HTML. |

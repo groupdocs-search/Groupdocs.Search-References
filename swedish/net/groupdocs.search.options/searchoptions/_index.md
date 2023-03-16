@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för sökoperation.
 type: docs
-weight: 1000
+weight: 1040
 url: /sv/net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class

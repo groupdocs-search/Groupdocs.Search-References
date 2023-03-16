@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar den otydliga sökalgoritmen som innehåller överensstämmelse mellan ordlängder och antalet tillåtna misstag. Denna algoritm kan specificeras av en tabell med utdatavärden eller av en stegfunktion.
 type: docs
-weight: 1050
+weight: 1090
 url: /sv/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

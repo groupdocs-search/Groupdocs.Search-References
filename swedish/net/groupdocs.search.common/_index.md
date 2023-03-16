@@ -30,12 +30,13 @@ Namnutrymmet tillhandahåller gemensamma klasser för biblioteket.
 | [IndexInfo](./indexinfo) | Innehåller grundläggande information om en[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Representerar en detaljerad information om en indexeringsoperation. |
 | [Notification](./notification) | Basklassen för alla aviseringar till index. Denna klass innehåller även metoder för att skapa aviseringsobjekt. |
-| [OutputAdapter](./outputadapter) | Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna är[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , och[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Representerar basklassen för en utdataadapter som används för att samla in en utdata i en generaliserad form. De för närvarande tillgängliga adaptrarna är[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , och[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Representerar basklassen för en resultatbyggarfabrik. |
 | [SearchImage](./searchimage) | Representerar en bild att söka efter. |
 | [SearchReport](./searchreport) | Representerar en detaljerad information om en sökoperation. |
 | [StreamOutputAdapter](./streamoutputadapter) | Representerar en utgångsadapter som samlar utgången till enStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Representerar en utgångsadapter som samlar in utdata som enString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Representerar en utdataadapter som samlar utdata som en struktur som innehåller varje fält separat. |
 | [WordPattern](./wordpattern) | Representerar ett ordmönster att använda i ord-jokerteckensökning. |
 ## Gränssnitt
 

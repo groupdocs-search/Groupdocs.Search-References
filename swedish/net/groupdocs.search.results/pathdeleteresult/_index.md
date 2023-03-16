@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar resultatet av operationen att ta bort en indexerad fil eller mapp från ett index.
 type: docs
-weight: 1180
+weight: 1220
 url: /sv/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class

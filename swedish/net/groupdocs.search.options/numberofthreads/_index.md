@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search efter .NET API Reference
 description: Anger antalet trådar.
 type: docs
-weight: 950
+weight: 980
 url: /sv/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration

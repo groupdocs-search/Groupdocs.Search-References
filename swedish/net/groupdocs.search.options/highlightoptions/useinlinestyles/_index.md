@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: GroupDocs.Search efter .NET API Reference
 description: Hämtar eller ställer in ett värde som anger om inlinestilar används för att markera förekomster. Standardvärdet ärSann .
 type: docs
-weight: 60
+weight: 80
 url: /sv/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

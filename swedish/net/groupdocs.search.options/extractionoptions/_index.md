@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för att extrahera data från dokument.
 type: docs
-weight: 790
+weight: 820
 url: /sv/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class

@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar argument för händelsen där indexeringsoperationen är klar.
 type: docs
-weight: 540
+weight: 550
 url: /sv/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class

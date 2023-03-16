@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ordbok över dokumentlösenord.
 type: docs
-weight: 450
+weight: 460
 url: /sv/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class

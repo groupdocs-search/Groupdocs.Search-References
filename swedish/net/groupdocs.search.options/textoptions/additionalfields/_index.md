@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: GroupDocs.Search efter .NET API Reference
-description: Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet ärnull . Observera att detta värde endast används om dokumenttexten inte sparades i indexet.
+description: Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet ärnull. Observera att detta värde endast används om dokumenttexten inte sparades i indexet.
 type: docs
 weight: 20
 url: /sv/net/groupdocs.search.options/textoptions/additionalfields/
 ---
 ## TextOptions.AdditionalFields property
 
-Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet är`null` . Observera att detta värde endast används om dokumenttexten inte sparades i indexet.
+Hämtar eller ställer in de ytterligare dokumentfälten som användes för indexering. Standardvärdet är`null`. Observera att detta värde endast används om dokumenttexten inte sparades i indexet.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }

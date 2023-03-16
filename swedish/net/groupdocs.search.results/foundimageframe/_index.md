@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en hittad bildram.
 type: docs
-weight: 1160
+weight: 1200
 url: /sv/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class
