@@ -1,14 +1,14 @@
 ---
 title: FB2
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: FB2 uzantılı dosyalar eKitabın yapısını içeren FictionBook 2.0 eKitap dosyalarıdır. XML formatına dayalıdır ve kitabın her bir öğesini açıklamak için özel etiketler içerir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/ebook/fb2/ .
+description: FB2 uzantılı dosyalar eKitabın yapısını içeren FictionBook 2.0 eKitap dosyalarıdır. XML formatına dayalıdır ve kitabın her bir öğesini açıklamak için özel etiketler içerir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/ebook/fb2/ .
 type: docs
 weight: 220
 url: /tr/net/groupdocs.search.results/filetype/fb2/
 ---
 ## FileType.FB2 field
 
-FB2 uzantılı dosyalar, e-Kitabın yapısını içeren FictionBook 2.0 e-Kitap dosyalarıdır. XML formatına dayalıdır ve kitabın her bir öğesini açıklamak için özel etiketler içerir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/ebook/fb2/) .
+FB2 uzantılı dosyalar, e-Kitabın yapısını içeren FictionBook 2.0 e-Kitap dosyalarıdır. XML formatına dayalıdır ve kitabın her bir öğesini açıklamak için özel etiketler içerir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/ebook/fb2/) .
 
 ```csharp
 public static readonly FileType FB2;

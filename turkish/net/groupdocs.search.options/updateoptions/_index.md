@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Güncelleme işlemi için seçenekler sunar.
 type: docs
-weight: 1080
+weight: 1120
 url: /tr/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -26,7 +26,7 @@ public class UpdateOptions
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/updateoptions/cancellation) { get; set; } | İşlem iptal nesnesini alır veya ayarlar. Varsayılan değer:`hükümsüz` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/updateoptions/imageindexingoptions) { get; } | Ters görüntü arama için görüntü indeksleme seçeneklerini alır. |
-| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | Meta veri alanlarını indeksleme seçeneklerini alır. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | OCR işleme ve tanınan metni indeksleme seçeneklerini alır. |
 | [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | Dizinleme için kullanılan iş parçacığının sayısını alır veya ayarlar. Varsayılan değer:`1` . |

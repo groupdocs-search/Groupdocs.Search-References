@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Metin depolama ayarlarını temsil eder.
 type: docs
-weight: 1070
+weight: 1110
 url: /tr/net/groupdocs.search.options/textstoragesettings/
 ---
 ## TextStorageSettings class

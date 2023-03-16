@@ -3,7 +3,7 @@ title: Index
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Belgeleri indekslemek ve bunlar arasında arama yapmak için ana sınıfı temsil eder.
 type: docs
-weight: 650
+weight: 680
 url: /tr/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | Yeni bir örneğini başlatır.[`Index`](../index) bellekteki sınıf. |
 | [Index](index#constructor_1)(IndexSettings) | Yeni bir örneğini başlatır.[`Index`](../index) belirli dizin ayarlarıyla bellekteki sınıf. |
 | [Index](index#constructor_2)(string) | Yeni bir örneğini başlatır.[`Index`](../index) class. Diskte yeni bir dizin oluşturur veya mevcut bir dizini açar. |
-| [Index](index#constructor_3)(string, bool) | Yeni bir örneğini başlatır.[`Index`](../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`yanlış`; aksi takdirde diskte yeni bir dizin oluşturur. |
+| [Index](index#constructor_3)(string, bool) | Yeni bir örneğini başlatır.[`Index`](../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`YANLIŞ`; aksi takdirde diskte yeni bir dizin oluşturur. |
 | [Index](index#constructor_4)(string, IndexSettings) | Yeni bir örneğini başlatır.[`Index`](../index) class. Belirli ayarlarla yeni bir dizin oluşturur veya diskte mevcut bir dizini açar. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | Yeni bir örneğini başlatır.[`Index`](../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`yanlış` ; , aksi takdirde belirli dizin ayarlarıyla diskte yeni bir dizin oluşturur. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | Yeni bir örneğini başlatır.[`Index`](../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`YANLIŞ` ; , aksi takdirde belirli dizin ayarlarıyla diskte yeni bir dizin oluşturur. |
 
 ## Özellikleri
 

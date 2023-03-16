@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Heterografik sesteş sözcüklerin bir sözlüğünü temsil eder.
 type: docs
-weight: 430
+weight: 440
 url: /tr/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class

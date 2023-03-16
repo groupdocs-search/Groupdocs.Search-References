@@ -1,14 +1,14 @@
 ---
 title: DOC
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .doc uzantılı dosyalar Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer sözcük işleme belgelerini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/wordprocessing/doc/ .
+description: .doc uzantılı dosyalar Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer sözcük işleme belgelerini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/wordprocessing/doc/ .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.search.results/filetype/doc/
 ---
 ## FileType.DOC field
 
-.doc uzantılı dosyalar, Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer sözcük işleme belgelerini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/word-processing/doc/) .
+.doc uzantılı dosyalar, Microsoft Word tarafından oluşturulan belgeleri veya ikili dosya biçimindeki diğer sözcük işleme belgelerini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/word-processing/doc/) .
 
 ```csharp
 public static readonly FileType DOC;

@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Çok yönlü arama için alan adlarının bir listesini temsil eder.
 type: docs
-weight: 780
+weight: 810
 url: /tr/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class

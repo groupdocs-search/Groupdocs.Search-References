@@ -3,7 +3,7 @@ title: SearchPhase
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Arama aşamalarını temsil eder.
 type: docs
-weight: 580
+weight: 590
 url: /tr/net/groupdocs.search.events/searchphase/
 ---
 ## SearchPhase enumeration

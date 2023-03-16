@@ -1,14 +1,14 @@
 ---
 title: TXT
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .TXT uzantılı bir dosya satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/wordprocessing/txt/ .
+description: .TXT uzantılı bir dosya satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/wordprocessing/txt/ .
 type: docs
 weight: 640
 url: /tr/net/groupdocs.search.results/filetype/txt/
 ---
 ## FileType.TXT field
 
-.TXT uzantılı bir dosya, satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/word-processing/txt/) .
+.TXT uzantılı bir dosya, satır biçiminde düz metin içeren bir metin belgesini temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/word-processing/txt/) .
 
 ```csharp
 public static readonly FileType TXT;

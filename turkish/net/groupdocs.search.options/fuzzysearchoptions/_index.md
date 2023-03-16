@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulanık arama seçeneklerini sağlar.
 type: docs
-weight: 820
+weight: 850
 url: /tr/net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class
@@ -19,9 +19,9 @@ public class FuzzySearchOptions
 | İsim | Tanım |
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Bulanık arama algoritmasının iki bitişik karakterin transpozisyonunu tek bir hata olarak dikkate alması gerekip gerekmediğini belirten bir değer alır veya ayarlar. Varsayılan değer:`doğru` . |
-| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
-| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardır:[`SimilarityLevel`](../similaritylevel) ve[`TableDiscreteFunction`](../tablediscretefunction) . Varsayılan değer,[`SimilarityLevel`](../similaritylevel) benzerlik düzeyi değeri ile`0,5` . |
-| [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
+| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardır:[`SimilarityLevel`](../similaritylevel) Ve[`TableDiscreteFunction`](../tablediscretefunction). Varsayılan değer,[`SimilarityLevel`](../similaritylevel) benzerlik düzeyi değeri ile`0,5` . |
+| [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Bulunan minimum hata sayısının maksimum aşımını alır veya ayarlar. Varsayılan değer:`0` . |
 
 ### Notlar

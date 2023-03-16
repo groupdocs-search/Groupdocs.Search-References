@@ -3,7 +3,7 @@ title: AliasReplacementPair
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir diğer adı/yedek çifti temsil eder.
 type: docs
-weight: 350
+weight: 360
 url: /tr/net/groupdocs.search.dictionaries/aliasreplacementpair/
 ---
 ## AliasReplacementPair class

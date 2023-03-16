@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Meta veri alanlarını indekslemek için seçenekler sunar.
 type: docs
-weight: 940
+weight: 970
 url: /tr/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class

@@ -1,14 +1,14 @@
 ---
 title: TotalCount
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Silinecek yolların toplam sayısını döndürür.
+description: Silinecek yolların toplam sayısını verir.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.search.results/deleteresult/totalcount/
 ---
 ## DeleteResult.TotalCount property
 
-Silinecek yolların toplam sayısını döndürür.
+Silinecek yolların toplam sayısını verir.
 
 ```csharp
 public int TotalCount { get; }

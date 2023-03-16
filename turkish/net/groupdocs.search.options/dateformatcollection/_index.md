@@ -3,7 +3,7 @@ title: DateFormatCollection
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir koleksiyonu temsil ederDateFormat./dateformat nesneler.
 type: docs
-weight: 750
+weight: 780
 url: /tr/net/groupdocs.search.options/dateformatcollection/
 ---
 ## DateFormatCollection class

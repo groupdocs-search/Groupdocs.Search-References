@@ -30,12 +30,13 @@ Ad alanı, kitaplığın ortak sınıflarını sağlar.
 | [IndexInfo](./indexinfo) | Bir dosyayla ilgili temel bilgileri içerir.[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Dizin oluşturma işlemi hakkında ayrıntılı bilgileri temsil eder. |
 | [Notification](./notification) | Dizine yapılan tüm bildirimler için temel sınıf. Bu sınıf ayrıca bildirim nesneleri oluşturmak için yöntemler içerir. |
-| [OutputAdapter](./outputadapter) | Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılar:[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , ve[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılar:[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , ve[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Bir sonuç oluşturucu fabrikasının temel sınıfını temsil eder. |
 | [SearchImage](./searchimage) | Aranacak bir resmi temsil eder. |
 | [SearchReport](./searchreport) | Bir arama işlemiyle ilgili ayrıntılı bilgileri temsil eder. |
 | [StreamOutputAdapter](./streamoutputadapter) | Çıktıyı toplayan bir çıktı bağdaştırıcısını temsil eder.Stream . |
 | [StringOutputAdapter](./stringoutputadapter) | Çıkış olarak toplayan bir çıkış bağdaştırıcısını temsil eder.String . |
+| [StructureOutputAdapter](./structureoutputadapter) | Çıktıyı her alanı ayrı ayrı içeren bir yapı olarak toplayan bir çıktı bağdaştırıcısını temsil eder. |
 | [WordPattern](./wordpattern) | Sözcük joker karakter aramasında kullanılacak bir sözcük modelini temsil eder. |
 ## Arayüzler
 

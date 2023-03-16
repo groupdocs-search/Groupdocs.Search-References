@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: İndeksleme işlemi için seçenekler sunar.
 type: docs
-weight: 900
+weight: 930
 url: /tr/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
@@ -26,7 +26,7 @@ public class IndexingOptions
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | İşlem iptal nesnesini alır veya ayarlar. Varsayılan değer:`hükümsüz` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/indexingoptions/imageindexingoptions) { get; } | Ters görüntü arama için görüntü indeksleme seçeneklerini alır. |
-| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | Meta veri alanlarını indeksleme seçeneklerini alır. |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | OCR işleme ve tanınan metni indeksleme seçeneklerini alır. |
 | [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | Dizinleme için kullanılan iş parçacığının sayısını alır veya ayarlar. Varsayılan değer:`1` . |

@@ -1,14 +1,14 @@
 ---
 title: XHTML
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: XHTML HTML 4.0.nin yeniden formülasyonunu kullanan XMLde biçimlendirme içeren metin tabanlı bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/web/xhtml/ .
+description: XHTML HTML 4.0.nin yeniden formülasyonunu kullanan XMLde biçimlendirme içeren metin tabanlı bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/web/xhtml/ .
 type: docs
 weight: 710
 url: /tr/net/groupdocs.search.results/filetype/xhtml/
 ---
 ## FileType.XHTML field
 
-XHTML, HTML 4.0.'nin yeniden formülasyonunu kullanan, XML'de biçimlendirme içeren metin tabanlı bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin: format [burada](https://wiki.fileformat.com/web/xhtml/) .
+XHTML, HTML 4.0.'nin yeniden formülasyonunu kullanan, XML'de biçimlendirme içeren metin tabanlı bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin: format [Burada](https://wiki.fileformat.com/web/xhtml/) .
 
 ```csharp
 public static readonly FileType XHTML;

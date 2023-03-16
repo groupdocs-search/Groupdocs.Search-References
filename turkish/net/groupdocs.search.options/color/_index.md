@@ -3,7 +3,7 @@ title: Color
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir ARGB alfa kırmızı yeşil mavi rengi temsil eder.
 type: docs
-weight: 710
+weight: 740
 url: /tr/net/groupdocs.search.options/color/
 ---
 ## Color class

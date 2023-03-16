@@ -1,14 +1,14 @@
 ---
 title: OnlyBestResults
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.search.options/spellingcorrectoroptions/onlybestresults/
 ---
 ## SpellingCorrectorOptions.OnlyBestResults property
 
-Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Yalnızca en iyi sonuçların döndürülüp döndürülmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool OnlyBestResults { get; set; }
@@ -16,7 +16,7 @@ public bool OnlyBestResults { get; set; }
 
 ### Mülk değeri
 
-`doğru` sadece en iyi sonuçlar döndürülecekse; aksi halde`yanlış`.
+`doğru` sadece en iyi sonuçlar döndürülecekse; aksi halde`YANLIŞ`.
 
 ### Ayrıca bakınız
 

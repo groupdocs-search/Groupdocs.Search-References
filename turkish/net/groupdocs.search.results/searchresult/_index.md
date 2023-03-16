@@ -3,7 +3,7 @@ title: SearchResult
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir arama sorgusuyla eşleşen bir arama sonucunu temsil eder.
 type: docs
-weight: 1190
+weight: 1230
 url: /tr/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class

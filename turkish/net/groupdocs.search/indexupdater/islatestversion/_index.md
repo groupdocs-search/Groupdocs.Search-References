@@ -20,7 +20,7 @@ public bool IsLatestVersion(string indexPath)
 
 ### Geri dönüş değeri
 
-`doğru` belirtilen dizin en son sürümün bir dizinini içeriyorsa; aksi takdirde`yanlış` .
+`doğru` belirtilen dizin en son sürümün bir dizinini içeriyorsa; aksi takdirde`YANLIŞ` .
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: BirAliasDictionarygroupdocs.search.dictionaries/aliasdictionarynesne belirtilen takma adı içerir.
+description: BirAliasDictionarygroupdocs.search.dictionaries/aliasdictionary nesne belirtilen takma adı içerir.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Bir[`AliasDictionary`](../../aliasdictionary)nesne, belirtilen takma adı içerir.
+Bir[`AliasDictionary`](../../aliasdictionary) nesne, belirtilen takma adı içerir.
 
 ```csharp
 public bool Contains(string alias)
@@ -20,7 +20,7 @@ public bool Contains(string alias)
 
 ### Geri dönüş değeri
 
-`doğru` Eğer[`AliasDictionary`](../../aliasdictionary) nesne belirtilen takma adı içerir; aksi halde,`yanlış` .
+`doğru` Eğer[`AliasDictionary`](../../aliasdictionary) nesne belirtilen takma adı içerir; aksi takdirde,`YANLIŞ` .
 
 ### istisnalar
 

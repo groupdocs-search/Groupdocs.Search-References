@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Mülk değeri
 
-`doğru` yazım düzeltici algoritma yer değiştirmeleri dikkate alıyorsa; aksi halde`yanlış`.
+`doğru` yazım düzeltici algoritma yer değiştirmeleri dikkate alıyorsa; aksi halde`YANLIŞ`.
 
 ### Ayrıca bakınız
 

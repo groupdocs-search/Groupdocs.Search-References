@@ -3,7 +3,7 @@ title: OcrContext
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: OCR işleme bağlamını temsil eder.
 type: docs
-weight: 960
+weight: 990
 url: /tr/net/groupdocs.search.options/ocrcontext/
 ---
 ## OcrContext class

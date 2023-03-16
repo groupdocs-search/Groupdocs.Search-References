@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Nesne biçimindeki bir arama sorgusunu temsil eder.
 type: docs
-weight: 1200
+weight: 1240
 url: /tr/net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class

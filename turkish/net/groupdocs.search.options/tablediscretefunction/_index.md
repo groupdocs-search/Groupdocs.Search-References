@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Sözcük uzunlukları ile izin verilen hataların sayısı arasındaki karşılıkları içeren bulanık arama algoritmasını temsil eder. Bu algoritma bir çıktı değerleri tablosu veya bir adım fonksiyonu tarafından belirtilebilir.
 type: docs
-weight: 1050
+weight: 1090
 url: /tr/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

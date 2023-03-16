@@ -20,7 +20,7 @@ public bool Remove(DateFormat item)
 
 ### Geri dönüş değeri
 
-`doğru` öğe koleksiyondan başarıyla kaldırıldıysa; aksi halde,`yanlış` . Bu yöntem aynı zamanda şunu da döndürür:`yanlış` öğe koleksiyonda bulunmazsa.
+`doğru` öğe koleksiyondan başarıyla kaldırıldıysa; aksi takdirde,`YANLIŞ` . Bu yöntem aynı zamanda şunu da döndürür:`YANLIŞ` öğe koleksiyonda bulunmazsa.
 
 ### Ayrıca bakınız
 

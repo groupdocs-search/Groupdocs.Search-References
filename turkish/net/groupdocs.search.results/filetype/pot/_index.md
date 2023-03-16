@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .POT uzantılı dosyalar PowerPoint 972003 sürümleri tarafından oluşturulan ikili biçimdeki Microsoft PowerPoint şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/presentation/pot/ .
+description: .POT uzantılı dosyalar PowerPoint 972003 sürümleri tarafından oluşturulan ikili biçimdeki Microsoft PowerPoint şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/presentation/pot/ .
 type: docs
 weight: 470
 url: /tr/net/groupdocs.search.results/filetype/pot/
 ---
 ## FileType.POT field
 
-.POT uzantılı dosyalar, PowerPoint 97-2003 sürümleri tarafından oluşturulan ikili biçimdeki Microsoft PowerPoint şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/presentation/pot/) .
+.POT uzantılı dosyalar, PowerPoint 97-2003 sürümleri tarafından oluşturulan ikili biçimdeki Microsoft PowerPoint şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/presentation/pot/) .
 
 ```csharp
 public static readonly FileType POT;

@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizine alınan dosyaları veya klasörleri bir dizinden silme işleminin sonucunu temsil eder.
 type: docs
-weight: 1100
+weight: 1140
 url: /tr/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class
@@ -22,7 +22,7 @@ public class DeleteResult
 | [FailedCount](../../groupdocs.search.results/deleteresult/failedcount) { get; } | Hatalar nedeniyle silinmeyen yolların sayısını döndürür. |
 | [ItemResults](../../groupdocs.search.results/deleteresult/itemresults) { get; } | Her yolu silmenin sonucunu döndürür. |
 | [SuccessCount](../../groupdocs.search.results/deleteresult/successcount) { get; } | Başarıyla silinen yolların sayısını döndürür. |
-| [TotalCount](../../groupdocs.search.results/deleteresult/totalcount) { get; } | Silinecek yolların toplam sayısını döndürür. |
+| [TotalCount](../../groupdocs.search.results/deleteresult/totalcount) { get; } | Silinecek yolların toplam sayısını verir. |
 
 ### Notlar
 

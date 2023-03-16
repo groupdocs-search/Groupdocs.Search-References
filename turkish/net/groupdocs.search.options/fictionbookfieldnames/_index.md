@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Çok yönlü arama için alan adlarının bir listesini temsil eder.
 type: docs
-weight: 800
+weight: 830
 url: /tr/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class

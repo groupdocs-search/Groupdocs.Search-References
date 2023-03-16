@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizin oluşturma işlemi sırasında kullanılan bir karakter değiştirme sözlüğünü temsil eder. Karakter değiştirme örneğin aksanlı karakterlerden aksanları kaldırmak veya büyük/küçük harfe duyarsız dizin yapmak için kullanılabilir.
 type: docs
-weight: 370
+weight: 380
 url: /tr/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class

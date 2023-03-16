@@ -20,7 +20,7 @@ public bool Contains(string word)
 
 ### Geri dönüş değeri
 
-`doğru` Eğer[`StopWordDictionary`](../../stopworddictionary) nesne belirtilen kelimeyi içerir; aksi halde,`yanlış` .
+`doğru` Eğer[`StopWordDictionary`](../../stopworddictionary) nesne belirtilen kelimeyi içerir; aksi takdirde,`YANLIŞ` .
 
 ### Ayrıca bakınız
 

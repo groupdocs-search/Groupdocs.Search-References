@@ -20,7 +20,7 @@ public bool Remove(string key)
 
 ### Geri dönüş değeri
 
-`doğru` şifre başarıyla kaldırıldıysa; aksi halde,`yanlış` . Bu yöntem aynı zamanda şunu da döndürür:`yanlış` eğer*key* sözlükte bulunamadı.
+`doğru` şifre başarıyla kaldırıldıysa; aksi takdirde,`YANLIŞ` . Bu yöntem aynı zamanda şunu da döndürür:`YANLIŞ` eğer*key* sözlükte bulunamadı.
 
 ### Ayrıca bakınız
 

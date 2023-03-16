@@ -1,14 +1,14 @@
 ---
 title: DCM
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .DCM uzantılı dosyalar MRIlar BT taramaları ve ultrason görüntüleri gibi hastaların tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/dcm/ .
+description: .DCM uzantılı dosyalar MRIlar BT taramaları ve ultrason görüntüleri gibi hastaların tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/dcm/ .
 type: docs
 weight: 70
 url: /tr/net/groupdocs.search.results/filetype/dcm/
 ---
 ## FileType.DCM field
 
-.DCM uzantılı dosyalar, MRI'lar, BT taramaları ve ultrason görüntüleri gibi hastaların tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/dcm/) .
+.DCM uzantılı dosyalar, MRI'lar, BT taramaları ve ultrason görüntüleri gibi hastaların tıbbi bilgilerini depolayan dijital görüntüyü temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/dcm/) .
 
 ```csharp
 public static readonly FileType DCM;

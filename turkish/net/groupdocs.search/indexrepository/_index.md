@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Birden çok dizini birleştirmek ve bunlar üzerinde ortak işlemler gerçekleştirmek için bir kapsayıcıyı temsil eder.
 type: docs
-weight: 660
+weight: 690
 url: /tr/net/groupdocs.search/indexrepository/
 ---
 ## IndexRepository class

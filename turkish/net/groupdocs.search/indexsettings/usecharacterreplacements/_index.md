@@ -1,14 +1,14 @@
 ---
 title: UseCharacterReplacements
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property
 
-Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseCharacterReplacements { get; set; }

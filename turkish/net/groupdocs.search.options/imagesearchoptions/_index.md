@@ -3,7 +3,7 @@ title: ImageSearchOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Ters görüntü arama işlemi için seçenekler sunar.
 type: docs
-weight: 880
+weight: 910
 url: /tr/net/groupdocs.search.options/imagesearchoptions/
 ---
 ## ImageSearchOptions class

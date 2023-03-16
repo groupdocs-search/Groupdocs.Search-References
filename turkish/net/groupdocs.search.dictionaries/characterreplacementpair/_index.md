@@ -3,7 +3,7 @@ title: CharacterReplacementPair
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir karakter/yedek çifti temsil eder.
 type: docs
-weight: 380
+weight: 390
 url: /tr/net/groupdocs.search.dictionaries/characterreplacementpair/
 ---
 ## CharacterReplacementPair class

@@ -1,18 +1,24 @@
 ---
 title: Highlighter
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Bir arama sonucu vurgulayıcısının temel sınıfını temsil eder.
+description: Bir arama sonucu vurgulayıcının temel sınıfını temsil eder.
 type: docs
-weight: 620
+weight: 650
 url: /tr/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
 
-Bir arama sonucu vurgulayıcısının temel sınıfını temsil eder.
+Bir arama sonucu vurgulayıcının temel sınıfını temsil eder.
 
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ### Ayrıca bakınız
 

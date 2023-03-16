@@ -3,7 +3,7 @@ title: DateFormat
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir tarih biçimini temsil eder.
 type: docs
-weight: 740
+weight: 770
 url: /tr/net/groupdocs.search.options/dateformat/
 ---
 ## DateFormat class

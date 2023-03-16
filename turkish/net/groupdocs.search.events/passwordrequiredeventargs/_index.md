@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Parolayla korunan belge indekslenirken meydana gelen olay için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 570
+weight: 580
 url: /tr/net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class

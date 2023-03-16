@@ -10,7 +10,7 @@ is_root: true
 
 | ad alanı | Tanım |
 | --- | --- |
-| [GroupDocs.Search](./groupdocs.search) | Ad alanı, farklı biçimlerdeki belgelerde metin verilerinin indekslenmesi ve aranması için sınıflar sağlar. Bu ad alanındaki ana sınıflar: |
+| [GroupDocs.Search](./groupdocs.search) | Ad alanı, farklı biçimlerdeki belgelerdeki metin verilerinin indekslenmesi ve aranması için sınıflar sağlar. Bu ad alanındaki ana sınıflar: |
 | [GroupDocs.Search.Common](./groupdocs.search.common) | Ad alanı, kitaplığın ortak sınıflarını sağlar. |
 | [GroupDocs.Search.Dictionaries](./groupdocs.search.dictionaries) | Ad alanı, çeşitli sözlüklerin sınıflarını sağlar. |
 | [GroupDocs.Search.Events](./groupdocs.search.events) | Ad alanı, olay bağımsız değişkenleri sınıfları sağlar. |

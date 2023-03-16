@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Meydana gelen dizin hatası olayı için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 530
+weight: 540
 url: /tr/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class

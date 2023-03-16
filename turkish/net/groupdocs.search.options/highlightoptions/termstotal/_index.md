@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir metin parçasındaki maksimum kelime sayısını alır veya ayarlar. Değer 0 ile 10000 arasında olmalıdır. Varsayılan değer21 .
 type: docs
-weight: 50
+weight: 70
 url: /tr/net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

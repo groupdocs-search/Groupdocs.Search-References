@@ -11,15 +11,17 @@ url: /tr/net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 Yeni bir örneğini başlatır.[`FileOutputAdapter`](../../fileoutputadapter) sınıf.
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Çıkış biçimi. |
 | filePath | String | Çıkış dosyası yolu. |
 
 ### Ayrıca bakınız
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * ad alanı [GroupDocs.Search.Common](../../fileoutputadapter)
 * toplantı [GroupDocs.Search](../../../)

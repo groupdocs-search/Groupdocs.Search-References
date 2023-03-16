@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir belge parolaları sözlüğünü temsil eder.
 type: docs
-weight: 450
+weight: 460
 url: /tr/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class

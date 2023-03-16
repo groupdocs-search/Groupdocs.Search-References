@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: CHM dosya formatı bir HTML sayfaları koleksiyonundan oluşan Microsoft HTML yardım dosyasını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/web/chm/ .
+description: CHM dosya formatı bir HTML sayfaları koleksiyonundan oluşan Microsoft HTML yardım dosyasını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/web/chm/ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.search.results/filetype/chm/
 ---
 ## FileType.CHM field
 
-CHM dosya formatı, bir HTML sayfaları koleksiyonundan oluşan Microsoft HTML yardım dosyasını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/web/chm/) .
+CHM dosya formatı, bir HTML sayfaları koleksiyonundan oluşan Microsoft HTML yardım dosyasını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

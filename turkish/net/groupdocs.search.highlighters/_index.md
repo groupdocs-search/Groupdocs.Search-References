@@ -12,7 +12,9 @@ Ad alanı, metinde arama sonuçlarını vurgulamak için vurgulayıcılar sağla
 
 | Sınıf | Tanım |
 | --- | --- |
-| [Highlighter](./highlighter) | Bir arama sonucu vurgulayıcısının temel sınıfını temsil eder. |
+| [DocumentHighlighter](./documenthighlighter) | Tüm belge metninde arama sonuçlarını vurgulayan bir arama sonucu vurgulayıcıyı temsil eder. |
+| [FragmentHighlighter](./fragmenthighlighter) | Arama sonuçlarını metin parçalarında vurgulayan bir arama sonucu vurgulayıcıyı temsil eder. |
+| [Highlighter](./highlighter) | Bir arama sonucu vurgulayıcının temel sınıfını temsil eder. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Arama sonuçlarını HTML biçimli metin parçalarında vurgulayan bir arama sonucu vurgulayıcıyı temsil eder. |
 | [HtmlHighlighter](./htmlhighlighter) | HTML'de biçimlendirilmiş bir belge metninin tamamındaki arama sonuçlarını vurgulayan bir arama sonucu vurgulayıcıyı temsil eder. |
 

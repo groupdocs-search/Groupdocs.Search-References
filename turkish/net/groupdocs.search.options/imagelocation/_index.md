@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir görüntü konumu belirtir.
 type: docs
-weight: 870
+weight: 900
 url: /tr/net/groupdocs.search.options/imagelocation/
 ---
 ## ImageLocation enumeration

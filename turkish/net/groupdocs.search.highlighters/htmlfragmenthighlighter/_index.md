@@ -3,7 +3,7 @@ title: HtmlFragmentHighlighter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Arama sonuçlarını HTML biçimli metin parçalarında vurgulayan bir arama sonucu vurgulayıcıyı temsil eder.
 type: docs
-weight: 630
+weight: 660
 url: /tr/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
@@ -11,20 +11,15 @@ url: /tr/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 Arama sonuçlarını HTML biçimli metin parçalarında vurgulayan bir arama sonucu vurgulayıcıyı temsil eder.
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## yapıcılar
+## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | Yeni bir örneğini başlatır.[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter) sınıf. |
-
-## yöntemler
-
-| İsim | Tanım |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | Ortaya çıkan parça kaplarının bir dizisini alır. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ### Notlar
 

@@ -1,14 +1,14 @@
 ---
 title: EnabledForContainerItemImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Container örneğin bir ZIP arşivindeki görüntüler öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Container örneğin bir ZIP arşivindeki görüntüler öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages/
 ---
 ## ImageIndexingOptions.EnabledForContainerItemImages property
 
-Container (örneğin, bir ZIP arşivindeki görüntüler) öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Container (örneğin, bir ZIP arşivindeki görüntüler) öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForContainerItemImages { get; set; }

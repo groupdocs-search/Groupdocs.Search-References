@@ -1,14 +1,14 @@
 ---
 title: POTM
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: POTM uzantılı dosyalar Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM files  PowerPoint 2007 veya üzeri ile oluşturulur ve başka sunum dosyaları oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/presentation/potm/ .
+description: POTM uzantılı dosyalar Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM files  PowerPoint 2007 veya üzeri ile oluşturulur ve başka sunum dosyaları oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/presentation/potm/ .
 type: docs
 weight: 480
 url: /tr/net/groupdocs.search.results/filetype/potm/
 ---
 ## FileType.POTM field
 
-POTM uzantılı dosyalar, Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM files , PowerPoint 2007 veya üzeri ile oluşturulur ve başka sunum dosyaları oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/presentation/potm/) .
+POTM uzantılı dosyalar, Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM files , PowerPoint 2007 veya üzeri ile oluşturulur ve başka sunum dosyaları oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/presentation/potm/) .
 
 ```csharp
 public static readonly FileType POTM;

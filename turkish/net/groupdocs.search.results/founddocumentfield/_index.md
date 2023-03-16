@@ -3,7 +3,7 @@ title: FoundDocumentField
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulunan bir belge alanını temsil eder.
 type: docs
-weight: 1150
+weight: 1190
 url: /tr/net/groupdocs.search.results/founddocumentfield/
 ---
 ## FoundDocumentField class

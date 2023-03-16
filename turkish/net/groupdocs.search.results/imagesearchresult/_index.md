@@ -3,7 +3,7 @@ title: ImageSearchResult
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Tersine görsel aramanın sonucunu temsil eder.
 type: docs
-weight: 1170
+weight: 1210
 url: /tr/net/groupdocs.search.results/imagesearchresult/
 ---
 ## ImageSearchResult class

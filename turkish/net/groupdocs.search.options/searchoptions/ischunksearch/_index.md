@@ -1,14 +1,14 @@
 ---
 title: IsChunkSearch
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Parçalara göre arama bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Parçalara göre arama bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.search.options/searchoptions/ischunksearch/
 ---
 ## SearchOptions.IsChunkSearch property
 
-Parçalara göre arama bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Parçalara göre arama bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IsChunkSearch { get; set; }

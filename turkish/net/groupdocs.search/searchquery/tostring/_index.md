@@ -16,7 +16,7 @@ public abstract string ToString()
 
 ### Geri dönüş değeri
 
-BirString akımı temsil eden[`SearchQuery`](../../searchquery) örnek.
+birString akımı temsil eden[`SearchQuery`](../../searchquery) örnek.
 
 ### Ayrıca bakınız
 

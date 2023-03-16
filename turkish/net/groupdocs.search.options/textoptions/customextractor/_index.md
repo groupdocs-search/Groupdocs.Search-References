@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değerhükümsüz . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
+description: Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değerhükümsüz. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.search.options/textoptions/customextractor/
 ---
 ## TextOptions.CustomExtractor property
 
-Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
+Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

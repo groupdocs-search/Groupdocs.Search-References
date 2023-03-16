@@ -20,7 +20,7 @@ public bool Remove(string alias)
 
 ### Geri dönüş değeri
 
-Bu yöntem döndürür`doğru` takma ad başarıyla bulunur ve kaldırılırsa. Bu yöntem döndürür`yanlış` takma ad içinde bulunmazsa[`AliasDictionary`](../../aliasdictionary) nesne.
+Bu yöntem döndürür`doğru` takma ad başarıyla bulunur ve kaldırılırsa. Bu yöntem döndürür`YANLIŞ` takma ad içinde bulunmazsa[`AliasDictionary`](../../aliasdictionary) nesne.
 
 ### istisnalar
 

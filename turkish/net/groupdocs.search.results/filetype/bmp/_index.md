@@ -1,14 +1,14 @@
 ---
 title: BMP
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .BMP uzantılı dosyalar bitmap dijital görüntüleri depolamak için kullanılan Bitmap Görüntü dosyalarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/bmp/ .
+description: .BMP uzantılı dosyalar bitmap dijital görüntüleri depolamak için kullanılan Bitmap Görüntü dosyalarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/bmp/ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.search.results/filetype/bmp/
 ---
 ## FileType.BMP field
 
-.BMP uzantılı dosyalar, bitmap dijital görüntüleri depolamak için kullanılan Bitmap Görüntü dosyalarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/bmp/) .
+.BMP uzantılı dosyalar, bitmap dijital görüntüleri depolamak için kullanılan Bitmap Görüntü dosyalarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/bmp/) .
 
 ```csharp
 public static readonly FileType BMP;

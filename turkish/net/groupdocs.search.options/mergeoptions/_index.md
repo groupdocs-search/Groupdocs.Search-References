@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Birleştirme işlemi için seçenekler sunar.
 type: docs
-weight: 930
+weight: 960
 url: /tr/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
@@ -25,7 +25,7 @@ public class MergeOptions
 | İsim | Tanım |
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/mergeoptions/cancellation) { get; set; } | İşlem iptal nesnesini alır veya ayarlar. Varsayılan değer:`hükümsüz` . |
-| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 
 ### Notlar
 

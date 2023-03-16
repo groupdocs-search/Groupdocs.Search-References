@@ -1,14 +1,14 @@
 ---
 title: DOCM
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: DOCM dosyaları Microsoft Word 2007 veya daha yüksek sürümde oluşturulmuş ve makro çalıştırma özelliğine sahip belgelerdir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/docm/ .
+description: DOCM dosyaları Microsoft Word 2007 veya daha yüksek sürümde oluşturulmuş ve makro çalıştırma özelliğine sahip belgelerdir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/docm/ .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.search.results/filetype/docm/
 ---
 ## FileType.DOCM field
 
-DOCM dosyaları, Microsoft Word 2007 veya daha yüksek sürümde oluşturulmuş ve makro çalıştırma özelliğine sahip belgelerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/docm/) .
+DOCM dosyaları, Microsoft Word 2007 veya daha yüksek sürümde oluşturulmuş ve makro çalıştırma özelliğine sahip belgelerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/docm/) .
 
 ```csharp
 public static readonly FileType DOCM;

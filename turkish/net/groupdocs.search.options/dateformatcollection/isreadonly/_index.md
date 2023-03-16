@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Mülk değeri
 
-`doğru`koleksiyon salt okunur ise; aksi halde,`yanlış`.
+`doğru` koleksiyon salt okunur ise; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

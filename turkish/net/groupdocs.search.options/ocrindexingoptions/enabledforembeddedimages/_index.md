@@ -1,14 +1,14 @@
 ---
 title: EnabledForEmbeddedImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar örneğin bir DOCX belgesindeki resimler. Varsayılan değeryanlış .
+description: Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar örneğin bir DOCX belgesindeki resimler. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages/
 ---
 ## OcrIndexingOptions.EnabledForEmbeddedImages property
 
-Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki resimler). Varsayılan değer:`yanlış` .
+Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki resimler). Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForEmbeddedImages { get; set; }

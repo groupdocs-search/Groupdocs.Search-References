@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir eşanlamlılar sözlüğünü temsil eder.
 type: docs
-weight: 480
+weight: 490
 url: /tr/net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class

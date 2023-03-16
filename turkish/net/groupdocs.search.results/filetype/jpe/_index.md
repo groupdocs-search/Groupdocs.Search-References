@@ -1,14 +1,14 @@
 ---
 title: JPE
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: JPEG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/jpeg/ .
+description: JPEG kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 280
 url: /tr/net/groupdocs.search.results/filetype/jpe/
 ---
 ## FileType.JPE field
 
-JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/jpeg/) .
+JPEG, kayıplı sıkıştırma yöntemi kullanılarak kaydedilen bir görüntü biçimi türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPE;

@@ -3,7 +3,7 @@ title: IndexType
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir indeks tipi belirtir.
 type: docs
-weight: 890
+weight: 920
 url: /tr/net/groupdocs.search.options/indextype/
 ---
 ## IndexType enumeration

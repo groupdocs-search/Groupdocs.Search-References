@@ -16,7 +16,7 @@ public bool IsSuccess { get; }
 
 ### Mülk değeri
 
-`doğru` silme işlemi başarılı olduysa; Aksi takdirde, iade`yanlış`.
+`doğru` silme işlemi başarılı olduysa; Aksi takdirde, iade`YANLIŞ`.
 
 ### Ayrıca bakınız
 

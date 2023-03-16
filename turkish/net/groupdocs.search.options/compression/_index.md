@@ -3,7 +3,7 @@ title: Compression
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir sıkıştırma düzeyi belirtir.
 type: docs
-weight: 730
+weight: 760
 url: /tr/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration

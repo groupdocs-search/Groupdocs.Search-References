@@ -1,14 +1,14 @@
 ---
 title: WAV
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: WAVE Dalga Biçimi Ses Dosyası Biçimi olarak bilinen WAV Microsoftun dijital ses dosyalarını depolamak için Kaynak Değişim Dosyası Biçimi RIFF özelliğinin bir alt kümesidir. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/audio/wav/ .
+description: WAVE Dalga Biçimi Ses Dosyası Biçimi olarak bilinen WAV Microsoftun dijital ses dosyalarını depolamak için Kaynak Değişim Dosyası Biçimi RIFF özelliğinin bir alt kümesidir. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/audio/wav/ .
 type: docs
 weight: 680
 url: /tr/net/groupdocs.search.results/filetype/wav/
 ---
 ## FileType.WAV field
 
-WAVE (Dalga Biçimi Ses Dosyası Biçimi) olarak bilinen WAV, Microsoft'un dijital ses dosyalarını depolamak için Kaynak Değişim Dosyası Biçimi (RIFF) özelliğinin bir alt kümesidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/audio/wav/) .
+WAVE (Dalga Biçimi Ses Dosyası Biçimi) olarak bilinen WAV, Microsoft'un dijital ses dosyalarını depolamak için Kaynak Değişim Dosyası Biçimi (RIFF) özelliğinin bir alt kümesidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/audio/wav/) .
 
 ```csharp
 public static readonly FileType WAV;

@@ -18,12 +18,13 @@ public class StreamOutputAdapter : OutputAdapter
 
 | İsim | Tanım |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | Yeni bir örneğini başlatır.[`StreamOutputAdapter`](../streamoutputadapter) sınıf. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Yeni bir örneğini başlatır.[`StreamOutputAdapter`](../streamoutputadapter) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | Bir çıkış akışı alır. |
 
 ### Notlar

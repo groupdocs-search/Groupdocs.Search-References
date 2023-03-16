@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .EPUB uzantılı dosyalar yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir ekitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/ebook/epub/ .
+description: .EPUB uzantılı dosyalar yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir ekitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/ebook/epub/ .
 type: docs
 weight: 210
 url: /tr/net/groupdocs.search.results/filetype/epub/
 ---
 ## FileType.EPUB field
 
-.EPUB uzantılı dosyalar, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/ebook/epub/) .
+.EPUB uzantılı dosyalar, yayıncılar ve tüketiciler için standart bir dijital yayın biçimi sağlayan bir e-kitap dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/ebook/epub/) .
 
 ```csharp
 public static readonly FileType EPUB;

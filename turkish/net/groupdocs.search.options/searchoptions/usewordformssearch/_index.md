@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Aramada farklı kelime formlarını kullanma bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Aramada farklı kelime formlarını kullanma bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 140
 url: /tr/net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-Aramada farklı kelime formlarını kullanma bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Aramada farklı kelime formlarını kullanma bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }

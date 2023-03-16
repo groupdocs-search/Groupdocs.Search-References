@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Geri dönüş değeri
 
-Belirtilen sözcük veya boş dizi için sesteş sözcükler eğer[`HomophoneDictionary`](../../homophonedictionary)nesne belirtilen kelimeyi içermiyor.
+Belirtilen sözcük veya boş dizi için sesteş sözcükler eğer[`HomophoneDictionary`](../../homophonedictionary) nesne belirtilen kelimeyi içermiyor.
 
 ### Ayrıca bakınız
 

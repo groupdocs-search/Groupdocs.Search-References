@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizinlenmiş bir belge için tanımlayıcıyı temsil eder.
 type: docs
-weight: 1110
+weight: 1150
 url: /tr/net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class

@@ -20,7 +20,7 @@ public bool Contains(string key)
 
 ### Geri dönüş değeri
 
-`doğru` sözlük belge için bir şifre içeriyorsa; aksi halde,`yanlış` .
+`doğru` sözlük belge için bir şifre içeriyorsa; aksi takdirde,`YANLIŞ` .
 
 ### Ayrıca bakınız
 

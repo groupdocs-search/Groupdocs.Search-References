@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Çok yönlü arama için alan adlarının bir listesini temsil eder.
 type: docs
-weight: 980
+weight: 1020
 url: /tr/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class

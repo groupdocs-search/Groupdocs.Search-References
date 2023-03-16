@@ -1,14 +1,14 @@
 ---
 title: MP3
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: MP3 uzantılı dosyalar resmi olarak MPEG1 Ses Katmanı III veya MPEG2 Ses Katmanı III üzerinde tabanlı ses dosyaları için dijital olarak kodlanmış dosya biçimleridir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/audio/mp3/ .
+description: MP3 uzantılı dosyalar resmi olarak MPEG1 Ses Katmanı III veya MPEG2 Ses Katmanı III üzerinde tabanlı ses dosyaları için dijital olarak kodlanmış dosya biçimleridir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/audio/mp3/ .
 type: docs
 weight: 350
 url: /tr/net/groupdocs.search.results/filetype/mp3/
 ---
 ## FileType.MP3 field
 
-MP3 uzantılı dosyalar, resmi olarak MPEG-1 Ses Katmanı III veya MPEG-2 Ses Katmanı III üzerinde tabanlı ses dosyaları için dijital olarak kodlanmış dosya biçimleridir. Bu dosya hakkında daha fazla bilgi edinin: format [burada](https://wiki.fileformat.com/audio/mp3/) .
+MP3 uzantılı dosyalar, resmi olarak MPEG-1 Ses Katmanı III veya MPEG-2 Ses Katmanı III üzerinde tabanlı ses dosyaları için dijital olarak kodlanmış dosya biçimleridir. Bu dosya hakkında daha fazla bilgi edinin: format [Burada](https://wiki.fileformat.com/audio/mp3/) .
 
 ```csharp
 public static readonly FileType MP3;

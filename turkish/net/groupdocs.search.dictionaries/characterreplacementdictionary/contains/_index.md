@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### Geri dönüş değeri
 
-`doğru` Eğer[`CharacterReplacementDictionary`](../../characterreplacementdictionary) nesne belirtilen karakteri içerir; aksi takdirde ,`yanlış` .
+`doğru` Eğer[`CharacterReplacementDictionary`](../../characterreplacementdictionary) nesne belirtilen karakteri içerir; aksi takdirde ,`YANLIŞ` .
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Durdurma sözcükleri sözlüğünü temsil eder.
 type: docs
-weight: 470
+weight: 480
 url: /tr/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class

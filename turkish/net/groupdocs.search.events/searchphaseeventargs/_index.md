@@ -3,7 +3,7 @@ title: SearchPhaseEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Olayları değiştiren arama aşaması için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 590
+weight: 600
 url: /tr/net/groupdocs.search.events/searchphaseeventargs/
 ---
 ## SearchPhaseEventArgs class

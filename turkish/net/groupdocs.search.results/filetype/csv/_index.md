@@ -1,14 +1,14 @@
 ---
 title: CSV
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: CSV Virgülle Ayrılmış Değerler uzantılı dosyalar virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metin dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/spreadsheet/csv/ .
+description: CSV Virgülle Ayrılmış Değerler uzantılı dosyalar virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metin dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/spreadsheet/csv/ .
 type: docs
 weight: 50
 url: /tr/net/groupdocs.search.results/filetype/csv/
 ---
 ## FileType.CSV field
 
-CSV (Virgülle Ayrılmış Değerler) uzantılı dosyalar, virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metin dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/spreadsheet/csv/) .
+CSV (Virgülle Ayrılmış Değerler) uzantılı dosyalar, virgülle ayrılmış değerler içeren veri kayıtlarını içeren düz metin dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/spreadsheet/csv/) .
 
 ```csharp
 public static readonly FileType CSV;

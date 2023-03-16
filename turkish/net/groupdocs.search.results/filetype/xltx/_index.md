@@ -1,14 +1,14 @@
 ---
 title: XLTX
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: XLTX uzantılı dosyalar Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/specification/spreadsheet/xltx/ .
+description: XLTX uzantılı dosyalar Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/specification/spreadsheet/xltx/ .
 type: docs
 weight: 800
 url: /tr/net/groupdocs.search.results/filetype/xltx/
 ---
 ## FileType.XLTX field
 
-XLTX uzantılı dosyalar, Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/specification/spreadsheet/xltx/) .
+XLTX uzantılı dosyalar, Office OpenXML dosya biçimi belirtimlerini temel alan Microsoft Excel Şablon dosyalarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/specification/spreadsheet/xltx/) .
 
 ```csharp
 public static readonly FileType XLTX;

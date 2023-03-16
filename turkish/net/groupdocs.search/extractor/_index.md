@@ -3,7 +3,7 @@ title: Extractor
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Sonraki hızlı indeksleme aşamasını ayırmak için belgelerden ön veri çıkarma aracını temsil eder.
 type: docs
-weight: 610
+weight: 620
 url: /tr/net/groupdocs.search/extractor/
 ---
 ## Extractor class

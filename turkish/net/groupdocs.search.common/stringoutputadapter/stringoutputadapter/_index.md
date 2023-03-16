@@ -11,11 +11,16 @@ url: /tr/net/groupdocs.search.common/stringoutputadapter/stringoutputadapter/
 Yeni bir örneğini başlatır.[`StringOutputAdapter`](../../stringoutputadapter) sınıf.
 
 ```csharp
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
+
+| Parametre | Tip | Tanım |
+| --- | --- | --- |
+| outputFormat | OutputFormat | Çıkış biçimi. |
 
 ### Ayrıca bakınız
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StringOutputAdapter](../../stringoutputadapter)
 * ad alanı [GroupDocs.Search.Common](../../stringoutputadapter)
 * toplantı [GroupDocs.Search](../../../)

@@ -3,7 +3,7 @@ title: Step
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir adım fonksiyonunun bir adımını temsil eder.
 type: docs
-weight: 1040
+weight: 1080
 url: /tr/net/groupdocs.search.options/step/
 ---
 ## Step class

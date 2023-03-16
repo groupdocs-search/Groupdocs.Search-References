@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir takma adlar sözlüğünü temsil eder.
 type: docs
-weight: 340
+weight: 350
 url: /tr/net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class
@@ -29,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | Belirtilen takma ad/değiştirme çiftleri koleksiyonunu bu örneğine ekler.[`AliasDictionary`](../aliasdictionary) . |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | Belirtilen takma ad/değiştirme çiftleri koleksiyonunu bu örneğine ekler.[`AliasDictionary`](../aliasdictionary) . |
 | [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Bir dosyadan tüm diğer adları kaldırır.[`AliasDictionary`](../aliasdictionary) nesne. |
-| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Bir[`AliasDictionary`](../aliasdictionary)nesne, belirtilen takma adı içerir. |
+| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Bir[`AliasDictionary`](../aliasdictionary) nesne, belirtilen takma adı içerir. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Sözlüğü belirtilen ada sahip bir dosyaya aktarır. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | Koleksiyon boyunca yinelenen bir numaralandırıcı döndürür. |
 | [GetText](../../groupdocs.search.dictionaries/aliasdictionary/gettext)(string) | Belirtilen takma adla ilişkili bir metin alır. |

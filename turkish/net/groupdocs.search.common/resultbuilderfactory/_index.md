@@ -14,6 +14,12 @@ Bir sonuç oluşturucu fabrikasının temel sınıfını temsil eder.
 public abstract class ResultBuilderFactory
 ```
 
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
+
 ### Ayrıca bakınız
 
 * ad alanı [GroupDocs.Search.Common](../../groupdocs.search.common)

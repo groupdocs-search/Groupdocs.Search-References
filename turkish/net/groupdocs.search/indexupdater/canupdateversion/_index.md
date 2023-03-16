@@ -20,7 +20,7 @@ public bool CanUpdateVersion(string indexPath)
 
 ### Geri dönüş değeri
 
-`doğru` belirtilen dizindeki bir dizin en son sürüme güncellenebiliyorsa; aksi takdirde`yanlış` .
+`doğru` belirtilen dizindeki bir dizin en son sürüme güncellenebiliyorsa; aksi takdirde`YANLIŞ` .
 
 ### Ayrıca bakınız
 

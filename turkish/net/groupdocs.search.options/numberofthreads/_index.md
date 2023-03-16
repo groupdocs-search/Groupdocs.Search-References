@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Konu sayısını belirtir.
 type: docs
-weight: 950
+weight: 980
 url: /tr/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration

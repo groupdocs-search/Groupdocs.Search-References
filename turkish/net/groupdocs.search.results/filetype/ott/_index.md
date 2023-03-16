@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: OTT uzantılı dosyalar uygulamalar tarafından OASISin OpenDocument standart formatı ile uyumlu olarak oluşturulan şablon belgeleri temsil eder. Bunlar ücretsiz OpenOffice Writer gibi kelime işlemci uygulamalarıyla oluşturulur ve bu şablon dosyalarından yeni belgeler oluşturmak için kullanılabilecek ayarları tutabilir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/wordprocessing/ott/ .
+description: OTT uzantılı dosyalar uygulamalar tarafından OASISin OpenDocument standart formatı ile uyumlu olarak oluşturulan şablon belgeleri temsil eder. Bunlar ücretsiz OpenOffice Writer gibi kelime işlemci uygulamalarıyla oluşturulur ve bu şablon dosyalarından yeni belgeler oluşturmak için kullanılabilecek ayarları tutabilir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/wordprocessing/ott/ .
 type: docs
 weight: 440
 url: /tr/net/groupdocs.search.results/filetype/ott/
 ---
 ## FileType.OTT field
 
-OTT uzantılı dosyalar, uygulamalar tarafından OASIS'in OpenDocument standart formatı ile uyumlu olarak oluşturulan şablon belgeleri temsil eder. Bunlar, ücretsiz OpenOffice Writer gibi kelime işlemci uygulamalarıyla oluşturulur ve bu şablon dosyalarından yeni belgeler oluşturmak için kullanılabilecek ayarları tutabilir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/word-processing/ott/) .
+OTT uzantılı dosyalar, uygulamalar tarafından OASIS'in OpenDocument standart formatı ile uyumlu olarak oluşturulan şablon belgeleri temsil eder. Bunlar, ücretsiz OpenOffice Writer gibi kelime işlemci uygulamalarıyla oluşturulur ve bu şablon dosyalarından yeni belgeler oluşturmak için kullanılabilecek ayarları tutabilir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/word-processing/ott/) .
 
 ```csharp
 public static readonly FileType OTT;

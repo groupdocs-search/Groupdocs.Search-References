@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Geri dönüş değeri
 
-Belirtilen sözcük veya boş dizi için eşanlamlılar eğer[`SynonymDictionary`](../../synonymdictionary)nesne belirtilen kelimeyi içermiyor.
+Belirtilen sözcük veya boş dizi için eşanlamlılar eğer[`SynonymDictionary`](../../synonymdictionary) nesne belirtilen kelimeyi içermiyor.
 
 ### Ayrıca bakınız
 

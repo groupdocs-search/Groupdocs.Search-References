@@ -1,14 +1,14 @@
 ---
 title: GIF
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: GIF veya Grafik Değişim Biçimi yüksek oranda sıkıştırılmış bir görüntü türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/gif/ .
+description: GIF veya Grafik Değişim Biçimi yüksek oranda sıkıştırılmış bir görüntü türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/gif/ .
 type: docs
 weight: 240
 url: /tr/net/groupdocs.search.results/filetype/gif/
 ---
 ## FileType.GIF field
 
-GIF veya Grafik Değişim Biçimi, yüksek oranda sıkıştırılmış bir görüntü türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/gif/) .
+GIF veya Grafik Değişim Biçimi, yüksek oranda sıkıştırılmış bir görüntü türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/gif/) .
 
 ```csharp
 public static readonly FileType GIF;
