@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones de indexación de imágenes para la búsqueda inversa de imágenes.
 type: docs
-weight: 860
+weight: 890
 url: /es/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class
@@ -18,9 +18,9 @@ public class ImageIndexingOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor (por ejemplo, imágenes en un archivo ZIP). El valor predeterminado es`falso` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Obtiene o establece un valor que indica si se indexan imágenes incrustadas (por ejemplo, imágenes en un documento DOCX). El valor predeterminado es`falso` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado es`falso` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor (por ejemplo, imágenes en un archivo ZIP). El valor predeterminado es`FALSO` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Obtiene o establece un valor que indica si se indexan imágenes incrustadas (por ejemplo, imágenes en un documento DOCX). El valor predeterminado es`FALSO` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado es`FALSO` . |
 
 ### Ver también
 

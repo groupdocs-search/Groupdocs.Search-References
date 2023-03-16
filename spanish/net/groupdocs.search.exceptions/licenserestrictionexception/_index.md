@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: La excepción que se lanza cuando se activa una restricción de licencia.
 type: docs
-weight: 600
+weight: 610
 url: /es/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class

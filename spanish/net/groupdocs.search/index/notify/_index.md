@@ -20,7 +20,7 @@ public bool Notify(Notification notification)
 
 ### Valor_devuelto
 
-Devoluciones`verdadero`si la notificación se realizó con éxito; de lo contrario`falso` .
+Devoluciones`verdadero`si la notificación se realizó con éxito; de lo contrario`FALSO` .
 
 ### Ver también
 

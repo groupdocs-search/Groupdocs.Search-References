@@ -20,7 +20,7 @@ public bool Remove(IFieldExtractor extractor)
 
 ### Valor_devuelto
 
-`verdadero` si*extractor* fue eliminado con éxito de la colección; de lo contrario,`falso` . Este método también devuelve`falso` si*extractor* no se encuentra en la colección original.
+`verdadero` si*extractor* fue eliminado con éxito de la colección; de lo contrario,`FALSO` . Este método también devuelve`FALSO` si*extractor* no se encuentra en la colección original.
 
 ### Ver también
 

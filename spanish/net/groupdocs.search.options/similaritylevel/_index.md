@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un algoritmo de búsqueda difusa que especifica el nivel de similitud. El algoritmo de nivel de similitud calcula el número máximo de errores de una palabra como inversamente proporcional a la longitud de la palabra.
 type: docs
-weight: 1010
+weight: 1050
 url: /es/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -50,7 +50,7 @@ options.FuzzySearch.Enabled = true; // Habilitando la búsqueda difusa
 options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8); // Creando el algoritmo de búsqueda difusa
 // Esta función especifica 0 como el número máximo de errores para palabras de 1 a 4 caracteres.
 // Especifica 1 como el número máximo de errores para palabras de 5 a 9 caracteres.
-// Especifica 2 como el número máximo de errores para palabras de 10 a 14 caracteres. Y así.
+// Especifica 2 como el número máximo de errores para palabras de 10 a 14 caracteres. Etcétera.
 
 SearchResult result = index.Search(query, options); // Buscar en el índice
 ```

@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa argumentos para el evento de actualización del progreso de la operación de indexación.
 type: docs
-weight: 550
+weight: 560
 url: /es/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class

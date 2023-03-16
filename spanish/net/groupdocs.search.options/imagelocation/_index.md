@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Especifica una ubicación de imagen.
 type: docs
-weight: 870
+weight: 900
 url: /es/net/groupdocs.search.options/imagelocation/
 ---
 ## ImageLocation enumeration

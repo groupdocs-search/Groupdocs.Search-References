@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para la operación de indexación.
 type: docs
-weight: 900
+weight: 930
 url: /es/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
@@ -26,7 +26,7 @@ public class IndexingOptions
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | Obtiene o establece el objeto de cancelación de la operación. El valor por defecto es`nulo` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/indexingoptions/imageindexingoptions) { get; } | Obtiene las opciones de indexación de imágenes para la búsqueda inversa de imágenes. |
-| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`falso` . |
+| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`FALSO` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | Obtiene las opciones para indexar campos de metadatos. |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | Obtiene las opciones para el procesamiento de OCR y la indexación de texto reconocido. |
 | [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | Obtiene o establece el número de subprocesos utilizados para la indexación. El valor predeterminado es`1` . |

@@ -18,13 +18,14 @@ public class FileOutputAdapter : OutputAdapter
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | Inicializa una nueva instancia del[`FileOutputAdapter`](../fileoutputadapter) clase. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Inicializa una nueva instancia del[`FileOutputAdapter`](../fileoutputadapter) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | Obtiene una ruta de archivo de salida. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Obtiene el formato de salida. |
 
 ### Observaciones
 

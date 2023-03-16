@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Obtiene o establece el número máximo de palabras en un fragmento de texto después de la palabra resaltada. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es7 .
 type: docs
-weight: 30
+weight: 50
 url: /es/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

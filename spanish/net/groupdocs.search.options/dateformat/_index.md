@@ -3,7 +3,7 @@ title: DateFormat
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un formato de fecha.
 type: docs
-weight: 740
+weight: 770
 url: /es/net/groupdocs.search.options/dateformat/
 ---
 ## DateFormat class

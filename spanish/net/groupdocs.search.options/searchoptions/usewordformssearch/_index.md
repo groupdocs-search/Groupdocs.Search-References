@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el indicador de usar diferentes formas de palabras en la búsqueda. El valor predeterminado esfalso .
+description: Obtiene o establece el indicador de usar diferentes formas de palabras en la búsqueda. El valor predeterminado esFALSO .
 type: docs
 weight: 140
 url: /es/net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-Obtiene o establece el indicador de usar diferentes formas de palabras en la búsqueda. El valor predeterminado es`falso` .
+Obtiene o establece el indicador de usar diferentes formas de palabras en la búsqueda. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }

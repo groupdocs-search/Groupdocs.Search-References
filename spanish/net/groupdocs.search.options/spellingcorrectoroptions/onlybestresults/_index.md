@@ -1,14 +1,14 @@
 ---
 title: OnlyBestResults
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado esFALSO .
 type: docs
 weight: 40
 url: /es/net/groupdocs.search.options/spellingcorrectoroptions/onlybestresults/
 ---
 ## SpellingCorrectorOptions.OnlyBestResults property
 
-Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool OnlyBestResults { get; set; }
@@ -16,7 +16,7 @@ public bool OnlyBestResults { get; set; }
 
 ### El valor de la propiedad
 
-`verdadero` si solo se obtendrán los mejores resultados; de lo contrario`falso`.
+`verdadero` si solo se obtendrán los mejores resultados; de lo contrario`FALSO`.
 
 ### Ver también
 

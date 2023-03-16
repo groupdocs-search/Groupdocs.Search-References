@@ -105,7 +105,7 @@ public Index(string indexFolder, IndexSettings settings)
 
 ### Ejemplos
 
-El ejemplo demuestra cómo crear un índice en un disco con una configuración de índice particular.
+El ejemplo muestra cómo crear un índice en un disco con una configuración de índice particular.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-Inicializa una nueva instancia del[`Index`](../../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`falso`; crea un nuevo índice en el disco de lo contrario.
+Inicializa una nueva instancia del[`Index`](../../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`FALSO`; crea un nuevo índice en el disco de lo contrario.
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-Inicializa una nueva instancia del[`Index`](../../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`falso` ; crea un nuevo índice en el disco con una configuración de índice particular de lo contrario.
+Inicializa una nueva instancia del[`Index`](../../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`FALSO` ; crea un nuevo índice en el disco con una configuración de índice particular de lo contrario.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
@@ -169,7 +169,7 @@ public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
 
 ### Ejemplos
 
-El ejemplo demuestra cómo crear un índice en un disco con una configuración de índice particular.
+El ejemplo muestra cómo crear un índice en un disco con una configuración de índice particular.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

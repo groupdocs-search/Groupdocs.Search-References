@@ -20,7 +20,7 @@ public bool CanUpdateVersion(string indexPath)
 
 ### Valor_devuelto
 
-`verdadero` si un índice en el directorio especificado se puede actualizar a la última versión; de lo contrario`falso` .
+`verdadero` si un índice en el directorio especificado se puede actualizar a la última versión; de lo contrario`FALSO` .
 
 ### Ver también
 

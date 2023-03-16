@@ -20,7 +20,7 @@ public bool Remove(string key)
 
 ### Valor_devuelto
 
-`verdadero` si la contraseña se eliminó con éxito; de lo contrario,`falso` . Este método también devuelve`falso` si*key* no se encontró en el diccionario.
+`verdadero` si la contraseña se eliminó con éxito; de lo contrario,`FALSO` . Este método también devuelve`FALSO` si*key* no se encontró en el diccionario.
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa el algoritmo de búsqueda aproximada que contiene correspondencias entre la longitud de las palabras y el número de errores permitidos. Este algoritmo se puede especificar mediante una tabla de valores de salida o mediante una función de paso.
 type: docs
-weight: 1050
+weight: 1090
 url: /es/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

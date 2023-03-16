@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: OST o archivos de almacenamiento fuera de línea representan los datos del buzón de correo del usuario en modo fuera de línea en la máquina local al registro con Exchange Server usando Microsoft Outlook. Obtenga más información sobre este formato de archivo aquíhttps//wiki.fileformat.com/email/ost/ .
+description: OST o archivos de almacenamiento fuera de línea representan los datos del buzón del usuario en modo fuera de línea en la máquina local al registro con Exchange Server usando Microsoft Outlook. Más información sobre este formato de archivo aquíhttps//wiki.fileformat.com/email/ost/ .
 type: docs
 weight: 420
 url: /es/net/groupdocs.search.results/filetype/ost/
 ---
 ## FileType.OST field
 
-OST o archivos de almacenamiento fuera de línea representan los datos del buzón de correo del usuario en modo fuera de línea en la máquina local al registro con Exchange Server usando Microsoft Outlook. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/ost/) .
+OST o archivos de almacenamiento fuera de línea representan los datos del buzón del usuario en modo fuera de línea en la máquina local al registro con Exchange Server usando Microsoft Outlook. Más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/ost/) .
 
 ```csharp
 public static readonly FileType OST;

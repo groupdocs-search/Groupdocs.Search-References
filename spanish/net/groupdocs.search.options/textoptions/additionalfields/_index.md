@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado esnulo . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice.
+description: Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado esnulo. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice.
 type: docs
 weight: 20
 url: /es/net/groupdocs.search.options/textoptions/additionalfields/
 ---
 ## TextOptions.AdditionalFields property
 
-Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo` . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice.
+Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo`. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }

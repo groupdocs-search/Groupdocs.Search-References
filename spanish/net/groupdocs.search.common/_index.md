@@ -30,12 +30,13 @@ El espacio de nombres proporciona clases comunes de la biblioteca.
 | [IndexInfo](./indexinfo) | Contiene información básica sobre un[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Representa información detallada sobre una operación de indexación. |
 | [Notification](./notification) | La clase base para todas las notificaciones al índice. Esta clase también contiene métodos para crear objetos de notificación. |
-| [OutputAdapter](./outputadapter) | Representa la clase base de un adaptador de salida que se utiliza para recopilar una salida en forma generalizada. Los adaptadores disponibles actualmente son[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , y[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Representa la clase base de un adaptador de salida que se utiliza para recopilar una salida en forma generalizada. Los adaptadores disponibles actualmente son[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , y[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Representa la clase base de una fábrica de generadores de resultados. |
 | [SearchImage](./searchimage) | Representa una imagen para buscar. |
 | [SearchReport](./searchreport) | Representa información detallada sobre una operación de búsqueda. |
 | [StreamOutputAdapter](./streamoutputadapter) | Representa un adaptador de salida que recopila la salida en unStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Representa un adaptador de salida que recopila la salida como unString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Representa un adaptador de salida que recopila la salida como una estructura que contiene cada campo por separado. |
 | [WordPattern](./wordpattern) | Representa un patrón de palabras para usar en la búsqueda de palabras comodín. |
 ## Interfaces
 

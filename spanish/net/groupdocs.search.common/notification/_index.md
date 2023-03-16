@@ -18,7 +18,7 @@ public abstract class Notification
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateRenameNotification](../../groupdocs.search.common/notification/createrenamenotification)(string, string) | Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización, incluso si su contenido ha sido cambiado. |
+| static [CreateRenameNotification](../../groupdocs.search.common/notification/createrenamenotification)(string, string) | Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización, incluso si se ha cambiado su contenido. |
 
 ### Observaciones
 

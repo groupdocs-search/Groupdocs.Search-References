@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa la configuración del índice que permite personalizar las operaciones de indexación.
 type: docs
-weight: 670
+weight: 700
 url: /es/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -24,7 +24,7 @@ public class IndexSettings
 
 | Nombre | Descripción |
 | --- | --- |
-| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Obtiene o establece un valor que indica si se detecta la codificación automáticamente o no. El valor predeterminado es`falso` . |
+| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Obtiene o establece un valor que indica si se detecta la codificación automáticamente o no. El valor predeterminado es`FALSO` . |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | Obtiene la colección de extractores personalizados. |
 | [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Obtiene o establece un filtro de documentos. El[`DocumentFilter`](./documentfilter) funciona en la lógica de inclusión. Use el[`DocumentFilter`](../../groupdocs.search.options/documentfilter) clase para la creación de instancias de un filtro de documentos. El valor predeterminado es`nulo` , lo que significa que todos los documentos agregados están indexados. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | Obtiene o establece el tipo de índice. El valor predeterminado esNormalIndex . |
@@ -34,7 +34,7 @@ public class IndexSettings
 | [MaxSearchReportCount](../../groupdocs.search/indexsettings/maxsearchreportcount) { get; set; } | Obtiene o establece el número máximo de informes de búsqueda. El valor predeterminado es`10` . |
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Obtiene o establece el número de subprocesos utilizados para la búsqueda. El valor predeterminado esDefault , lo que significa que la búsqueda se realizará utilizando el número de subprocesos igual al número de núcleos del procesador. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Obtiene o establece la configuración de almacenamiento de texto. El valor predeterminado es`nulo` , lo que significa que los textos de los documentos no se almacenan. |
-| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Obtiene o establece un valor que indica si se deben usar reemplazos de caracteres o no. El valor predeterminado es`falso` . |
+| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Obtiene o establece un valor que indica si se deben usar reemplazos de caracteres o no. El valor predeterminado es`FALSO` . |
 | [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Obtiene o establece un valor que indica si el modo sin formato se usa para la extracción de texto, si es posible. El valor predeterminado es`verdadero` . El modo sin procesar puede aumentar significativamente la velocidad de indexación, pero el modo normal mejora el formato del texto extraído. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Obtiene o establece un valor que indica si se deben usar palabras vacías o no. El valor predeterminado es`verdadero` . |
 

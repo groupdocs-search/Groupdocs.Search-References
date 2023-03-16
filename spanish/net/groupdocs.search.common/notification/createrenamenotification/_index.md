@@ -1,14 +1,14 @@
 ---
 title: CreateRenameNotification
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización incluso si su contenido ha sido cambiado.
+description: Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización incluso si se ha cambiado su contenido.
 type: docs
 weight: 10
 url: /es/net/groupdocs.search.common/notification/createrenamenotification/
 ---
 ## Notification.CreateRenameNotification method
 
-Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización, incluso si su contenido ha sido cambiado.
+Crea un objeto de notificación para cambiar el nombre de un documento indexado que ha sido renombrado y no necesita ser reindexado. El documento renombrado no será reindexado durante la siguiente operación de actualización, incluso si se ha cambiado su contenido.
 
 ```csharp
 public static Notification CreateRenameNotification(string oldPath, string newPath)

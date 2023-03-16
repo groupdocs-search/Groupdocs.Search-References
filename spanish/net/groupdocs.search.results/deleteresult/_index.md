@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa el resultado de la operación para eliminar archivos o carpetas indexados de un índice.
 type: docs
-weight: 1100
+weight: 1140
 url: /es/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class

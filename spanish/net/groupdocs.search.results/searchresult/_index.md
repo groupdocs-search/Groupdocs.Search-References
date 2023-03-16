@@ -3,7 +3,7 @@ title: SearchResult
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un resultado de búsqueda que coincide con una consulta de búsqueda.
 type: docs
-weight: 1190
+weight: 1230
 url: /es/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class

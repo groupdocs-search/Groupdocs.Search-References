@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa la clase principal para indexar documentos y buscar en ellos.
 type: docs
-weight: 650
+weight: 680
 url: /es/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | Inicializa una nueva instancia del[`Index`](../index) clase en memoria. |
 | [Index](index#constructor_1)(IndexSettings) | Inicializa una nueva instancia del[`Index`](../index) clase en memoria con configuración de índice particular. |
 | [Index](index#constructor_2)(string) | Inicializa una nueva instancia del[`Index`](../index) class. Crea un índice nuevo o abre uno existente en el disco. |
-| [Index](index#constructor_3)(string, bool) | Inicializa una nueva instancia del[`Index`](../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`falso`; crea un nuevo índice en el disco de lo contrario. |
+| [Index](index#constructor_3)(string, bool) | Inicializa una nueva instancia del[`Index`](../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`FALSO`; crea un nuevo índice en el disco de lo contrario. |
 | [Index](index#constructor_4)(string, IndexSettings) | Inicializa una nueva instancia del[`Index`](../index) class. Crea un nuevo índice con una configuración particular o abre un índice existente en el disco. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | Inicializa una nueva instancia del[`Index`](../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`falso` ; crea un nuevo índice en el disco con una configuración de índice particular de lo contrario. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | Inicializa una nueva instancia del[`Index`](../index) class. Carga un índice existente desde el disco si*overwriteIfExists* es`FALSO` ; crea un nuevo índice en el disco con una configuración de índice particular de lo contrario. |
 
 ## Propiedades
 

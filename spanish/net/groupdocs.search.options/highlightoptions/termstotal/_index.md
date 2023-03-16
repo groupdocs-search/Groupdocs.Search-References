@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Obtiene o establece el número máximo de palabras en un fragmento de texto. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es21 .
 type: docs
-weight: 50
+weight: 70
 url: /es/net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

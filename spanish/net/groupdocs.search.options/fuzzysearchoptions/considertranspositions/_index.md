@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### El valor de la propiedad
 
-`verdadero` si el algoritmo de búsqueda difusa considera transposiciones; en caso contrario`falso`.
+`verdadero`si el algoritmo de búsqueda difusa considera transposiciones; en caso contrario`FALSO`.
 
 ### Ver también
 

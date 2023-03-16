@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para la operación de fusión.
 type: docs
-weight: 930
+weight: 960
 url: /es/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
@@ -25,7 +25,7 @@ public class MergeOptions
 | Nombre | Descripción |
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/mergeoptions/cancellation) { get; set; } | Obtiene o establece el objeto de cancelación de la operación. El valor por defecto es`nulo` . |
-| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`falso` . |
+| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`FALSO` . |
 
 ### Observaciones
 

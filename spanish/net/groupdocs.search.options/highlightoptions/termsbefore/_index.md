@@ -3,7 +3,7 @@ title: TermsBefore
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Obtiene o establece el número máximo de palabras en un fragmento de texto antes de la palabra resaltada. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es7 .
 type: docs
-weight: 40
+weight: 60
 url: /es/net/groupdocs.search.options/highlightoptions/termsbefore/
 ---
 ## HighlightOptions.TermsBefore property

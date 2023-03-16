@@ -1,14 +1,14 @@
 ---
 title: EnabledForEmbeddedImages
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si se indexan imágenes incrustadas por ejemplo imágenes en un documento DOCX. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si se indexan imágenes incrustadas por ejemplo imágenes en un documento DOCX. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/groupdocs.search.options/imageindexingoptions/enabledforembeddedimages/
 ---
 ## ImageIndexingOptions.EnabledForEmbeddedImages property
 
-Obtiene o establece un valor que indica si se indexan imágenes incrustadas (por ejemplo, imágenes en un documento DOCX). El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si se indexan imágenes incrustadas (por ejemplo, imágenes en un documento DOCX). El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool EnabledForEmbeddedImages { get; set; }

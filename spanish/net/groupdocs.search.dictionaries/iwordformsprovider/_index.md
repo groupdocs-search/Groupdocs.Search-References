@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Define la interfaz de un proveedor de formas de palabra.
 type: docs
-weight: 440
+weight: 450
 url: /es/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -88,8 +88,8 @@ options.UseWordFormsSearch = true; // Habilitando la búsqueda de formas de pala
 SearchResult result = index.Search("relative", options);
   
 // Se pueden encontrar las siguientes palabras:
-// pariente
-// parientes
+// relativo
+// relativos
 ```
 
 ### Ver también

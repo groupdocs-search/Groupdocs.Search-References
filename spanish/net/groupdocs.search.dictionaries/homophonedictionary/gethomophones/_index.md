@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Valor_devuelto
 
-Los homófonos de la palabra especificada o matriz vacía si el[`HomophoneDictionary`](../../homophonedictionary)el objeto no contiene la palabra especificada.
+Los homófonos de la palabra especificada o matriz vacía si el[`HomophoneDictionary`](../../homophonedictionary) el objeto no contiene la palabra especificada.
 
 ### Ver también
 

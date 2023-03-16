@@ -1,14 +1,14 @@
 ---
 title: UseSynonymSearch
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el indicador de uso de sinónimos en la búsqueda. El valor predeterminado esfalso .
+description: Obtiene o establece el indicador de uso de sinónimos en la búsqueda. El valor predeterminado esFALSO .
 type: docs
 weight: 130
 url: /es/net/groupdocs.search.options/searchoptions/usesynonymsearch/
 ---
 ## SearchOptions.UseSynonymSearch property
 
-Obtiene o establece el indicador de uso de sinónimos en la búsqueda. El valor predeterminado es`falso` .
+Obtiene o establece el indicador de uso de sinónimos en la búsqueda. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool UseSynonymSearch { get; set; }

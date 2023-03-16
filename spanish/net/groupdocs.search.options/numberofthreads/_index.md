@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Especifica el número de subprocesos.
 type: docs
-weight: 950
+weight: 980
 url: /es/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration

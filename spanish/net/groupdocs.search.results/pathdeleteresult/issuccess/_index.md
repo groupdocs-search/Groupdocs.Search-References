@@ -16,7 +16,7 @@ public bool IsSuccess { get; }
 
 ### El valor de la propiedad
 
-`verdadero` si la operación de eliminación fue exitosa; de lo contrario, vuelve`falso`.
+`verdadero` si la operación de eliminación fue exitosa; de lo contrario, vuelve`FALSO`.
 
 ### Ver también
 
