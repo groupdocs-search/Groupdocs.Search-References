@@ -1,14 +1,14 @@
 ---
 title: UseStopWords
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert istStimmt .
+description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert istWAHR .
 type: docs
 weight: 140
 url: /de/net/groupdocs.search/indexsettings/usestopwords/
 ---
 ## IndexSettings.UseStopWords property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert ist`Stimmt` .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool UseStopWords { get; set; }

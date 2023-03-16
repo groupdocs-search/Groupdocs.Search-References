@@ -29,7 +29,7 @@ public class DocumentField
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Benutzerdefinierte Textextraktoren](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 * [Zusätzliche Felder indizieren](https://docs.groupdocs.com/display/searchnet/Indexing+additional+fields)

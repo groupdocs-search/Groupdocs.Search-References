@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Methoden zum Anwenden von Lizenzen.
 type: docs
-weight: 690
+weight: 720
 url: /de/net/groupdocs.search/license/
 ---
 ## License class
@@ -29,7 +29,7 @@ public sealed class License
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

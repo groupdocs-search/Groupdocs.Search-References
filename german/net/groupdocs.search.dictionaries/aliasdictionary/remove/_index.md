@@ -20,13 +20,13 @@ public bool Remove(string alias)
 
 ### Rückgabewert
 
-Diese Methode kehrt zurück`Stimmt` wenn der Alias erfolgreich gefunden und entfernt wurde. Diese Methode kehrt zurück`FALSCH` wenn der Alias nicht in der gefunden wird[`AliasDictionary`](../../aliasdictionary) Objekt.
+Diese Methode kehrt zurück`WAHR` wenn der Alias erfolgreich gefunden und entfernt wurde. Diese Methode kehrt zurück`FALSCH` wenn der Alias nicht in der gefunden wird[`AliasDictionary`](../../aliasdictionary) Objekt.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*alias* ist`Null`. |
+| ArgumentNullException | Wann geworfen*alias* Ist`Null`. |
 
 ### Siehe auch
 

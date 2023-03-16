@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert einen gefundenen Bildrahmen.
 type: docs
-weight: 1160
+weight: 1200
 url: /de/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class

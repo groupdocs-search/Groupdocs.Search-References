@@ -1,14 +1,14 @@
 ---
 title: OTS
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Steht für das Dateiformat der OpenDocumentTabellenvorlage. Weitere Informationen zu Dateiformaten für Tabellenkalkulationen hierhttps//wiki.fileformat.com/spreadsheet/ .
+description: Steht für das Dateiformat der OpenDocumentTabellenvorlage. Weitere Informationen zu Dateiformaten für Tabellenkalkulationen Hierhttps//wiki.fileformat.com/spreadsheet/ .
 type: docs
 weight: 430
 url: /de/net/groupdocs.search.results/filetype/ots/
 ---
 ## FileType.OTS field
 
-Steht für das Dateiformat der OpenDocument-Tabellenvorlage. Weitere Informationen zu Dateiformaten für Tabellenkalkulationen [hier](https://wiki.fileformat.com/spreadsheet/) .
+Steht für das Dateiformat der OpenDocument-Tabellenvorlage. Weitere Informationen zu Dateiformaten für Tabellenkalkulationen [Hier](https://wiki.fileformat.com/spreadsheet/) .
 
 ```csharp
 public static readonly FileType OTS;

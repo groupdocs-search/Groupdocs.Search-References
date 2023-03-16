@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`FileType`](../../filetype).
+AString das repräsentiert den Strom[`FileType`](../../filetype).
 
 ### Siehe auch
 

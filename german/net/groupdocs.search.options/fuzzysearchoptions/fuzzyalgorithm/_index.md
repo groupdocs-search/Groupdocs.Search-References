@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ruft den FuzzySuchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren FuzzySuchalgorithmen sindSimilarityLevelgroupdocs.search.options/similaritylevel undTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . Der Standardwert ist eine Instanz vonSimilarityLevelgroupdocs.search.options/similaritylevel mit einem Ähnlichkeitswert von05 .
+description: Ruft den FuzzySuchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren FuzzySuchalgorithmen sindSimilarityLevelgroupdocs.search.options/similaritylevel UndTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. Der Standardwert ist eine Instanz vonSimilarityLevelgroupdocs.search.options/similaritylevel mit einem Ähnlichkeitswert von05 .
 type: docs
 weight: 30
 url: /de/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Ruft den Fuzzy-Suchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren Fuzzy-Suchalgorithmen sind[`SimilarityLevel`](../../similaritylevel) und[`TableDiscreteFunction`](../../tablediscretefunction) . Der Standardwert ist eine Instanz von[`SimilarityLevel`](../../similaritylevel) mit einem Ähnlichkeitswert von`0,5` .
+Ruft den Fuzzy-Suchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren Fuzzy-Suchalgorithmen sind[`SimilarityLevel`](../../similaritylevel) Und[`TableDiscreteFunction`](../../tablediscretefunction). Der Standardwert ist eine Instanz von[`SimilarityLevel`](../../similaritylevel) mit einem Ähnlichkeitswert von`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
@@ -22,7 +22,7 @@ Der Fuzzy-Suchalgorithmus.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*value* ist`Null`. |
+| ArgumentNullException | Wann geworfen*value* Ist`Null`. |
 
 ### Beispiele
 

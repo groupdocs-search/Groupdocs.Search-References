@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt ein Wortmuster dar das in der Wortplatzhaltersuche verwendet werden soll.
 type: docs
-weight: 330
+weight: 340
 url: /de/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class
@@ -35,7 +35,7 @@ public class WordPattern
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Wildcard-Suche](https://docs.groupdocs.com/display/searchnet/Wildcard+search)
 * [Phrasensuche](https://docs.groupdocs.com/display/searchnet/Phrase+search)

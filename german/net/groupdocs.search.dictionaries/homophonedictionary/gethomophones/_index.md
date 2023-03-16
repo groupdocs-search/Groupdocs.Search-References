@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Rückgabewert
 
-Die Homophone für das angegebene Wort oder leeres Array , wenn die[`HomophoneDictionary`](../../homophonedictionary)Objekt enthält das angegebene Wort nicht.
+Die Homophone für das angegebene Wort oder leeres Array , wenn die[`HomophoneDictionary`](../../homophonedictionary) Objekt enthält das angegebene Wort nicht.
 
 ### Siehe auch
 

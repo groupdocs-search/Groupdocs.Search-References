@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen zum Indizieren von Metadatenfeldern.
 type: docs
-weight: 940
+weight: 970
 url: /de/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class
@@ -19,8 +19,8 @@ public class MetadataIndexingOptions
 | Name | Beschreibung |
 | --- | --- |
 | [DefaultFieldName](../../groupdocs.search.options/metadataindexingoptions/defaultfieldname) { get; set; } | Ruft den Standardfeldnamen ab oder legt ihn fest, der zum Indizieren leerer Feldnamen verwendet wird. Der Standardwert ist`"Unbekannt"` . |
-| [IndexingEmptyNames](../../groupdocs.search.options/metadataindexingoptions/indexingemptynames) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob leere Feldnamen indiziert werden sollen oder nicht. Der Standardwert ist`Stimmt` . |
-| [IndexingEmptyValues](../../groupdocs.search.options/metadataindexingoptions/indexingemptyvalues) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob leere Feldwerte indiziert werden sollen oder nicht. Der Standardwert ist`Stimmt` . |
+| [IndexingEmptyNames](../../groupdocs.search.options/metadataindexingoptions/indexingemptynames) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob leere Feldnamen indiziert werden sollen oder nicht. Der Standardwert ist`WAHR` . |
+| [IndexingEmptyValues](../../groupdocs.search.options/metadataindexingoptions/indexingemptyvalues) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob leere Feldwerte indiziert werden sollen oder nicht. Der Standardwert ist`WAHR` . |
 | [MaxBytesToIndexField](../../groupdocs.search.options/metadataindexingoptions/maxbytestoindexfield) { get; set; } | Ruft die maximale Anzahl von Werten in einem Array vom Typ Byte ab oder legt sie fest, um das Feld zu indizieren. Der Standardwert ist`int.MaxValue` . |
 | [MaxDoublesToIndexField](../../groupdocs.search.options/metadataindexingoptions/maxdoublestoindexfield) { get; set; } | Ruft die maximale Anzahl von Werten in einem Array vom Typ Double ab oder legt sie fest, um das Feld zu indizieren. Der Standardwert ist`int.MaxValue` . |
 | [MaxIntsToIndexField](../../groupdocs.search.options/metadataindexingoptions/maxintstoindexfield) { get; set; } | Ruft die maximale Anzahl von Werten in einem Array vom Typ int ab oder legt sie fest, um das Feld zu indizieren. Der Standardwert ist`int.MaxValue` . |
@@ -30,7 +30,7 @@ public class MetadataIndexingOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indizierungsoptionen](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 * MetadataIndexingOptions werden verwendet, wenn Dokumenttext aus einem Index abgerufen wird: [Indexierte Dokumente abrufen](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

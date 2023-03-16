@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt einen Schritt einer Schrittfunktion dar.
 type: docs
-weight: 1040
+weight: 1080
 url: /de/net/groupdocs.search.options/step/
 ---
 ## Step class
@@ -29,7 +29,7 @@ public class Step
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ungenaue Suche](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

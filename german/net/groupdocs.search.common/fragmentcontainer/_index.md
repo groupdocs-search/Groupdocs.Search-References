@@ -29,7 +29,7 @@ public class FragmentContainer
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchergebnisse hervorheben](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

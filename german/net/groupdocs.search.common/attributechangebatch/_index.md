@@ -36,7 +36,7 @@ public class AttributeChangeBatch
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Dokumentattribute](https://docs.groupdocs.com/display/searchnet/Document+attributes)
 * [Dokumentenfilterung im Suchergebnis](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)

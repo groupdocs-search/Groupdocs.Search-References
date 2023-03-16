@@ -3,7 +3,7 @@ title: EventHub
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt Indexereignisse zum Abonnieren bereit.
 type: docs
-weight: 500
+weight: 510
 url: /de/net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class
@@ -29,7 +29,7 @@ public class EventHub
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

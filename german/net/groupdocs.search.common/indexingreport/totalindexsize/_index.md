@@ -16,7 +16,7 @@ public long TotalIndexSize { get; }
 
 ### Eigentumswert
 
-Die Gesamtindexgröße in Byte.
+Die Gesamtindexgröße in Bytes.
 
 ### Siehe auch
 

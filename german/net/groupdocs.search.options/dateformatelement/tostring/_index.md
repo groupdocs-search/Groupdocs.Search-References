@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`DateFormatElement`](../../dateformatelement).
+AString das repräsentiert den Strom[`DateFormatElement`](../../dateformatelement).
 
 ### Siehe auch
 

@@ -20,7 +20,7 @@ public bool Contains(IFieldExtractor item)
 
 ### Rückgabewert
 
-`Stimmt` wenn*item* befindet sich in der Sammlung; Andernfalls,`FALSCH`.
+`WAHR` Wenn*item* befindet sich in der Sammlung; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

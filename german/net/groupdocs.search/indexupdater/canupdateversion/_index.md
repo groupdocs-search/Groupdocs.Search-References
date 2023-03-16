@@ -20,7 +20,7 @@ public bool CanUpdateVersion(string indexPath)
 
 ### Rückgabewert
 
-`Stimmt` wenn ein Index im angegebenen Verzeichnis auf die neueste Version aktualisiert werden kann; andernfalls `FALSCH` .
+`WAHR` wenn ein Index im angegebenen Verzeichnis auf die neueste Version aktualisiert werden kann; andernfalls `FALSCH` .
 
 ### Siehe auch
 

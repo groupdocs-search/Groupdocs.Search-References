@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen der unscharfen Suche.
 type: docs
-weight: 820
+weight: 850
 url: /de/net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class
@@ -18,15 +18,15 @@ public class FuzzySearchOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Fuzzy-Suchalgorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`Stimmt` . |
+| [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Fuzzy-Suchalgorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`WAHR` . |
 | [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Fuzzy-Suchfunktion aktiviert ist. Der Standardwert ist`FALSCH` . |
-| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Ruft den Fuzzy-Suchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren Fuzzy-Suchalgorithmen sind[`SimilarityLevel`](../similaritylevel) und[`TableDiscreteFunction`](../tablediscretefunction) . Der Standardwert ist eine Instanz von[`SimilarityLevel`](../similaritylevel) mit einem Ähnlichkeitswert von`0,5` . |
+| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Ruft den Fuzzy-Suchalgorithmus ab oder setzt ihn. Die derzeit verfügbaren Fuzzy-Suchalgorithmen sind[`SimilarityLevel`](../similaritylevel) Und[`TableDiscreteFunction`](../tablediscretefunction). Der Standardwert ist eine Instanz von[`SimilarityLevel`](../similaritylevel) mit einem Ähnlichkeitswert von`0,5` . |
 | [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob nur die besten Ergebnisse zurückgegeben werden. Der Standardwert ist`FALSCH` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Ermittelt oder setzt die maximale Überschreitung der minimalen Anzahl gefundener Fehler. Der Standardwert ist`0` . |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ungenaue Suche](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 * [Suchoptionen](https://docs.groupdocs.com/display/searchnet/Search+options)

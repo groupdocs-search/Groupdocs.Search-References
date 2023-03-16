@@ -20,7 +20,7 @@ public bool Contains(DateFormat item)
 
 ### Rückgabewert
 
-`Stimmt` wenn Artikel in der Sammlung gefunden wird; Andernfalls,`FALSCH`.
+`WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

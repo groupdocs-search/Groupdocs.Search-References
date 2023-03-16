@@ -1,14 +1,14 @@
 ---
 title: VSD
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: VSDDateien sind Zeichnungen die mit der Microsoft VisioAnwendung erstellt wurden um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vsd/ .
+description: VSDDateien sind Zeichnungen die mit der Microsoft VisioAnwendung erstellt wurden um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vsd/ .
 type: docs
 weight: 660
 url: /de/net/groupdocs.search.results/filetype/vsd/
 ---
 ## FileType.VSD field
 
-VSD-Dateien sind Zeichnungen, die mit der Microsoft Visio-Anwendung erstellt wurden, um eine Vielzahl von grafischen -Objekten und die Verbindung zwischen diesen darzustellen. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vsd/) .
+VSD-Dateien sind Zeichnungen, die mit der Microsoft Visio-Anwendung erstellt wurden, um eine Vielzahl von grafischen -Objekten und die Verbindung zwischen diesen darzustellen. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vsd/) .
 
 ```csharp
 public static readonly FileType VSD;

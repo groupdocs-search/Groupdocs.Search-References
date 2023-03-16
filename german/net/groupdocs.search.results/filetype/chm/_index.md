@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Das CHMDateiformat stellt eine Microsoft HTMLHilfedatei dar die aus einer Sammlung von HTMLSeiten besteht. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/web/chm/ .
+description: Das CHMDateiformat stellt eine Microsoft HTMLHilfedatei dar die aus einer Sammlung von HTMLSeiten besteht. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/web/chm/ .
 type: docs
 weight: 40
 url: /de/net/groupdocs.search.results/filetype/chm/
 ---
 ## FileType.CHM field
 
-Das CHM-Dateiformat stellt eine Microsoft HTML-Hilfedatei dar, die aus einer Sammlung von HTML-Seiten besteht. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/web/chm/) .
+Das CHM-Dateiformat stellt eine Microsoft HTML-Hilfedatei dar, die aus einer Sammlung von HTML-Seiten besteht. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

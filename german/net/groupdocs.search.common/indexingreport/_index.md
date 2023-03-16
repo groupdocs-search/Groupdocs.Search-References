@@ -33,7 +33,7 @@ public class IndexingReport
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indizierung von Berichten](https://docs.groupdocs.com/display/searchnet/Indexing+reports)
 

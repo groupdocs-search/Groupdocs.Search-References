@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert ein Repository aller Wörterbücher in einerIndex../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /de/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

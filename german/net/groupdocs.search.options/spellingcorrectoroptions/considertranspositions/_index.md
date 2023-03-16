@@ -1,14 +1,14 @@
 ---
 title: ConsiderTranspositions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert istStimmt .
+description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert istWAHR .
 type: docs
 weight: 10
 url: /de/net/groupdocs.search.options/spellingcorrectoroptions/considertranspositions/
 ---
 ## SpellingCorrectorOptions.ConsiderTranspositions property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`Stimmt` .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool ConsiderTranspositions { get; set; }
@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Eigentumswert
 
-`Stimmt` wenn der Rechtschreibkorrekturalgorithmus Transpositionen berücksichtigt; andernfalls`FALSCH`.
+`WAHR` wenn der Rechtschreibkorrekturalgorithmus Transpositionen berücksichtigt; andernfalls`FALSCH`.
 
 ### Siehe auch
 

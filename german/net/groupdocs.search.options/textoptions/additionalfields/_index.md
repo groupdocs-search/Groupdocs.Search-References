@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ermittelt oder setzt die zusätzlichen Dokumentfelder die für die Indizierung verwendet wurden. Der Standardwert istNull . Beachten Sie dass dieser Wert nur verwendet wird wenn Dokumenttext nicht im Index gespeichert wurde.
+description: Ermittelt oder setzt die zusätzlichen Dokumentfelder die für die Indizierung verwendet wurden. Der Standardwert istNull. Beachten Sie dass dieser Wert nur verwendet wird wenn Dokumenttext nicht im Index gespeichert wurde.
 type: docs
 weight: 20
 url: /de/net/groupdocs.search.options/textoptions/additionalfields/
 ---
 ## TextOptions.AdditionalFields property
 
-Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null` . Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde.
+Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null`. Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }

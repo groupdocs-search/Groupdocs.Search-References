@@ -3,7 +3,7 @@ title: Alphabet
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt ein Zeichenwörterbuch dar das während der Indizierung verwendet wird um den Zeichentyp zu erkennen. Jedes Zeichen kann als Trennzeichen als Buchstabe oder beides behandelt werden.
 type: docs
-weight: 360
+weight: 370
 url: /de/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class
@@ -33,7 +33,7 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Zeichentypen](https://docs.groupdocs.com/display/searchnet/Character+types)
 * [Alphabet verwalten](https://docs.groupdocs.com/display/searchnet/Alphabet)

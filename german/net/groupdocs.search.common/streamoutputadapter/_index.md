@@ -18,17 +18,18 @@ public class StreamOutputAdapter : OutputAdapter
 
 | Name | Beschreibung |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | Initialisiert eine neue Instanz von[`StreamOutputAdapter`](../streamoutputadapter) Klasse. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Initialisiert eine neue Instanz von[`StreamOutputAdapter`](../streamoutputadapter) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Ruft das Ausgabeformat ab. |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | Ruft einen Ausgabestream ab. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ausgangsadapter](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 

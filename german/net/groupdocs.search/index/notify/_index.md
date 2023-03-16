@@ -20,7 +20,7 @@ public bool Notify(Notification notification)
 
 ### Rückgabewert
 
-gibt zurück`Stimmt`wenn die Benachrichtigung erfolgreich durchgeführt wurde; Andernfalls`FALSCH` .
+gibt zurück`WAHR`wenn die Benachrichtigung erfolgreich durchgeführt wurde; ansonsten`FALSCH` .
 
 ### Siehe auch
 

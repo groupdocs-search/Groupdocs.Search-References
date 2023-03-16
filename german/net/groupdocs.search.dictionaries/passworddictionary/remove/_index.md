@@ -20,7 +20,7 @@ public bool Remove(string key)
 
 ### Rückgabewert
 
-`Stimmt` wenn das Passwort erfolgreich entfernt wurde; Andernfalls,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` wenn*key* wurde nicht im Wörterbuch gefunden.
+`WAHR` wenn das Passwort erfolgreich entfernt wurde; ansonsten,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` Wenn*key* wurde nicht im Wörterbuch gefunden.
 
 ### Siehe auch
 

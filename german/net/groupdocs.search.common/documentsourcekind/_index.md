@@ -1,14 +1,14 @@
 ---
 title: DocumentSourceKind
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Definiert die Arten von Dokumentquellen.
+description: Definiert die Arten von Dokumentenquellen.
 type: docs
 weight: 80
 url: /de/net/groupdocs.search.common/documentsourcekind/
 ---
 ## DocumentSourceKind enumeration
 
-Definiert die Arten von Dokumentquellen.
+Definiert die Arten von Dokumentenquellen.
 
 ```csharp
 public enum DocumentSourceKind

@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert die Basisklasse für Dokumentfilter. Enthält Methoden zum Erstellen von Dokumentfilterinstanzen.
 type: docs
-weight: 770
+weight: 800
 url: /de/net/groupdocs.search.options/documentfilter/
 ---
 ## DocumentFilter class
@@ -37,7 +37,7 @@ public abstract class DocumentFilter
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Dokumentfilterung während der Indizierung](https://docs.groupdocs.com/display/searchnet/Document+filtering+during+indexing)
 

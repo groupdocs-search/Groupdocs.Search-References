@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Enhanced Metafile Format EMF speichert grafische Bilder geräteunabhängig. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/emf/ .
+description: Enhanced Metafile Format EMF speichert grafische Bilder geräteunabhängig. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/emf/ .
 type: docs
 weight: 180
 url: /de/net/groupdocs.search.results/filetype/emf/
 ---
 ## FileType.EMF field
 
-Enhanced Metafile Format (EMF) speichert grafische Bilder geräteunabhängig. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/emf/) .
+Enhanced Metafile Format (EMF) speichert grafische Bilder geräteunabhängig. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/emf/) .
 
 ```csharp
 public static readonly FileType EMF;

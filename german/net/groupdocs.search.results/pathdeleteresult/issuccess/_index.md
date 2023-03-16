@@ -16,7 +16,7 @@ public bool IsSuccess { get; }
 
 ### Eigentumswert
 
-`Stimmt` ob die Löschoperation erfolgreich war; andernfalls kehrt zurück`FALSCH`.
+`WAHR` ob die Löschoperation erfolgreich war; andernfalls kehrt zurück`FALSCH`.
 
 ### Siehe auch
 

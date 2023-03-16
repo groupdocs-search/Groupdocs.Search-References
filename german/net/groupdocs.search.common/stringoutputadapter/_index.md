@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | Name | Beschreibung |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | Initialisiert eine neue Instanz von[`StringOutputAdapter`](../stringoutputadapter) Klasse. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Initialisiert eine neue Instanz von[`StringOutputAdapter`](../stringoutputadapter) Klasse. |
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Ruft das Ausgabeformat ab. |
 
 ## Methoden
 
@@ -28,7 +34,7 @@ public class StringOutputAdapter : OutputAdapter
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ausgangsadapter](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // Indizierung von Dokumenten aus dem angegebenen Or
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Informationen zu indizierten Dokumenten erhalten
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // Erstellen eines String-Ausgabeadapters
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // Erstellen eines String-Ausgabeadapters
 index.GetDocumentText(documents[0], adapter); // Generieren eines Dokumententextes im Adapter
 String result = adapter.GetResult(); // Ergebnis erhalten
 ```

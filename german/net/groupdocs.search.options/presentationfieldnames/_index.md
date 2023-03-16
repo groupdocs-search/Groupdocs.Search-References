@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Liste von Feldnamen für die facettierte Suche.
 type: docs
-weight: 980
+weight: 1020
 url: /de/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class
@@ -39,7 +39,7 @@ public static class PresentationFieldNames
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Facettensuche](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

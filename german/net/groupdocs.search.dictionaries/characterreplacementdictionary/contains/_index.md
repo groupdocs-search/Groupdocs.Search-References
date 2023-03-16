@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### Rückgabewert
 
-`Stimmt` wenn die[`CharacterReplacementDictionary`](../../characterreplacementdictionary) Objekt enthält das angegebene Zeichen; andernfalls,`FALSCH` .
+`WAHR` wenn die[`CharacterReplacementDictionary`](../../characterreplacementdictionary) Objekt enthält das angegebene Zeichen; andernfalls,`FALSCH` .
 
 ### Siehe auch
 

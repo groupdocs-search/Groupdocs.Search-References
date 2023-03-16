@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt das Ergebnis einer Indexversionsaktualisierungsoperation dar.
 type: docs
-weight: 320
+weight: 330
 url: /de/net/groupdocs.search.common/versionupdateresult/
 ---
 ## VersionUpdateResult enumeration

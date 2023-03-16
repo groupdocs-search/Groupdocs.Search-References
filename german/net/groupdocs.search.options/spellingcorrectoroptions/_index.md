@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen für die Rechtschreibkorrektur.
 type: docs
-weight: 1020
+weight: 1060
 url: /de/net/groupdocs.search.options/spellingcorrectoroptions/
 ---
 ## SpellingCorrectorOptions class
@@ -18,7 +18,7 @@ public class SpellingCorrectorOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [ConsiderTranspositions](../../groupdocs.search.options/spellingcorrectoroptions/considertranspositions) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`Stimmt` . |
+| [ConsiderTranspositions](../../groupdocs.search.options/spellingcorrectoroptions/considertranspositions) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Algorithmus die Vertauschung zweier benachbarter Zeichen als einen einzigen Fehler betrachten muss. Der Standardwert ist`WAHR` . |
 | [Enabled](../../groupdocs.search.options/spellingcorrectoroptions/enabled) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Rechtschreibkorrektur aktiviert ist. Der Standardwert ist`FALSCH` . |
 | [MaxMistakeCount](../../groupdocs.search.options/spellingcorrectoroptions/maxmistakecount) { get; set; } | Ermittelt oder setzt die maximale Anzahl von Fehlern. Der Standardwert ist`2` . |
 | [OnlyBestResults](../../groupdocs.search.options/spellingcorrectoroptions/onlybestresults) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob nur die besten Ergebnisse zurückgegeben werden. Der Standardwert ist`FALSCH` . |
@@ -26,7 +26,7 @@ public class SpellingCorrectorOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Rechtschreibprüfung](https://docs.groupdocs.com/display/searchnet/Spell+checking)
 * [Suchoptionen](https://docs.groupdocs.com/display/searchnet/Search+options)

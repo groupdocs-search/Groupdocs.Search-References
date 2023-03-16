@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-Initialisiert eine neue Instanz von[`Index`](../../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* ist`FALSCH`; erstellt andernfalls einen neuen Index auf der Festplatte.
+Initialisiert eine neue Instanz von[`Index`](../../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* Ist`FALSCH`; erstellt andernfalls einen neuen Index auf der Festplatte.
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-Initialisiert eine neue Instanz von[`Index`](../../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* ist`FALSCH` ; erstellt andernfalls einen neuen Index auf der Festplatte mit bestimmten Indexeinstellungen.
+Initialisiert eine neue Instanz von[`Index`](../../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* Ist`FALSCH` ; erstellt andernfalls einen neuen Index auf der Festplatte mit bestimmten Indexeinstellungen.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)

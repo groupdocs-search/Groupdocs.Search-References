@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Ermittelt oder setzt die maximale Anzahl von Wörtern in einem Textfragment. Der Wert muss im Bereich von 0 bis 10000 liegen. Der Standardwert ist21 .
 type: docs
-weight: 50
+weight: 70
 url: /de/net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`SearchReport`](../../searchreport).
+AString das repräsentiert den Strom[`SearchReport`](../../searchreport).
 
 ### Siehe auch
 

@@ -23,7 +23,7 @@ public interface ILogger
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Protokollierung](https://docs.groupdocs.com/display/searchnet/Logging)
 

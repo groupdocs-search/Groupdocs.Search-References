@@ -1,14 +1,14 @@
 ---
 title: JPEG
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: JPEG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/jpeg/ .
+description: JPEG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 290
 url: /de/net/groupdocs.search.results/filetype/jpeg/
 ---
 ## FileType.JPEG field
 
-JPEG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/jpeg/) .
+JPEG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPEG;

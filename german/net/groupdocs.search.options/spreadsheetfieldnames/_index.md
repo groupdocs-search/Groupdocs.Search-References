@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Liste von Feldnamen für die facettierte Suche.
 type: docs
-weight: 1030
+weight: 1070
 url: /de/net/groupdocs.search.options/spreadsheetfieldnames/
 ---
 ## SpreadsheetFieldNames class
@@ -37,7 +37,7 @@ public static class SpreadsheetFieldNames
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Facettensuche](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

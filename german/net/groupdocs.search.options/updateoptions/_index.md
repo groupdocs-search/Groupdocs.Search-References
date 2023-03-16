@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen für den Aktualisierungsvorgang.
 type: docs
-weight: 1080
+weight: 1120
 url: /de/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -33,7 +33,7 @@ public class UpdateOptions
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Index aktualisieren](https://docs.groupdocs.com/display/searchnet/Update+index)
 * [Löschen Sie indizierte Pfade](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)

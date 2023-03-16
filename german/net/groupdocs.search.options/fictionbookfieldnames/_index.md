@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Liste von Feldnamen für die facettierte Suche.
 type: docs
-weight: 800
+weight: 830
 url: /de/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class
@@ -29,7 +29,7 @@ public static class FictionBookFieldNames
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Facettensuche](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

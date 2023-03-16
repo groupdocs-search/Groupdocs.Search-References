@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`FoundImageFrame`](../../foundimageframe).
+AString das repräsentiert den Strom[`FoundImageFrame`](../../foundimageframe).
 
 ### Siehe auch
 

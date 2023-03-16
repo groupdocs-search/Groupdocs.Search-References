@@ -29,7 +29,7 @@ public interface IFieldExtractor
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Benutzerdefinierte Textextraktoren](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

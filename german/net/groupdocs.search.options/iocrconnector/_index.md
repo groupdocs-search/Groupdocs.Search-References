@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Definiert Methoden die erforderlich sind um Text auf Bilddokumenten und eingebetteten Bildern zu erkennen.
 type: docs
-weight: 840
+weight: 870
 url: /de/net/groupdocs.search.options/iocrconnector/
 ---
 ## IOcrConnector interface

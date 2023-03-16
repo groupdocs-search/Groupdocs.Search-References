@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`FormatFamily`](../../formatfamily).
+AString das repräsentiert den Strom[`FormatFamily`](../../formatfamily).
 
 ### Siehe auch
 

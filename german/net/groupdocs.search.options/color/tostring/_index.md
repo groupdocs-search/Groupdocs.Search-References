@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`Color`](../../color).
+AString das repräsentiert den Strom[`Color`](../../color).
 
 ### Siehe auch
 

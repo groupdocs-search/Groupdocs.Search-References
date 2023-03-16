@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung PPSM stellen ein mit Microsoft PowerPoint 2007 oder höher erstelltes makrofähiges DiashowDateiformat dar. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/presentation/ppsm/ .
+description: Dateien mit der Erweiterung PPSM stellen ein mit Microsoft PowerPoint 2007 oder höher erstelltes makrofähiges DiashowDateiformat dar. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/presentation/ppsm/ .
 type: docs
 weight: 510
 url: /de/net/groupdocs.search.results/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-Dateien mit der Erweiterung PPSM stellen ein mit Microsoft PowerPoint 2007 oder höher erstelltes makrofähiges Diashow-Dateiformat dar. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/presentation/ppsm/) .
+Dateien mit der Erweiterung PPSM stellen ein mit Microsoft PowerPoint 2007 oder höher erstelltes makrofähiges Diashow-Dateiformat dar. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/presentation/ppsm/) .
 
 ```csharp
 public static readonly FileType PPSM;

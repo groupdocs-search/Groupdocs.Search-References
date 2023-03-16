@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert einen IndexUpdater. Diese Klasse führt eine Neuindizierung von Dokumenten in einem Index einer alten Version durch.
 type: docs
-weight: 680
+weight: 710
 url: /de/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class
@@ -30,7 +30,7 @@ public class IndexUpdater
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Index aktualisieren](https://docs.groupdocs.com/display/searchnet/Update+index)
 

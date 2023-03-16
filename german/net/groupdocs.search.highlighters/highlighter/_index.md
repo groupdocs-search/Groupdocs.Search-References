@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert die Basisklasse eines SuchergebnisHighlighters.
 type: docs
-weight: 620
+weight: 650
 url: /de/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
@@ -13,6 +13,12 @@ Repräsentiert die Basisklasse eines Suchergebnis-Highlighters.
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Ruft das Ausgabeformat ab. |
 
 ### Siehe auch
 

@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Liste von Feldnamen für die facettierte Suche.
 type: docs
-weight: 780
+weight: 810
 url: /de/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class
@@ -29,7 +29,7 @@ public static class EpubFieldNames
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Facettensuche](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

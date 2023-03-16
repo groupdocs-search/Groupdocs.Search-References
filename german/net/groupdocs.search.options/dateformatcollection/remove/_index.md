@@ -20,7 +20,7 @@ public bool Remove(DateFormat item)
 
 ### Rückgabewert
 
-`Stimmt` ob der Artikel erfolgreich aus der Sammlung entfernt wurde; Andernfalls,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` wenn Artikel nicht in der Sammlung gefunden wird.
+`WAHR` ob der Artikel erfolgreich aus der Sammlung entfernt wurde; ansonsten,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` wenn Artikel nicht in der Sammlung gefunden wird.
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: BMP
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung .BMP stellen BitmapBilddateien dar die zum Speichern digitaler BitmapBilder verwendet werden. Diese Bilder sind unabhängig vom Grafikadapter und werden auch als geräteunabhängige BitmapDatei DIB im Format bezeichnet. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/bmp/ .
+description: Dateien mit der Erweiterung .BMP stellen BitmapBilddateien dar die zum Speichern digitaler BitmapBilder verwendet werden. Diese Bilder sind unabhängig vom Grafikadapter und werden auch als geräteunabhängige BitmapDatei DIB im Format bezeichnet. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/bmp/ .
 type: docs
 weight: 30
 url: /de/net/groupdocs.search.results/filetype/bmp/
 ---
 ## FileType.BMP field
 
-Dateien mit der Erweiterung .BMP stellen Bitmap-Bilddateien dar, die zum Speichern digitaler Bitmap-Bilder verwendet werden. Diese Bilder sind unabhängig vom Grafikadapter und werden auch als geräteunabhängige Bitmap-Datei (DIB) im -Format bezeichnet. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/bmp/) .
+Dateien mit der Erweiterung .BMP stellen Bitmap-Bilddateien dar, die zum Speichern digitaler Bitmap-Bilder verwendet werden. Diese Bilder sind unabhängig vom Grafikadapter und werden auch als geräteunabhängige Bitmap-Datei (DIB) im -Format bezeichnet. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/bmp/) .
 
 ```csharp
 public static readonly FileType BMP;

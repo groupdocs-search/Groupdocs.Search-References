@@ -16,7 +16,7 @@ public bool OnlyBestResults { get; set; }
 
 ### Eigentumswert
 
-`Stimmt` wenn nur die besten Ergebnisse zurückgegeben werden; andernfalls`FALSCH`.
+`WAHR` wenn nur die besten Ergebnisse zurückgegeben werden; andernfalls`FALSCH`.
 
 ### Siehe auch
 
