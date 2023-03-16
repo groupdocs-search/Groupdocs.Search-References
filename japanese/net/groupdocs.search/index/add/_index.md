@@ -1,0 +1,200 @@
+---
+title: Add
+second_title: GroupDocs.Search for .NET API リファレンス
+description: インデックス作成操作を実行します. 絶対パスまたは相対パスでファイルまたはフォルダーを追加します. すべてのサブフォルダーのドキュメントがインデックス化されます.
+type: docs
+weight: 70
+url: /ja/net/groupdocs.search/index/add/
+---
+## Add(string) {#add_2}
+
+インデックス作成操作を実行します. 絶対パスまたは相対パスでファイルまたはフォルダーを追加します. すべてのサブフォルダーのドキュメントがインデックス化されます.
+
+```csharp
+public void Add(string path)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| path | String | インデックスを作成するファイルまたはフォルダーへのパス。 |
+
+### 例
+
+この例は、ドキュメントをインデックスに追加する方法を示しています.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string folderPath = @"c:\MyDocuments\";
+string filePath = @"c:\Documents\MyFile.txt";
+
+Index index = new Index(indexFolder); // 指定したフォルダにインデックスを作成
+index.Add(folderPath); // 指定されたフォルダー内のドキュメントのインデックス作成
+index.Add(filePath); // 指定されたドキュメントのインデックス作成
+```
+
+### 関連項目
+
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+---
+
+## Add(string, IndexingOptions) {#add_3}
+
+インデックス作成操作を実行します. 絶対パスまたは相対パスでファイルまたはフォルダーを追加します. すべてのサブフォルダーのドキュメントがインデックス化されます.
+
+```csharp
+public void Add(string path, IndexingOptions options)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| path | String | インデックスを作成するファイルまたはフォルダーへのパス。 |
+| options | IndexingOptions | 索引付けオプション。 |
+
+### 例
+
+この例は、特定のインデックス作成オプションを使用してドキュメントをインデックスに追加する方法を示しています.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string folderPath = @"c:\MyDocuments\";
+string filePath = @"c:\Documents\MyFile.txt";
+
+Index index = new Index(indexFolder); // 指定したフォルダにインデックスを作成
+
+IndexingOptions options = new IndexingOptions();
+options.Threads = 2; // インデックス スレッド数の設定
+index.Add(folderPath, options); // 指定されたフォルダー内のドキュメントのインデックス作成
+index.Add(filePath, options); // 指定されたドキュメントのインデックス作成
+```
+
+### 関連項目
+
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+---
+
+## Add(string[]) {#add_4}
+
+インデックス作成操作を実行します。 絶対パスまたは相対パスでファイルまたはフォルダーを追加します。 すべてのサブフォルダーのドキュメントがインデックス作成されます。
+
+```csharp
+public void Add(string[] paths)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| paths | String[] | インデックスを作成するファイルまたはフォルダーへのパス。 |
+
+### 例
+
+この例は、ドキュメントをインデックスに追加する方法を示しています.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string folderPath = @"c:\MyDocuments\";
+string filePath = @"c:\Documents\MyFile.txt";
+
+Index index = new Index(indexFolder); // 指定したフォルダにインデックスを作成
+
+string[] paths = new string[] { folderPath, filePath };
+index.Add(paths); // 指定されたパスにあるドキュメントのインデックス作成
+```
+
+### 関連項目
+
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+---
+
+## Add(string[], IndexingOptions) {#add_5}
+
+インデックス作成操作を実行します。 絶対パスまたは相対パスでファイルまたはフォルダーを追加します。 すべてのサブフォルダーのドキュメントがインデックス作成されます。
+
+```csharp
+public void Add(string[] paths, IndexingOptions options)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| paths | String[] | インデックスを作成するファイルまたはフォルダーへのパス。 |
+| options | IndexingOptions | 索引付けオプション。 |
+
+### 例
+
+この例は、特定のインデックス作成オプションを使用してドキュメントをインデックスに追加する方法を示しています.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string folderPath = @"c:\MyDocuments\";
+string filePath = @"c:\Documents\MyFile.txt";
+
+Index index = new Index(indexFolder); // 指定したフォルダにインデックスを作成
+
+IndexingOptions options = new IndexingOptions();
+options.Threads = 2; // インデックス スレッド数の設定
+string[] paths = new string[] { folderPath, filePath };
+index.Add(paths, options); // 指定されたパスにあるドキュメントのインデックス作成
+```
+
+### 関連項目
+
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+---
+
+## Add(Document[], IndexingOptions) {#add}
+
+インデックス作成操作を実行します。 ファイル システム、ストリーム、または構造からドキュメントを追加します。
+
+```csharp
+public void Add(Document[] documents, IndexingOptions options)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| documents | Document[] | ファイル システム、ストリーム、または構造からのドキュメント。 |
+| options | IndexingOptions | 索引付けオプション。 |
+
+### 関連項目
+
+* class [Document](../../../groupdocs.search.common/document)
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+---
+
+## Add(ExtractedData[], IndexingOptions) {#add_1}
+
+インデックス操作を実行します。 抽出したデータをインデックスに追加します。
+
+```csharp
+public void Add(ExtractedData[] data, IndexingOptions options)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| data | ExtractedData[] | 抽出されたデータ。 |
+| options | IndexingOptions | 索引付けオプション。 |
+
+### 関連項目
+
+* class [ExtractedData](../../../groupdocs.search.common/extracteddata)
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Index](../../index)
+* 名前空間 [GroupDocs.Search](../../index)
+* 組み立て [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->
