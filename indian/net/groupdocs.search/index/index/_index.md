@@ -1,0 +1,188 @@
+---
+title: Index
+second_title: GroupDocs.NET API संदर्भ के लिए खोजें
+description: क एक नय उदहरण प्ररंभ करत हैIndexgroupdocs.search/index वर्ग स्मृत में.
+type: docs
+weight: 10
+url: /hi/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) वर्ग स्मृति में.
+
+```csharp
+public Index()
+```
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि डिस्क में फ़ाइलों को सहेजे बिना मेमोरी में इंडेक्स कैसे बनाया जाए।
+
+```csharp
+Index index = new Index(); 
+```
+
+### यह सभी देखें
+
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) विशेष अनुक्रमणिका सेटिंग्स के साथ स्मृति में वर्ग।
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि विशेष अनुक्रमणिका सेटिंग्स के साथ डिस्क में फ़ाइलों को सहेजे बिना मेमोरी में इंडेक्स कैसे बनाया जाए।
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### यह सभी देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) class. एक नया बनाता है या डिस्क पर एक मौजूदा इंडेक्स खोलता है।
+
+```csharp
+public Index(string indexFolder)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | अनुक्रमणिका फ़ोल्डर पथ। |
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि डिस्क पर इंडेक्स कैसे बनाया जाए या मौजूदा इंडेक्स को कैसे खोला जाए।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### यह सभी देखें
+
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) class. विशेष सेटिंग्स के साथ एक नया इंडेक्स बनाता है या डिस्क पर एक मौजूदा इंडेक्स खोलता है।
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | अनुक्रमणिका फ़ोल्डर पथ। |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि विशेष इंडेक्स सेटिंग के साथ डिस्क पर इंडेक्स कैसे बनाया जाता है।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### यह सभी देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) class. यदि डिस्क से मौजूदा इंडेक्स लोड करता है*overwriteIfExists* है`असत्य`; अन्यथा डिस्क पर एक नया इंडेक्स बनाता है।
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | अनुक्रमणिका फ़ोल्डर पथ। |
+| overwriteIfExists | Boolean | अनुक्रमणिका फ़ोल्डर को अधिलेखित करने का फ़्लैग. |
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि एक फ़ोल्डर में एक नया इंडेक्स कैसे बनाया जाए जिसमें पहले से ही एक अन्य इंडेक्स हो।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### यह सभी देखें
+
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+का एक नया उदाहरण प्रारंभ करता है[`Index`](../../index) class. यदि डिस्क से मौजूदा इंडेक्स लोड करता है*overwriteIfExists* है`असत्य` ; विशेष अनुक्रमणिका सेटिंग के साथ डिस्क पर एक नया अनुक्रमणिका बनाता है अन्यथा.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | अनुक्रमणिका फ़ोल्डर पथ। |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+| overwriteIfExists | Boolean | अनुक्रमणिका फ़ोल्डर को अधिलेखित करने का फ़्लैग. |
+
+### उदाहरण
+
+उदाहरण दर्शाता है कि विशेष इंडेक्स सेटिंग के साथ डिस्क पर इंडेक्स कैसे बनाया जाता है।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### यह सभी देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* नाम स्थान [GroupDocs.Search](../../index)
+* सभा [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->
