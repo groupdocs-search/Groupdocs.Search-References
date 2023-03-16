@@ -1,14 +1,14 @@
 ---
 title: SearchPhase
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示搜索阶段
+description: 代表搜索阶段
 type: docs
-weight: 580
+weight: 590
 url: /zh/net/groupdocs.search.events/searchphase/
 ---
 ## SearchPhase enumeration
 
-表示搜索阶段。
+代表搜索阶段。
 
 ```csharp
 public enum SearchPhase
@@ -19,14 +19,14 @@ public enum SearchPhase
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | AliasSubstitution | `0` | 别名替换。 |
-| KeyboardLayoutCorrection | `1` | 键盘布局修正。 |
+| KeyboardLayoutCorrection | `1` | 键盘布局更正。 |
 | SpellingCorrection | `2` | 拼写更正。 |
-| HomophoneSearch | `3` | 同音字搜索。 |
-| SynonymSearch | `4` | 同义词搜索。 |
+| HomophoneSearch | `3` | 同音词搜索. |
+| SynonymSearch | `4` | 同义词搜索. |
 | WordFormsSearch | `5` | 单词形式搜索。 |
-| FuzzySearch | `6` | 模糊搜索。 |
-| WildcardMatching | `7` | 通配符匹配。 |
-| RegexMatching | `8` | 正则表达式匹配。 |
+| FuzzySearch | `6` | 模糊搜索. |
+| WildcardMatching | `7` | 通配符匹配. |
+| RegexMatching | `8` | 正则表达式匹配. |
 
 ### 也可以看看
 

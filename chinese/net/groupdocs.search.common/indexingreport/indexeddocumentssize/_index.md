@@ -1,14 +1,14 @@
 ---
 title: IndexedDocumentsSize
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取索引文档的总长度以 MB 为单位
+description: 获取以 MB 为单位的索引文档的总长度
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.common/indexingreport/indexeddocumentssize/
 ---
 ## IndexingReport.IndexedDocumentsSize property
 
-获取索引文档的总长度，以 MB 为单位。
+获取以 MB 为单位的索引文档的总长度。
 
 ```csharp
 public double IndexedDocumentsSize { get; }
@@ -16,7 +16,7 @@ public double IndexedDocumentsSize { get; }
 
 ### 适当的价值
 
-以 MB 为单位的索引文档的总长度。
+索引文档的总长度（以 MB 为单位）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TextStorageSettings
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化TextStorageSettingsgroupdocs.search.options/textstoragesettings类.
+description: 初始化一个新的实例TextStorageSettingsgroupdocs.search.options/textstoragesettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/textstoragesettings/textstoragesettings/
 ---
 ## TextStorageSettings constructor
 
-初始化[`TextStorageSettings`](../../textstoragesettings)类.
+初始化一个新的实例[`TextStorageSettings`](../../textstoragesettings)类.
 
 ```csharp
 public TextStorageSettings(Compression compression)

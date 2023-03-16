@@ -1,14 +1,14 @@
 ---
 title: SearchResult
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示与搜索查询匹配的搜索结果
+description: 表示匹配搜索查询的搜索结果
 type: docs
-weight: 1190
+weight: 1230
 url: /zh/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class
 
-表示与搜索查询匹配的搜索结果。
+表示匹配搜索查询的搜索结果。
 
 ```csharp
 public class SearchResult : IEnumerable<FoundDocument>
@@ -21,10 +21,10 @@ public class SearchResult : IEnumerable<FoundDocument>
 | [DocumentCount](../../groupdocs.search.results/searchresult/documentcount) { get; } | 获取找到的文档数。 |
 | [EndTime](../../groupdocs.search.results/searchresult/endtime) { get; } | 获取搜索的结束时间。 |
 | [NextChunkSearchToken](../../groupdocs.search.results/searchresult/nextchunksearchtoken) { get; } | 获取用于搜索下一个块的块搜索令牌。 |
-| [OccurrenceCount](../../groupdocs.search.results/searchresult/occurrencecount) { get; } | 获取找到的总次数。 |
+| [OccurrenceCount](../../groupdocs.search.results/searchresult/occurrencecount) { get; } | 获取找到的总出现次数。 |
 | [SearchDuration](../../groupdocs.search.results/searchresult/searchduration) { get; } | 获取搜索持续时间。 |
 | [StartTime](../../groupdocs.search.results/searchresult/starttime) { get; } | 获取搜索的开始时间。 |
-| [Truncated](../../groupdocs.search.results/searchresult/truncated) { get; } | 获取表示结果被截断的值。 |
+| [Truncated](../../groupdocs.search.results/searchresult/truncated) { get; } | 获取一个值，表示结果被截断。 |
 | [Warnings](../../groupdocs.search.results/searchresult/warnings) { get; } | 获取描述结果的警告。 |
 
 ## 方法
@@ -36,14 +36,14 @@ public class SearchResult : IEnumerable<FoundDocument>
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [搜索](https://docs.groupdocs.com/display/searchnet/Searching)
+* [搜索中](https://docs.groupdocs.com/display/searchnet/Searching)
 * [搜索结果](https://docs.groupdocs.com/display/searchnet/Search+results)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -63,7 +63,7 @@ options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3); // 设置最�
 // 搜索包含单词“Einstein”或短语“Theory of Relativity”的文档
 SearchResult result = index.Search("Einstein OR \"Theory of Relativity\"", options);
 
-//打印结果
+// 打印结果
 Console.WriteLine("Documents: " + result.DocumentCount);
 Console.WriteLine("Total occurrences: " + result.OccurrenceCount);
 for (int i = 0; i < result.DocumentCount; i++)

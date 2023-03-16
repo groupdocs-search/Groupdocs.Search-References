@@ -18,14 +18,14 @@ public class FileLogger : ILogger
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileLogger](filelogger)(string, double) | 初始化[`FileLogger`](../filelogger)类. |
+| [FileLogger](filelogger)(string, double) | 初始化一个新的实例[`FileLogger`](../filelogger)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/filelogger/filepath) { get; } | 获取日志文件路径。 |
-| [MaxSize](../../groupdocs.search.common/filelogger/maxsize) { get; } | 获取日志文件的最大大小，以兆字节为单位。 |
+| [MaxSize](../../groupdocs.search.common/filelogger/maxsize) { get; } | 获取日志文件的最大大小（以兆字节为单位）。 |
 
 ## 方法
 
@@ -36,13 +36,13 @@ public class FileLogger : ILogger
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [日志记录](https://docs.groupdocs.com/display/searchnet/Logging)
+* [记录](https://docs.groupdocs.com/display/searchnet/Logging)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

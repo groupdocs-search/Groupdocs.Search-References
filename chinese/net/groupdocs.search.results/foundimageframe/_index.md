@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示找到的图像帧
 type: docs
-weight: 1160
+weight: 1200
 url: /zh/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class
@@ -18,10 +18,10 @@ public class FoundImageFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentInfo](../../groupdocs.search.results/foundimageframe/documentinfo) { get; } | 获取文档信息。 |
-| [FrameIndex](../../groupdocs.search.results/foundimageframe/frameindex) { get; } | 获取图像中帧的索引。 |
+| [DocumentInfo](../../groupdocs.search.results/foundimageframe/documentinfo) { get; } | 获取文档信息. |
+| [FrameIndex](../../groupdocs.search.results/foundimageframe/frameindex) { get; } | 获取帧在图像中的索引。 |
 | [HashDifferences](../../groupdocs.search.results/foundimageframe/hashdifferences) { get; } | 获取图像哈希中不匹配的位数。 |
-| [ImageIndex](../../groupdocs.search.results/foundimageframe/imageindex) { get; } | 获取文档中图像的序号。 |
+| [ImageIndex](../../groupdocs.search.results/foundimageframe/imageindex) { get; } | 获取图像在文档中的序号。 |
 
 ## 方法
 

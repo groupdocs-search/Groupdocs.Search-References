@@ -1,14 +1,14 @@
 ---
 title: IndexInfo
 second_title: GroupDocs.Search for .NET API 参考
-description: 包含一个基本信息Index../groupdocs.search/index.
+description: 包含关于一个的基本信息Index../groupdocs.search/index.
 type: docs
 weight: 220
 url: /zh/net/groupdocs.search.common/indexinfo/
 ---
 ## IndexInfo class
 
-包含一个基本信息[`Index`](../../groupdocs.search/index).
+包含关于一个的基本信息[`Index`](../../groupdocs.search/index).
 
 ```csharp
 public class IndexInfo
@@ -18,7 +18,7 @@ public class IndexInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndexFolder](../../groupdocs.search.common/indexinfo/indexfolder) { get; } | 获取索引所在的完整文件夹名称。 |
+| [IndexFolder](../../groupdocs.search.common/indexinfo/indexfolder) { get; } | 获取index所在文件夹全名。 |
 | [IndexId](../../groupdocs.search.common/indexinfo/indexid) { get; } | 获取索引唯一标识符。 |
 | [IndexStatus](../../groupdocs.search.common/indexinfo/indexstatus) { get; } | 获取索引状态。 |
 | [SegmentCount](../../groupdocs.search.common/indexinfo/segmentcount) { get; } | 获取索引段数。 |

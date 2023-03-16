@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的单词集合添加到StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
+description: 将指定的单词集合添加到该实例StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.dictionaries/stopworddictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;string&gt;) {#addrange}
 
-将指定的单词集合添加到[`StopWordDictionary`](../../stopworddictionary).
+将指定的单词集合添加到该实例[`StopWordDictionary`](../../stopworddictionary).
 
 ```csharp
 public void AddRange(IEnumerable<string> words)
@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<string> words)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| words | IEnumerable`1 | 要添加到字典中的单词集合。 |
+| words | IEnumerable`1 | 要添加到词典中的单词集合。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void AddRange(IEnumerable<string> words)
 
 ## AddRange(string[]) {#addrange_1}
 
-将指定的单词集合添加到[`StopWordDictionary`](../../stopworddictionary).
+将指定的单词集合添加到该实例[`StopWordDictionary`](../../stopworddictionary).
 
 ```csharp
 public void AddRange(string[] words)
@@ -36,7 +36,7 @@ public void AddRange(string[] words)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| words | String[] | 要添加到字典中的单词集合。 |
+| words | String[] | 要添加到词典中的单词集合。 |
 
 ### 也可以看看
 

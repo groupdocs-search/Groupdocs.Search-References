@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: GroupDocs.Search for .NET API 参考
-description: PNG便携式网络图形是指一种使用无损压缩的光栅图像文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/png/.
+description: PNG便携式网络图形指的是一种使用无损压缩的光栅图像文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/png/.
 type: docs
 weight: 460
 url: /zh/net/groupdocs.search.results/filetype/png/
 ---
 ## FileType.PNG field
 
-PNG，便携式网络图形，是指一种使用无损压缩的光栅图像文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/png/).
+PNG，便携式网络图形，指的是一种使用无损压缩的光栅图像文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/png/).
 
 ```csharp
 public static readonly FileType PNG;

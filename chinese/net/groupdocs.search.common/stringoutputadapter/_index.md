@@ -1,14 +1,14 @@
 ---
 title: StringOutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个输出适配器它将输出收集为String.
+description: 表示一个输出适配器它收集输出作为String.
 type: docs
 weight: 310
 url: /zh/net/groupdocs.search.common/stringoutputadapter/
 ---
 ## StringOutputAdapter class
 
-表示一个输出适配器，它将输出收集为String.
+表示一个输出适配器，它收集输出作为String.
 
 ```csharp
 public class StringOutputAdapter : OutputAdapter
@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | 初始化[`StringOutputAdapter`](../stringoutputadapter)类. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | 初始化一个新的实例[`StringOutputAdapter`](../stringoutputadapter)类. |
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 
 ## 方法
 
@@ -28,13 +34,13 @@ public class StringOutputAdapter : OutputAdapter
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [输出适配器](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -46,9 +52,9 @@ index.Add(documentsFolder); // 索引指定文件夹中的文档
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // 获取索引文档的信息
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // 创建一个字符串输出适配器
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // 创建一个字符串输出适配器
 index.GetDocumentText(documents[0], adapter); // 将文档文本生成到适配器中
-String result = adapter.GetResult(); // 得到结果
+String result = adapter.GetResult(); // 获取结果
 ```
 
 ### 也可以看看

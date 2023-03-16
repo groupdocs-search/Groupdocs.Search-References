@@ -1,14 +1,14 @@
 ---
 title: IndexSettings
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化IndexSettingsgroupdocs.search/indexsettings类.
+description: 初始化一个新的实例IndexSettingsgroupdocs.search/indexsettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/indexsettings/indexsettings/
 ---
 ## IndexSettings constructor
 
-初始化[`IndexSettings`](../../indexsettings)类.
+初始化一个新的实例[`IndexSettings`](../../indexsettings)类.
 
 ```csharp
 public IndexSettings()

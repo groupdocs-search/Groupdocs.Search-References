@@ -1,14 +1,14 @@
 ---
 title: StatusChanged
 second_title: GroupDocs.Search for .NET API 参考
-description: 当索引状态改变时发生
+description: 索引状态改变时发生
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.events/eventhub/statuschanged/
 ---
 ## EventHub.StatusChanged event
 
-当索引状态改变时发生。
+索引状态改变时发生。
 
 ```csharp
 public event EventHandler<BaseIndexEventArgs> StatusChanged;
@@ -16,7 +16,7 @@ public event EventHandler<BaseIndexEventArgs> StatusChanged;
 
 ### 例子
 
-示例演示如何使用事件。
+该示例演示了如何使用事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -30,16 +30,16 @@ index.Events.StatusChanged += (sender, args) =>
 {
     if (args.Status != IndexStatus.InProgress)
     {
-        // 这里应该有操作完成的通知
+        // 操作完成的通知应该在这里
     }
 };
 
-// 设置异步索引的标志
+// 为异步索引设置标志
 IndexingOptions options = new IndexingOptions();
 options.IsAsync = true;
 
 // 从指定文件夹异步索引文档
-// 方法在操作完成之前终止
+// 该方法在操作完成之前终止
 index.Add(documentsFolder, options);
 ```
 

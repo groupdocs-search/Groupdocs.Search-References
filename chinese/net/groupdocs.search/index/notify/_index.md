@@ -1,14 +1,14 @@
 ---
 title: Notify
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的通知对象传递给索引以执行通知
+description: 将指定的通知对象传递给索引执行通知
 type: docs
 weight: 200
 url: /zh/net/groupdocs.search/index/notify/
 ---
 ## Index.Notify method
 
-将指定的通知对象传递给索引以执行通知。
+将指定的通知对象传递给索引执行通知。
 
 ```csharp
 public bool Notify(Notification notification)

@@ -1,14 +1,14 @@
 ---
 title: utf_32BE
 second_title: GroupDocs.Search for .NET API 参考
-description: utf32BE 编码
+description: utf32BE编码
 type: docs
 weight: 850
 url: /zh/net/groupdocs.search.common/encodings/utf_32be/
 ---
 ## Encodings.utf_32BE field
 
-utf-32BE 编码。
+utf-32BE编码。
 
 ```csharp
 public const string utf_32BE;

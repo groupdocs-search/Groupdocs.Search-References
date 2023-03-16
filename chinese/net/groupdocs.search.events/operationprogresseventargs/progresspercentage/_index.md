@@ -1,14 +1,14 @@
 ---
 title: ProgressPercentage
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取进度百分比
+description: 获取进度的百分比
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.events/operationprogresseventargs/progresspercentage/
 ---
 ## OperationProgressEventArgs.ProgressPercentage property
 
-获取进度百分比。
+获取进度的百分比。
 
 ```csharp
 public double ProgressPercentage { get; }
@@ -16,7 +16,7 @@ public double ProgressPercentage { get; }
 
 ### 适当的价值
 
-进度百分比。
+进度的百分比。
 
 ### 也可以看看
 

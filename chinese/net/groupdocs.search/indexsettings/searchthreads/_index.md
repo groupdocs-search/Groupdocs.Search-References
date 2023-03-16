@@ -1,14 +1,14 @@
 ---
 title: SearchThreads
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置用于搜索的线程数 默认值为Default 这意味着将使用等于处理器内核数的线程数执行搜索
+description: 获取或设置用于搜索的线程数 默认值为Default 这意味着将使用等于处理器内核数的线程数来执行搜索
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search/indexsettings/searchthreads/
 ---
 ## IndexSettings.SearchThreads property
 
-获取或设置用于搜索的线程数。 默认值为Default, 这意味着将使用等于处理器内核数的线程数执行搜索。
+获取或设置用于搜索的线程数。 默认值为Default, 这意味着将使用等于处理器内核数的线程数来执行搜索。
 
 ```csharp
 public NumberOfThreads SearchThreads { get; set; }

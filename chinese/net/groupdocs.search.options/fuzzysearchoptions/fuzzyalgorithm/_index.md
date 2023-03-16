@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置模糊搜索算法 目前可用的模糊搜索算法有SimilarityLevelgroupdocs.search.options/similaritylevel和TableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. 默认值是一个实例SimilarityLevelgroupdocs.search.options/similaritylevel具有相似度值0.5.
+description: 获取或设置模糊搜索算法 目前可用的模糊搜索算法有SimilarityLevelgroupdocs.search.options/similaritylevel和TableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. 默认值是一个实例SimilarityLevelgroupdocs.search.options/similaritylevel相似度值为0.5.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-获取或设置模糊搜索算法。 目前可用的模糊搜索算法有[`SimilarityLevel`](../../similaritylevel)和[`TableDiscreteFunction`](../../tablediscretefunction). 默认值是一个实例[`SimilarityLevel`](../../similaritylevel)具有相似度值`0.5`.
+获取或设置模糊搜索算法。 目前可用的模糊搜索算法有[`SimilarityLevel`](../../similaritylevel)和[`TableDiscreteFunction`](../../tablediscretefunction). 默认值是一个实例[`SimilarityLevel`](../../similaritylevel)相似度值为`0.5`.
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
@@ -22,7 +22,7 @@ public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*value*是`无效的`. |
+| ArgumentNullException | 抛出时*value*是`无效的`. |
 
 ### 例子
 
@@ -41,7 +41,7 @@ options.FuzzySearch.Enabled = true; // 启用模糊搜索
 options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1, new Step(5, 2), new Step(8, 3)); // 创建模糊搜索算法
 // 此函数将 1 指定为 1 到 4 个字符的单词的最大错误数。
 // 它指定 2 为 5 到 7 个字符的单词的最大错误数。
-// 它将 3 指定为 8 个或更多字符的单词的最大错误数。
+// 它指定 3 作为 8 个或更多字符的单词的最大错误数。
 
 SearchResult result = index.Search(query, options); // 在索引中搜索
 ```

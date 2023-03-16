@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Search for .NET API 参考
 description: 提供申请许可证的方法
 type: docs
-weight: 690
+weight: 720
 url: /zh/net/groupdocs.search/license/
 ---
 ## License class
@@ -18,7 +18,7 @@ public sealed class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化[`License`](../license)类. |
+| [License](license)() | 初始化一个新的实例[`License`](../license)类. |
 
 ## 方法
 
@@ -29,13 +29,13 @@ public sealed class License
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [评估限制和许可](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 
 ### 例子
 
-该示例演示如何设置许可证。
+该示例演示了如何设置许可证。
 
 ```csharp
 License license = new License();

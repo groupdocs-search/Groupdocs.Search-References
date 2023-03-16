@@ -1,14 +1,14 @@
 ---
 title: cp875
 second_title: GroupDocs.Search for .NET API 参考
-description: cp875 编码
+description: cp875编码
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.common/encodings/cp875/
 ---
 ## Encodings.cp875 field
 
-cp875 编码。
+cp875编码。
 
 ```csharp
 public const string cp875;

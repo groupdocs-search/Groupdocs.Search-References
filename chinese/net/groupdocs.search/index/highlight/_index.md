@@ -1,14 +1,14 @@
 ---
 title: Highlight
 second_title: GroupDocs.Search for .NET API 参考
-description: 生成带有突出显示的已找到术语的 HTML 格式文本
+description: 生成带有突出显示的找到的术语的 HTML 格式文本
 type: docs
 weight: 180
 url: /zh/net/groupdocs.search/index/highlight/
 ---
 ## Highlight(FoundDocument, Highlighter) {#highlight}
 
-生成带有突出显示的已找到术语的 HTML 格式文本。
+生成带有突出显示的找到的术语的 HTML 格式文本。
 
 ```csharp
 public void Highlight(FoundDocument document, Highlighter highlighter)
@@ -16,12 +16,12 @@ public void Highlight(FoundDocument document, Highlighter highlighter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | FoundDocument | 找到的文档。 |
-| highlighter | Highlighter | 搜索结果突出显示。 |
+| document | FoundDocument | 找到的文件。 |
+| highlighter | Highlighter | 搜索结果荧光笔。 |
 
 ### 例子
 
-该示例演示了如何突出显示 HTML 格式文本中的出现。
+该示例演示了如何突出显示 HTML 格式文本中的事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -33,16 +33,16 @@ Index index = new Index(indexFolder);
 // 索引指定文件夹中的文档
 index.Add(documentFolder);
 
-// 搜索单词'eternity'
+// 搜索单词 'eternity'
 SearchResult result = index.Search("eternity");
 
-// 突出显示文本中的出现
+// 突出显示文本中的事件
 if (result.DocumentCount > 0)
 {
     FoundDocument document = result.GetFoundDocument(0); // 获取第一个找到的文档
     OutputAdapter outputAdapter = new FileOutputAdapter(@"c:\Highlighted.html"); // 创建文件的输出适配器
     Highlighter highlighter = new HtmlHighlighter(outputAdapter); // 创建荧光笔对象
-    index.Highlight(document, highlighter); // 生成带有突出显示的 HTML 格式文本
+    index.Highlight(document, highlighter); // 生成带有高亮显示的 HTML 格式文本
 }
 ```
 
@@ -58,7 +58,7 @@ if (result.DocumentCount > 0)
 
 ## Highlight(FoundDocument, Highlighter, HighlightOptions) {#highlight_1}
 
-生成带有突出显示的已找到术语的 HTML 格式文本。
+生成带有突出显示的找到的术语的 HTML 格式文本。
 
 ```csharp
 public void Highlight(FoundDocument document, Highlighter highlighter, HighlightOptions options)
@@ -66,13 +66,13 @@ public void Highlight(FoundDocument document, Highlighter highlighter, Highlight
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | FoundDocument | 找到的文档。 |
-| highlighter | Highlighter | 搜索结果突出显示。 |
+| document | FoundDocument | 找到的文件。 |
+| highlighter | Highlighter | 搜索结果荧光笔。 |
 | options | HighlightOptions | 突出显示选项。 |
 
 ### 例子
 
-该示例演示了如何突出显示 HTML 格式文本中的出现。
+该示例演示了如何突出显示 HTML 格式文本中的事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -84,10 +84,10 @@ Index index = new Index(indexFolder);
 // 索引指定文件夹中的文档
 index.Add(documentFolder);
 
-// 搜索单词'eternity'
+// 搜索单词 'eternity'
 SearchResult result = index.Search("eternity");
 
-// 突出显示文本中的出现
+// 突出显示文本中的事件
 if (result.DocumentCount > 0)
 {
     FoundDocument document = result.GetFoundDocument(0); // 获取第一个找到的文档
@@ -97,7 +97,7 @@ if (result.DocumentCount > 0)
     options.TermsBefore = 5;
     options.TermsAfter = 5;
     options.TermsTotal = 15;
-    index.Highlight(document, highlighter, options); // 生成带有突出显示的 HTML 格式文本
+    index.Highlight(document, highlighter, options); // 生成带有高亮显示的 HTML 格式文本
 }
 ```
 

@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.search.events/passwordrequiredeventargs/password/
 ---
 ## PasswordRequiredEventArgs.Password property
 
-获取或设置打开文档的密码
+获取或设置打开文档的密码。
 
 ```csharp
 public string Password { get; set; }

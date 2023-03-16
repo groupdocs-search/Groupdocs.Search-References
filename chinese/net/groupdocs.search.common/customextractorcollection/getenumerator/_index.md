@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回此集合的枚举数
+description: 返回此集合的枚举器
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.common/customextractorcollection/getenumerator/
 ---
 ## CustomExtractorCollection.GetEnumerator method
 
-返回此集合的枚举数。
+返回此集合的枚举器。
 
 ```csharp
 public IEnumerator<IFieldExtractor> GetEnumerator()

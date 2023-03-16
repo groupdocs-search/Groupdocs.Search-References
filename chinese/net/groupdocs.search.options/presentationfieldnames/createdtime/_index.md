@@ -1,14 +1,14 @@
 ---
 title: CreatedTime
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建的时间字段名
+description: 创建的时间字段名.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.options/presentationfieldnames/createdtime/
 ---
 ## PresentationFieldNames.CreatedTime field
 
-创建的时间字段名。
+创建的时间字段名.
 
 ```csharp
 public const string CreatedTime;

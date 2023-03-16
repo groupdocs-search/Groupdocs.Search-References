@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表视频格式
+description: 表示视频格式
 type: docs
 weight: 230
 url: /zh/net/groupdocs.search.results/formatfamily/video/
 ---
 ## FormatFamily.Video field
 
-代表视频格式。
+表示视频格式。
 
 ```csharp
 public static readonly FormatFamily Video;

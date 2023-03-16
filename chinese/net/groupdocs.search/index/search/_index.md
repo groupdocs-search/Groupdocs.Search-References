@@ -37,7 +37,7 @@ index.Add(documentsFolder); // 索引指定文件夹中的文档
 SearchResult result = index.Search(query); // 搜索
 ```
 
-以下示例演示了如何执行正则表达式搜索。
+以下示例演示如何执行正则表达式搜索。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -46,11 +46,11 @@ string documentsFolder = @"c:\MyDocuments\";
 Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 index.Add(documentsFolder); // 索引指定文件夹中的文档
 
-string query = "^[0-9]{3,}"; // 搜索查询开头的插入符号告诉索引它是一个正则表达式查询
+string query = "^[0-9]{3,}"; // 搜索查询开头的插入符号告诉索引这是一个 Regex 查询
 SearchResult result = index.Search(query); // 搜索
 ```
 
-以下示例演示如何执行分面搜索。
+以下示例演示了如何执行分面搜索。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -104,7 +104,7 @@ SearchOptions options = new SearchOptions();
 options.FuzzySearch.Enabled = true; // 启用模糊搜索
 options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1); // 设置每个单词的可能差异数
 
-// 开头和结尾的双引号告诉索引它是词组搜索查询
+// 开头和结尾的双引号告诉索引这是短语搜索查询
 string query = "\"The Pursuit of Happiness\"";
 SearchResult result = index.Search(query, options); // 搜索
 ```
@@ -174,7 +174,7 @@ SearchQuery subquery2 = SearchQuery.CreateNumericRangeQuery(1, 1000000);
 // 创建子查询 3
 SearchQuery subquery3 = SearchQuery.CreateRegexQuery(@"(.)\1");
 
-// 将子查询合并为一个查询
+// 将子查询组合成一个查询
 SearchQuery query = SearchQuery.CreatePhraseSearchQuery(subquery1, subquery2, subquery3);
 
 SearchResult result = index.Search(query); // 搜索
@@ -221,19 +221,19 @@ index.Add(documentsFolder); // 索引指定文件夹中的文档
 // 创建日期范围搜索的子查询
 SearchQuery subquery1 = SearchQuery.CreateDateRangeQuery(new DateTime(2011, 6, 17), new DateTime(2013, 1, 1));
 
-// 创建通配符的子查询，遗漏单词数从 0 到 2
+// 创建遗漏字数从 0 到 2 的通配符子查询
 SearchQuery subquery2 = SearchQuery.CreateWildcardQuery(0, 2);
 
-// 创建简单单词的子查询
+// 创建简单词的子查询
 SearchQuery subquery3 = SearchQuery.CreateWordQuery("birth");
 subquery3.SearchOptions = new SearchOptions(); // 仅为子查询 3 设置搜索选项
 subquery3.SearchOptions.FuzzySearch.Enabled = true;
 subquery3.SearchOptions.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1);
 
-// 将子查询合并为一个查询
+// 将子查询组合成一个查询
 SearchQuery query = SearchQuery.CreatePhraseSearchQuery(subquery1, subquery2, subquery3);
 
-// 创建搜索选项对象，增加找到的事件的容量
+// 创建搜索选项对象，增加已发现事件的容量
 SearchOptions options = new SearchOptions(); // 整体搜索选项
 options.MaxOccurrenceCountPerTerm = 1000000;
 options.MaxTotalOccurrenceCount = 10000000;
@@ -263,7 +263,7 @@ public ImageSearchResult Search(SearchImage image, ImageSearchOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | SearchImage | 要搜索的图像。 |
-| options | ImageSearchOptions | 图像搜索选项。 |
+| options | ImageSearchOptions | 图片搜索选项。 |
 
 ### 返回值
 

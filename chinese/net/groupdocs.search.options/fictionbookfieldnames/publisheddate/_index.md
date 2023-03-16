@@ -1,14 +1,14 @@
 ---
 title: PublishedDate
 second_title: GroupDocs.Search for .NET API 参考
-description: 发布日期字段名称
+description: 发布日期字段名.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/fictionbookfieldnames/publisheddate/
 ---
 ## FictionBookFieldNames.PublishedDate field
 
-发布日期字段名称。
+发布日期字段名.
 
 ```csharp
 public const string PublishedDate;

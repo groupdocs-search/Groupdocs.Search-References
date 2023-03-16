@@ -1,14 +1,14 @@
 ---
 title: RTF
 second_title: GroupDocs.Search for .NET API 参考
-description: 由 Microsoft 引入和记录富文本格式 RTF 代表了一种编码 格式化文本和图形以供在应用程序中使用的方法该格式便于与其他 Microsoft 产品进行跨平台 document 交换从而达到互操作性的目的详细了解 这种文件格式这里https//wiki.fileformat.com/wordprocessing/rtf/.
+description: 富文本格式 RTF 由 Microsoft 引入并记录在案代表了一种编码 格式的文本和图形以在应用程序中使用的方法该格式便于与其他 Microsoft 产品进行跨平台 document 交换从而达到互操作性的目的详细了解 此文件格式这里https//wiki.fileformat.com/wordprocessing/rtf/.
 type: docs
 weight: 590
 url: /zh/net/groupdocs.search.results/filetype/rtf/
 ---
 ## FileType.RTF field
 
-由 Microsoft 引入和记录，富文本格式 (RTF) 代表了一种编码 格式化文本和图形以供在应用程序中使用的方法。该格式便于与其他 Microsoft 产品进行跨平台 document 交换，从而达到互操作性的目的。详细了解 这种文件格式[这里](https://wiki.fileformat.com/word-processing/rtf/).
+富文本格式 (RTF) 由 Microsoft 引入并记录在案，代表了一种编码 格式的文本和图形以在应用程序中使用的方法。该格式便于与其他 Microsoft 产品进行跨平台 document 交换，从而达到互操作性的目的。详细了解 此文件格式[这里](https://wiki.fileformat.com/word-processing/rtf/).
 
 ```csharp
 public static readonly FileType RTF;

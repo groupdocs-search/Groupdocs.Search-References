@@ -1,14 +1,14 @@
 ---
 title: ODT
 second_title: GroupDocs.Search for .NET API 参考
-description: ODT 文件是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型这些是使用免费的 OpenOffice Writer 等文字处理器应用程序创建的 可以保存文本图像对象和样式等内容了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/wordprocessing/odt/.
+description: ODT 文件是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型这些是使用文字处理器应用程序创建的例如免费的 OpenOffice Writer 和 可以保存文本图像对象和样式等内容详细了解此文件格式 这里https//wiki.fileformat.com/wordprocessing/odt/.
 type: docs
 weight: 400
 url: /zh/net/groupdocs.search.results/filetype/odt/
 ---
 ## FileType.ODT field
 
-ODT 文件是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型。这些是使用免费的 OpenOffice Writer 等文字处理器应用程序创建的， 可以保存文本、图像、对象和样式等内容。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/word-processing/odt/).
+ODT 文件是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型。这些是使用文字处理器应用程序创建的，例如免费的 OpenOffice Writer 和 可以保存文本、图像、对象和样式等内容。详细了解此文件格式 [这里](https://wiki.fileformat.com/word-processing/odt/).
 
 ```csharp
 public static readonly FileType ODT;

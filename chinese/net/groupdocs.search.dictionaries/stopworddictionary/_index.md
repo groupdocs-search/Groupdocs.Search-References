@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示停用词字典
 type: docs
-weight: 470
+weight: 480
 url: /zh/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class
@@ -18,16 +18,16 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/stopworddictionary/count) { get; } | 获取包含在[`StopWordDictionary`](../stopworddictionary). |
+| [Count](../../groupdocs.search.dictionaries/stopworddictionary/count) { get; } | 获取停用词的个数[`StopWordDictionary`](../stopworddictionary). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange)(IEnumerable&lt;string&gt;) | 将指定的单词集合添加到[`StopWordDictionary`](../stopworddictionary). |
-| [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange_1)(string[]) | 将指定的单词集合添加到[`StopWordDictionary`](../stopworddictionary). |
-| [Clear](../../groupdocs.search.dictionaries/stopworddictionary/clear)() | 删除所有单词[`StopWordDictionary`](../stopworddictionary)对象. |
-| [Contains](../../groupdocs.search.dictionaries/stopworddictionary/contains)(string) | 确定是否[`StopWordDictionary`](../stopworddictionary)对象包含指定的单词。 |
+| [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange)(IEnumerable&lt;string&gt;) | 将指定的单词集合添加到该实例[`StopWordDictionary`](../stopworddictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange_1)(string[]) | 将指定的单词集合添加到该实例[`StopWordDictionary`](../stopworddictionary). |
+| [Clear](../../groupdocs.search.dictionaries/stopworddictionary/clear)() | 从 a 中删除所有单词[`StopWordDictionary`](../stopworddictionary)对象. |
+| [Contains](../../groupdocs.search.dictionaries/stopworddictionary/contains)(string) | 确定是否[`StopWordDictionary`](../stopworddictionary)对象包含指定的词。 |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
 | [GetEnumerator](../../groupdocs.search.dictionaries/stopworddictionary/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | 从指定文件导入字典。 |
@@ -36,7 +36,7 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [用停用词索引](https://docs.groupdocs.com/display/searchnet/Indexing+with+stop+words)
 * [管理停用词词典](https://docs.groupdocs.com/display/searchnet/Stop+word+dictionary)

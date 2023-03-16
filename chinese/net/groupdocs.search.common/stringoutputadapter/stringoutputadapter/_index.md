@@ -1,21 +1,26 @@
 ---
 title: StringOutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化StringOutputAdaptergroupdocs.search.common/stringoutputadapter类.
+description: 初始化一个新的实例StringOutputAdaptergroupdocs.search.common/stringoutputadapter类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/stringoutputadapter/stringoutputadapter/
 ---
 ## StringOutputAdapter constructor
 
-初始化[`StringOutputAdapter`](../../stringoutputadapter)类.
+初始化一个新的实例[`StringOutputAdapter`](../../stringoutputadapter)类.
 
 ```csharp
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| outputFormat | OutputFormat | 输出格式。 |
 
 ### 也可以看看
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StringOutputAdapter](../../stringoutputadapter)
 * 命名空间 [GroupDocs.Search.Common](../../stringoutputadapter)
 * 部件 [GroupDocs.Search](../../../)

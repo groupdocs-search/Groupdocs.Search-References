@@ -1,14 +1,14 @@
 ---
 title: Compression
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置文本存储的压缩率 默认值为Normal.
+description: 获取或设置文本存储的压缩方式 默认值为Normal.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/textstoragesettings/compression/
 ---
 ## TextStorageSettings.Compression property
 
-获取或设置文本存储的压缩率。 默认值为Normal.
+获取或设置文本存储的压缩方式。 默认值为Normal.
 
 ```csharp
 public Compression Compression { get; set; }

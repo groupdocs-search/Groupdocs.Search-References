@@ -1,14 +1,14 @@
 ---
 title: CreationDate
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建日期字段名称
+description: 创建日期字段名
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/commonfieldnames/creationdate/
 ---
 ## CommonFieldNames.CreationDate field
 
-创建日期字段名称。
+创建日期字段名。
 
 ```csharp
 public const string CreationDate;

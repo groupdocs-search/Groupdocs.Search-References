@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 .XLT 扩展名的文件是使用 Microsoft Excel 创建的模板文件它是作为 Microsoft Office 套件的一部分提供的电子表格 应用程序了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xlt/.
+description: 扩展名为 .XLT 的文件是使用 Microsoft Excel 创建的模板文件Microsoft Excel 是一个电子表格 应用程序是 Microsoft Office 套件的一部分详细了解此文件格式 这里https//wiki.fileformat.com/specification/spreadsheet/xlt/.
 type: docs
 weight: 780
 url: /zh/net/groupdocs.search.results/filetype/xlt/
 ---
 ## FileType.XLT field
 
-带有 .XLT 扩展名的文件是使用 Microsoft Excel 创建的模板文件，它是作为 Microsoft Office 套件的一部分提供的电子表格 应用程序。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xlt/).
+扩展名为 .XLT 的文件是使用 Microsoft Excel 创建的模板文件，Microsoft Excel 是一个电子表格 应用程序，是 Microsoft Office 套件的一部分。详细了解此文件格式 [这里](https://wiki.fileformat.com/specification/spreadsheet/xlt/).
 
 ```csharp
 public static readonly FileType XLT;

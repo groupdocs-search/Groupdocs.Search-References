@@ -1,14 +1,14 @@
 ---
 title: Threads
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置用于索引的线程数 默认值为1.
+description: 获取或设置用于索引的线程数 默认值为1个.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.options/updateoptions/threads/
 ---
 ## UpdateOptions.Threads property
 
-获取或设置用于索引的线程数。 默认值为`1`.
+获取或设置用于索引的线程数。 默认值为`1个`.
 
 ```csharp
 public int Threads { get; set; }

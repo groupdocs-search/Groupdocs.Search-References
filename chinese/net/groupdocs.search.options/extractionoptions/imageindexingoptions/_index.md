@@ -16,7 +16,7 @@ public ImageIndexingOptions ImageIndexingOptions { get; }
 
 ### 适当的价值
 
-用于反向图像搜索的图像索引选项。
+反向图像搜索的图像索引选项。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CreateFieldQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 向指定查询添加一个字段
+description: 向指定查询添加字段
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search/searchquery/createfieldquery/
 ---
 ## SearchQuery.CreateFieldQuery method
 
-向指定查询添加一个字段。
+向指定查询添加字段。
 
 ```csharp
 public static SearchQuery CreateFieldQuery(string fieldName, SearchQuery query)

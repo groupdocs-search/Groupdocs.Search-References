@@ -1,14 +1,14 @@
 ---
 title: LastAuthor
 second_title: GroupDocs.Search for .NET API 参考
-description: 最后作者字段名称
+description: 最后作者字段名.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.search.options/spreadsheetfieldnames/lastauthor/
 ---
 ## SpreadsheetFieldNames.LastAuthor field
 
-最后作者字段名称。
+最后作者字段名.
 
 ```csharp
 public const string LastAuthor;

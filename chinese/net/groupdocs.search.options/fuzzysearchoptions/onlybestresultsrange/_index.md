@@ -1,14 +1,14 @@
 ---
 title: OnlyBestResultsRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置发现的最小错误数的最大超出数 默认值为0.
+description: 获取或设置最大超过最小发现错误数 默认值为0.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange/
 ---
 ## FuzzySearchOptions.OnlyBestResultsRange property
 
-获取或设置发现的最小错误数的最大超出数。 默认值为`0`.
+获取或设置最大超过最小发现错误数。 默认值为`0`.
 
 ```csharp
 public byte OnlyBestResultsRange { get; set; }
@@ -16,7 +16,7 @@ public byte OnlyBestResultsRange { get; set; }
 
 ### 适当的价值
 
-最大超过发现的最小错误数。
+发现错误的最大超过最小数量。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Events
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取订阅事件的事件中心
+description: 获取用于订阅事件的事件中心
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search/indexrepository/events/
 ---
 ## IndexRepository.Events property
 
-获取订阅事件的事件中心。
+获取用于订阅事件的事件中心。
 
 ```csharp
 public EventHub Events { get; }

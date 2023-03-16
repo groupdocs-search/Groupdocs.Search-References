@@ -1,14 +1,14 @@
 ---
 title: UseInlineStyles
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否使用内联样式突出显示 默认值为真的.
+description: 获取或设置一个值指示是否使用内联样式来突出显示 默认值为真的.
 type: docs
-weight: 60
+weight: 80
 url: /zh/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property
 
-获取或设置一个值，该值指示是否使用内联样式突出显示。 默认值为`真的`.
+获取或设置一个值，指示是否使用内联样式来突出显示。 默认值为`真的`.
 
 ```csharp
 public bool UseInlineStyles { get; set; }
@@ -16,7 +16,7 @@ public bool UseInlineStyles { get; set; }
 
 ### 适当的价值
 
-一个值，指示是否使用内联样式突出显示事件。
+指示内联样式是否用于突出显示事件的值。
 
 ### 也可以看看
 

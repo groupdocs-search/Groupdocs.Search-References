@@ -1,14 +1,14 @@
 ---
 title: IndexId
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取索引 ID
+description: 获取索引 ID.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.events/baseindexeventargs/indexid/
 ---
 ## BaseIndexEventArgs.IndexId property
 
-获取索引 ID。
+获取索引 ID.
 
 ```csharp
 public Guid IndexId { get; }
@@ -16,7 +16,7 @@ public Guid IndexId { get; }
 
 ### 适当的价值
 
-索引 ID。
+索引标识。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public abstract DocumentSourceKind DocumentSourceKind { get; }
 
 ### 适当的价值
 
-文档来源种类。
+文件来源种类。
 
 ### 也可以看看
 

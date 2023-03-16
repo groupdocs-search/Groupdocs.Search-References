@@ -1,14 +1,14 @@
 ---
 title: utf_16
 second_title: GroupDocs.Search for .NET API 参考
-description: utf16 编码
+description: utf16编码
 type: docs
 weight: 820
 url: /zh/net/groupdocs.search.common/encodings/utf_16/
 ---
 ## Encodings.utf_16 field
 
-utf-16 编码。
+utf-16编码。
 
 ```csharp
 public const string utf_16;

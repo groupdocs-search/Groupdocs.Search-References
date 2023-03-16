@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Search for .NET API 参考
-description: 确定集合是否包含特定的提取器
+description: 确定集合是否包含特定提取器
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.common/customextractorcollection/contains/
 ---
 ## CustomExtractorCollection.Contains method
 
-确定集合是否包含特定的提取器。
+确定集合是否包含特定提取器。
 
 ```csharp
 public bool Contains(IFieldExtractor item)

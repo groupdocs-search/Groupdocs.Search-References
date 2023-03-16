@@ -16,11 +16,11 @@ public string[] GetWordForms(string word)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| word | String | 建议单词形式的单词。 |
+| word | String | 暗示词形的词。 |
 
 ### 返回值
 
-指定单词或空数组的单词形式 如果[`IWordFormsProvider`](../../iwordformsprovider)不提供指定单词的单词形式。
+指定单词或空数组 的单词形式[`IWordFormsProvider`](../../iwordformsprovider)不提供指定单词的单词形式。
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public interface IContainerItemExtractor : IFieldExtractor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormatFamily](../../groupdocs.search.common/icontaineritemextractor/formatfamily) { get; } | 获取文档格式族。 |
+| [FormatFamily](../../groupdocs.search.common/icontaineritemextractor/formatfamily) { get; } | 获取文档格式系列。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public interface IContainerItemExtractor : IFieldExtractor
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [自定义文本提取器](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

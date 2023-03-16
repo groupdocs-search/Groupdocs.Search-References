@@ -1,14 +1,14 @@
 ---
 title: OcrContext
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示 OCR 处理上下文
+description: 表示OCR处理上下文
 type: docs
-weight: 960
+weight: 990
 url: /zh/net/groupdocs.search.options/ocrcontext/
 ---
 ## OcrContext class
 
-表示 OCR 处理上下文。
+表示OCR处理上下文。
 
 ```csharp
 public class OcrContext
@@ -18,9 +18,9 @@ public class OcrContext
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageFileExtension](../../groupdocs.search.options/ocrcontext/imagefileextension) { get; } | 获取图片的文件扩展名 这个值可以用来判断图片的类型 |
+| [ImageFileExtension](../../groupdocs.search.options/ocrcontext/imagefileextension) { get; } | 获取图片的文件扩展名。 这个值可以用来判断图片的类型。 |
 | [ImageLocation](../../groupdocs.search.options/ocrcontext/imagelocation) { get; } | 获取图像的位置。 |
-| [ImageStream](../../groupdocs.search.options/ocrcontext/imagestream) { get; } | 获取包含要处理的图像的流。 |
+| [ImageStream](../../groupdocs.search.options/ocrcontext/imagestream) { get; } | 获取包含待处理图像的流。 |
 
 ### 也可以看看
 

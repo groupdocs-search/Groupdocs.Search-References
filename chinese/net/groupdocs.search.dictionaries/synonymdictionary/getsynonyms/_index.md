@@ -16,11 +16,11 @@ public string[] GetSynonyms(string word)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| word | String | 暗示同义词的词。 |
+| word | String | 提示同义词的词。 |
 
 ### 返回值
 
-指定单词的同义词或空数组 如果[`SynonymDictionary`](../../synonymdictionary)对象不包含指定的单词。
+指定单词或空数组的同义词 如果[`SynonymDictionary`](../../synonymdictionary)对象不包含指定的词。
 
 ### 也可以看看
 

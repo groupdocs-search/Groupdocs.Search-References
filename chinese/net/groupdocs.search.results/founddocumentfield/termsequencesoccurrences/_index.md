@@ -16,7 +16,7 @@ public int[] TermSequencesOccurrences { get; }
 
 ### 适当的价值
 
-找到的术语序列的出现次数。
+找到的术语序列的出现。
 
 ### 也可以看看
 

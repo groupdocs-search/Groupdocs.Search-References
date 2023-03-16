@@ -3,7 +3,7 @@ title: Compression
 second_title: GroupDocs.Search for .NET API 参考
 description: 指定压缩级别
 type: docs
-weight: 730
+weight: 760
 url: /zh/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration
@@ -24,7 +24,7 @@ public enum Compression
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [存储索引文档的文本](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 

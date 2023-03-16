@@ -1,14 +1,14 @@
 ---
 title: ibm857
 second_title: GroupDocs.Search for .NET API 参考
-description: ibm857 编码
+description: ibm857编码
 type: docs
 weight: 490
 url: /zh/net/groupdocs.search.common/encodings/ibm857/
 ---
 ## Encodings.ibm857 field
 
-ibm857 编码。
+ibm857编码。
 
 ```csharp
 public const string ibm857;

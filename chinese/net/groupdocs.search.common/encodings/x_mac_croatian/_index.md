@@ -1,14 +1,14 @@
 ---
 title: x_mac_croatian
 second_title: GroupDocs.Search for .NET API 参考
-description: xmaccroatian 编码
+description: xmac克罗地亚语编码
 type: docs
 weight: 1290
 url: /zh/net/groupdocs.search.common/encodings/x_mac_croatian/
 ---
 ## Encodings.x_mac_croatian field
 
-x-mac-croatian 编码。
+x-mac-克罗地亚语编码。
 
 ```csharp
 public const string x_mac_croatian;

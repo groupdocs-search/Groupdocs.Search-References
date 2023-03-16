@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-一个String代表当前[`Document`](../../document).
+AString代表当前[`Document`](../../document).
 
 ### 也可以看看
 

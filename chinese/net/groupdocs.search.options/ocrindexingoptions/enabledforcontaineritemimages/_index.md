@@ -1,14 +1,14 @@
 ---
 title: EnabledForContainerItemImages
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否识别作为容器中项目的图像中的文本 例如ZIP 存档中的图像 默认值为错误的.
+description: 获取或设置一个值该值指示是否识别属于容器 中项目的图像中的文本例如ZIP 存档中的图像 默认值为错误的.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages/
 ---
 ## OcrIndexingOptions.EnabledForContainerItemImages property
 
-获取或设置一个值，该值指示是否识别作为容器中项目的图像中的文本 （例如，ZIP 存档中的图像）。 默认值为`错误的`.
+获取或设置一个值，该值指示是否识别属于容器 中项目的图像中的文本（例如，ZIP 存档中的图像）。 默认值为`错误的`.
 
 ```csharp
 public bool EnabledForContainerItemImages { get; set; }

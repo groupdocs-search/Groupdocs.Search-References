@@ -1,14 +1,14 @@
 ---
 title: ProjectManagement
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表项目管理格式
+description: 表示项目管理格式
 type: docs
 weight: 170
 url: /zh/net/groupdocs.search.results/formatfamily/projectmanagement/
 ---
 ## FormatFamily.ProjectManagement field
 
-代表项目管理格式。
+表示项目管理格式。
 
 ```csharp
 public static readonly FormatFamily ProjectManagement;

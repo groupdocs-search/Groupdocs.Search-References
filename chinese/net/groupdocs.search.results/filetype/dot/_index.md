@@ -1,14 +1,14 @@
 ---
 title: DOT
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 .DOT 扩展名的文件是由 Microsoft Word 创建的模板文件具有预先格式化的设置 用于生成更多 DOC 或 DOCX 文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/wordprocessing/dot/.
+description: 扩展名为 .DOT 的文件是由 Microsoft Word 创建的模板文件具有预格式化设置 用于生成更多 DOC 或 DOCX 文件详细了解此文件格式 这里https//wiki.fileformat.com/wordprocessing/dot/.
 type: docs
 weight: 150
 url: /zh/net/groupdocs.search.results/filetype/dot/
 ---
 ## FileType.DOT field
 
-带有 .DOT 扩展名的文件是由 Microsoft Word 创建的模板文件，具有预先格式化的设置 ，用于生成更多 DOC 或 DOCX 文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/word-processing/dot/).
+扩展名为 .DOT 的文件是由 Microsoft Word 创建的模板文件，具有预格式化设置 用于生成更多 DOC 或 DOCX 文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/word-processing/dot/).
 
 ```csharp
 public static readonly FileType DOT;

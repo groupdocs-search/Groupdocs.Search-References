@@ -1,14 +1,14 @@
 ---
 title: SearchPhaseEventArgs
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示搜索阶段变化事件的参数
+description: 表示搜索相位变化事件的参数
 type: docs
-weight: 590
+weight: 600
 url: /zh/net/groupdocs.search.events/searchphaseeventargs/
 ---
 ## SearchPhaseEventArgs class
 
-表示搜索阶段变化事件的参数。
+表示搜索相位变化事件的参数。
 
 ```csharp
 public class SearchPhaseEventArgs : BaseIndexEventArgs
@@ -19,16 +19,16 @@ public class SearchPhaseEventArgs : BaseIndexEventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
 | [Query](../../groupdocs.search.events/searchphaseeventargs/query) { get; } | 获取当前搜索的初始查询。 |
 | [SearchPhase](../../groupdocs.search.events/searchphaseeventargs/searchphase) { get; } | 获取搜索阶段。 |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | 获取事件的时间。 |
-| [Words](../../groupdocs.search.events/searchphaseeventargs/words) { get; } | 获取当前阶段获得的单词。 |
+| [Words](../../groupdocs.search.events/searchphaseeventargs/words) { get; } | 获取当前阶段得到的单词。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

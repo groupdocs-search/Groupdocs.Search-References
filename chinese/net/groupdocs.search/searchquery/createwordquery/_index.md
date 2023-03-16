@@ -16,7 +16,7 @@ public static SearchQuery CreateWordQuery(string term)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| term | String | 要搜索的词。 |
+| term | String | 要搜索的术语。 |
 
 ### 返回值
 

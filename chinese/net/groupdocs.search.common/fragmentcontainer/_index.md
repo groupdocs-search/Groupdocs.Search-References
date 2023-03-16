@@ -1,14 +1,14 @@
 ---
 title: FragmentContainer
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示文本片段的容器其中突出显示了一个文档字段的找到的术语
+description: 表示一个文本片段的容器其中突出显示了一个文档字段中找到的术语
 type: docs
 weight: 160
 url: /zh/net/groupdocs.search.common/fragmentcontainer/
 ---
 ## FragmentContainer class
 
-表示文本片段的容器，其中突出显示了一个文档字段的找到的术语。
+表示一个文本片段的容器，其中突出显示了一个文档字段中找到的术语。
 
 ```csharp
 public class FragmentContainer
@@ -25,11 +25,11 @@ public class FragmentContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFragments](../../groupdocs.search.common/fragmentcontainer/getfragments)() | 获取包含的文本片段数组。 |
+| [GetFragments](../../groupdocs.search.common/fragmentcontainer/getfragments)() | 获取包含文本片段的数组。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [突出显示搜索结果](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

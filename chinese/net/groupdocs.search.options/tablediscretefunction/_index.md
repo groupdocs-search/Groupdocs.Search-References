@@ -1,14 +1,14 @@
 ---
 title: TableDiscreteFunction
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示包含字长和允许错误数之间对应关系的模糊搜索算法 该算法可以由输出值表或阶梯函数指定
+description: 表示模糊搜索算法其中包含字长和允许错误数之间的对应关系 该算法可以由输出值表或阶梯函数指定
 type: docs
-weight: 1050
+weight: 1090
 url: /zh/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class
 
-表示包含字长和允许错误数之间对应关系的模糊搜索算法。 该算法可以由输出值表或阶梯函数指定。
+表示模糊搜索算法，其中包含字长和允许错误数之间的对应关系。 该算法可以由输出值表或阶梯函数指定。
 
 ```csharp
 public class TableDiscreteFunction : FuzzyAlgorithm
@@ -18,25 +18,25 @@ public class TableDiscreteFunction : FuzzyAlgorithm
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TableDiscreteFunction](tablediscretefunction#constructor_1)(int, int[]) | 初始化[`TableDiscreteFunction`](../tablediscretefunction)类. |
-| [TableDiscreteFunction](tablediscretefunction#constructor)(int, params Step[]) | 初始化[`TableDiscreteFunction`](../tablediscretefunction)类. |
+| [TableDiscreteFunction](tablediscretefunction#constructor_1)(int, int[]) | 初始化一个新的实例[`TableDiscreteFunction`](../tablediscretefunction)类. |
+| [TableDiscreteFunction](tablediscretefunction#constructor)(int, params Step[]) | 初始化一个新的实例[`TableDiscreteFunction`](../tablediscretefunction)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [GetMaxMistakeCount](../../groupdocs.search.options/tablediscretefunction/getmaxmistakecount)(int) | 获取指定术语长度的最大允许错误数。 |
+| override [GetMaxMistakeCount](../../groupdocs.search.options/tablediscretefunction/getmaxmistakecount)(int) | 获取指定任期长度的最大允许错误数。 |
 | override [GetSimilarityLevel](../../groupdocs.search.options/tablediscretefunction/getsimilaritylevel)(int) | 获取指定术语长度的相似度。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [模糊搜索](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -51,7 +51,7 @@ options.FuzzySearch.Enabled = true; // 启用模糊搜索
 options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1, new Step(5, 2), new Step(8, 3)); // 创建模糊搜索算法
 // 此函数将 1 指定为 1 到 4 个字符的单词的最大错误数。
 // 它指定 2 为 5 到 7 个字符的单词的最大错误数。
-// 它将 3 指定为 8 个或更多字符的单词的最大错误数。
+// 它指定 3 作为 8 个或更多字符的单词的最大错误数。
 
 SearchResult result = index.Search(query, options); // 在索引中搜索
 ```

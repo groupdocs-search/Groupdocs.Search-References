@@ -1,14 +1,14 @@
 ---
 title: SearchDocumentFilter
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索文档过滤器 SearchDocumentFiltergroupdocs.search.options/imagesearchoptions/searchdocumentfilter适用于包含逻辑 使用SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter用于创建搜索文档过滤器实例的类 默认值为无效的这意味着将返回所有找到的文档
+description: 获取或设置搜索文档过滤器 SearchDocumentFiltergroupdocs.search.options/imagesearchoptions/searchdocumentfilter处理包含逻辑 使用SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter用于创建搜索文档过滤器实例的类 默认值为无效的这意味着将返回所有找到的文档
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.options/imagesearchoptions/searchdocumentfilter/
 ---
 ## ImageSearchOptions.SearchDocumentFilter property
 
-获取或设置搜索文档过滤器。 `SearchDocumentFilter`适用于包含逻辑。 使用[`SearchDocumentFilter`](../../searchdocumentfilter)用于创建搜索文档过滤器实例的类。 默认值为`无效的`，这意味着将返回所有找到的文档。
+获取或设置搜索文档过滤器。 `SearchDocumentFilter`处理包含逻辑。 使用[`SearchDocumentFilter`](../../searchdocumentfilter)用于创建搜索文档过滤器实例的类。 默认值为`无效的`，这意味着将返回所有找到的文档。
 
 ```csharp
 public ISearchDocumentFilter SearchDocumentFilter { get; set; }

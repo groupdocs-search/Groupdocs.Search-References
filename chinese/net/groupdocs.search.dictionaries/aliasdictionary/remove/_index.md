@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: GroupDocs.Search for .NET API 参考
-description: 从AliasDictionarygroupdocs.search.dictionaries/aliasdictionary对象.
+description: 从一个文件中删除指定的别名AliasDictionarygroupdocs.search.dictionaries/aliasdictionary对象.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.dictionaries/aliasdictionary/remove/
 ---
 ## AliasDictionary.Remove method
 
-从[`AliasDictionary`](../../aliasdictionary)对象.
+从一个文件中删除指定的别名[`AliasDictionary`](../../aliasdictionary)对象.
 
 ```csharp
 public bool Remove(string alias)
@@ -20,13 +20,13 @@ public bool Remove(string alias)
 
 ### 返回值
 
-这个方法返回`真的`如果别名被成功找到并移除。 这个方法返回`错误的`如果在[`AliasDictionary`](../../aliasdictionary)对象.
+这个方法返回`真的`如果成功找到并删除别名。 此方法返回`错误的`如果在中找不到别名[`AliasDictionary`](../../aliasdictionary)对象.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*alias*是`无效的`. |
+| ArgumentNullException | 抛出时*alias*是`无效的`. |
 
 ### 也可以看看
 

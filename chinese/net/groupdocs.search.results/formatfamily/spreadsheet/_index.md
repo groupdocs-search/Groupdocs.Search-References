@@ -1,14 +1,14 @@
 ---
 title: Spreadsheet
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表电子表格格式
+description: 表示电子表格格式
 type: docs
 weight: 200
 url: /zh/net/groupdocs.search.results/formatfamily/spreadsheet/
 ---
 ## FormatFamily.Spreadsheet field
 
-代表电子表格格式。
+表示电子表格格式。
 
 ```csharp
 public static readonly FormatFamily Spreadsheet;

@@ -16,7 +16,7 @@ public void GetDocumentText(DocumentInfo documentInfo, OutputAdapter adapter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentInfo | DocumentInfo | 索引的文档信息。 |
+| documentInfo | DocumentInfo | 索引文档信息。 |
 | adapter | OutputAdapter | 输出适配器。 |
 
 ### 例子
@@ -64,7 +64,7 @@ public void GetDocumentText(DocumentInfo documentInfo, OutputAdapter adapter, Te
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentInfo | DocumentInfo | 索引的文档信息。 |
+| documentInfo | DocumentInfo | 索引文档信息。 |
 | adapter | OutputAdapter | 输出适配器。 |
 | options | TextOptions | 文本检索选项。 |
 

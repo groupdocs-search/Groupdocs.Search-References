@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化Indexgroupdocs.search/index内存中的类
+description: 初始化一个新的实例Indexgroupdocs.search/index内存中的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/index/index/
 ---
 ## Index() {#constructor}
 
-初始化[`Index`](../../index)内存中的类。
+初始化一个新的实例[`Index`](../../index)内存中的类.
 
 ```csharp
 public Index()
@@ -16,7 +16,7 @@ public Index()
 
 ### 例子
 
-该示例演示了如何在内存中创建索引而不将文件保存到磁盘。
+该示例演示了如何在不将文件保存到磁盘的情况下在内存中创建索引。
 
 ```csharp
 Index index = new Index(); 
@@ -32,7 +32,7 @@ Index index = new Index();
 
 ## Index(IndexSettings) {#constructor_1}
 
-初始化[`Index`](../../index)具有特定索引设置的内存类。
+初始化一个新的实例[`Index`](../../index)内存中具有特定索引设置的类.
 
 ```csharp
 public Index(IndexSettings settings)
@@ -44,7 +44,7 @@ public Index(IndexSettings settings)
 
 ### 例子
 
-该示例演示了如何在内存中创建索引，而不使用特定索引设置将文件保存到磁盘。
+该示例演示了如何在不使用特定索引设置将文件保存到磁盘的情况下在内存中创建索引。
 
 ```csharp
 IndexSettings settings = new IndexSettings();
@@ -63,7 +63,7 @@ Index index = new Index(settings);
 
 ## Index(string) {#constructor_2}
 
-初始化[`Index`](../../index) class. 在磁盘上创建新索引或打开现有索引。
+初始化一个新的实例[`Index`](../../index) class. 在磁盘上创建新索引或打开现有索引.
 
 ```csharp
 public Index(string indexFolder)
@@ -92,7 +92,7 @@ Index index = new Index(indexFolder);
 
 ## Index(string, IndexSettings) {#constructor_4}
 
-初始化[`Index`](../../index) class. 使用特定设置创建新索引或打开磁盘上的现有索引。
+初始化一个新的实例[`Index`](../../index) class. 创建具有特定设置的新索引或打开磁盘上的现有索引.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings)
@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-初始化[`Index`](../../index) class. 从磁盘加载现有索引，如果*overwriteIfExists*是`错误的`; 否则在磁盘上创建一个新索引。
+初始化一个新的实例[`Index`](../../index) class. 从磁盘加载现有索引，如果*overwriteIfExists*是`错误的`; 否则在磁盘上创建一个新索引。
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-初始化[`Index`](../../index) class. 从磁盘加载现有索引，如果*overwriteIfExists*是`错误的` ; 在磁盘上创建一个具有特定索引设置的新索引。
+初始化一个新的实例[`Index`](../../index) class. 从磁盘加载现有索引，如果*overwriteIfExists*是`错误的` ; 在磁盘上使用特定索引设置创建新索引，否则。
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)

@@ -16,7 +16,7 @@ public MetadataIndexingOptions MetadataIndexingOptions { get; }
 
 ### 适当的价值
 
-用于索引元数据字段的选项。
+索引元数据字段的选项。
 
 ### 也可以看看
 

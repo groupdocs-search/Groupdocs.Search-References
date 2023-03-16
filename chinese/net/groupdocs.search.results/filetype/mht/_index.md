@@ -1,14 +1,14 @@
 ---
 title: MHT
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 MHT 扩展名的文件代表一种网页存档格式可以由许多不同的应用程序创建 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/web/mhtml/.
+description: 具有 MHT 扩展名的文件代表一种网页存档格式可以由许多不同的应用程序创建 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/web/mhtml/.
 type: docs
 weight: 320
 url: /zh/net/groupdocs.search.results/filetype/mht/
 ---
 ## FileType.MHT field
 
-带有 MHT 扩展名的文件代表一种网页存档格式，可以由许多不同的应用程序创建。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/web/mhtml/).
+具有 MHT 扩展名的文件代表一种网页存档格式，可以由许多不同的应用程序创建。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/web/mhtml/).
 
 ```csharp
 public static readonly FileType MHT;

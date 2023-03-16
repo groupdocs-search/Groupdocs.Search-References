@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: GroupDocs.Search for .NET API 参考
-description: 标题字段名称
+description: 标题字段名.
 type: docs
 weight: 160
 url: /zh/net/groupdocs.search.options/spreadsheetfieldnames/title/
 ---
 ## SpreadsheetFieldNames.Title field
 
-标题字段名称。
+标题字段名.
 
 ```csharp
 public const string Title;

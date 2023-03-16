@@ -1,14 +1,14 @@
 ---
 title: CreateCreationTimeLowerBound
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个过滤器以跳过创建日期早于下限的文档
+description: 创建一个过滤器用于跳过创建日期早于下限的文档
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/documentfilter/createcreationtimelowerbound/
 ---
 ## DocumentFilter.CreateCreationTimeLowerBound method
 
-创建一个过滤器以跳过创建日期早于下限的文档。
+创建一个过滤器，用于跳过创建日期早于下限的文档。
 
 ```csharp
 public static DocumentFilter CreateCreationTimeLowerBound(DateTime lowerBound)
@@ -20,7 +20,7 @@ public static DocumentFilter CreateCreationTimeLowerBound(DateTime lowerBound)
 
 ### 返回值
 
-按文档创建时间的文档过滤器。
+按文档创建时间过滤文档。
 
 ### 也可以看看
 

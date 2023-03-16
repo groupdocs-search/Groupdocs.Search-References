@@ -1,14 +1,14 @@
 ---
 title: CloseDocument
 second_title: GroupDocs.Search for .NET API 参考
-description: 关闭加载的文档 索引在完成文档处理后调用此方法
+description: 关闭加载的文档 索引在处理完文档后调用此方法
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/idocumentloader/closedocument/
 ---
 ## IDocumentLoader.CloseDocument method
 
-关闭加载的文档。 索引在完成文档处理后调用此方法。
+关闭加载的文档。 索引在处理完文档后调用此方法。
 
 ```csharp
 public void CloseDocument()

@@ -1,14 +1,14 @@
 ---
 title: TORRENT
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表 TORRENT 文件类型
+description: 表示 TORRENT 文件类型
 type: docs
 weight: 620
 url: /zh/net/groupdocs.search.results/filetype/torrent/
 ---
 ## FileType.TORRENT field
 
-代表 TORRENT 文件类型。
+表示 TORRENT 文件类型。
 
 ```csharp
 public static readonly FileType TORRENT;

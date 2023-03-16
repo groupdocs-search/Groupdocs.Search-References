@@ -3,7 +3,7 @@ title: CharacterType
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示一个字符的类型取决于它应该如何被索引
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration
@@ -21,7 +21,7 @@ public enum CharacterType
 | Separator | `0` | 分隔符。 |
 | Letter | `1` | 有效字符。 |
 | Blended | `2` | 分隔符和有效字符。 |
-| SeparateWord | `3` | 代表整个单词的字符。 |
+| SeparateWord | `3` | 表示整个单词的字符。 |
 
 ### 也可以看看
 

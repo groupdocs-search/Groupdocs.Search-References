@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否启用键盘布局校正器 默认值为错误的.
+description: 获取或设置一个值指示是否启用键盘布局校正器 默认值为错误的.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled/
 ---
 ## KeyboardLayoutCorrectorOptions.Enabled property
 
-获取或设置一个值，该值指示是否启用键盘布局校正器。 默认值为`错误的`.
+获取或设置一个值，指示是否启用键盘布局校正器。 默认值为`错误的`.
 
 ```csharp
 public bool Enabled { get; set; }

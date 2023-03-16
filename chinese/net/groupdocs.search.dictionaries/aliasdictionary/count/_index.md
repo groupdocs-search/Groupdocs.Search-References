@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取包含在AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
+description: 获取别名的数量AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/aliasdictionary/count/
 ---
 ## AliasDictionary.Count property
 
-获取包含在[`AliasDictionary`](../../aliasdictionary).
+获取别名的数量[`AliasDictionary`](../../aliasdictionary).
 
 ```csharp
 public int Count { get; }

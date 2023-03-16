@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示演示格式
+description: 表示呈现格式
 type: docs
 weight: 160
 url: /zh/net/groupdocs.search.results/formatfamily/presentation/
 ---
 ## FormatFamily.Presentation field
 
-表示演示格式。
+表示呈现格式。
 
 ```csharp
 public static readonly FormatFamily Presentation;

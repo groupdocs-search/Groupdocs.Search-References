@@ -1,14 +1,14 @@
 ---
 title: IndexFolder
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取索引所在的完整文件夹名称
+description: 获取index所在文件夹全名
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/indexinfo/indexfolder/
 ---
 ## IndexInfo.IndexFolder property
 
-获取索引所在的完整文件夹名称。
+获取index所在文件夹全名。
 
 ```csharp
 public string IndexFolder { get; }
@@ -16,7 +16,7 @@ public string IndexFolder { get; }
 
 ### 适当的价值
 
-索引所在的完整文件夹名称。
+索引所在文件夹的完整名称。
 
 ### 也可以看看
 

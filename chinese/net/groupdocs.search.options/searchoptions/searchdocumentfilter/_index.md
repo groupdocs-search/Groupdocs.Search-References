@@ -1,14 +1,14 @@
 ---
 title: SearchDocumentFilter
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索文档过滤器 SearchDocumentFiltergroupdocs.search.options/searchoptions/searchdocumentfilter适用于包含逻辑 使用SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter用于创建搜索文档过滤器实例的类 默认值为无效的这意味着将返回所有找到的文档
+description: 获取或设置搜索文档过滤器 SearchDocumentFiltergroupdocs.search.options/searchoptions/searchdocumentfilter处理包含逻辑 使用SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter用于创建搜索文档过滤器实例的类 默认值为无效的这意味着将返回所有找到的文档
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search.options/searchoptions/searchdocumentfilter/
 ---
 ## SearchOptions.SearchDocumentFilter property
 
-获取或设置搜索文档过滤器。 `SearchDocumentFilter`适用于包含逻辑。 使用[`SearchDocumentFilter`](../../searchdocumentfilter)用于创建搜索文档过滤器实例的类。 默认值为`无效的`，这意味着将返回所有找到的文档。
+获取或设置搜索文档过滤器。 `SearchDocumentFilter`处理包含逻辑。 使用[`SearchDocumentFilter`](../../searchdocumentfilter)用于创建搜索文档过滤器实例的类。 默认值为`无效的`，这意味着将返回所有找到的文档。
 
 ```csharp
 public ISearchDocumentFilter SearchDocumentFilter { get; set; }
@@ -29,13 +29,13 @@ string documentsFolder = @"c:\MyDocuments1\";
 // 在指定文件夹中创建索引
 Index index = new Index(indexFolder);
 
-// 索引文档
+// 索引文件
 index.Add(documentsFolder);
 
-// 创建一个搜索文档过滤器，它会跳过扩展名为“.doc”、“.docx”、“.rtf”的文档
+// 创建一个搜索文档过滤器，跳过扩展名为 '.doc'、'.docx'、'.rtf' 的文档
 SearchOptions options = new SearchOptions();
-ISearchDocumentFilter fileExtensionFilter = SearchDocumentFilter.CreateFileExtension(".doc", ".docx", ".rtf"); // 创建文件扩展名过滤器
-ISearchDocumentFilter invertedFilter = SearchDocumentFilter.CreateNot(fileExtensionFilter); // 反转文件扩展名过滤器
+ISearchDocumentFilter fileExtensionFilter = SearchDocumentFilter.CreateFileExtension(".doc", ".docx", ".rtf"); // 创建文件扩展过滤器
+ISearchDocumentFilter invertedFilter = SearchDocumentFilter.CreateNot(fileExtensionFilter); // 反转文件扩展过滤器
 options.SearchDocumentFilter = invertedFilter;
 
 // 在索引中搜索

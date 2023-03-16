@@ -3,7 +3,7 @@ title: DateFormat
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示日期格式
 type: docs
-weight: 740
+weight: 770
 url: /zh/net/groupdocs.search.options/dateformat/
 ---
 ## DateFormat class
@@ -18,8 +18,8 @@ public class DateFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DateFormat](dateformat#constructor)(DateFormatElement[], string) | 初始化[`DateFormat`](../dateformat)类. |
-| [DateFormat](dateformat#constructor_1)(string, DateFormatElement[]) | 初始化[`DateFormat`](../dateformat)类. |
+| [DateFormat](dateformat#constructor)(DateFormatElement[], string) | 初始化一个新的实例[`DateFormat`](../dateformat)类. |
+| [DateFormat](dateformat#constructor_1)(string, DateFormatElement[]) | 初始化一个新的实例[`DateFormat`](../dateformat)类. |
 
 ## 特性
 
@@ -35,13 +35,13 @@ public class DateFormat
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [日期范围搜索](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

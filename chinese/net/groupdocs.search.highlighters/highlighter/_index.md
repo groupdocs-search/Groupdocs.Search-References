@@ -1,18 +1,24 @@
 ---
 title: Highlighter
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示搜索结果荧光笔的基类
+description: 表示搜索结果高亮器的基类
 type: docs
-weight: 620
+weight: 650
 url: /zh/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
 
-表示搜索结果荧光笔的基类。
+表示搜索结果高亮器的基类。
 
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 
 ### 也可以看看
 

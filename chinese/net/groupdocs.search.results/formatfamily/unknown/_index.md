@@ -1,14 +1,14 @@
 ---
 title: Unknown
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示未知格式系列
+description: 表示未知的格式系列
 type: docs
 weight: 220
 url: /zh/net/groupdocs.search.results/formatfamily/unknown/
 ---
 ## FormatFamily.Unknown field
 
-表示未知格式系列。
+表示未知的格式系列。
 
 ```csharp
 public static readonly FormatFamily Unknown;

@@ -20,7 +20,7 @@ public static ISearchDocumentFilter CreateAnd(params ISearchDocumentFilter[] fil
 
 ### 返回值
 
-一个搜索文档过滤器，表示指定过滤器的结合结果。
+表示指定过滤器结合结果的搜索文档过滤器。
 
 ### 也可以看看
 

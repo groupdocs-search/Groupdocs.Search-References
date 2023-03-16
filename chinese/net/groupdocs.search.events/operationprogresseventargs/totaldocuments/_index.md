@@ -1,14 +1,14 @@
 ---
 title: TotalDocuments
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取已处理文档的总数
+description: 获取处理文档的总数
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.events/operationprogresseventargs/totaldocuments/
 ---
 ## OperationProgressEventArgs.TotalDocuments property
 
-获取已处理文档的总数。
+获取处理文档的总数。
 
 ```csharp
 public int TotalDocuments { get; }

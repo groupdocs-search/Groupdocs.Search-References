@@ -1,14 +1,14 @@
 ---
 title: Pdf
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表可移植文档格式
+description: 表示可移植文档格式
 type: docs
 weight: 150
 url: /zh/net/groupdocs.search.results/formatfamily/pdf/
 ---
 ## FormatFamily.Pdf field
 
-代表可移植文档格式。
+表示可移植文档格式。
 
 ```csharp
 public static readonly FormatFamily Pdf;

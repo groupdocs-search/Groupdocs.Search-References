@@ -1,14 +1,14 @@
 ---
 title: Words
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取当前阶段获得的单词
+description: 获取当前阶段得到的单词
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.events/searchphaseeventargs/words/
 ---
 ## SearchPhaseEventArgs.Words property
 
-获取当前阶段获得的单词。
+获取当前阶段得到的单词。
 
 ```csharp
 public string[] Words { get; }

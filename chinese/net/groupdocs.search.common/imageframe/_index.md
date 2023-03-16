@@ -1,14 +1,14 @@
 ---
 title: ImageFrame
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个图像帧
+description: 代表一个图像帧
 type: docs
 weight: 210
 url: /zh/net/groupdocs.search.common/imageframe/
 ---
 ## ImageFrame class
 
-表示一个图像帧。
+代表一个图像帧。
 
 ```csharp
 public class ImageFrame
@@ -18,7 +18,7 @@ public class ImageFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Index](../../groupdocs.search.common/imageframe/index) { get; } | 获取图像中帧的索引。 |
+| [Index](../../groupdocs.search.common/imageframe/index) { get; } | 获取帧在图像中的索引。 |
 
 ### 也可以看看
 

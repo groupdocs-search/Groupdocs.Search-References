@@ -1,14 +1,14 @@
 ---
 title: SynonymDictionary
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取同义词词典
+description: 获取同义词字典
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.dictionaries/dictionaryrepository/synonymdictionary/
 ---
 ## DictionaryRepository.SynonymDictionary property
 
-获取同义词词典。
+获取同义词字典。
 
 ```csharp
 public SynonymDictionary SynonymDictionary { get; }

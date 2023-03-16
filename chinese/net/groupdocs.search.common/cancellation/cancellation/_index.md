@@ -1,14 +1,14 @@
 ---
 title: Cancellation
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化Cancellationgroupdocs.search.common/cancellation类.
+description: 初始化一个新的实例Cancellationgroupdocs.search.common/cancellation类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/cancellation/cancellation/
 ---
 ## Cancellation constructor
 
-初始化[`Cancellation`](../../cancellation)类.
+初始化一个新的实例[`Cancellation`](../../cancellation)类.
 
 ```csharp
 public Cancellation()

@@ -1,14 +1,14 @@
 ---
 title: ASF
 second_title: GroupDocs.Search for .NET API 参考
-description: 高级系统格式 ASF 是一种数字多媒体容器主要用于存储和传输媒体流 Microsoft Windows Media Video WMV 是压缩视频格式Microsoft Windows Media Audio WMA 是压缩音频格式包含 Microsoft 开发的 ASF 容器中的其他元数据 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/video/wmv/.
+description: 高级系统格式 ASF 是一种数字多媒体容器主要用于存储和传输媒体流 Microsoft Windows Media Video WMV 是压缩视频格式而 Microsoft Windows Media Audio WMA 是压缩音频格式在 Microsoft 开发的 ASF 容器中包含额外的元数据 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/video/wmv/.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.results/filetype/asf/
 ---
 ## FileType.ASF field
 
-高级系统格式 (ASF) 是一种数字多媒体容器，主要用于存储和传输媒体流。 Microsoft Windows Media Video (WMV) 是压缩视频格式，Microsoft Windows Media Audio (WMA) 是压缩音频格式包含 Microsoft 开发的 ASF 容器中的其他元数据。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/video/wmv/).
+高级系统格式 (ASF) 是一种数字多媒体容器，主要用于存储和传输媒体流。 Microsoft Windows Media Video (WMV) 是压缩视频格式，而 Microsoft Windows Media Audio (WMA) 是压缩音频格式在 Microsoft 开发的 ASF 容器中包含额外的元数据。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/video/wmv/).
 
 ```csharp
 public static readonly FileType ASF;

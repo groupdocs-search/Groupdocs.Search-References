@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示文档索引开始事件的参数
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class
@@ -26,14 +26,14 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 | [DocumentKey](../../groupdocs.search.events/fileindexingeventargs/documentkey) { get; } | 获取文档密钥。 |
 | [Encoding](../../groupdocs.search.events/fileindexingeventargs/encoding) { get; set; } | 获取或设置文档的编码。 |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
-| [SkipIndexing](../../groupdocs.search.events/fileindexingeventargs/skipindexing) { get; set; } | 获取或设置一个值，指示应该跳过文档的索引。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
+| [SkipIndexing](../../groupdocs.search.events/fileindexingeventargs/skipindexing) { get; set; } | 获取或设置一个值，指示应跳过文档索引。 |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | 获取事件的时间。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

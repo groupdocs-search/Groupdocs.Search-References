@@ -16,7 +16,7 @@ public string[][] TermSequences { get; }
 
 ### 适当的价值
 
-找到的术语序列。
+发现术语序列。
 
 ### 也可以看看
 

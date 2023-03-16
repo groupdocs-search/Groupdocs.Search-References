@@ -1,14 +1,14 @@
 ---
 title: DocumentStatus
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示文档处理状态
+description: 表示一个文档处理状态
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search.common/documentstatus/
 ---
 ## DocumentStatus enumeration
 
-表示文档处理状态。
+表示一个文档处理状态。
 
 ```csharp
 public enum DocumentStatus
@@ -19,7 +19,7 @@ public enum DocumentStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SuccessfullyProcessed | `0` | 文档已成功编入索引。 |
-| Skipped | `1` | 已跳过文档。 |
+| Skipped | `1` | 文档已跳过。 |
 | ProcessedWithError | `2` | 文档索引期间发生错误。 |
 
 ### 也可以看看

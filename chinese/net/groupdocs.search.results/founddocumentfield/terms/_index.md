@@ -1,14 +1,14 @@
 ---
 title: Terms
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取找到的术语
+description: 获取找到的项
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.results/founddocumentfield/terms/
 ---
 ## FoundDocumentField.Terms property
 
-获取找到的术语。
+获取找到的项。
 
 ```csharp
 public string[] Terms { get; }

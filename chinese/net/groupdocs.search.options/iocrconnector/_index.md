@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Search for .NET API 参考
 description: 定义识别图像文档和嵌入图像上的文本所需的方法
 type: docs
-weight: 840
+weight: 870
 url: /zh/net/groupdocs.search.options/iocrconnector/
 ---
 ## IOcrConnector interface

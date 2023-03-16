@@ -3,7 +3,7 @@ title: IndexType
 second_title: GroupDocs.Search for .NET API 参考
 description: 指定索引类型
 type: docs
-weight: 890
+weight: 920
 url: /zh/net/groupdocs.search.options/indextype/
 ---
 ## IndexType enumeration
@@ -18,13 +18,13 @@ public enum IndexType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NormalIndex | `0` | 包含支持所有搜索功能的文档元数据和文档内容的普通索引。 |
-| MetadataIndex | `1` | 仅包含文档元数据的索引，不包含内容。 |
+| NormalIndex | `0` | 带有支持所有搜索功能的文档元数据和文档内容的普通索引。 |
+| MetadataIndex | `1` | 索引只包含文档的元数据，没有内容。 |
 | CompactIndex | `2` | 占用更少磁盘空间但不支持短语搜索和日期范围搜索功能的索引类型。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引设置](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

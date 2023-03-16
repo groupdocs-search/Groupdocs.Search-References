@@ -3,7 +3,7 @@ title: DateFormatElement
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示日期格式元素
 type: docs
-weight: 760
+weight: 790
 url: /zh/net/groupdocs.search.options/dateformatelement/
 ---
 ## DateFormatElement class
@@ -19,17 +19,17 @@ public class DateFormatElement
 | 姓名 | 描述 |
 | --- | --- |
 | static [DateSeparator](../../groupdocs.search.options/dateformatelement/dateseparator) { get; } | 获取日期分隔符元素。 |
-| static [DayOfMonth](../../groupdocs.search.options/dateformatelement/dayofmonth) { get; } | 获取以一位或两位数字表示的月份元素。 |
-| static [DayOfMonthTwoDigits](../../groupdocs.search.options/dateformatelement/dayofmonthtwodigits) { get; } | 获取以两位数字表示的月份元素。 |
-| static [Month](../../groupdocs.search.options/dateformatelement/month) { get; } | 获取月份元素，由一位或两位数字表示。 |
-| static [MonthAbbreviatedName](../../groupdocs.search.options/dateformatelement/monthabbreviatedname) { get; } | 获取月份元素，以缩写名称表示。 |
+| static [DayOfMonth](../../groupdocs.search.options/dateformatelement/dayofmonth) { get; } | 获取日期元素，由一位或两位数字表示。 |
+| static [DayOfMonthTwoDigits](../../groupdocs.search.options/dateformatelement/dayofmonthtwodigits) { get; } | 获取日期元素，由两位数表示。 |
+| static [Month](../../groupdocs.search.options/dateformatelement/month) { get; } | 获取由一位或两位数字表示的月份元素。 |
+| static [MonthAbbreviatedName](../../groupdocs.search.options/dateformatelement/monthabbreviatedname) { get; } | 获取由缩写名称表示的月份元素。 |
 | static [MonthFullName](../../groupdocs.search.options/dateformatelement/monthfullname) { get; } | 获取月份元素，以全名表示。 |
-| static [MonthTwoDigits](../../groupdocs.search.options/dateformatelement/monthtwodigits) { get; } | 获取月份元素，用两位数字表示。 |
-| static [Year](../../groupdocs.search.options/dateformatelement/year) { get; } | 获取由一位、两位、三位或四位数字表示的年份元素。 |
-| static [YearFourDigits](../../groupdocs.search.options/dateformatelement/yearfourdigits) { get; } | 获取由四位数字表示的年份元素。 |
-| static [YearTwoDigits](../../groupdocs.search.options/dateformatelement/yeartwodigits) { get; } | 获取由两位数字表示的年份元素。 |
+| static [MonthTwoDigits](../../groupdocs.search.options/dateformatelement/monthtwodigits) { get; } | 获取由两位数表示的月份元素。 |
+| static [Year](../../groupdocs.search.options/dateformatelement/year) { get; } | 获取年份元素，由一位、两位、三位或四位数字表示。 |
+| static [YearFourDigits](../../groupdocs.search.options/dateformatelement/yearfourdigits) { get; } | 获取年份元素，用四位数字表示。 |
+| static [YearTwoDigits](../../groupdocs.search.options/dateformatelement/yeartwodigits) { get; } | 获取年份元素，由两位数表示。 |
 | [Format](../../groupdocs.search.options/dateformatelement/format) { get; } | 获取格式字符串。 |
-| [SingleFormat](../../groupdocs.search.options/dateformatelement/singleformat) { get; } | 获取单个格式字符串。 |
+| [SingleFormat](../../groupdocs.search.options/dateformatelement/singleformat) { get; } | 获取单一格式字符串。 |
 
 ## 方法
 
@@ -39,7 +39,7 @@ public class DateFormatElement
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [日期范围搜索](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 

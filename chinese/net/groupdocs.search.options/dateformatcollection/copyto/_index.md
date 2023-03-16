@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: GroupDocs.Search for .NET API 参考
-description: 将集合的元素复制到Array从一个特定的开始Array索引.
+description: 将集合的元素复制到Array 从一个特定的Array索引.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.options/dateformatcollection/copyto/
 ---
 ## DateFormatCollection.CopyTo method
 
-将集合的元素复制到Array，从一个特定的开始Array索引.
+将集合的元素复制到Array 从一个特定的Array索引.
 
 ```csharp
 public void CopyTo(DateFormat[] array, int arrayIndex)
@@ -17,7 +17,7 @@ public void CopyTo(DateFormat[] array, int arrayIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | array | DateFormat[] | 一维Array这是从集合中复制的元素的目的地。 |
-| arrayIndex | Int32 | 数组中开始复制的从零开始的索引。 |
+| arrayIndex | Int32 | array 中从零开始的索引，复制从这里开始。 |
 
 ### 也可以看看
 

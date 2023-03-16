@@ -16,11 +16,11 @@ public abstract SearchQuery GetChild(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 指数。 |
+| index | Int32 | 索引。 |
 
 ### 返回值
 
-与指定索引对应的子查询。
+对应指定索引的子查询。
 
 ### 也可以看看
 

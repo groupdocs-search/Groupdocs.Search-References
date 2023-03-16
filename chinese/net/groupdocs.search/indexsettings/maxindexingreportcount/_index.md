@@ -1,14 +1,14 @@
 ---
 title: MaxIndexingReportCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置索引报告的最大数量 默认值为5.
+description: 获取或设置索引报告的最大数量 默认值为5个.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search/indexsettings/maxindexingreportcount/
 ---
 ## IndexSettings.MaxIndexingReportCount property
 
-获取或设置索引报告的最大数量。 默认值为`5`.
+获取或设置索引报告的最大数量。 默认值为`5个`.
 
 ```csharp
 public int MaxIndexingReportCount { get; set; }

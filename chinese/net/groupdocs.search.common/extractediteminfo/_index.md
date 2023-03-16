@@ -1,14 +1,14 @@
 ---
 title: ExtractedItemInfo
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个容器物品信息
+description: 表示容器物品信息
 type: docs
 weight: 120
 url: /zh/net/groupdocs.search.common/extractediteminfo/
 ---
 ## ExtractedItemInfo class
 
-表示一个容器物品信息。
+表示容器物品信息。
 
 ```csharp
 public class ExtractedItemInfo
@@ -18,7 +18,7 @@ public class ExtractedItemInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtractedItemInfo](extractediteminfo)(FormatFamily, DocumentField[], string, string) | 初始化[`ExtractedItemInfo`](../extractediteminfo)类. |
+| [ExtractedItemInfo](extractediteminfo)(FormatFamily, DocumentField[], string, string) | 初始化一个新的实例[`ExtractedItemInfo`](../extractediteminfo)类. |
 
 ## 特性
 
@@ -27,11 +27,11 @@ public class ExtractedItemInfo
 | [Fields](../../groupdocs.search.common/extractediteminfo/fields) { get; } | 获取提取的字段。 |
 | [FormatFamily](../../groupdocs.search.common/extractediteminfo/formatfamily) { get; } | 获取文档类型。 |
 | [InnerPath](../../groupdocs.search.common/extractediteminfo/innerpath) { get; } | 获取内部路径。 |
-| [ItemInfo](../../groupdocs.search.common/extractediteminfo/iteminfo) { get; } | 获取项目信息。 |
+| [ItemInfo](../../groupdocs.search.common/extractediteminfo/iteminfo) { get; } | 获取物品信息。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [自定义文本提取器](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

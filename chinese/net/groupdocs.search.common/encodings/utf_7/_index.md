@@ -1,14 +1,14 @@
 ---
 title: utf_7
 second_title: GroupDocs.Search for .NET API 参考
-description: utf7 编码
+description: utf7编码
 type: docs
 weight: 860
 url: /zh/net/groupdocs.search.common/encodings/utf_7/
 ---
 ## Encodings.utf_7 field
 
-utf-7 编码。
+utf-7编码。
 
 ```csharp
 public const string utf_7;

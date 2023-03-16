@@ -1,14 +1,14 @@
 ---
 title: SearchPhaseCompleted
 second_title: GroupDocs.Search for .NET API 参考
-description: 在搜索阶段完成时发生
+description: 搜索阶段完成时发生
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.events/eventhub/searchphasecompleted/
 ---
 ## EventHub.SearchPhaseCompleted event
 
-在搜索阶段完成时发生。
+搜索阶段完成时发生。
 
 ```csharp
 public event EventHandler<SearchPhaseEventArgs> SearchPhaseCompleted;
@@ -16,7 +16,7 @@ public event EventHandler<SearchPhaseEventArgs> SearchPhaseCompleted;
 
 ### 例子
 
-示例演示如何使用事件。
+该示例演示了如何使用事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

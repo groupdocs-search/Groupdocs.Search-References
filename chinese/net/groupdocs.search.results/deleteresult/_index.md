@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示从索引中删除索引文件或文件夹的操作结果
 type: docs
-weight: 1100
+weight: 1140
 url: /zh/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class
@@ -19,14 +19,14 @@ public class DeleteResult
 | 姓名 | 描述 |
 | --- | --- |
 | [Errors](../../groupdocs.search.results/deleteresult/errors) { get; } | 返回删除错误的描述。 |
-| [FailedCount](../../groupdocs.search.results/deleteresult/failedcount) { get; } | 返回因错误未删除的路径数。 |
-| [ItemResults](../../groupdocs.search.results/deleteresult/itemresults) { get; } | 返回删除每个路径的结果。 |
-| [SuccessCount](../../groupdocs.search.results/deleteresult/successcount) { get; } | 返回成功删除路径的数量。 |
+| [FailedCount](../../groupdocs.search.results/deleteresult/failedcount) { get; } | 返回因错误而未删除的路径数。 |
+| [ItemResults](../../groupdocs.search.results/deleteresult/itemresults) { get; } | 返回删除每条路径的结果。 |
+| [SuccessCount](../../groupdocs.search.results/deleteresult/successcount) { get; } | 返回成功删除的路径数。 |
 | [TotalCount](../../groupdocs.search.results/deleteresult/totalcount) { get; } | 返回要删除的路径总数。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [删除索引路径](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
 

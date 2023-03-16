@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: GroupDocs.Search for .NET API 参考
-description: 删除索引中所有文档的所有属性
+description: 从索引中的所有文档中删除所有属性
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.common/attributechangebatch/clear/
 ---
 ## AttributeChangeBatch.Clear method
 
-删除索引中所有文档的所有属性。
+从索引中的所有文档中删除所有属性。
 
 ```csharp
 public void Clear()

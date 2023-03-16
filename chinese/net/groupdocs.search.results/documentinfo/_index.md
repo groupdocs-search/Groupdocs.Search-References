@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示索引文档的描述符
 type: docs
-weight: 1110
+weight: 1150
 url: /zh/net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class
@@ -21,7 +21,7 @@ public class DocumentInfo
 | [DocumentSourceKind](../../groupdocs.search.results/documentinfo/documentsourcekind) { get; } | 获取文档来源种类。 |
 | [FilePath](../../groupdocs.search.results/documentinfo/filepath) { get; } | 获取从文件索引的文件路径或从流或结构索引的文档键。 |
 | [FileType](../../groupdocs.search.results/documentinfo/filetype) { get; } | 获取文件类型。 |
-| [FormatFamily](../../groupdocs.search.results/documentinfo/formatfamily) { get; } | 获取文档格式族。 |
+| [FormatFamily](../../groupdocs.search.results/documentinfo/formatfamily) { get; } | 获取文档格式系列。 |
 | [IndexedWithError](../../groupdocs.search.results/documentinfo/indexedwitherror) { get; } | 获取索引错误的指标。 |
 | [InnerPath](../../groupdocs.search.results/documentinfo/innerpath) { get; } | 获取容器文档项的内部路径。 |
 | [InnerPathParts](../../groupdocs.search.results/documentinfo/innerpathparts) { get; } | 获取容器文档项的内部路径部分。 |
@@ -36,7 +36,7 @@ public class DocumentInfo
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索结果](https://docs.groupdocs.com/display/searchnet/Search+results)
 * [获取索引文档](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

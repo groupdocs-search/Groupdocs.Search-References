@@ -1,14 +1,14 @@
 ---
 title: YearTwoDigits
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取由两位数字表示的年份元素
+description: 获取年份元素由两位数表示
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.options/dateformatelement/yeartwodigits/
 ---
 ## DateFormatElement.YearTwoDigits property
 
-获取由两位数字表示的年份元素。
+获取年份元素，由两位数表示。
 
 ```csharp
 public static DateFormatElement YearTwoDigits { get; }

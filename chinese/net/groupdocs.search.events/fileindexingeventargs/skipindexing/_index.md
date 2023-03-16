@@ -1,14 +1,14 @@
 ---
 title: SkipIndexing
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值指示应该跳过文档的索引
+description: 获取或设置一个值指示应跳过文档索引
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.events/fileindexingeventargs/skipindexing/
 ---
 ## FileIndexingEventArgs.SkipIndexing property
 
-获取或设置一个值，指示应该跳过文档的索引。
+获取或设置一个值，指示应跳过文档索引。
 
 ```csharp
 public bool SkipIndexing { get; set; }

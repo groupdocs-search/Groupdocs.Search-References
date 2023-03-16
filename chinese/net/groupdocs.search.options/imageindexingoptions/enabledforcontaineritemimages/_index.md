@@ -1,14 +1,14 @@
 ---
 title: EnabledForContainerItemImages
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否索引容器中的项目图像 例如ZIP 存档中的图像 默认值为错误的.
+description: 获取或设置一个值该值指示是否索引属于容器 中项目的图像例如ZIP 存档中的图像 默认值为错误的.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages/
 ---
 ## ImageIndexingOptions.EnabledForContainerItemImages property
 
-获取或设置一个值，该值指示是否索引容器中的项目图像 （例如，ZIP 存档中的图像）。 默认值为`错误的`.
+获取或设置一个值，该值指示是否索引属于容器 中项目的图像（例如，ZIP 存档中的图像）。 默认值为`错误的`.
 
 ```csharp
 public bool EnabledForContainerItemImages { get; set; }

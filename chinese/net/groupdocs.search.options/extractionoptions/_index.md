@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search for .NET API 参考
 description: 提供从文档中提取数据的选项
 type: docs
-weight: 790
+weight: 820
 url: /zh/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class
@@ -18,7 +18,7 @@ public class ExtractionOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExtractionOptions](extractionoptions)() | 初始化[`ExtractionOptions`](../extractionoptions)类. |
+| [ExtractionOptions](extractionoptions)() | 初始化一个新的实例[`ExtractionOptions`](../extractionoptions)类. |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public class ExtractionOptions
 | [ImageIndexingOptions](../../groupdocs.search.options/extractionoptions/imageindexingoptions) { get; } | 获取用于反向图像搜索的图像索引选项。 |
 | [MetadataIndexingOptions](../../groupdocs.search.options/extractionoptions/metadataindexingoptions) { get; } | 获取索引元数据字段的选项。 |
 | [OcrIndexingOptions](../../groupdocs.search.options/extractionoptions/ocrindexingoptions) { get; } | 获取 OCR 处理和索引识别文本的选项。 |
-| [UseRawTextExtraction](../../groupdocs.search.options/extractionoptions/userawtextextraction) { get; set; } | 获取或设置一个值，如果可能，是否使用原始模式进行文本提取。 默认值为`真的`. 原始模式可以显着提高索引速度，但普通模式改进了提取文本的格式。 |
+| [UseRawTextExtraction](../../groupdocs.search.options/extractionoptions/userawtextextraction) { get; set; } | 获取或设置一个值，该值指示是否在可能的情况下使用原始模式进行文本提取。 默认值为`真的`. 原始模式可以显着提高索引速度，但普通模式可以改善提取文本的格式。 |
 
 ### 也可以看看
 

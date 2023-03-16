@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: GroupDocs.Search for .NET API 参考
-description: 从要搜索的文件创建图像
+description: 从文件创建图像以进行搜索
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/searchimage/create/
 ---
 ## Create(string) {#create_2}
 
-从要搜索的文件创建图像。
+从文件创建图像以进行搜索。
 
 ```csharp
 public static SearchImage Create(string filePath)
@@ -16,7 +16,7 @@ public static SearchImage Create(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 图像文件路径。 |
+| filePath | String | 图片文件路径。 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public static SearchImage Create(string filePath)
 
 ## Create(string, int) {#create_3}
 
-从要搜索的文件创建图像。
+从文件创建图像以进行搜索。
 
 ```csharp
 public static SearchImage Create(string filePath, int imageIndex)
@@ -40,7 +40,7 @@ public static SearchImage Create(string filePath, int imageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 图像文件路径。 |
+| filePath | String | 图片文件路径。 |
 | imageIndex | Int32 | 多页图像中的图像索引。 |
 
 ### 返回值
@@ -57,7 +57,7 @@ public static SearchImage Create(string filePath, int imageIndex)
 
 ## Create(Stream) {#create}
 
-从要搜索的流中创建图像。
+从流中创建图像以进行搜索。
 
 ```csharp
 public static SearchImage Create(Stream stream)
@@ -81,7 +81,7 @@ public static SearchImage Create(Stream stream)
 
 ## Create(Stream, int) {#create_1}
 
-从要搜索的流中创建图像。
+从流中创建图像以进行搜索。
 
 ```csharp
 public static SearchImage Create(Stream stream, int imageIndex)

@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的同义词组集合添加到SynonymDictionarygroupdocs.search.dictionaries/synonymdictionary.
+description: 将指定的同义词组集合添加到该实例SynonymDictionarygroupdocs.search.dictionaries/synonymdictionary.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.dictionaries/synonymdictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;string[]&gt;) {#addrange}
 
-将指定的同义词组集合添加到[`SynonymDictionary`](../../synonymdictionary).
+将指定的同义词组集合添加到该实例[`SynonymDictionary`](../../synonymdictionary).
 
 ```csharp
 public void AddRange(IEnumerable<string[]> synonyms)
@@ -16,14 +16,14 @@ public void AddRange(IEnumerable<string[]> synonyms)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| synonyms | IEnumerable`1 | 要添加到字典的同义词组的集合。 |
+| synonyms | IEnumerable`1 | 要添加到词典中的同义词组的集合。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*synonyms*是`无效的`. |
-| ArgumentException | 当组中的同义词数量少于 2 时抛出。 |
+| ArgumentNullException | 抛出时*synonyms*是`无效的`. |
+| ArgumentException | 当组中的同义词数量小于 2 时抛出。 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public void AddRange(IEnumerable<string[]> synonyms)
 
 ## AddRange(string[][]) {#addrange_1}
 
-将指定的同义词组集合添加到[`SynonymDictionary`](../../synonymdictionary).
+将指定的同义词组集合添加到该实例[`SynonymDictionary`](../../synonymdictionary).
 
 ```csharp
 public void AddRange(string[][] synonyms)
@@ -43,14 +43,14 @@ public void AddRange(string[][] synonyms)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| synonyms | String[][] | 要添加到字典的同义词组的集合。 |
+| synonyms | String[][] | 要添加到词典中的同义词组的集合。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*synonyms*是`无效的`. |
-| ArgumentException | 当组中的同义词数量少于 2 时抛出。 |
+| ArgumentNullException | 抛出时*synonyms*是`无效的`. |
+| ArgumentException | 当组中的同义词数量小于 2 时抛出。 |
 
 ### 也可以看看
 

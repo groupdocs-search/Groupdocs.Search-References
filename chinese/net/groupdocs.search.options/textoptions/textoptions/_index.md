@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化TextOptionsgroupdocs.search.options/textoptions类.
+description: 初始化一个新的实例TextOptionsgroupdocs.search.options/textoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-初始化[`TextOptions`](../../textoptions)类.
+初始化一个新的实例[`TextOptions`](../../textoptions)类.
 
 ```csharp
 public TextOptions()

@@ -1,14 +1,14 @@
 ---
 title: XLTX
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 XLTX 扩展名的文件代表基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xltx/.
+description: 具有 XLTX 扩展名的文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板文件详细了解此文件格式 这里https//wiki.fileformat.com/specification/spreadsheet/xltx/.
 type: docs
 weight: 800
 url: /zh/net/groupdocs.search.results/filetype/xltx/
 ---
 ## FileType.XLTX field
 
-带有 XLTX 扩展名的文件代表基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xltx/).
+具有 XLTX 扩展名的文件表示基于 Office OpenXML 文件格式规范的 Microsoft Excel 模板文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/specification/spreadsheet/xltx/).
 
 ```csharp
 public static readonly FileType XLTX;

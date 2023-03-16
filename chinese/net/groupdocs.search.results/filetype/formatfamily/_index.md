@@ -1,14 +1,14 @@
 ---
 title: FormatFamily
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取格式族
+description: 获取格式系列
 type: docs
 weight: 850
 url: /zh/net/groupdocs.search.results/filetype/formatfamily/
 ---
 ## FileType.FormatFamily property
 
-获取格式族。
+获取格式系列。
 
 ```csharp
 public FormatFamily FormatFamily { get; }

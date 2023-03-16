@@ -1,14 +1,14 @@
 ---
 title: IndexingOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化IndexingOptionsgroupdocs.search.options/indexingoptions类.
+description: 初始化一个新的实例IndexingOptionsgroupdocs.search.options/indexingoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/indexingoptions/indexingoptions/
 ---
 ## IndexingOptions constructor
 
-初始化[`IndexingOptions`](../../indexingoptions)类.
+初始化一个新的实例[`IndexingOptions`](../../indexingoptions)类.
 
 ```csharp
 public IndexingOptions()

@@ -1,14 +1,14 @@
 ---
 title: ModificationDate
 second_title: GroupDocs.Search for .NET API 参考
-description: 修改日期字段名称
+description: 修改日期字段名
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.options/commonfieldnames/modificationdate/
 ---
 ## CommonFieldNames.ModificationDate field
 
-修改日期字段名称。
+修改日期字段名。
 
 ```csharp
 public const string ModificationDate;

@@ -1,14 +1,14 @@
 ---
 title: MailSenderName
 second_title: GroupDocs.Search for .NET API 参考
-description: 邮件发件人名称字段名称
+description: 邮件发件人姓名字段名.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/mailfieldnames/mailsendername/
 ---
 ## MailFieldNames.MailSenderName field
 
-邮件发件人名称字段名称。
+邮件发件人姓名字段名.
 
 ```csharp
 public const string MailSenderName;

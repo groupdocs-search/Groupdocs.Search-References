@@ -16,11 +16,11 @@ public string[] GetHomophones(string word)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| word | String | 暗示同音字的词。 |
+| word | String | 暗示同音词的词。 |
 
 ### 返回值
 
-指定单词的同音字或空数组 如果[`HomophoneDictionary`](../../homophonedictionary)对象不包含指定的单词。
+指定单词的同音字或空数组 如果[`HomophoneDictionary`](../../homophonedictionary)对象不包含指定的词。
 
 ### 也可以看看
 

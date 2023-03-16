@@ -1,14 +1,14 @@
 ---
 title: CreateFileExtension
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建过滤器以跳过不允许扩展名的文档
+description: 创建一个过滤器以跳过没有允许扩展名的文档
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/documentfilter/createfileextension/
 ---
 ## DocumentFilter.CreateFileExtension method
 
-创建过滤器以跳过不允许扩展名的文档。
+创建一个过滤器以跳过没有允许扩展名的文档。
 
 ```csharp
 public static DocumentFilter CreateFileExtension(params string[] extensions)
@@ -16,11 +16,11 @@ public static DocumentFilter CreateFileExtension(params string[] extensions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| extensions | String[] | 允许的扩展名列表。 |
+| extensions | String[] | 允许的扩展列表。 |
 
 ### 返回值
 
-按文档扩展名的文档过滤器。
+按文档扩展名过滤文档。
 
 ### 也可以看看
 

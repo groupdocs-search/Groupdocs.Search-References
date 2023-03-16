@@ -1,14 +1,14 @@
 ---
 title: TableDiscreteFunction
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化TableDiscreteFunctiongroupdocs.search.options/tablediscretefunction类.
+description: 初始化一个新的实例TableDiscreteFunctiongroupdocs.search.options/tablediscretefunction类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/tablediscretefunction/tablediscretefunction/
 ---
 ## TableDiscreteFunction(int, int[]) {#constructor_1}
 
-初始化[`TableDiscreteFunction`](../../tablediscretefunction)类.
+初始化一个新的实例[`TableDiscreteFunction`](../../tablediscretefunction)类.
 
 ```csharp
 public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
@@ -16,15 +16,15 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| offsetOfInputs | Int32 | 表的偏移量相对于输入值递减。 |
+| offsetOfInputs | Int32 | 表的偏移量是相对于输入值的。 |
 | tableOfOutputs | Int32[] | 输出值表。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*tableOfOutputs*是`无效的`. |
-| ArgumentException | 当表格元素的数量为 0 时抛出。 |
+| ArgumentNullException | 抛出时*tableOfOutputs*是`无效的`. |
+| ArgumentException | 表格元素个数为0时抛出。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 ## TableDiscreteFunction(int, params Step[]) {#constructor}
 
-初始化[`TableDiscreteFunction`](../../tablediscretefunction)类.
+初始化一个新的实例[`TableDiscreteFunction`](../../tablediscretefunction)类.
 
 ```csharp
 public TableDiscreteFunction(int firstStepLevel, params Step[] steps)
@@ -44,14 +44,14 @@ public TableDiscreteFunction(int firstStepLevel, params Step[] steps)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| firstStepLevel | Int32 | step 函数的第一步的级别。 |
+| firstStepLevel | Int32 | 阶跃函数第一步的水平。 |
 | steps | Step[] | step 函数的下一步。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*steps*是`无效的`. |
+| ArgumentNullException | 抛出时*steps*是`无效的`. |
 | ArgumentException | 当步数限制没有严格增加时抛出。 |
 
 ### 也可以看看

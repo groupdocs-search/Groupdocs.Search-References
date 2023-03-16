@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.search.options/ocrcontext/imagefileextension/
 ---
 ## OcrContext.ImageFileExtension property
 
-获取图片的文件扩展名 这个值可以用来判断图片的类型
+获取图片的文件扩展名。 这个值可以用来判断图片的类型。
 
 ```csharp
 public string ImageFileExtension { get; }

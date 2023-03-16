@@ -1,14 +1,14 @@
 ---
 title: MailMessageBody
 second_title: GroupDocs.Search for .NET API 参考
-description: 邮件正文字段名称
+description: 邮件消息正文字段名
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/mailfieldnames/mailmessagebody/
 ---
 ## MailFieldNames.MailMessageBody field
 
-邮件正文字段名称。
+邮件消息正文字段名。
 
 ```csharp
 public const string MailMessageBody;

@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.search.common/filelogger/maxsize/
 ---
 ## FileLogger.MaxSize property
 
-获取日志文件的最大大小，以兆字节为单位。
+获取日志文件的最大大小（以兆字节为单位）。
 
 ```csharp
 public double MaxSize { get; }
@@ -16,7 +16,7 @@ public double MaxSize { get; }
 
 ### 适当的价值
 
-日志文件的最大大小（以 MB 为单位）。
+日志文件的最大大小（以兆字节为单位）。
 
 ### 也可以看看
 

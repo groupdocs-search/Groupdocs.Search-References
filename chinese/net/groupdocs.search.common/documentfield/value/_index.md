@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取一个字段值
+description: 获取字段值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/documentfield/value/
 ---
 ## DocumentField.Value property
 
-获取一个字段值。
+获取字段值。
 
 ```csharp
 public string Value { get; }

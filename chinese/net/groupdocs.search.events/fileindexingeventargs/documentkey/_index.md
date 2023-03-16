@@ -16,7 +16,7 @@ public string DocumentKey { get; }
 
 ### 适当的价值
 
-文档键。
+文档密钥。
 
 ### 也可以看看
 

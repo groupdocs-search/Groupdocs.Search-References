@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示字典的基类
 type: docs
-weight: 400
+weight: 410
 url: /zh/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class
@@ -23,7 +23,7 @@ public abstract class DictionaryBase
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [更新索引](https://docs.groupdocs.com/display/searchnet/Update+index)
 

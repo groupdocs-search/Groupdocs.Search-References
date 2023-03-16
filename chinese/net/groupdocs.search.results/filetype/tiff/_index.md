@@ -1,14 +1,14 @@
 ---
 title: TIFF
 second_title: GroupDocs.Search for .NET API 参考
-description: TIFF 或 TIF标记图像文件格式表示用于在符合此文件格式标准的各种 设备上使用的光栅图像了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/tiff/.
+description: TIFF 或 TIF标记图像文件格式表示用于各种 符合此文件格式标准的设备的光栅图像详细了解此文件格式 这里https//wiki.fileformat.com/image/tiff/.
 type: docs
 weight: 610
 url: /zh/net/groupdocs.search.results/filetype/tiff/
 ---
 ## FileType.TIFF field
 
-TIFF 或 TIF，标记图像文件格式，表示用于在符合此文件格式标准的各种 设备上使用的光栅图像。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/tiff/).
+TIFF 或 TIF，标记图像文件格式，表示用于各种 符合此文件格式标准的设备的光栅图像。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/tiff/).
 
 ```csharp
 public static readonly FileType TIFF;

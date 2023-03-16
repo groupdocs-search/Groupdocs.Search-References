@@ -20,7 +20,7 @@ public FoundDocument GetFoundDocument(int index)
 
 ### 返回值
 
-找到的文档。
+找到的文件。
 
 ### 也可以看看
 

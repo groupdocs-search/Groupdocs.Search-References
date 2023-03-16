@@ -1,14 +1,14 @@
 ---
 title: GetIndexedDocumentItems
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定文档的嵌套项数组用于ZIPOSTPST等容器文档
+description: 获取指定文档的嵌套项数组对于 ZIPOSTPST 等容器文档
 type: docs
 weight: 130
 url: /zh/net/groupdocs.search/index/getindexeddocumentitems/
 ---
 ## Index.GetIndexedDocumentItems method
 
-获取指定文档的嵌套项数组（用于ZIP、OST、PST等容器文档）。
+获取指定文档的嵌套项数组（对于 ZIP、OST、PST 等容器文档）。
 
 ```csharp
 public DocumentInfo[] GetIndexedDocumentItems(DocumentInfo documentInfo)

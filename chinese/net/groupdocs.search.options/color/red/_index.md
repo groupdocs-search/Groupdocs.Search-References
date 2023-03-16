@@ -1,14 +1,14 @@
 ---
 title: Red
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此实例的红色分量值
+description: 获取本实例的红色分量值
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/color/red/
 ---
 ## Color.Red property
 
-获取此实例的红色分量值。
+获取本实例的红色分量值。
 
 ```csharp
 public int Red { get; }
@@ -16,7 +16,7 @@ public int Red { get; }
 
 ### 适当的价值
 
-此实例的红色组件值。
+此实例的红色分量值。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 PPSM 扩展名的文件代表使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片文件格式了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/ppsm/.
+description: 带有 PPSM 扩展名的文件表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片放映文件格式详细了解此文件格式 这里https//wiki.fileformat.com/presentation/ppsm/.
 type: docs
 weight: 510
 url: /zh/net/groupdocs.search.results/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-带有 PPSM 扩展名的文件代表使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片文件格式。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/ppsm/).
+带有 PPSM 扩展名的文件表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片放映文件格式。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/ppsm/).
 
 ```csharp
 public static readonly FileType PPSM;

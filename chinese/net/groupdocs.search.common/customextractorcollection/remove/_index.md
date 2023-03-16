@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: GroupDocs.Search for .NET API 参考
-description: 从集合中删除一个提取器
+description: 从集合中删除提取器
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.common/customextractorcollection/remove/
 ---
 ## CustomExtractorCollection.Remove method
 
-从集合中删除一个提取器。
+从集合中删除提取器。
 
 ```csharp
 public bool Remove(IFieldExtractor extractor)

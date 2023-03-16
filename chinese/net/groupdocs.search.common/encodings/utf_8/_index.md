@@ -1,14 +1,14 @@
 ---
 title: utf_8
 second_title: GroupDocs.Search for .NET API 参考
-description: utf8 编码
+description: utf8编码
 type: docs
 weight: 870
 url: /zh/net/groupdocs.search.common/encodings/utf_8/
 ---
 ## Encodings.utf_8 field
 
-utf-8 编码。
+utf-8编码。
 
 ```csharp
 public const string utf_8;

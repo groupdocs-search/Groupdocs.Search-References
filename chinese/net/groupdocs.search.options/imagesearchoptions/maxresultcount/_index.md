@@ -1,14 +1,14 @@
 ---
 title: MaxResultCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置图像反向搜索请求的最大找到图像数 默认值为1000.
+description: 获取或设置图片反向搜索请求的最大找到图片数 默认值为1000.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/imagesearchoptions/maxresultcount/
 ---
 ## ImageSearchOptions.MaxResultCount property
 
-获取或设置图像反向搜索请求的最大找到图像数。 默认值为`1000`.
+获取或设置图片反向搜索请求的最大找到图片数。 默认值为`1000`.
 
 ```csharp
 public int MaxResultCount { get; set; }
@@ -16,7 +16,7 @@ public int MaxResultCount { get; set; }
 
 ### 适当的价值
 
-图像反向搜索请求的最大找到图像数。
+图像反向搜索请求中找到的最大图像数。
 
 ### 也可以看看
 

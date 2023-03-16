@@ -20,7 +20,7 @@ public static DocumentFilter CreateFilePathRegularExpression(string pattern)
 
 ### 返回值
 
-按文件名的文档过滤器。
+按文件名过滤文档。
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public static DocumentFilter CreateFilePathRegularExpression(string pattern, Reg
 
 ### 返回值
 
-按文件名的文档过滤器。
+按文件名过滤文档。
 
 ### 也可以看看
 

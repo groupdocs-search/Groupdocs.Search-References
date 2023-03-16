@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: GroupDocs.Search for .NET API 参考
-description: 文件名字段名
+description: 文件名字段名.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.options/commonfieldnames/filename/
 ---
 ## CommonFieldNames.FileName field
 
-文件名字段名。
+文件名字段名.
 
 ```csharp
 public const string FileName;

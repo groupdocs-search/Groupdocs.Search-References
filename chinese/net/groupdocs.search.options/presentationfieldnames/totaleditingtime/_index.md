@@ -1,14 +1,14 @@
 ---
 title: TotalEditingTime
 second_title: GroupDocs.Search for .NET API 参考
-description: 总编辑时间字段名称
+description: 总编辑时间字段名.
 type: docs
 weight: 180
 url: /zh/net/groupdocs.search.options/presentationfieldnames/totaleditingtime/
 ---
 ## PresentationFieldNames.TotalEditingTime field
 
-总编辑时间字段名称。
+总编辑时间字段名.
 
 ```csharp
 public const string TotalEditingTime;

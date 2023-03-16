@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回找到的文档的字符串表示形式
+description: 返回找到的文档的字符串表示
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search.results/founddocument/tostring/
 ---
 ## FoundDocument.ToString method
 
-返回找到的文档的字符串表示形式。
+返回找到的文档的字符串表示。
 
 ```csharp
 public override string ToString()

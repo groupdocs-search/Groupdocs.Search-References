@@ -21,7 +21,7 @@ public class SearchReport
 | [DocumentCount](../../groupdocs.search.common/searchreport/documentcount) { get; } | 获取找到的文档数。 |
 | [EndTime](../../groupdocs.search.common/searchreport/endtime) { get; } | 获取搜索的结束时间。 |
 | [ObjectQuery](../../groupdocs.search.common/searchreport/objectquery) { get; } | 获取对象形式的搜索查询。 |
-| [OccurrenceCount](../../groupdocs.search.common/searchreport/occurrencecount) { get; } | 获取找到的总次数。 |
+| [OccurrenceCount](../../groupdocs.search.common/searchreport/occurrencecount) { get; } | 获取找到的总出现次数。 |
 | [SearchDuration](../../groupdocs.search.common/searchreport/searchduration) { get; } | 获取搜索持续时间。 |
 | [SearchOptions](../../groupdocs.search.common/searchreport/searchoptions) { get; } | 获取搜索选项。 |
 | [StartTime](../../groupdocs.search.common/searchreport/starttime) { get; } | 获取搜索的开始时间。 |
@@ -35,13 +35,13 @@ public class SearchReport
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索报告](https://docs.groupdocs.com/display/searchnet/Search+reports)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -60,7 +60,7 @@ SearchResult result2 = index.Search("\"Theory of Relativity\"");
 // 获取搜索报告
 SearchReport[] reports = index.GetSearchReports();
 
-// 将报告打印到控制台
+// 打印报告到控制台
 foreach (SearchReport report in reports)
 {
     Console.WriteLine("Query: " + report.TextQuery);

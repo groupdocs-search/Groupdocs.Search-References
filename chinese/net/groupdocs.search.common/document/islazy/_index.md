@@ -1,14 +1,14 @@
 ---
 title: IsLazy
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取一个值该值指示是否根据需要加载文档
+description: 获取一个值指示文档是否按需要加载
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.common/document/islazy/
 ---
 ## Document.IsLazy property
 
-获取一个值，该值指示是否根据需要加载文档。
+获取一个值，指示文档是否按需要加载。
 
 ```csharp
 public abstract bool IsLazy { get; }
@@ -16,7 +16,7 @@ public abstract bool IsLazy { get; }
 
 ### 适当的价值
 
-指示是否根据需要加载文档的值。
+指示文档是否按需要加载的值。
 
 ### 也可以看看
 

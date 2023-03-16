@@ -1,14 +1,14 @@
 ---
 title: FormatFamily
 second_title: GroupDocs.Search for .NET API 参考
-description: 指定一个格式系列它结合了几种类似的格式
+description: 指定一个格式系列它结合了几种相似的格式
 type: docs
-weight: 1130
+weight: 1170
 url: /zh/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class
 
-指定一个格式系列，它结合了几种类似的格式。
+指定一个格式系列，它结合了几种相似的格式。
 
 ```csharp
 public class FormatFamily
@@ -37,22 +37,22 @@ public class FormatFamily
 | static readonly [Database](../../groupdocs.search.results/formatfamily/database) | 表示数据库格式。 |
 | static readonly [Diagram](../../groupdocs.search.results/formatfamily/diagram) | 表示图表格式。 |
 | static readonly [Ebook](../../groupdocs.search.results/formatfamily/ebook) | 代表电子书格式。 |
-| static readonly [Email](../../groupdocs.search.results/formatfamily/email) | 代表电子邮件格式。 |
+| static readonly [Email](../../groupdocs.search.results/formatfamily/email) | 表示电子邮件格式。 |
 | static readonly [Executable](../../groupdocs.search.results/formatfamily/executable) | 表示可执行格式。 |
 | static readonly [Font](../../groupdocs.search.results/formatfamily/font) | 表示字体格式。 |
 | static readonly [Image](../../groupdocs.search.results/formatfamily/image) | 表示图像格式。 |
 | static readonly [Markup](../../groupdocs.search.results/formatfamily/markup) | 表示标记格式。 |
 | static readonly [Medicine](../../groupdocs.search.results/formatfamily/medicine) | 代表药物格式。 |
 | static readonly [Note](../../groupdocs.search.results/formatfamily/note) | 表示注释格式。 |
-| static readonly [Pdf](../../groupdocs.search.results/formatfamily/pdf) | 代表可移植文档格式。 |
-| static readonly [Presentation](../../groupdocs.search.results/formatfamily/presentation) | 表示演示格式。 |
-| static readonly [ProjectManagement](../../groupdocs.search.results/formatfamily/projectmanagement) | 代表项目管理格式。 |
+| static readonly [Pdf](../../groupdocs.search.results/formatfamily/pdf) | 表示可移植文档格式。 |
+| static readonly [Presentation](../../groupdocs.search.results/formatfamily/presentation) | 表示呈现格式。 |
+| static readonly [ProjectManagement](../../groupdocs.search.results/formatfamily/projectmanagement) | 表示项目管理格式。 |
 | static readonly [ScientificFormat](../../groupdocs.search.results/formatfamily/scientificformat) | 代表科学格式。 |
 | static readonly [SourceCode](../../groupdocs.search.results/formatfamily/sourcecode) | 表示源代码格式。 |
-| static readonly [Spreadsheet](../../groupdocs.search.results/formatfamily/spreadsheet) | 代表电子表格格式。 |
+| static readonly [Spreadsheet](../../groupdocs.search.results/formatfamily/spreadsheet) | 表示电子表格格式。 |
 | static readonly [Torrent](../../groupdocs.search.results/formatfamily/torrent) | 代表种子格式。 |
-| static readonly [Unknown](../../groupdocs.search.results/formatfamily/unknown) | 表示未知格式系列。 |
-| static readonly [Video](../../groupdocs.search.results/formatfamily/video) | 代表视频格式。 |
+| static readonly [Unknown](../../groupdocs.search.results/formatfamily/unknown) | 表示未知的格式系列。 |
+| static readonly [Video](../../groupdocs.search.results/formatfamily/video) | 表示视频格式。 |
 | static readonly [WordProcessing](../../groupdocs.search.results/formatfamily/wordprocessing) | 表示文字处理格式。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: windows_874
 second_title: GroupDocs.Search for .NET API 参考
-description: windows874 编码
+description: windows874编码
 type: docs
 weight: 970
 url: /zh/net/groupdocs.search.common/encodings/windows_874/
 ---
 ## Encodings.windows_874 field
 
-windows-874 编码。
+windows-874编码。
 
 ```csharp
 public const string windows_874;

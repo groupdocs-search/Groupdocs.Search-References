@@ -1,14 +1,14 @@
 ---
 title: SpellingCorrector
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取拼写校正选项
+description: 获取拼写校正器选项
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.options/searchoptions/spellingcorrector/
 ---
 ## SearchOptions.SpellingCorrector property
 
-获取拼写校正选项。
+获取拼写校正器选项。
 
 ```csharp
 public SpellingCorrectorOptions SpellingCorrector { get; }
@@ -16,7 +16,7 @@ public SpellingCorrectorOptions SpellingCorrector { get; }
 
 ### 适当的价值
 
-拼写校正选项。
+拼写校正器选项。
 
 ### 也可以看看
 

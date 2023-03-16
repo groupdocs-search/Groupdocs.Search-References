@@ -40,7 +40,7 @@ public static SearchQuery CreateWildcardQuery(int minCount, int maxCount)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| minCount | Int32 | 通配符中的最小单词数。 |
+| minCount | Int32 | 通配符中的最少单词数。 |
 | maxCount | Int32 | 通配符中的最大单词数。 |
 
 ### 返回值

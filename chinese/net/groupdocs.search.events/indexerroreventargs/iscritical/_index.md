@@ -1,14 +1,14 @@
 ---
 title: IsCritical
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取一个标志表明发生的错误很严重应该重新启动索引
+description: 获取一个标志指示发生的错误很严重应该重新启动索引
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.events/indexerroreventargs/iscritical/
 ---
 ## IndexErrorEventArgs.IsCritical property
 
-获取一个标志，表明发生的错误很严重，应该重新启动索引。
+获取一个标志，指示发生的错误很严重，应该重新启动索引。
 
 ```csharp
 public bool IsCritical { get; }
@@ -16,7 +16,7 @@ public bool IsCritical { get; }
 
 ### 适当的价值
 
-指示发生错误的标志很严重，应该重新启动索引。
+指示发生错误的标志是关键的，应该重新启动索引。
 
 ### 也可以看看
 

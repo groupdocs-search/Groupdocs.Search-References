@@ -1,14 +1,14 @@
 ---
 title: utf_32
 second_title: GroupDocs.Search for .NET API 参考
-description: utf32 编码
+description: utf32编码
 type: docs
 weight: 840
 url: /zh/net/groupdocs.search.common/encodings/utf_32/
 ---
 ## Encodings.utf_32 field
 
-utf-32 编码。
+utf-32编码。
 
 ```csharp
 public const string utf_32;

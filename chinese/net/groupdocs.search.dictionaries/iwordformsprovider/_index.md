@@ -1,14 +1,14 @@
 ---
 title: IWordFormsProvider
 second_title: GroupDocs.Search for .NET API 参考
-description: 定义词表提供者的接口
+description: 定义单词形式提供程序的接口
 type: docs
-weight: 440
+weight: 450
 url: /zh/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
 
-定义词表提供者的接口。
+定义单词形式提供程序的接口。
 
 ```csharp
 public interface IWordFormsProvider
@@ -22,14 +22,14 @@ public interface IWordFormsProvider
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [搜索不同的词形](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
-* [Word 表单提供程序](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
+* [搜索不同的单词形式](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
+* [词表提供者](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
 
 ### 例子
 
-下面的示例演示了如何实现自定义单词表单提供程序。
+以下示例演示了如何实现自定义单词形式提供程序。
 
 ```csharp
 public class SimpleWordFormsProvider : IWordFormsProvider
@@ -38,7 +38,7 @@ public class SimpleWordFormsProvider : IWordFormsProvider
     {
         List<string> result = new List<string>();
 
-        // 假设输入词是复数，那么我们加上单数
+        // 假设输入的单词是复数，那么我们加上单数
         if (word.Length > 2 &&
             word.EndsWith("es", StringComparison.InvariantCultureIgnoreCase))
         {
@@ -50,7 +50,7 @@ public class SimpleWordFormsProvider : IWordFormsProvider
             result.Add(word.Substring(0, word.Length - 1));
         }
 
-        // 然后假设输入词是单数，我们加复数
+        // 那么假设输入的单词是单数，我们加上复数
         if (word.Length > 1 &&
             word.EndsWith("y", StringComparison.InvariantCultureIgnoreCase))
         {
@@ -58,14 +58,14 @@ public class SimpleWordFormsProvider : IWordFormsProvider
         }
         result.Add(word + "s");
         result.Add(word + "es");
-        // 所有规则都在EnglishWordFormsProvider类中实现
+        // 所有规则都在 EnglishWordFormsProvider 类中实现
 
         return result.ToArray();
     }
 }
 ```
 
-下一个示例演示如何设置自定义单词表单提供程序以供使用。
+下一个示例演示如何设置自定义单词形式提供程序以供使用。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -77,17 +77,17 @@ Index index = new Index(indexFolder);
 // 索引指定文件夹中的文档
 index.Add(documentsFolder);
  
-// 设置自定义单词表单提供者实例
+// 设置自定义单词表单提供程序实例
 index.Dictionaries.WordFormsProvider = new SimpleWordFormsProvider();
  
-// 创建一个搜索选项实例
+// 创建搜索选项实例
 SearchOptions options = new SearchOptions();
-options.UseWordFormsSearch = true; // 启用词形搜索
+options.UseWordFormsSearch = true; // 启用搜索单词形式
   
 // 在索引中搜索
 SearchResult result = index.Search("relative", options);
   
-// 可以找到以下单词：
+// 可以找到下面的词：
 // 相对的
 // 相对的s
 ```

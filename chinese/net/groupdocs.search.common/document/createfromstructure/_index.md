@@ -1,14 +1,14 @@
 ---
 title: CreateFromStructure
 second_title: GroupDocs.Search for .NET API 参考
-description: 从文本字段数组的结构创建文档
+description: 从作为文本字段数组的结构创建文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/document/createfromstructure/
 ---
 ## Document.CreateFromStructure method
 
-从文本字段数组的结构创建文档。
+从作为文本字段数组的结构创建文档。
 
 ```csharp
 public static Document CreateFromStructure(string documentKey, DateTime modificationDate, 
@@ -17,8 +17,8 @@ public static Document CreateFromStructure(string documentKey, DateTime modifica
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentKey | String | 文档键。 |
-| modificationDate | DateTime | 文件修改日期。 |
+| documentKey | String | 文档密钥。 |
+| modificationDate | DateTime | 文档修改日期。 |
 | fields | DocumentField[] | 文档字段。 |
 
 ### 返回值

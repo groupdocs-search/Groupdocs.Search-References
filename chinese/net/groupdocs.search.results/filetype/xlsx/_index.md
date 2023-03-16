@@ -1,14 +1,14 @@
 ---
 title: XLSX
 second_title: GroupDocs.Search for .NET API 参考
-description: XLSX 是 Microsoft Excel 文档的众所周知的格式由 Microsoft 在 Microsoft Office 2007 的 release 中引入了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/specification/spreadsheet/xlsx/.
+description: XLSX 是众所周知的 Microsoft Excel 文档格式由 Microsoft 在 Microsoft Office 2007 的 版本中引入了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xlsx/.
 type: docs
 weight: 770
 url: /zh/net/groupdocs.search.results/filetype/xlsx/
 ---
 ## FileType.XLSX field
 
-XLSX 是 Microsoft Excel 文档的众所周知的格式，由 Microsoft 在 Microsoft Office 2007 的 release 中引入。了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/specification/spreadsheet/xlsx/).
+XLSX 是众所周知的 Microsoft Excel 文档格式，由 Microsoft 在 Microsoft Office 2007 的 版本中引入。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xlsx/).
 
 ```csharp
 public static readonly FileType XLSX;

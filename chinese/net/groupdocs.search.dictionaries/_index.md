@@ -12,15 +12,15 @@ url: /zh/net/groupdocs.search.dictionaries/
 
 | 班级 | 描述 |
 | --- | --- |
-| [AliasDictionary](./aliasdictionary) | 表示别名字典。 |
+| [AliasDictionary](./aliasdictionary) | 表示别名的字典。 |
 | [AliasReplacementPair](./aliasreplacementpair) | 表示别名/替换对。 |
-| [Alphabet](./alphabet) | 表示在索引期间用于检测字符类型的字符字典。 每个字符都可以作为分隔符、字母或两者处理。 |
-| [CharacterReplacementDictionary](./characterreplacementdictionary) | 表示在索引过程中使用的字符替换字典。 可以使用字符替换，例如，从重音字符中删除重音或制作不区分大小写的索引。 |
+| [Alphabet](./alphabet) | 表示在索引期间用于检测字符类型的字符字典。 每个字符都可以作为分隔符、字母或两者来处理。 |
+| [CharacterReplacementDictionary](./characterreplacementdictionary) | 表示在索引过程中使用的字符替换字典。 字符替换可用于例如从重音字符中删除重音符号或制作不区分大小写的索引。 |
 | [CharacterReplacementPair](./characterreplacementpair) | 表示字符/替换对。 |
 | [DictionaryBase](./dictionarybase) | 表示字典的基类。 |
-| [DictionaryRepository](./dictionaryrepository) | 表示一个目录中所有字典的存储库[`Index`](../groupdocs.search/index). |
-| [EnglishWordFormsProvider](./englishwordformsprovider) | 表示英文单词表单提供者。 |
-| [HomophoneDictionary](./homophonedictionary) | 表示异形同音字字典。 |
+| [DictionaryRepository](./dictionaryrepository) | 表示一个库中的所有词典[`Index`](../groupdocs.search/index). |
+| [EnglishWordFormsProvider](./englishwordformsprovider) | 代表英文词形提供者。 |
+| [HomophoneDictionary](./homophonedictionary) | 表示异形同音词字典。 |
 | [PasswordDictionary](./passworddictionary) | 表示文档密码字典。 |
 | [SpellingCorrector](./spellingcorrector) | 表示查询中术语的拼写校正器。 |
 | [StopWordDictionary](./stopworddictionary) | 表示停用词字典。 |
@@ -29,7 +29,7 @@ url: /zh/net/groupdocs.search.dictionaries/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IWordFormsProvider](./iwordformsprovider) | 定义词表提供者的接口。 |
+| [IWordFormsProvider](./iwordformsprovider) | 定义单词形式提供程序的接口。 |
 ## 枚举
 
 | 枚举 | 描述 |

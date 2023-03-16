@@ -1,14 +1,14 @@
 ---
 title: DOC
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有.doc 扩展名的文件表示由Microsoft Word 或其他文字处理生成的文档 二进制文件格式的文档了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/wordprocessing/doc/.
+description: 扩展名为 .doc 的文件表示由 Microsoft Word 或其他文字处理生成的文档 二进制文件格式的文档详细了解此文件格式 这里https//wiki.fileformat.com/wordprocessing/doc/.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.search.results/filetype/doc/
 ---
 ## FileType.DOC field
 
-带有.doc 扩展名的文件表示由Microsoft Word 或其他文字处理生成的文档 二进制文件格式的文档。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/word-processing/doc/).
+扩展名为 .doc 的文件表示由 Microsoft Word 或其他文字处理生成的文档， 二进制文件格式的文档。详细了解此文件格式 [这里](https://wiki.fileformat.com/word-processing/doc/).
 
 ```csharp
 public static readonly FileType DOC;

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Search for .NET API 参考
-description: 执行索引操作 通过绝对或相对路径添加文件或文件夹 将索引所有子文件夹中的文档
+description: 执行索引操作 通过绝对或相对路径添加文件或文件夹 所有子文件夹中的文档都将被索引
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search/index/add/
 ---
 ## Add(string) {#add_2}
 
-执行索引操作。 通过绝对或相对路径添加文件或文件夹。 将索引所有子文件夹中的文档。
+执行索引操作。 通过绝对或相对路径添加文件或文件夹。 所有子文件夹中的文档都将被索引。
 
 ```csharp
 public void Add(string path)
@@ -20,7 +20,7 @@ public void Add(string path)
 
 ### 例子
 
-该示例演示了如何将文档添加到索引中。
+该示例演示了如何将文档添加到索引。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -29,7 +29,7 @@ string filePath = @"c:\Documents\MyFile.txt";
 
 Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 index.Add(folderPath); // 索引指定文件夹中的文档
-index.Add(filePath); // 索引指定的文档
+index.Add(filePath); // 索引指定文档
 ```
 
 ### 也可以看看
@@ -42,7 +42,7 @@ index.Add(filePath); // 索引指定的文档
 
 ## Add(string, IndexingOptions) {#add_3}
 
-执行索引操作。 通过绝对或相对路径添加文件或文件夹。 将索引所有子文件夹中的文档。
+执行索引操作。 通过绝对或相对路径添加文件或文件夹。 所有子文件夹中的文档都将被索引。
 
 ```csharp
 public void Add(string path, IndexingOptions options)
@@ -55,7 +55,7 @@ public void Add(string path, IndexingOptions options)
 
 ### 例子
 
-该示例演示了如何将文档添加到具有特定索引选项的索引中。
+该示例演示了如何将文档添加到具有特定索引选项的索引。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -67,7 +67,7 @@ Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 IndexingOptions options = new IndexingOptions();
 options.Threads = 2; // 设置索引线程数
 index.Add(folderPath, options); // 索引指定文件夹中的文档
-index.Add(filePath, options); // 索引指定的文档
+index.Add(filePath, options); // 索引指定文档
 ```
 
 ### 也可以看看
@@ -81,7 +81,7 @@ index.Add(filePath, options); // 索引指定的文档
 
 ## Add(string[]) {#add_4}
 
-执行索引操作。 通过绝对或相对路径添加文件或文件夹。 将索引所有子文件夹中的文档。
+执行索引操作。 通过绝对或相对路径添加文件或文件夹。 所有子文件夹中的文档都将被索引。
 
 ```csharp
 public void Add(string[] paths)
@@ -93,7 +93,7 @@ public void Add(string[] paths)
 
 ### 例子
 
-该示例演示了如何将文档添加到索引中。
+该示例演示了如何将文档添加到索引。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -116,7 +116,7 @@ index.Add(paths); // 在指定路径索引文档
 
 ## Add(string[], IndexingOptions) {#add_5}
 
-执行索引操作。 通过绝对或相对路径添加文件或文件夹。 将索引所有子文件夹中的文档。
+执行索引操作。 通过绝对或相对路径添加文件或文件夹。 所有子文件夹中的文档都将被索引。
 
 ```csharp
 public void Add(string[] paths, IndexingOptions options)
@@ -129,7 +129,7 @@ public void Add(string[] paths, IndexingOptions options)
 
 ### 例子
 
-该示例演示了如何将文档添加到具有特定索引选项的索引中。
+该示例演示了如何将文档添加到具有特定索引选项的索引。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -155,7 +155,7 @@ index.Add(paths, options); // 在指定路径索引文档
 
 ## Add(Document[], IndexingOptions) {#add}
 
-执行索引操作。 从文件系统、流或结构中添加文档。
+执行索引操作。 从文件系统、流或结构添加文档。
 
 ```csharp
 public void Add(Document[] documents, IndexingOptions options)
@@ -163,7 +163,7 @@ public void Add(Document[] documents, IndexingOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documents | Document[] | 来自文件系统、流或结构的文档。 |
+| documents | Document[] | 来自文件系统、流或结构的文件。 |
 | options | IndexingOptions | 索引选项。 |
 
 ### 也可以看看

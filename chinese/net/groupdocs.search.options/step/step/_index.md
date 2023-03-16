@@ -1,14 +1,14 @@
 ---
 title: Step
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化Stepgroupdocs.search.options/step类.
+description: 初始化一个新的实例Stepgroupdocs.search.options/step类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/step/step/
 ---
 ## Step constructor
 
-初始化[`Step`](../../step)类.
+初始化一个新的实例[`Step`](../../step)类.
 
 ```csharp
 public Step(int lowerLimit, int level)
@@ -17,7 +17,7 @@ public Step(int lowerLimit, int level)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lowerLimit | Int32 | 下限。 |
-| level | Int32 | 等级。 |
+| level | Int32 | 水平。 |
 
 ### 也可以看看
 

@@ -1,25 +1,27 @@
 ---
 title: FileOutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化FileOutputAdaptergroupdocs.search.common/fileoutputadapter类.
+description: 初始化一个新的实例FileOutputAdaptergroupdocs.search.common/fileoutputadapter类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 ---
 ## FileOutputAdapter constructor
 
-初始化[`FileOutputAdapter`](../../fileoutputadapter)类.
+初始化一个新的实例[`FileOutputAdapter`](../../fileoutputadapter)类.
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
+| outputFormat | OutputFormat | 输出格式。 |
 | filePath | String | 输出文件路径。 |
 
 ### 也可以看看
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * 命名空间 [GroupDocs.Search.Common](../../fileoutputadapter)
 * 部件 [GroupDocs.Search](../../../)

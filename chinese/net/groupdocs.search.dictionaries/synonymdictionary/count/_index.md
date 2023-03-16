@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此包含的单词数SynonymDictionarygroupdocs.search.dictionaries/synonymdictionary.
+description: 获取这个包含的单词数SynonymDictionarygroupdocs.search.dictionaries/synonymdictionary.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/synonymdictionary/count/
 ---
 ## SynonymDictionary.Count property
 
-获取此包含的单词数[`SynonymDictionary`](../../synonymdictionary).
+获取这个包含的单词数[`SynonymDictionary`](../../synonymdictionary).
 
 ```csharp
 public int Count { get; }

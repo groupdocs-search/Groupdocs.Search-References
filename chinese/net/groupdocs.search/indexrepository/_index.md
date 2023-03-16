@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示一个容器用于组合多个索引并对它们执行通用操作
 type: docs
-weight: 660
+weight: 690
 url: /zh/net/groupdocs.search/indexrepository/
 ---
 ## IndexRepository class
@@ -18,21 +18,21 @@ public class IndexRepository : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndexRepository](indexrepository)() | 初始化[`IndexRepository`](../indexrepository)类. |
+| [IndexRepository](indexrepository)() | 初始化一个新的实例[`IndexRepository`](../indexrepository)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Events](../../groupdocs.search/indexrepository/events) { get; } | 获取订阅事件的事件中心。 |
-| [Indexes](../../groupdocs.search/indexrepository/indexes) { get; } | 获取此中包含的索引[`IndexRepository`](../indexrepository). |
+| [Events](../../groupdocs.search/indexrepository/events) { get; } | 获取用于订阅事件的事件中心。 |
+| [Indexes](../../groupdocs.search/indexrepository/indexes) { get; } | 获取这个包含的索引[`IndexRepository`](../indexrepository). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AddToRepository](../../groupdocs.search/indexrepository/addtorepository#addtorepository)(Index) | 将索引添加到索引存储库。 |
-| [AddToRepository](../../groupdocs.search/indexrepository/addtorepository#addtorepository_1)(string) | 打开索引并将索引添加到索引存储库。 |
+| [AddToRepository](../../groupdocs.search/indexrepository/addtorepository#addtorepository_1)(string) | 打开索引并将其添加到索引存储库。 |
 | [Create](../../groupdocs.search/indexrepository/create#create)() | 在内存中创建一个新索引。 |
 | [Create](../../groupdocs.search/indexrepository/create#create_1)(IndexSettings) | 在内存中创建一个新索引。 |
 | [Create](../../groupdocs.search/indexrepository/create#create_2)(string) | 在磁盘上创建一个新索引。 索引文件夹将在创建索引之前被清理。 |
@@ -47,13 +47,13 @@ public class IndexRepository : IDisposable
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [搜索索引存储库](https://docs.groupdocs.com/display/searchnet/Search+index+repository)
+* [搜索索引库](https://docs.groupdocs.com/display/searchnet/Search+index+repository)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder1 = @"c:\MyIndex\";
@@ -62,7 +62,7 @@ string query = "Einstein";
 
 IndexRepository repository = new IndexRepository();
 repository.AddToRepository(indexFolder1); // 加载现有索引
-repository.AddToRepository(indexFolder2); // 加载另一个现有索引
+repository.AddToRepository(indexFolder2); //加载另一个现有索引
 
 SearchResult result = repository.Search(query); // 在存储库的索引中搜索
 ```

@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search for .NET API 参考
 description: 指定线程数
 type: docs
-weight: 950
+weight: 980
 url: /zh/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration
@@ -30,7 +30,7 @@ public enum NumberOfThreads
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引设置](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

@@ -1,14 +1,14 @@
 ---
 title: UpdateOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化UpdateOptionsgroupdocs.search.options/updateoptions类.
+description: 初始化一个新的实例UpdateOptionsgroupdocs.search.options/updateoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/updateoptions/updateoptions/
 ---
 ## UpdateOptions constructor
 
-初始化[`UpdateOptions`](../../updateoptions)类.
+初始化一个新的实例[`UpdateOptions`](../../updateoptions)类.
 
 ```csharp
 public UpdateOptions()

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取包含在StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
+description: 获取停用词的个数StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/stopworddictionary/count/
 ---
 ## StopWordDictionary.Count property
 
-获取包含在[`StopWordDictionary`](../../stopworddictionary).
+获取停用词的个数[`StopWordDictionary`](../../stopworddictionary).
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### 适当的价值
 
-词典中停用词的数量。
+字典中停用词的个数。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public virtual SearchQuery SecondChild { get; }
 
 ### 适当的价值
 
-第二个子查询。
+第二个孩子查询。
 
 ### 也可以看看
 

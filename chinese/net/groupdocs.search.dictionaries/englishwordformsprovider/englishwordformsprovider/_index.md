@@ -1,14 +1,14 @@
 ---
 title: EnglishWordFormsProvider
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化EnglishWordFormsProvidergroupdocs.search.dictionaries/englishwordformsprovider类.
+description: 初始化一个新的实例EnglishWordFormsProvidergroupdocs.search.dictionaries/englishwordformsprovider类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/englishwordformsprovider/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider constructor
 
-初始化[`EnglishWordFormsProvider`](../../englishwordformsprovider)类.
+初始化一个新的实例[`EnglishWordFormsProvider`](../../englishwordformsprovider)类.
 
 ```csharp
 public EnglishWordFormsProvider()

@@ -16,7 +16,7 @@ public int Alpha { get; }
 
 ### 适当的价值
 
-此实例的 alpha 分量值。
+此实例的 alpha 组件值。
 
 ### 也可以看看
 

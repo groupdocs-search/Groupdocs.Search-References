@@ -1,14 +1,14 @@
 ---
 title: cp866
 second_title: GroupDocs.Search for .NET API 参考
-description: cp866 编码
+description: cp866编码
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.common/encodings/cp866/
 ---
 ## Encodings.cp866 field
 
-cp866 编码。
+cp866编码。
 
 ```csharp
 public const string cp866;

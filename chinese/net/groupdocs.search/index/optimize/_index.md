@@ -1,14 +1,14 @@
 ---
 title: Optimize
 second_title: GroupDocs.Search for .NET API 参考
-description: 通过将索引段彼此合并来最小化索引段的数量 此操作提高了搜索性能
+description: 通过将索引段与另一个合并来最小化索引段的数量 此操作提高了搜索性能
 type: docs
 weight: 210
 url: /zh/net/groupdocs.search/index/optimize/
 ---
 ## Optimize() {#optimize}
 
-通过将索引段彼此合并来最小化索引段的数量。 此操作提高了搜索性能。
+通过将索引段与另一个合并来最小化索引段的数量。 此操作提高了搜索性能。
 
 ```csharp
 public void Optimize()
@@ -16,7 +16,7 @@ public void Optimize()
 
 ### 例子
 
-该示例演示如何合并索引的段。
+该示例演示了如何合并索引的段。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -27,10 +27,10 @@ string documentsFolder3 = @"c:\MyDocuments3\";
 Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 
 index.Add(documentsFolder1); // 索引指定文件夹中的文档
-index.Add(documentsFolder2); // 每次调用 Add 都会在索引中创建至少一个新段
+index.Add(documentsFolder2); // 每次调用 Add 在索引中至少创建一个新段
 index.Add(documentsFolder3);
 
-// 合并索引的段
+// 合并索引段
 index.Optimize();
 ```
 
@@ -44,7 +44,7 @@ index.Optimize();
 
 ## Optimize(MergeOptions) {#optimize_1}
 
-通过将索引段彼此合并来最小化索引段的数量。 此操作提高了搜索性能。
+通过将索引段与另一个合并来最小化索引段的数量。 此操作提高了搜索性能。
 
 ```csharp
 public void Optimize(MergeOptions options)
@@ -56,7 +56,7 @@ public void Optimize(MergeOptions options)
 
 ### 例子
 
-该示例演示了如何使用特定的合并选项合并索引段。
+该示例演示了如何使用特定合并选项合并索引段。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -67,17 +67,17 @@ string documentsFolder3 = @"c:\MyDocuments3\";
 Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 
 index.Add(documentsFolder1); // 索引指定文件夹中的文档
-index.Add(documentsFolder2); // 每次调用 Add 都会在索引中创建至少一个新段
+index.Add(documentsFolder2); // 每次调用 Add 在索引中至少创建一个新段
 index.Add(documentsFolder3);
 
 MergeOptions options = new MergeOptions();
 options.IsAsync = true; // 异步操作
 options.Cancellation = new Cancellation(); // 创建取消对象
 
-// 合并索引的段
+// 合并索引段
 index.Optimize(options); // 该方法会在操作完成前返回
 
-options.Cancellation.CancelAfter(10000); // 设置操作的最大持续时间为 10 秒
+options.Cancellation.CancelAfter(10000); // 将操作的最长持续时间设置为 10 秒
 ```
 
 ### 也可以看看

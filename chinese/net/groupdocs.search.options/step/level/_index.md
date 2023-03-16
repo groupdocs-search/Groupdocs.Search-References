@@ -1,14 +1,14 @@
 ---
 title: Level
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取关卡
+description: 获取级别
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/step/level/
 ---
 ## Step.Level property
 
-获取关卡。
+获取级别。
 
 ```csharp
 public int Level { get; }
@@ -16,7 +16,7 @@ public int Level { get; }
 
 ### 适当的价值
 
-等级。
+水平。
 
 ### 也可以看看
 

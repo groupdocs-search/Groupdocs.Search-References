@@ -1,14 +1,14 @@
 ---
 title: CreateNotQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个反向查询该查询将在索引中找到其余文档而不是原始查询中找到的文档
+description: 创建一个倒排查询该查询将根据原始查询找到的索引找到其余文档
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search/searchquery/createnotquery/
 ---
 ## SearchQuery.CreateNotQuery method
 
-创建一个反向查询，该查询将在索引中找到其余文档，而不是原始查询中找到的文档。
+创建一个倒排查询，该查询将根据原始查询找到的索引找到其余文档。
 
 ```csharp
 public static SearchQuery CreateNotQuery(SearchQuery query)

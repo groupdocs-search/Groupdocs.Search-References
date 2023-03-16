@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回文档过滤器的字符串表示形式
+description: 返回文档过滤器的字符串表示
 type: docs
 weight: 150
 url: /zh/net/groupdocs.search.options/documentfilter/tostring/
 ---
 ## DocumentFilter.ToString method
 
-返回文档过滤器的字符串表示形式。
+返回文档过滤器的字符串表示。
 
 ```csharp
 public abstract string ToString()
@@ -16,7 +16,7 @@ public abstract string ToString()
 
 ### 返回值
 
-文档过滤器的字符串表示形式。
+文档过滤器的字符串表示。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public AliasDictionary AliasDictionary { get; }
 
 ### 适当的价值
 
-别名字典。
+别名词典。
 
 ### 也可以看看
 

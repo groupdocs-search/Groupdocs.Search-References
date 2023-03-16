@@ -1,14 +1,14 @@
 ---
 title: DateFormatCollection
 second_title: GroupDocs.Search for .NET API 参考
-description: 代表一个集合DateFormat./dateformat对象.
+description: 代表集合DateFormat./dateformat对象.
 type: docs
-weight: 750
+weight: 780
 url: /zh/net/groupdocs.search.options/dateformatcollection/
 ---
 ## DateFormatCollection class
 
-代表一个集合[`DateFormat`](../dateformat)对象.
+代表集合[`DateFormat`](../dateformat)对象.
 
 ```csharp
 public class DateFormatCollection : ICollection<DateFormat>
@@ -19,7 +19,7 @@ public class DateFormatCollection : ICollection<DateFormat>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../groupdocs.search.options/dateformatcollection/count) { get; } | 获取集合中包含的元素数。 |
-| [IsReadOnly](../../groupdocs.search.options/dateformatcollection/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| [IsReadOnly](../../groupdocs.search.options/dateformatcollection/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 
 ## 方法
 
@@ -28,13 +28,13 @@ public class DateFormatCollection : ICollection<DateFormat>
 | [Add](../../groupdocs.search.options/dateformatcollection/add)(DateFormat) | 将日期格式对象添加到集合中。 |
 | [Clear](../../groupdocs.search.options/dateformatcollection/clear)() | 从集合中删除所有元素。 |
 | [Contains](../../groupdocs.search.options/dateformatcollection/contains)(DateFormat) | 确定集合是否包含特定项目。 |
-| [CopyTo](../../groupdocs.search.options/dateformatcollection/copyto)(DateFormat[], int) | 将集合的元素复制到Array，从一个特定的开始Array索引. |
+| [CopyTo](../../groupdocs.search.options/dateformatcollection/copyto)(DateFormat[], int) | 将集合的元素复制到Array 从一个特定的Array索引. |
 | [GetEnumerator](../../groupdocs.search.options/dateformatcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Remove](../../groupdocs.search.options/dateformatcollection/remove)(DateFormat) | 从集合中删除第一次出现的特定元素。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [日期范围搜索](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 

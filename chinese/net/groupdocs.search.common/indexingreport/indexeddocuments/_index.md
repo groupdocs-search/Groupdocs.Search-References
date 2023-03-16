@@ -16,7 +16,7 @@ public string[] IndexedDocuments { get; }
 
 ### 适当的价值
 
-索引文档的列表。
+索引文档列表。
 
 ### 也可以看看
 

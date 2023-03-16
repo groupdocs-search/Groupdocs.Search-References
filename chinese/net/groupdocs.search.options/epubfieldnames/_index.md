@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示分面搜索的字段名称列表
 type: docs
-weight: 780
+weight: 810
 url: /zh/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class
@@ -22,14 +22,14 @@ public static class EpubFieldNames
 | const [Copyrights](../../groupdocs.search.options/epubfieldnames/copyrights) | 版权字段名称。 |
 | const [Description](../../groupdocs.search.options/epubfieldnames/description) | 描述字段名称。 |
 | const [Language](../../groupdocs.search.options/epubfieldnames/language) | 语言字段名称。 |
-| const [PublishedDate](../../groupdocs.search.options/epubfieldnames/publisheddate) | 发布日期字段名称。 |
+| const [PublishedDate](../../groupdocs.search.options/epubfieldnames/publisheddate) | 发布日期字段名. |
 | const [Publisher](../../groupdocs.search.options/epubfieldnames/publisher) | 发布者字段名称。 |
 | const [Subject](../../groupdocs.search.options/epubfieldnames/subject) | 主题字段名称。 |
-| const [Title](../../groupdocs.search.options/epubfieldnames/title) | 标题字段名称。 |
+| const [Title](../../groupdocs.search.options/epubfieldnames/title) | 标题字段名. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [分面搜索](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

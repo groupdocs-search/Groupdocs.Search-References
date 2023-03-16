@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: GroupDocs.Search for .NET API 参考
-description: 删除所有单词HomophoneDictionarygroupdocs.search.dictionaries/homophonedictionary对象.
+description: 从 a 中删除所有单词HomophoneDictionarygroupdocs.search.dictionaries/homophonedictionary对象.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.dictionaries/homophonedictionary/clear/
 ---
 ## HomophoneDictionary.Clear method
 
-删除所有单词[`HomophoneDictionary`](../../homophonedictionary)对象.
+从 a 中删除所有单词[`HomophoneDictionary`](../../homophonedictionary)对象.
 
 ```csharp
 public void Clear()

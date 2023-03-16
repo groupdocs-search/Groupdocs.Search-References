@@ -1,14 +1,14 @@
 ---
 title: GetSimilarityLevel
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定词条长度的相似度值
+description: 获取指定术语长度的相似度值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/similaritylevel/getsimilaritylevel/
 ---
 ## SimilarityLevel.GetSimilarityLevel method
 
-获取指定词条长度的相似度值。
+获取指定术语长度的相似度值。
 
 ```csharp
 public override double GetSimilarityLevel(int termLength)
@@ -16,7 +16,7 @@ public override double GetSimilarityLevel(int termLength)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| termLength | Int32 | 期限长度。 |
+| termLength | Int32 | 词长。 |
 
 ### 返回值
 

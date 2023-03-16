@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Search for .NET API 参考
-description: 确定是否StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary对象包含指定的单词
+description: 确定是否StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary对象包含指定的词
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.dictionaries/stopworddictionary/contains/
 ---
 ## StopWordDictionary.Contains method
 
-确定是否[`StopWordDictionary`](../../stopworddictionary)对象包含指定的单词。
+确定是否[`StopWordDictionary`](../../stopworddictionary)对象包含指定的词。
 
 ```csharp
 public bool Contains(string word)

@@ -1,14 +1,14 @@
 ---
 title: IndexingOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 提供索引操作的选项
+description: 为索引操作提供选项
 type: docs
-weight: 900
+weight: 930
 url: /zh/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
 
-提供索引操作的选项。
+为索引操作提供选项。
 
 ```csharp
 public class IndexingOptions
@@ -18,7 +18,7 @@ public class IndexingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndexingOptions](indexingoptions)() | 初始化[`IndexingOptions`](../indexingoptions)类. |
+| [IndexingOptions](indexingoptions)() | 初始化一个新的实例[`IndexingOptions`](../indexingoptions)类. |
 
 ## 特性
 
@@ -29,11 +29,11 @@ public class IndexingOptions
 | [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | 获取或设置异步执行操作的标志。 默认值为`错误的`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | 获取索引元数据字段的选项。 |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | 获取 OCR 处理和索引识别文本的选项。 |
-| [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | 获取或设置用于索引的线程数。 默认值为`1`. |
+| [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | 获取或设置用于索引的线程数。 默认值为`1个`. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [索引选项](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 

@@ -1,14 +1,14 @@
 ---
 title: PDF
 second_title: GroupDocs.Search for .NET API 参考
-description: 可移植文档格式 PDF 是 Adobe 在 1990 年代创建的一种文档 this 文件格式的目的是为文档和其他参考资料的表示引入一个标准以 一种独立于应用软件硬件和操作系统的格式了解更多 关于这种文件格式这里https//wiki.fileformat.com/view/pdf/.
+description: 便携式文档格式 PDF 是 Adobe 在 1990 年代创建的一种文档 this 文件格式的目的是在 中引入文档和其他参考资料的表示标准这是一种独立于应用程序软件硬件和操作系统的格式了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/view/pdf/.
 type: docs
 weight: 450
 url: /zh/net/groupdocs.search.results/filetype/pdf/
 ---
 ## FileType.PDF field
 
-可移植文档格式 (PDF) 是 Adobe 在 1990 年代创建的一种文档。 this 文件格式的目的是为文档和其他参考资料的表示引入一个标准，以 一种独立于应用软件、硬件和操作系统的格式。了解更多 关于这种文件格式[这里](https://wiki.fileformat.com/view/pdf/).
+便携式文档格式 (PDF) 是 Adobe 在 1990 年代创建的一种文档。 this 文件格式的目的是在 中引入文档和其他参考资料的表示标准，这是一种独立于应用程序软件、硬件和操作系统的格式。了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/view/pdf/).
 
 ```csharp
 public static readonly FileType PDF;

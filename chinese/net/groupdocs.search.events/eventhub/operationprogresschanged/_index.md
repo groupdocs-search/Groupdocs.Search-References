@@ -1,14 +1,14 @@
 ---
 title: OperationProgressChanged
 second_title: GroupDocs.Search for .NET API 参考
-description: 在索引或更新操作的进度发生变化时发生
+description: 索引或更新操作的进度更改时发生
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.events/eventhub/operationprogresschanged/
 ---
 ## EventHub.OperationProgressChanged event
 
-在索引或更新操作的进度发生变化时发生。
+索引或更新操作的进度更改时发生。
 
 ```csharp
 public event EventHandler<OperationProgressEventArgs> OperationProgressChanged;
@@ -16,7 +16,7 @@ public event EventHandler<OperationProgressEventArgs> OperationProgressChanged;
 
 ### 例子
 
-示例演示如何使用事件。
+该示例演示了如何使用事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

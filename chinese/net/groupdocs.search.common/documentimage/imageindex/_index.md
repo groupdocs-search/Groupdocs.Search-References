@@ -1,14 +1,14 @@
 ---
 title: ImageIndex
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取文档中图像的序号
+description: 获取图像在文档中的序号
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/documentimage/imageindex/
 ---
 ## DocumentImage.ImageIndex property
 
-获取文档中图像的序号。
+获取图像在文档中的序号。
 
 ```csharp
 public int ImageIndex { get; }
@@ -16,7 +16,7 @@ public int ImageIndex { get; }
 
 ### 适当的价值
 
-文档中图像的序号。
+图像在文档中的序号。
 
 ### 也可以看看
 

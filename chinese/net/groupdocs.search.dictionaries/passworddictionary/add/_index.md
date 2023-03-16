@@ -16,7 +16,7 @@ public void Add(string key, string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 完整的文件路径或文档键。 |
+| key | String | 完整文件路径或文档密钥。 |
 | password | String | 文档密码。 |
 
 ### 也可以看看

@@ -16,11 +16,11 @@ public static DocumentFilter CreateAnd(params DocumentFilter[] filters)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filters | DocumentFilter[] | 文档过滤器。 |
+| filters | DocumentFilter[] | 文件过滤。 |
 
 ### 返回值
 
-一个文档过滤器，表示指定过滤器的结合结果。
+表示指定过滤器结合结果的文档过滤器。
 
 ### 也可以看看
 

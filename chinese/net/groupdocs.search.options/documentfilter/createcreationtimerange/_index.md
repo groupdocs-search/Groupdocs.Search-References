@@ -1,14 +1,14 @@
 ---
 title: CreateCreationTimeRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个过滤器用于跳过创建日期超出指定范围的文档
+description: 创建一个过滤器以跳过创建日期超出指定范围的文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/documentfilter/createcreationtimerange/
 ---
 ## DocumentFilter.CreateCreationTimeRange method
 
-创建一个过滤器，用于跳过创建日期超出指定范围的文档。
+创建一个过滤器以跳过创建日期超出指定范围的文档。
 
 ```csharp
 public static DocumentFilter CreateCreationTimeRange(DateTime lowerBound, DateTime upperBound)
@@ -21,7 +21,7 @@ public static DocumentFilter CreateCreationTimeRange(DateTime lowerBound, DateTi
 
 ### 返回值
 
-按文档创建时间的文档过滤器。
+按文档创建时间过滤文档。
 
 ### 也可以看看
 

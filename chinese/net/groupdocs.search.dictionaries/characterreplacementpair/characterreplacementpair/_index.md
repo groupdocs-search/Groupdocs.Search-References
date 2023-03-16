@@ -1,14 +1,14 @@
 ---
 title: CharacterReplacementPair
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化CharacterReplacementPairgroupdocs.search.dictionaries/characterreplacementpair类.
+description: 初始化一个新的实例CharacterReplacementPairgroupdocs.search.dictionaries/characterreplacementpair类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementpair/characterreplacementpair/
 ---
 ## CharacterReplacementPair constructor
 
-初始化[`CharacterReplacementPair`](../../characterreplacementpair)类.
+初始化一个新的实例[`CharacterReplacementPair`](../../characterreplacementpair)类.
 
 ```csharp
 public CharacterReplacementPair(char character, char replacement)
@@ -17,7 +17,7 @@ public CharacterReplacementPair(char character, char replacement)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | character | Char | 要替换的字符。 |
-| replacement | Char | 替代品。 |
+| replacement | Char | 替补。 |
 
 ### 也可以看看
 

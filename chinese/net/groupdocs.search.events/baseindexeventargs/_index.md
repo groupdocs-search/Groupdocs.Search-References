@@ -3,7 +3,7 @@ title: BaseIndexEventArgs
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示事件参数的基类
 type: docs
-weight: 490
+weight: 500
 url: /zh/net/groupdocs.search.events/baseindexeventargs/
 ---
 ## BaseIndexEventArgs class
@@ -19,13 +19,13 @@ public class BaseIndexEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | 获取事件的时间。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

@@ -1,14 +1,14 @@
 ---
 title: MaxSearchReportCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索报告的最大数量 默认值为10.
+description: 获取或设置最大搜索报告数 默认值为10.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search/indexsettings/maxsearchreportcount/
 ---
 ## IndexSettings.MaxSearchReportCount property
 
-获取或设置搜索报告的最大数量。 默认值为`10`.
+获取或设置最大搜索报告数。 默认值为`10`.
 
 ```csharp
 public int MaxSearchReportCount { get; set; }

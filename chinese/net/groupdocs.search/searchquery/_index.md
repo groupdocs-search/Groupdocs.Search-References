@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示对象形式的搜索查询
 type: docs
-weight: 1200
+weight: 1240
 url: /zh/net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class
@@ -28,33 +28,33 @@ public abstract class SearchQuery
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery)(SearchQuery, SearchQuery) | 创建一个组合查询，该查询将仅查找每个原始查询将找到的文档。 |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery)(SearchQuery, SearchQuery) | 创建一个组合查询，它将只查找将为每个原始查询找到的文档。 |
 | static [CreateDateRangeQuery](../../groupdocs.search/searchquery/createdaterangequery)(DateTime, DateTime) | 创建日期范围查询。 |
-| static [CreateFieldQuery](../../groupdocs.search/searchquery/createfieldquery)(string, SearchQuery) | 向指定查询添加一个字段。 |
-| static [CreateNotQuery](../../groupdocs.search/searchquery/createnotquery)(SearchQuery) | 创建一个反向查询，该查询将在索引中找到其余文档，而不是原始查询中找到的文档。 |
+| static [CreateFieldQuery](../../groupdocs.search/searchquery/createfieldquery)(string, SearchQuery) | 向指定查询添加字段。 |
+| static [CreateNotQuery](../../groupdocs.search/searchquery/createnotquery)(SearchQuery) | 创建一个倒排查询，该查询将根据原始查询找到的索引找到其余文档。 |
 | static [CreateNumericRangeQuery](../../groupdocs.search/searchquery/createnumericrangequery)(long, long) | 创建一个数字范围查询。 |
-| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery)(SearchQuery, SearchQuery) | 创建一个组合查询，该查询将找到至少为原始查询之一找到的所有文档。 |
-| static [CreatePhraseSearchQuery](../../groupdocs.search/searchquery/createphrasesearchquery)(params SearchQuery[]) | 创建一个短语搜索查询。 |
-| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery)(string) | 创建一个正则表达式查询。 |
-| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery_1)(string, RegexOptions) | 创建一个正则表达式查询。 |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery)(SearchQuery, SearchQuery) | 创建一个组合查询，该查询将查找至少为原始查询之一找到的所有文档。 |
+| static [CreatePhraseSearchQuery](../../groupdocs.search/searchquery/createphrasesearchquery)(params SearchQuery[]) | 创建短语搜索查询。 |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery)(string) | 创建正则表达式查询。 |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery_1)(string, RegexOptions) | 创建正则表达式查询。 |
 | static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery)(int) | 为短语搜索创建通配符。 |
 | static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery_1)(int, int) | 为短语搜索创建通配符。 |
-| static [CreateWordPatternQuery](../../groupdocs.search/searchquery/createwordpatternquery)(WordPattern) | 创建一个单词模式查询。 |
+| static [CreateWordPatternQuery](../../groupdocs.search/searchquery/createwordpatternquery)(WordPattern) | 创建单词模式查询。 |
 | static [CreateWordQuery](../../groupdocs.search/searchquery/createwordquery)(string) | 创建一个简单的单词查询。 |
 | abstract [GetChild](../../groupdocs.search/searchquery/getchild)(int) | 通过索引获取子查询。 |
 | abstract [ToString](../../groupdocs.search/searchquery/tostring)() | 返回一个String代表当前[`SearchQuery`](../searchquery)实例. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [搜索](https://docs.groupdocs.com/display/searchnet/Searching)
+* [搜索中](https://docs.groupdocs.com/display/searchnet/Searching)
 * [文本和对象形式的查询](https://docs.groupdocs.com/display/searchnet/Queries+in+text+and+object+form)
 * [以对象形式嵌套搜索查询](https://docs.groupdocs.com/display/searchnet/Nesting+search+queries+in+object+form)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -66,19 +66,19 @@ index.Add(documentsFolder); // 索引指定文件夹中的文档
 // 创建日期范围搜索的子查询
 SearchQuery subquery1 = SearchQuery.CreateDateRangeQuery(new DateTime(2011, 6, 17), new DateTime(2013, 1, 1));
 
-// 创建通配符的子查询，遗漏单词数从 0 到 2
+// 创建遗漏字数从 0 到 2 的通配符子查询
 SearchQuery subquery2 = SearchQuery.CreateWildcardQuery(0, 2);
 
-// 创建简单单词的子查询
+// 创建简单词的子查询
 SearchQuery subquery3 = SearchQuery.CreateWordQuery("birth");
 subquery3.SearchOptions = new SearchOptions(); // 仅为子查询 3 设置搜索选项
 subquery3.SearchOptions.FuzzySearch.Enabled = true;
 subquery3.SearchOptions.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1);
 
-// 将子查询合并为一个查询
+// 将子查询组合成一个查询
 SearchQuery query = SearchQuery.CreatePhraseSearchQuery(subquery1, subquery2, subquery3);
 
-// 创建搜索选项对象，增加找到的事件的容量
+// 创建搜索选项对象，增加已发现事件的容量
 SearchOptions options = new SearchOptions(); // 整体搜索选项
 options.MaxOccurrenceCountPerTerm = 1000000;
 options.MaxTotalOccurrenceCount = 10000000;

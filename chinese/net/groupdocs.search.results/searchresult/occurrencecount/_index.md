@@ -1,14 +1,14 @@
 ---
 title: OccurrenceCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取找到的总次数
+description: 获取找到的总出现次数
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.results/searchresult/occurrencecount/
 ---
 ## SearchResult.OccurrenceCount property
 
-获取找到的总次数。
+获取找到的总出现次数。
 
 ```csharp
 public int OccurrenceCount { get; }
@@ -16,7 +16,7 @@ public int OccurrenceCount { get; }
 
 ### 适当的价值
 
-找到的总次数。
+找到的总出现次数。
 
 ### 也可以看看
 

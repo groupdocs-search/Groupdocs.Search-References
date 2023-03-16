@@ -1,14 +1,14 @@
 ---
 title: GetCharacterType
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取字符的类型
+description: 获取一个字符的类型
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.dictionaries/alphabet/getcharactertype/
 ---
 ## Alphabet.GetCharacterType method
 
-获取字符的类型。
+获取一个字符的类型。
 
 ```csharp
 public CharacterType GetCharacterType(char character)
@@ -16,11 +16,11 @@ public CharacterType GetCharacterType(char character)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| character | Char | 获取类型的字符。 |
+| character | Char | 要获取类型的字符。 |
 
 ### 返回值
 
-字符的一种类型。
+角色的一种。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GenerateHead
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否在输出 HTML 中生成 Head 标签 默认值为真的.
+description: 获取或设置一个值表示是否在输出的 HTML 中生成 Head 标签 默认值为真的.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/textoptions/generatehead/
 ---
 ## TextOptions.GenerateHead property
 
-获取或设置一个值，该值指示是否在输出 HTML 中生成 Head 标签。 默认值为`真的`.
+获取或设置一个值，表示是否在输出的 HTML 中生成 Head 标签。 默认值为`真的`.
 
 ```csharp
 public bool GenerateHead { get; set; }

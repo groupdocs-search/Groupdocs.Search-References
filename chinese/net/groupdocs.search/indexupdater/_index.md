@@ -1,14 +1,14 @@
 ---
 title: IndexUpdater
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示索引更新器 该类在旧版本的索引中执行重新索引文档
+description: 表示索引更新程序 此类在旧版本的索引中执行重新索引文档
 type: docs
-weight: 680
+weight: 710
 url: /zh/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class
 
-表示索引更新器。 该类在旧版本的索引中执行重新索引文档。
+表示索引更新程序。 此类在旧版本的索引中执行重新索引文档。
 
 ```csharp
 public class IndexUpdater
@@ -18,7 +18,7 @@ public class IndexUpdater
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndexUpdater](indexupdater)() | 初始化[`IndexUpdater`](../indexupdater)类. |
+| [IndexUpdater](indexupdater)() | 初始化一个新的实例[`IndexUpdater`](../indexupdater)类. |
 
 ## 方法
 
@@ -26,17 +26,17 @@ public class IndexUpdater
 | --- | --- |
 | [CanUpdateVersion](../../groupdocs.search/indexupdater/canupdateversion)(string) | 检查指定目录中的索引是否可以更新到最新版本。 |
 | [IsLatestVersion](../../groupdocs.search/indexupdater/islatestversion)(string) | 检查指定目录是否包含最新版本的索引。 |
-| [UpdateVersion](../../groupdocs.search/indexupdater/updateversion)(string, string) | 在旧版本的索引中执行重新索引文档。 更新后的索引将放置在*newIndexPath*directory. 中的索引*indexPath*目录不会改变。 |
+| [UpdateVersion](../../groupdocs.search/indexupdater/updateversion)(string, string) | 在旧版本的索引中执行重新索引文档。 更新的索引将放在*newIndexPath*directory. 中的索引*indexPath*目录不会更改。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [更新索引](https://docs.groupdocs.com/display/searchnet/Update+index)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string sourceIndexFolder = @"c:\MyOldIndex\";

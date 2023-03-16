@@ -1,14 +1,14 @@
 ---
 title: MergeOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 提供合并操作的选项
+description: 为合并操作提供选项
 type: docs
-weight: 930
+weight: 960
 url: /zh/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
 
-提供合并操作的选项。
+为合并操作提供选项。
 
 ```csharp
 public class MergeOptions
@@ -18,7 +18,7 @@ public class MergeOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MergeOptions](mergeoptions)() | 初始化[`MergeOptions`](../mergeoptions)类. |
+| [MergeOptions](mergeoptions)() | 初始化一个新的实例[`MergeOptions`](../mergeoptions)类. |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public class MergeOptions
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [合并索引](https://docs.groupdocs.com/display/searchnet/Merge+indexes)
 * [优化索引](https://docs.groupdocs.com/display/searchnet/Optimize+index)

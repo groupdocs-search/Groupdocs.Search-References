@@ -1,14 +1,14 @@
 ---
 title: GetSimilarityLevel
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定词条长度的相似度
+description: 获取指定术语长度的相似度
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/fuzzyalgorithm/getsimilaritylevel/
 ---
 ## FuzzyAlgorithm.GetSimilarityLevel method
 
-获取指定词条长度的相似度。
+获取指定术语长度的相似度。
 
 ```csharp
 public abstract double GetSimilarityLevel(int termLength)
@@ -16,11 +16,11 @@ public abstract double GetSimilarityLevel(int termLength)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| termLength | Int32 | 期限长度。 |
+| termLength | Int32 | 词长。 |
 
 ### 返回值
 
-相似度级别。
+相似度。
 
 ### 也可以看看
 

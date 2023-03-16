@@ -20,7 +20,7 @@ public TextStorageSettings TextStorageSettings { get; set; }
 
 ### 例子
 
-示例演示如何设置文本存储设置。
+该示例演示如何设置文本存储设置。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -33,7 +33,7 @@ settings.TextStorageSettings = new TextStorageSettings(Compression.High); // 为
 // 在指定文件夹中创建索引
 Index index = new Index(indexFolder, settings);
 
-// 索引文档
+// 索引文件
 index.Add(documentsFolder);
 
 // 搜索

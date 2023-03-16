@@ -1,14 +1,14 @@
 ---
 title: DayOfMonthTwoDigits
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取以两位数字表示的月份元素
+description: 获取日期元素由两位数表示
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/dateformatelement/dayofmonthtwodigits/
 ---
 ## DateFormatElement.DayOfMonthTwoDigits property
 
-获取以两位数字表示的月份元素。
+获取日期元素，由两位数表示。
 
 ```csharp
 public static DateFormatElement DayOfMonthTwoDigits { get; }

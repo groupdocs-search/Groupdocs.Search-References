@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: GroupDocs.Search for .NET API 参考
-description: 作者字段名称
+description: 作者字段名.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/spreadsheetfieldnames/author/
 ---
 ## SpreadsheetFieldNames.Author field
 
-作者字段名称。
+作者字段名.
 
 ```csharp
 public const string Author;

@@ -1,14 +1,14 @@
 ---
 title: IBM880
 second_title: GroupDocs.Search for .NET API 参考
-description: IBM880 编码
+description: IBM880编码
 type: docs
 weight: 580
 url: /zh/net/groupdocs.search.common/encodings/ibm880/
 ---
 ## Encodings.IBM880 field
 
-IBM880 编码。
+IBM880编码。
 
 ```csharp
 public const string IBM880;

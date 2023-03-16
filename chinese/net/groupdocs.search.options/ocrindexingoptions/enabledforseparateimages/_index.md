@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否识别单独图像文件中的文本 默认值为错误的.
+description: 获取或设置一个值表示是否识别单独图像文件中的文本 默认值为错误的.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/ocrindexingoptions/enabledforseparateimages/
 ---
 ## OcrIndexingOptions.EnabledForSeparateImages property
 
-获取或设置一个值，该值指示是否识别单独图像文件中的文本。 默认值为`错误的`.
+获取或设置一个值，表示是否识别单独图像文件中的文本。 默认值为`错误的`.
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

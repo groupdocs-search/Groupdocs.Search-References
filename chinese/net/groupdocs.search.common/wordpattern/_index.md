@@ -1,14 +1,14 @@
 ---
 title: WordPattern
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示要在单词通配符搜索中使用的单词模式
+description: 表示在单词通配符搜索中使用的单词模式
 type: docs
-weight: 330
+weight: 340
 url: /zh/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class
 
-表示要在单词通配符搜索中使用的单词模式。
+表示在单词通配符搜索中使用的单词模式。
 
 ```csharp
 public class WordPattern
@@ -18,7 +18,7 @@ public class WordPattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordPattern](wordpattern)() | 初始化[`WordPattern`](../wordpattern)类. |
+| [WordPattern](wordpattern)() | 初始化一个新的实例[`WordPattern`](../wordpattern)类. |
 
 ## 方法
 
@@ -35,7 +35,7 @@ public class WordPattern
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [通配符搜索](https://docs.groupdocs.com/display/searchnet/Wildcard+search)
 * [短语搜索](https://docs.groupdocs.com/display/searchnet/Phrase+search)

@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个记录器用于记录索引中的事件和错误 注意记录器不保存必须在每次创建或加载索引时创建和分配
+description: 获取或设置用于在索引中记录事件和错误的记录器 请注意记录器不会保存每次创建或加载索引时都必须创建和分配
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search/indexsettings/logger/
 ---
 ## IndexSettings.Logger property
 
-获取或设置一个记录器，用于记录索引中的事件和错误。 注意记录器不保存，必须在每次创建或加载索引时创建和分配。
+获取或设置用于在索引中记录事件和错误的记录器。 请注意，记录器不会保存，每次创建或加载索引时都必须创建和分配。
 
 ```csharp
 public ILogger Logger { get; set; }
@@ -16,7 +16,7 @@ public ILogger Logger { get; set; }
 
 ### 适当的价值
 
-用于记录索引中的事件和错误的记录器。
+用于在索引中记录事件和错误的记录器。
 
 ### 也可以看看
 

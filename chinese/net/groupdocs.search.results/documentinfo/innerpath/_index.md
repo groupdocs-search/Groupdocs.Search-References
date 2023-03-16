@@ -16,7 +16,7 @@ public string InnerPath { get; }
 
 ### 适当的价值
 
-内径。
+内心的道路。
 
 ### 也可以看看
 

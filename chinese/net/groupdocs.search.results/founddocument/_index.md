@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示找到的文档
 type: docs
-weight: 1140
+weight: 1180
 url: /zh/net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class
@@ -18,11 +18,11 @@ public class FoundDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentInfo](../../groupdocs.search.results/founddocument/documentinfo) { get; } | 获取文档信息。 |
+| [DocumentInfo](../../groupdocs.search.results/founddocument/documentinfo) { get; } | 获取文档信息. |
 | [FoundFields](../../groupdocs.search.results/founddocument/foundfields) { get; } | 获取找到的文档字段。 |
 | [OccurrenceCount](../../groupdocs.search.results/founddocument/occurrencecount) { get; } | 获取找到的出现次数。 |
 | [Relevance](../../groupdocs.search.results/founddocument/relevance) { get; } | 获取搜索结果的相关性。 |
-| [Terms](../../groupdocs.search.results/founddocument/terms) { get; } | 获取找到的术语。 每次访问属性时都会评估该值。 |
+| [Terms](../../groupdocs.search.results/founddocument/terms) { get; } | 获取找到的项。 每次访问属性时都会计算该值。 |
 | [TermSequences](../../groupdocs.search.results/founddocument/termsequences) { get; } | 获取找到的术语序列。 |
 
 ## 方法
@@ -31,11 +31,11 @@ public class FoundDocument
 | --- | --- |
 | static [Deserialize](../../groupdocs.search.results/founddocument/deserialize)(byte[]) | 从字节数组中反序列化一个实例。 |
 | [Serialize](../../groupdocs.search.results/founddocument/serialize)() | 将当前实例序列化为字节数组。 |
-| override [ToString](../../groupdocs.search.results/founddocument/tostring)() | 返回找到的文档的字符串表示形式。 |
+| override [ToString](../../groupdocs.search.results/founddocument/tostring)() | 返回找到的文档的字符串表示。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索结果](https://docs.groupdocs.com/display/searchnet/Search+results)
 

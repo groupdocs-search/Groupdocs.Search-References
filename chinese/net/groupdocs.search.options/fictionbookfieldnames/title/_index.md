@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: GroupDocs.Search for .NET API 参考
-description: 标题字段名称
+description: 标题字段名.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.options/fictionbookfieldnames/title/
 ---
 ## FictionBookFieldNames.Title field
 
-标题字段名称。
+标题字段名.
 
 ```csharp
 public const string Title;

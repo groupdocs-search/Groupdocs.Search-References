@@ -1,14 +1,14 @@
 ---
 title: ItemInfo
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取项目信息
+description: 获取物品信息
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.common/extractediteminfo/iteminfo/
 ---
 ## ExtractedItemInfo.ItemInfo property
 
-获取项目信息。
+获取物品信息。
 
 ```csharp
 public string ItemInfo { get; }
@@ -16,7 +16,7 @@ public string ItemInfo { get; }
 
 ### 适当的价值
 
-商品信息。
+物品信息。
 
 ### 也可以看看
 

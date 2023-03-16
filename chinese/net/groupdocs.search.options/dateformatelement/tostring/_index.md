@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-一个String代表当前[`DateFormatElement`](../../dateformatelement).
+AString代表当前[`DateFormatElement`](../../dateformatelement).
 
 ### 也可以看看
 

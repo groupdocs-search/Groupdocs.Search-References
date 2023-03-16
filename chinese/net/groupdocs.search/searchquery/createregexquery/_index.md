@@ -1,14 +1,14 @@
 ---
 title: CreateRegexQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个正则表达式查询
+description: 创建正则表达式查询
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search/searchquery/createregexquery/
 ---
 ## CreateRegexQuery(string) {#createregexquery}
 
-创建一个正则表达式查询。
+创建正则表达式查询。
 
 ```csharp
 public static SearchQuery CreateRegexQuery(string pattern)
@@ -32,7 +32,7 @@ public static SearchQuery CreateRegexQuery(string pattern)
 
 ## CreateRegexQuery(string, RegexOptions) {#createregexquery_1}
 
-创建一个正则表达式查询。
+创建正则表达式查询。
 
 ```csharp
 public static SearchQuery CreateRegexQuery(string pattern, RegexOptions options)

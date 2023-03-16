@@ -16,7 +16,7 @@ public void AppendString(string text)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 要附加的字符串。 |
+| text | String | 要追加的字符串。 |
 
 ### 也可以看看
 

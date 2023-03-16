@@ -20,7 +20,7 @@ public Index Create()
 
 ### 例子
 
-示例演示如何通过索引存储库在内存中创建索引。
+示例演示了如何通过索引库在内存中创建索引。
 
 ```csharp
 IndexRepository indexRepository = new IndexRepository();
@@ -54,13 +54,13 @@ public Index Create(IndexSettings settings)
 
 ### 例子
 
-示例演示如何通过索引存储库在内存中创建索引。
+示例演示了如何通过索引库在内存中创建索引。
 
 ```csharp
 IndexRepository indexRepository = new IndexRepository();
 
 IndexSettings settings = new IndexSettings();
-settings.UseStopWords = false; // 在索引期间禁用停用词
+settings.UseStopWords = false; // 在索引期间禁止使用停用词
 
 Index index = indexRepository.Create(settings);
 ```
@@ -138,7 +138,7 @@ string indexFolder = @"c:\MyIndex\";
 IndexRepository indexRepository = new IndexRepository();
 
 IndexSettings settings = new IndexSettings();
-settings.UseStopWords = false; // 在索引期间禁用停用词
+settings.UseStopWords = false; // 在索引期间禁止使用停用词
 
 Index index = indexRepository.Create(indexFolder, settings);
 ```

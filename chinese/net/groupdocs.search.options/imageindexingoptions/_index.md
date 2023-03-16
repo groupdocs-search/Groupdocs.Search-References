@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Search for .NET API 参考
 description: 为反向图像搜索提供图像索引选项
 type: docs
-weight: 860
+weight: 890
 url: /zh/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class
@@ -18,8 +18,8 @@ public class ImageIndexingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | 获取或设置一个值，该值指示是否索引容器中的项目图像 （例如，ZIP 存档中的图像）。 默认值为`错误的`. |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | 获取或设置一个值，该值指示是否索引嵌入的图像 （例如，DOCX 文档中的图像）。 默认值为`错误的`. |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | 获取或设置一个值，该值指示是否索引属于容器 中项目的图像（例如，ZIP 存档中的图像）。 默认值为`错误的`. |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | 获取或设置一个值，指示是否索引嵌入的图像 （例如，DOCX 文档中的图像）。 默认值为`错误的`. |
 | [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | 获取或设置一个值，指示是否索引单独的图像文件。 默认值为`错误的`. |
 
 ### 也可以看看

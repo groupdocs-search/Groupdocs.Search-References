@@ -1,14 +1,14 @@
 ---
 title: LastPrintedTime
 second_title: GroupDocs.Search for .NET API 参考
-description: 上次打印的时间字段名称
+description: 最后打印的时间字段名.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.search.options/wordsfieldnames/lastprintedtime/
 ---
 ## WordsFieldNames.LastPrintedTime field
 
-上次打印的时间字段名称。
+最后打印的时间字段名.
 
 ```csharp
 public const string LastPrintedTime;
