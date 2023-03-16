@@ -32,6 +32,14 @@ public class Extractor
 | --- | --- |
 | [Extract](../../groupdocs.search/extractor/extract)(Document, ExtractionOptions) | Extracts data from a document. |
 
+## Events
+
+| Name | Description |
+| --- | --- |
+| event [ErrorOccurred](../../groupdocs.search/extractor/erroroccurred) | Occurs when an error happens during an extractor operation. |
+| event [ImagePreparing](../../groupdocs.search/extractor/imagepreparing) | Occurs when an image is going to be prepared for indexing. |
+| event [PasswordRequired](../../groupdocs.search/extractor/passwordrequired) | Occurs when a document requires password for opening. |
+
 ### See Also
 
 * namespace [GroupDocs.Search](../../groupdocs.search)
