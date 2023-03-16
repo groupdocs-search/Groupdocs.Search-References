@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options pour le traitement OCR et lindexation du texte reconnu.
 type: docs
-weight: 970
+weight: 1000
 url: /fr/net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
@@ -18,9 +18,9 @@ public class OcrIndexingOptions
 
 | Nom | La description |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans les images qui sont des éléments dans un conteneur (par exemple, des images dans une archive ZIP). La valeur par défaut est`faux` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans les images incorporées (par exemple, les images dans un document DOCX). La valeur par défaut est`faux` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut est`faux` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans les images qui sont des éléments dans un conteneur (par exemple, des images dans une archive ZIP). La valeur par défaut est`FAUX` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans les images incorporées (par exemple, les images dans un document DOCX). La valeur par défaut est`FAUX` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut est`FAUX` . |
 | [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | Obtient ou définit un connecteur OCR utilisé pour le traitement OCR. La valeur par défaut est`nul` , ce qui signifie qu'aucun OCR n'est utilisé. |
 
 ### Voir également

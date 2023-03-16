@@ -1,14 +1,14 @@
 ---
 title: IsChunkSearch
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lindicateur de recherche par morceaux. La valeur par défaut estfaux .
+description: Obtient ou définit lindicateur de recherche par morceaux. La valeur par défaut estFAUX .
 type: docs
 weight: 50
 url: /fr/net/groupdocs.search.options/searchoptions/ischunksearch/
 ---
 ## SearchOptions.IsChunkSearch property
 
-Obtient ou définit l'indicateur de recherche par morceaux. La valeur par défaut est`faux` .
+Obtient ou définit l'indicateur de recherche par morceaux. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IsChunkSearch { get; set; }

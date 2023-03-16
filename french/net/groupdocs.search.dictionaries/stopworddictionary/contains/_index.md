@@ -20,7 +20,7 @@ public bool Contains(string word)
 
 ### Return_Value
 
-`vrai` si la[`StopWordDictionary`](../../stopworddictionary) objet contient le mot spécifié ; Par ailleurs,`faux` .
+`vrai` si la[`StopWordDictionary`](../../stopworddictionary) objet contient le mot spécifié ; sinon,`FAUX` .
 
 ### Voir également
 

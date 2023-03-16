@@ -30,12 +30,13 @@ L'espace de noms fournit des classes communes de la bibliothèque.
 | [IndexInfo](./indexinfo) | Contient des informations de base sur un[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Représente une information détaillée sur une opération d'indexation. |
 | [Notification](./notification) | La classe de base pour toutes les notifications à l'index. Cette classe contient également des méthodes pour créer des objets de notification. |
-| [OutputAdapter](./outputadapter) | Représente la classe de base d'un adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sont[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , et[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Représente la classe de base d'un adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sont[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , et[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Représente la classe de base d'une fabrique de générateur de résultats. |
 | [SearchImage](./searchimage) | Représente une image à rechercher. |
 | [SearchReport](./searchreport) | Représente une information détaillée sur une opération de recherche. |
 | [StreamOutputAdapter](./streamoutputadapter) | Représente un adaptateur de sortie qui collecte la sortie dans unStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Représente un adaptateur de sortie qui collecte la sortie en tant queString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Représente un adaptateur de sortie qui collecte la sortie sous la forme d'une structure contenant chaque champ séparément. |
 | [WordPattern](./wordpattern) | Représente un modèle de mot à utiliser dans la recherche de mots génériques. |
 ## Interfaces
 

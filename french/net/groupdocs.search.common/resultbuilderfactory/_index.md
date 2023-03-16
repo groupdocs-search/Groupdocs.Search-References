@@ -14,6 +14,12 @@ Représente la classe de base d'une fabrique de générateur de résultats.
 public abstract class ResultBuilderFactory
 ```
 
+## Propriétés
+
+| Nom | La description |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Obtient le format de sortie. |
+
 ### Voir également
 
 * espace de noms [GroupDocs.Search.Common](../../groupdocs.search.common)

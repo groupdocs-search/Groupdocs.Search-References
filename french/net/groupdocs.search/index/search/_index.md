@@ -164,7 +164,7 @@ index.Add(documentsFolder); // Indexation des documents du dossier spécifié
 
 // Création de la sous-requête 1
 SearchQuery subquery1 = SearchQuery.CreateWordQuery("accommodation");
-subquery1.SearchOptions = new SearchOptions(); // Définition des options de recherche uniquement pour la sous-requête 1
+subquery1.SearchOptions = new SearchOptions(); // Définition des options de recherche uniquement pour la sous-requête 1
 subquery1.SearchOptions.FuzzySearch.Enabled = true; // Activation de la recherche floue
 subquery1.SearchOptions.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(3); // Définition du nombre maximum de différences
 

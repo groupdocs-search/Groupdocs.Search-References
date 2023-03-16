@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options pour le correcteur de disposition du clavier.
 type: docs
-weight: 910
+weight: 940
 url: /fr/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class
@@ -18,7 +18,7 @@ public class KeyboardLayoutCorrectorOptions
 
 | Nom | La description |
 | --- | --- |
-| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut est`faux` . |
+| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut est`FAUX` . |
 
 ### Remarques
 

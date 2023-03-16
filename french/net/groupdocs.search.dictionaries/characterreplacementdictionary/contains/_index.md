@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### Return_Value
 
-`vrai` si la[`CharacterReplacementDictionary`](../../characterreplacementdictionary) l'objet contient le caractère spécifié ; sinon,`faux` .
+`vrai` si la[`CharacterReplacementDictionary`](../../characterreplacementdictionary) l'objet contient le caractère spécifié ; sinon,`FAUX` .
 
 ### Voir également
 

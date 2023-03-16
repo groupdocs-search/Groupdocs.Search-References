@@ -3,7 +3,7 @@ title: License
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des méthodes pour appliquer la licence.
 type: docs
-weight: 690
+weight: 720
 url: /fr/net/groupdocs.search/license/
 ---
 ## License class

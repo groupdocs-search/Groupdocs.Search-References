@@ -1,14 +1,14 @@
 ---
 title: UseCaseSensitiveSearch
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lindicateur de recherche sensible à la casse. La valeur par défaut estfaux .
+description: Obtient ou définit lindicateur de recherche sensible à la casse. La valeur par défaut estFAUX .
 type: docs
 weight: 110
 url: /fr/net/groupdocs.search.options/searchoptions/usecasesensitivesearch/
 ---
 ## SearchOptions.UseCaseSensitiveSearch property
 
-Obtient ou définit l'indicateur de recherche sensible à la casse. La valeur par défaut est`faux` .
+Obtient ou définit l'indicateur de recherche sensible à la casse. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseCaseSensitiveSearch { get; set; }

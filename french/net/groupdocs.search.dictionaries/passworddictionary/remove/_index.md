@@ -20,7 +20,7 @@ public bool Remove(string key)
 
 ### Return_Value
 
-`vrai` si le mot de passe a été supprimé avec succès ; Par ailleurs,`faux` . Cette méthode renvoie également`faux` si*key* n'a pas été trouvé dans le dictionnaire.
+`vrai` si le mot de passe a été supprimé avec succès ; sinon,`FAUX` . Cette méthode renvoie également`FAUX` si*key* n'a pas été trouvé dans le dictionnaire.
 
 ### Voir également
 

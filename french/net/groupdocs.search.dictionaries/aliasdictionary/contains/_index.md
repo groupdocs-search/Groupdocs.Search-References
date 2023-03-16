@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Détermine si unAliasDictionarygroupdocs.search.dictionaries/aliasdictionarylobjet contient lalias spécifié.
+description: Détermine si unAliasDictionarygroupdocs.search.dictionaries/aliasdictionary lobjet contient lalias spécifié.
 type: docs
 weight: 50
 url: /fr/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Détermine si un[`AliasDictionary`](../../aliasdictionary)l'objet contient l'alias spécifié.
+Détermine si un[`AliasDictionary`](../../aliasdictionary) l'objet contient l'alias spécifié.
 
 ```csharp
 public bool Contains(string alias)
@@ -20,7 +20,7 @@ public bool Contains(string alias)
 
 ### Return_Value
 
-`vrai` si la[`AliasDictionary`](../../aliasdictionary) l'objet contient l'alias spécifié ; Par ailleurs,`faux` .
+`vrai` si la[`AliasDictionary`](../../aliasdictionary) l'objet contient l'alias spécifié ; sinon,`FAUX` .
 
 ### Exceptions
 

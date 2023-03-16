@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lextracteur de texte personnalisé utilisé pour lindexation. La valeur par défaut estnul . Notez que cette valeur est utilisée uniquement si le texte du document na pas été enregistré dans lindex.
+description: Obtient ou définit lextracteur de texte personnalisé utilisé pour lindexation. La valeur par défaut estnul. Notez que cette valeur est utilisée uniquement si le texte du document na pas été enregistré dans lindex.
 type: docs
 weight: 40
 url: /fr/net/groupdocs.search.options/textoptions/customextractor/
 ---
 ## TextOptions.CustomExtractor property
 
-Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul` . Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index.
+Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul`. Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index.
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

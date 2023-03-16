@@ -21,7 +21,7 @@ public static SearchQuery CreateOrQuery(SearchQuery leftQuery, SearchQuery right
 
 ### Return_Value
 
-Une requête OU combinée.
+Une requête OR combinée.
 
 ### Voir également
 

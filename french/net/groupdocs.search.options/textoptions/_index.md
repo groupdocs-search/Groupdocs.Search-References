@@ -3,7 +3,7 @@ title: TextOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options pour récupérer le texte dun document à partir dun index.
 type: docs
-weight: 1060
+weight: 1100
 url: /fr/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | Nom | La description |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtient ou définit les champs de document supplémentaires qui ont été utilisés pour l'indexation. La valeur par défaut est`nul` . Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtient ou définit les champs de document supplémentaires qui ont été utilisés pour l'indexation. La valeur par défaut est`nul`. Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Obtient ou définit l'objet d'annulation. La valeur par défaut est`nul` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul` . Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul`. Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Obtient ou définit une valeur indiquant si la balise Head est générée dans la sortie HTML. La valeur par défaut est`vrai` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Obtient les options d'indexation d'image pour la recherche d'image inversée. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Obtient les options d'indexation des champs de métadonnées. |

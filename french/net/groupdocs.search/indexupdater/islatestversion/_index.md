@@ -20,7 +20,7 @@ public bool IsLatestVersion(string indexPath)
 
 ### Return_Value
 
-`vrai` si le répertoire spécifié contient un index de la dernière version ; sinon`faux` .
+`vrai` si le répertoire spécifié contient un index de la dernière version ; sinon`FAUX` .
 
 ### Voir également
 

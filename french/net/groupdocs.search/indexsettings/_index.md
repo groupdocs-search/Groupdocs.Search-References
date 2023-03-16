@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente les paramètres dindex qui permettent de personnaliser les opérations dindexation.
 type: docs
-weight: 670
+weight: 700
 url: /fr/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -24,7 +24,7 @@ public class IndexSettings
 
 | Nom | La description |
 | --- | --- |
-| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Obtient ou définit une valeur indiquant s'il faut détecter l'encodage automatiquement ou non. La valeur par défaut est`faux` . |
+| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Obtient ou définit une valeur indiquant s'il faut détecter l'encodage automatiquement ou non. La valeur par défaut est`FAUX` . |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | Obtient la collection d'extracteurs personnalisés. |
 | [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Obtient ou définit un filtre de document. Le[`DocumentFilter`](./documentfilter) fonctionne sur la logique d'inclusion. Utilisez le[`DocumentFilter`](../../groupdocs.search.options/documentfilter) classe pour la création d'instances de filtre de document. La valeur par défaut est`nul` , ce qui signifie que tous les documents ajoutés sont indexés. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | Obtient ou définit le type d'index. La valeur par défaut estNormalIndex . |
@@ -34,7 +34,7 @@ public class IndexSettings
 | [MaxSearchReportCount](../../groupdocs.search/indexsettings/maxsearchreportcount) { get; set; } | Obtient ou définit le nombre maximal de rapports de recherche. La valeur par défaut est`dix` . |
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Obtient ou définit le nombre de threads utilisés pour la recherche. La valeur par défaut estDefault , ce qui signifie que la recherche sera effectuée en utilisant le nombre de threads égal au nombre de cœurs de processeur. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Obtient ou définit les paramètres de stockage de texte. La valeur par défaut est`nul` , ce qui signifie que les textes des documents ne sont pas stockés. |
-| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Obtient ou définit une valeur indiquant s'il faut ou non utiliser des remplacements de caractères. La valeur par défaut est`faux` . |
+| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Obtient ou définit une valeur indiquant s'il faut ou non utiliser des remplacements de caractères. La valeur par défaut est`FAUX` . |
 | [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Obtient ou définit une valeur indiquant si le mode brut est utilisé pour l'extraction de texte si possible. La valeur par défaut est`vrai` . Le mode brut peut augmenter considérablement la vitesse d'indexation, mais le mode normal améliore la mise en forme du texte extrait. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Obtient ou définit une valeur indiquant s'il faut ou non utiliser des mots vides. La valeur par défaut est`vrai` . |
 

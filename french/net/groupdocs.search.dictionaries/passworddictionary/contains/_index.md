@@ -20,7 +20,7 @@ public bool Contains(string key)
 
 ### Return_Value
 
-`vrai` si le dictionnaire contient un mot de passe pour le document ; Par ailleurs,`faux` .
+`vrai` si le dictionnaire contient un mot de passe pour le document ; sinon,`FAUX` .
 
 ### Voir également
 

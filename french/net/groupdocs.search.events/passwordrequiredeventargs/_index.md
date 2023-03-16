@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente les arguments de lévénement qui se produit lors de lindexation dun document protégé par un mot de passe.
 type: docs
-weight: 570
+weight: 580
 url: /fr/net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class

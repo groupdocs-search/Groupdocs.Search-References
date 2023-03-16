@@ -20,7 +20,7 @@ public bool Notify(Notification notification)
 
 ### Return_Value
 
-Retours`vrai`si la notification a été effectuée avec succès ; Par ailleurs`faux` .
+Retours`vrai`si la notification a été effectuée avec succès ; sinon`FAUX` .
 
 ### Voir également
 

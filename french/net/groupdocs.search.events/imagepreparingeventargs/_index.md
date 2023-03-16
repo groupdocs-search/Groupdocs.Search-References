@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente les arguments pour lévénement dun début de préparation dimage.
 type: docs
-weight: 520
+weight: 530
 url: /fr/net/groupdocs.search.events/imagepreparingeventargs/
 ---
 ## ImagePreparingEventArgs class

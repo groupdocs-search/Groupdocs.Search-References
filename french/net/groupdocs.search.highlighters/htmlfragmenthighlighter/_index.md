@@ -3,7 +3,7 @@ title: HtmlFragmentHighlighter
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un surligneur de résultats de recherche qui met en évidence les résultats de recherche dans des fragments de texte au format HTML.
 type: docs
-weight: 630
+weight: 660
 url: /fr/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
@@ -11,20 +11,15 @@ url: /fr/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 Représente un surligneur de résultats de recherche qui met en évidence les résultats de recherche dans des fragments de texte au format HTML.
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## Constructeurs
+## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | Initialise une nouvelle instance du[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter) classe. |
-
-## Méthodes
-
-| Nom | La description |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | Obtient un tableau des conteneurs de fragments résultants. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Obtient le format de sortie. |
 
 ### Remarques
 

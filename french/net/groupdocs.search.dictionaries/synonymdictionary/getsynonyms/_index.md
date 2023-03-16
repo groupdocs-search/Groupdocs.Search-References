@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Return_Value
 
-Les synonymes du mot spécifié ou du tableau vide si le[`SynonymDictionary`](../../synonymdictionary)l'objet ne contient pas le mot spécifié.
+Les synonymes du mot spécifié ou du tableau vide si le[`SynonymDictionary`](../../synonymdictionary) l'objet ne contient pas le mot spécifié.
 
 ### Voir également
 

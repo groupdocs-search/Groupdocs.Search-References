@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant si la fonction de recherche floue est activée. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant si la fonction de recherche floue est activée. La valeur par défaut estFAUX .
 type: docs
 weight: 20
 url: /fr/net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-Obtient ou définit une valeur indiquant si la fonction de recherche floue est activée. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant si la fonction de recherche floue est activée. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool Enabled { get; set; }

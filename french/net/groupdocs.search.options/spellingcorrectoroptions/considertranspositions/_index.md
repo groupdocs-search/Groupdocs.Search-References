@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Valeur de la propriété
 
-`vrai` si l'algorithme du correcteur orthographique considère les transpositions ; sinon`faux`.
+`vrai` si l'algorithme du correcteur orthographique considère les transpositions ; sinon`FAUX`.
 
 ### Voir également
 

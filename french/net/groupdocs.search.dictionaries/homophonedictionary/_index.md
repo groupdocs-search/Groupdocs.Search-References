@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un dictionnaire dhomophones hétérographiques.
 type: docs
-weight: 430
+weight: 440
 url: /fr/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class

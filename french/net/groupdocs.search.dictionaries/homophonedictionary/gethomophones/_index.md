@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Return_Value
 
-Les homophones pour le mot spécifié ou le tableau vide si le[`HomophoneDictionary`](../../homophonedictionary)l'objet ne contient pas le mot spécifié.
+Les homophones pour le mot spécifié ou le tableau vide si le[`HomophoneDictionary`](../../homophonedictionary) l'objet ne contient pas le mot spécifié.
 
 ### Voir également
 

@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Valeur de la propriété
 
-`vrai` si l'algorithme de recherche floue considère les transpositions ; sinon`faux`.
+`vrai`si l'algorithme de recherche floue considère les transpositions ; sinon`FAUX`.
 
 ### Voir également
 

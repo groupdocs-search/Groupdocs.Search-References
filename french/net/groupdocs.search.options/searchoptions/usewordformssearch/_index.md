@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lindicateur dutilisation de différentes formes de mots dans la recherche. La valeur par défaut estfaux .
+description: Obtient ou définit lindicateur dutilisation de différentes formes de mots dans la recherche. La valeur par défaut estFAUX .
 type: docs
 weight: 140
 url: /fr/net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-Obtient ou définit l'indicateur d'utilisation de différentes formes de mots dans la recherche. La valeur par défaut est`faux` .
+Obtient ou définit l'indicateur d'utilisation de différentes formes de mots dans la recherche. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }

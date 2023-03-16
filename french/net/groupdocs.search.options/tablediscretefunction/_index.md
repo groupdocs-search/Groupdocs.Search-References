@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente lalgorithme de recherche floue qui contient les correspondances entre les longueurs de mot et le nombre derreurs autorisées. Cet algorithme peut être spécifié par un tableau de valeurs de sortie ou par une fonction détape.
 type: docs
-weight: 1050
+weight: 1090
 url: /fr/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

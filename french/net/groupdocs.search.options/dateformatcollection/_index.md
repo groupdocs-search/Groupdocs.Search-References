@@ -3,7 +3,7 @@ title: DateFormatCollection
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente une collection deDateFormat./dateformat objets.
 type: docs
-weight: 750
+weight: 780
 url: /fr/net/groupdocs.search.options/dateformatcollection/
 ---
 ## DateFormatCollection class

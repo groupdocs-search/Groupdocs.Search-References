@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un référentiel de tous les dictionnaires dans unIndex../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /fr/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

@@ -3,7 +3,7 @@ title: Metered
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des méthodes qui permettent dactiver le produit avec une licence mesurée et de récupérer la quantité de Mo traités. En savoir plus sur les licences mesuréesicihttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /fr/net/groupdocs.search/metered/
 ---
 ## Metered class

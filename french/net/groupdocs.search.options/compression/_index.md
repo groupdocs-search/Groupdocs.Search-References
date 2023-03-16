@@ -3,7 +3,7 @@ title: Compression
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Spécifie un niveau de compression.
 type: docs
-weight: 730
+weight: 760
 url: /fr/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration

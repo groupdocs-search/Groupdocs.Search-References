@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Spécifie une famille de formats qui réunit plusieurs formats similaires.
 type: docs
-weight: 1130
+weight: 1170
 url: /fr/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class
