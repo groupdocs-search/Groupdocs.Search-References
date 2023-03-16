@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<KeyValuePair<string, string>> pairs)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*pairs* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*pairs* يكون`باطل`. |
 
 ### أنظر أيضا
 
@@ -48,7 +48,7 @@ public void AddRange(IEnumerable<AliasReplacementPair> pairs)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*pairs* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*pairs* يكون`باطل`. |
 
 ### أنظر أيضا
 
@@ -75,7 +75,7 @@ public void AddRange(AliasReplacementPair[] pairs)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*pairs* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*pairs* يكون`باطل`. |
 
 ### أنظر أيضا
 

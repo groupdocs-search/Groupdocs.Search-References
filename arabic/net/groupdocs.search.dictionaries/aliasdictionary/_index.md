@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا للأسماء المستعارة .
 type: docs
-weight: 340
+weight: 350
 url: /ar/net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class
@@ -29,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | يضيف المجموعة المحددة من أزواج الاسم المستعار / الاستبدال إلى مثيل[`AliasDictionary`](../aliasdictionary) . |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | يضيف المجموعة المحددة من أزواج الاسم المستعار / الاستبدال إلى مثيل[`AliasDictionary`](../aliasdictionary) . |
 | [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | يزيل كافة الأسماء المستعارة من ملف[`AliasDictionary`](../aliasdictionary) الكائن . |
-| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | يحدد ما إذا كان ملف[`AliasDictionary`](../aliasdictionary)يحتوي الكائن على الاسم المستعار المحدد. |
+| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | يحدد ما إذا كان ملف[`AliasDictionary`](../aliasdictionary) يحتوي الكائن على الاسم المستعار المحدد. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | يصدر القاموس إلى ملف بالاسم المحدد. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | إرجاع عداد يتكرر خلال المجموعة. |
 | [GetText](../../groupdocs.search.dictionaries/aliasdictionary/gettext)(string) | يحصل على نص مرتبط بالاسم المستعار المحدد. |

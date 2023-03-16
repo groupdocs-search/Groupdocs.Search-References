@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<string[]> synonyms)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*synonyms* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*synonyms* يكون`باطل`. |
 | ArgumentException | يتم طرحها عندما يكون عدد المرادفات في مجموعة أقل من 2. |
 
 ### أنظر أيضا
@@ -49,7 +49,7 @@ public void AddRange(string[][] synonyms)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*synonyms* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*synonyms* يكون`باطل`. |
 | ArgumentException | يتم طرحها عندما يكون عدد المرادفات في مجموعة أقل من 2. |
 
 ### أنظر أيضا

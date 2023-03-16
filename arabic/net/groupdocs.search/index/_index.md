@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الرئيسية لفهرسة المستندات والبحث فيها.
 type: docs
-weight: 650
+weight: 680
 url: /ar/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) فئة في الذاكرة. |
 | [Index](index#constructor_1)(IndexSettings) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) فئة في الذاكرة مع إعدادات فهرس معينة. |
 | [Index](index#constructor_2)(string) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. إنشاء فهرس جديد أو فتح فهرس موجود على القرص. |
-| [Index](index#constructor_3)(string, bool) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* هو`خاطئة`؛ ينشئ فهرسًا جديدًا على القرص وإلا. |
+| [Index](index#constructor_3)(string, bool) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* يكون`خطأ شنيع`؛ ينشئ فهرسًا جديدًا على القرص وإلا. |
 | [Index](index#constructor_4)(string, IndexSettings) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. ينشئ فهرسًا جديدًا بإعدادات معينة أو يفتح فهرسًا موجودًا على القرص. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* هو`خاطئة` ؛ ينشئ فهرسًا جديدًا على القرص بإعدادات فهرس معينة. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | يقوم بتهيئة مثيل جديد لملف[`Index`](../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* يكون`خطأ شنيع` ؛ ينشئ فهرسًا جديدًا على القرص بإعدادات فهرس معينة. |
 
 ## الخصائص
 
@@ -62,8 +62,8 @@ public class Index : IDisposable
 | [Merge](../../groupdocs.search/index/merge#merge)(Index, MergeOptions) | يدمج الفهرس المحدد في الفهرس الحالي. لاحظ أن الفهرس الآخر لن يتغير . |
 | [Merge](../../groupdocs.search/index/merge#merge_1)(IndexRepository, MergeOptions) | يدمج الفهارس من مستودع الفهرس المحدد في الفهرس الحالي . لاحظ أن الفهارس في المستودع لن تتغير . |
 | [Notify](../../groupdocs.search/index/notify)(Notification) | تمرير كائن الإعلام المحدد إلى الفهرس لإجراء الإخطار. |
-| [Optimize](../../groupdocs.search/index/optimize#optimize)() | تقليل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث . |
-| [Optimize](../../groupdocs.search/index/optimize#optimize_1)(MergeOptions) | تقليل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث . |
+| [Optimize](../../groupdocs.search/index/optimize#optimize)() | تقلل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث . |
+| [Optimize](../../groupdocs.search/index/optimize#optimize_1)(MergeOptions) | تقلل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث . |
 | [Search](../../groupdocs.search/index/search#search_1)(SearchQuery) | عمليات البحث في الفهرس . |
 | [Search](../../groupdocs.search/index/search#search_3)(string) | عمليات البحث في الفهرس . |
 | [Search](../../groupdocs.search/index/search#search)(SearchImage, ImageSearchOptions) | يقوم بإجراء بحث عكسي عن الصور في الفهرس. |

@@ -23,7 +23,7 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*tableOfOutputs* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*tableOfOutputs* يكون`باطل`. |
 | ArgumentException | يتم طرحه عندما يكون عدد عناصر الجدول 0. |
 
 ### أنظر أيضا
@@ -51,7 +51,7 @@ public TableDiscreteFunction(int firstStepLevel, params Step[] steps)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*steps* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*steps* يكون`باطل`. |
 | ArgumentException | يتم إلقاؤها عندما لا تتزايد حدود الخطوات بشكل صارم. |
 
 ### أنظر أيضا

@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 980
+weight: 1020
 url: /ar/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class

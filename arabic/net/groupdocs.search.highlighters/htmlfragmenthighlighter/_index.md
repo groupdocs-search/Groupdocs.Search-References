@@ -3,7 +3,7 @@ title: HtmlFragmentHighlighter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في أجزاء نص بتنسيق HTML.
 type: docs
-weight: 630
+weight: 660
 url: /ar/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
@@ -11,20 +11,15 @@ url: /ar/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في أجزاء نص بتنسيق HTML.
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## المنشئون
+## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | يقوم بتهيئة مثيل جديد لملف[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter) فئة . |
-
-## طُرق
-
-| اسم | وصف |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | الحصول على صفيف من حاويات الأجزاء الناتجة. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ### ملاحظات
 

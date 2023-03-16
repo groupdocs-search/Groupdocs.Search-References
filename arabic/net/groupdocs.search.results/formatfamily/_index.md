@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد مجموعة تنسيق توحد العديد من التنسيقات المتشابهة.
 type: docs
-weight: 1130
+weight: 1170
 url: /ar/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class

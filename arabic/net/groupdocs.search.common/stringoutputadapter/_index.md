@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | اسم | وصف |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | يقوم بتهيئة مثيل جديد لملف[`StringOutputAdapter`](../stringoutputadapter) فئة . |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | يقوم بتهيئة مثيل جديد لملف[`StringOutputAdapter`](../stringoutputadapter) فئة . |
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ## طُرق
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // فهرسة المستندات من المجلد �
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // الحصول على معلومات عن المستندات المفهرسة
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // إنشاء محول إخراج سلسلة
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // إنشاء محول إخراج سلسلة
 index.GetDocumentText(documents[0], adapter); // توليد نص مستند في المحول
 String result = adapter.GetResult(); // الحصول على نتيجة
 ```

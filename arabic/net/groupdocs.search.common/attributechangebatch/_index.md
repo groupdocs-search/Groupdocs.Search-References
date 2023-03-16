@@ -39,7 +39,7 @@ public class AttributeChangeBatch
 **يتعلم أكثر**
 
 * [سمات المستند](https://docs.groupdocs.com/display/searchnet/Document+attributes)
-* [تصفية الوثيقة في نتيجة البحث](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
+* [تصفية الوثيقة في نتائج البحث](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
 
 ### أنظر أيضا
 

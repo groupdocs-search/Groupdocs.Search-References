@@ -3,7 +3,7 @@ title: IndexType
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد نوع الفهرس .
 type: docs
-weight: 890
+weight: 920
 url: /ar/net/groupdocs.search.options/indextype/
 ---
 ## IndexType enumeration

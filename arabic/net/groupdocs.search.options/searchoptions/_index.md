@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لعملية البحث .
 type: docs
-weight: 1000
+weight: 1040
 url: /ar/net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class
@@ -24,19 +24,19 @@ public class SearchOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Cancellation](../../groupdocs.search.options/searchoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`لا شيء` . |
+| [Cancellation](../../groupdocs.search.options/searchoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`باطل` . |
 | [DateFormats](../../groupdocs.search.options/searchoptions/dateformats) { get; } | الحصول على مجموعة تنسيقات التاريخ للبحث في نطاق التاريخ. تنسيقات التاريخ الافتراضية هي "dd.MM.yyyy" و "MM / dd / yyyy" و "yyyy-MM-dd" . |
 | [FuzzySearch](../../groupdocs.search.options/searchoptions/fuzzysearch) { get; } | يحصل على خيارات البحث المبهمة . |
-| [IsChunkSearch](../../groupdocs.search.options/searchoptions/ischunksearch) { get; set; } | الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هي`خاطئة` . |
+| [IsChunkSearch](../../groupdocs.search.options/searchoptions/ischunksearch) { get; set; } | الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هي`خطأ شنيع` . |
 | [KeyboardLayoutCorrector](../../groupdocs.search.options/searchoptions/keyboardlayoutcorrector) { get; } | يحصل على خيارات مصحح تخطيط لوحة المفاتيح. |
 | [MaxOccurrenceCountPerTerm](../../groupdocs.search.options/searchoptions/maxoccurrencecountperterm) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد مرات ظهور كل مصطلح في استعلام البحث. القيمة الافتراضية هي`100000` . |
 | [MaxTotalOccurrenceCount](../../groupdocs.search.options/searchoptions/maxtotaloccurrencecount) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد التكرارات لجميع المصطلحات في استعلام البحث. القيمة الافتراضية هي`500000` . |
-| [SearchDocumentFilter](../../groupdocs.search.options/searchoptions/searchdocumentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية مستند البحث.[`SearchDocumentFilter`](./searchdocumentfilter) يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها. |
+| [SearchDocumentFilter](../../groupdocs.search.options/searchoptions/searchdocumentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية مستند البحث.[`SearchDocumentFilter`](./searchdocumentfilter) يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`باطل` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها. |
 | [SpellingCorrector](../../groupdocs.search.options/searchoptions/spellingcorrector) { get; } | يحصل على خيارات مصحح الإملاء. |
-| [UseCaseSensitiveSearch](../../groupdocs.search.options/searchoptions/usecasesensitivesearch) { get; set; } | الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هي`خاطئة` . |
-| [UseHomophoneSearch](../../groupdocs.search.options/searchoptions/usehomophonesearch) { get; set; } | الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هي`خاطئة` . |
-| [UseSynonymSearch](../../groupdocs.search.options/searchoptions/usesynonymsearch) { get; set; } | الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هي`خاطئة` . |
-| [UseWordFormsSearch](../../groupdocs.search.options/searchoptions/usewordformssearch) { get; set; } | الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هي`خاطئة` . |
+| [UseCaseSensitiveSearch](../../groupdocs.search.options/searchoptions/usecasesensitivesearch) { get; set; } | الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هي`خطأ شنيع` . |
+| [UseHomophoneSearch](../../groupdocs.search.options/searchoptions/usehomophonesearch) { get; set; } | الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هي`خطأ شنيع` . |
+| [UseSynonymSearch](../../groupdocs.search.options/searchoptions/usesynonymsearch) { get; set; } | الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هي`خطأ شنيع` . |
+| [UseWordFormsSearch](../../groupdocs.search.options/searchoptions/usewordformssearch) { get; set; } | الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هي`خطأ شنيع` . |
 
 ### ملاحظات
 

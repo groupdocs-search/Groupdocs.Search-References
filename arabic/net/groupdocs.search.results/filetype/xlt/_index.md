@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet والذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format هناhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
+description: الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet الذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format هناhttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
 type: docs
 weight: 780
 url: /ar/net/groupdocs.search.results/filetype/xlt/
 ---
 ## FileType.XLT field
 
-الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet والذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
+الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet الذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
 
 ```csharp
 public static readonly FileType XLT;

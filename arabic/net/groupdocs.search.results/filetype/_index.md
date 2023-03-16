@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نوع الملف.
 type: docs
-weight: 1120
+weight: 1160
 url: /ar/net/groupdocs.search.results/filetype/
 ---
 ## FileType class
@@ -110,7 +110,7 @@ public class FileType
 | static readonly [XLSB](../../groupdocs.search.results/filetype/xlsb) | يحدد تنسيق ملف XLSB تنسيق ملف Excel الثنائي ، وهو عبارة عن مجموعة من السجلات والبنى التي تحدد محتوى مصنف Excel. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) . |
 | static readonly [XLSM](../../groupdocs.search.results/filetype/xlsm) | الملفات ذات الامتداد XLSM هي نوع من ملفات Spreasheet التي تدعم وحدات الماكرو. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) . |
 | static readonly [XLSX](../../groupdocs.search.results/filetype/xlsx) | XLSX هو تنسيق معروف لمستندات Microsoft Excel تم تقديمه بواسطة Microsoft مع الإصدار من Microsoft Office 2007. تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
-| static readonly [XLT](../../groupdocs.search.results/filetype/xlt) | الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet والذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlt/) . |
+| static readonly [XLT](../../groupdocs.search.results/filetype/xlt) | الملفات ذات الامتداد .XLT هي ملفات قوالب تم إنشاؤها باستخدام Microsoft Excel وهو تطبيق spreadsheet الذي يأتي كجزء من مجموعة Microsoft Office. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xlt/) . |
 | static readonly [XLTM](../../groupdocs.search.results/filetype/xltm) | يمثل امتداد الملف XLTM الملفات التي تم إنشاؤها بواسطة Microsoft Excel كملفات قالب تم تمكينها بماكرو . تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xltm/) . |
 | static readonly [XLTX](../../groupdocs.search.results/filetype/xltx) | تمثل الملفات ذات الملحق XLTX ملفات قالب Microsoft Excel التي تستند إلى مواصفات تنسيق ملف Office OpenXML . تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/specification/spreadsheet/xltx/) . |
 | static readonly [XML](../../groupdocs.search.results/filetype/xml) | XML تعني لغة الترميز الموسعة التي تشبه HTML ولكنها تختلف في استخدام العلامات لتحديد الكائنات . تعرف على المزيد حول تنسيق الملف هذا [هنا](https://wiki.fileformat.com/web/xml/) . |

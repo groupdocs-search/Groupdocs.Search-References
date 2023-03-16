@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل مزود نماذج الكلمات الإنجليزية.
 type: docs
-weight: 420
+weight: 430
 url: /ar/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class

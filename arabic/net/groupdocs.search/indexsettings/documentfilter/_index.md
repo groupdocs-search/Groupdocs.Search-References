@@ -1,14 +1,14 @@
 ---
 title: DocumentFilter
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين عامل تصفية المستندDocumentFiltergroupdocs.search/indexsettings/documentfilter يعمل على منطق التضمين. استخدم ملفDocumentFiltergroupdocs.search.options/documentfilter فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هيلا شيء  مما يعني أنه تتم فهرسة جميع المستندات المضافة.
+description: الحصول على أو تعيين عامل تصفية المستندDocumentFiltergroupdocs.search/indexsettings/documentfilter يعمل على منطق التضمين. استخدم ملفDocumentFiltergroupdocs.search.options/documentfilter فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هيباطل  مما يعني أنه تتم فهرسة جميع المستندات المضافة.
 type: docs
 weight: 40
 url: /ar/net/groupdocs.search/indexsettings/documentfilter/
 ---
 ## IndexSettings.DocumentFilter property
 
-الحصول على أو تعيين عامل تصفية المستند`DocumentFilter` يعمل على منطق التضمين. استخدم ملف[`DocumentFilter`](../../../groupdocs.search.options/documentfilter) فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه تتم فهرسة جميع المستندات المضافة.
+الحصول على أو تعيين عامل تصفية المستند`DocumentFilter` يعمل على منطق التضمين. استخدم ملف[`DocumentFilter`](../../../groupdocs.search.options/documentfilter) فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هي`باطل` ، مما يعني أنه تتم فهرسة جميع المستندات المضافة.
 
 ```csharp
 public DocumentFilter DocumentFilter { get; set; }

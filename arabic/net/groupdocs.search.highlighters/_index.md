@@ -12,6 +12,8 @@ url: /ar/net/groupdocs.search.highlighters/
 
 | فصل | وصف |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في نص مستند بأكمله. |
+| [FragmentHighlighter](./fragmenthighlighter) | يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في أجزاء النص. |
 | [Highlighter](./highlighter) | يمثل الفئة الأساسية لأداة تمييز نتيجة البحث. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في أجزاء نص بتنسيق HTML. |
 | [HtmlHighlighter](./htmlhighlighter) | يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في نص مستند كامل منسق بتنسيق HTML. |

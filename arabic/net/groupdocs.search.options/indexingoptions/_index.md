@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لعملية الفهرسة .
 type: docs
-weight: 900
+weight: 930
 url: /ar/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
@@ -24,9 +24,9 @@ public class IndexingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`لا شيء` . |
+| [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`باطل` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/indexingoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
-| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خاطئة` . |
+| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خطأ شنيع` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | يحصل على خيارات معالجة OCR وفهرسة النص الذي تم التعرف عليه. |
 | [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | الحصول على أو تحديد عدد الخيوط المستخدمة للفهرسة . القيمة الافتراضية هي`1` . |

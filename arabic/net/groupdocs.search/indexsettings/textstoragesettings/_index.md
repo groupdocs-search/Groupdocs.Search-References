@@ -1,14 +1,14 @@
 ---
 title: TextStorageSettings
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هيلا شيء  مما يعني أنه لا يتم تخزين نصوص المستند.
+description: الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هيباطل  مما يعني أنه لا يتم تخزين نصوص المستند.
 type: docs
 weight: 110
 url: /ar/net/groupdocs.search/indexsettings/textstoragesettings/
 ---
 ## IndexSettings.TextStorageSettings property
 
-الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه لا يتم تخزين نصوص المستند.
+الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هي`باطل` ، مما يعني أنه لا يتم تخزين نصوص المستند.
 
 ```csharp
 public TextStorageSettings TextStorageSettings { get; set; }

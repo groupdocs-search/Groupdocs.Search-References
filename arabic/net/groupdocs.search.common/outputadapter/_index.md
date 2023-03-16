@@ -1,18 +1,24 @@
 ---
 title: OutputAdapter
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هيFileOutputAdapter./fileoutputadapter وStreamOutputAdapter./streamoutputadapter  وStringOutputAdapter./stringoutputadapter .
+description: يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هيFileOutputAdapter./fileoutputadapter  StreamOutputAdapter./streamoutputadapter  StructureOutputAdapter./structureoutputadapter و وStringOutputAdapter./stringoutputadapter .
 type: docs
 weight: 260
 url: /ar/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هي[`FileOutputAdapter`](../fileoutputadapter) و[`StreamOutputAdapter`](../streamoutputadapter) ، و[`StringOutputAdapter`](../stringoutputadapter) .
+يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هي[`FileOutputAdapter`](../fileoutputadapter) ، [`StreamOutputAdapter`](../streamoutputadapter) ، [`StructureOutputAdapter`](../structureoutputadapter) و و[`StringOutputAdapter`](../stringoutputadapter) .
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ### ملاحظات
 

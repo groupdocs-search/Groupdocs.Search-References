@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا لكلمات التوقف.
 type: docs
-weight: 470
+weight: 480
 url: /ar/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class

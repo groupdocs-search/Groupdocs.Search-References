@@ -3,7 +3,7 @@ title: CharacterType
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نوعًا من الحرف  اعتمادًا على كيفية فهرسته.
 type: docs
-weight: 390
+weight: 400
 url: /ar/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration

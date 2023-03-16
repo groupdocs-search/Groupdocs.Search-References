@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموس المرادفات.
 type: docs
-weight: 480
+weight: 490
 url: /ar/net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class

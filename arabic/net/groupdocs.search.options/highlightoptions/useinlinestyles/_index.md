@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الأنماط المضمنة تستخدم لتمييز التكرارات . القيمة الافتراضية هيحقيقي .
 type: docs
-weight: 60
+weight: 80
 url: /ar/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

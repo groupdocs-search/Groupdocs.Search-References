@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: الحصول على أو تعيين الحد الأقصى لعدد الكلمات في جزء نصي بعد الكلمة المميزة. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي7 .
 type: docs
-weight: 30
+weight: 50
 url: /ar/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

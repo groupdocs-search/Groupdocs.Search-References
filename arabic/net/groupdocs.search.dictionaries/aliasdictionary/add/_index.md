@@ -23,7 +23,7 @@ public void Add(string alias, string text)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*alias* أو*text* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*alias* أو*text* يكون`باطل`. |
 | ArgumentException | يحتوي الاسم المستعار على حرف ليس من النطاقات ab و0-9. |
 
 ### أنظر أيضا

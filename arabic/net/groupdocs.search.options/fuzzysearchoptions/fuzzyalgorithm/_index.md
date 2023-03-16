@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين خوارزمية البحث الغامض. خوارزميات البحث الضبابي المتوفرة حاليًا هيSimilarityLevelgroupdocs.search.options/similaritylevel وTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . القيمة الافتراضية هي مثيل لـSimilarityLevelgroupdocs.search.options/similaritylevel بقيمة على مستوى التشابه تبلغ0.5 .
+description: الحصول على أو تعيين خوارزمية البحث الغامض. خوارزميات البحث الضبابي المتوفرة حاليًا هيSimilarityLevelgroupdocs.search.options/similaritylevel وTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. القيمة الافتراضية هي مثيل لـSimilarityLevelgroupdocs.search.options/similaritylevel بقيمة على مستوى التشابه تبلغ0.5 .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-الحصول على أو تعيين خوارزمية البحث الغامض. خوارزميات البحث الضبابي المتوفرة حاليًا هي[`SimilarityLevel`](../../similaritylevel) و[`TableDiscreteFunction`](../../tablediscretefunction) . القيمة الافتراضية هي مثيل لـ[`SimilarityLevel`](../../similaritylevel) بقيمة على مستوى التشابه تبلغ`0.5` .
+الحصول على أو تعيين خوارزمية البحث الغامض. خوارزميات البحث الضبابي المتوفرة حاليًا هي[`SimilarityLevel`](../../similaritylevel) و[`TableDiscreteFunction`](../../tablediscretefunction). القيمة الافتراضية هي مثيل لـ[`SimilarityLevel`](../../similaritylevel) بقيمة على مستوى التشابه تبلغ`0.5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
@@ -22,7 +22,7 @@ public FuzzyAlgorithm FuzzyAlgorithm { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*value* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*value* يكون`باطل`. |
 
 ### أمثلة
 

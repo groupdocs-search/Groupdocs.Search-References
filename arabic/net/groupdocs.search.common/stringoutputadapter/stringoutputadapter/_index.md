@@ -11,11 +11,16 @@ url: /ar/net/groupdocs.search.common/stringoutputadapter/stringoutputadapter/
 يقوم بتهيئة مثيل جديد لملف[`StringOutputAdapter`](../../stringoutputadapter) فئة .
 
 ```csharp
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| outputFormat | OutputFormat | تنسيق الإخراج. |
 
 ### أنظر أيضا
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StringOutputAdapter](../../stringoutputadapter)
 * مساحة الاسم [GroupDocs.Search.Common](../../stringoutputadapter)
 * المجسم [GroupDocs.Search](../../../)

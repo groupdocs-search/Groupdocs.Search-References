@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الوسيطات لحدث حدث خطأ الفهرس.
 type: docs
-weight: 530
+weight: 540
 url: /ar/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class

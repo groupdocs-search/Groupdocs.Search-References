@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نتيجة عملية حذف الملفات أو المجلدات المفهرسة من فهرس.
 type: docs
-weight: 1100
+weight: 1140
 url: /ar/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class

@@ -1,14 +1,14 @@
 ---
 title: IsAsync
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.search.options/mergeoptions/isasync/
 ---
 ## MergeOptions.IsAsync property
 
-الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IsAsync { get; set; }

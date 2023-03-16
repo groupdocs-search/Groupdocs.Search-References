@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد الطرق المطلوبة للتعرف على النص الموجود في مستندات الصور والصور المضمنة.
 type: docs
-weight: 840
+weight: 870
 url: /ar/net/groupdocs.search.options/iocrconnector/
 ---
 ## IOcrConnector interface

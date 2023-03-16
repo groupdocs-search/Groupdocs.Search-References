@@ -3,7 +3,7 @@ title: Compression
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد مستوى الضغط .
 type: docs
-weight: 730
+weight: 760
 url: /ar/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration

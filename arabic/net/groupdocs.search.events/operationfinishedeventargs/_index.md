@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: تم الانتهاء من تمثيل الوسائط لحدث عملية الفهرسة.
 type: docs
-weight: 540
+weight: 550
 url: /ar/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class

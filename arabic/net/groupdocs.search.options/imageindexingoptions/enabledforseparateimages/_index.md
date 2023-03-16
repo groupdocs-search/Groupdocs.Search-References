@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.search.options/imageindexingoptions/enabledforseparateimages/
 ---
 ## ImageIndexingOptions.EnabledForSeparateImages property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

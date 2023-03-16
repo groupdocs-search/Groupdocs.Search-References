@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لمعالجة OCR وفهرسة النص الذي تم التعرف عليه.
 type: docs
-weight: 970
+weight: 1000
 url: /ar/net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
@@ -18,10 +18,10 @@ public class OcrIndexingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في الصور التي هي عناصر في حاوية (على سبيل المثال ، الصور في أرشيف ZIP) . القيمة الافتراضية هي`خاطئة` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في الصور المضمنة (على سبيل المثال ، الصور في مستند DOCX) . القيمة الافتراضية هي`خاطئة` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في ملفات صور منفصلة. القيمة الافتراضية هي`خاطئة` . |
-| [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هي`لا شيء` ، مما يعني عدم استخدام OCR. |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في الصور التي هي عناصر في حاوية (على سبيل المثال ، الصور في أرشيف ZIP) . القيمة الافتراضية هي`خطأ شنيع` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في الصور المضمنة (على سبيل المثال ، الصور في مستند DOCX) . القيمة الافتراضية هي`خطأ شنيع` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم التعرف على النص في ملفات صور منفصلة. القيمة الافتراضية هي`خطأ شنيع` . |
+| [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هي`باطل` ، مما يعني عدم استخدام OCR. |
 
 ### أنظر أيضا
 

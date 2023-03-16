@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لإبراز المصطلحات التي تم العثور عليها .
 type: docs
-weight: 830
+weight: 860
 url: /ar/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,14 +24,16 @@ public class HighlightOptions : TextOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | الحصول على أو تعيين حقول المستند الإضافية التي تم استخدامها للفهرسة . القيمة الافتراضية هي`لا شيء` . لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
-| [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`لا شيء` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص الذي تم استخدامه للفهرسة . القيمة الافتراضية هي`لا شيء` . لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | الحصول على أو تعيين حقول المستند الإضافية التي تم استخدامها للفهرسة . القيمة الافتراضية هي`باطل`. لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
+| [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`باطل` . |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص الذي تم استخدامه للفهرسة . القيمة الافتراضية هي`باطل`. لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يتم إنشاء علامة الرأس في HTML الناتج. القيمة الافتراضية هي`حقيقي` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | الحصول على اللون المستخدم لتمييز التكرارات أو تعيينه . القيمة الافتراضية هي # FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | يحصل على خيارات معالجة OCR وفهرسة النص الذي تم التعرف عليه. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | الحصول على مجموعات علامة النهاية لتمييز الكلمة التي تم العثور عليها. يتم استخدام هذه العلامة فقط عند التمييز في نص عادي. القيمة الافتراضية هي سلسلة فارغة . |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | الحصول على مجموعات علامة البداية لتمييز الكلمة التي تم العثور عليها. يتم استخدام هذه العلامة فقط عند التمييز في نص عادي. القيمة الافتراضية هي سلسلة فارغة . |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الكلمات في جزء نصي بعد الكلمة المميزة. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الكلمات في جزء النص قبل الكلمة المميزة. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الكلمات في جزء النص. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي`21` . |

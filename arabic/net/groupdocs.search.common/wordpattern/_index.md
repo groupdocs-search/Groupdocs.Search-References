@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نمط كلمة لاستخدامه في البحث عن أحرف البدل .
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

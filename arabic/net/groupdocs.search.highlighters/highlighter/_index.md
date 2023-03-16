@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الأساسية لأداة تمييز نتيجة البحث.
 type: docs
-weight: 620
+weight: 650
 url: /ar/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
@@ -13,6 +13,12 @@ url: /ar/net/groupdocs.search.highlighters/highlighter/
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هيلا شيء .
+description: الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هيباطل .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.search.options/extractionoptions/customextractor/
 ---
 ## ExtractionOptions.CustomExtractor property
 
-الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هي`لا شيء` .
+الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هي`باطل` .
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

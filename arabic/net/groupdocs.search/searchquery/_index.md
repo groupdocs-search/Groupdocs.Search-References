@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل استعلام بحث في شكل كائن.
 type: docs
-weight: 1200
+weight: 1240
 url: /ar/net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class
@@ -69,7 +69,7 @@ SearchQuery subquery1 = SearchQuery.CreateDateRangeQuery(new DateTime(2011, 6, 1
 // إنشاء استعلام فرعي لحرف البدل بعدد الكلمات المفقودة من 0 إلى 2
 SearchQuery subquery2 = SearchQuery.CreateWildcardQuery(0, 2);
 
-// إنشاء استعلام فرعي لكلمة بسيطة
+// إنشاء استعلام فرعي من كلمة بسيطة
 SearchQuery subquery3 = SearchQuery.CreateWordQuery("birth");
 subquery3.SearchOptions = new SearchOptions(); // تعيين خيارات البحث للاستعلام الفرعي فقط 3
 subquery3.SearchOptions.FuzzySearch.Enabled = true;

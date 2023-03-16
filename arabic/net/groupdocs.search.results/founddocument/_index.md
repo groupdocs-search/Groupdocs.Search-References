@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل مستندًا موجودًا.
 type: docs
-weight: 1140
+weight: 1180
 url: /ar/net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class

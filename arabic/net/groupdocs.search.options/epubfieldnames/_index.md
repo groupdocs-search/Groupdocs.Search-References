@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 780
+weight: 810
 url: /ar/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class

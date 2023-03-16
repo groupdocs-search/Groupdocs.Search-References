@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نتيجة عملية تحديث إصدار الفهرس.
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/groupdocs.search.common/versionupdateresult/
 ---
 ## VersionUpdateResult enumeration

@@ -3,7 +3,7 @@ title: SearchResult
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نتيجة بحث مطابقة لاستعلام بحث.
 type: docs
-weight: 1190
+weight: 1230
 url: /ar/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class

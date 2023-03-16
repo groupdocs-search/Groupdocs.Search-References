@@ -30,12 +30,13 @@ url: /ar/net/groupdocs.search.common/
 | [IndexInfo](./indexinfo) | يحتوي على معلومات أساسية عن ملف[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | يمثل معلومات مفصلة عن عملية الفهرسة. |
 | [Notification](./notification) | الفئة الأساسية لكافة الإشعارات للفهرس . تحتوي هذه الفئة أيضًا على طرق لإنشاء كائنات الإعلام. |
-| [OutputAdapter](./outputadapter) | يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هي[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) و[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) ، و[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | يمثل الفئة الأساسية لمحول الإخراج الذي يتم استخدامه لتجميع الإخراج في شكل معمم. المحولات المتوفرة حاليًا هي[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ، [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) ، [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) و و[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | يمثل الفئة الأساسية لمصنع منشئ النتائج. |
 | [SearchImage](./searchimage) | يمثل صورة للبحث . |
 | [SearchReport](./searchreport) | يمثل معلومات مفصلة عن عملية البحث. |
 | [StreamOutputAdapter](./streamoutputadapter) | يمثل محول إخراج يقوم بتجميع المخرجات في ملفStream . |
 | [StringOutputAdapter](./stringoutputadapter) | يمثل محول إخراج يقوم بتجميع المخرجات كملفString . |
+| [StructureOutputAdapter](./structureoutputadapter) | يمثل محول الإخراج الذي يجمع المخرجات كبنية تحتوي على كل حقل على حدة. |
 | [WordPattern](./wordpattern) | يمثل نمط كلمة لاستخدامه في البحث عن أحرف البدل . |
 ## واجهات
 

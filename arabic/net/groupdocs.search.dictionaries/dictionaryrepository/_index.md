@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل مستودعًا لجميع القواميس في ملفIndex../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /ar/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

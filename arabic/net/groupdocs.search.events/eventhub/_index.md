@@ -3,7 +3,7 @@ title: EventHub
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: توفير أحداث الفهرس للاشتراك .
 type: docs
-weight: 500
+weight: 510
 url: /ar/net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class

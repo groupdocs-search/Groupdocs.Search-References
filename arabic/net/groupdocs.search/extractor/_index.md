@@ -3,7 +3,7 @@ title: Extractor
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل أداة لاستخراج البيانات الأولية من المستندات لفصل مرحلة الفهرسة السريعة اللاحقة.
 type: docs
-weight: 610
+weight: 620
 url: /ar/net/groupdocs.search/extractor/
 ---
 ## Extractor class

@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في نص مستند كامل منسق بتنسيق HTML.
 type: docs
-weight: 640
+weight: 670
 url: /ar/net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
@@ -11,20 +11,15 @@ url: /ar/net/groupdocs.search.highlighters/htmlhighlighter/
 يمثل أداة تمييز نتائج البحث التي تبرز نتائج البحث في نص مستند كامل منسق بتنسيق HTML.
 
 ```csharp
+[Obsolete("Please, use the DocumentHighlighter class instead.")]
 public class HtmlHighlighter : Highlighter
 ```
-
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [HtmlHighlighter](htmlhighlighter)(OutputAdapter) | يقوم بتهيئة مثيل جديد لملف[`HtmlHighlighter`](../htmlhighlighter) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [OutputAdapter](../../groupdocs.search.highlighters/htmlhighlighter/outputadapter) { get; } | الحصول على محول الإخراج الذي تم تمريره في المنشئ. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ### ملاحظات
 
@@ -51,7 +46,7 @@ SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // إبراز الكلمات الموجودة في نص المستند
 FoundDocument document = result.GetFoundDocument(0);
-OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
+OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
 Highlighter highlighter = new HtmlHighlighter(outputAdapter);
 index.Highlight(document, highlighter);
 ```

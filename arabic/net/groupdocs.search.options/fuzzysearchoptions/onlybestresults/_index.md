@@ -1,14 +1,14 @@
 ---
 title: OnlyBestResults
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 40
 url: /ar/net/groupdocs.search.options/fuzzysearchoptions/onlybestresults/
 ---
 ## FuzzySearchOptions.OnlyBestResults property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool OnlyBestResults { get; set; }
@@ -16,7 +16,7 @@ public bool OnlyBestResults { get; set; }
 
 ### Property_Value
 
-`حقيقي` إذا تم إرجاع أفضل النتائج فقط ؛ وإلا`خاطئة`.
+`حقيقي` إذا تم إرجاع أفضل النتائج فقط ؛ وإلا`خطأ شنيع`.
 
 ### أنظر أيضا
 

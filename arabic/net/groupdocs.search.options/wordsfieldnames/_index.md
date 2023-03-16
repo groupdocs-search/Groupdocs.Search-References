@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 1090
+weight: 1130
 url: /ar/net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class

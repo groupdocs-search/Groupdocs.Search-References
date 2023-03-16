@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: يحدد ما إذا كان ملفAliasDictionarygroupdocs.search.dictionaries/aliasdictionaryيحتوي الكائن على الاسم المستعار المحدد.
+description: يحدد ما إذا كان ملفAliasDictionarygroupdocs.search.dictionaries/aliasdictionary يحتوي الكائن على الاسم المستعار المحدد.
 type: docs
 weight: 50
 url: /ar/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-يحدد ما إذا كان ملف[`AliasDictionary`](../../aliasdictionary)يحتوي الكائن على الاسم المستعار المحدد.
+يحدد ما إذا كان ملف[`AliasDictionary`](../../aliasdictionary) يحتوي الكائن على الاسم المستعار المحدد.
 
 ```csharp
 public bool Contains(string alias)
@@ -20,13 +20,13 @@ public bool Contains(string alias)
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان[`AliasDictionary`](../../aliasdictionary) يحتوي الكائن على الاسم المستعار المحدد ؛ خلاف ذلك،`خاطئة` .
+`حقيقي` إذا كان[`AliasDictionary`](../../aliasdictionary) يحتوي الكائن على الاسم المستعار المحدد ؛ خلاف ذلك،`خطأ شنيع` .
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*alias* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*alias* يكون`باطل`. |
 
 ### أنظر أيضا
 

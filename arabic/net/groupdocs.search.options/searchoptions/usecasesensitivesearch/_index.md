@@ -1,14 +1,14 @@
 ---
 title: UseCaseSensitiveSearch
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هيخاطئة .
+description: الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 110
 url: /ar/net/groupdocs.search.options/searchoptions/usecasesensitivesearch/
 ---
 ## SearchOptions.UseCaseSensitiveSearch property
 
-الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هي`خاطئة` .
+الحصول على علامة البحث الحساسة لحالة الأحرف أو تعيينها . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseCaseSensitiveSearch { get; set; }

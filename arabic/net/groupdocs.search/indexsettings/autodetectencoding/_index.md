@@ -1,14 +1,14 @@
 ---
 title: AutoDetectEncoding
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.search/indexsettings/autodetectencoding/
 ---
 ## IndexSettings.AutoDetectEncoding property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool AutoDetectEncoding { get; set; }

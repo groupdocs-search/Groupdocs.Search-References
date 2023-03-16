@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل وسيطات لحدث بدء التحضير للصورة .
 type: docs
-weight: 520
+weight: 530
 url: /ar/net/groupdocs.search.events/imagepreparingeventargs/
 ---
 ## ImagePreparingEventArgs class

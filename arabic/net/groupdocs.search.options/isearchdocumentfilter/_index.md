@@ -3,7 +3,7 @@ title: ISearchDocumentFilter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل عامل تصفية مستند البحث. استخدمSearchDocumentFilter./searchdocumentfilter فئة لإنشاء حالات عامل التصفية.
 type: docs
-weight: 850
+weight: 880
 url: /ar/net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface

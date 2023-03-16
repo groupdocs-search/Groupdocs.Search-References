@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 800
+weight: 830
 url: /ar/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class
