@@ -1,0 +1,58 @@
+---
+title: GroupDocs.Search.Common
+second_title: GroupDocs.NET API संदर्भ के लिए खोजें
+description: नमस्थन पुस्तकलय क समन्य कक्षएं प्रदन करत है
+type: docs
+weight: 20
+url: /hi/net/groupdocs.search.common/
+---
+नामस्थान पुस्तकालय की सामान्य कक्षाएं प्रदान करता है।
+
+## कक्षाओं
+
+| कक्षा | विवरण |
+| --- | --- |
+| [AttributeChangeBatch](./attributechangebatch) | विशेषता परिवर्तनों के लिए एक कंटेनर का प्रतिनिधित्व करता है। |
+| [Cancellation](./cancellation) | किसी ऑपरेशन को रद्द करने का अनुरोध करने के लिए एक वस्तु का प्रतिनिधित्व करता है। |
+| [ChunkSearchToken](./chunksearchtoken) | चंक खोज (पृष्ठों द्वारा खोज) की निरंतरता के लिए एक टोकन का प्रतिनिधित्व करता है। |
+| [CustomExtractorCollection](./customextractorcollection) | कस्टम एक्सट्रैक्टर्स का एक संग्रह शामिल है। यदि संग्रह में कुछ फ़ाइल एक्सटेंशन के लिए एक एक्सट्रैक्टर है जो बिल्ड-इन एक्सट्रैक्टर्स द्वारा कवर किया गया है, तो इस एक्सट्रैक्टर का उपयोग बिल्ट-इन के बजाय किया जाएगा। |
+| [Document](./document) | फ़ाइल सिस्टम, स्ट्रीम, या संरचना से एक इंडेक्स में जोड़े गए दस्तावेज़ों के लिए आधार वर्ग का प्रतिनिधित्व करता है। विभिन्न प्रकार के स्रोतों से दस्तावेज़ बनाने के लिए स्थिर तरीके शामिल हैं। |
+| [DocumentField](./documentfield) | दस्तावेज़ फ़ील्ड डेटा का प्रतिनिधित्व करता है। |
+| [DocumentImage](./documentimage) | एक दस्तावेज़ छवि डेटा का प्रतिनिधित्व करता है। |
+| [Encodings](./encodings) | में संभावित एनकोडिंग के नाम शामिल हैं। |
+| [ExtractedData](./extracteddata) | एक दस्तावेज़ से प्राप्त डेटा का प्रतिनिधित्व करता है और अनुक्रमण के लिए तैयार किया गया है। |
+| [ExtractedItemInfo](./extractediteminfo) | एक कंटेनर आइटम जानकारी का प्रतिनिधित्व करता है। |
+| [ExtractorSettings](./extractorsettings) | में दस्तावेज़ डेटा एक्सट्रैक्टर के लिए सेटिंग शामिल हैं. |
+| [FileLogger](./filelogger) | एक लकड़हारे का प्रतिनिधित्व करता है जो घटनाओं और त्रुटियों को एक स्थानीय फ़ाइल में लॉग करता है। |
+| [FileOutputAdapter](./fileoutputadapter) | एक आउटपुट एडॉप्टर का प्रतिनिधित्व करता है जो आउटपुट को फ़ाइल में एकत्रित करता है। |
+| [FragmentContainer](./fragmentcontainer) | एक दस्तावेज़ फ़ील्ड के हाइलाइट किए गए शब्दों के साथ टेक्स्ट अंशों के लिए एक कंटेनर का प्रतिनिधित्व करता है। |
+| [ImageFrame](./imageframe) | एक छवि फ्रेम का प्रतिनिधित्व करता है। |
+| [IndexInfo](./indexinfo) | में मूलभूत जानकारी शामिल है[`Index`](../groupdocs.search/index) . |
+| [IndexingReport](./indexingreport) | इंडेक्सिंग ऑपरेशन पर एक विस्तृत जानकारी का प्रतिनिधित्व करता है। |
+| [Notification](./notification) | सूचकांक के लिए सभी अधिसूचनाओं के लिए आधार वर्ग। इस वर्ग में अधिसूचना वस्तुओं को बनाने के तरीके भी शामिल हैं। |
+| [OutputAdapter](./outputadapter) | आउटपुट एडॉप्टर के बेस क्लास का प्रतिनिधित्व करता है जिसका उपयोग सामान्यीकृत रूप में आउटपुट एकत्र करने के लिए किया जाता है। वर्तमान में उपलब्ध एडेप्टर हैं[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , और[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [ResultBuilderFactory](./resultbuilderfactory) | परिणाम निर्माता कारखाने के आधार वर्ग का प्रतिनिधित्व करता है। |
+| [SearchImage](./searchimage) | खोजने के लिए एक छवि का प्रतिनिधित्व करता है। |
+| [SearchReport](./searchreport) | एक खोज ऑपरेशन पर एक विस्तृत जानकारी का प्रतिनिधित्व करता है। |
+| [StreamOutputAdapter](./streamoutputadapter) | एक आउटपुट एडेप्टर का प्रतिनिधित्व करता है जो आउटपुट को a में एकत्र करता हैStream . |
+| [StringOutputAdapter](./stringoutputadapter) | एक आउटपुट एडेप्टर का प्रतिनिधित्व करता है जो आउटपुट को एक के रूप में एकत्र करता हैString . |
+| [StructureOutputAdapter](./structureoutputadapter) | एक आउटपुट एडॉप्टर का प्रतिनिधित्व करता है जो आउटपुट को एक संरचना के रूप में एकत्र करता है जिसमें प्रत्येक फ़ील्ड अलग से होती है। |
+| [WordPattern](./wordpattern) | शब्द वाइल्डकार्ड खोज में उपयोग करने के लिए एक शब्द पैटर्न का प्रतिनिधित्व करता है। |
+## इंटरफेस
+
+| इंटरफेस | विवरण |
+| --- | --- |
+| [IContainerItemExtractor](./icontaineritemextractor) | कंटेनर दस्तावेज़ों से आइटम निकालने के तरीके प्रदान करता है। |
+| [IDocumentLoader](./idocumentloader) | आलसी दस्तावेजों को लोड करने के लिए उपयोग किए जाने वाले दस्तावेज़ लोडर इंटरफ़ेस को परिभाषित करता है। |
+| [IFieldExtractor](./ifieldextractor) | दस्तावेज़ से फ़ील्ड निकालने के तरीके प्रदान करता है। |
+| [ILogger](./ilogger) | एक लकड़हारे के इंटरफ़ेस को परिभाषित करता है जिसका उपयोग इंडेक्स में घटनाओं और त्रुटियों को लॉग करने के लिए किया जाता है। |
+## गणना
+
+| गणना | विवरण |
+| --- | --- |
+| [DocumentSourceKind](./documentsourcekind) | दस्तावेज़ स्रोतों के प्रकारों को परिभाषित करता है। |
+| [DocumentStatus](./documentstatus) | एक दस्तावेज़ प्रसंस्करण स्थिति का प्रतिनिधित्व करता है। |
+| [IndexStatus](./indexstatus) | एक इंडेक्स स्थिति निर्दिष्ट करता है। |
+| [VersionUpdateResult](./versionupdateresult) | एक इंडेक्स वर्जन अपडेट ऑपरेशन के परिणाम का प्रतिनिधित्व करता है। |
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->

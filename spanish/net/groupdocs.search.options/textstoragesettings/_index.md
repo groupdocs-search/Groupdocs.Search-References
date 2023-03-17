@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa la configuración de almacenamiento de texto.
 type: docs
-weight: 1070
+weight: 1110
 url: /es/net/groupdocs.search.options/textstoragesettings/
 ---
 ## TextStorageSettings class

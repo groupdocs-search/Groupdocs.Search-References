@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt eine Suchanfrage in Objektform dar.
 type: docs
-weight: 1200
+weight: 1240
 url: /de/net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class
@@ -46,7 +46,7 @@ public abstract class SearchQuery
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchen](https://docs.groupdocs.com/display/searchnet/Searching)
 * [Abfragen in Text- und Objektform](https://docs.groupdocs.com/display/searchnet/Queries+in+text+and+object+form)

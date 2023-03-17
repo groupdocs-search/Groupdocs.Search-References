@@ -1,14 +1,14 @@
 ---
 title: DocumentField
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个文档字段数据
+description: 表示文档字段数据
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.common/documentfield/
 ---
 ## DocumentField class
 
-表示一个文档字段数据。
+表示文档字段数据。
 
 ```csharp
 public class DocumentField
@@ -18,18 +18,18 @@ public class DocumentField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentField](documentfield)(string, string) | 初始化[`DocumentField`](../documentfield)类. |
+| [DocumentField](documentfield)(string, string) | 初始化一个新的实例[`DocumentField`](../documentfield)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Name](../../groupdocs.search.common/documentfield/name) { get; } | 获取字段名称。 |
-| [Value](../../groupdocs.search.common/documentfield/value) { get; } | 获取一个字段值。 |
+| [Value](../../groupdocs.search.common/documentfield/value) { get; } | 获取字段值。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [自定义文本提取器](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 * [索引附加字段](https://docs.groupdocs.com/display/searchnet/Indexing+additional+fields)

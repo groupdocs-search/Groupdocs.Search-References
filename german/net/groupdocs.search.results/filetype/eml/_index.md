@@ -1,14 +1,14 @@
 ---
 title: EML
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Das EMLDateiformat stellt EMailNachrichten dar die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/eml/ .
+description: Das EMLDateiformat stellt EMailNachrichten dar die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/eml/ .
 type: docs
 weight: 190
 url: /de/net/groupdocs.search.results/filetype/eml/
 ---
 ## FileType.EML field
 
-Das EML-Dateiformat stellt E-Mail-Nachrichten dar, die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/eml/) .
+Das EML-Dateiformat stellt E-Mail-Nachrichten dar, die mit Outlook und anderen relevanten Anwendungen gespeichert wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/eml/) .
 
 ```csharp
 public static readonly FileType EML;

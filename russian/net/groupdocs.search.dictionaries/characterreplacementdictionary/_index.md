@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь замены символов который используется в процессе индексирования. Замена символов может использоваться например для удаления акцентов из символов с акцентом или для создания индекса без учета регистра.
 type: docs
-weight: 370
+weight: 380
 url: /ru/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
@@ -38,7 +38,7 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Замена символов при индексации](https://docs.groupdocs.com/display/searchnet/Character+replacement+during+Indexing)
 * [Управление заменами персонажей](https://docs.groupdocs.com/display/searchnet/Character+replacements)

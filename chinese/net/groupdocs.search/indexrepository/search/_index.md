@@ -33,7 +33,7 @@ string query = "Einstein";
 
 IndexRepository repository = new IndexRepository();
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 SearchResult result = repository.Search(query); // 搜索
 ```
@@ -75,10 +75,10 @@ string query = "Einstein";
 
 IndexRepository repository = new IndexRepository();
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 SearchOptions options = new SearchOptions();
-options.UseCaseSensitiveSearch = true; // 设置区分大小写搜索的标志
+options.UseCaseSensitiveSearch = true; //设置区分大小写的搜索标志
 
 SearchResult result = repository.Search(query, options); // 搜索
 ```
@@ -119,7 +119,7 @@ string documentsFolder = @"c:\MyDocuments\";
 
 IndexRepository repository = new IndexRepository();
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // 以对象形式创建搜索查询
 
@@ -163,10 +163,10 @@ string documentsFolder = @"c:\MyDocuments\";
 
 IndexRepository repository = new IndexRepository();
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 SearchOptions options = new SearchOptions();
-options.UseCaseSensitiveSearch = true; // 设置区分大小写搜索的标志
+options.UseCaseSensitiveSearch = true; //设置区分大小写的搜索标志
 
 SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // 以对象形式创建搜索查询
 

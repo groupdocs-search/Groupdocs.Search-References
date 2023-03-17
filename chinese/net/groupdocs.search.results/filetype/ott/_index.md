@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 OTT 扩展名的文件表示由应用程序生成的模板文档符合 OASIS 的 OpenDocument 标准格式这些是用文字处理器应用程序创建的例如 免费的OpenOffice Writer并且可以保存可用于从这些模板文件生成新文档的设置 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/wordprocessing/ott/.
+description: 具有 OTT 扩展名的文件代表应用程序生成的模板文档符合 OASIS 的 OpenDocument 标准格式这些模板是使用字处理器应用程序创建的例如 免费的 OpenOffice Writer并且可以保存可用于从这些模板文件生成新文档的设置 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/wordprocessing/ott/.
 type: docs
 weight: 440
 url: /zh/net/groupdocs.search.results/filetype/ott/
 ---
 ## FileType.OTT field
 
-带有 OTT 扩展名的文件表示由应用程序生成的模板文档，符合 OASIS 的 OpenDocument 标准格式。这些是用文字处理器应用程序创建的，例如 免费的OpenOffice Writer，并且可以保存可用于从这些模板文件生成新文档的设置。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/word-processing/ott/).
+具有 OTT 扩展名的文件代表应用程序生成的模板文档，符合 OASIS 的 OpenDocument 标准格式。这些模板是使用字处理器应用程序创建的，例如 免费的 OpenOffice Writer，并且可以保存可用于从这些模板文件生成新文档的设置。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/word-processing/ott/).
 
 ```csharp
 public static readonly FileType OTT;

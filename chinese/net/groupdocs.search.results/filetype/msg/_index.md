@@ -1,14 +1,14 @@
 ---
 title: MSG
 second_title: GroupDocs.Search for .NET API 参考
-description: MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件联系人 约会或其他任务的文件格式了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/email/msg/.
+description: MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件联系人 约会或其他任务的文件格式详细了解此文件格式 这里https//wiki.fileformat.com/email/msg/.
 type: docs
 weight: 370
 url: /zh/net/groupdocs.search.results/filetype/msg/
 ---
 ## FileType.MSG field
 
-MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件、联系人、 约会或其他任务的文件格式。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/email/msg/).
+MSG 是 Microsoft Outlook 和 Exchange 用于存储电子邮件、联系人、 约会或其他任务的文件格式。详细了解此文件格式 [这里](https://wiki.fileformat.com/email/msg/).
 
 ```csharp
 public static readonly FileType MSG;

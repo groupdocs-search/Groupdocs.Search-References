@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir İngilizce sözcük formu sağlayıcısını temsil eder.
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class

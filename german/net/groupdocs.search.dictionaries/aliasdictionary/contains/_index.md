@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Bestimmt ob einAliasDictionarygroupdocs.search.dictionaries/aliasdictionaryObjekt enthält den angegebenen Alias.
+description: Bestimmt ob einAliasDictionarygroupdocs.search.dictionaries/aliasdictionary Objekt enthält den angegebenen Alias.
 type: docs
 weight: 50
 url: /de/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Bestimmt, ob ein[`AliasDictionary`](../../aliasdictionary)Objekt enthält den angegebenen Alias.
+Bestimmt, ob ein[`AliasDictionary`](../../aliasdictionary) Objekt enthält den angegebenen Alias.
 
 ```csharp
 public bool Contains(string alias)
@@ -20,13 +20,13 @@ public bool Contains(string alias)
 
 ### Rückgabewert
 
-`Stimmt` wenn die[`AliasDictionary`](../../aliasdictionary) Objekt enthält den angegebenen Alias; Andernfalls,`FALSCH` .
+`WAHR` wenn die[`AliasDictionary`](../../aliasdictionary) Objekt enthält den angegebenen Alias; ansonsten,`FALSCH` .
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*alias* ist`Null`. |
+| ArgumentNullException | Wann geworfen*alias* Ist`Null`. |
 
 ### Siehe auch
 

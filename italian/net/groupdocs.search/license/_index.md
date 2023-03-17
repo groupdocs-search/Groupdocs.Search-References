@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce i metodi per richiedere la licenza.
 type: docs
-weight: 690
+weight: 720
 url: /it/net/groupdocs.search/license/
 ---
 ## License class
@@ -29,7 +29,7 @@ public sealed class License
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Limiti di valutazione e licenza](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

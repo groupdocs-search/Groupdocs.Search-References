@@ -1,14 +1,14 @@
 ---
 title: AttributeChangeBatch
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示属性更改的容器
+description: 表示属性变化的容器
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/attributechangebatch/
 ---
 ## AttributeChangeBatch class
 
-表示属性更改的容器。
+表示属性变化的容器。
 
 ```csharp
 public class AttributeChangeBatch
@@ -18,7 +18,7 @@ public class AttributeChangeBatch
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AttributeChangeBatch](attributechangebatch)() | 初始化[`AttributeChangeBatch`](../attributechangebatch)类. |
+| [AttributeChangeBatch](attributechangebatch)() | 初始化一个新的实例[`AttributeChangeBatch`](../attributechangebatch)类. |
 
 ## 方法
 
@@ -26,8 +26,8 @@ public class AttributeChangeBatch
 | --- | --- |
 | [Add](../../groupdocs.search.common/attributechangebatch/add#add)(string, params string[]) | 将指定的属性添加到指定的索引文档。 |
 | [Add](../../groupdocs.search.common/attributechangebatch/add#add_1)(string[], params string[]) | 将指定的属性添加到指定的索引文档。 |
-| [AddToAll](../../groupdocs.search.common/attributechangebatch/addtoall)(params string[]) | 将指定属性添加到索引中的所有文档。 |
-| [Clear](../../groupdocs.search.common/attributechangebatch/clear)() | 删除索引中所有文档的所有属性。 |
+| [AddToAll](../../groupdocs.search.common/attributechangebatch/addtoall)(params string[]) | 将指定的属性添加到索引中的所有文档。 |
+| [Clear](../../groupdocs.search.common/attributechangebatch/clear)() | 从索引中的所有文档中删除所有属性。 |
 | [Remove](../../groupdocs.search.common/attributechangebatch/remove#remove)(string, params string[]) | 从指定的索引文档中删除指定的属性。 |
 | [Remove](../../groupdocs.search.common/attributechangebatch/remove#remove_1)(string[], params string[]) | 从指定的索引文档中删除指定的属性。 |
 | [RemoveAll](../../groupdocs.search.common/attributechangebatch/removeall#removeall)(string) | 从指定的索引文档中删除所有属性。 |
@@ -36,7 +36,7 @@ public class AttributeChangeBatch
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [文档属性](https://docs.groupdocs.com/display/searchnet/Document+attributes)
 * [搜索结果中的文档过滤](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)

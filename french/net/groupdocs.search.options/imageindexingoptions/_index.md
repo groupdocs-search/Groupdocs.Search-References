@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options dindexation dimages pour la recherche dimages inversées.
 type: docs
-weight: 860
+weight: 890
 url: /fr/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class
@@ -18,9 +18,9 @@ public class ImageIndexingOptions
 
 | Nom | La description |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer les images qui sont des éléments dans un conteneur (par exemple, des images dans une archive ZIP). La valeur par défaut est`faux` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer les images incorporées (par exemple, les images dans un document DOCX). La valeur par défaut est`faux` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer des fichiers image séparés. La valeur par défaut est`faux` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer les images qui sont des éléments dans un conteneur (par exemple, des images dans une archive ZIP). La valeur par défaut est`FAUX` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer les images incorporées (par exemple, les images dans un document DOCX). La valeur par défaut est`FAUX` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Obtient ou définit une valeur indiquant s'il faut indexer des fichiers image séparés. La valeur par défaut est`FAUX` . |
 
 ### Voir également
 

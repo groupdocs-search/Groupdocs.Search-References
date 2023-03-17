@@ -1,14 +1,14 @@
 ---
 title: FB2
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 FB2 扩展名的文件是 FictionBook 2.0 电子书文件其中包含电子书的结构 它基于 XML 格式并包含用于描述图书每个元素的特殊标签 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/ebook/fb2/.
+description: 具有 FB2 扩展名的文件是包含电子书结构的 FictionBook 2.0 电子书文件 它基于 XML 格式并包含用于描述书中每个元素的特殊标签 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/ebook/fb2/.
 type: docs
 weight: 220
 url: /zh/net/groupdocs.search.results/filetype/fb2/
 ---
 ## FileType.FB2 field
 
-带有 FB2 扩展名的文件是 FictionBook 2.0 电子书文件，其中包含电子书的结构。 它基于 XML 格式并包含用于描述图书每个元素的特殊标签。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/ebook/fb2/).
+具有 FB2 扩展名的文件是包含电子书结构的 FictionBook 2.0 电子书文件。 它基于 XML 格式并包含用于描述书中每个元素的特殊标签。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/ebook/fb2/).
 
 ```csharp
 public static readonly FileType FB2;

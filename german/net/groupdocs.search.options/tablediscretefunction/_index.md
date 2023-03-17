@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt den FuzzySuchalgorithmus dar der Entsprechungen zwischen Wortlängen und der Anzahl zulässiger Fehler enthält. Dieser Algorithmus kann durch eine Tabelle mit Ausgabewerten oder durch eine Sprungfunktion spezifiziert werden.
 type: docs
-weight: 1050
+weight: 1090
 url: /de/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class
@@ -30,7 +30,7 @@ public class TableDiscreteFunction : FuzzyAlgorithm
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ungenaue Suche](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

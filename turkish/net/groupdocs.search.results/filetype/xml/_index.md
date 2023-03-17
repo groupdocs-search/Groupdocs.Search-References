@@ -1,14 +1,14 @@
 ---
 title: XML
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: XML HTMLye benzeyen ancak nesneleri tanımlamak için etiket kullanımında farklı olan Genişletilebilir İşaretleme Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/web/xml/ .
+description: XML HTMLye benzeyen ancak nesneleri tanımlamak için etiket kullanımında farklı olan Genişletilebilir İşaretleme Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/web/xml/ .
 type: docs
 weight: 810
 url: /tr/net/groupdocs.search.results/filetype/xml/
 ---
 ## FileType.XML field
 
-XML, HTML'ye benzeyen ancak nesneleri tanımlamak için etiket kullanımında farklı olan Genişletilebilir İşaretleme Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/web/xml/) .
+XML, HTML'ye benzeyen ancak nesneleri tanımlamak için etiket kullanımında farklı olan Genişletilebilir İşaretleme Dili anlamına gelir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/web/xml/) .
 
 ```csharp
 public static readonly FileType XML;

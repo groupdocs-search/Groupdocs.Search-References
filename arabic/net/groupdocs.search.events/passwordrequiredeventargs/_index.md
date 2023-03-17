@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل وسيطات للحدث الذي يقع عند فهرسة مستند محمي بكلمة مرور.
 type: docs
-weight: 570
+weight: 580
 url: /ar/net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class

@@ -18,23 +18,24 @@ public class FileOutputAdapter : OutputAdapter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | 初始化[`FileOutputAdapter`](../fileoutputadapter)类. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | 初始化一个新的实例[`FileOutputAdapter`](../fileoutputadapter)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | 获取输出文件路径。 |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [输出适配器](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

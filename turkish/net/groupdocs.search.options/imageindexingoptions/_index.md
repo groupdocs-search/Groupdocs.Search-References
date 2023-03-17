@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Ters görüntü arama için görüntü indeksleme seçenekleri sağlar.
 type: docs
-weight: 860
+weight: 890
 url: /tr/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class
@@ -18,9 +18,9 @@ public class ImageIndexingOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Container (örneğin, bir ZIP arşivindeki görüntüler) öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki görüntüler). Varsayılan değer:`yanlış` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | Container (örneğin, bir ZIP arşivindeki görüntüler) öğeleri olan görüntülerin indekslenip dizine eklenmeyeceğini gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki görüntüler). Varsayılan değer:`YANLIŞ` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 
 ### Ayrıca bakınız
 

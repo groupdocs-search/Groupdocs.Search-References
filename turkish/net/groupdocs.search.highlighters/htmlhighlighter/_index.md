@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: HTMLde biçimlendirilmiş bir belge metninin tamamındaki arama sonuçlarını vurgulayan bir arama sonucu vurgulayıcıyı temsil eder.
 type: docs
-weight: 640
+weight: 670
 url: /tr/net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
@@ -11,20 +11,15 @@ url: /tr/net/groupdocs.search.highlighters/htmlhighlighter/
 HTML'de biçimlendirilmiş bir belge metninin tamamındaki arama sonuçlarını vurgulayan bir arama sonucu vurgulayıcıyı temsil eder.
 
 ```csharp
+[Obsolete("Please, use the DocumentHighlighter class instead.")]
 public class HtmlHighlighter : Highlighter
 ```
-
-## yapıcılar
-
-| İsim | Tanım |
-| --- | --- |
-| [HtmlHighlighter](htmlhighlighter)(OutputAdapter) | Yeni bir örneğini başlatır.[`HtmlHighlighter`](../htmlhighlighter) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [OutputAdapter](../../groupdocs.search.highlighters/htmlhighlighter/outputadapter) { get; } | Yapıcıya geçirilen çıkış bağdaştırıcısını alır. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ### Notlar
 
@@ -51,7 +46,7 @@ SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // Bir belge metninde bulunan kelimeleri vurgulama
 FoundDocument document = result.GetFoundDocument(0);
-OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
+OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
 Highlighter highlighter = new HtmlHighlighter(outputAdapter);
 index.Highlight(document, highlighter);
 ```

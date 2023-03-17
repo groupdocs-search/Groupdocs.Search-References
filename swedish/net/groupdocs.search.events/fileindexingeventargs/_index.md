@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar argument för händelsen av en dokumentindexeringsstart.
 type: docs
-weight: 510
+weight: 520
 url: /sv/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class

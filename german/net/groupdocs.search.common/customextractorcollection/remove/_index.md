@@ -20,7 +20,7 @@ public bool Remove(IFieldExtractor extractor)
 
 ### Rückgabewert
 
-`Stimmt` wenn*extractor* wurde erfolgreich aus der Sammlung entfernt; Andernfalls,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` wenn*extractor* wird nicht in der ursprünglichen Sammlung gefunden.
+`WAHR` Wenn*extractor* wurde erfolgreich aus der Sammlung entfernt; ansonsten,`FALSCH` . Diese Methode kehrt ebenfalls zurück`FALSCH` Wenn*extractor* wird nicht in der ursprünglichen Sammlung gefunden.
 
 ### Siehe auch
 

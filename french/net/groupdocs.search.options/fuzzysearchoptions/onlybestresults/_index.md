@@ -1,14 +1,14 @@
 ---
 title: OnlyBestResults
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant si seuls les meilleurs résultats seront renvoyés. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant si seuls les meilleurs résultats seront renvoyés. La valeur par défaut estFAUX .
 type: docs
 weight: 40
 url: /fr/net/groupdocs.search.options/fuzzysearchoptions/onlybestresults/
 ---
 ## FuzzySearchOptions.OnlyBestResults property
 
-Obtient ou définit une valeur indiquant si seuls les meilleurs résultats seront renvoyés. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant si seuls les meilleurs résultats seront renvoyés. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool OnlyBestResults { get; set; }
@@ -16,7 +16,7 @@ public bool OnlyBestResults { get; set; }
 
 ### Valeur de la propriété
 
-`vrai` si seuls les meilleurs résultats seront renvoyés ; sinon`faux`.
+`vrai` si seuls les meilleurs résultats seront renvoyés ; sinon`FAUX`.
 
 ### Voir également
 

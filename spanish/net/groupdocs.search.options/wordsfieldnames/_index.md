@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa una lista de nombres de campo para la búsqueda por facetas.
 type: docs
-weight: 1090
+weight: 1130
 url: /es/net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class

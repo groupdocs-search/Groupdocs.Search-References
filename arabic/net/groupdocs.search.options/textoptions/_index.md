@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لاسترداد نص المستند من فهرس .
 type: docs
-weight: 1060
+weight: 1100
 url: /ar/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | الحصول على أو تعيين حقول المستند الإضافية التي تم استخدامها للفهرسة . القيمة الافتراضية هي`لا شيء` . لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
-| [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`لا شيء` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص الذي تم استخدامه للفهرسة . القيمة الافتراضية هي`لا شيء` . لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | الحصول على أو تعيين حقول المستند الإضافية التي تم استخدامها للفهرسة . القيمة الافتراضية هي`باطل`. لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
+| [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`باطل` . |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص الذي تم استخدامه للفهرسة . القيمة الافتراضية هي`باطل`. لاحظ أنه يتم استخدام هذه القيمة فقط في حالة عدم حفظ نص المستند في الفهرس. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يتم إنشاء علامة الرأس في HTML الناتج. القيمة الافتراضية هي`حقيقي` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |

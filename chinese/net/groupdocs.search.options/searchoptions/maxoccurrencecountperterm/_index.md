@@ -1,14 +1,14 @@
 ---
 title: MaxOccurrenceCountPerTerm
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索查询中每个词的最大出现次数 默认值为100000.
+description: 获取或设置搜索查询中每个术语的最大出现次数 默认值为100000.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.options/searchoptions/maxoccurrencecountperterm/
 ---
 ## SearchOptions.MaxOccurrenceCountPerTerm property
 
-获取或设置搜索查询中每个词的最大出现次数。 默认值为`100000`.
+获取或设置搜索查询中每个术语的最大出现次数。 默认值为`100000`.
 
 ```csharp
 public int MaxOccurrenceCountPerTerm { get; set; }
@@ -16,7 +16,7 @@ public int MaxOccurrenceCountPerTerm { get; set; }
 
 ### 适当的价值
 
-搜索查询中每个字词的最大出现次数。
+每个术语在搜索查询中出现的最大次数。
 
 ### 也可以看看
 

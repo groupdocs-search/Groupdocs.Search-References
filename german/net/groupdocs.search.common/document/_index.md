@@ -38,7 +38,7 @@ public abstract class Document
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indizierung aus verschiedenen Quellen](https://docs.groupdocs.com/search/net/indexing-from-different-sources/)
 

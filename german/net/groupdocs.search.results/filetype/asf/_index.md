@@ -1,14 +1,14 @@
 ---
 title: ASF
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Das Advanced Systems Format ASF ist ein digitaler MultimediaContainer der hauptsächlich zum Speichern und Übertragen von Medienströmen entwickelt wurde. Microsoft Windows Media Video WMV ist das komprimierte Videoformat und Microsoft Windows Media Audio WMA ist das komprimierte Audioformat mit zusätzlichen Metadaten im von Microsoft entwickelten ASFContainer. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/video/wmv/ .
+description: Das Advanced Systems Format ASF ist ein digitaler MultimediaContainer der hauptsächlich zum Speichern und Übertragen von Medienströmen entwickelt wurde. Microsoft Windows Media Video WMV ist das komprimierte Videoformat und Microsoft Windows Media Audio WMA ist das komprimierte Audioformat mit zusätzlichen Metadaten im von Microsoft entwickelten ASFContainer. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/video/wmv/ .
 type: docs
 weight: 10
 url: /de/net/groupdocs.search.results/filetype/asf/
 ---
 ## FileType.ASF field
 
-Das Advanced Systems Format (ASF) ist ein digitaler Multimedia-Container, der hauptsächlich zum Speichern und Übertragen von Medienströmen entwickelt wurde. Microsoft Windows Media Video (WMV) ist das komprimierte Videoformat und Microsoft Windows Media Audio (WMA) ist das komprimierte Audioformat mit zusätzlichen Metadaten im von Microsoft entwickelten ASF-Container. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/video/wmv/) .
+Das Advanced Systems Format (ASF) ist ein digitaler Multimedia-Container, der hauptsächlich zum Speichern und Übertragen von Medienströmen entwickelt wurde. Microsoft Windows Media Video (WMV) ist das komprimierte Videoformat und Microsoft Windows Media Audio (WMA) ist das komprimierte Audioformat mit zusätzlichen Metadaten im von Microsoft entwickelten ASF-Container. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/video/wmv/) .
 
 ```csharp
 public static readonly FileType ASF;

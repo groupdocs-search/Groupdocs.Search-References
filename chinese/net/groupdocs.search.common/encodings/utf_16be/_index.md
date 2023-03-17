@@ -1,14 +1,14 @@
 ---
 title: utf_16BE
 second_title: GroupDocs.Search for .NET API 参考
-description: utf16BE 编码
+description: utf16BE编码
 type: docs
 weight: 830
 url: /zh/net/groupdocs.search.common/encodings/utf_16be/
 ---
 ## Encodings.utf_16BE field
 
-utf-16BE 编码。
+utf-16BE编码。
 
 ```csharp
 public const string utf_16BE;

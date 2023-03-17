@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل خوارزمية للبحث الغامض الذي يحدد مستوى التشابه. تحسب خوارزمية مستوى التشابه الحد الأقصى لعدد الأخطاء لكلمة ما يتناسب عكسياً مع طول الكلمة.
 type: docs
-weight: 1010
+weight: 1050
 url: /ar/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -50,7 +50,7 @@ options.FuzzySearch.Enabled = true; // تمكين البحث الغامض
 options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8); // إنشاء خوارزمية البحث الضبابي
 // تحدد هذه الوظيفة الرقم 0 كأقصى عدد من الأخطاء للكلمات من 1 إلى 4 أحرف.
 // تحدد 1 كأقصى عدد من الأخطاء للكلمات من 5 إلى 9 أحرف.
-// تحدد 2 على أنها أقصى عدد من الأخطاء للكلمات من 10 إلى 14 حرفًا. وهلم جرا.
+// تحدد 2 على أنها أقصى عدد من الأخطاء للكلمات من 10 إلى 14 حرفًا. وما إلى ذلك وهلم جرا.
 
 SearchResult result = index.Search(query, options); // بحث في الفهرس
 ```

@@ -1,14 +1,14 @@
 ---
 title: UseHomophoneSearch
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 120
 url: /ar/net/groupdocs.search.options/searchoptions/usehomophonesearch/
 ---
 ## SearchOptions.UseHomophoneSearch property
 
-الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تحديد علامة استخدام المتجانسات في البحث . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseHomophoneSearch { get; set; }

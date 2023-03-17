@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для корректора орфографии.
 type: docs
-weight: 1020
+weight: 1060
 url: /ru/net/groupdocs.search.options/spellingcorrectoroptions/
 ---
 ## SpellingCorrectorOptions class
@@ -26,7 +26,7 @@ public class SpellingCorrectorOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Проверка орфографии](https://docs.groupdocs.com/display/searchnet/Spell+checking)
 * [Параметры поиска](https://docs.groupdocs.com/display/searchnet/Search+options)

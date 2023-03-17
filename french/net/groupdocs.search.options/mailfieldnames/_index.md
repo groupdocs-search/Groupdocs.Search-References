@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente une liste de noms de champs pour la recherche à facettes.
 type: docs
-weight: 920
+weight: 950
 url: /fr/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class

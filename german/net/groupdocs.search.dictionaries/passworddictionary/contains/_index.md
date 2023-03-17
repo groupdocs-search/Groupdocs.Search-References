@@ -20,7 +20,7 @@ public bool Contains(string key)
 
 ### Rückgabewert
 
-`Stimmt` wenn das Wörterbuch ein Passwort für das Dokument enthält; Andernfalls,`FALSCH` .
+`WAHR` wenn das Wörterbuch ein Passwort für das Dokument enthält; ansonsten,`FALSCH` .
 
 ### Siehe auch
 

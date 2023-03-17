@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نتيجة عملية حذف ملف أو مجلد مفهرس من الفهرس.
 type: docs
-weight: 1180
+weight: 1220
 url: /ar/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class

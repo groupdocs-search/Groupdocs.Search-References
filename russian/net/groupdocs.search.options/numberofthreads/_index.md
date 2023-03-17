@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search для справочника API .NET
 description: Определяет количество потоков.
 type: docs
-weight: 950
+weight: 980
 url: /ru/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration
@@ -30,7 +30,7 @@ public enum NumberOfThreads
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Настройки поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

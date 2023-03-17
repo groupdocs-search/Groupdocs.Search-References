@@ -1,14 +1,14 @@
 ---
 title: IsAsync
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 40
 url: /tr/net/groupdocs.search.options/updateoptions/isasync/
 ---
 ## UpdateOptions.IsAsync property
 
-Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Eşzamansız işlemi gerçekleştirme bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool IsAsync { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: UpdateOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 提供更新操作的选项
+description: 提供更新操作选项
 type: docs
-weight: 1080
+weight: 1120
 url: /zh/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
 
-提供更新操作的选项。
+提供更新操作选项。
 
 ```csharp
 public class UpdateOptions
@@ -18,7 +18,7 @@ public class UpdateOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UpdateOptions](updateoptions)() | 初始化[`UpdateOptions`](../updateoptions)类. |
+| [UpdateOptions](updateoptions)() | 初始化一个新的实例[`UpdateOptions`](../updateoptions)类. |
 
 ## 特性
 
@@ -29,11 +29,11 @@ public class UpdateOptions
 | [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | 获取或设置异步执行操作的标志。 默认值为`错误的`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | 获取索引元数据字段的选项。 |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | 获取 OCR 处理和索引识别文本的选项。 |
-| [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | 获取或设置用于索引的线程数。 默认值为`1`. |
+| [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | 获取或设置用于索引的线程数。 默认值为`1个`. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [更新索引](https://docs.groupdocs.com/display/searchnet/Update+index)
 * [删除索引路径](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)

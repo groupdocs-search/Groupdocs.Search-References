@@ -1,18 +1,24 @@
 ---
 title: OutputAdapter
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Représente la classe de base dun adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sontFileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter  etStringOutputAdapter./stringoutputadapter .
+description: Représente la classe de base dun adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sontFileOutputAdapter./fileoutputadapter  StreamOutputAdapter./streamoutputadapter  StructureOutputAdapter./structureoutputadapter  etStringOutputAdapter./stringoutputadapter .
 type: docs
 weight: 260
 url: /fr/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-Représente la classe de base d'un adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sont[`FileOutputAdapter`](../fileoutputadapter) ,[`StreamOutputAdapter`](../streamoutputadapter) , et[`StringOutputAdapter`](../stringoutputadapter) .
+Représente la classe de base d'un adaptateur de sortie utilisé pour collecter une sortie sous une forme généralisée. Les adaptateurs actuellement disponibles sont[`FileOutputAdapter`](../fileoutputadapter) , [`StreamOutputAdapter`](../streamoutputadapter) , [`StructureOutputAdapter`](../structureoutputadapter) , et[`StringOutputAdapter`](../stringoutputadapter) .
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
+
+## Propriétés
+
+| Nom | La description |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Obtient le format de sortie. |
 
 ### Remarques
 

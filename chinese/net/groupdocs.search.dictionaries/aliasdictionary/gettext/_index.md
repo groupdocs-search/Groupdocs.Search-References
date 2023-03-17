@@ -26,7 +26,7 @@ public string GetText(string alias)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*alias*是`无效的`. |
+| ArgumentNullException | 抛出时*alias*是`无效的`. |
 
 ### 也可以看看
 

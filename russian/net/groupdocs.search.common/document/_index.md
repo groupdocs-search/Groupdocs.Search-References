@@ -38,7 +38,7 @@ public abstract class Document
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Индексация из разных источников](https://docs.groupdocs.com/search/net/indexing-from-different-sources/)
 

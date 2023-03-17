@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد واجهة موفر نماذج الكلمات.
 type: docs
-weight: 440
+weight: 450
 url: /ar/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -88,8 +88,8 @@ options.UseWordFormsSearch = true; // تمكين البحث عن نماذج ال
 SearchResult result = index.Search("relative", options);
   
 // يمكن العثور على الكلمات التالية:
-// نسبيا
-// نسبياs
+// نسبي
+// نسبيs
 ```
 
 ### أنظر أيضا

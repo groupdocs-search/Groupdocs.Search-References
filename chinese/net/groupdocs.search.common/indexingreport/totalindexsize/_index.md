@@ -1,14 +1,14 @@
 ---
 title: TotalIndexSize
 second_title: GroupDocs.Search for .NET API 参考
-description: 以字节为单位获取总索引大小
+description: 获取以字节为单位的总索引大小
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.common/indexingreport/totalindexsize/
 ---
 ## IndexingReport.TotalIndexSize property
 
-以字节为单位获取总索引大小。
+获取以字节为单位的总索引大小。
 
 ```csharp
 public long TotalIndexSize { get; }
@@ -16,7 +16,7 @@ public long TotalIndexSize { get; }
 
 ### 适当的价值
 
-以字节为单位的总索引大小。
+总索引大小（以字节为单位）。
 
 ### 也可以看看
 

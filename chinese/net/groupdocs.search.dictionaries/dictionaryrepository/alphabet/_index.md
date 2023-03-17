@@ -16,7 +16,7 @@ public Alphabet Alphabet { get; }
 
 ### 适当的价值
 
-字符字典。
+汉字辞典。
 
 ### 也可以看看
 

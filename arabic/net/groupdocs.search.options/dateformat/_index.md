@@ -3,7 +3,7 @@ title: DateFormat
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل تنسيق التاريخ .
 type: docs
-weight: 740
+weight: 770
 url: /ar/net/groupdocs.search.options/dateformat/
 ---
 ## DateFormat class

@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Search efter .NET API Reference
-description: Bestämmer om enAliasDictionarygroupdocs.search.dictionaries/aliasdictionaryobjektet innehåller det angivna alias.
+description: Bestämmer om enAliasDictionarygroupdocs.search.dictionaries/aliasdictionary objektet innehåller det angivna alias.
 type: docs
 weight: 50
 url: /sv/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Bestämmer om en[`AliasDictionary`](../../aliasdictionary)objektet innehåller det angivna alias.
+Bestämmer om en[`AliasDictionary`](../../aliasdictionary) objektet innehåller det angivna alias.
 
 ```csharp
 public bool Contains(string alias)

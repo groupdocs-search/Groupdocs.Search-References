@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulunan bir belgeyi temsil eder.
 type: docs
-weight: 1140
+weight: 1180
 url: /tr/net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class

@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示同义词字典
 type: docs
-weight: 480
+weight: 490
 url: /zh/net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class
@@ -18,25 +18,25 @@ public class SynonymDictionary : DictionaryBase, IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/synonymdictionary/count) { get; } | 获取此包含的单词数[`SynonymDictionary`](../synonymdictionary). |
+| [Count](../../groupdocs.search.dictionaries/synonymdictionary/count) { get; } | 获取这个包含的单词数[`SynonymDictionary`](../synonymdictionary). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange)(IEnumerable&lt;string[]&gt;) | 将指定的同义词组集合添加到[`SynonymDictionary`](../synonymdictionary). |
-| [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange_1)(string[][]) | 将指定的同义词组集合添加到[`SynonymDictionary`](../synonymdictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange)(IEnumerable&lt;string[]&gt;) | 将指定的同义词组集合添加到该实例[`SynonymDictionary`](../synonymdictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange_1)(string[][]) | 将指定的同义词组集合添加到该实例[`SynonymDictionary`](../synonymdictionary). |
 | [Clear](../../groupdocs.search.dictionaries/synonymdictionary/clear)() | 从中删除所有单词[`SynonymDictionary`](../synonymdictionary)对象. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
-| [GetAllSynonymGroups](../../groupdocs.search.dictionaries/synonymdictionary/getallsynonymgroups)() | 获取此词典中包含的所有同义词组。 |
+| [GetAllSynonymGroups](../../groupdocs.search.dictionaries/synonymdictionary/getallsynonymgroups)() | 获取本词典中包含的所有同义词组。 |
 | [GetEnumerator](../../groupdocs.search.dictionaries/synonymdictionary/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [GetSynonymGroups](../../groupdocs.search.dictionaries/synonymdictionary/getsynonymgroups)(string) | 获取指定单词所属的所有同义词组。 |
+| [GetSynonymGroups](../../groupdocs.search.dictionaries/synonymdictionary/getsynonymgroups)(string) | 获取指定词所属的所有同义词组。 |
 | [GetSynonyms](../../groupdocs.search.dictionaries/synonymdictionary/getsynonyms)(string) | 获取指定单词的同义词。 结果数组不包含原始单词。 |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | 从指定文件导入字典。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [同义词搜索](https://docs.groupdocs.com/display/searchnet/Synonym+search)
 * [管理同义词词典](https://docs.groupdocs.com/display/searchnet/Synonym+dictionary)

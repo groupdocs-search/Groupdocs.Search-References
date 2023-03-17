@@ -1,14 +1,14 @@
 ---
 title: GetWords
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取当前包含在此中的单词的集合SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector.
+description: 获取当前包含在此的单词集合SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.dictionaries/spellingcorrector/getwords/
 ---
 ## SpellingCorrector.GetWords method
 
-获取当前包含在此中的单词的集合[`SpellingCorrector`](../../spellingcorrector).
+获取当前包含在此的单词集合[`SpellingCorrector`](../../spellingcorrector).
 
 ```csharp
 public string[] GetWords()

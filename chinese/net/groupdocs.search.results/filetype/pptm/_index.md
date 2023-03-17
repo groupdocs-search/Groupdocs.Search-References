@@ -1,14 +1,14 @@
 ---
 title: PPTM
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 PPTM 扩展名的文件是使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的演示文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/pptm/.
+description: 具有 PPTM 扩展名的文件是使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的演示文稿文件详细了解此文件格式 这里https//wiki.fileformat.com/presentation/pptm/.
 type: docs
 weight: 540
 url: /zh/net/groupdocs.search.results/filetype/pptm/
 ---
 ## FileType.PPTM field
 
-带有 PPTM 扩展名的文件是使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的演示文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/pptm/).
+具有 PPTM 扩展名的文件是使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的演示文稿文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/pptm/).
 
 ```csharp
 public static readonly FileType PPTM;

@@ -35,7 +35,7 @@ public class Cancellation
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indizierungsoptionen](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 * [Suchoptionen](https://docs.groupdocs.com/display/searchnet/Search+options)

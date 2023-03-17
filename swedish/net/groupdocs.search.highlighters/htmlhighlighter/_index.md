@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en överstrykning av sökresultat som markerar sökresultat i en hel dokumenttext formaterad i HTML.
 type: docs
-weight: 640
+weight: 670
 url: /sv/net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
@@ -11,20 +11,15 @@ url: /sv/net/groupdocs.search.highlighters/htmlhighlighter/
 Representerar en överstrykning av sökresultat som markerar sökresultat i en hel dokumenttext formaterad i HTML.
 
 ```csharp
+[Obsolete("Please, use the DocumentHighlighter class instead.")]
 public class HtmlHighlighter : Highlighter
 ```
-
-## Konstruktörer
-
-| namn | Beskrivning |
-| --- | --- |
-| [HtmlHighlighter](htmlhighlighter)(OutputAdapter) | Initierar en ny instans av[`HtmlHighlighter`](../htmlhighlighter) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [OutputAdapter](../../groupdocs.search.highlighters/htmlhighlighter/outputadapter) { get; } | Får utgångsadaptern skickad i konstruktorn. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ### Anmärkningar
 
@@ -51,7 +46,7 @@ SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // Markera hittade ord i texten i ett dokument
 FoundDocument document = result.GetFoundDocument(0);
-OutputAdapter outputAdapter = new FileOutputAdapter("Highlighted.html");
+OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
 Highlighter highlighter = new HtmlHighlighter(outputAdapter);
 index.Highlight(document, highlighter);
 ```

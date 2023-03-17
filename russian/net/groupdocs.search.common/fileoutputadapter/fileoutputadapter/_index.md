@@ -11,15 +11,17 @@ url: /ru/net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 Инициализирует новый экземпляр[`FileOutputAdapter`](../../fileoutputadapter) класс.
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Выходной формат. |
 | filePath | String | Путь к выходному файлу. |
 
 ### Смотрите также
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * пространство имен [GroupDocs.Search.Common](../../fileoutputadapter)
 * сборка [GroupDocs.Search](../../../)

@@ -20,7 +20,7 @@ public bool Remove(string alias)
 
 ### Valor_devuelto
 
-Este método devuelve`verdadero` si el alias se encuentra y elimina con éxito. Este método devuelve`falso` si el alias no se encuentra en el[`AliasDictionary`](../../aliasdictionary) objeto.
+Este método devuelve`verdadero` si el alias se encuentra y elimina con éxito. Este método devuelve`FALSO` si el alias no se encuentra en el[`AliasDictionary`](../../aliasdictionary) objeto.
 
 ### Excepciones
 

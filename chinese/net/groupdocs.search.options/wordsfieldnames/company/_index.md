@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: GroupDocs.Search for .NET API 参考
-description: 公司字段名称
+description: 公司字段名称.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.options/wordsfieldnames/company/
 ---
 ## WordsFieldNames.Company field
 
-公司字段名称。
+公司字段名称.
 
 ```csharp
 public const string Company;

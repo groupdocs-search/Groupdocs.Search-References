@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: OST oder OfflineSpeicherdateien stellen die Postfachdaten des Benutzers im OfflineModus auf dem lokalen Computer nach Registrierung bei Exchange Server mit Microsoft Outlook dar. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/email/ost/ .
+description: OST oder OfflineSpeicherdateien stellen die Postfachdaten des Benutzers im OfflineModus auf dem lokalen Computer nach Registrierung bei Exchange Server mit Microsoft Outlook dar. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/email/ost/ .
 type: docs
 weight: 420
 url: /de/net/groupdocs.search.results/filetype/ost/
 ---
 ## FileType.OST field
 
-OST- oder Offline-Speicherdateien stellen die Postfachdaten des Benutzers im Offline-Modus auf dem lokalen Computer nach Registrierung bei Exchange Server mit Microsoft Outlook dar. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/email/ost/) .
+OST- oder Offline-Speicherdateien stellen die Postfachdaten des Benutzers im Offline-Modus auf dem lokalen Computer nach Registrierung bei Exchange Server mit Microsoft Outlook dar. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/email/ost/) .
 
 ```csharp
 public static readonly FileType OST;

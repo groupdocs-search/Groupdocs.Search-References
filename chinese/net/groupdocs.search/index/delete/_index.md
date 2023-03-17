@@ -1,14 +1,14 @@
 ---
 title: Delete
 second_title: GroupDocs.Search for .NET API 参考
-description: 从索引中删除索引文件或文件夹然后更新索引而不删除路径 请注意如果单个文档作为文件夹的一部分添加到索引中则无法从索引中删除它
+description: 从索引中删除索引文件或文件夹然后在不删除路径的情况下更新索引 请注意如果单个文档作为文件夹的一部分添加到索引中则不能从索引中删除它
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search/index/delete/
 ---
 ## Delete(string[], UpdateOptions) {#delete_1}
 
-从索引中删除索引文件或文件夹。然后更新索引而不删除路径。 请注意，如果单个文档作为文件夹的一部分添加到索引中，则无法从索引中删除它。
+从索引中删除索引文件或文件夹。然后在不删除路径的情况下更新索引。 请注意，如果单个文档作为文件夹的一部分添加到索引中，则不能从索引中删除它。
 
 ```csharp
 public DeleteResult Delete(string[] paths, UpdateOptions options)
@@ -75,7 +75,7 @@ foreach (string path in indexedPaths2)
 
 ## Delete(UpdateOptions, string[]) {#delete}
 
-从流或结构中删除索引的文档。然后更新索引而不删除文档。
+删除从流或结构中索引的文档。然后在不删除文件的情况下更新索引。
 
 ```csharp
 public DeleteResult Delete(UpdateOptions options, string[] documentKeys)

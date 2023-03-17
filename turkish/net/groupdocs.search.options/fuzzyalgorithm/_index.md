@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulanık arama algoritmaları için temel sınıfı temsil eder.
 type: docs
-weight: 810
+weight: 840
 url: /tr/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class

@@ -1,14 +1,14 @@
 ---
 title: GB18030
 second_title: GroupDocs.Search for .NET API 参考
-description: GB18030 编码
+description: GB18030编码
 type: docs
 weight: 130
 url: /zh/net/groupdocs.search.common/encodings/gb18030/
 ---
 ## Encodings.GB18030 field
 
-GB18030 编码。
+GB18030编码。
 
 ```csharp
 public const string GB18030;

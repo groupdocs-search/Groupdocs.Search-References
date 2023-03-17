@@ -1,14 +1,14 @@
 ---
 title: UseCharacterReplacements
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置是否使用字符替换的值 默认值为错误的.
+description: 获取或设置一个值指示是否使用字符替换 默认值为错误的.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property
 
-获取或设置是否使用字符替换的值。 默认值为`错误的`.
+获取或设置一个值，指示是否使用字符替换。 默认值为`错误的`.
 
 ```csharp
 public bool UseCharacterReplacements { get; set; }

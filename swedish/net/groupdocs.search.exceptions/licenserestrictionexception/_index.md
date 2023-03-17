@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs.Search efter .NET API Reference
 description: Undantaget som skapas när en licensbegränsning utlöses.
 type: docs
-weight: 600
+weight: 610
 url: /sv/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class

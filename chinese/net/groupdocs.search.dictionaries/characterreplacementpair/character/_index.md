@@ -1,14 +1,14 @@
 ---
 title: Character
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取角色
+description: 获取字符
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementpair/character/
 ---
 ## CharacterReplacementPair.Character property
 
-获取角色。
+获取字符。
 
 ```csharp
 public char Character { get; }

@@ -1,14 +1,14 @@
 ---
 title: Green
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此实例的绿色分量值
+description: 获取本实例的绿色组件值
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.options/color/green/
 ---
 ## Color.Green property
 
-获取此实例的绿色分量值。
+获取本实例的绿色组件值。
 
 ```csharp
 public int Green { get; }

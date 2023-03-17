@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Definisce linterfaccia di un fornitore di moduli di parole.
 type: docs
-weight: 440
+weight: 450
 url: /it/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -22,7 +22,7 @@ public interface IWordFormsProvider
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca diverse forme di parole](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
 * [Fornitore di moduli di parole](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)

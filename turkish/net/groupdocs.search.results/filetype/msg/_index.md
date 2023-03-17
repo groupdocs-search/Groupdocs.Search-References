@@ -1,14 +1,14 @@
 ---
 title: MSG
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: MSG Microsoft Outlook ve Exchange tarafından eposta mesajlarını kişileri randevularını veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/email/msg/ .
+description: MSG Microsoft Outlook ve Exchange tarafından eposta mesajlarını kişileri randevularını veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/email/msg/ .
 type: docs
 weight: 370
 url: /tr/net/groupdocs.search.results/filetype/msg/
 ---
 ## FileType.MSG field
 
-MSG, Microsoft Outlook ve Exchange tarafından e-posta mesajlarını, kişileri, randevularını veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/email/msg/) .
+MSG, Microsoft Outlook ve Exchange tarafından e-posta mesajlarını, kişileri, randevularını veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/email/msg/) .
 
 ```csharp
 public static readonly FileType MSG;

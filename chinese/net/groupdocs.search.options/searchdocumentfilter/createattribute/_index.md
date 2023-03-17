@@ -1,14 +1,14 @@
 ---
 title: CreateAttribute
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个过滤器用于从指定的允许属性列表中跳过没有任何值的文档
+description: 创建一个过滤器用于跳过在指定的允许属性列表中没有任何值的文档
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/searchdocumentfilter/createattribute/
 ---
 ## SearchDocumentFilter.CreateAttribute method
 
-创建一个过滤器，用于从指定的允许属性列表中跳过没有任何值的文档。
+创建一个过滤器，用于跳过在指定的允许属性列表中没有任何值的文档。
 
 ```csharp
 public static ISearchDocumentFilter CreateAttribute(params string[] attributes)

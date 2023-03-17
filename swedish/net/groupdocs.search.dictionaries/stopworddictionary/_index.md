@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ordbok med stoppord.
 type: docs
-weight: 470
+weight: 480
 url: /sv/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class

@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizine alınmış bir dosya veya klasörü bir dizinden silme işleminin sonucunu temsil eder.
 type: docs
-weight: 1180
+weight: 1220
 url: /tr/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class

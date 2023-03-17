@@ -1,14 +1,14 @@
 ---
 title: FileIndexing
 second_title: GroupDocs.Search for .NET API 参考
-description: 当文档要被索引时发生
+description: 在文档要被索引时发生
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.events/eventhub/fileindexing/
 ---
 ## EventHub.FileIndexing event
 
-当文档要被索引时发生。
+在文档要被索引时发生。
 
 ```csharp
 public event EventHandler<FileIndexingEventArgs> FileIndexing;
@@ -16,7 +16,7 @@ public event EventHandler<FileIndexingEventArgs> FileIndexing;
 
 ### 例子
 
-示例演示如何使用事件。
+该示例演示了如何使用事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

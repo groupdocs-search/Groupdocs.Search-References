@@ -3,7 +3,7 @@ title: Alphabet
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا للأحرف المستخدمة أثناء الفهرسة لاكتشاف نوع الحرف. يمكن التعامل مع كل حرف كفاصل أو كحرف أو كليهما.
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class

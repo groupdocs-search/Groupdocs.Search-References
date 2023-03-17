@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .ONE uzantısıyla temsil edilen dosya Microsoft OneNote uygulaması tarafından oluşturulur. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/notetaking/one/ .
+description: .ONE uzantısıyla temsil edilen dosya Microsoft OneNote uygulaması tarafından oluşturulur. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/notetaking/one/ .
 type: docs
 weight: 410
 url: /tr/net/groupdocs.search.results/filetype/one/
 ---
 ## FileType.ONE field
 
-.ONE uzantısıyla temsil edilen dosya, Microsoft OneNote uygulaması tarafından oluşturulur. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/note-taking/one/) .
+.ONE uzantısıyla temsil edilen dosya, Microsoft OneNote uygulaması tarafından oluşturulur. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/note-taking/one/) .
 
 ```csharp
 public static readonly FileType ONE;

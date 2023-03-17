@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir lisans kısıtlaması tetiklendiğinde ortaya çıkan istisna.
 type: docs
-weight: 600
+weight: 610
 url: /tr/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class

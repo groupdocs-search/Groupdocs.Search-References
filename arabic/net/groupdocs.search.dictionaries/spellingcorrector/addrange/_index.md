@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<string> words)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*words* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*words* يكون`باطل`. |
 
 ### أنظر أيضا
 
@@ -48,7 +48,7 @@ public void AddRange(string[] words)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | عندما ألقيت*words* هو`لا شيء`. |
+| ArgumentNullException | عندما ألقيت*words* يكون`باطل`. |
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: TextStorageSettings
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示文本存储设置
+description: 代表文本存储设置
 type: docs
-weight: 1070
+weight: 1110
 url: /zh/net/groupdocs.search.options/textstoragesettings/
 ---
 ## TextStorageSettings class
 
-表示文本存储设置。
+代表文本存储设置。
 
 ```csharp
 public class TextStorageSettings
@@ -18,17 +18,17 @@ public class TextStorageSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextStorageSettings](textstoragesettings)(Compression) | 初始化[`TextStorageSettings`](../textstoragesettings)类. |
+| [TextStorageSettings](textstoragesettings)(Compression) | 初始化一个新的实例[`TextStorageSettings`](../textstoragesettings)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Compression](../../groupdocs.search.options/textstoragesettings/compression) { get; set; } | 获取或设置文本存储的压缩率。 默认值为Normal. |
+| [Compression](../../groupdocs.search.options/textstoragesettings/compression) { get; set; } | 获取或设置文本存储的压缩方式。 默认值为Normal. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [存储索引文档的文本](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 * [搜索索引设置](https://docs.groupdocs.com/display/searchnet/Search+index+settings)

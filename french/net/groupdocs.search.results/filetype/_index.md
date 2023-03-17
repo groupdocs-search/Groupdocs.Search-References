@@ -3,7 +3,7 @@ title: FileType
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente le type de fichier.
 type: docs
-weight: 1120
+weight: 1160
 url: /fr/net/groupdocs.search.results/filetype/
 ---
 ## FileType class
@@ -109,7 +109,7 @@ public class FileType
 | static readonly [XLS](../../groupdocs.search.results/filetype/xls) | Les fichiers avec l'extension XLS représentent le format de fichier binaire Excel. Ces fichiers peuvent être créés par Microsoft Excel ainsi que par d'autres tableurs similaires tels que OpenOffice Calc ou Apple Numbers. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/specification/spreadsheet/xls/) . |
 | static readonly [XLSB](../../groupdocs.search.results/filetype/xlsb) | Le format de fichier XLSB spécifie le format de fichier binaire Excel, qui est une collection d'enregistrements et de structures qui spécifient le contenu du classeur Excel. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) . |
 | static readonly [XLSM](../../groupdocs.search.results/filetype/xlsm) | Les fichiers avec l'extension XLSM sont un type de fichiers de feuille de calcul prenant en charge les macros. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) . |
-| static readonly [XLSX](../../groupdocs.search.results/filetype/xlsx) | XLSX est un format bien connu pour les documents Microsoft Excel qui a été introduit par Microsoft avec la release de Microsoft Office 2007. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
+| static readonly [XLSX](../../groupdocs.search.results/filetype/xlsx) | XLSX est un format bien connu pour les documents Microsoft Excel qui a été introduit par Microsoft avec la version de Microsoft Office 2007. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
 | static readonly [XLT](../../groupdocs.search.results/filetype/xlt) | Les fichiers avec l'extension .XLT sont des fichiers modèles créés avec Microsoft Excel qui est une application tableur qui fait partie de la suite Microsoft Office. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xlt/) . |
 | static readonly [XLTM](../../groupdocs.search.results/filetype/xltm) | L'extension de fichier XLTM représente les fichiers générés par Microsoft Excel en tant que fichiers de modèle Macro-enabled . En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xltm/) . |
 | static readonly [XLTX](../../groupdocs.search.results/filetype/xltx) | Les fichiers avec l'extension XLTX représentent des fichiers de modèle Microsoft Excel basés sur les spécifications de format de fichier Office OpenXML . En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/specification/spreadsheet/xltx/) . |

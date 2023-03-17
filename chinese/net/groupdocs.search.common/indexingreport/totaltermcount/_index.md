@@ -1,14 +1,14 @@
 ---
 title: TotalTermCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取索引中的词条总数
+description: 获取索引中的总词条数
 type: docs
 weight: 110
 url: /zh/net/groupdocs.search.common/indexingreport/totaltermcount/
 ---
 ## IndexingReport.TotalTermCount property
 
-获取索引中的词条总数。
+获取索引中的总词条数。
 
 ```csharp
 public int TotalTermCount { get; }

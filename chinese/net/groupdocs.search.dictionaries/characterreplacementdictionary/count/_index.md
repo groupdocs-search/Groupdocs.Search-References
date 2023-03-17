@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此包含的字符数CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
+description: 获取这个包含的字符数CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementdictionary/count/
 ---
 ## CharacterReplacementDictionary.Count property
 
-获取此包含的字符数[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+获取这个包含的字符数[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public int Count { get; }

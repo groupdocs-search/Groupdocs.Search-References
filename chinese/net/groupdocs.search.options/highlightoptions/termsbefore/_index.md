@@ -1,14 +1,14 @@
 ---
 title: TermsBefore
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置文本片段中突出显示的单词之前的最大单词数 值必须在 0 到 10000 的范围内 默认值为7.
+description: 获取或设置文本片段中突出显示单词之前的最大单词数 值必须在 0 到 10000 之间 默认值为7.
 type: docs
-weight: 40
+weight: 60
 url: /zh/net/groupdocs.search.options/highlightoptions/termsbefore/
 ---
 ## HighlightOptions.TermsBefore property
 
-获取或设置文本片段中突出显示的单词之前的最大单词数。 值必须在 0 到 10000 的范围内。 默认值为`7`.
+获取或设置文本片段中突出显示单词之前的最大单词数。 值必须在 0 到 10000 之间。 默认值为`7`.
 
 ```csharp
 public int TermsBefore { get; set; }

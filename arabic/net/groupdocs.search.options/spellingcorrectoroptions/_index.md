@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لمصحح الإملاء.
 type: docs
-weight: 1020
+weight: 1060
 url: /ar/net/groupdocs.search.options/spellingcorrectoroptions/
 ---
 ## SpellingCorrectorOptions class
@@ -19,9 +19,9 @@ public class SpellingCorrectorOptions
 | اسم | وصف |
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/spellingcorrectoroptions/considertranspositions) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الخوارزمية يجب اعتبار تحويل حرفين متجاورين خطأ واحدًا.`حقيقي` . |
-| [Enabled](../../groupdocs.search.options/spellingcorrectoroptions/enabled) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان مصحح الإملاء ممكّنًا. القيمة الافتراضية هي`خاطئة` . |
+| [Enabled](../../groupdocs.search.options/spellingcorrectoroptions/enabled) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان مصحح الإملاء ممكّنًا. القيمة الافتراضية هي`خطأ شنيع` . |
 | [MaxMistakeCount](../../groupdocs.search.options/spellingcorrectoroptions/maxmistakecount) { get; set; } | الحصول على أو تحديد الحد الأقصى لعدد الأخطاء. القيمة الافتراضية هي`2` . |
-| [OnlyBestResults](../../groupdocs.search.options/spellingcorrectoroptions/onlybestresults) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هي`خاطئة` . |
+| [OnlyBestResults](../../groupdocs.search.options/spellingcorrectoroptions/onlybestresults) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إرجاع أفضل النتائج فقط. القيمة الافتراضية هي`خطأ شنيع` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/spellingcorrectoroptions/onlybestresultsrange) { get; set; } | الحصول على أو تعيين الحد الأقصى الذي يتجاوز الحد الأدنى لعدد الأخطاء التي تم العثور عليها. القيمة الافتراضية هي`0` . |
 
 ### ملاحظات

@@ -1,14 +1,14 @@
 ---
 title: EnabledForEmbeddedImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar örneğin bir DOCX belgesindeki görüntüler. Varsayılan değeryanlış .
+description: Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar örneğin bir DOCX belgesindeki görüntüler. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search.options/imageindexingoptions/enabledforembeddedimages/
 ---
 ## ImageIndexingOptions.EnabledForEmbeddedImages property
 
-Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki görüntüler). Varsayılan değer:`yanlış` .
+Gömülü görüntülerin dizine eklenip eklenmeyeceğini belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki görüntüler). Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForEmbeddedImages { get; set; }

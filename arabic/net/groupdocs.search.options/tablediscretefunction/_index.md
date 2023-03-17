@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل خوارزمية البحث الغامض التي تحتوي على مراسلات بين أطوال الكلمات وعدد الأخطاء المسموح بها. يمكن تحديد هذه الخوارزمية بواسطة جدول قيم الإخراج أو بواسطة دالة الخطوة .
 type: docs
-weight: 1050
+weight: 1090
 url: /ar/net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

@@ -1,14 +1,14 @@
 ---
 title: ODP
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 ODP 扩展名的文件表示 OpenOffice.org 在 OASIS Open 标准中使用的演示文件格式 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/presentation/odp/.
+description: 具有 ODP 扩展名的文件表示 OpenOffice.org 在 OASIS 开放标准中使用的演示文件格式 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/presentation/odp/.
 type: docs
 weight: 380
 url: /zh/net/groupdocs.search.results/filetype/odp/
 ---
 ## FileType.ODP field
 
-带有 ODP 扩展名的文件表示 OpenOffice.org 在 OASIS Open 标准中使用的演示文件格式。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/presentation/odp/).
+具有 ODP 扩展名的文件表示 OpenOffice.org 在 OASIS 开放标准中使用的演示文件格式。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/presentation/odp/).
 
 ```csharp
 public static readonly FileType ODP;

@@ -1,14 +1,14 @@
 ---
 title: LastSavedTime
 second_title: GroupDocs.Search for .NET API 参考
-description: 上次保存的时间字段名称
+description: 最后保存的时间字段名.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.search.options/presentationfieldnames/lastsavedtime/
 ---
 ## PresentationFieldNames.LastSavedTime field
 
-上次保存的时间字段名称。
+最后保存的时间字段名.
 
 ```csharp
 public const string LastSavedTime;

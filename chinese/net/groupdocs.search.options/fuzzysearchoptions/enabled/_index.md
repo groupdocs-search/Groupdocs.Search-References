@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置是否启用模糊搜索功能的值 默认值为错误的.
+description: 获取或设置一个值表示是否启用模糊搜索功能 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-获取或设置是否启用模糊搜索功能的值。 默认值为`错误的`.
+获取或设置一个值，表示是否启用模糊搜索功能。 默认值为`错误的`.
 
 ```csharp
 public bool Enabled { get; set; }

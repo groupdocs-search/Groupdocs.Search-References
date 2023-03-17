@@ -1,14 +1,14 @@
 ---
 title: XLS
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung XLS repräsentieren das ExcelBinärdateiformat. Solche Dateien können von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/specification/spreadsheet/xls/ .
+description: Dateien mit der Erweiterung XLS repräsentieren das ExcelBinärdateiformat. Solche Dateien können von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/specification/spreadsheet/xls/ .
 type: docs
 weight: 740
 url: /de/net/groupdocs.search.results/filetype/xls/
 ---
 ## FileType.XLS field
 
-Dateien mit der Erweiterung XLS repräsentieren das Excel-Binärdateiformat. Solche Dateien können von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/specification/spreadsheet/xls/) .
+Dateien mit der Erweiterung XLS repräsentieren das Excel-Binärdateiformat. Solche Dateien können von Microsoft Excel sowie anderen ähnlichen Tabellenkalkulationsprogrammen wie OpenOffice Calc oder Apple Numbers erstellt werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/specification/spreadsheet/xls/) .
 
 ```csharp
 public static readonly FileType XLS;

@@ -3,7 +3,7 @@ title: ISearchDocumentFilter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Arama belgesi filtresini temsil eder. KullanınSearchDocumentFilter./searchdocumentfilter filtre örnekleri oluşturmak için sınıf.
 type: docs
-weight: 850
+weight: 880
 url: /tr/net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface

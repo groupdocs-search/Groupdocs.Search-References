@@ -1,14 +1,14 @@
 ---
 title: Alphabet
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示在索引期间用于检测字符类型的字符字典 每个字符都可以作为分隔符字母或两者处理
+description: 表示在索引期间用于检测字符类型的字符字典 每个字符都可以作为分隔符字母或两者来处理
 type: docs
-weight: 360
+weight: 370
 url: /zh/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class
 
-表示在索引期间用于检测字符类型的字符字典。 每个字符都可以作为分隔符、字母或两者处理。
+表示在索引期间用于检测字符类型的字符字典。 每个字符都可以作为分隔符、字母或两者来处理。
 
 ```csharp
 public class Alphabet : DictionaryBase, IEnumerable<char>
@@ -18,7 +18,7 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/alphabet/count) { get; } | 获取包含在[`Alphabet`](../alphabet). |
+| [Count](../../groupdocs.search.dictionaries/alphabet/count) { get; } | 获取包含的字符数[`Alphabet`](../alphabet). |
 
 ## 方法
 
@@ -26,14 +26,14 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 | --- | --- |
 | [Clear](../../groupdocs.search.dictionaries/alphabet/clear)() | 设置Separator键入此中的所有字符[`Alphabet`](../alphabet). |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
-| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype)(char) | 获取字符的类型。 |
+| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype)(char) | 获取一个字符的类型。 |
 | [GetEnumerator](../../groupdocs.search.dictionaries/alphabet/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | 从指定文件导入字典。 |
 | [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange)(char[], CharacterType) | 设置此实例中指定集合的每个字符的类型[`Alphabet`](../alphabet). |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [字符类型](https://docs.groupdocs.com/display/searchnet/Character+types)
 * [管理字母表](https://docs.groupdocs.com/display/searchnet/Alphabet)

@@ -11,15 +11,17 @@ url: /sv/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 Initierar en ny instans av[`StreamOutputAdapter`](../../streamoutputadapter) class.
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Utdataformatet. |
 | stream | Stream | Utgångsströmmen. |
 
 ### Se även
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * namnutrymme [GroupDocs.Search.Common](../../streamoutputadapter)
 * hopsättning [GroupDocs.Search](../../../)

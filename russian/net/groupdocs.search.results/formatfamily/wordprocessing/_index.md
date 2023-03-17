@@ -1,14 +1,14 @@
 ---
 title: WordProcessing
 second_title: GroupDocs.Search для справочника API .NET
-description: Представляет форматы обработки текста.
+description: Представляет форматы обработки текстов.
 type: docs
 weight: 240
 url: /ru/net/groupdocs.search.results/formatfamily/wordprocessing/
 ---
 ## FormatFamily.WordProcessing field
 
-Представляет форматы обработки текста.
+Представляет форматы обработки текстов.
 
 ```csharp
 public static readonly FormatFamily WordProcessing;

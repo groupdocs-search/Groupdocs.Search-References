@@ -1,14 +1,14 @@
 ---
 title: SearchOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化SearchOptionsgroupdocs.search.options/searchoptions类.
+description: 初始化一个新的实例SearchOptionsgroupdocs.search.options/searchoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/searchoptions/searchoptions/
 ---
 ## SearchOptions constructor
 
-初始化[`SearchOptions`](../../searchoptions)类.
+初始化一个新的实例[`SearchOptions`](../../searchoptions)类.
 
 ```csharp
 public SearchOptions()

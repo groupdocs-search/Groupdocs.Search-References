@@ -3,7 +3,7 @@ title: IndexType
 second_title: GroupDocs.Search для справочника API .NET
 description: Задает тип индекса.
 type: docs
-weight: 890
+weight: 920
 url: /ru/net/groupdocs.search.options/indextype/
 ---
 ## IndexType enumeration
@@ -24,7 +24,7 @@ public enum IndexType
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Настройки поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

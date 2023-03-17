@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化Colorgroupdocs.search.options/color类.
+description: 初始化一个新的实例Colorgroupdocs.search.options/color类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/color/color/
 ---
 ## Color(int, int, int, int) {#constructor_1}
 
-初始化[`Color`](../../color)类.
+初始化一个新的实例[`Color`](../../color)类.
 
 ```csharp
 public Color(int alpha, int red, int green, int blue)
@@ -19,7 +19,7 @@ public Color(int alpha, int red, int green, int blue)
 | alpha | Int32 | 从 0 到 255 的 alpha 分量。 |
 | red | Int32 | 从 0 到 255 的红色分量。 |
 | green | Int32 | 从 0 到 255 的绿色分量。 |
-| blue | Int32 | 蓝色分量从 0 到 255。 |
+| blue | Int32 | 从 0 到 255 的蓝色分量。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public Color(int alpha, int red, int green, int blue)
 
 ## Color(int, int, int) {#constructor}
 
-初始化[`Color`](../../color)类.
+初始化一个新的实例[`Color`](../../color)类.
 
 ```csharp
 public Color(int red, int green, int blue)
@@ -41,7 +41,7 @@ public Color(int red, int green, int blue)
 | --- | --- | --- |
 | red | Int32 | 从 0 到 255 的红色分量。 |
 | green | Int32 | 从 0 到 255 的绿色分量。 |
-| blue | Int32 | 蓝色分量从 0 到 255。 |
+| blue | Int32 | 从 0 到 255 的蓝色分量。 |
 
 ### 也可以看看
 

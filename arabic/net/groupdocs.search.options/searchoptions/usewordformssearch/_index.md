@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 140
 url: /ar/net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين علامة استخدام أشكال الكلمات المختلفة في البحث . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }

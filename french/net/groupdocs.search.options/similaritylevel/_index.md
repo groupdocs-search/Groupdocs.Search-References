@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un algorithme de la recherche floue qui spécifie le niveau de similarité. Lalgorithme de niveau de similarité calcule le nombre maximum derreurs pour un mot comme inversement proportionnel à la longueur du mot.
 type: docs
-weight: 1010
+weight: 1050
 url: /fr/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -50,7 +50,7 @@ options.FuzzySearch.Enabled = true; // Activation de la recherche floue
 options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8); // Création de l'algorithme de recherche floue
 // Cette fonction spécifie 0 comme nombre maximum d'erreurs pour les mots de 1 à 4 caractères.
 // Il spécifie 1 comme nombre maximum d'erreurs pour les mots de 5 à 9 caractères.
-// Il spécifie 2 comme nombre maximum d'erreurs pour les mots de 10 à 14 caractères. Etc.
+// Il spécifie 2 comme nombre maximum d'erreurs pour les mots de 10 à 14 caractères. Et ainsi de suite.
 
 SearchResult result = index.Search(query, options); // Recherche dans l'index
 ```

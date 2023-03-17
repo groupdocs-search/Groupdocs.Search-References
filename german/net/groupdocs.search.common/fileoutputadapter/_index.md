@@ -18,17 +18,18 @@ public class FileOutputAdapter : OutputAdapter
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | Initialisiert eine neue Instanz von[`FileOutputAdapter`](../fileoutputadapter) Klasse. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Initialisiert eine neue Instanz von[`FileOutputAdapter`](../fileoutputadapter) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | Ruft einen Ausgabedateipfad ab. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Ruft das Ausgabeformat ab. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ausgangsadapter](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 

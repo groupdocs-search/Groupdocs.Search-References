@@ -1,14 +1,14 @@
 ---
 title: MOV
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: MOV veya QuickTime Dosya formatı Apple tarafından geliştirilen bir multimedya kapsayıcıdır bir veya daha fazla parça içerir her iz Video Ses metin vb. gibi belirli bir veri türünü içerir. Bu dosya formatı hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/video/mov/ .
+description: MOV veya QuickTime Dosya formatı Apple tarafından geliştirilen bir multimedya kapsayıcıdır bir veya daha fazla parça içerir her iz Video Ses metin vb. gibi belirli bir veri türünü içerir. Bu dosya formatı hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/video/mov/ .
 type: docs
 weight: 340
 url: /tr/net/groupdocs.search.results/filetype/mov/
 ---
 ## FileType.MOV field
 
-MOV veya QuickTime Dosya formatı, Apple tarafından geliştirilen bir multimedya kapsayıcıdır: bir veya daha fazla parça içerir, her iz, Video, Ses, metin vb. gibi belirli bir veri türünü içerir. Bu dosya formatı hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/video/mov/) .
+MOV veya QuickTime Dosya formatı, Apple tarafından geliştirilen bir multimedya kapsayıcıdır: bir veya daha fazla parça içerir, her iz, Video, Ses, metin vb. gibi belirli bir veri türünü içerir. Bu dosya formatı hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/video/mov/) .
 
 ```csharp
 public static readonly FileType MOV;

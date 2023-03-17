@@ -1,14 +1,14 @@
 ---
 title: SingleFormat
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取单个格式字符串
+description: 获取单一格式字符串
 type: docs
 weight: 120
 url: /zh/net/groupdocs.search.options/dateformatelement/singleformat/
 ---
 ## DateFormatElement.SingleFormat property
 
-获取单个格式字符串。
+获取单一格式字符串。
 
 ```csharp
 public string SingleFormat { get; }

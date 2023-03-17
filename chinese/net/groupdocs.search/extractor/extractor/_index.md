@@ -1,14 +1,14 @@
 ---
 title: Extractor
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化Extractorgroupdocs.search/extractor类.
+description: 初始化一个新的实例Extractorgroupdocs.search/extractor类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/extractor/extractor/
 ---
 ## Extractor constructor
 
-初始化[`Extractor`](../../extractor)类.
+初始化一个新的实例[`Extractor`](../../extractor)类.
 
 ```csharp
 public Extractor()

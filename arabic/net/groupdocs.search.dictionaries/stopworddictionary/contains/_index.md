@@ -20,7 +20,7 @@ public bool Contains(string word)
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان[`StopWordDictionary`](../../stopworddictionary) يحتوي الكائن على الكلمة المحددة ؛ خلاف ذلك،`خاطئة` .
+`حقيقي` إذا كان[`StopWordDictionary`](../../stopworddictionary) يحتوي الكائن على الكلمة المحددة ؛ خلاف ذلك،`خطأ شنيع` .
 
 ### أنظر أيضا
 

@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Birkaç benzer formatı birleştiren bir format ailesini belirtir.
 type: docs
-weight: 1130
+weight: 1170
 url: /tr/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class

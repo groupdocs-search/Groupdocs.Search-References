@@ -16,7 +16,7 @@ public ImageLocation ImageLocation { get; }
 
 ### 适当的价值
 
-图像的位置。
+图片的位置。
 
 ### 也可以看看
 

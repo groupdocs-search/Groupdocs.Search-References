@@ -16,7 +16,7 @@ public class ChunkSearchToken
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca per blocchi](https://docs.groupdocs.com/display/searchnet/Search+by+chunks)
 

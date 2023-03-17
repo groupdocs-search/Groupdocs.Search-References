@@ -1,14 +1,14 @@
 ---
 title: HighlightOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化HighlightOptionsgroupdocs.search.options/highlightoptions类.
+description: 初始化一个新的实例HighlightOptionsgroupdocs.search.options/highlightoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/highlightoptions/highlightoptions/
 ---
 ## HighlightOptions constructor
 
-初始化[`HighlightOptions`](../../highlightoptions)类.
+初始化一个新的实例[`HighlightOptions`](../../highlightoptions)类.
 
 ```csharp
 public HighlightOptions()

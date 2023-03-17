@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Arama belgesi filtreleri oluşturmak için yöntemler içerir.
 type: docs
-weight: 990
+weight: 1030
 url: /tr/net/groupdocs.search.options/searchdocumentfilter/
 ---
 ## SearchDocumentFilter class

@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs.Search for .NET API 参考
 description: 触发许可限制时抛出的异常
 type: docs
-weight: 600
+weight: 610
 url: /zh/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class
@@ -16,7 +16,7 @@ public class LicenseRestrictionException : ApplicationException
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [评估限制和许可](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

@@ -3,7 +3,7 @@ title: ImageSearchResult
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar resultatet av en omvänd bildsökning.
 type: docs
-weight: 1170
+weight: 1210
 url: /sv/net/groupdocs.search.results/imagesearchresult/
 ---
 ## ImageSearchResult class

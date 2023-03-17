@@ -1,14 +1,14 @@
 ---
 title: IndexRepository
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化IndexRepositorygroupdocs.search/indexrepository类.
+description: 初始化一个新的实例IndexRepositorygroupdocs.search/indexrepository类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/indexrepository/indexrepository/
 ---
 ## IndexRepository constructor
 
-初始化[`IndexRepository`](../../indexrepository)类.
+初始化一个新的实例[`IndexRepository`](../../indexrepository)类.
 
 ```csharp
 public IndexRepository()

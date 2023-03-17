@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en stavningskorrigerare för termer i en fråga.
 type: docs
-weight: 460
+weight: 470
 url: /sv/net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class

@@ -3,7 +3,7 @@ title: ImageSearchOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет опции для обратного поиска изображения.
 type: docs
-weight: 880
+weight: 910
 url: /ru/net/groupdocs.search.options/imagesearchoptions/
 ---
 ## ImageSearchOptions class

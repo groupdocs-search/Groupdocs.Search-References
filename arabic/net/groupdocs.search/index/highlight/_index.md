@@ -36,7 +36,7 @@ index.Add(documentFolder);
 // ابحث عن كلمة "الخلود"
 SearchResult result = index.Search("eternity");
 
-// تسليط الضوء على التكرارات في النص
+// إبراز التكرارات في النص
 if (result.DocumentCount > 0)
 {
     FoundDocument document = result.GetFoundDocument(0); // الحصول على أول مستند تم العثور عليه
@@ -87,7 +87,7 @@ index.Add(documentFolder);
 // ابحث عن كلمة "الخلود"
 SearchResult result = index.Search("eternity");
 
-// تسليط الضوء على التكرارات في النص
+// إبراز التكرارات في النص
 if (result.DocumentCount > 0)
 {
     FoundDocument document = result.GetFoundDocument(0); // الحصول على أول مستند تم العثور عليه

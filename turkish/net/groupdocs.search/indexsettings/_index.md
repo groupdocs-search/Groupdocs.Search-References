@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizinleme işlemlerinin özelleştirilmesine izin veren dizin ayarlarını temsil eder.
 type: docs
-weight: 670
+weight: 700
 url: /tr/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -24,7 +24,7 @@ public class IndexSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | Özel çıkarıcı koleksiyonunu alır. |
 | [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Bir belge filtresi alır veya ayarlar. [`DocumentFilter`](./documentfilter) dahil etme mantığı üzerinde çalışır. [`DocumentFilter`](../../groupdocs.search.options/documentfilter) belge filtresi örnekleri oluşturmak için sınıf. Varsayılan değer:`hükümsüz` , bu, eklenen tüm belgelerin dizine eklendiği anlamına gelir. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | Dizin türünü alır veya ayarlar. Varsayılan değer:NormalIndex . |
@@ -34,7 +34,7 @@ public class IndexSettings
 | [MaxSearchReportCount](../../groupdocs.search/indexsettings/maxsearchreportcount) { get; set; } | Maksimum arama raporu sayısını alır veya ayarlar. Varsayılan değer:`10` . |
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Arama için kullanılan iş parçacığının sayısını alır veya ayarlar. Varsayılan değer:Default , , aramanın işlemci çekirdeği sayısına eşit iş parçacığı sayısı kullanılarak gerçekleştirileceği anlamına gelir. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Metin depolama ayarlarını alır veya ayarlar. Varsayılan değer:`hükümsüz` , yani belge metinleri saklanmaz. |
-| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Karakter değişimlerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Mümkünse metin çıkarma için ham modun kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`doğru` . Ham mod, indeksleme hızını önemli ölçüde artırabilir, ancak normal mod, ayıklanan metnin biçimlendirmesini iyileştirir. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Durdurma sözcüklerinin kullanılıp kullanılmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`doğru` . |
 

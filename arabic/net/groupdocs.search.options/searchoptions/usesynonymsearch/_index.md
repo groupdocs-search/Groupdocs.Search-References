@@ -1,14 +1,14 @@
 ---
 title: UseSynonymSearch
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 130
 url: /ar/net/groupdocs.search.options/searchoptions/usesynonymsearch/
 ---
 ## SearchOptions.UseSynonymSearch property
 
-الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين علامة استخدام المرادفات في البحث . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseSynonymSearch { get; set; }

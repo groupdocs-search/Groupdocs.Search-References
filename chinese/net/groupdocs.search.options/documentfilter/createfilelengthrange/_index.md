@@ -21,7 +21,7 @@ public static DocumentFilter CreateFileLengthRange(long lowerBound, long upperBo
 
 ### 返回值
 
-按文档长度过滤的文档。
+按文档长度过滤文档。
 
 ### 也可以看看
 

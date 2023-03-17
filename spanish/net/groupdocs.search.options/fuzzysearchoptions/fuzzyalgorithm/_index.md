@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente sonSimilarityLevelgroupdocs.search.options/similaritylevel yTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . El valor predeterminado es una instancia deSimilarityLevelgroupdocs.search.options/similaritylevel con un valor de nivel de similitud de0.5 .
+description: Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente sonSimilarityLevelgroupdocs.search.options/similaritylevel yTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. El valor predeterminado es una instancia deSimilarityLevelgroupdocs.search.options/similaritylevel con un valor de nivel de similitud de0.5 .
 type: docs
 weight: 30
 url: /es/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente son[`SimilarityLevel`](../../similaritylevel) y[`TableDiscreteFunction`](../../tablediscretefunction) . El valor predeterminado es una instancia de[`SimilarityLevel`](../../similaritylevel) con un valor de nivel de similitud de`0.5` .
+Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente son[`SimilarityLevel`](../../similaritylevel) y[`TableDiscreteFunction`](../../tablediscretefunction). El valor predeterminado es una instancia de[`SimilarityLevel`](../../similaritylevel) con un valor de nivel de similitud de`0.5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }

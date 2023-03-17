@@ -1,14 +1,14 @@
 ---
 title: ZIP
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Die ZIPDateierweiterung steht für Archive die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/compression/zip/ .
+description: Die ZIPDateierweiterung steht für Archive die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/compression/zip/ .
 type: docs
 weight: 820
 url: /de/net/groupdocs.search.results/filetype/zip/
 ---
 ## FileType.ZIP field
 
-Die ZIP-Dateierweiterung steht für Archive, die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/compression/zip/) .
+Die ZIP-Dateierweiterung steht für Archive, die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/compression/zip/) .
 
 ```csharp
 public static readonly FileType ZIP;

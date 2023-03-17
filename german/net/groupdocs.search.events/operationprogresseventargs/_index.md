@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt Argumente für das Ereignis dar dass der Fortschritt des Indizierungsvorgangs aktualisiert wird.
 type: docs
-weight: 550
+weight: 560
 url: /de/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class
@@ -32,7 +32,7 @@ public class OperationProgressEventArgs : BaseIndexEventArgs
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

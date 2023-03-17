@@ -16,7 +16,7 @@ public DocumentStatus LastDocumentStatus { get; }
 
 ### Eigentumswert
 
-Der zuletzt verarbeitete Dokumentenstatus.
+Der zuletzt verarbeitete Dokumentstatus.
 
 ### Siehe auch
 

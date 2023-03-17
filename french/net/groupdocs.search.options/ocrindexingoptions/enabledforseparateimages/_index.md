@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant sil faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant sil faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut estFAUX .
 type: docs
 weight: 30
 url: /fr/net/groupdocs.search.options/ocrindexingoptions/enabledforseparateimages/
 ---
 ## OcrIndexingOptions.EnabledForSeparateImages property
 
-Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant s'il faut reconnaître le texte dans des fichiers image distincts. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

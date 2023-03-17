@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta le impostazioni dellindice che consentono di personalizzare le operazioni di indicizzazione.
 type: docs
-weight: 670
+weight: 700
 url: /it/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -40,7 +40,7 @@ public class IndexSettings
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Impostazioni dell'indice di ricerca](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt das Ergebnis des Vorgangs zum Löschen einer indizierten Datei oder eines Ordners aus einem Index dar.
 type: docs
-weight: 1180
+weight: 1220
 url: /de/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class
@@ -24,7 +24,7 @@ public class PathDeleteResult
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Löschen Sie indizierte Pfade](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
 

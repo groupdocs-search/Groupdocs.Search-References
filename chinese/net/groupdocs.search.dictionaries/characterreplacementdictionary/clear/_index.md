@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: GroupDocs.Search for .NET API 参考
-description: 删除所有字符替换CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary对象.
+description: 从 a 中删除所有字符替换CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary对象.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementdictionary/clear/
 ---
 ## CharacterReplacementDictionary.Clear method
 
-删除所有字符替换[`CharacterReplacementDictionary`](../../characterreplacementdictionary)对象.
+从 a 中删除所有字符替换[`CharacterReplacementDictionary`](../../characterreplacementdictionary)对象.
 
 ```csharp
 public void Clear()

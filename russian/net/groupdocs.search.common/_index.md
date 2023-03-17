@@ -30,12 +30,13 @@ url: /ru/net/groupdocs.search.common/
 | [IndexInfo](./indexinfo) | Содержит основную информацию о[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Представляет подробную информацию об операции индексирования. |
 | [Notification](./notification) | Базовый класс для всех уведомлений в индекс. Этот класс также содержит методы для создания объектов уведомлений. |
-| [OutputAdapter](./outputadapter) | Представляет базовый класс адаптера вывода, который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптеры:[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , а также[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Представляет базовый класс адаптера вывода, который используется для сбора вывода в обобщенной форме. В настоящее время доступны следующие адаптеры:[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , и[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Представляет базовый класс фабрики построителя результатов. |
 | [SearchImage](./searchimage) | Представляет изображение для поиска. |
 | [SearchReport](./searchreport) | Представляет подробную информацию об операции поиска. |
 | [StreamOutputAdapter](./streamoutputadapter) | Представляет выходной адаптер, собирающий выходные данные вStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Представляет адаптер вывода, который собирает вывод в видеString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Представляет адаптер вывода, который собирает выходные данные в виде структуры, содержащей каждое поле отдельно. |
 | [WordPattern](./wordpattern) | Представляет шаблон слова для использования в поиске слов с подстановочными знаками. |
 ## Интерфейсы
 

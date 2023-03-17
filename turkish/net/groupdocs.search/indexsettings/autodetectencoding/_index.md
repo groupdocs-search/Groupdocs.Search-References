@@ -1,14 +1,14 @@
 ---
 title: AutoDetectEncoding
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search/indexsettings/autodetectencoding/
 ---
 ## IndexSettings.AutoDetectEncoding property
 
-Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Kodlamanın otomatik olarak algılanıp algılanmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool AutoDetectEncoding { get; set; }

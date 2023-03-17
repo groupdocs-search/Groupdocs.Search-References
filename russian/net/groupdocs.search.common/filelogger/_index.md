@@ -36,9 +36,9 @@ public class FileLogger : ILogger
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
-* [логирование](https://docs.groupdocs.com/display/searchnet/Logging)
+* [Ведение журнала](https://docs.groupdocs.com/display/searchnet/Logging)
 
 ### Примеры
 

@@ -20,7 +20,7 @@ public void AddToRepository(Index index)
 
 ### 例子
 
-该示例演示了如何将索引添加到索引存储库。
+该示例演示如何将索引添加到索引存储库。
 
 ```csharp
 Index index = new Index();
@@ -41,7 +41,7 @@ indexRepository.AddToRepository(index);
 
 ## AddToRepository(string) {#addtorepository_1}
 
-打开索引并将索引添加到索引存储库。
+打开索引并将其添加到索引存储库。
 
 ```csharp
 public void AddToRepository(string indexFolder)
@@ -53,7 +53,7 @@ public void AddToRepository(string indexFolder)
 
 ### 例子
 
-该示例演示了如何将索引添加到索引存储库。
+该示例演示如何将索引添加到索引存储库。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

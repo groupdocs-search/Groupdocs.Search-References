@@ -1,14 +1,14 @@
 ---
 title: CreatePhraseSearchQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个短语搜索查询
+description: 创建短语搜索查询
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search/searchquery/createphrasesearchquery/
 ---
 ## SearchQuery.CreatePhraseSearchQuery method
 
-创建一个短语搜索查询。
+创建短语搜索查询。
 
 ```csharp
 public static SearchQuery CreatePhraseSearchQuery(params SearchQuery[] queries)
@@ -16,7 +16,7 @@ public static SearchQuery CreatePhraseSearchQuery(params SearchQuery[] queries)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| queries | SearchQuery[] | 子查询。 |
+| queries | SearchQuery[] | 孩子问。 |
 
 ### 返回值
 

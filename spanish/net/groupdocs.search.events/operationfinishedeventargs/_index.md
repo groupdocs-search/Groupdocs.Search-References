@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa argumentos para el evento de finalización de la operación de indexación.
 type: docs
-weight: 540
+weight: 550
 url: /es/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class

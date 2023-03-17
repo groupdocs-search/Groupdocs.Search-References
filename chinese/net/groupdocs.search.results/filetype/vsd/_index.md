@@ -1,14 +1,14 @@
 ---
 title: VSD
 second_title: GroupDocs.Search for .NET API 参考
-description: VSD 文件是使用 Microsoft Visio 应用程序创建的图形用于表示各种图形 对象以及这些对象之间的互连了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/vsd/.
+description: VSD 文件是使用 Microsoft Visio 应用程序创建的图形用于表示各种图形 对象以及它们之间的互连详细了解此文件格式 这里https//wiki.fileformat.com/image/vsd/.
 type: docs
 weight: 660
 url: /zh/net/groupdocs.search.results/filetype/vsd/
 ---
 ## FileType.VSD field
 
-VSD 文件是使用 Microsoft Visio 应用程序创建的图形，用于表示各种图形 对象以及这些对象之间的互连。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/vsd/).
+VSD 文件是使用 Microsoft Visio 应用程序创建的图形，用于表示各种图形 对象以及它们之间的互连。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/vsd/).
 
 ```csharp
 public static readonly FileType VSD;

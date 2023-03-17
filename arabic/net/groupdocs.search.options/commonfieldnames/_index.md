@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 720
+weight: 750
 url: /ar/net/groupdocs.search.options/commonfieldnames/
 ---
 ## CommonFieldNames class

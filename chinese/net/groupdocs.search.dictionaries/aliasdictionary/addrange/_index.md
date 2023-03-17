@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的别名/替换对集合添加到AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
+description: 将指定的别名/替换对集合添加到该实例AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.dictionaries/aliasdictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) {#addrange_2}
 
-将指定的别名/替换对集合添加到[`AliasDictionary`](../../aliasdictionary).
+将指定的别名/替换对集合添加到该实例[`AliasDictionary`](../../aliasdictionary).
 
 ```csharp
 public void AddRange(IEnumerable<KeyValuePair<string, string>> pairs)
@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<KeyValuePair<string, string>> pairs)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*pairs*是`无效的`. |
+| ArgumentNullException | 抛出时*pairs*是`无效的`. |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public void AddRange(IEnumerable<KeyValuePair<string, string>> pairs)
 
 ## AddRange(IEnumerable&lt;AliasReplacementPair&gt;) {#addrange_1}
 
-将指定的别名/替换对集合添加到[`AliasDictionary`](../../aliasdictionary).
+将指定的别名/替换对集合添加到该实例[`AliasDictionary`](../../aliasdictionary).
 
 ```csharp
 public void AddRange(IEnumerable<AliasReplacementPair> pairs)
@@ -48,7 +48,7 @@ public void AddRange(IEnumerable<AliasReplacementPair> pairs)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*pairs*是`无效的`. |
+| ArgumentNullException | 抛出时*pairs*是`无效的`. |
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public void AddRange(IEnumerable<AliasReplacementPair> pairs)
 
 ## AddRange(AliasReplacementPair[]) {#addrange}
 
-将指定的别名/替换对集合添加到[`AliasDictionary`](../../aliasdictionary).
+将指定的别名/替换对集合添加到该实例[`AliasDictionary`](../../aliasdictionary).
 
 ```csharp
 public void AddRange(AliasReplacementPair[] pairs)
@@ -75,7 +75,7 @@ public void AddRange(AliasReplacementPair[] pairs)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*pairs*是`无效的`. |
+| ArgumentNullException | 抛出时*pairs*是`无效的`. |
 
 ### 也可以看看
 

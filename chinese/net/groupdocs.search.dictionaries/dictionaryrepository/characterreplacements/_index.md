@@ -16,7 +16,7 @@ public CharacterReplacementDictionary CharacterReplacements { get; }
 
 ### 适当的价值
 
-字符替换字典。
+字符替换词典。
 
 ### 也可以看看
 

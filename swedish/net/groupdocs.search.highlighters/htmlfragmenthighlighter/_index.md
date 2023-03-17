@@ -3,7 +3,7 @@ title: HtmlFragmentHighlighter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en överstrykning av sökresultat som framhäver sökresultat i HTMLformaterade textfragment.
 type: docs
-weight: 630
+weight: 660
 url: /sv/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
@@ -11,20 +11,15 @@ url: /sv/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 Representerar en överstrykning av sökresultat som framhäver sökresultat i HTML-formaterade textfragment.
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## Konstruktörer
+## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | Initierar en ny instans av[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter) class. |
-
-## Metoder
-
-| namn | Beskrivning |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | Får en array av resulterande fragmentbehållare. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 
 ### Anmärkningar
 

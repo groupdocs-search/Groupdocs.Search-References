@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет шаг ступенчатой функции.
 type: docs
-weight: 1040
+weight: 1080
 url: /ru/net/groupdocs.search.options/step/
 ---
 ## Step class
@@ -29,7 +29,7 @@ public class Step
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Нечеткий поиск](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

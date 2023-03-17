@@ -1,14 +1,14 @@
 ---
 title: MHTML
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione MHTML rappresentano un formato di archivio di pagine Web che può essere creato da diverse applicazioni. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/mhtml/ .
+description: I file con estensione MHTML rappresentano un formato di archivio di pagine Web che può essere creato da diverse applicazioni. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/mhtml/ .
 type: docs
 weight: 330
 url: /it/net/groupdocs.search.results/filetype/mhtml/
 ---
 ## FileType.MHTML field
 
-I file con estensione MHTML rappresentano un formato di archivio di pagine Web che può essere creato da diverse applicazioni. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/mhtml/) .
+I file con estensione MHTML rappresentano un formato di archivio di pagine Web che può essere creato da diverse applicazioni. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/mhtml/) .
 
 ```csharp
 public static readonly FileType MHTML;

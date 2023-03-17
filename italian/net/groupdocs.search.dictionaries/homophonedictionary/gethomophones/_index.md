@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Valore di ritorno
 
-Gli omofoni per la parola specificata o l'array vuoto se il[`HomophoneDictionary`](../../homophonedictionary)l'oggetto non contiene la parola specificata.
+Gli omofoni per la parola specificata o l'array vuoto se il[`HomophoneDictionary`](../../homophonedictionary) l'oggetto non contiene la parola specificata.
 
 ### Guarda anche
 

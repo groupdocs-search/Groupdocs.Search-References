@@ -1,14 +1,14 @@
 ---
 title: WAV
 second_title: GroupDocs.Search for .NET API 参考
-description: WAV以 WAVE波形音频文件格式而闻名是 Microsoft 的资源交换文件格式 RIFF 规范的子集用于存储数字音频文件 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/audio/wav/.
+description: WAV以 WAVE波形音频文件格式而闻名是 Microsoft 资源交换文件格式 RIFF 的子集 用于存储数字音频文件的规范 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/audio/wav/.
 type: docs
 weight: 680
 url: /zh/net/groupdocs.search.results/filetype/wav/
 ---
 ## FileType.WAV field
 
-WAV，以 WAVE（波形音频文件格式）而闻名，是 Microsoft 的资源交换文件格式 (RIFF) 规范的子集，用于存储数字音频文件。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/audio/wav/).
+WAV，以 WAVE（波形音频文件格式）而闻名，是 Microsoft 资源交换文件格式 (RIFF) 的子集 用于存储数字音频文件的规范。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/audio/wav/).
 
 ```csharp
 public static readonly FileType WAV;

@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет шаблон слова для использования в поиске слов с подстановочными знаками.
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class
@@ -35,7 +35,7 @@ public class WordPattern
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск с подстановочными знаками](https://docs.groupdocs.com/display/searchnet/Wildcard+search)
 * [Поиск по фразе](https://docs.groupdocs.com/display/searchnet/Phrase+search)

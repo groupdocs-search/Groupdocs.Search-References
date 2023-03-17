@@ -1,14 +1,14 @@
 ---
 title: CreateFromStream
 second_title: GroupDocs.Search for .NET API 参考
-description: 从流中创建一个文档
+description: 从流创建文档
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.common/document/createfromstream/
 ---
 ## Document.CreateFromStream method
 
-从流中创建一个文档。
+从流创建文档。
 
 ```csharp
 public static Document CreateFromStream(string documentKey, DateTime modificationDate, 
@@ -17,8 +17,8 @@ public static Document CreateFromStream(string documentKey, DateTime modificatio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentKey | String | 文档键。 |
-| modificationDate | DateTime | 文件修改日期。 |
+| documentKey | String | 文档密钥。 |
+| modificationDate | DateTime | 文档修改日期。 |
 | extension | String | 文档扩展名。 |
 | stream | Stream | 文档流。 |
 

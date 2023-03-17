@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado esFALSO .
 type: docs
 weight: 30
 url: /es/net/groupdocs.search.options/imageindexingoptions/enabledforseparateimages/
 ---
 ## ImageIndexingOptions.EnabledForSeparateImages property
 
-Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si se indexan archivos de imagen independientes. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

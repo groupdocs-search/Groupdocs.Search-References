@@ -23,7 +23,7 @@ public void Add(string alias, string text)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*alias* oder*text* ist`Null`. |
+| ArgumentNullException | Wann geworfen*alias* oder*text* Ist`Null`. |
 | ArgumentException | Alias enthält Zeichen, die nicht aus den Bereichen ab und 0-9 stammen. |
 
 ### Siehe auch

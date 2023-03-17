@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Start. hazırlayan bir görüntü olayı için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 520
+weight: 530
 url: /tr/net/groupdocs.search.events/imagepreparingeventargs/
 ---
 ## ImagePreparingEventArgs class

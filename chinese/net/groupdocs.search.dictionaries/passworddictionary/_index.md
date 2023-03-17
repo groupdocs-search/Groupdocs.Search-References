@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示文档密码字典
 type: docs
-weight: 450
+weight: 460
 url: /zh/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class
@@ -18,14 +18,14 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/passworddictionary/count) { get; } | 获取字典中包含的元素个数。 |
+| [Count](../../groupdocs.search.dictionaries/passworddictionary/count) { get; } | 获取字典包含的元素个数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../groupdocs.search.dictionaries/passworddictionary/add)(string, string) | 将文档的密码添加到字典中。 |
-| [Clear](../../groupdocs.search.dictionaries/passworddictionary/clear)() | 从中删除所有密码[`PasswordDictionary`](../passworddictionary)对象. |
+| [Clear](../../groupdocs.search.dictionaries/passworddictionary/clear)() | 从此删除所有密码[`PasswordDictionary`](../passworddictionary)对象. |
 | [Contains](../../groupdocs.search.dictionaries/passworddictionary/contains)(string) | 确定字典是否包含指定文档的密码。 |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
 | [GetEnumerator](../../groupdocs.search.dictionaries/passworddictionary/getenumerator)() | 返回一个遍历集合的枚举器。 |
@@ -35,7 +35,7 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [索引受密码保护的文档](https://docs.groupdocs.com/display/searchnet/Indexing+password+protected+documents)
 * [管理文档密码](https://docs.groupdocs.com/display/searchnet/Document+passwords)

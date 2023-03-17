@@ -25,7 +25,7 @@ string documentsFolder = @"c:\MyDocuments\";
 IndexRepository repository = new IndexRepository();
 
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 // 从文档文件夹中删除文档或修改它们或将新文档添加到文件夹中
 
@@ -63,7 +63,7 @@ string documentsFolder = @"c:\MyDocuments\";
 IndexRepository repository = new IndexRepository();
 
 Index index = repository.Create(indexFolder); // 创建索引
-index.Add(documentsFolder); // 索引文档
+index.Add(documentsFolder); // 索引文件
 
 // 从文档文件夹中删除文档或修改它们或将新文档添加到文件夹中
 

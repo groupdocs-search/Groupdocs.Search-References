@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert Argumente für das Ereignis dass der Indizierungsvorgang abgeschlossen ist.
 type: docs
-weight: 540
+weight: 550
 url: /de/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class
@@ -27,7 +27,7 @@ public class OperationFinishedEventArgs : BaseIndexEventArgs
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

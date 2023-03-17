@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Definiert die Schnittstelle eines Wortformanbieters.
 type: docs
-weight: 440
+weight: 450
 url: /de/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
@@ -22,7 +22,7 @@ public interface IWordFormsProvider
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchen Sie nach verschiedenen Wortformen](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
 * [Anbieter von Word-Formularen](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)

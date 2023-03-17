@@ -3,7 +3,7 @@ title: BaseIndexEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Olay bağımsız değişkenlerinin temel sınıfını temsil eder.
 type: docs
-weight: 490
+weight: 500
 url: /tr/net/groupdocs.search.events/baseindexeventargs/
 ---
 ## BaseIndexEventArgs class

@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled/
 ---
 ## KeyboardLayoutCorrectorOptions.Enabled property
 
-Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool Enabled { get; set; }

@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa la clase base para un diccionario.
 type: docs
-weight: 400
+weight: 410
 url: /es/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class

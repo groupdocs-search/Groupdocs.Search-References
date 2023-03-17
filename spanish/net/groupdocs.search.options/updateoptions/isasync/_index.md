@@ -1,14 +1,14 @@
 ---
 title: IsAsync
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado esfalso .
+description: Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado esFALSO .
 type: docs
 weight: 40
 url: /es/net/groupdocs.search.options/updateoptions/isasync/
 ---
 ## UpdateOptions.IsAsync property
 
-Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`falso` .
+Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IsAsync { get; set; }

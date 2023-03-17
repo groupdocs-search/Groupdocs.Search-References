@@ -12,6 +12,8 @@ Der Namespace stellt Hervorhebungen zum Hervorheben von Suchergebnissen im Text 
 
 | Klasse | Beschreibung |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Stellt einen Suchergebnis-Highlighter dar, der Suchergebnisse in einem gesamten Dokumenttext hervorhebt. |
+| [FragmentHighlighter](./fragmenthighlighter) | Stellt einen Suchergebnis-Highlighter dar, der Suchergebnisse in Textfragmenten hervorhebt. |
 | [Highlighter](./highlighter) | Repräsentiert die Basisklasse eines Suchergebnis-Highlighters. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Stellt einen Suchergebnis-Highlighter dar, der Suchergebnisse in HTML-formatierten Textfragmenten hervorhebt. |
 | [HtmlHighlighter](./htmlhighlighter) | Stellt einen Suchergebnis-Highlighter dar, der Suchergebnisse in einem gesamten in HTML formatierten Dokumenttext hervorhebt. |

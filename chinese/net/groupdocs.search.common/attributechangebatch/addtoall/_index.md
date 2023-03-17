@@ -1,14 +1,14 @@
 ---
 title: AddToAll
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定属性添加到索引中的所有文档
+description: 将指定的属性添加到索引中的所有文档
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/attributechangebatch/addtoall/
 ---
 ## AttributeChangeBatch.AddToAll method
 
-将指定属性添加到索引中的所有文档。
+将指定的属性添加到索引中的所有文档。
 
 ```csharp
 public void AddToAll(params string[] attributes)

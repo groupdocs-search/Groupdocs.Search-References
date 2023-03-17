@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الأساسية لخوارزميات البحث الضبابي.
 type: docs
-weight: 810
+weight: 840
 url: /ar/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class

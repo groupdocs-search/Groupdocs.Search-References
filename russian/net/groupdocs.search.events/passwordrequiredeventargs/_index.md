@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет аргументы для события которое происходит когда документ защищенный паролем индексируется.
 type: docs
-weight: 570
+weight: 580
 url: /ru/net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class
@@ -27,7 +27,7 @@ public class PasswordRequiredEventArgs : BaseIndexEventArgs
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [События поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

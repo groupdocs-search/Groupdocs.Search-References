@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для операции поиска.
 type: docs
-weight: 1000
+weight: 1040
 url: /ru/net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class
@@ -40,7 +40,7 @@ public class SearchOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Параметры поиска](https://docs.groupdocs.com/display/searchnet/Search+options)
 

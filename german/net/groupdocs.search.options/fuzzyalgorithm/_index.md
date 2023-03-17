@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert die Basisklasse für FuzzySuchalgorithmen.
 type: docs
-weight: 810
+weight: 840
 url: /de/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class
@@ -23,7 +23,7 @@ public abstract class FuzzyAlgorithm
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ungenaue Suche](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

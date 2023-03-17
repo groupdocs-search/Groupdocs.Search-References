@@ -1,14 +1,14 @@
 ---
 title: ImageSearchResult
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示反向图像搜索的结果
+description: 表示反向图片搜索的结果
 type: docs
-weight: 1170
+weight: 1210
 url: /zh/net/groupdocs.search.results/imagesearchresult/
 ---
 ## ImageSearchResult class
 
-表示反向图像搜索的结果。
+表示反向图片搜索的结果。
 
 ```csharp
 public class ImageSearchResult

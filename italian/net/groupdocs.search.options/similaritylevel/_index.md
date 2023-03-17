@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un algoritmo della ricerca fuzzy che specifica il livello di somiglianza. Lalgoritmo del livello di somiglianza calcola il numero massimo di errori per una parola come inversamente proporzionale alla lunghezza della parola.
 type: docs
-weight: 1010
+weight: 1050
 url: /it/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -29,7 +29,7 @@ public class SimilarityLevel : FuzzyAlgorithm
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfocata](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

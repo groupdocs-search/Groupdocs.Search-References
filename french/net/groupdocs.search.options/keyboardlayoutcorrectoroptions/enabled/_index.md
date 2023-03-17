@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut estFAUX .
 type: docs
 weight: 10
 url: /fr/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled/
 ---
 ## KeyboardLayoutCorrectorOptions.Enabled property
 
-Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant si le correcteur de disposition du clavier est activé. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool Enabled { get; set; }

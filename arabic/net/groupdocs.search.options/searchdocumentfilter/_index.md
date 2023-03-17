@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحتوي على طرق لإنشاء عوامل تصفية مستندات البحث .
 type: docs
-weight: 990
+weight: 1030
 url: /ar/net/groupdocs.search.options/searchdocumentfilter/
 ---
 ## SearchDocumentFilter class
@@ -30,7 +30,7 @@ public static class SearchDocumentFilter
 
 **يتعلم أكثر**
 
-* [تصفية الوثيقة في نتيجة البحث](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
+* [تصفية الوثيقة في نتائج البحث](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
 * [خيارات البحث](https://docs.groupdocs.com/display/searchnet/Search+options)
 
 ### أنظر أيضا

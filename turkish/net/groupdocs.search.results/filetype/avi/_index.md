@@ -1,14 +1,14 @@
 ---
 title: AVI
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: AVI dosya formatı Microsoft tarafından sunulan bir Audio Video multimedya konteyner dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/video/avi/ .
+description: AVI dosya formatı Microsoft tarafından sunulan bir Audio Video multimedya konteyner dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/video/avi/ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search.results/filetype/avi/
 ---
 ## FileType.AVI field
 
-AVI dosya formatı, Microsoft tarafından sunulan bir Audio Video multimedya konteyner dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/video/avi/) .
+AVI dosya formatı, Microsoft tarafından sunulan bir Audio Video multimedya konteyner dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/video/avi/) .
 
 ```csharp
 public static readonly FileType AVI;

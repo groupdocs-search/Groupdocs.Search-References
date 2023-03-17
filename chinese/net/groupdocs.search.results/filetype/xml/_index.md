@@ -1,14 +1,14 @@
 ---
 title: XML
 second_title: GroupDocs.Search for .NET API 参考
-description: XML 代表可扩展标记语言它类似于 HTML但在使用标签来定义对象方面有所不同 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/web/xml/.
+description: XML 代表可扩展标记语言类似于 HTML但在使用标签定义对象方面有所不同 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/web/xml/.
 type: docs
 weight: 810
 url: /zh/net/groupdocs.search.results/filetype/xml/
 ---
 ## FileType.XML field
 
-XML 代表可扩展标记语言，它类似于 HTML，但在使用标签来定义对象方面有所不同。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/web/xml/).
+XML 代表可扩展标记语言，类似于 HTML，但在使用标签定义对象方面有所不同。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/web/xml/).
 
 ```csharp
 public static readonly FileType XML;

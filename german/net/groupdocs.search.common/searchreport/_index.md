@@ -35,7 +35,7 @@ public class SearchReport
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Berichte suchen](https://docs.groupdocs.com/display/searchnet/Search+reports)
 

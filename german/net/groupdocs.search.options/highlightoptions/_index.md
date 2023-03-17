@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen zum Hervorheben gefundener Begriffe.
 type: docs
-weight: 830
+weight: 860
 url: /de/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,22 +24,24 @@ public class HighlightOptions : TextOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null` . Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null`. Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Ruft das Abbruchobjekt ab oder setzt es. Der Standardwert ist`Null` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ruft den benutzerdefinierten Textextraktor ab, der für die Indizierung verwendet wurde, oder legt ihn fest. Der Standardwert ist`Null` . Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
-| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`Stimmt` . |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ruft den benutzerdefinierten Textextraktor ab, der für die Indizierung verwendet wurde, oder legt ihn fest. Der Standardwert ist`Null`. Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
+| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`WAHR` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Ruft eine Farbe ab oder legt sie fest, die zum Hervorheben von Vorkommen verwendet wird. Der Standardwert ist #FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ruft die Bildindizierungsoptionen für die umgekehrte Bildsuche ab. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Ruft die Optionen zum Indizieren von Metadatenfeldern ab. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Ruft die Optionen für die OCR-Verarbeitung und Indexierung von erkanntem Text ab. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Ruft das End-Tag der Hervorhebung des gefundenen Wortes ab. Dieses Tag wird nur beim Hervorheben im Klartext verwendet. Der Standardwert ist ein leerer String. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Ruft das Start-Tag der Hervorhebung des gefundenen Wortes ab. Dieses Tag wird nur beim Hervorheben im Klartext verwendet. Der Standardwert ist ein leerer String. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Ermittelt oder setzt die maximale Anzahl von Wörtern in einem Textfragment nach dem hervorgehobenen Wort. Der Wert muss im Bereich von 0 bis 10000 liegen. Der Standardwert ist`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Ermittelt oder setzt die maximale Anzahl von Wörtern in einem Textfragment vor dem hervorgehobenen Wort. Der Wert muss im Bereich von 0 bis 10000 liegen. Der Standardwert ist`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Ermittelt oder setzt die maximale Anzahl von Wörtern in einem Textfragment. Der Wert muss im Bereich von 0 bis 10000 liegen. Der Standardwert ist`21` . |
-| [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Inline-Stile zum Hervorheben von Vorkommen verwendet werden. Der Standardwert ist`Stimmt` . |
+| [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Inline-Stile zum Hervorheben von Vorkommen verwendet werden. Der Standardwert ist`WAHR` . |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchergebnisse hervorheben](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

@@ -3,7 +3,7 @@ title: CharacterReplacementPair
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示字符/替换对
 type: docs
-weight: 380
+weight: 390
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementpair/
 ---
 ## CharacterReplacementPair class
@@ -18,13 +18,13 @@ public class CharacterReplacementPair
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CharacterReplacementPair](characterreplacementpair)(char, char) | 初始化[`CharacterReplacementPair`](../characterreplacementpair)类. |
+| [CharacterReplacementPair](characterreplacementpair)(char, char) | 初始化一个新的实例[`CharacterReplacementPair`](../characterreplacementpair)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Character](../../groupdocs.search.dictionaries/characterreplacementpair/character) { get; } | 获取角色。 |
+| [Character](../../groupdocs.search.dictionaries/characterreplacementpair/character) { get; } | 获取字符。 |
 | [Replacement](../../groupdocs.search.dictionaries/characterreplacementpair/replacement) { get; } | 获取替换。 |
 
 ### 也可以看看

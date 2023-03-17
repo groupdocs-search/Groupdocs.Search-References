@@ -1,14 +1,14 @@
 ---
 title: Terms
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取找到的术语 每次访问属性时都会评估该值
+description: 获取找到的项 每次访问属性时都会计算该值
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.results/founddocument/terms/
 ---
 ## FoundDocument.Terms property
 
-获取找到的术语。 每次访问属性时都会评估该值。
+获取找到的项。 每次访问属性时都会计算该值。
 
 ```csharp
 public string[] Terms { get; }

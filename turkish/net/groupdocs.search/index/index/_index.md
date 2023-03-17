@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-Yeni bir örneğini başlatır.[`Index`](../../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`yanlış`; aksi takdirde diskte yeni bir dizin oluşturur.
+Yeni bir örneğini başlatır.[`Index`](../../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`YANLIŞ`; aksi takdirde diskte yeni bir dizin oluşturur.
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-Yeni bir örneğini başlatır.[`Index`](../../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`yanlış` ; , aksi takdirde belirli dizin ayarlarıyla diskte yeni bir dizin oluşturur.
+Yeni bir örneğini başlatır.[`Index`](../../index) class. Aşağıdaki durumlarda diskten mevcut bir dizini yükler*overwriteIfExists* dır-dir`YANLIŞ` ; , aksi takdirde belirli dizin ayarlarıyla diskte yeni bir dizin oluşturur.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)

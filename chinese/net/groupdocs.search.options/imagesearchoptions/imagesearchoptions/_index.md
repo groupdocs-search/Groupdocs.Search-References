@@ -1,14 +1,14 @@
 ---
 title: ImageSearchOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化ImageSearchOptionsgroupdocs.search.options/imagesearchoptions类.
+description: 初始化一个新的实例ImageSearchOptionsgroupdocs.search.options/imagesearchoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/imagesearchoptions/imagesearchoptions/
 ---
 ## ImageSearchOptions constructor
 
-初始化[`ImageSearchOptions`](../../imagesearchoptions)类.
+初始化一个新的实例[`ImageSearchOptions`](../../imagesearchoptions)类.
 
 ```csharp
 public ImageSearchOptions()

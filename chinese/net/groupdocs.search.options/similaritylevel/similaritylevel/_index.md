@@ -1,14 +1,14 @@
 ---
 title: SimilarityLevel
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化SimilarityLevelgroupdocs.search.options/similaritylevel类.
+description: 初始化一个新的实例SimilarityLevelgroupdocs.search.options/similaritylevel类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/similaritylevel/similaritylevel/
 ---
 ## SimilarityLevel constructor
 
-初始化[`SimilarityLevel`](../../similaritylevel)类.
+初始化一个新的实例[`SimilarityLevel`](../../similaritylevel)类.
 
 ```csharp
 public SimilarityLevel(double value)

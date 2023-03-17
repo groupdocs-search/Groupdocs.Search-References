@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt die Hauptklasse dar um Dokumente zu indizieren und zu durchsuchen.
 type: docs
-weight: 650
+weight: 680
 url: /de/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | Initialisiert eine neue Instanz von[`Index`](../index) Klasse im Gedächtnis. |
 | [Index](index#constructor_1)(IndexSettings) | Initialisiert eine neue Instanz von[`Index`](../index) Klasse im Speicher mit bestimmten Indexeinstellungen. |
 | [Index](index#constructor_2)(string) | Initialisiert eine neue Instanz von[`Index`](../index) class. Erstellt einen neuen oder öffnet einen vorhandenen Index auf der Festplatte. |
-| [Index](index#constructor_3)(string, bool) | Initialisiert eine neue Instanz von[`Index`](../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* ist`FALSCH`; erstellt andernfalls einen neuen Index auf der Festplatte. |
+| [Index](index#constructor_3)(string, bool) | Initialisiert eine neue Instanz von[`Index`](../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* Ist`FALSCH`; erstellt andernfalls einen neuen Index auf der Festplatte. |
 | [Index](index#constructor_4)(string, IndexSettings) | Initialisiert eine neue Instanz von[`Index`](../index) class. Erstellt einen neuen Index mit bestimmten Einstellungen oder öffnet einen bestehenden Index auf der Festplatte. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | Initialisiert eine neue Instanz von[`Index`](../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* ist`FALSCH` ; erstellt andernfalls einen neuen Index auf der Festplatte mit bestimmten Indexeinstellungen. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | Initialisiert eine neue Instanz von[`Index`](../index) class. Lädt einen vorhandenen Index von der Festplatte, wenn*overwriteIfExists* Ist`FALSCH` ; erstellt andernfalls einen neuen Index auf der Festplatte mit bestimmten Indexeinstellungen. |
 
 ## Eigenschaften
 
@@ -76,7 +76,7 @@ public class Index : IDisposable
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Index erstellen](https://docs.groupdocs.com/display/searchnet/Creating+an+index)
 * [Indizierung](https://docs.groupdocs.com/display/searchnet/Indexing)

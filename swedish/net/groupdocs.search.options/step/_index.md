@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar ett steg i en stegfunktion.
 type: docs
-weight: 1040
+weight: 1080
 url: /sv/net/groupdocs.search.options/step/
 ---
 ## Step class

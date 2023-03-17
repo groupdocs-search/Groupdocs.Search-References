@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en algoritm för den otydliga sökningen som anger likhetsnivån. Likhetsnivåalgoritmen beräknar det maximala antalet misstag för ett ord som omvänt proportionell mot ordlängden.
 type: docs
-weight: 1010
+weight: 1050
 url: /sv/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class

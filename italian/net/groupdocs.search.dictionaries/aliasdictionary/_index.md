@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di alias.
 type: docs
-weight: 340
+weight: 350
 url: /it/net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class
@@ -29,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | Aggiunge la raccolta specificata di coppie alias/sostituzione a questa istanza di[`AliasDictionary`](../aliasdictionary) . |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | Aggiunge la raccolta specificata di coppie alias/sostituzione a questa istanza di[`AliasDictionary`](../aliasdictionary) . |
 | [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Rimuove tutti gli alias da a[`AliasDictionary`](../aliasdictionary) oggetto. |
-| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Determina se an[`AliasDictionary`](../aliasdictionary)l'oggetto contiene l'alias specificato. |
+| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Determina se an[`AliasDictionary`](../aliasdictionary) l'oggetto contiene l'alias specificato. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Esporta il dizionario in un file con il nome specificato. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | Restituisce un enumeratore che scorre la raccolta. |
 | [GetText](../../groupdocs.search.dictionaries/aliasdictionary/gettext)(string) | Ottiene un testo associato all'alias specificato. |
@@ -38,7 +38,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Usando gli alias](https://docs.groupdocs.com/display/searchnet/Using+aliases)
 * [Gestione del dizionario degli alias](https://docs.groupdocs.com/display/searchnet/Alias+dictionary)

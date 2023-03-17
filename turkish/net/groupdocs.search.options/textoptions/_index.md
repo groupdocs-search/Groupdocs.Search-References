@@ -3,7 +3,7 @@ title: TextOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Belge metnini bir dizinden almak için seçenekler sunar.
 type: docs
-weight: 1060
+weight: 1100
 url: /tr/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | İptal nesnesini alır veya ayarlar. Varsayılan değer:`hükümsüz` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Çıktı HTML'sinde Head etiketinin oluşturulup oluşturulmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`doğru` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ters görüntü arama için görüntü indeksleme seçeneklerini alır. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Meta veri alanlarını indeksleme seçeneklerini alır. |

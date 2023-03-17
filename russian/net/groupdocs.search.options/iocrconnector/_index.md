@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Search для справочника API .NET
 description: Определяет методы необходимые для распознавания текста в графических документах и встроенных изображениях.
 type: docs
-weight: 840
+weight: 870
 url: /ru/net/groupdocs.search.options/iocrconnector/
 ---
 ## IOcrConnector interface

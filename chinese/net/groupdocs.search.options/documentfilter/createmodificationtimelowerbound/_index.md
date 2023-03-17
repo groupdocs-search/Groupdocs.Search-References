@@ -1,14 +1,14 @@
 ---
 title: CreateModificationTimeLowerBound
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个过滤器以跳过修改日期早于下限的文档
+description: 创建一个过滤器用于跳过修改日期早于下限的文档
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.options/documentfilter/createmodificationtimelowerbound/
 ---
 ## DocumentFilter.CreateModificationTimeLowerBound method
 
-创建一个过滤器以跳过修改日期早于下限的文档。
+创建一个过滤器，用于跳过修改日期早于下限的文档。
 
 ```csharp
 public static DocumentFilter CreateModificationTimeLowerBound(DateTime lowerBound)
@@ -20,7 +20,7 @@ public static DocumentFilter CreateModificationTimeLowerBound(DateTime lowerBoun
 
 ### 返回值
 
-按文档修改时间的文档过滤器。
+按文档修改时间过滤文档。
 
 ### 也可以看看
 

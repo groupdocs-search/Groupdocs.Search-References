@@ -1,14 +1,14 @@
 ---
 title: ODS
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: ODS uzantılı dosyalar kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimini ifade eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/spreadsheet/ods/ .
+description: ODS uzantılı dosyalar kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimini ifade eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/spreadsheet/ods/ .
 type: docs
 weight: 390
 url: /tr/net/groupdocs.search.results/filetype/ods/
 ---
 ## FileType.ODS field
 
-ODS uzantılı dosyalar, kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimini ifade eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/spreadsheet/ods/) .
+ODS uzantılı dosyalar, kullanıcı tarafından düzenlenebilen OpenDocument Elektronik Tablo Belge biçimini ifade eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/spreadsheet/ods/) .
 
 ```csharp
 public static readonly FileType ODS;

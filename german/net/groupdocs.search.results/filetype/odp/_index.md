@@ -1,14 +1,14 @@
 ---
 title: ODP
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung ODP stellen das Präsentationsdateiformat dar das von OpenOffice.org im OASIS OpenStandard verwendet wird. Erfahren Sie mehr über dieses Dateiformat hierhttps//wiki.fileformat.com/presentation/odp/ .
+description: Dateien mit der ODPErweiterung stellen das Präsentationsdateiformat dar das von OpenOffice.org im OASIS OpenStandard verwendet wird. Erfahren Sie mehr über dieses Dateiformat Hierhttps//wiki.fileformat.com/presentation/odp/ .
 type: docs
 weight: 380
 url: /de/net/groupdocs.search.results/filetype/odp/
 ---
 ## FileType.ODP field
 
-Dateien mit der Erweiterung ODP stellen das Präsentationsdateiformat dar, das von OpenOffice.org im OASIS Open-Standard verwendet wird. Erfahren Sie mehr über dieses Dateiformat [hier](https://wiki.fileformat.com/presentation/odp/) .
+Dateien mit der ODP-Erweiterung stellen das Präsentationsdateiformat dar, das von OpenOffice.org im OASIS Open-Standard verwendet wird. Erfahren Sie mehr über dieses Dateiformat [Hier](https://wiki.fileformat.com/presentation/odp/) .
 
 ```csharp
 public static readonly FileType ODP;

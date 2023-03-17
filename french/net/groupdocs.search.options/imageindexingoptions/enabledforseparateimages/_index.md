@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant sil faut indexer des fichiers image séparés. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant sil faut indexer des fichiers image séparés. La valeur par défaut estFAUX .
 type: docs
 weight: 30
 url: /fr/net/groupdocs.search.options/imageindexingoptions/enabledforseparateimages/
 ---
 ## ImageIndexingOptions.EnabledForSeparateImages property
 
-Obtient ou définit une valeur indiquant s'il faut indexer des fichiers image séparés. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant s'il faut indexer des fichiers image séparés. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

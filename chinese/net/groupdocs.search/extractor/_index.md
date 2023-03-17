@@ -1,14 +1,14 @@
 ---
 title: Extractor
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示从文档中进行初步数据提取的工具用于分离后续快速索引的阶段
+description: 表示从文档中初步提取数据的工具用于分离后续快速索引阶段
 type: docs
-weight: 610
+weight: 620
 url: /zh/net/groupdocs.search/extractor/
 ---
 ## Extractor class
 
-表示从文档中进行初步数据提取的工具，用于分离后续快速索引的阶段。
+表示从文档中初步提取数据的工具，用于分离后续快速索引阶段。
 
 ```csharp
 public class Extractor
@@ -18,7 +18,7 @@ public class Extractor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Extractor](extractor)() | 初始化[`Extractor`](../extractor)类. |
+| [Extractor](extractor)() | 初始化一个新的实例[`Extractor`](../extractor)类. |
 
 ## 特性
 
@@ -37,7 +37,7 @@ public class Extractor
 | 姓名 | 描述 |
 | --- | --- |
 | event [ErrorOccurred](../../groupdocs.search/extractor/erroroccurred) | 在提取器操作期间发生错误时发生。 |
-| event [ImagePreparing](../../groupdocs.search/extractor/imagepreparing) | 在准备索引图像时发生。 |
+| event [ImagePreparing](../../groupdocs.search/extractor/imagepreparing) | 在准备为索引准备图像时发生。 |
 | event [PasswordRequired](../../groupdocs.search/extractor/passwordrequired) | 当文档需要密码才能打开时发生。 |
 
 ### 也可以看看

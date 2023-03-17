@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 920
+weight: 950
 url: /sv/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class

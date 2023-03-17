@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para la operación de actualización.
 type: docs
-weight: 1080
+weight: 1120
 url: /es/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -26,7 +26,7 @@ public class UpdateOptions
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/updateoptions/cancellation) { get; set; } | Obtiene o establece el objeto de cancelación de la operación. El valor por defecto es`nulo` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/updateoptions/imageindexingoptions) { get; } | Obtiene las opciones de indexación de imágenes para la búsqueda inversa de imágenes. |
-| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`falso` . |
+| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Obtiene o establece el indicador de ejecución asincrónica de la operación. El valor predeterminado es`FALSO` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | Obtiene las opciones para indexar campos de metadatos. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | Obtiene las opciones para el procesamiento de OCR y la indexación de texto reconocido. |
 | [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | Obtiene o establece el número de subprocesos utilizados para la indexación. El valor predeterminado es`1` . |

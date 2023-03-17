@@ -1,14 +1,14 @@
 ---
 title: Truncated
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取表示结果被截断的值
+description: 获取一个值表示结果被截断
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.results/searchresult/truncated/
 ---
 ## SearchResult.Truncated property
 
-获取表示结果被截断的值。
+获取一个值，表示结果被截断。
 
 ```csharp
 public bool Truncated { get; }

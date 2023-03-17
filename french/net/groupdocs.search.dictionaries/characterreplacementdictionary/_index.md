@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un dictionnaire de remplacement de caractères utilisé pendant le processus dindexation. Le remplacement de caractères peut être utilisé par exemple pour supprimer les accents des caractères accentués ou pour rendre lindex insensible à la casse.
 type: docs
-weight: 370
+weight: 380
 url: /fr/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class

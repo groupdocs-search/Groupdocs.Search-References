@@ -16,7 +16,7 @@ public string[] UpdatedDocuments { get; }
 
 ### 适当的价值
 
-更新的文档列表。
+更新文档列表。
 
 ### 也可以看看
 

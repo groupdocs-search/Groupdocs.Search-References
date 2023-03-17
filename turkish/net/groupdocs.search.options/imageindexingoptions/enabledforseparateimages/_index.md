@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.search.options/imageindexingoptions/enabledforseparateimages/
 ---
 ## ImageIndexingOptions.EnabledForSeparateImages property
 
-Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Ayrı görüntü dosyalarının indekslenip indekslenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

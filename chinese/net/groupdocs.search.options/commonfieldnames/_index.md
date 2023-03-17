@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示分面搜索的字段名称列表
 type: docs
-weight: 720
+weight: 750
 url: /zh/net/groupdocs.search.options/commonfieldnames/
 ---
 ## CommonFieldNames class
@@ -19,15 +19,15 @@ public static class CommonFieldNames
 | 姓名 | 描述 |
 | --- | --- |
 | const [Content](../../groupdocs.search.options/commonfieldnames/content) | 内容字段名称。 |
-| const [CreationDate](../../groupdocs.search.options/commonfieldnames/creationdate) | 创建日期字段名称。 |
+| const [CreationDate](../../groupdocs.search.options/commonfieldnames/creationdate) | 创建日期字段名。 |
 | const [EmbeddedImageOcr](../../groupdocs.search.options/commonfieldnames/embeddedimageocr) | 嵌入图像 OCR 字段名称。 |
-| const [FileName](../../groupdocs.search.options/commonfieldnames/filename) | 文件名字段名。 |
+| const [FileName](../../groupdocs.search.options/commonfieldnames/filename) | 文件名字段名. |
 | const [FormatFamily](../../groupdocs.search.options/commonfieldnames/formatfamily) | 格式族字段名称。 |
-| const [ModificationDate](../../groupdocs.search.options/commonfieldnames/modificationdate) | 修改日期字段名称。 |
+| const [ModificationDate](../../groupdocs.search.options/commonfieldnames/modificationdate) | 修改日期字段名。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [分面搜索](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

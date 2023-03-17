@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет опции для выделения найденных терминов.
 type: docs
-weight: 830
+weight: 860
 url: /ru/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,14 +24,16 @@ public class HighlightOptions : TextOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Получает или задает дополнительные поля документа, которые использовались для индексации. Значение по умолчанию:`нулевой` . Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Получает или задает дополнительные поля документа, которые использовались для индексации. Значение по умолчанию:`нулевой`. Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Получает или задает объект отмены. Значение по умолчанию:`нулевой` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Получает или задает пользовательский экстрактор текста, который использовался для индексации. Значение по умолчанию:`нулевой` . Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Получает или задает пользовательский экстрактор текста, который использовался для индексации. Значение по умолчанию:`нулевой`. Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Получает или задает значение, указывающее, создается ли тег Head в выходном HTML-коде. Значение по умолчанию:`истинный` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Получает или задает цвет, используемый для выделения вхождений. Значение по умолчанию — #FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Получает параметры индексации изображения для обратного поиска изображения. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Получает параметры для индексации полей метаданных. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Получает параметры обработки OCR и индексации распознанного текста. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Gets устанавливает конечный тег выделения найденного слова. Этот тег используется только при выделении в обычном тексте. Значение по умолчанию — пустая строка. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Gets устанавливает начальный тег выделения найденного слова. Этот тег используется только при выделении в обычном тексте. Значение по умолчанию — пустая строка. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Получает или задает максимальное количество слов в текстовом фрагменте после выделенного слова. Значение должно быть в диапазоне от 0 до 10000. Значение по умолчанию:`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Получает или задает максимальное количество слов в текстовом фрагменте перед выделенным словом. Значение должно быть в диапазоне от 0 до 10000. Значение по умолчанию:`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Получает или задает максимальное количество слов в текстовом фрагменте. Значение должно быть в диапазоне от 0 до 10000. Значение по умолчанию:`21` . |
@@ -39,7 +41,7 @@ public class HighlightOptions : TextOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выделение результатов поиска](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 

@@ -3,7 +3,7 @@ title: DateFormatElement
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un élément de format de date.
 type: docs
-weight: 760
+weight: 790
 url: /fr/net/groupdocs.search.options/dateformatelement/
 ---
 ## DateFormatElement class

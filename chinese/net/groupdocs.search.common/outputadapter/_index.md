@@ -1,22 +1,28 @@
 ---
 title: OutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示输出适配器的基类用于以通用形式收集输出 当前可用的适配器有FileOutputAdapter./fileoutputadapterStreamOutputAdapter./streamoutputadapter  和StringOutputAdapter./stringoutputadapter.
+description: 表示用于以通用形式收集输出的输出适配器的基类 当前可用的适配器是FileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter StructureOutputAdapter./structureoutputadapter  和StringOutputAdapter./stringoutputadapter.
 type: docs
 weight: 260
 url: /zh/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-表示输出适配器的基类，用于以通用形式收集输出。 当前可用的适配器有[`FileOutputAdapter`](../fileoutputadapter),[`StreamOutputAdapter`](../streamoutputadapter) ， 和[`StringOutputAdapter`](../stringoutputadapter).
+表示用于以通用形式收集输出的输出适配器的基类。 当前可用的适配器是[`FileOutputAdapter`](../fileoutputadapter), [`StreamOutputAdapter`](../streamoutputadapter), [`StructureOutputAdapter`](../structureoutputadapter) , 和[`StringOutputAdapter`](../stringoutputadapter).
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
 
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
+
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [输出适配器](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 

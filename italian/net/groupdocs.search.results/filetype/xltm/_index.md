@@ -1,14 +1,14 @@
 ---
 title: XLTM
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Lestensione file XLTM rappresenta i file generati da Microsoft Excel come file modello Macroenabled . Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/specification/spreadsheet/xltm/ .
+description: Lestensione file XLTM rappresenta i file generati da Microsoft Excel come file modello Macroenabled . Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/specification/spreadsheet/xltm/ .
 type: docs
 weight: 790
 url: /it/net/groupdocs.search.results/filetype/xltm/
 ---
 ## FileType.XLTM field
 
-L'estensione file XLTM rappresenta i file generati da Microsoft Excel come file modello Macro-enabled . Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xltm/) .
+L'estensione file XLTM rappresenta i file generati da Microsoft Excel come file modello Macro-enabled . Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/specification/spreadsheet/xltm/) .
 
 ```csharp
 public static readonly FileType XLTM;

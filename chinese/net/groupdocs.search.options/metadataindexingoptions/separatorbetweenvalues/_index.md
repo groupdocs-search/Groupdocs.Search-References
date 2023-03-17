@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.search.options/metadataindexingoptions/separatorbetweenva
 ---
 ## MetadataIndexingOptions.SeparatorBetweenValues property
 
-获取或设置数组类型字段中值之间的分隔符 默认值为空格符号
+获取或设置数组类型字段中值之间的分隔符。 默认值为空格符号。
 
 ```csharp
 public string SeparatorBetweenValues { get; set; }

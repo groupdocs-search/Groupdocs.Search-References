@@ -1,14 +1,14 @@
 ---
 title: MonthTwoDigits
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取月份元素用两位数字表示
+description: 获取由两位数表示的月份元素
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.options/dateformatelement/monthtwodigits/
 ---
 ## DateFormatElement.MonthTwoDigits property
 
-获取月份元素，用两位数字表示。
+获取由两位数表示的月份元素。
 
 ```csharp
 public static DateFormatElement MonthTwoDigits { get; }

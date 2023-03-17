@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta uno schema di parole da utilizzare nella ricerca di parole jolly.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class
@@ -24,9 +24,9 @@ public class WordPattern
 
 | Nome | Descrizione |
 | --- | --- |
-| [AppendCharacter](../../groupdocs.search.common/wordpattern/appendcharacter)(char) | Aggiunge un carattere al modello di parola. |
+| [AppendCharacter](../../groupdocs.search.common/wordpattern/appendcharacter)(char) | Aggiunge un carattere al modello di parole. |
 | [AppendOneCharacterWildcard](../../groupdocs.search.common/wordpattern/appendonecharacterwildcard)() | Aggiunge un carattere jolly al modello di parola. |
-| [AppendOneOrMoreCharactersWildcard](../../groupdocs.search.common/wordpattern/appendoneormorecharacterswildcard)() | Aggiunge uno o più caratteri jolly al modello di parola. |
+| [AppendOneOrMoreCharactersWildcard](../../groupdocs.search.common/wordpattern/appendoneormorecharacterswildcard)() | Aggiunge uno o più caratteri jolly al modello di parole. |
 | [AppendString](../../groupdocs.search.common/wordpattern/appendstring)(string) | Aggiunge una stringa al modello di parole. |
 | [AppendWildcard](../../groupdocs.search.common/wordpattern/appendwildcard)(int, int) | Aggiunge un carattere jolly al modello di parola. |
 | [AppendZeroOrMoreCharactersWildcard](../../groupdocs.search.common/wordpattern/appendzeroormorecharacterswildcard)() | Aggiunge zero o più caratteri jolly al modello di parola. |
@@ -35,7 +35,7 @@ public class WordPattern
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca con caratteri jolly](https://docs.groupdocs.com/display/searchnet/Wildcard+search)
 * [Ricerca di frasi](https://docs.groupdocs.com/display/searchnet/Phrase+search)

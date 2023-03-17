@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulunan terimleri vurgulamak için seçenekler sunar.
 type: docs
-weight: 830
+weight: 860
 url: /tr/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,14 +24,16 @@ public class HighlightOptions : TextOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | İptal nesnesini alır veya ayarlar. Varsayılan değer:`hükümsüz` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Dizinleme için kullanılan özel metin çıkarıcıyı alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Çıktı HTML'sinde Head etiketinin oluşturulup oluşturulmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`doğru` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Oluşumları vurgulamak için kullanılan bir rengi alır veya ayarlar. Varsayılan değer #FFD800. 'dir. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ters görüntü arama için görüntü indeksleme seçeneklerini alır. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Meta veri alanlarını indeksleme seçeneklerini alır. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | OCR işleme ve tanınan metni indeksleme seçeneklerini alır. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Gets of, bulunan kelimenin vurgulanmasının bitiş etiketini ayarlar. Bu etiket yalnızca düz metin vurgulanırken kullanılır. Varsayılan değer boş bir dizedir. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Gets of, bulunan kelimenin vurgulanması için başlangıç etiketini ayarlar. Bu etiket yalnızca düz metin vurgulanırken kullanılır. Varsayılan değer boş bir dizedir. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Vurgulanan kelimeden sonra bir metin parçasındaki maksimum kelime sayısını alır veya ayarlar. Değer, 0 ile 10000 arasında olmalıdır. Varsayılan değer:`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Bir metin parçasında vurgulanan kelimeden önceki maksimum kelime sayısını alır veya ayarlar. Değer, 0 ile 10000 arasında olmalıdır. Varsayılan değer:`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Bir metin parçasındaki maksimum kelime sayısını alır veya ayarlar. Değer, 0 ile 10000 arasında olmalıdır. Varsayılan değer:`21` . |

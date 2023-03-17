@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert ein Wörterbuch heterographischer Homophone.
 type: docs
-weight: 430
+weight: 440
 url: /de/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class
@@ -36,7 +36,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Homophonen](https://docs.groupdocs.com/display/searchnet/Homophone+search)
 * [Homophones Wörterbuch verwalten](https://docs.groupdocs.com/display/searchnet/Homophone+dictionary)

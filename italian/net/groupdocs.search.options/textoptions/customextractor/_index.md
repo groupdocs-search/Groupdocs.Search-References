@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Ottiene o imposta lestrattore di testo personalizzato utilizzato per lindicizzazione. Il valore predefinito ènullo . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nellindice.
+description: Ottiene o imposta lestrattore di testo personalizzato utilizzato per lindicizzazione. Il valore predefinito ènullo. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nellindice.
 type: docs
 weight: 40
 url: /it/net/groupdocs.search.options/textoptions/customextractor/
 ---
 ## TextOptions.CustomExtractor property
 
-Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo` . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice.
+Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo`. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice.
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

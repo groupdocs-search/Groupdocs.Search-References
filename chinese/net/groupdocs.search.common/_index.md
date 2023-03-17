@@ -1,42 +1,43 @@
 ---
 title: GroupDocs.Search.Common
 second_title: GroupDocs.Search for .NET API 参考
-description: 命名空间提供库的通用类
+description: 命名空间提供库的公共类
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.common/
 ---
-命名空间提供库的通用类。
+命名空间提供库的公共类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [AttributeChangeBatch](./attributechangebatch) | 表示属性更改的容器。 |
+| [AttributeChangeBatch](./attributechangebatch) | 表示属性变化的容器。 |
 | [Cancellation](./cancellation) | 表示请求取消操作的对象。 |
-| [ChunkSearchToken](./chunksearchtoken) | 表示继续进行块搜索（按页搜索）的令牌。 |
-| [CustomExtractorCollection](./customextractorcollection) | 包含自定义提取器的集合。 如果集合包含内置提取器覆盖的某些文件扩展名的提取器， 则将使用此提取器而不是内置提取器。 |
+| [ChunkSearchToken](./chunksearchtoken) | 表示继续chunk搜索的token（按页搜索）。 |
+| [CustomExtractorCollection](./customextractorcollection) | 包含自定义提取器的集合。 如果该集合包含内置提取器涵盖的某些文件扩展名的提取器， 则将使用此提取器而不是内置提取器。 |
 | [Document](./document) | 表示从文件系统、流或结构添加到索引的文档的基类。 包含用于从不同类型的源创建文档的静态方法。 |
-| [DocumentField](./documentfield) | 表示一个文档字段数据。 |
+| [DocumentField](./documentfield) | 表示文档字段数据。 |
 | [DocumentImage](./documentimage) | 表示文档图像数据。 |
 | [Encodings](./encodings) | 包含可能编码的名称。 |
 | [ExtractedData](./extracteddata) | 表示从文档中检索并准备索引的数据。 |
-| [ExtractedItemInfo](./extractediteminfo) | 表示一个容器物品信息。 |
+| [ExtractedItemInfo](./extractediteminfo) | 表示容器物品信息。 |
 | [ExtractorSettings](./extractorsettings) | 包含文档数据提取器的设置。 |
 | [FileLogger](./filelogger) | 表示将事件和错误记录到本地文件的记录器。 |
 | [FileOutputAdapter](./fileoutputadapter) | 表示将输出收集到文件中的输出适配器。 |
-| [FragmentContainer](./fragmentcontainer) | 表示文本片段的容器，其中突出显示了一个文档字段的找到的术语。 |
-| [ImageFrame](./imageframe) | 表示一个图像帧。 |
-| [IndexInfo](./indexinfo) | 包含一个基本信息[`Index`](../groupdocs.search/index). |
+| [FragmentContainer](./fragmentcontainer) | 表示一个文本片段的容器，其中突出显示了一个文档字段中找到的术语。 |
+| [ImageFrame](./imageframe) | 代表一个图像帧。 |
+| [IndexInfo](./indexinfo) | 包含关于一个的基本信息[`Index`](../groupdocs.search/index). |
 | [IndexingReport](./indexingreport) | 表示索引操作的详细信息。 |
-| [Notification](./notification) | 索引所有通知的基类。 该类还包含创建通知对象的方法。 |
-| [OutputAdapter](./outputadapter) | 表示输出适配器的基类，用于以通用形式收集输出。 当前可用的适配器有[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter),[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) ， 和[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter). |
-| [ResultBuilderFactory](./resultbuilderfactory) | 表示结果构建器工厂的基类。 |
+| [Notification](./notification) | 索引所有通知的基类。 此类还包含用于创建通知对象的方法。 |
+| [OutputAdapter](./outputadapter) | 表示用于以通用形式收集输出的输出适配器的基类。 当前可用的适配器是[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter), [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter), [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , 和[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter). |
+| [ResultBuilderFactory](./resultbuilderfactory) | 表示结果生成器工厂的基类。 |
 | [SearchImage](./searchimage) | 表示要搜索的图像。 |
 | [SearchReport](./searchreport) | 表示搜索操作的详细信息。 |
-| [StreamOutputAdapter](./streamoutputadapter) | 表示一个输出适配器，它将输出收集到一个Stream. |
-| [StringOutputAdapter](./stringoutputadapter) | 表示一个输出适配器，它将输出收集为String. |
-| [WordPattern](./wordpattern) | 表示要在单词通配符搜索中使用的单词模式。 |
+| [StreamOutputAdapter](./streamoutputadapter) | 表示将输出收集到Stream. |
+| [StringOutputAdapter](./stringoutputadapter) | 表示一个输出适配器，它收集输出作为String. |
+| [StructureOutputAdapter](./structureoutputadapter) | 表示一个输出适配器，它将输出收集为一个结构，分别包含每个字段。 |
+| [WordPattern](./wordpattern) | 表示在单词通配符搜索中使用的单词模式。 |
 ## 接口
 
 | 界面 | 描述 |
@@ -44,13 +45,13 @@ url: /zh/net/groupdocs.search.common/
 | [IContainerItemExtractor](./icontaineritemextractor) | 提供从容器文档中提取项目的方法。 |
 | [IDocumentLoader](./idocumentloader) | 定义用于加载惰性文档的文档加载器接口。 |
 | [IFieldExtractor](./ifieldextractor) | 提供从文档中提取字段的方法。 |
-| [ILogger](./ilogger) | 定义记录器的接口，用于记录索引中的事件和错误。 |
+| [ILogger](./ilogger) | 定义用于在索引中记录事件和错误的记录器接口。 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
 | [DocumentSourceKind](./documentsourcekind) | 定义文档来源的种类。 |
-| [DocumentStatus](./documentstatus) | 表示文档处理状态。 |
+| [DocumentStatus](./documentstatus) | 表示一个文档处理状态。 |
 | [IndexStatus](./indexstatus) | 指定索引状态。 |
 | [VersionUpdateResult](./versionupdateresult) | 表示索引版本更新操作的结果。 |
 

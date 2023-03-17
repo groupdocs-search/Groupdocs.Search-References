@@ -1,0 +1,185 @@
+---
+title: Search
+second_title: GroupDocs.Mencari Referensi .NET API
+description: Mencari di semua indeks repositori.
+type: docs
+weight: 70
+url: /id/net/groupdocs.search/indexrepository/search/
+---
+## Search(string) {#search_2}
+
+Mencari di semua indeks repositori.
+
+```csharp
+public SearchResult Search(string query)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| query | String | Permintaan pencarian. |
+
+### Nilai Pengembalian
+
+Hasil pencarian.
+
+### Contoh
+
+Contoh menunjukkan cara melakukan pencarian di repositori indeks.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Membuat indeks
+index.Add(documentsFolder); // Pengindeksan dokumen
+
+SearchResult result = repository.Search(query); // Mencari
+```
+
+### Lihat juga
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [IndexRepository](../../indexrepository)
+* ruang nama [GroupDocs.Search](../../indexrepository)
+* perakitan [GroupDocs.Search](../../../)
+
+---
+
+## Search(string, SearchOptions) {#search_3}
+
+Mencari di semua indeks repositori.
+
+```csharp
+public SearchResult Search(string query, SearchOptions options)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| query | String | Permintaan pencarian. |
+| options | SearchOptions | Opsi pencarian. |
+
+### Nilai Pengembalian
+
+Hasil pencarian.
+
+### Contoh
+
+Contoh menunjukkan cara melakukan pencarian di repositori indeks.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+string query = "Einstein";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Membuat indeks
+index.Add(documentsFolder); // Pengindeksan dokumen
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Menetapkan bendera pencarian peka huruf besar-kecil
+
+SearchResult result = repository.Search(query, options); // Mencari
+```
+
+### Lihat juga
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* ruang nama [GroupDocs.Search](../../indexrepository)
+* perakitan [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery) {#search}
+
+Mencari di semua indeks repositori.
+
+```csharp
+public SearchResult Search(SearchQuery query)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| query | SearchQuery | Permintaan pencarian. |
+
+### Nilai Pengembalian
+
+Hasil pencarian.
+
+### Contoh
+
+Contoh menunjukkan cara melakukan pencarian di repositori indeks.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Membuat indeks
+index.Add(documentsFolder); // Pengindeksan dokumen
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Membuat kueri penelusuran dalam bentuk objek
+
+SearchResult result = repository.Search(query); // Mencari
+```
+
+### Lihat juga
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [IndexRepository](../../indexrepository)
+* ruang nama [GroupDocs.Search](../../indexrepository)
+* perakitan [GroupDocs.Search](../../../)
+
+---
+
+## Search(SearchQuery, SearchOptions) {#search_1}
+
+Mencari di semua indeks repositori.
+
+```csharp
+public SearchResult Search(SearchQuery query, SearchOptions options)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| query | SearchQuery | Permintaan pencarian. |
+| options | SearchOptions | Opsi pencarian. |
+
+### Nilai Pengembalian
+
+Hasil pencarian.
+
+### Contoh
+
+Contoh menunjukkan cara melakukan pencarian di repositori indeks.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+IndexRepository repository = new IndexRepository();
+Index index = repository.Create(indexFolder); // Membuat indeks
+index.Add(documentsFolder); // Pengindeksan dokumen
+
+SearchOptions options = new SearchOptions();
+options.UseCaseSensitiveSearch = true; // Menetapkan bendera pencarian peka huruf besar-kecil
+
+SearchQuery query = SearchQuery.CreateWordQuery("Einstein"); // Membuat kueri penelusuran dalam bentuk objek
+
+SearchResult result = repository.Search(query, options); // Mencari
+```
+
+### Lihat juga
+
+* class [SearchResult](../../../groupdocs.search.results/searchresult)
+* class [SearchQuery](../../searchquery)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [IndexRepository](../../indexrepository)
+* ruang nama [GroupDocs.Search](../../indexrepository)
+* perakitan [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->

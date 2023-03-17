@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente une liste de noms de champs pour la recherche à facettes.
 type: docs
-weight: 800
+weight: 830
 url: /fr/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class

@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per lindicizzazione dei campi dei metadati.
 type: docs
-weight: 940
+weight: 970
 url: /it/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class
@@ -30,7 +30,7 @@ public class MetadataIndexingOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Opzioni di indicizzazione](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 * MetadataIndexingOptions vengono utilizzate quando si recupera il testo del documento da un indice: [Ottenere documenti indicizzati](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

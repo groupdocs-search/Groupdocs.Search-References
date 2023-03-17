@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示查询中术语的拼写校正器
 type: docs
-weight: 460
+weight: 470
 url: /zh/net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class
@@ -18,22 +18,22 @@ public class SpellingCorrector : DictionaryBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/spellingcorrector/count) { get; } | 获取此包含的单词数[`SpellingCorrector`](../spellingcorrector). |
+| [Count](../../groupdocs.search.dictionaries/spellingcorrector/count) { get; } | 获取这个包含的单词数[`SpellingCorrector`](../spellingcorrector). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange)(IEnumerable&lt;string&gt;) | 将指定的单词集合添加到[`SpellingCorrector`](../spellingcorrector). |
-| [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange_1)(string[]) | 将指定的单词集合添加到[`SpellingCorrector`](../spellingcorrector). |
-| [Clear](../../groupdocs.search.dictionaries/spellingcorrector/clear)() | 删除所有单词[`SpellingCorrector`](../spellingcorrector)对象. |
+| [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange)(IEnumerable&lt;string&gt;) | 将指定的单词集合添加到该实例[`SpellingCorrector`](../spellingcorrector). |
+| [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange_1)(string[]) | 将指定的单词集合添加到该实例[`SpellingCorrector`](../spellingcorrector). |
+| [Clear](../../groupdocs.search.dictionaries/spellingcorrector/clear)() | 从 a 中删除所有单词[`SpellingCorrector`](../spellingcorrector)对象. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
-| [GetWords](../../groupdocs.search.dictionaries/spellingcorrector/getwords)() | 获取当前包含在此中的单词的集合[`SpellingCorrector`](../spellingcorrector). |
+| [GetWords](../../groupdocs.search.dictionaries/spellingcorrector/getwords)() | 获取当前包含在此的单词集合[`SpellingCorrector`](../spellingcorrector). |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | 从指定文件导入字典。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [拼写检查](https://docs.groupdocs.com/display/searchnet/Spell+checking)
 * [管理拼写校正器](https://docs.groupdocs.com/display/searchnet/Spelling+corrector)

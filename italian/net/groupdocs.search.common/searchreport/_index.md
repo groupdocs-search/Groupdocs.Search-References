@@ -35,7 +35,7 @@ public class SearchReport
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Rapporti di ricerca](https://docs.groupdocs.com/display/searchnet/Search+reports)
 

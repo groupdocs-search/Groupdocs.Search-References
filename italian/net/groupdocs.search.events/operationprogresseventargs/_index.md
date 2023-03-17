@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta gli argomenti per levento di aggiornamento dellavanzamento delloperazione di indicizzazione.
 type: docs
-weight: 550
+weight: 560
 url: /it/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class
@@ -32,7 +32,7 @@ public class OperationProgressEventArgs : BaseIndexEventArgs
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca eventi indice](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

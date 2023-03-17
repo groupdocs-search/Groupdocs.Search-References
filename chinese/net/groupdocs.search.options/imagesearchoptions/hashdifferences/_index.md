@@ -1,14 +1,14 @@
 ---
 title: HashDifferences
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置图像哈希中不匹配的最大位数 默认值为5.
+description: 获取或设置图像哈希中的最大不匹配位数 默认值为5个.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/imagesearchoptions/hashdifferences/
 ---
 ## ImageSearchOptions.HashDifferences property
 
-获取或设置图像哈希中不匹配的最大位数。 默认值为`5`.
+获取或设置图像哈希中的最大不匹配位数。 默认值为`5个`.
 
 ```csharp
 public int HashDifferences { get; set; }
@@ -16,7 +16,7 @@ public int HashDifferences { get; set; }
 
 ### 适当的价值
 
-图像哈希中不匹配的最大位数。
+图像哈希中不匹配位的最大数量。
 
 ### 也可以看看
 

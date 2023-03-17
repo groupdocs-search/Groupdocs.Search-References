@@ -1,14 +1,14 @@
 ---
 title: TermsAfter
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置文本片段中高亮单词后的最大单词数 值必须在0到10000的范围内 默认值为7.
+description: 获取或设置文本片段中突出显示的单词后的最大单词数 值必须在 0 到 10000 之间 默认值为7.
 type: docs
-weight: 30
+weight: 50
 url: /zh/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property
 
-获取或设置文本片段中高亮单词后的最大单词数。 值必须在0到10000的范围内。 默认值为`7`.
+获取或设置文本片段中突出显示的单词后的最大单词数。 值必须在 0 到 10000 之间。 默认值为`7`.
 
 ```csharp
 public int TermsAfter { get; set; }

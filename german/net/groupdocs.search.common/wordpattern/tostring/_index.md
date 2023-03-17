@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`WordPattern`](../../wordpattern).
+AString das repräsentiert den Strom[`WordPattern`](../../wordpattern).
 
 ### Siehe auch
 

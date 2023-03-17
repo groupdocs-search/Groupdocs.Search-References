@@ -1,14 +1,14 @@
 ---
 title: XLSB
 second_title: GroupDocs.Search for .NET API 参考
-description: XLSB 文件格式指定 Excel 二进制文件格式它是指定 Excel 工作簿内容的记录和 结构的集合了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xlsb/.
+description: XLSB 文件格式指定 Excel 二进制文件格式它是指定 Excel 工作簿内容的记录和 结构的集合详细了解此文件格式 这里https//wiki.fileformat.com/specification/spreadsheet/xlsb/.
 type: docs
 weight: 750
 url: /zh/net/groupdocs.search.results/filetype/xlsb/
 ---
 ## FileType.XLSB field
 
-XLSB 文件格式指定 Excel 二进制文件格式，它是指定 Excel 工作簿内容的记录和 结构的集合。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xlsb/).
+XLSB 文件格式指定 Excel 二进制文件格式，它是指定 Excel 工作簿内容的记录和 结构的集合。详细了解此文件格式 [这里](https://wiki.fileformat.com/specification/spreadsheet/xlsb/).
 
 ```csharp
 public static readonly FileType XLSB;

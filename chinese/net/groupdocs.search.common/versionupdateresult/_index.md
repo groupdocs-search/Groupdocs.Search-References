@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示索引版本更新操作的结果
 type: docs
-weight: 320
+weight: 330
 url: /zh/net/groupdocs.search.common/versionupdateresult/
 ---
 ## VersionUpdateResult enumeration
@@ -20,7 +20,7 @@ public enum VersionUpdateResult
 | --- | --- | --- |
 | Updated | `0` | 索引版本已更新。 |
 | AlreadyUpToDate | `1` | 索引版本已经是最新的。 |
-| Unsupported | `2` | 不支持索引版本或目录不包含有效的索引数据。 |
+| Unsupported | `2` | 索引版本不受支持或目录不包含有效的索引数据。 |
 
 ### 也可以看看
 

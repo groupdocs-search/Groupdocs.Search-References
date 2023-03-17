@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente les arguments de lévénement derreur dindex.
 type: docs
-weight: 530
+weight: 540
 url: /fr/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class

@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för stavningskorrigeraren.
 type: docs
-weight: 1020
+weight: 1060
 url: /sv/net/groupdocs.search.options/spellingcorrectoroptions/
 ---
 ## SpellingCorrectorOptions class

@@ -3,7 +3,7 @@ title: Alphabet
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizin oluşturma sırasında karakter türünü algılamak için kullanılan bir karakter sözlüğünü temsil eder. Her karakter ayırıcı harf veya her ikisi olarak ele alınabilir.
 type: docs
-weight: 360
+weight: 370
 url: /tr/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class

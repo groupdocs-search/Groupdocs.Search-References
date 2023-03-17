@@ -3,7 +3,7 @@ title: BaseIndexEventArgs
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente la classe de base des arguments dévénement.
 type: docs
-weight: 490
+weight: 500
 url: /fr/net/groupdocs.search.events/baseindexeventargs/
 ---
 ## BaseIndexEventArgs class

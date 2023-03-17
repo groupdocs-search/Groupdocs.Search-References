@@ -1,14 +1,14 @@
 ---
 title: DocumentField
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化DocumentFieldgroupdocs.search.common/documentfield类.
+description: 初始化一个新的实例DocumentFieldgroupdocs.search.common/documentfield类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/documentfield/documentfield/
 ---
 ## DocumentField constructor
 
-初始化[`DocumentField`](../../documentfield)类.
+初始化一个新的实例[`DocumentField`](../../documentfield)类.
 
 ```csharp
 public DocumentField(string name, string value)

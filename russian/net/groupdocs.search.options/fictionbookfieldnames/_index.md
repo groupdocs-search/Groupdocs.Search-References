@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 800
+weight: 830
 url: /ru/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class
@@ -29,7 +29,7 @@ public static class FictionBookFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

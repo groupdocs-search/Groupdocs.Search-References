@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取字典中包含的元素个数
+description: 获取字典包含的元素个数
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/passworddictionary/count/
 ---
 ## PasswordDictionary.Count property
 
-获取字典中包含的元素个数。
+获取字典包含的元素个数。
 
 ```csharp
 public int Count { get; }

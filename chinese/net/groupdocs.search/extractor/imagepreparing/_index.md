@@ -1,14 +1,14 @@
 ---
 title: ImagePreparing
 second_title: GroupDocs.Search for .NET API 参考
-description: 在准备索引图像时发生
+description: 在准备为索引准备图像时发生
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search/extractor/imagepreparing/
 ---
 ## Extractor.ImagePreparing event
 
-在准备索引图像时发生。
+在准备为索引准备图像时发生。
 
 ```csharp
 public event EventHandler<ImagePreparingEventArgs> ImagePreparing;

@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Search for .NET API 参考
 description: 提供允许使用计量许可证激活产品并检索处理的 MB 数量的方法 了解有关计量许可证的更多信息这里https//purchase.groupdocs.com/faqs/licensing/metered.
 type: docs
-weight: 700
+weight: 730
 url: /zh/net/groupdocs.search/metered/
 ---
 ## Metered class
@@ -18,25 +18,25 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化一个新的实例[`Metered`](../metered)类. |
+| [Metered](metered)() | 初始化一个新实例[`Metered`](../metered)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.search/metered/setmeteredkey)(string, string) | 设置计量的公钥和私钥。 |
-| static [GetConsumptionCredit](../../groupdocs.search/metered/getconsumptioncredit)() | 获取消费积分。 |
-| static [GetConsumptionQuantity](../../groupdocs.search/metered/getconsumptionquantity)() | 获取消耗量。 |
+| [SetMeteredKey](../../groupdocs.search/metered/setmeteredkey)(string, string) | 设置计量公钥和私钥。 |
+| static [GetConsumptionCredit](../../groupdocs.search/metered/getconsumptioncredit)() | 获取消费信用。 |
+| static [GetConsumptionQuantity](../../groupdocs.search/metered/getconsumptionquantity)() | 获取消费数量。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [评估限制和许可](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 
 ### 例子
 
-该示例演示了如何设置计量的公钥和私钥。
+该示例演示如何设置计量公钥和私钥。
 
 ```csharp
 Metered metered = new Metered();

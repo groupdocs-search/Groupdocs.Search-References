@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: GroupDocs.Search for .NET API 参考
-description: 定义记录器的接口用于记录索引中的事件和错误
+description: 定义用于在索引中记录事件和错误的记录器接口
 type: docs
 weight: 200
 url: /zh/net/groupdocs.search.common/ilogger/
 ---
 ## ILogger interface
 
-定义记录器的接口，用于记录索引中的事件和错误。
+定义用于在索引中记录事件和错误的记录器接口。
 
 ```csharp
 public interface ILogger
@@ -23,9 +23,9 @@ public interface ILogger
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [日志记录](https://docs.groupdocs.com/display/searchnet/Logging)
+* [记录](https://docs.groupdocs.com/display/searchnet/Logging)
 
 ### 也可以看看
 

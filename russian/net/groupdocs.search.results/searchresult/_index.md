@@ -3,7 +3,7 @@ title: SearchResult
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет результат поиска соответствующий поисковому запросу.
 type: docs
-weight: 1190
+weight: 1230
 url: /ru/net/groupdocs.search.results/searchresult/
 ---
 ## SearchResult class
@@ -36,7 +36,7 @@ public class SearchResult : IEnumerable<FoundDocument>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Идет поиск](https://docs.groupdocs.com/display/searchnet/Searching)
 * [Результаты поиска](https://docs.groupdocs.com/display/searchnet/Search+results)

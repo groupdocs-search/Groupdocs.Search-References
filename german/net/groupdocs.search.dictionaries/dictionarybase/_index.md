@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert die Basisklasse für ein Wörterbuch.
 type: docs
-weight: 400
+weight: 410
 url: /de/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class
@@ -23,7 +23,7 @@ public abstract class DictionaryBase
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Index aktualisieren](https://docs.groupdocs.com/display/searchnet/Update+index)
 

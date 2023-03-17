@@ -1,14 +1,14 @@
 ---
 title: FailedCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回因错误未删除的路径数
+description: 返回因错误而未删除的路径数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.results/deleteresult/failedcount/
 ---
 ## DeleteResult.FailedCount property
 
-返回因错误未删除的路径数。
+返回因错误而未删除的路径数。
 
 ```csharp
 public int FailedCount { get; }

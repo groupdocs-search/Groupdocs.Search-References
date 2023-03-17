@@ -1,14 +1,14 @@
 ---
 title: CSV
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione CSV Comma Separated Values rappresentano file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/spreadsheet/csv/ .
+description: I file con estensione CSV Comma Separated Values rappresentano file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/spreadsheet/csv/ .
 type: docs
 weight: 50
 url: /it/net/groupdocs.search.results/filetype/csv/
 ---
 ## FileType.CSV field
 
-I file con estensione CSV (Comma Separated Values) rappresentano file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/csv/) .
+I file con estensione CSV (Comma Separated Values) rappresentano file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/spreadsheet/csv/) .
 
 ```csharp
 public static readonly FileType CSV;

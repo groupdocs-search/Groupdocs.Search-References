@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di sostituzione dei caratteri utilizzato durante il processo di indicizzazione. La sostituzione dei caratteri può essere utilizzata ad esempio per rimuovere gli accenti dai caratteri accentati o per rendere lindice senza distinzione tra maiuscole e minuscole.
 type: docs
-weight: 370
+weight: 380
 url: /it/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
@@ -38,7 +38,7 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Sostituzione dei caratteri durante l'indicizzazione](https://docs.groupdocs.com/display/searchnet/Character+replacement+during+Indexing)
 * [Gestione delle sostituzioni dei personaggi](https://docs.groupdocs.com/display/searchnet/Character+replacements)

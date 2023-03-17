@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لعملية الدمج .
 type: docs
-weight: 930
+weight: 960
 url: /ar/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
@@ -24,8 +24,8 @@ public class MergeOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Cancellation](../../groupdocs.search.options/mergeoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`لا شيء` . |
-| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خاطئة` . |
+| [Cancellation](../../groupdocs.search.options/mergeoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`باطل` . |
+| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خطأ شنيع` . |
 
 ### ملاحظات
 

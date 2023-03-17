@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardırSimilarityLevelgroupdocs.search.options/similaritylevel veTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . Varsayılan değerSimilarityLevelgroupdocs.search.options/similaritylevel benzerlik düzeyi değeri ile05 .
+description: Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardırSimilarityLevelgroupdocs.search.options/similaritylevel VeTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. Varsayılan değerSimilarityLevelgroupdocs.search.options/similaritylevel benzerlik düzeyi değeri ile05 .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardır:[`SimilarityLevel`](../../similaritylevel) ve[`TableDiscreteFunction`](../../tablediscretefunction) . Varsayılan değer,[`SimilarityLevel`](../../similaritylevel) benzerlik düzeyi değeri ile`0,5` .
+Bulanık arama algoritmasını alır veya ayarlar. Şu anda kullanılabilen bulanık arama algoritmaları şunlardır:[`SimilarityLevel`](../../similaritylevel) Ve[`TableDiscreteFunction`](../../tablediscretefunction). Varsayılan değer,[`SimilarityLevel`](../../similaritylevel) benzerlik düzeyi değeri ile`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }

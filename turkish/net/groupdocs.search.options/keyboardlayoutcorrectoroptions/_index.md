@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Klavye düzeni düzeltici için seçenekler sağlar.
 type: docs
-weight: 910
+weight: 940
 url: /tr/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class
@@ -18,7 +18,7 @@ public class KeyboardLayoutCorrectorOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Klavye düzeni düzelticinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 
 ### Notlar
 

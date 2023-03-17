@@ -1,14 +1,14 @@
 ---
 title: DateFormat
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化DateFormatgroupdocs.search.options/dateformat类.
+description: 初始化一个新的实例DateFormatgroupdocs.search.options/dateformat类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/dateformat/dateformat/
 ---
 ## DateFormat(string, DateFormatElement[]) {#constructor_1}
 
-初始化[`DateFormat`](../../dateformat)类.
+初始化一个新的实例[`DateFormat`](../../dateformat)类.
 
 ```csharp
 public DateFormat(string cultureName, DateFormatElement[] formatElements)
@@ -30,7 +30,7 @@ public DateFormat(string cultureName, DateFormatElement[] formatElements)
 
 ## DateFormat(DateFormatElement[], string) {#constructor}
 
-初始化[`DateFormat`](../../dateformat)类.
+初始化一个新的实例[`DateFormat`](../../dateformat)类.
 
 ```csharp
 public DateFormat(DateFormatElement[] formatElements, string dateSeparator)

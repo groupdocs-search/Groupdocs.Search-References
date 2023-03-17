@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta gli argomenti per levento di avvio dellindicizzazione di un documento.
 type: docs
-weight: 510
+weight: 520
 url: /it/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class
@@ -33,7 +33,7 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca eventi indice](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

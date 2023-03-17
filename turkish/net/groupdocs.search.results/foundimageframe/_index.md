@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bulunan bir görüntü çerçevesini temsil eder.
 type: docs
-weight: 1160
+weight: 1200
 url: /tr/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class

@@ -1,14 +1,14 @@
 ---
 title: UseCaseSensitiveSearch
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Büyük/küçük harfe duyarlı arama bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Büyük/küçük harfe duyarlı arama bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.search.options/searchoptions/usecasesensitivesearch/
 ---
 ## SearchOptions.UseCaseSensitiveSearch property
 
-Büyük/küçük harfe duyarlı arama bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Büyük/küçük harfe duyarlı arama bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseCaseSensitiveSearch { get; set; }

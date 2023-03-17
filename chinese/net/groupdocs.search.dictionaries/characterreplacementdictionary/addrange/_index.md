@@ -1,14 +1,14 @@
 ---
 title: AddRange
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的字符替换集合添加到CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
+description: 将指定的字符替换集合添加到该实例CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementdictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;KeyValuePair&lt;char, char&gt;&gt;) {#addrange_2}
 
-将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public void AddRange(IEnumerable<KeyValuePair<char, char>> characterReplacements)
@@ -28,7 +28,7 @@ public void AddRange(IEnumerable<KeyValuePair<char, char>> characterReplacements
 
 ## AddRange(IEnumerable&lt;CharacterReplacementPair&gt;) {#addrange_1}
 
-将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public void AddRange(IEnumerable<CharacterReplacementPair> characterReplacements)
@@ -49,7 +49,7 @@ public void AddRange(IEnumerable<CharacterReplacementPair> characterReplacements
 
 ## AddRange(CharacterReplacementPair[]) {#addrange}
 
-将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public void AddRange(CharacterReplacementPair[] characterReplacements)

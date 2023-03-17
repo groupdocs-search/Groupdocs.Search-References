@@ -16,7 +16,7 @@ public event EventHandler<PasswordRequiredEventArgs> PasswordRequired;
 
 ### 例子
 
-示例演示如何使用事件。
+该示例演示了如何使用事件。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

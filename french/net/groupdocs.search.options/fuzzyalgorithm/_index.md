@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente la classe de base des algorithmes de recherche floue.
 type: docs
-weight: 810
+weight: 840
 url: /fr/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class

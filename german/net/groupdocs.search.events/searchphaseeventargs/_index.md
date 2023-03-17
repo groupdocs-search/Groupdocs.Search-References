@@ -3,7 +3,7 @@ title: SearchPhaseEventArgs
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt Argumente für die Suchphasenänderungsereignisse dar.
 type: docs
-weight: 590
+weight: 600
 url: /de/net/groupdocs.search.events/searchphaseeventargs/
 ---
 ## SearchPhaseEventArgs class
@@ -28,7 +28,7 @@ public class SearchPhaseEventArgs : BaseIndexEventArgs
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

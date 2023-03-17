@@ -1,14 +1,14 @@
 ---
 title: HTML
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: HTML Hyper Text Markup Language web tarayıcılarında görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/web/html/ .
+description: HTML Hyper Text Markup Language web tarayıcılarında görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/web/html/ .
 type: docs
 weight: 260
 url: /tr/net/groupdocs.search.results/filetype/html/
 ---
 ## FileType.HTML field
 
-HTML (Hyper Text Markup Language), web tarayıcılarında görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/web/html/) .
+HTML (Hyper Text Markup Language), web tarayıcılarında görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/web/html/) .
 
 ```csharp
 public static readonly FileType HTML;

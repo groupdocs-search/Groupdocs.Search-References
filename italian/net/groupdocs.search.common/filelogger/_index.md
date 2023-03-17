@@ -36,7 +36,7 @@ public class FileLogger : ILogger
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Registrazione](https://docs.groupdocs.com/display/searchnet/Logging)
 

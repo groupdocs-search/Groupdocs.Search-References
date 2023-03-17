@@ -21,25 +21,25 @@ public class IndexingReport
 | [EndTime](../../groupdocs.search.common/indexingreport/endtime) { get; } | 获取索引结束时间。 |
 | [Errors](../../groupdocs.search.common/indexingreport/errors) { get; } | 获取错误列表。 |
 | [IndexedDocuments](../../groupdocs.search.common/indexingreport/indexeddocuments) { get; } | 获取索引文档列表。 |
-| [IndexedDocumentsSize](../../groupdocs.search.common/indexingreport/indexeddocumentssize) { get; } | 获取索引文档的总长度，以 MB 为单位。 |
+| [IndexedDocumentsSize](../../groupdocs.search.common/indexingreport/indexeddocumentssize) { get; } | 获取以 MB 为单位的索引文档的总长度。 |
 | [IndexingTime](../../groupdocs.search.common/indexingreport/indexingtime) { get; } | 获取索引持续时间。 |
 | [RemovedDocuments](../../groupdocs.search.common/indexingreport/removeddocuments) { get; } | 获取从索引文档中删除的列表。 |
 | [SegmentCount](../../groupdocs.search.common/indexingreport/segmentcount) { get; } | 获取索引段数。 |
 | [StartTime](../../groupdocs.search.common/indexingreport/starttime) { get; } | 获取索引开始时间。 |
 | [TotalDocumentsInIndex](../../groupdocs.search.common/indexingreport/totaldocumentsinindex) { get; } | 获取索引中的文档总数。 |
-| [TotalIndexSize](../../groupdocs.search.common/indexingreport/totalindexsize) { get; } | 以字节为单位获取总索引大小。 |
-| [TotalTermCount](../../groupdocs.search.common/indexingreport/totaltermcount) { get; } | 获取索引中的词条总数。 |
+| [TotalIndexSize](../../groupdocs.search.common/indexingreport/totalindexsize) { get; } | 获取以字节为单位的总索引大小。 |
+| [TotalTermCount](../../groupdocs.search.common/indexingreport/totaltermcount) { get; } | 获取索引中的总词条数。 |
 | [UpdatedDocuments](../../groupdocs.search.common/indexingreport/updateddocuments) { get; } | 获取更新文档列表。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [索引报告](https://docs.groupdocs.com/display/searchnet/Indexing+reports)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -49,14 +49,14 @@ string documentsFolder2 = @"c:\MyDocuments2\";
 // 在指定文件夹中创建索引
 Index index = new Index(indexFolder);
 
-// 索引文档
+// 索引文件
 index.Add(documentsFolder1);
 index.Add(documentsFolder2);
 
 // 获取索引报告
 IndexingReport[] reports = index.GetIndexingReports();
 
-// 将报告打印到控制台
+// 打印报告到控制台
 foreach (IndexingReport report in reports)
 {
     Console.WriteLine("Time: " + report.StartTime);

@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di sinonimi.
 type: docs
-weight: 480
+weight: 490
 url: /it/net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class
@@ -36,7 +36,7 @@ public class SynonymDictionary : DictionaryBase, IEnumerable<string>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca di sinonimi](https://docs.groupdocs.com/display/searchnet/Synonym+search)
 * [Gestione del dizionario dei sinonimi](https://docs.groupdocs.com/display/searchnet/Synonym+dictionary)

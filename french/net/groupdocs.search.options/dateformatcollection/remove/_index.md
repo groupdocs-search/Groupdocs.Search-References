@@ -20,7 +20,7 @@ public bool Remove(DateFormat item)
 
 ### Return_Value
 
-`vrai` si l'élément a été supprimé avec succès de la collection ; Par ailleurs,`faux` . Cette méthode renvoie également`faux` si l'élément n'est pas trouvé dans la collection.
+`vrai` si l'élément a été supprimé avec succès de la collection ; sinon,`FAUX` . Cette méthode renvoie également`FAUX` si l'élément n'est pas trouvé dans la collection.
 
 ### Voir également
 

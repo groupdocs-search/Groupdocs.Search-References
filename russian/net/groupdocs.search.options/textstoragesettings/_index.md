@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет параметры хранения текста.
 type: docs
-weight: 1070
+weight: 1110
 url: /ru/net/groupdocs.search.options/textstoragesettings/
 ---
 ## TextStorageSettings class
@@ -28,7 +28,7 @@ public class TextStorageSettings
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Хранение текста проиндексированных документов](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 * [Настройки поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+settings)

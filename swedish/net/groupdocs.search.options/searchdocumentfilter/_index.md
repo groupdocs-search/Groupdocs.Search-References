@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Innehåller metoder för att skapa sökdokumentfilter.
 type: docs
-weight: 990
+weight: 1030
 url: /sv/net/groupdocs.search.options/searchdocumentfilter/
 ---
 ## SearchDocumentFilter class

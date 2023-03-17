@@ -3,7 +3,7 @@ title: CharacterType
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Nasıl dizine alınması gerektiğine bağlı olarak bir karakter türünü temsil eder.
 type: docs
-weight: 390
+weight: 400
 url: /tr/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration

@@ -1,14 +1,14 @@
 ---
 title: CreateOrQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个组合查询该查询将找到至少为原始查询之一找到的所有文档
+description: 创建一个组合查询该查询将查找至少为原始查询之一找到的所有文档
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search/searchquery/createorquery/
 ---
 ## SearchQuery.CreateOrQuery method
 
-创建一个组合查询，该查询将找到至少为原始查询之一找到的所有文档。
+创建一个组合查询，该查询将查找至少为原始查询之一找到的所有文档。
 
 ```csharp
 public static SearchQuery CreateOrQuery(SearchQuery leftQuery, SearchQuery rightQuery)
@@ -21,7 +21,7 @@ public static SearchQuery CreateOrQuery(SearchQuery leftQuery, SearchQuery right
 
 ### 返回值
 
-组合 OR 查询。
+组合的 OR 查询。
 
 ### 也可以看看
 

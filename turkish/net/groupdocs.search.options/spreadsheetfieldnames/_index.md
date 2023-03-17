@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Çok yönlü arama için alan adlarının bir listesini temsil eder.
 type: docs
-weight: 1030
+weight: 1070
 url: /tr/net/groupdocs.search.options/spreadsheetfieldnames/
 ---
 ## SpreadsheetFieldNames class

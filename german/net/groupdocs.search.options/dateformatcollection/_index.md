@@ -3,7 +3,7 @@ title: DateFormatCollection
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Sammlung vonDateFormat./dateformat Objekte.
 type: docs
-weight: 750
+weight: 780
 url: /de/net/groupdocs.search.options/dateformatcollection/
 ---
 ## DateFormatCollection class
@@ -34,7 +34,7 @@ public class DateFormatCollection : ICollection<DateFormat>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Datumsbereichssuche](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 

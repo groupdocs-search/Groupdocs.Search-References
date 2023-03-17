@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir sorgudaki terimler için yazım düzelticiyi temsil eder.
 type: docs
-weight: 460
+weight: 470
 url: /tr/net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class

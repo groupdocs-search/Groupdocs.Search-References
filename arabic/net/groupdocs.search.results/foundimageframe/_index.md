@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل إطار صورة تم العثور عليه.
 type: docs
-weight: 1160
+weight: 1200
 url: /ar/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class

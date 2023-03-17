@@ -1,14 +1,14 @@
 ---
 title: AttributeChangeBatch
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化AttributeChangeBatchgroupdocs.search.common/attributechangebatch类.
+description: 初始化一个新的实例AttributeChangeBatchgroupdocs.search.common/attributechangebatch类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/attributechangebatch/attributechangebatch/
 ---
 ## AttributeChangeBatch constructor
 
-初始化[`AttributeChangeBatch`](../../attributechangebatch)类.
+初始化一个新的实例[`AttributeChangeBatch`](../../attributechangebatch)类.
 
 ```csharp
 public AttributeChangeBatch()

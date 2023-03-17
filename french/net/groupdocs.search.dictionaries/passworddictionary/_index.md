@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un dictionnaire de mots de passe de document.
 type: docs
-weight: 450
+weight: 460
 url: /fr/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class

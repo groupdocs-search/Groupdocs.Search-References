@@ -18,10 +18,10 @@ public enum DocumentSourceKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| File | `0` | 文件文件来源. |
+| File | `0` | 文件文档来源. |
 | Stream | `1` | 流文档源. |
-| Structure | `2` | 结构文件来源. |
-| ExtractedData | `3` | 之前提取数据的文档来源。 |
+| Structure | `2` | 结构文件source. |
+| ExtractedData | `3` | 先前提取数据的文档源。 |
 
 ### 也可以看看
 

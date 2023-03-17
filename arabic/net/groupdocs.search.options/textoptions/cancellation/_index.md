@@ -1,14 +1,14 @@
 ---
 title: Cancellation
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هيلا شيء .
+description: الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هيباطل .
 type: docs
 weight: 30
 url: /ar/net/groupdocs.search.options/textoptions/cancellation/
 ---
 ## TextOptions.Cancellation property
 
-الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`لا شيء` .
+الحصول على كائن الإلغاء أو تعيينه . القيمة الافتراضية هي`باطل` .
 
 ```csharp
 public Cancellation Cancellation { get; set; }

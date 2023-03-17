@@ -1,18 +1,24 @@
 ---
 title: ResultBuilderFactory
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示结果构建器工厂的基类
+description: 表示结果生成器工厂的基类
 type: docs
 weight: 270
 url: /zh/net/groupdocs.search.common/resultbuilderfactory/
 ---
 ## ResultBuilderFactory class
 
-表示结果构建器工厂的基类。
+表示结果生成器工厂的基类。
 
 ```csharp
 public abstract class ResultBuilderFactory
 ```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 
 ### 也可以看看
 

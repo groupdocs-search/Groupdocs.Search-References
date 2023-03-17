@@ -3,7 +3,7 @@ title: Index
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente la classe principale pour lindexation des documents et la recherche parmi eux.
 type: docs
-weight: 650
+weight: 680
 url: /fr/net/groupdocs.search/index/
 ---
 ## Index class
@@ -21,9 +21,9 @@ public class Index : IDisposable
 | [Index](index#constructor)() | Initialise une nouvelle instance du[`Index`](../index) classe en mémoire. |
 | [Index](index#constructor_1)(IndexSettings) | Initialise une nouvelle instance du[`Index`](../index) classe en mémoire avec des paramètres d'index particuliers. |
 | [Index](index#constructor_2)(string) | Initialise une nouvelle instance du[`Index`](../index) class. Crée un nouvel index ou ouvre un index existant sur le disque. |
-| [Index](index#constructor_3)(string, bool) | Initialise une nouvelle instance du[`Index`](../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`faux`; crée un nouvel index sur le disque sinon. |
+| [Index](index#constructor_3)(string, bool) | Initialise une nouvelle instance du[`Index`](../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`FAUX`; crée un nouvel index sur le disque sinon. |
 | [Index](index#constructor_4)(string, IndexSettings) | Initialise une nouvelle instance du[`Index`](../index) class. Crée un nouvel index avec des paramètres particuliers ou ouvre un index existant sur le disque. |
-| [Index](index#constructor_5)(string, IndexSettings, bool) | Initialise une nouvelle instance du[`Index`](../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`faux` ; crée un nouvel index sur le disque avec des paramètres d'index particuliers sinon. |
+| [Index](index#constructor_5)(string, IndexSettings, bool) | Initialise une nouvelle instance du[`Index`](../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`FAUX` ; crée un nouvel index sur le disque avec des paramètres d'index particuliers sinon. |
 
 ## Propriétés
 

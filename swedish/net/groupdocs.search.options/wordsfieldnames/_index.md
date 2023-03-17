@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 1090
+weight: 1130
 url: /sv/net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class

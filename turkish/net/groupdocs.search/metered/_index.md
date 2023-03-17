@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Ürünün Metered lisansı ile etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edininburadahttps//purchase.groupdocs.com/faqs/licensing/metered .
+description: Ürünün Metered lisansıyla etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edininBuradahttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /tr/net/groupdocs.search/metered/
 ---
 ## Metered class
 
-Ürünün Metered lisansı ile etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edinin[burada](https://purchase.groupdocs.com/faqs/licensing/metered) .
+Ürünün Metered lisansıyla etkinleştirilmesine ve işlenen MB miktarının alınmasına izin veren yöntemler sağlar. Metered lisansları hakkında daha fazla bilgi edinin[Burada](https://purchase.groupdocs.com/faqs/licensing/metered) .
 
 ```csharp
 public class Metered

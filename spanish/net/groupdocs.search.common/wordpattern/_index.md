@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un patrón de palabras para usar en la búsqueda de palabras comodín.
 type: docs
-weight: 330
+weight: 340
 url: /es/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

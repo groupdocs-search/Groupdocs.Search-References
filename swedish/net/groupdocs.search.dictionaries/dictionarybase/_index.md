@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar basklassen för en ordbok.
 type: docs
-weight: 400
+weight: 410
 url: /sv/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class

@@ -11,15 +11,17 @@ url: /fr/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 Initialise une nouvelle instance du[`StreamOutputAdapter`](../../streamoutputadapter) classe.
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Le format de sortie. |
 | stream | Stream | Le flux de sortie. |
 
 ### Voir également
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * espace de noms [GroupDocs.Search.Common](../../streamoutputadapter)
 * Assemblée [GroupDocs.Search](../../../)

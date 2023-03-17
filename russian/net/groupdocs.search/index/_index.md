@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет основной класс для индексации документов и поиска по ним.
 type: docs
-weight: 650
+weight: 680
 url: /ru/net/groupdocs.search/index/
 ---
 ## Index class
@@ -76,7 +76,7 @@ public class Index : IDisposable
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Создание индекса](https://docs.groupdocs.com/display/searchnet/Creating+an+index)
 * [Индексация](https://docs.groupdocs.com/display/searchnet/Indexing)

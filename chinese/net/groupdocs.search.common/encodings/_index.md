@@ -20,19 +20,19 @@ public static class Encodings
 | --- | --- |
 | const [ASMO_708](../../groupdocs.search.common/encodings/asmo_708) | ASMO-708 编码。 |
 | const [big5](../../groupdocs.search.common/encodings/big5) | big5 编码。 |
-| const [cp1025](../../groupdocs.search.common/encodings/cp1025) | cp1025 编码。 |
-| const [cp866](../../groupdocs.search.common/encodings/cp866) | cp866 编码。 |
-| const [cp875](../../groupdocs.search.common/encodings/cp875) | cp875 编码。 |
+| const [cp1025](../../groupdocs.search.common/encodings/cp1025) | cp1025编码。 |
+| const [cp866](../../groupdocs.search.common/encodings/cp866) | cp866编码。 |
+| const [cp875](../../groupdocs.search.common/encodings/cp875) | cp875编码。 |
 | const [csISO2022JP](../../groupdocs.search.common/encodings/csiso2022jp) | csISO2022JP 编码。 |
-| const [DOS_720](../../groupdocs.search.common/encodings/dos_720) | DOS-720 编码。 |
-| const [DOS_862](../../groupdocs.search.common/encodings/dos_862) | DOS-862 编码。 |
+| const [DOS_720](../../groupdocs.search.common/encodings/dos_720) | DOS-720编码。 |
+| const [DOS_862](../../groupdocs.search.common/encodings/dos_862) | DOS-862编码。 |
 | const [EUC_CN](../../groupdocs.search.common/encodings/euc_cn) | EUC-CN 编码。 |
 | const [EUC_JP](../../groupdocs.search.common/encodings/euc_jp) | EUC-JP 编码。 |
 | const [euc_jp](../../groupdocs.search.common/encodings/euc_jp) | euc-jp 编码。 |
 | const [euc_kr](../../groupdocs.search.common/encodings/euc_kr) | euc-kr 编码。 |
-| const [GB18030](../../groupdocs.search.common/encodings/gb18030) | GB18030 编码。 |
-| const [gb2312](../../groupdocs.search.common/encodings/gb2312) | gb2312 编码。 |
-| const [hz_gb_2312](../../groupdocs.search.common/encodings/hz_gb_2312) | hz-gb-2312 编码。 |
+| const [GB18030](../../groupdocs.search.common/encodings/gb18030) | GB18030编码。 |
+| const [gb2312](../../groupdocs.search.common/encodings/gb2312) | gb2312编码。 |
+| const [hz_gb_2312](../../groupdocs.search.common/encodings/hz_gb_2312) | hz-gb-2312编码。 |
 | const [IBM00858](../../groupdocs.search.common/encodings/ibm00858) | IBM00858 编码。 |
 | const [IBM00924](../../groupdocs.search.common/encodings/ibm00924) | IBM00924 编码。 |
 | const [IBM01047](../../groupdocs.search.common/encodings/ibm01047) | IBM01047 编码。 |
@@ -61,23 +61,23 @@ public static class Encodings
 | const [IBM424](../../groupdocs.search.common/encodings/ibm424) | IBM424 编码。 |
 | const [IBM437](../../groupdocs.search.common/encodings/ibm437) | IBM437 编码。 |
 | const [IBM500](../../groupdocs.search.common/encodings/ibm500) | IBM500 编码。 |
-| const [ibm737](../../groupdocs.search.common/encodings/ibm737) | ibm737 编码。 |
-| const [ibm775](../../groupdocs.search.common/encodings/ibm775) | ibm775 编码。 |
-| const [ibm850](../../groupdocs.search.common/encodings/ibm850) | ibm850 编码。 |
-| const [ibm852](../../groupdocs.search.common/encodings/ibm852) | ibm852 编码。 |
+| const [ibm737](../../groupdocs.search.common/encodings/ibm737) | ibm737编码。 |
+| const [ibm775](../../groupdocs.search.common/encodings/ibm775) | ibm775编码。 |
+| const [ibm850](../../groupdocs.search.common/encodings/ibm850) | ibm850编码。 |
+| const [ibm852](../../groupdocs.search.common/encodings/ibm852) | ibm852编码。 |
 | const [IBM855](../../groupdocs.search.common/encodings/ibm855) | IBM855 编码。 |
-| const [ibm857](../../groupdocs.search.common/encodings/ibm857) | ibm857 编码。 |
-| const [IBM860](../../groupdocs.search.common/encodings/ibm860) | IBM860 编码。 |
-| const [ibm861](../../groupdocs.search.common/encodings/ibm861) | ibm861 编码。 |
+| const [ibm857](../../groupdocs.search.common/encodings/ibm857) | ibm857编码。 |
+| const [IBM860](../../groupdocs.search.common/encodings/ibm860) | IBM860编码。 |
+| const [ibm861](../../groupdocs.search.common/encodings/ibm861) | ibm861编码。 |
 | const [IBM863](../../groupdocs.search.common/encodings/ibm863) | IBM863 编码。 |
 | const [IBM864](../../groupdocs.search.common/encodings/ibm864) | IBM864 编码。 |
 | const [IBM865](../../groupdocs.search.common/encodings/ibm865) | IBM865 编码。 |
-| const [ibm869](../../groupdocs.search.common/encodings/ibm869) | ibm869 编码。 |
+| const [ibm869](../../groupdocs.search.common/encodings/ibm869) | ibm869编码。 |
 | const [IBM870](../../groupdocs.search.common/encodings/ibm870) | IBM870 编码。 |
 | const [IBM871](../../groupdocs.search.common/encodings/ibm871) | IBM871 编码。 |
-| const [IBM880](../../groupdocs.search.common/encodings/ibm880) | IBM880 编码。 |
+| const [IBM880](../../groupdocs.search.common/encodings/ibm880) | IBM880编码。 |
 | const [IBM905](../../groupdocs.search.common/encodings/ibm905) | IBM905 编码。 |
-| const [IBM_Thai](../../groupdocs.search.common/encodings/ibm_thai) | IBM-Thai 编码。 |
+| const [IBM_Thai](../../groupdocs.search.common/encodings/ibm_thai) | IBM-泰语编码。 |
 | const [iso_2022_jp](../../groupdocs.search.common/encodings/iso_2022_jp) | iso-2022-jp 编码。 |
 | const [iso_2022_kr](../../groupdocs.search.common/encodings/iso_2022_kr) | iso-2022-kr 编码。 |
 | const [iso_8859_1](../../groupdocs.search.common/encodings/iso_8859_1) | iso-8859-1 编码。 |
@@ -93,18 +93,18 @@ public static class Encodings
 | const [iso_8859_8_i](../../groupdocs.search.common/encodings/iso_8859_8_i) | iso-8859-8-i 编码。 |
 | const [iso_8859_9](../../groupdocs.search.common/encodings/iso_8859_9) | iso-8859-9 编码。 |
 | const [Johab](../../groupdocs.search.common/encodings/johab) | Johab 编码。 |
-| const [koi8_r](../../groupdocs.search.common/encodings/koi8_r) | koi8-r 编码。 |
-| const [koi8_u](../../groupdocs.search.common/encodings/koi8_u) | koi8-u 编码。 |
+| const [koi8_r](../../groupdocs.search.common/encodings/koi8_r) | koi8-r编码。 |
+| const [koi8_u](../../groupdocs.search.common/encodings/koi8_u) | koi8-u编码。 |
 | const [ks_c_5601_1987](../../groupdocs.search.common/encodings/ks_c_5601_1987) | ks_c_5601-1987 编码。 |
 | const [macintosh](../../groupdocs.search.common/encodings/macintosh) | macintosh 编码。 |
 | const [shift_jis](../../groupdocs.search.common/encodings/shift_jis) | shift_jis 编码。 |
 | const [us_ascii](../../groupdocs.search.common/encodings/us_ascii) | us-ascii 编码。 |
-| const [utf_16](../../groupdocs.search.common/encodings/utf_16) | utf-16 编码。 |
-| const [utf_16BE](../../groupdocs.search.common/encodings/utf_16be) | utf-16BE 编码。 |
-| const [utf_32](../../groupdocs.search.common/encodings/utf_32) | utf-32 编码。 |
-| const [utf_32BE](../../groupdocs.search.common/encodings/utf_32be) | utf-32BE 编码。 |
-| const [utf_7](../../groupdocs.search.common/encodings/utf_7) | utf-7 编码。 |
-| const [utf_8](../../groupdocs.search.common/encodings/utf_8) | utf-8 编码。 |
+| const [utf_16](../../groupdocs.search.common/encodings/utf_16) | utf-16编码。 |
+| const [utf_16BE](../../groupdocs.search.common/encodings/utf_16be) | utf-16BE编码。 |
+| const [utf_32](../../groupdocs.search.common/encodings/utf_32) | utf-32编码。 |
+| const [utf_32BE](../../groupdocs.search.common/encodings/utf_32be) | utf-32BE编码。 |
+| const [utf_7](../../groupdocs.search.common/encodings/utf_7) | utf-7编码。 |
+| const [utf_8](../../groupdocs.search.common/encodings/utf_8) | utf-8编码。 |
 | const [Windows_1250](../../groupdocs.search.common/encodings/windows_1250) | Windows-1250 编码。 |
 | const [Windows_1251](../../groupdocs.search.common/encodings/windows_1251) | Windows-1251 编码。 |
 | const [Windows_1252](../../groupdocs.search.common/encodings/windows_1252) | Windows-1252 编码。 |
@@ -114,7 +114,7 @@ public static class Encodings
 | const [Windows_1256](../../groupdocs.search.common/encodings/windows_1256) | Windows-1256 编码。 |
 | const [Windows_1257](../../groupdocs.search.common/encodings/windows_1257) | Windows-1257 编码。 |
 | const [Windows_1258](../../groupdocs.search.common/encodings/windows_1258) | Windows-1258 编码。 |
-| const [windows_874](../../groupdocs.search.common/encodings/windows_874) | windows-874 编码。 |
+| const [windows_874](../../groupdocs.search.common/encodings/windows_874) | windows-874编码。 |
 | const [x_Chinese_CNS](../../groupdocs.search.common/encodings/x_chinese_cns) | x-Chinese-CNS 编码。 |
 | const [x_Chinese_Eten](../../groupdocs.search.common/encodings/x_chinese_eten) | x-Chinese-Eten 编码。 |
 | const [x_cp20001](../../groupdocs.search.common/encodings/x_cp20001) | x-cp20001 编码。 |
@@ -129,8 +129,8 @@ public static class Encodings
 | const [x_EBCDIC_KoreanExtended](../../groupdocs.search.common/encodings/x_ebcdic_koreanextended) | x-EBCDIC-KoreanExtended 编码。 |
 | const [x_Europa](../../groupdocs.search.common/encodings/x_europa) | x-Europa 编码。 |
 | const [x_IA5](../../groupdocs.search.common/encodings/x_ia5) | x-IA5 编码。 |
-| const [x_IA5_German](../../groupdocs.search.common/encodings/x_ia5_german) | x-IA5-German 编码。 |
-| const [x_IA5_Norwegian](../../groupdocs.search.common/encodings/x_ia5_norwegian) | x-IA5-挪威编码。 |
+| const [x_IA5_German](../../groupdocs.search.common/encodings/x_ia5_german) | x-IA5-德语编码。 |
+| const [x_IA5_Norwegian](../../groupdocs.search.common/encodings/x_ia5_norwegian) | x-IA5-Norwegian 编码。 |
 | const [x_IA5_Swedish](../../groupdocs.search.common/encodings/x_ia5_swedish) | x-IA5-瑞典编码。 |
 | const [x_iscii_as](../../groupdocs.search.common/encodings/x_iscii_as) | x-iscii-as 编码。 |
 | const [x_iscii_be](../../groupdocs.search.common/encodings/x_iscii_be) | x-iscii-be 编码。 |
@@ -146,7 +146,7 @@ public static class Encodings
 | const [x_mac_ce](../../groupdocs.search.common/encodings/x_mac_ce) | x-mac-ce 编码。 |
 | const [x_mac_chinesesimp](../../groupdocs.search.common/encodings/x_mac_chinesesimp) | x-mac-chinesesimp 编码。 |
 | const [x_mac_chinesetrad](../../groupdocs.search.common/encodings/x_mac_chinesetrad) | x-mac-chinesetrad 编码。 |
-| const [x_mac_croatian](../../groupdocs.search.common/encodings/x_mac_croatian) | x-mac-croatian 编码。 |
+| const [x_mac_croatian](../../groupdocs.search.common/encodings/x_mac_croatian) | x-mac-克罗地亚语编码。 |
 | const [x_mac_cyrillic](../../groupdocs.search.common/encodings/x_mac_cyrillic) | x-mac-cyrillic 编码。 |
 | const [x_mac_greek](../../groupdocs.search.common/encodings/x_mac_greek) | x-mac-greek 编码。 |
 | const [x_mac_hebrew](../../groupdocs.search.common/encodings/x_mac_hebrew) | x-mac-hebrew 编码。 |
@@ -160,7 +160,7 @@ public static class Encodings
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [文本文件编码检测](https://docs.groupdocs.com/display/searchnet/Text+file+encoding+detection)
 

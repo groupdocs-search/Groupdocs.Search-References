@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Belge filtreleri için temel sınıfı temsil eder. Belge filtresi örnekleri oluşturmak için yöntemler içerir.
 type: docs
-weight: 770
+weight: 800
 url: /tr/net/groupdocs.search.options/documentfilter/
 ---
 ## DocumentFilter class

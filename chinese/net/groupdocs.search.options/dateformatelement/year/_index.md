@@ -1,14 +1,14 @@
 ---
 title: Year
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取由一位两位三位或四位数字表示的年份元素
+description: 获取年份元素由一位两位三位或四位数字表示
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.options/dateformatelement/year/
 ---
 ## DateFormatElement.Year property
 
-获取由一位、两位、三位或四位数字表示的年份元素。
+获取年份元素，由一位、两位、三位或四位数字表示。
 
 ```csharp
 public static DateFormatElement Year { get; }

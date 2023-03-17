@@ -3,7 +3,7 @@ title: EventHub
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Abone olmak için indeks olayları sağlar.
 type: docs
-weight: 500
+weight: 510
 url: /tr/net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class

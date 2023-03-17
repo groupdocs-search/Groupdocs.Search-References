@@ -3,7 +3,7 @@ title: ImageSearchResult
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نتيجة البحث العكسي عن الصورة.
 type: docs
-weight: 1170
+weight: 1210
 url: /ar/net/groupdocs.search.results/imagesearchresult/
 ---
 ## ImageSearchResult class

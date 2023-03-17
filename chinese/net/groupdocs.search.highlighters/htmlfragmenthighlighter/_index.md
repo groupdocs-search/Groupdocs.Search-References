@@ -1,40 +1,35 @@
 ---
 title: HtmlFragmentHighlighter
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个搜索结果高亮显示以 HTML 格式的文本片段突出显示搜索结果
+description: 表示搜索结果高亮器以 HTML 格式的文本片段突出显示搜索结果
 type: docs
-weight: 630
+weight: 660
 url: /zh/net/groupdocs.search.highlighters/htmlfragmenthighlighter/
 ---
 ## HtmlFragmentHighlighter class
 
-表示一个搜索结果高亮显示，以 HTML 格式的文本片段突出显示搜索结果。
+表示搜索结果高亮器，以 HTML 格式的文本片段突出显示搜索结果。
 
 ```csharp
+[Obsolete("Please, use the FragmentHighlighter class instead.")]
 public class HtmlFragmentHighlighter : Highlighter
 ```
 
-## 构造函数
+## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HtmlFragmentHighlighter](htmlfragmenthighlighter)() | 初始化[`HtmlFragmentHighlighter`](../htmlfragmenthighlighter)类. |
-
-## 方法
-
-| 姓名 | 描述 |
-| --- | --- |
-| [GetResult](../../groupdocs.search.highlighters/htmlfragmenthighlighter/getresult)() | 获取结果片段容器的数组。 |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [突出显示搜索结果](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -55,7 +50,7 @@ options.TermsBefore = 5;
 options.TermsAfter = 5;
 options.TermsTotal = 15;
 
-// 突出显示文档文本中找到的单词
+// 突出显示在文档文本中找到的单词
 FoundDocument document = result.GetFoundDocument(0);
 HtmlFragmentHighlighter highlighter = new HtmlFragmentHighlighter();
 index.Highlight(document, highlighter, options);

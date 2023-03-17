@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ARGBfärg alfa röd grön blå.
 type: docs
-weight: 710
+weight: 740
 url: /sv/net/groupdocs.search.options/color/
 ---
 ## Color class

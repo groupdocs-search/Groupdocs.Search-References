@@ -1,14 +1,14 @@
 ---
 title: BMP
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione .BMP rappresentano i file di immagini bitmap che vengono utilizzati per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalladattatore grafico e sono anche chiamate file bitmap indipendenti dal dispositivo DIB formato. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/bmp/ .
+description: I file con estensione .BMP rappresentano i file di immagini bitmap che vengono utilizzati per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalladattatore grafico e sono anche chiamate file bitmap indipendenti dal dispositivo DIB formato. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/bmp/ .
 type: docs
 weight: 30
 url: /it/net/groupdocs.search.results/filetype/bmp/
 ---
 ## FileType.BMP field
 
-I file con estensione .BMP rappresentano i file di immagini bitmap che vengono utilizzati per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dall'adattatore grafico e sono anche chiamate file bitmap indipendenti dal dispositivo (DIB) formato. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/bmp/) .
+I file con estensione .BMP rappresentano i file di immagini bitmap che vengono utilizzati per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dall'adattatore grafico e sono anche chiamate file bitmap indipendenti dal dispositivo (DIB) formato. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/bmp/) .
 
 ```csharp
 public static readonly FileType BMP;

@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente une liste de noms de champs pour la recherche à facettes.
 type: docs
-weight: 780
+weight: 810
 url: /fr/net/groupdocs.search.options/epubfieldnames/
 ---
 ## EpubFieldNames class

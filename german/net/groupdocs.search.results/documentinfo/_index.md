@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert einen Deskriptor für ein indiziertes Dokument.
 type: docs
-weight: 1110
+weight: 1150
 url: /de/net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class
@@ -36,7 +36,7 @@ public class DocumentInfo
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchergebnisse](https://docs.groupdocs.com/display/searchnet/Search+results)
 * [Indexierte Dokumente abrufen](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)

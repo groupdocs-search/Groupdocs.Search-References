@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Determina se anAliasDictionarygroupdocs.search.dictionaries/aliasdictionaryloggetto contiene lalias specificato.
+description: Determina se anAliasDictionarygroupdocs.search.dictionaries/aliasdictionary loggetto contiene lalias specificato.
 type: docs
 weight: 50
 url: /it/net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method
 
-Determina se an[`AliasDictionary`](../../aliasdictionary)l'oggetto contiene l'alias specificato.
+Determina se an[`AliasDictionary`](../../aliasdictionary) l'oggetto contiene l'alias specificato.
 
 ```csharp
 public bool Contains(string alias)
@@ -20,13 +20,13 @@ public bool Contains(string alias)
 
 ### Valore di ritorno
 
-`VERO` se la[`AliasDictionary`](../../aliasdictionary) l'oggetto contiene l'alias specificato; altrimenti,`falso` .
+`VERO` se la[`AliasDictionary`](../../aliasdictionary) l'oggetto contiene l'alias specificato; Altrimenti,`falso` .
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*alias* è`nullo`. |
+| ArgumentNullException | Lanciato quando*alias* È`nullo`. |
 
 ### Guarda anche
 

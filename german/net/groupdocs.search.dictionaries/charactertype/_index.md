@@ -3,7 +3,7 @@ title: CharacterType
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt einen Zeichentyp dar je nachdem wie es indiziert werden soll.
 type: docs
-weight: 390
+weight: 400
 url: /de/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration

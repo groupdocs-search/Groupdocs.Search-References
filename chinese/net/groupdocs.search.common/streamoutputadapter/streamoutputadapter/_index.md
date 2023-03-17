@@ -1,25 +1,27 @@
 ---
 title: StreamOutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化StreamOutputAdaptergroupdocs.search.common/streamoutputadapter类.
+description: 初始化一个新的实例StreamOutputAdaptergroupdocs.search.common/streamoutputadapter类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 ---
 ## StreamOutputAdapter constructor
 
-初始化[`StreamOutputAdapter`](../../streamoutputadapter)类.
+初始化一个新的实例[`StreamOutputAdapter`](../../streamoutputadapter)类.
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
+| outputFormat | OutputFormat | 输出格式。 |
 | stream | Stream | 输出流。 |
 
 ### 也可以看看
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * 命名空间 [GroupDocs.Search.Common](../../streamoutputadapter)
 * 部件 [GroupDocs.Search](../../../)

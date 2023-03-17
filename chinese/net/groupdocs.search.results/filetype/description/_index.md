@@ -16,7 +16,7 @@ public string Description { get; }
 
 ### 适当的价值
 
-文件类型描述。
+文件类型说明。
 
 ### 也可以看看
 

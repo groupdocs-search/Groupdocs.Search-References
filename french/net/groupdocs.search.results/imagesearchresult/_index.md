@@ -3,7 +3,7 @@ title: ImageSearchResult
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente le résultat dune recherche dimage inversée.
 type: docs
-weight: 1170
+weight: 1210
 url: /fr/net/groupdocs.search.results/imagesearchresult/
 ---
 ## ImageSearchResult class

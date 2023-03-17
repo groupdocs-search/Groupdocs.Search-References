@@ -1,14 +1,14 @@
 ---
 title: MonthAbbreviatedName
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取月份元素以缩写名称表示
+description: 获取由缩写名称表示的月份元素
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/dateformatelement/monthabbreviatedname/
 ---
 ## DateFormatElement.MonthAbbreviatedName property
 
-获取月份元素，以缩写名称表示。
+获取由缩写名称表示的月份元素。
 
 ```csharp
 public static DateFormatElement MonthAbbreviatedName { get; }

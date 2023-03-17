@@ -16,7 +16,7 @@ public char GetReplacement(char character)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| character | Char | 要替换的角色。 |
+| character | Char | 要替换的字符。 |
 
 ### 返回值
 

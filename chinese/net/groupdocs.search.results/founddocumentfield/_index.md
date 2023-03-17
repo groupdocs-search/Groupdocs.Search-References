@@ -3,7 +3,7 @@ title: FoundDocumentField
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示找到的文档字段
 type: docs
-weight: 1150
+weight: 1190
 url: /zh/net/groupdocs.search.results/founddocumentfield/
 ---
 ## FoundDocumentField class
@@ -20,7 +20,7 @@ public class FoundDocumentField
 | --- | --- |
 | [FieldName](../../groupdocs.search.results/founddocumentfield/fieldname) { get; } | 获取字段名称。 |
 | [OccurrenceCount](../../groupdocs.search.results/founddocumentfield/occurrencecount) { get; } | 获取找到的出现次数。 |
-| [Terms](../../groupdocs.search.results/founddocumentfield/terms) { get; } | 获取找到的术语。 |
+| [Terms](../../groupdocs.search.results/founddocumentfield/terms) { get; } | 获取找到的项。 |
 | [TermSequences](../../groupdocs.search.results/founddocumentfield/termsequences) { get; } | 获取找到的术语序列。 |
 | [TermSequencesOccurrences](../../groupdocs.search.results/founddocumentfield/termsequencesoccurrences) { get; } | 获取找到的术语序列的出现次数。 |
 | [TermsOccurrences](../../groupdocs.search.results/founddocumentfield/termsoccurrences) { get; } | 获取找到的术语的出现次数。 |
@@ -31,11 +31,11 @@ public class FoundDocumentField
 | --- | --- |
 | static [Deserialize](../../groupdocs.search.results/founddocumentfield/deserialize)(byte[]) | 从字节数组中反序列化一个实例。 |
 | [Serialize](../../groupdocs.search.results/founddocumentfield/serialize)() | 将当前实例序列化为字节数组。 |
-| override [ToString](../../groupdocs.search.results/founddocumentfield/tostring)() | 返回找到的文档字段的字符串表示形式。 |
+| override [ToString](../../groupdocs.search.results/founddocumentfield/tostring)() | 返回找到的文档字段的字符串表示。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索结果](https://docs.groupdocs.com/display/searchnet/Search+results)
 

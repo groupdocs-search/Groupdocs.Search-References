@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değerhükümsüz . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
+description: Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değerhükümsüz. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search.options/textoptions/additionalfields/
 ---
 ## TextOptions.AdditionalFields property
 
-Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz` . Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
+Dizinleme için kullanılan ek belge alanlarını alır veya ayarlar. Varsayılan değer:`hükümsüz`. Bu değerin yalnızca belge metni dizine kaydedilmemişse kullanıldığını unutmayın.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }

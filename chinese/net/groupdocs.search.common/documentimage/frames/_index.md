@@ -16,7 +16,7 @@ public ImageFrame[] Frames { get; }
 
 ### 适当的价值
 
-图像帧。
+图像框架。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь стопслов.
 type: docs
-weight: 470
+weight: 480
 url: /ru/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class
@@ -36,7 +36,7 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Индексация со стоп-словами](https://docs.groupdocs.com/display/searchnet/Indexing+with+stop+words)
 * [Управление словарем стоп-слов](https://docs.groupdocs.com/display/searchnet/Stop+word+dictionary)

@@ -3,7 +3,7 @@ title: DateFormat
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет формат даты.
 type: docs
-weight: 740
+weight: 770
 url: /ru/net/groupdocs.search.options/dateformat/
 ---
 ## DateFormat class
@@ -35,7 +35,7 @@ public class DateFormat
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск диапазона дат](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 

@@ -3,7 +3,7 @@ title: WordPattern
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un modèle de mot à utiliser dans la recherche de mots génériques.
 type: docs
-weight: 330
+weight: 340
 url: /fr/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

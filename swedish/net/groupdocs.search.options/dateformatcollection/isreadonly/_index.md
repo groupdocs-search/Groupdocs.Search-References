@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Fastighetsvärde
 
-`Sann`om samlingen är skrivskyddad; annat,`falsk`.
+`Sann` om samlingen är skrivskyddad; annat,`falsk`.
 
 ### Se även
 

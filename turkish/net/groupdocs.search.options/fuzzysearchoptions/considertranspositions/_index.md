@@ -16,7 +16,7 @@ public bool ConsiderTranspositions { get; set; }
 
 ### Mülk değeri
 
-`doğru` eğer bulanık arama algoritması transpozisyonları dikkate alıyorsa; aksi takdirde`yanlış`.
+`doğru`eğer bulanık arama algoritması transpozisyonları dikkate alıyorsa; aksi takdirde`YANLIŞ`.
 
 ### Ayrıca bakınız
 

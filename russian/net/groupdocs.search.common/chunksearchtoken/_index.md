@@ -16,7 +16,7 @@ public class ChunkSearchToken
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поиск по чанкам](https://docs.groupdocs.com/display/searchnet/Search+by+chunks)
 

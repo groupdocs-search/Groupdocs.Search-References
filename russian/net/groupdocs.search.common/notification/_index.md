@@ -22,7 +22,7 @@ public abstract class Notification
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Переименование документа](https://docs.groupdocs.com/display/searchnet/Document+renaming)
 

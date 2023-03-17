@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل خطوة من وظيفة الخطوة .
 type: docs
-weight: 1040
+weight: 1080
 url: /ar/net/groupdocs.search.options/step/
 ---
 ## Step class

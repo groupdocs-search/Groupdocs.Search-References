@@ -12,6 +12,8 @@ L'espace de noms fournit des surligneurs pour mettre en surbrillance les résult
 
 | Classer | La description |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Représente un surligneur de résultats de recherche qui met en surbrillance les résultats de la recherche dans le texte d'un document entier. |
+| [FragmentHighlighter](./fragmenthighlighter) | Représente un surligneur de résultats de recherche qui met en évidence les résultats de recherche dans des fragments de texte. |
 | [Highlighter](./highlighter) | Représente la classe de base d'un surligneur de résultats de recherche. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Représente un surligneur de résultats de recherche qui met en évidence les résultats de recherche dans des fragments de texte au format HTML. |
 | [HtmlHighlighter](./htmlhighlighter) | Représente un surligneur de résultats de recherche qui met en surbrillance les résultats de recherche dans un texte de document entier formaté en HTML. |

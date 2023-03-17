@@ -1,14 +1,14 @@
 ---
 title: GetAllSynonymGroups
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此词典中包含的所有同义词组
+description: 获取本词典中包含的所有同义词组
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.dictionaries/synonymdictionary/getallsynonymgroups/
 ---
 ## SynonymDictionary.GetAllSynonymGroups method
 
-获取此词典中包含的所有同义词组。
+获取本词典中包含的所有同义词组。
 
 ```csharp
 public string[][] GetAllSynonymGroups()

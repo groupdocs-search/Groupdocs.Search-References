@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en indexuppdatering. Denna klass utför omindexering av dokument i ett index av en gammal version.
 type: docs
-weight: 680
+weight: 710
 url: /sv/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class

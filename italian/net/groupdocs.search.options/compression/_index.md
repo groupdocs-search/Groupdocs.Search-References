@@ -3,7 +3,7 @@ title: Compression
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Specifica un livello di compressione.
 type: docs
-weight: 730
+weight: 760
 url: /it/net/groupdocs.search.options/compression/
 ---
 ## Compression enumeration
@@ -24,7 +24,7 @@ public enum Compression
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Memorizzazione del testo dei documenti indicizzati](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 

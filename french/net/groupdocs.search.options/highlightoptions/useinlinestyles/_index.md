@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Obtient ou définit une valeur indiquant si les styles en ligne sont utilisés pour mettre en surbrillance les occurrences. La valeur par défaut estvrai .
 type: docs
-weight: 60
+weight: 80
 url: /fr/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

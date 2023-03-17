@@ -20,7 +20,7 @@ public bool Contains(DateFormat item)
 
 ### Geri dönüş değeri
 
-`doğru` koleksiyonda öğe bulunursa; aksi halde,`yanlış`.
+`doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

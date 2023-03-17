@@ -1,14 +1,14 @@
 ---
 title: Merge
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定索引合并到当前索引中 注意其他索引不会改变
+description: 将指定的索引合并到当前索引中 注意不会改变其他索引
 type: docs
 weight: 190
 url: /zh/net/groupdocs.search/index/merge/
 ---
 ## Merge(Index, MergeOptions) {#merge}
 
-将指定索引合并到当前索引中。 注意，其他索引不会改变。
+将指定的索引合并到当前索引中。 注意不会改变其他索引。
 
 ```csharp
 public void Merge(Index index, MergeOptions options)
@@ -21,11 +21,11 @@ public void Merge(Index index, MergeOptions options)
 
 ### 评论
 
-如果其他索引有以前的版本，在合并前必须更新[`IndexUpdater`](../../indexupdater).
+如果其他索引有以前的版本，则必须在合并之前更新[`IndexUpdater`](../../indexupdater).
 
 ### 例子
 
-示例演示如何将索引合并到当前索引中。
+该示例演示如何将索引合并到当前索引中。
 
 ```csharp
 string indexFolder1 = @"c:\MyIndex1\";
@@ -33,16 +33,16 @@ string indexFolder2 = @"c:\MyIndex2\";
 string documentsFolder1 = @"c:\MyDocuments1\";
 string documentsFolder2 = @"c:\MyDocuments2\";
 
-Index index1 = new Index(indexFolder1); // 创建索引1
-index1.Add(documentsFolder1); // 索引文档
+Index index1 = new Index(indexFolder1); // 创建索引 1
+index1.Add(documentsFolder1); // 索引文件
 
-Index index2 = new Index(indexFolder2); // 创建索引2
-index2.Add(documentsFolder2); // 索引文档
+Index index2 = new Index(indexFolder2); // 创建索引 2
+index2.Add(documentsFolder2); // 索引文件
 
 MergeOptions options = new MergeOptions();
 options.Cancellation = new Cancellation(); // 创建取消对象
 
-// 将 index2 合并到 index1 中。请注意，index2 文件不会被更改。
+// 合并 index2 到 index1。请注意，index2 文件不会更改。
 index1.Merge(index2, options);
 ```
 
@@ -57,7 +57,7 @@ index1.Merge(index2, options);
 
 ## Merge(IndexRepository, MergeOptions) {#merge_1}
 
-将指定索引仓库中的索引合并到当前索引中。 注意仓库中的索引不会改变。
+将指定索引存储库中的索引合并到当前索引中。 注意存储库中的索引不会被更改。
 
 ```csharp
 public void Merge(IndexRepository repository, MergeOptions options)
@@ -70,11 +70,11 @@ public void Merge(IndexRepository repository, MergeOptions options)
 
 ### 评论
 
-如果其他索引有以前的版本，在合并之前必须更新它们[`IndexUpdater`](../../indexupdater).
+如果其他索引有以前的版本，则必须在合并之前更新它们[`IndexUpdater`](../../indexupdater).
 
 ### 例子
 
-该示例演示了如何将索引存储库合并到当前索引中。
+该示例演示如何将索引存储库合并到当前索引中。
 
 ```csharp
 string indexFolder1 = @"c:\MyIndex1\";
@@ -84,21 +84,21 @@ string documentsFolder1 = @"c:\MyDocuments1\";
 string documentsFolder2 = @"c:\MyDocuments2\";
 string documentsFolder3 = @"c:\MyDocuments3\";
 
-Index index1 = new Index(indexFolder1); // 创建索引1
-index1.Add(documentsFolder1); // 索引文档
+Index index1 = new Index(indexFolder1); // 创建索引 1
+index1.Add(documentsFolder1); // 索引文件
 
 IndexRepository repository = new IndexRepository(); // 创建索引库
 
-Index index2 = repository.Create(indexFolder2); // 创建索引2
-index2.Add(documentsFolder2); // 索引文档
+Index index2 = repository.Create(indexFolder2); // 创建索引 2
+index2.Add(documentsFolder2); // 索引文件
 
-Index index3 = repository.Create(indexFolder3); // 创建索引3
-index3.Add(documentsFolder3); // 索引文档
+Index index3 = repository.Create(indexFolder3); // 创建索引 3
+index3.Add(documentsFolder3); // 索引文件
 
 MergeOptions options = new MergeOptions();
 options.Cancellation = new Cancellation(); // 创建取消对象
 
-// 将索引库中的所有索引合并到 index1.注意 index2 和 index3 不会改变。
+// 将索引库中的所有索引合并到 index1 中。请注意，index2 和 index3 不会更改。
 index1.Merge(repository, options);
 ```
 

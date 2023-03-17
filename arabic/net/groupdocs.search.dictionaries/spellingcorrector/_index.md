@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل مصحح إملائي للمصطلحات في استعلام.
 type: docs
-weight: 460
+weight: 470
 url: /ar/net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class

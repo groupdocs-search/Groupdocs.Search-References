@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет найденный кадр изображения.
 type: docs
-weight: 1160
+weight: 1200
 url: /ru/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class

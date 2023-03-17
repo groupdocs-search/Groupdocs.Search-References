@@ -3,7 +3,7 @@ title: Alphabet
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un dictionnaire de caractères utilisé lors de lindexation pour détecter le type de caractère. Chaque caractère peut être traité comme séparateur comme lettre ou les deux.
 type: docs
-weight: 360
+weight: 370
 url: /fr/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class

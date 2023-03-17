@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un elenco di nomi di campo per la ricerca con facet.
 type: docs
-weight: 920
+weight: 950
 url: /it/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class
@@ -25,7 +25,7 @@ public static class MailFieldNames
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfaccettata](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

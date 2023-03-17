@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет словарь псевдонимов.
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class
@@ -29,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | Добавляет указанный набор пар псевдоним/замена к этому экземпляру[`AliasDictionary`](../aliasdictionary) . |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | Добавляет указанный набор пар псевдоним/замена к этому экземпляру[`AliasDictionary`](../aliasdictionary) . |
 | [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Удаляет все псевдонимы из[`AliasDictionary`](../aliasdictionary) объект. |
-| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Определяет, является ли[`AliasDictionary`](../aliasdictionary)объект содержит указанный псевдоним. |
+| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Определяет, является ли[`AliasDictionary`](../aliasdictionary) объект содержит указанный псевдоним. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Экспортирует словарь в файл с указанным именем. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [GetText](../../groupdocs.search.dictionaries/aliasdictionary/gettext)(string) | Получает текст, связанный с указанным псевдонимом. |
@@ -38,7 +38,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Использование псевдонимов](https://docs.groupdocs.com/display/searchnet/Using+aliases)
 * [Управление словарем псевдонимов](https://docs.groupdocs.com/display/searchnet/Alias+dictionary)

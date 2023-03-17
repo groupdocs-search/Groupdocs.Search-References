@@ -1,14 +1,14 @@
 ---
 title: PST
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione .PST rappresentano i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/email/pst/ .
+description: I file con estensione .PST rappresentano i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/email/pst/ .
 type: docs
 weight: 570
 url: /it/net/groupdocs.search.results/filetype/pst/
 ---
 ## FileType.PST field
 
-I file con estensione .PST rappresentano i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/email/pst/) .
+I file con estensione .PST rappresentano i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/email/pst/) .
 
 ```csharp
 public static readonly FileType PST;

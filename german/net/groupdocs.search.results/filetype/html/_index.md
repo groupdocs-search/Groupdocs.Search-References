@@ -1,14 +1,14 @@
 ---
 title: HTML
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: HTML Hyper Text Markup Language ist die Erweiterung für Webseiten die zur Anzeige in Webbrowsern erstellt wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/web/html/ .
+description: HTML Hyper Text Markup Language ist die Erweiterung für Webseiten die zur Anzeige in Webbrowsern erstellt wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/web/html/ .
 type: docs
 weight: 260
 url: /de/net/groupdocs.search.results/filetype/html/
 ---
 ## FileType.HTML field
 
-HTML (Hyper Text Markup Language) ist die Erweiterung für Webseiten, die zur Anzeige in Webbrowsern erstellt wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/web/html/) .
+HTML (Hyper Text Markup Language) ist die Erweiterung für Webseiten, die zur Anzeige in Webbrowsern erstellt wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/web/html/) .
 
 ```csharp
 public static readonly FileType HTML;

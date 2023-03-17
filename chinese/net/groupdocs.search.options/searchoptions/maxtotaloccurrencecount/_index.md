@@ -1,14 +1,14 @@
 ---
 title: MaxTotalOccurrenceCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索查询中所有词条出现的最大总次数 默认值为500000.
+description: 获取或设置搜索查询中所有词条的最大总出现次数 默认值为500000.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.search.options/searchoptions/maxtotaloccurrencecount/
 ---
 ## SearchOptions.MaxTotalOccurrenceCount property
 
-获取或设置搜索查询中所有词条出现的最大总次数。 默认值为`500000`.
+获取或设置搜索查询中所有词条的最大总出现次数。 默认值为`500000`.
 
 ```csharp
 public int MaxTotalOccurrenceCount { get; set; }

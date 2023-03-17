@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 1030
+weight: 1070
 url: /ru/net/groupdocs.search.options/spreadsheetfieldnames/
 ---
 ## SpreadsheetFieldNames class
@@ -37,7 +37,7 @@ public static class SpreadsheetFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

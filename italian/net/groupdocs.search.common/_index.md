@@ -30,12 +30,13 @@ Lo spazio dei nomi fornisce classi comuni della libreria.
 | [IndexInfo](./indexinfo) | Contiene informazioni di base su un file[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Rappresenta informazioni dettagliate su un'operazione di indicizzazione. |
 | [Notification](./notification) | La classe base per tutte le notifiche all'indice. Questa classe contiene anche metodi per la creazione di oggetti di notifica. |
-| [OutputAdapter](./outputadapter) | Rappresenta la classe base di un adattatore di output utilizzato per raccogliere un output in una forma generalizzata. Gli adattatori attualmente disponibili sono[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , e[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Rappresenta la classe base di un adattatore di output utilizzato per raccogliere un output in una forma generalizzata. Gli adattatori attualmente disponibili sono[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , e[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Rappresenta la classe di base di una factory di generatore di risultati. |
 | [SearchImage](./searchimage) | Rappresenta un'immagine da cercare. |
 | [SearchReport](./searchreport) | Rappresenta informazioni dettagliate su un'operazione di ricerca. |
 | [StreamOutputAdapter](./streamoutputadapter) | Rappresenta un adattatore di output che raccoglie l'output in aStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Rappresenta un adattatore di output che raccoglie l'output come aString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Rappresenta un adattatore di output che raccoglie l'output come struttura contenente ciascun campo separatamente. |
 | [WordPattern](./wordpattern) | Rappresenta uno schema di parole da utilizzare nella ricerca di parole jolly. |
 ## Interfacce
 

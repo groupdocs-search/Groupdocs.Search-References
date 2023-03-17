@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示图像准备开始事件的参数
 type: docs
-weight: 520
+weight: 530
 url: /zh/net/groupdocs.search.events/imagepreparingeventargs/
 ---
 ## ImagePreparingEventArgs class
@@ -20,10 +20,10 @@ public class ImagePreparingEventArgs : BaseIndexEventArgs
 | --- | --- |
 | [DocumentKey](../../groupdocs.search.events/imagepreparingeventargs/documentkey) { get; } | 获取文档密钥。 |
 | [ImageFrames](../../groupdocs.search.events/imagepreparingeventargs/imageframes) { get; } | 获取图像帧。 |
-| [ImageIndex](../../groupdocs.search.events/imagepreparingeventargs/imageindex) { get; } | 获取文档中图像的序号。 |
+| [ImageIndex](../../groupdocs.search.events/imagepreparingeventargs/imageindex) { get; } | 获取图像在文档中的序号。 |
 | [ImageStream](../../groupdocs.search.events/imagepreparingeventargs/imagestream) { get; } | 获取图像流。 |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
 | [InnerPath](../../groupdocs.search.events/imagepreparingeventargs/innerpath) { get; } | 获取嵌套文档的内部路径。 |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | 获取事件的时间。 |

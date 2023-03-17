@@ -1,14 +1,14 @@
 ---
 title: DOTX
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit DOTXErweiterung sind Vorlagendateien die von Microsoft Word erstellt wurden um vorformatierte Einstellungen für die Generierung weiterer DOCXDateien zu haben. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/wordprocessing/dotx/ .
+description: Dateien mit DOTXErweiterung sind Vorlagendateien die von Microsoft Word erstellt wurden um vorformatierte Einstellungen für die Generierung weiterer DOCXDateien zu haben. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/wordprocessing/dotx/ .
 type: docs
 weight: 170
 url: /de/net/groupdocs.search.results/filetype/dotx/
 ---
 ## FileType.DOTX field
 
-Dateien mit DOTX-Erweiterung sind Vorlagendateien, die von Microsoft Word erstellt wurden, um vorformatierte Einstellungen für die Generierung weiterer DOCX-Dateien zu haben. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/word-processing/dotx/) .
+Dateien mit DOTX-Erweiterung sind Vorlagendateien, die von Microsoft Word erstellt wurden, um vorformatierte Einstellungen für die Generierung weiterer DOCX-Dateien zu haben. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/word-processing/dotx/) .
 
 ```csharp
 public static readonly FileType DOTX;

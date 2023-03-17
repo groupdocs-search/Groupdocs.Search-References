@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa una lista de nombres de campo para la búsqueda por facetas.
 type: docs
-weight: 720
+weight: 750
 url: /es/net/groupdocs.search.options/commonfieldnames/
 ---
 ## CommonFieldNames class

@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona métodos que permiten activar el producto con una licencia medida y recuperar la cantidad de MB procesados. Más información sobre las licencias medidasaquíhttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /es/net/groupdocs.search/metered/
 ---
 ## Metered class

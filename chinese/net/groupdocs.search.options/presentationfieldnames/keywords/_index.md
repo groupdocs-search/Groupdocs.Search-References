@@ -1,14 +1,14 @@
 ---
 title: Keywords
 second_title: GroupDocs.Search for .NET API 参考
-description: 关键字字段名
+description: 关键字字段名.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.options/presentationfieldnames/keywords/
 ---
 ## PresentationFieldNames.Keywords field
 
-关键字字段名。
+关键字字段名.
 
 ```csharp
 public const string Keywords;

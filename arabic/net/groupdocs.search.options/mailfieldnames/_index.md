@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 920
+weight: 950
 url: /ar/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class

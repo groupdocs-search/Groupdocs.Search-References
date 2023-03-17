@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine Liste von Feldnamen für die facettierte Suche.
 type: docs
-weight: 1090
+weight: 1130
 url: /de/net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class
@@ -40,7 +40,7 @@ public static class WordsFieldNames
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Facettensuche](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

@@ -12,6 +12,8 @@ El espacio de nombres proporciona resaltadores para resaltar los resultados de b
 
 | Clase | Descripción |
 | --- | --- |
+| [DocumentHighlighter](./documenthighlighter) | Representa un resaltador de resultados de búsqueda que resalta los resultados de búsqueda en el texto de un documento completo. |
+| [FragmentHighlighter](./fragmenthighlighter) | Representa un resaltador de resultados de búsqueda que resalta los resultados de búsqueda en fragmentos de texto. |
 | [Highlighter](./highlighter) | Representa la clase base de un resaltador de resultados de búsqueda. |
 | [HtmlFragmentHighlighter](./htmlfragmenthighlighter) | Representa un resaltador de resultados de búsqueda que resalta los resultados de búsqueda en fragmentos de texto con formato HTML. |
 | [HtmlHighlighter](./htmlhighlighter) | Representa un resaltador de resultados de búsqueda que resalta los resultados de búsqueda en un texto de documento completo formateado en HTML. |

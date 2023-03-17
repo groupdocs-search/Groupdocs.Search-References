@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 20
 url: /tr/net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Bulanık arama özelliğinin etkin olup olmadığını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool Enabled { get; set; }

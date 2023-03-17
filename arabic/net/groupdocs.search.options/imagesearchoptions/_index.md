@@ -3,7 +3,7 @@ title: ImageSearchOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لعملية البحث العكسي عن الصور.
 type: docs
-weight: 880
+weight: 910
 url: /ar/net/groupdocs.search.options/imagesearchoptions/
 ---
 ## ImageSearchOptions class
@@ -26,7 +26,7 @@ public class ImageSearchOptions
 | --- | --- |
 | [HashDifferences](../../groupdocs.search.options/imagesearchoptions/hashdifferences) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد وحدات البت غير المتطابقة في تجزئة الصورة . القيمة الافتراضية هي`5` . |
 | [MaxResultCount](../../groupdocs.search.options/imagesearchoptions/maxresultcount) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الصور التي تم العثور عليها لطلب البحث العكسي عن الصور. القيمة الافتراضية هي`1000` . |
-| [SearchDocumentFilter](../../groupdocs.search.options/imagesearchoptions/searchdocumentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية مستند البحث.[`SearchDocumentFilter`](./searchdocumentfilter) يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها. |
+| [SearchDocumentFilter](../../groupdocs.search.options/imagesearchoptions/searchdocumentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية مستند البحث.[`SearchDocumentFilter`](./searchdocumentfilter) يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`باطل` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها. |
 
 ### أنظر أيضا
 

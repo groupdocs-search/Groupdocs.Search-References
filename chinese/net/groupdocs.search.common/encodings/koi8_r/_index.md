@@ -1,14 +1,14 @@
 ---
 title: koi8_r
 second_title: GroupDocs.Search for .NET API 参考
-description: koi8r 编码
+description: koi8r编码
 type: docs
 weight: 760
 url: /zh/net/groupdocs.search.common/encodings/koi8_r/
 ---
 ## Encodings.koi8_r field
 
-koi8-r 编码。
+koi8-r编码。
 
 ```csharp
 public const string koi8_r;

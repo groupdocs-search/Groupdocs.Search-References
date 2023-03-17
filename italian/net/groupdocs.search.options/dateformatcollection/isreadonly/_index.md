@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Valore della proprietà
 
-`VERO`se la raccolta è di sola lettura; altrimenti,`falso`.
+`VERO` se la raccolta è di sola lettura; Altrimenti,`falso`.
 
 ### Guarda anche
 

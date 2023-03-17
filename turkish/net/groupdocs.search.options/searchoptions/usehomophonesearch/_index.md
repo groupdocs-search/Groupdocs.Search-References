@@ -1,14 +1,14 @@
 ---
 title: UseHomophoneSearch
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Aramada sesteş sözcüklerin kullanım bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Aramada sesteş sözcüklerin kullanım bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 120
 url: /tr/net/groupdocs.search.options/searchoptions/usehomophonesearch/
 ---
 ## SearchOptions.UseHomophoneSearch property
 
-Aramada sesteş sözcüklerin kullanım bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Aramada sesteş sözcüklerin kullanım bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseHomophoneSearch { get; set; }

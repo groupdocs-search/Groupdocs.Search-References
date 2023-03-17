@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ordbok för teckenersättning som används under indexeringsprocessen. Teckenersättning kan till exempel användas för att ta bort accenter från accenttecken eller för att göra indexokänsligt för skiftlägen.
 type: docs
-weight: 370
+weight: 380
 url: /sv/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class

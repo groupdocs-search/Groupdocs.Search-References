@@ -1,14 +1,14 @@
 ---
 title: IsChunkSearch
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el indicador de búsqueda por fragmentos. El valor predeterminado esfalso .
+description: Obtiene o establece el indicador de búsqueda por fragmentos. El valor predeterminado esFALSO .
 type: docs
 weight: 50
 url: /es/net/groupdocs.search.options/searchoptions/ischunksearch/
 ---
 ## SearchOptions.IsChunkSearch property
 
-Obtiene o establece el indicador de búsqueda por fragmentos. El valor predeterminado es`falso` .
+Obtiene o establece el indicador de búsqueda por fragmentos. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IsChunkSearch { get; set; }

@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un diccionario de alias.
 type: docs
-weight: 340
+weight: 350
 url: /es/net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class
@@ -29,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | Agrega la colección especificada de pares de alias/reemplazo a esta instancia del[`AliasDictionary`](../aliasdictionary) . |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | Agrega la colección especificada de pares de alias/reemplazo a esta instancia del[`AliasDictionary`](../aliasdictionary) . |
 | [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Elimina todos los alias de un[`AliasDictionary`](../aliasdictionary) objeto. |
-| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Determina si un[`AliasDictionary`](../aliasdictionary)el objeto contiene el alias especificado. |
+| [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Determina si un[`AliasDictionary`](../aliasdictionary) el objeto contiene el alias especificado. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exporta el diccionario a un archivo con el nombre especificado. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [GetText](../../groupdocs.search.dictionaries/aliasdictionary/gettext)(string) | Obtiene un texto asociado con el alias especificado. |

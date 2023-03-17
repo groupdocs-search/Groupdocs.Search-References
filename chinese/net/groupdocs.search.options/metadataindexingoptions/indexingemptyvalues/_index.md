@@ -1,14 +1,14 @@
 ---
 title: IndexingEmptyValues
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值指示是否索引空字段值 默认值为真的.
+description: 获取或设置一个值表示是否索引空字段值 默认值为真的.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/metadataindexingoptions/indexingemptyvalues/
 ---
 ## MetadataIndexingOptions.IndexingEmptyValues property
 
-获取或设置一个值，指示是否索引空字段值。 默认值为`真的`.
+获取或设置一个值，表示是否索引空字段值。 默认值为`真的`.
 
 ```csharp
 public bool IndexingEmptyValues { get; set; }
@@ -16,7 +16,7 @@ public bool IndexingEmptyValues { get; set; }
 
 ### 适当的价值
 
-一个值，指示是否索引空字段值。
+指示是否索引空字段值的值。
 
 ### 也可以看看
 

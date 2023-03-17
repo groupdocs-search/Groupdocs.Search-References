@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 提供从索引中检索文档文本的选项
+description: 提供用于从索引中检索文档文本的选项
 type: docs
-weight: 1060
+weight: 1100
 url: /zh/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
 
-提供从索引中检索文档文本的选项。
+提供用于从索引中检索文档文本的选项。
 
 ```csharp
 public class TextOptions
@@ -18,7 +18,7 @@ public class TextOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextOptions](textoptions)() | 初始化[`TextOptions`](../textoptions)类. |
+| [TextOptions](textoptions)() | 初始化一个新的实例[`TextOptions`](../textoptions)类. |
 
 ## 特性
 
@@ -27,14 +27,14 @@ public class TextOptions
 | [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | 获取或设置用于索引的附加文档字段。 默认值为`无效的`. 请注意，仅当文档文本未保存到索引中时才使用此值。 |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | 获取或设置取消对象。 默认值为`无效的`. |
 | [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | 获取或设置用于索引的自定义文本提取器。 默认值为`无效的`. 请注意，仅当文档文本未保存到索引中时才使用此值。 |
-| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | 获取或设置一个值，该值指示是否在输出 HTML 中生成 Head 标签。 默认值为`真的`. |
+| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | 获取或设置一个值，表示是否在输出的 HTML 中生成 Head 标签。 默认值为`真的`. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | 获取用于反向图像搜索的图像索引选项。 |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | 获取索引元数据字段的选项。 |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | 获取 OCR 处理和索引识别文本的选项。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [获取索引文档](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
 * [突出显示搜索结果](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)

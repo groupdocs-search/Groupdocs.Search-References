@@ -1,14 +1,14 @@
 ---
 title: Application
 second_title: GroupDocs.Search for .NET API 参考
-description: 应用程序字段名称
+description: 应用字段名称
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/presentationfieldnames/application/
 ---
 ## PresentationFieldNames.Application field
 
-应用程序字段名称。
+应用字段名称。
 
 ```csharp
 public const string Application;

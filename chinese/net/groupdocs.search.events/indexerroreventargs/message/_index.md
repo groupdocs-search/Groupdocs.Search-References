@@ -1,14 +1,14 @@
 ---
 title: Message
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取错误信息
+description: 获取错误消息
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.events/indexerroreventargs/message/
 ---
 ## IndexErrorEventArgs.Message property
 
-获取错误信息。
+获取错误消息。
 
 ```csharp
 public string Message { get; }
@@ -16,7 +16,7 @@ public string Message { get; }
 
 ### 适当的价值
 
-错误消息。
+错误信息。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones de búsqueda aproximada.
 type: docs
-weight: 820
+weight: 850
 url: /es/net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class
@@ -19,9 +19,9 @@ public class FuzzySearchOptions
 | Nombre | Descripción |
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Obtiene o establece un valor que indica si el algoritmo de búsqueda aproximada debe considerar la transposición de dos caracteres adyacentes como un solo error. El valor predeterminado es`verdadero` . |
-| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado es`falso` . |
-| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente son[`SimilarityLevel`](../similaritylevel) y[`TableDiscreteFunction`](../tablediscretefunction) . El valor predeterminado es una instancia de[`SimilarityLevel`](../similaritylevel) con un valor de nivel de similitud de`0.5` . |
-| [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado es`falso` . |
+| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado es`FALSO` . |
+| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Obtiene o establece el algoritmo de búsqueda aproximada. Los algoritmos de búsqueda aproximada disponibles actualmente son[`SimilarityLevel`](../similaritylevel) y[`TableDiscreteFunction`](../tablediscretefunction). El valor predeterminado es una instancia de[`SimilarityLevel`](../similaritylevel) con un valor de nivel de similitud de`0.5` . |
+| [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Obtiene o establece un valor que indica si solo se devolverán los mejores resultados. El valor predeterminado es`FALSO` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Obtiene o establece el exceso máximo del número mínimo de errores encontrados. El valor predeterminado es`0` . |
 
 ### Observaciones

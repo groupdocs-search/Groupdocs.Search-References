@@ -1,14 +1,14 @@
 ---
 title: CreateLazy
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个延迟加载的文档
+description: 创建延迟加载文档
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.common/document/createlazy/
 ---
 ## Document.CreateLazy method
 
-创建一个延迟加载的文档。
+创建延迟加载文档。
 
 ```csharp
 public static Document CreateLazy(DocumentSourceKind documentSourceKind, string documentKey, 
@@ -17,8 +17,8 @@ public static Document CreateLazy(DocumentSourceKind documentSourceKind, string 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| documentSourceKind | DocumentSourceKind | 文档来源种类。此值必须与加载文档的类型相匹配。 |
-| documentKey | String | 文档键。此值必须与加载文档的键匹配。 |
+| documentSourceKind | DocumentSourceKind | 文件来源种类。该值必须与加载文档的类型相匹配。 |
+| documentKey | String | 文档密钥。该值必须与加载文档的键匹配。 |
 | documentLoader | IDocumentLoader | 文档加载器。 |
 
 ### 返回值

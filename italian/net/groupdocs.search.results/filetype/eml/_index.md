@@ -1,14 +1,14 @@
 ---
 title: EML
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Il formato di file EML rappresenta i messaggi di posta elettronica salvati utilizzando Outlook e altre applicazioni pertinenti. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/email/eml/ .
+description: Il formato di file EML rappresenta i messaggi di posta elettronica salvati utilizzando Outlook e altre applicazioni pertinenti. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/email/eml/ .
 type: docs
 weight: 190
 url: /it/net/groupdocs.search.results/filetype/eml/
 ---
 ## FileType.EML field
 
-Il formato di file EML rappresenta i messaggi di posta elettronica salvati utilizzando Outlook e altre applicazioni pertinenti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/eml/) .
+Il formato di file EML rappresenta i messaggi di posta elettronica salvati utilizzando Outlook e altre applicazioni pertinenti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/email/eml/) .
 
 ```csharp
 public static readonly FileType EML;

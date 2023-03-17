@@ -20,7 +20,7 @@ public static DocumentFilter CreateCreationTimeUpperBound(DateTime upperBound)
 
 ### 返回值
 
-按文档创建时间的文档过滤器。
+按文档创建时间过滤文档。
 
 ### 也可以看看
 

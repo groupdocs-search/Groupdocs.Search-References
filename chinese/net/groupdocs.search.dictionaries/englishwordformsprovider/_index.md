@@ -1,14 +1,14 @@
 ---
 title: EnglishWordFormsProvider
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示英文单词表单提供者
+description: 代表英文词形提供者
 type: docs
-weight: 420
+weight: 430
 url: /zh/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class
 
-表示英文单词表单提供者。
+代表英文词形提供者。
 
 ```csharp
 public class EnglishWordFormsProvider : IWordFormsProvider
@@ -18,7 +18,7 @@ public class EnglishWordFormsProvider : IWordFormsProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnglishWordFormsProvider](englishwordformsprovider)() | 初始化[`EnglishWordFormsProvider`](../englishwordformsprovider)类. |
+| [EnglishWordFormsProvider](englishwordformsprovider)() | 初始化一个新的实例[`EnglishWordFormsProvider`](../englishwordformsprovider)类. |
 
 ## 方法
 
@@ -28,10 +28,10 @@ public class EnglishWordFormsProvider : IWordFormsProvider
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [搜索不同的词形](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
-* [Word 表单提供程序](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
+* [搜索不同的单词形式](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
+* [词表提供者](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
 
 ### 也可以看看
 

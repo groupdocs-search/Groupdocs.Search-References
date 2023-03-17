@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para resaltar los términos encontrados.
 type: docs
-weight: 830
+weight: 860
 url: /es/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,14 +24,16 @@ public class HighlightOptions : TextOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo` . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo`. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Obtiene o establece el objeto de cancelación. El valor predeterminado es`nulo` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtiene o establece el extractor de texto personalizado que se utilizó para la indexación. El valor predeterminado es`nulo` . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtiene o establece el extractor de texto personalizado que se utilizó para la indexación. El valor predeterminado es`nulo`. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Obtiene o establece un valor que indica si la etiqueta Head se genera en el HTML de salida. El valor predeterminado es`verdadero` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Obtiene o establece un color que se usa para resaltar ocurrencias. El valor predeterminado es #FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Obtiene las opciones de indexación de imágenes para la búsqueda inversa de imágenes. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Obtiene las opciones para indexar campos de metadatos. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Obtiene las opciones para el procesamiento de OCR y la indexación de texto reconocido. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Obtiene o establece la etiqueta final del resaltado de la palabra encontrada. Esta etiqueta se usa solo cuando se resalta en texto sin formato. El valor predeterminado es una cadena vacía. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Obtiene o establece la etiqueta de inicio del resaltado de la palabra encontrada. Esta etiqueta se usa solo cuando se resalta en texto sin formato. El valor predeterminado es una cadena vacía. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Obtiene o establece el número máximo de palabras en un fragmento de texto después de la palabra resaltada. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es`7` . |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Obtiene o establece el número máximo de palabras en un fragmento de texto antes de la palabra resaltada. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Obtiene o establece el número máximo de palabras en un fragmento de texto. El valor debe estar en el rango de 0 a 10000. El valor predeterminado es`21` . |

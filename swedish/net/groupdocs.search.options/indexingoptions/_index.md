@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för indexering.
 type: docs
-weight: 900
+weight: 930
 url: /sv/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class

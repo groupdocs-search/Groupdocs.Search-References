@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt ein Wörterbuch mit Dokumentkennwörtern dar.
 type: docs
-weight: 450
+weight: 460
 url: /de/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class
@@ -35,7 +35,7 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indexieren von passwortgeschützten Dokumenten](https://docs.groupdocs.com/display/searchnet/Indexing+password+protected+documents)
 * [Dokumentenkennwörter verwalten](https://docs.groupdocs.com/display/searchnet/Document+passwords)

@@ -1,14 +1,14 @@
 ---
 title: PPTM
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit PPTMErweiterung sind makrofähige Präsentationsdateien die mit Microsoft PowerPoint 2007 oder höheren Versionen erstellt werden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/presentation/pptm/ .
+description: Dateien mit PPTMErweiterung sind makrofähige Präsentationsdateien die mit Microsoft PowerPoint 2007 oder höheren Versionen erstellt werden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/presentation/pptm/ .
 type: docs
 weight: 540
 url: /de/net/groupdocs.search.results/filetype/pptm/
 ---
 ## FileType.PPTM field
 
-Dateien mit PPTM-Erweiterung sind makrofähige Präsentationsdateien, die mit Microsoft PowerPoint 2007 oder höheren Versionen erstellt werden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/presentation/pptm/) .
+Dateien mit PPTM-Erweiterung sind makrofähige Präsentationsdateien, die mit Microsoft PowerPoint 2007 oder höheren Versionen erstellt werden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/presentation/pptm/) .
 
 ```csharp
 public static readonly FileType PPTM;

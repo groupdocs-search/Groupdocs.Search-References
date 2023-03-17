@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل محدث فهرس. تقوم هذه الفئة بإعادة فهرسة المستندات في فهرس إصدار قديم.
 type: docs
-weight: 680
+weight: 710
 url: /ar/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class

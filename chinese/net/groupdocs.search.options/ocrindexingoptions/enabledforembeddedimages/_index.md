@@ -1,14 +1,14 @@
 ---
 title: EnabledForEmbeddedImages
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置一个值该值指示是否识别嵌入图像中的文本 例如DOCX 文档中的图像 默认值为错误的.
+description: 获取或设置一个值指示是否识别嵌入图像中的文本 例如DOCX 文档中的图像 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages/
 ---
 ## OcrIndexingOptions.EnabledForEmbeddedImages property
 
-获取或设置一个值，该值指示是否识别嵌入图像中的文本 （例如，DOCX 文档中的图像）。 默认值为`错误的`.
+获取或设置一个值，指示是否识别嵌入图像中的文本 （例如，DOCX 文档中的图像）。 默认值为`错误的`.
 
 ```csharp
 public bool EnabledForEmbeddedImages { get; set; }

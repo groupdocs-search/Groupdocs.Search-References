@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en ordbok med synonymer.
 type: docs
-weight: 480
+weight: 490
 url: /sv/net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class

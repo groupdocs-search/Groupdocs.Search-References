@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung .EPUB sind ein EBookDateiformat das ein digitales Standardveröffentlichungsformat für Verlage und Verbraucher bietet. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/ebook/epub/ .
+description: Dateien mit der Erweiterung .EPUB sind ein EBookDateiformat das ein digitales Standardveröffentlichungsformat für Verlage und Verbraucher bietet. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/ebook/epub/ .
 type: docs
 weight: 210
 url: /de/net/groupdocs.search.results/filetype/epub/
 ---
 ## FileType.EPUB field
 
-Dateien mit der Erweiterung .EPUB sind ein E-Book-Dateiformat, das ein digitales Standardveröffentlichungsformat für Verlage und Verbraucher bietet. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/ebook/epub/) .
+Dateien mit der Erweiterung .EPUB sind ein E-Book-Dateiformat, das ein digitales Standardveröffentlichungsformat für Verlage und Verbraucher bietet. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/ebook/epub/) .
 
 ```csharp
 public static readonly FileType EPUB;

@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Diese werden mit Textverarbeitungsprogrammen wie dem kostenlosen OpenOffice Writer erstellt und können Einstellungen enthalten die zum Generieren neuer Dokumente aus diesen Vorlagendateien verwendet werden können. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/wordprocessing/ott/ .
+description: Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Diese werden mit Textverarbeitungsprogrammen wie dem kostenlosen OpenOffice Writer erstellt und können Einstellungen enthalten die zum Generieren neuer Dokumente aus diesen Vorlagendateien verwendet werden können. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/wordprocessing/ott/ .
 type: docs
 weight: 440
 url: /de/net/groupdocs.search.results/filetype/ott/
 ---
 ## FileType.OTT field
 
-Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Diese werden mit Textverarbeitungsprogrammen wie dem kostenlosen OpenOffice Writer erstellt und können Einstellungen enthalten, die zum Generieren neuer Dokumente aus diesen Vorlagendateien verwendet werden können. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/word-processing/ott/) .
+Dateien mit der Erweiterung OTT stellen Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Diese werden mit Textverarbeitungsprogrammen wie dem kostenlosen OpenOffice Writer erstellt und können Einstellungen enthalten, die zum Generieren neuer Dokumente aus diesen Vorlagendateien verwendet werden können. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/word-processing/ott/) .
 
 ```csharp
 public static readonly FileType OTT;

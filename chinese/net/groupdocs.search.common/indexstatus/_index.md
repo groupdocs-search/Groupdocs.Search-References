@@ -18,9 +18,9 @@ public enum IndexStatus
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Ready | `0` | 索引是免费的，可以更改。 |
-| Failed | `1` | 出现错误需要重新加载索引。 |
-| Indexing | `2` | 索引执行索引操作。 |
+| Ready | `0` | 索引是空闲的，随时可以更改。 |
+| Failed | `1` | 由于错误需要重新加载索引。 |
+| Indexing | `2` | Index 执行索引操作。 |
 | Updating | `3` | 索引执行更新操作。 |
 | Merging | `4` | 索引执行合并操作。 |
 | Optimizing | `5` | 索引执行优化操作。 |

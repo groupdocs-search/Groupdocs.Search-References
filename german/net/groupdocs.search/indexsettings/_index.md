@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt die Indexeinstellungen dar mit denen die Indizierungsvorgänge angepasst werden können.
 type: docs
-weight: 670
+weight: 700
 url: /de/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -35,12 +35,12 @@ public class IndexSettings
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Ruft die Anzahl der für die Suche verwendeten Threads ab oder legt sie fest. Der Standardwert istDefault , , was bedeutet, dass die Suche mit der Anzahl der Threads durchgeführt wird, die der Anzahl der Prozessorkerne entspricht. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Ruft die Textspeichereinstellungen ab oder legt sie fest. Der Standardwert ist`Null` , was bedeutet, dass Dokumenttexte nicht gespeichert werden. |
 | [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Zeichenersetzungen verwendet werden sollen oder nicht. Der Standardwert ist`FALSCH` . |
-| [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Rohmodus für die Textextraktion verwendet wird, falls möglich. Der Standardwert ist`Stimmt` . Der Rohmodus kann die Indizierungsgeschwindigkeit erheblich erhöhen, aber der Normalmodus verbessert die Formatierung des extrahierten Textes. |
-| [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert ist`Stimmt` . |
+| [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Rohmodus für die Textextraktion verwendet wird, falls möglich. Der Standardwert ist`WAHR` . Der Rohmodus kann die Indizierungsgeschwindigkeit erheblich erhöhen, aber der Normalmodus verbessert die Formatierung des extrahierten Textes. |
+| [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Stoppwörter verwendet werden sollen oder nicht. Der Standardwert ist`WAHR` . |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchindexeinstellungen](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

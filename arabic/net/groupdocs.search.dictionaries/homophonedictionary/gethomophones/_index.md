@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### قيمة الإرجاع
 
-المتجانسات للكلمة المحددة أو المصفوفة الفارغة إذا كان[`HomophoneDictionary`](../../homophonedictionary)لا يحتوي الكائن على الكلمة المحددة.
+المتجانسات للكلمة المحددة أو المصفوفة الفارغة إذا كان[`HomophoneDictionary`](../../homophonedictionary) لا يحتوي الكائن على الكلمة المحددة.
 
 ### أنظر أيضا
 

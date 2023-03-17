@@ -14,6 +14,12 @@ url: /ru/net/groupdocs.search.common/resultbuilderfactory/
 public abstract class ResultBuilderFactory
 ```
 
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
+
 ### Смотрите также
 
 * пространство имен [GroupDocs.Search.Common](../../groupdocs.search.common)

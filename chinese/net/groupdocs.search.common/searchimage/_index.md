@@ -18,10 +18,10 @@ public class SearchImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../groupdocs.search.common/searchimage/create#create)(Stream) | 从要搜索的流中创建图像。 |
-| static [Create](../../groupdocs.search.common/searchimage/create#create_2)(string) | 从要搜索的文件创建图像。 |
-| static [Create](../../groupdocs.search.common/searchimage/create#create_1)(Stream, int) | 从要搜索的流中创建图像。 |
-| static [Create](../../groupdocs.search.common/searchimage/create#create_3)(string, int) | 从要搜索的文件创建图像。 |
+| static [Create](../../groupdocs.search.common/searchimage/create#create)(Stream) | 从流中创建图像以进行搜索。 |
+| static [Create](../../groupdocs.search.common/searchimage/create#create_2)(string) | 从文件创建图像以进行搜索。 |
+| static [Create](../../groupdocs.search.common/searchimage/create#create_1)(Stream, int) | 从流中创建图像以进行搜索。 |
+| static [Create](../../groupdocs.search.common/searchimage/create#create_3)(string, int) | 从文件创建图像以进行搜索。 |
 
 ### 也可以看看
 

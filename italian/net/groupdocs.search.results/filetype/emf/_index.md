@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Il formato EMF Enhanced Metafile Format memorizza le immagini grafiche indipendentemente dal dispositivo. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/emf/ .
+description: Il formato EMF Enhanced Metafile Format memorizza le immagini grafiche indipendentemente dal dispositivo. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/emf/ .
 type: docs
 weight: 180
 url: /it/net/groupdocs.search.results/filetype/emf/
 ---
 ## FileType.EMF field
 
-Il formato EMF (Enhanced Metafile Format) memorizza le immagini grafiche indipendentemente dal dispositivo. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/emf/) .
+Il formato EMF (Enhanced Metafile Format) memorizza le immagini grafiche indipendentemente dal dispositivo. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/emf/) .
 
 ```csharp
 public static readonly FileType EMF;

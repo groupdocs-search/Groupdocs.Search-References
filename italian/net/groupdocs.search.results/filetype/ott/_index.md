@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere impostazioni che possono essere utilizzate per generare nuovi documenti da questi file modello. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/wordprocessing/ott/ .
+description: I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere impostazioni che possono essere utilizzate per generare nuovi documenti da questi file modello. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/wordprocessing/ott/ .
 type: docs
 weight: 440
 url: /it/net/groupdocs.search.results/filetype/ott/
 ---
 ## FileType.OTT field
 
-I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere impostazioni che possono essere utilizzate per generare nuovi documenti da questi file modello. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/word-processing/ott/) .
+I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Questi vengono creati con applicazioni di elaborazione testi come OpenOffice Writer gratuito e possono contenere impostazioni che possono essere utilizzate per generare nuovi documenti da questi file modello. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/word-processing/ott/) .
 
 ```csharp
 public static readonly FileType OTT;

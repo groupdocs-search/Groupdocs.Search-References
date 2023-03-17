@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет параметры индекса которые позволяют настраивать операции индексирования.
 type: docs
-weight: 670
+weight: 700
 url: /ru/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -40,7 +40,7 @@ public class IndexSettings
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Настройки поискового индекса](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
 

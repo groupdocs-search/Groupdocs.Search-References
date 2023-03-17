@@ -3,7 +3,7 @@ title: OperationType
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir dizin işlem türünü temsil eder.
 type: docs
-weight: 560
+weight: 570
 url: /tr/net/groupdocs.search.events/operationtype/
 ---
 ## OperationType enumeration

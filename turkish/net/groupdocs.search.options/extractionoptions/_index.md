@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Belgelerden veri ayıklamak için seçenekler sunar.
 type: docs
-weight: 790
+weight: 820
 url: /tr/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class

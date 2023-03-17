@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar argument för händelsen där indexeringsåtgärdens förlopp uppdateras.
 type: docs
-weight: 550
+weight: 560
 url: /sv/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class

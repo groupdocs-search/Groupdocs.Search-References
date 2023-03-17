@@ -1,14 +1,14 @@
 ---
 title: MPP
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: MPP è un formato di file proprietario sviluppato da Microsoft come formato di file per Microsoft Project MSP un software applicativo per la gestione dei progetti. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/projectmanagement/mpp/ .
+description: MPP è un formato di file proprietario sviluppato da Microsoft come formato di file per Microsoft Project MSP un software applicativo per la gestione dei progetti. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/projectmanagement/mpp/ .
 type: docs
 weight: 360
 url: /it/net/groupdocs.search.results/filetype/mpp/
 ---
 ## FileType.MPP field
 
-MPP è un formato di file proprietario sviluppato da Microsoft come formato di file per Microsoft Project (MSP), un software applicativo per la gestione dei progetti. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/project-management/mpp/) .
+MPP è un formato di file proprietario sviluppato da Microsoft come formato di file per Microsoft Project (MSP), un software applicativo per la gestione dei progetti. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/project-management/mpp/) .
 
 ```csharp
 public static readonly FileType MPP;

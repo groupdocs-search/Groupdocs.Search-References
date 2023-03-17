@@ -18,7 +18,7 @@ public interface IDocumentLoader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CloseDocument](../../groupdocs.search.common/idocumentloader/closedocument)() | 关闭加载的文档。 索引在完成文档处理后调用此方法。 |
+| [CloseDocument](../../groupdocs.search.common/idocumentloader/closedocument)() | 关闭加载的文档。 索引在处理完文档后调用此方法。 |
 | [LoadDocument](../../groupdocs.search.common/idocumentloader/loaddocument)() | 加载文档。 索引在准备好处理文档时调用此方法。 |
 
 ### 也可以看看

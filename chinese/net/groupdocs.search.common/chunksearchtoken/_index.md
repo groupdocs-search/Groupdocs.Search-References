@@ -1,14 +1,14 @@
 ---
 title: ChunkSearchToken
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示继续进行块搜索按页搜索的令牌
+description: 表示继续chunk搜索的token按页搜索
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/chunksearchtoken/
 ---
 ## ChunkSearchToken class
 
-表示继续进行块搜索（按页搜索）的令牌。
+表示继续chunk搜索的token（按页搜索）。
 
 ```csharp
 public class ChunkSearchToken
@@ -16,7 +16,7 @@ public class ChunkSearchToken
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [按块搜索](https://docs.groupdocs.com/display/searchnet/Search+by+chunks)
 

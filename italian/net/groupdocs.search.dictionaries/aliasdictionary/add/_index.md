@@ -23,7 +23,7 @@ public void Add(string alias, string text)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*alias* o*text* è`nullo`. |
+| ArgumentNullException | Lanciato quando*alias* O*text* È`nullo`. |
 | ArgumentException | L'alias contiene un carattere che non è compreso tra ab e 0-9. |
 
 ### Guarda anche

@@ -3,7 +3,7 @@ title: PresentationFieldNames
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa una lista de nombres de campo para la búsqueda por facetas.
 type: docs
-weight: 980
+weight: 1020
 url: /es/net/groupdocs.search.options/presentationfieldnames/
 ---
 ## PresentationFieldNames class

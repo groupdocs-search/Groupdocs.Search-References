@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置搜索使用不同词形的标志 默认值为错误的.
+description: 获取或设置在搜索中使用不同词形的标志 默认值为错误的.
 type: docs
 weight: 140
 url: /zh/net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-获取或设置搜索使用不同词形的标志。 默认值为`错误的`.
+获取或设置在搜索中使用不同词形的标志。 默认值为`错误的`.
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }
@@ -16,7 +16,7 @@ public bool UseWordFormsSearch { get; set; }
 
 ### 适当的价值
 
-在搜索中使用不同词形的标志。
+在搜索中使用不同单词形式的标志。
 
 ### 也可以看看
 

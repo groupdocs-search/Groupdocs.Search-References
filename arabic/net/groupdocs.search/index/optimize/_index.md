@@ -1,14 +1,14 @@
 ---
 title: Optimize
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: تقليل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
+description: تقلل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
 type: docs
 weight: 210
 url: /ar/net/groupdocs.search/index/optimize/
 ---
 ## Optimize() {#optimize}
 
-تقليل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
+تقلل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
 
 ```csharp
 public void Optimize()
@@ -44,7 +44,7 @@ index.Optimize();
 
 ## Optimize(MergeOptions) {#optimize_1}
 
-تقليل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
+تقلل عدد مقاطع الفهرس عن طريق دمجها مع بعضها البعض. تعمل هذه العملية على تحسين أداء البحث .
 
 ```csharp
 public void Optimize(MergeOptions options)

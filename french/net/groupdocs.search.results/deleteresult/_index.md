@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente le résultat de lopération de suppression des fichiers ou dossiers indexés dun index.
 type: docs
-weight: 1100
+weight: 1140
 url: /fr/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class

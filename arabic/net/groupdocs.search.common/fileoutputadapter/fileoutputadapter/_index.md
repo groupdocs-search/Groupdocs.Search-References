@@ -11,15 +11,17 @@ url: /ar/net/groupdocs.search.common/fileoutputadapter/fileoutputadapter/
 يقوم بتهيئة مثيل جديد لملف[`FileOutputAdapter`](../../fileoutputadapter) فئة .
 
 ```csharp
-public FileOutputAdapter(string filePath)
+public FileOutputAdapter(OutputFormat outputFormat, string filePath)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
+| outputFormat | OutputFormat | تنسيق الإخراج. |
 | filePath | String | مسار ملف الإخراج. |
 
 ### أنظر أيضا
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [FileOutputAdapter](../../fileoutputadapter)
 * مساحة الاسم [GroupDocs.Search.Common](../../fileoutputadapter)
 * المجسم [GroupDocs.Search](../../../)

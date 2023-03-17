@@ -1,14 +1,14 @@
 ---
 title: XML
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: XML è lacronimo di Extensible Markup Language che è simile allHTML ma diverso nelluso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/web/xml/ .
+description: XML è lacronimo di Extensible Markup Language che è simile allHTML ma diverso nelluso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/web/xml/ .
 type: docs
 weight: 810
 url: /it/net/groupdocs.search.results/filetype/xml/
 ---
 ## FileType.XML field
 
-XML è l'acronimo di Extensible Markup Language che è simile all'HTML ma diverso nell'uso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/web/xml/) .
+XML è l'acronimo di Extensible Markup Language che è simile all'HTML ma diverso nell'uso dei tag per definire gli oggetti. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/web/xml/) .
 
 ```csharp
 public static readonly FileType XML;

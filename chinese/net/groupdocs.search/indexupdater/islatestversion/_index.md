@@ -20,7 +20,7 @@ public bool IsLatestVersion(string indexPath)
 
 ### 返回值
 
-`真的`如果指定目录包含最新版本的索引； 否则`错误的`.
+`真的`如果指定的目录包含最新版本的索引； 否则`错误的`.
 
 ### 也可以看看
 

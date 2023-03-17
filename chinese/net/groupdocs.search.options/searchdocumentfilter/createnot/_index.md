@@ -1,14 +1,14 @@
 ---
 title: CreateNot
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个与指定的内部过滤器具有逆逻辑的过滤器
+description: 创建一个过滤器该过滤器具有与指定内部过滤器相关的逆逻辑
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/searchdocumentfilter/createnot/
 ---
 ## SearchDocumentFilter.CreateNot method
 
-创建一个与指定的内部过滤器具有逆逻辑的过滤器。
+创建一个过滤器，该过滤器具有与指定内部过滤器相关的逆逻辑。
 
 ```csharp
 public static ISearchDocumentFilter CreateNot(ISearchDocumentFilter innerFilter)

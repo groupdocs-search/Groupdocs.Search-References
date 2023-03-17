@@ -1,14 +1,14 @@
 ---
 title: MHT
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: MHT uzantılı dosyalar bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/web/mhtml/ .
+description: MHT uzantılı dosyalar bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/web/mhtml/ .
 type: docs
 weight: 320
 url: /tr/net/groupdocs.search.results/filetype/mht/
 ---
 ## FileType.MHT field
 
-MHT uzantılı dosyalar, bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/web/mhtml/) .
+MHT uzantılı dosyalar, bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/web/mhtml/) .
 
 ```csharp
 public static readonly FileType MHT;

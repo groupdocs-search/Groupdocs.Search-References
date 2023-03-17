@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для операции слияния.
 type: docs
-weight: 930
+weight: 960
 url: /ru/net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
@@ -29,7 +29,7 @@ public class MergeOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Объединить индексы](https://docs.groupdocs.com/display/searchnet/Merge+indexes)
 * [Оптимизировать индекс](https://docs.groupdocs.com/display/searchnet/Optimize+index)

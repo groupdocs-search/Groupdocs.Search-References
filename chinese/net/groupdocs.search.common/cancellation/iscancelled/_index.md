@@ -1,14 +1,14 @@
 ---
 title: IsCancelled
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取一个表示已请求取消的值
+description: 获取一个值表示已请求取消
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.common/cancellation/iscancelled/
 ---
 ## Cancellation.IsCancelled property
 
-获取一个表示已请求取消的值。
+获取一个值，表示已请求取消。
 
 ```csharp
 public bool IsCancelled { get; }

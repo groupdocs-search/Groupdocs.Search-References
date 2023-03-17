@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Olayları vurgulamak için satır içi stillerin kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar. Varsayılan değerdoğru .
 type: docs
-weight: 60
+weight: 80
 url: /tr/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

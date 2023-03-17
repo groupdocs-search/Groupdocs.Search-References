@@ -3,7 +3,7 @@ title: ISearchDocumentFilter
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente le filtre de document de recherche. UtiliserSearchDocumentFilter./searchdocumentfilter classe pour la création dinstances de filtre.
 type: docs
-weight: 850
+weight: 880
 url: /fr/net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface

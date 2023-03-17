@@ -1,14 +1,14 @@
 ---
 title: EnabledForSeparateImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 30
 url: /tr/net/groupdocs.search.options/ocrindexingoptions/enabledforseparateimages/
 ---
 ## OcrIndexingOptions.EnabledForSeparateImages property
 
-Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForSeparateImages { get; set; }

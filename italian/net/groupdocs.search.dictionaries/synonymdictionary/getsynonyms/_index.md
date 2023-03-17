@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Valore di ritorno
 
-I sinonimi per la parola specificata o l'array vuoto se the[`SynonymDictionary`](../../synonymdictionary)l'oggetto non contiene la parola specificata.
+I sinonimi per la parola specificata o l'array vuoto se the[`SynonymDictionary`](../../synonymdictionary) l'oggetto non contiene la parola specificata.
 
 ### Guarda anche
 

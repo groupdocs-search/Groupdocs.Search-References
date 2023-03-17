@@ -1,14 +1,14 @@
 ---
 title: Indexes
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此中包含的索引IndexRepositorygroupdocs.search/indexrepository.
+description: 获取这个包含的索引IndexRepositorygroupdocs.search/indexrepository.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search/indexrepository/indexes/
 ---
 ## IndexRepository.Indexes property
 
-获取此中包含的索引[`IndexRepository`](../../indexrepository).
+获取这个包含的索引[`IndexRepository`](../../indexrepository).
 
 ```csharp
 public Index[] Indexes { get; }
@@ -16,7 +16,7 @@ public Index[] Indexes { get; }
 
 ### 适当的价值
 
-索引。
+指标。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: License
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Lisans uygulamak için yöntemler sağlar.
 type: docs
-weight: 690
+weight: 720
 url: /tr/net/groupdocs.search/license/
 ---
 ## License class

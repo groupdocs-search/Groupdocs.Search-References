@@ -16,7 +16,7 @@ public DictionaryRepository Dictionaries { get; }
 
 ### 适当的价值
 
-字典存储库。
+词典库。
 
 ### 也可以看看
 

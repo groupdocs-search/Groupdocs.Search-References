@@ -1,14 +1,14 @@
 ---
 title: YearFourDigits
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取由四位数字表示的年份元素
+description: 获取年份元素用四位数字表示
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search.options/dateformatelement/yearfourdigits/
 ---
 ## DateFormatElement.YearFourDigits property
 
-获取由四位数字表示的年份元素。
+获取年份元素，用四位数字表示。
 
 ```csharp
 public static DateFormatElement YearFourDigits { get; }

@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى تمكين ميزة البحث الغامض . القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة تشير إلى تمكين ميزة البحث الغامض . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 20
 url: /ar/net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-الحصول على أو تعيين قيمة تشير إلى تمكين ميزة البحث الغامض . القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة تشير إلى تمكين ميزة البحث الغامض . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool Enabled { get; set; }

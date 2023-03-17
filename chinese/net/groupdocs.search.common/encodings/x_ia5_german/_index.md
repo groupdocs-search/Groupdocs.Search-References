@@ -1,14 +1,14 @@
 ---
 title: x_IA5_German
 second_title: GroupDocs.Search for .NET API 参考
-description: xIA5German 编码
+description: xIA5德语编码
 type: docs
 weight: 1120
 url: /zh/net/groupdocs.search.common/encodings/x_ia5_german/
 ---
 ## Encodings.x_IA5_German field
 
-x-IA5-German 编码。
+x-IA5-德语编码。
 
 ```csharp
 public const string x_IA5_German;

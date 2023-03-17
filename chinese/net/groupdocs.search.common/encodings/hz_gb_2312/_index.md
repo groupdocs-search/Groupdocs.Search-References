@@ -1,14 +1,14 @@
 ---
 title: hz_gb_2312
 second_title: GroupDocs.Search for .NET API 参考
-description: hzgb2312 编码
+description: hzgb2312编码
 type: docs
 weight: 150
 url: /zh/net/groupdocs.search.common/encodings/hz_gb_2312/
 ---
 ## Encodings.hz_gb_2312 field
 
-hz-gb-2312 编码。
+hz-gb-2312编码。
 
 ```csharp
 public const string hz_gb_2312;

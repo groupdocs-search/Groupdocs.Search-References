@@ -20,7 +20,7 @@ public bool Remove(string alias)
 
 ### Return_Value
 
-Cette méthode renvoie`vrai` si l'alias est trouvé et supprimé avec succès. Cette méthode renvoie`faux` si l'alias n'est pas trouvé dans le[`AliasDictionary`](../../aliasdictionary) objet.
+Cette méthode renvoie`vrai` si l'alias est trouvé et supprimé avec succès. Cette méthode renvoie`FAUX` si l'alias n'est pas trouvé dans le[`AliasDictionary`](../../aliasdictionary) objet.
 
 ### Exceptions
 

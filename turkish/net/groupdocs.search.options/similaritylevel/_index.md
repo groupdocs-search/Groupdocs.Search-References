@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Benzerlik seviyesini belirten bulanık arama algoritmasını temsil eder. Benzerlik seviyesi algoritması kelime uzunluğu ile ters orantılı olarak bir kelime için maksimum hata sayısını hesaplar.
 type: docs
-weight: 1010
+weight: 1050
 url: /tr/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class

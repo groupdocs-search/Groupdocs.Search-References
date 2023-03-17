@@ -3,7 +3,7 @@ title: AliasReplacementPair
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示别名/替换对
 type: docs
-weight: 350
+weight: 360
 url: /zh/net/groupdocs.search.dictionaries/aliasreplacementpair/
 ---
 ## AliasReplacementPair class
@@ -18,7 +18,7 @@ public class AliasReplacementPair
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AliasReplacementPair](aliasreplacementpair)(string, string) | 初始化[`AliasReplacementPair`](../aliasreplacementpair)类. |
+| [AliasReplacementPair](aliasreplacementpair)(string, string) | 初始化一个新的实例[`AliasReplacementPair`](../aliasreplacementpair)类. |
 
 ## 特性
 

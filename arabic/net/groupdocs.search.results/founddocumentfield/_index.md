@@ -3,7 +3,7 @@ title: FoundDocumentField
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل حقل مستند موجود .
 type: docs
-weight: 1150
+weight: 1190
 url: /ar/net/groupdocs.search.results/founddocumentfield/
 ---
 ## FoundDocumentField class

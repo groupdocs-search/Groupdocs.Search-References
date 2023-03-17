@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<string[]> homophones)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*homophones* è`nullo`. |
+| ArgumentNullException | Lanciato quando*homophones* È`nullo`. |
 | ArgumentException | Generato quando il numero di omofoni in un gruppo è inferiore a 2. |
 
 ### Guarda anche
@@ -49,7 +49,7 @@ public void AddRange(string[][] homophones)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Lanciato quando*homophones* è`nullo`. |
+| ArgumentNullException | Lanciato quando*homophones* È`nullo`. |
 | ArgumentException | Generato quando il numero di omofoni in un gruppo è inferiore a 2. |
 
 ### Guarda anche

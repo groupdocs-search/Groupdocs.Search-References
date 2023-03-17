@@ -3,7 +3,7 @@ title: DateFormatElement
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert ein Datumsformatelement.
 type: docs
-weight: 760
+weight: 790
 url: /de/net/groupdocs.search.options/dateformatelement/
 ---
 ## DateFormatElement class
@@ -39,7 +39,7 @@ public class DateFormatElement
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Datumsbereichssuche](https://docs.groupdocs.com/display/searchnet/Date+range+search)
 

@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化一个新的实例Meteredgroupdocs.search/metered类.
+description: 初始化一个新实例Meteredgroupdocs.search/metered类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/metered/metered/
 ---
 ## Metered constructor
 
-初始化一个新的实例[`Metered`](../../metered)类.
+初始化一个新实例[`Metered`](../../metered)类.
 
 ```csharp
 public Metered()

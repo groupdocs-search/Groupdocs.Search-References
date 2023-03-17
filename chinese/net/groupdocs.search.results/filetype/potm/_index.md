@@ -1,14 +1,14 @@
 ---
 title: POTM
 second_title: GroupDocs.Search for .NET API 参考
-description: 带有 POTM 扩展名的文件是支持宏的 Microsoft PowerPoint 模板文件 POTM files 是使用 PowerPoint 2007 或更高版本创建的包含可用于创建 更多演示文件的默认设置了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/potm/.
+description: 带有 POTM 扩展名的文件是支持宏的 Microsoft PowerPoint 模板文件 POTM 文件 是使用 PowerPoint 2007 或更高版本创建的包含可用于创建 更多演示文稿文件的默认设置详细了解此文件格式 这里https//wiki.fileformat.com/presentation/potm/.
 type: docs
 weight: 480
 url: /zh/net/groupdocs.search.results/filetype/potm/
 ---
 ## FileType.POTM field
 
-带有 POTM 扩展名的文件是支持宏的 Microsoft PowerPoint 模板文件。 POTM files 是使用 PowerPoint 2007 或更高版本创建的，包含可用于创建 更多演示文件的默认设置。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/potm/).
+带有 POTM 扩展名的文件是支持宏的 Microsoft PowerPoint 模板文件。 POTM 文件 是使用 PowerPoint 2007 或更高版本创建的，包含可用于创建 更多演示文稿文件的默认设置。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/potm/).
 
 ```csharp
 public static readonly FileType POTM;

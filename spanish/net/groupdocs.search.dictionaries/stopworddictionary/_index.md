@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un diccionario de palabras vacías.
 type: docs
-weight: 470
+weight: 480
 url: /es/net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class

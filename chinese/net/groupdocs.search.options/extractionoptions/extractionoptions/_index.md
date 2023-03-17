@@ -1,14 +1,14 @@
 ---
 title: ExtractionOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化ExtractionOptionsgroupdocs.search.options/extractionoptions类.
+description: 初始化一个新的实例ExtractionOptionsgroupdocs.search.options/extractionoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/extractionoptions/extractionoptions/
 ---
 ## ExtractionOptions constructor
 
-初始化[`ExtractionOptions`](../../extractionoptions)类.
+初始化一个新的实例[`ExtractionOptions`](../../extractionoptions)类.
 
 ```csharp
 public ExtractionOptions()

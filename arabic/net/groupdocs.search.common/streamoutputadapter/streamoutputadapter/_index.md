@@ -11,15 +11,17 @@ url: /ar/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 يقوم بتهيئة مثيل جديد لملف[`StreamOutputAdapter`](../../streamoutputadapter) فئة .
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
+| outputFormat | OutputFormat | تنسيق الإخراج. |
 | stream | Stream | تيار الإخراج. |
 
 ### أنظر أيضا
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * مساحة الاسم [GroupDocs.Search.Common](../../streamoutputadapter)
 * المجسم [GroupDocs.Search](../../../)

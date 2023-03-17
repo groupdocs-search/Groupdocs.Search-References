@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: الاستثناء الذي يتم طرحه عند تشغيل تقييد الترخيص.
 type: docs
-weight: 600
+weight: 610
 url: /ar/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class

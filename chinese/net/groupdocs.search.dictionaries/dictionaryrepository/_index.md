@@ -1,14 +1,14 @@
 ---
 title: DictionaryRepository
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个目录中所有字典的存储库Index../groupdocs.search/index.
+description: 表示一个库中的所有词典Index../groupdocs.search/index.
 type: docs
-weight: 410
+weight: 420
 url: /zh/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class
 
-表示一个目录中所有字典的存储库[`Index`](../../groupdocs.search/index).
+表示一个库中的所有词典[`Index`](../../groupdocs.search/index).
 
 ```csharp
 public class DictionaryRepository
@@ -22,11 +22,11 @@ public class DictionaryRepository
 | [Alphabet](../../groupdocs.search.dictionaries/dictionaryrepository/alphabet) { get; } | 获取字符字典。 |
 | [CharacterReplacements](../../groupdocs.search.dictionaries/dictionaryrepository/characterreplacements) { get; } | 获取字符替换字典。 |
 | [DocumentPasswords](../../groupdocs.search.dictionaries/dictionaryrepository/documentpasswords) { get; } | 获取文档密码字典。 |
-| [HomophoneDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/homophonedictionary) { get; } | 获取同音字字典。 |
+| [HomophoneDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/homophonedictionary) { get; } | 获取同音词字典。 |
 | [SpellingCorrector](../../groupdocs.search.dictionaries/dictionaryrepository/spellingcorrector) { get; } | 获取拼写校正器。 |
 | [StopWordDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/stopworddictionary) { get; } | 获取停用词字典。 |
-| [SynonymDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/synonymdictionary) { get; } | 获取同义词词典。 |
-| [WordFormsProvider](../../groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider) { get; set; } | 获取或设置词表提供者。 |
+| [SynonymDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/synonymdictionary) { get; } | 获取同义词字典。 |
+| [WordFormsProvider](../../groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider) { get; set; } | 获取或设置单词形式提供程序。 |
 
 ### 也可以看看
 

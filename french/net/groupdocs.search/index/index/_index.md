@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-Initialise une nouvelle instance du[`Index`](../../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`faux`; crée un nouvel index sur le disque sinon.
+Initialise une nouvelle instance du[`Index`](../../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`FAUX`; crée un nouvel index sur le disque sinon.
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-Initialise une nouvelle instance du[`Index`](../../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`faux` ; crée un nouvel index sur le disque avec des paramètres d'index particuliers sinon.
+Initialise une nouvelle instance du[`Index`](../../index) class. Charge un index existant à partir du disque si*overwriteIfExists* est`FAUX` ; crée un nouvel index sur le disque avec des paramètres d'index particuliers sinon.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)

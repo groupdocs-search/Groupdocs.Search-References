@@ -1,14 +1,14 @@
 ---
 title: GetSynonymGroups
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定单词所属的所有同义词组
+description: 获取指定词所属的所有同义词组
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.dictionaries/synonymdictionary/getsynonymgroups/
 ---
 ## SynonymDictionary.GetSynonymGroups method
 
-获取指定单词所属的所有同义词组。
+获取指定词所属的所有同义词组。
 
 ```csharp
 public string[][] GetSynonymGroups(string word)
@@ -16,11 +16,11 @@ public string[][] GetSynonymGroups(string word)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| word | String | 获取同义词组的词。 |
+| word | String | 用于获取同义词组的单词。 |
 
 ### 返回值
 
-指定单词所属的所有同义词组。
+指定词所属的所有同义词组。
 
 ### 也可以看看
 

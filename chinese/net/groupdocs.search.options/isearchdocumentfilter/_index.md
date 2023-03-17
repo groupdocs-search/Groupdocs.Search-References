@@ -3,7 +3,7 @@ title: ISearchDocumentFilter
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示搜索文档过滤器 使用SearchDocumentFilter./searchdocumentfilter用于创建过滤器实例的类
 type: docs
-weight: 850
+weight: 880
 url: /zh/net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface

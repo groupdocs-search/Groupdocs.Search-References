@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen zum Abrufen von Dokumenttext aus einem Index.
 type: docs
-weight: 1060
+weight: 1100
 url: /de/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,17 +24,17 @@ public class TextOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null` . Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ermittelt oder setzt die zusätzlichen Dokumentfelder, die für die Indizierung verwendet wurden. Der Standardwert ist`Null`. Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Ruft das Abbruchobjekt ab oder setzt es. Der Standardwert ist`Null` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ruft den benutzerdefinierten Textextraktor ab, der für die Indizierung verwendet wurde, oder legt ihn fest. Der Standardwert ist`Null` . Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
-| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`Stimmt` . |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ruft den benutzerdefinierten Textextraktor ab, der für die Indizierung verwendet wurde, oder legt ihn fest. Der Standardwert ist`Null`. Beachten Sie, dass dieser Wert nur verwendet wird, wenn Dokumenttext nicht im Index gespeichert wurde. |
+| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`WAHR` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ruft die Bildindizierungsoptionen für die umgekehrte Bildsuche ab. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Ruft die Optionen zum Indizieren von Metadatenfeldern ab. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Ruft die Optionen für die OCR-Verarbeitung und Indexierung von erkanntem Text ab. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Indexierte Dokumente abrufen](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
 * [Suchergebnisse hervorheben](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)

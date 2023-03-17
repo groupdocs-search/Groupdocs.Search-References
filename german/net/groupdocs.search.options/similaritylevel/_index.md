@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt einen Algorithmus der FuzzySuche dar der die Ähnlichkeitsstufe angibt. Der Ähnlichkeitsstufenalgorithmus berechnet die maximale Anzahl von Fehlern für ein Wort umgekehrt proportional zur Wortlänge.
 type: docs
-weight: 1010
+weight: 1050
 url: /de/net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
@@ -29,7 +29,7 @@ public class SimilarityLevel : FuzzyAlgorithm
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Ungenaue Suche](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

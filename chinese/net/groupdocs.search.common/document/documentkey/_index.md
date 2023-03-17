@@ -1,14 +1,14 @@
 ---
 title: DocumentKey
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取用于在索引中标识文档的文档键
+description: 获取用于标识索引中文档的文档键
 type: docs
 weight: 70
 url: /zh/net/groupdocs.search.common/document/documentkey/
 ---
 ## Document.DocumentKey property
 
-获取用于在索引中标识文档的文档键。
+获取用于标识索引中文档的文档键。
 
 ```csharp
 public abstract string DocumentKey { get; }

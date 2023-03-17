@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示发生索引错误事件的参数
 type: docs
-weight: 530
+weight: 540
 url: /zh/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class
@@ -19,15 +19,15 @@ public class IndexErrorEventArgs : BaseIndexEventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
-| [IsCritical](../../groupdocs.search.events/indexerroreventargs/iscritical) { get; } | 获取一个标志，表明发生的错误很严重，应该重新启动索引。 |
-| [Message](../../groupdocs.search.events/indexerroreventargs/message) { get; } | 获取错误信息。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
+| [IsCritical](../../groupdocs.search.events/indexerroreventargs/iscritical) { get; } | 获取一个标志，指示发生的错误很严重，应该重新启动索引。 |
+| [Message](../../groupdocs.search.events/indexerroreventargs/message) { get; } | 获取错误消息。 |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | 获取事件的时间。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

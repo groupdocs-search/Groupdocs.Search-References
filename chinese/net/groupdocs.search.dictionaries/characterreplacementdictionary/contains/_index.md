@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### 返回值
 
-`真的`如果[`CharacterReplacementDictionary`](../../characterreplacementdictionary)对象包含指定的字符； 否则，`错误的`.
+`真的`如果[`CharacterReplacementDictionary`](../../characterreplacementdictionary)对象包含指定字符； 否则，`错误的`.
 
 ### 也可以看看
 

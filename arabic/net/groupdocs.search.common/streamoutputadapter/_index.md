@@ -18,12 +18,13 @@ public class StreamOutputAdapter : OutputAdapter
 
 | اسم | وصف |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | يقوم بتهيئة مثيل جديد لملف[`StreamOutputAdapter`](../streamoutputadapter) فئة . |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | يقوم بتهيئة مثيل جديد لملف[`StreamOutputAdapter`](../streamoutputadapter) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | يحصل على تدفق الإخراج. |
 
 ### ملاحظات

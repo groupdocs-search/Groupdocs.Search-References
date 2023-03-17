@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الأساسية لمرشحات المستندات . يحتوي على طرق لإنشاء مثيلات عامل تصفية المستندات .
 type: docs
-weight: 770
+weight: 800
 url: /ar/net/groupdocs.search.options/documentfilter/
 ---
 ## DocumentFilter class

@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta gli argomenti per levento in cui si è verificato un errore di indice.
 type: docs
-weight: 530
+weight: 540
 url: /it/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class
@@ -27,7 +27,7 @@ public class IndexErrorEventArgs : BaseIndexEventArgs
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Cerca eventi indice](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

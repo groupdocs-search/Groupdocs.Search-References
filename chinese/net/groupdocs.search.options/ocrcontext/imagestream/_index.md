@@ -1,14 +1,14 @@
 ---
 title: ImageStream
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取包含要处理的图像的流
+description: 获取包含待处理图像的流
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/ocrcontext/imagestream/
 ---
 ## OcrContext.ImageStream property
 
-获取包含要处理的图像的流。
+获取包含待处理图像的流。
 
 ```csharp
 public Stream ImageStream { get; }

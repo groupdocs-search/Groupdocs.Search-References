@@ -1,14 +1,14 @@
 ---
 title: EnabledForContainerItemImages
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Bir container deki örneğin bir ZIP arşivindeki görüntüler öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değeryanlış .
+description: Bir container deki örneğin bir ZIP arşivindeki görüntüler öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 10
 url: /tr/net/groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages/
 ---
 ## OcrIndexingOptions.EnabledForContainerItemImages property
 
-Bir container 'deki (örneğin, bir ZIP arşivindeki görüntüler) öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` .
+Bir container 'deki (örneğin, bir ZIP arşivindeki görüntüler) öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool EnabledForContainerItemImages { get; set; }

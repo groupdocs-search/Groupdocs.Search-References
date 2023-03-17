@@ -3,7 +3,7 @@ title: DateFormatCollection
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل مجموعة منDateFormat./dateformat الكائنات .
 type: docs
-weight: 750
+weight: 780
 url: /ar/net/groupdocs.search.options/dateformatcollection/
 ---
 ## DateFormatCollection class

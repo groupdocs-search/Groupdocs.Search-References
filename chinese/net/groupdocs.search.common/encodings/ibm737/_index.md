@@ -1,14 +1,14 @@
 ---
 title: ibm737
 second_title: GroupDocs.Search for .NET API 参考
-description: ibm737 编码
+description: ibm737编码
 type: docs
 weight: 440
 url: /zh/net/groupdocs.search.common/encodings/ibm737/
 ---
 ## Encodings.ibm737 field
 
-ibm737 编码。
+ibm737编码。
 
 ```csharp
 public const string ibm737;

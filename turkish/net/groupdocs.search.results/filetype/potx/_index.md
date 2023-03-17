@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .POTX uzantılı dosyalar Microsoft PowerPoint 2007 ve üzeri ile oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/presentation/potx/ .
+description: .POTX uzantılı dosyalar Microsoft PowerPoint 2007 ve üzeri ile oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/presentation/potx/ .
 type: docs
 weight: 490
 url: /tr/net/groupdocs.search.results/filetype/potx/
 ---
 ## FileType.POTX field
 
-.POTX uzantılı dosyalar, Microsoft PowerPoint 2007 ve üzeri ile oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/presentation/potx/) .
+.POTX uzantılı dosyalar, Microsoft PowerPoint 2007 ve üzeri ile oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/presentation/potx/) .
 
 ```csharp
 public static readonly FileType POTX;

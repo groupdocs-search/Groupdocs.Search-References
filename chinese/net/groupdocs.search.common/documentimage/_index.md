@@ -20,7 +20,7 @@ public class DocumentImage
 | --- | --- |
 | [Fields](../../groupdocs.search.common/documentimage/fields) { get; } | 获取提取的字段。 |
 | [Frames](../../groupdocs.search.common/documentimage/frames) { get; } | 获取图像帧。 |
-| [ImageIndex](../../groupdocs.search.common/documentimage/imageindex) { get; } | 获取文档中图像的序号。 |
+| [ImageIndex](../../groupdocs.search.common/documentimage/imageindex) { get; } | 获取图像在文档中的序号。 |
 
 ### 也可以看看
 

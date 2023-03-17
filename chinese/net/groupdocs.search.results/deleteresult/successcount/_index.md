@@ -1,14 +1,14 @@
 ---
 title: SuccessCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回成功删除路径的数量
+description: 返回成功删除的路径数
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.results/deleteresult/successcount/
 ---
 ## DeleteResult.SuccessCount property
 
-返回成功删除路径的数量。
+返回成功删除的路径数。
 
 ```csharp
 public int SuccessCount { get; }

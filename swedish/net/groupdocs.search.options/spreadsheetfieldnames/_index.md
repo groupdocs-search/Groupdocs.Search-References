@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar en lista med fältnamn för den facetterade sökningen.
 type: docs
-weight: 1030
+weight: 1070
 url: /sv/net/groupdocs.search.options/spreadsheetfieldnames/
 ---
 ## SpreadsheetFieldNames class

@@ -3,7 +3,7 @@ title: TermsBefore
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir metin parçasında vurgulanan kelimeden önceki maksimum kelime sayısını alır veya ayarlar. Değer 0 ile 10000 arasında olmalıdır. Varsayılan değer7 .
 type: docs
-weight: 40
+weight: 60
 url: /tr/net/groupdocs.search.options/highlightoptions/termsbefore/
 ---
 ## HighlightOptions.TermsBefore property

@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Ermittelt oder setzt die maximale Anzahl von Wörtern in einem Textfragment nach dem hervorgehobenen Wort. Der Wert muss im Bereich von 0 bis 10000 liegen. Der Standardwert ist7 .
 type: docs
-weight: 30
+weight: 50
 url: /de/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

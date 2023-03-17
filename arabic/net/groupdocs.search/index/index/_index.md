@@ -125,7 +125,7 @@ Index index = new Index(indexFolder, settings);
 
 ## Index(string, bool) {#constructor_3}
 
-يقوم بتهيئة مثيل جديد لملف[`Index`](../../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* هو`خاطئة`؛ ينشئ فهرسًا جديدًا على القرص وإلا.
+يقوم بتهيئة مثيل جديد لملف[`Index`](../../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* يكون`خطأ شنيع`؛ ينشئ فهرسًا جديدًا على القرص وإلا.
 
 ```csharp
 public Index(string indexFolder, bool overwriteIfExists)
@@ -155,7 +155,7 @@ Index index = new Index(indexFolder, true);
 
 ## Index(string, IndexSettings, bool) {#constructor_5}
 
-يقوم بتهيئة مثيل جديد لملف[`Index`](../../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* هو`خاطئة` ؛ ينشئ فهرسًا جديدًا على القرص بإعدادات فهرس معينة.
+يقوم بتهيئة مثيل جديد لملف[`Index`](../../index) class. تحميل فهرس موجود من القرص إذا*overwriteIfExists* يكون`خطأ شنيع` ؛ ينشئ فهرسًا جديدًا على القرص بإعدادات فهرس معينة.
 
 ```csharp
 public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)

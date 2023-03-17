@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Çok yönlü arama için alan adlarının bir listesini temsil eder.
 type: docs
-weight: 1090
+weight: 1130
 url: /tr/net/groupdocs.search.options/wordsfieldnames/
 ---
 ## WordsFieldNames class

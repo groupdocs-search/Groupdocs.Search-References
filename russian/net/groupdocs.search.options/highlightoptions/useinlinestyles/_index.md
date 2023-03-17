@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: GroupDocs.Search для справочника API .NET
 description: Получает или задает значение указывающее используются ли встроенные стили для выделения вхождений. Значение по умолчаниюистинный .
 type: docs
-weight: 60
+weight: 80
 url: /ru/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

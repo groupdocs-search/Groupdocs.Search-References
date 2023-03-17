@@ -1,14 +1,14 @@
 ---
 title: DJV
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: DjVu özellikle metin çizimler resimler ve fotoğrafların birleşimi içerenler taranan belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/image/djvu/ .
+description: DjVu özellikle metin çizimler resimler ve fotoğrafların birleşimi içerenler taranan belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/image/djvu/ .
 type: docs
 weight: 100
 url: /tr/net/groupdocs.search.results/filetype/djv/
 ---
 ## FileType.DJV field
 
-DjVu, özellikle metin, çizimler, resimler ve fotoğrafların birleşimi içerenler taranan belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/image/djvu/) .
+DjVu, özellikle metin, çizimler, resimler ve fotoğrafların birleşimi içerenler taranan belgeler ve kitaplar için tasarlanmış bir grafik dosyası biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/image/djvu/) .
 
 ```csharp
 public static readonly FileType DJV;

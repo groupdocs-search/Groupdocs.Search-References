@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет список имен полей для многогранного поиска.
 type: docs
-weight: 720
+weight: 750
 url: /ru/net/groupdocs.search.options/commonfieldnames/
 ---
 ## CommonFieldNames class
@@ -27,7 +27,7 @@ public static class CommonFieldNames
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фасетный поиск](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

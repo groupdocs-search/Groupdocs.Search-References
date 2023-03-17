@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options pour lindexation des champs de métadonnées.
 type: docs
-weight: 940
+weight: 970
 url: /fr/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class
@@ -18,7 +18,7 @@ public class MetadataIndexingOptions
 
 | Nom | La description |
 | --- | --- |
-| [DefaultFieldName](../../groupdocs.search.options/metadataindexingoptions/defaultfieldname) { get; set; } | Obtient ou définit le nom de champ par défaut utilisé pour indexer les noms de champs vides. La valeur par défaut est`"inconnue"` . |
+| [DefaultFieldName](../../groupdocs.search.options/metadataindexingoptions/defaultfieldname) { get; set; } | Obtient ou définit le nom de champ par défaut utilisé pour indexer les noms de champs vides. La valeur par défaut est`"inconnu"` . |
 | [IndexingEmptyNames](../../groupdocs.search.options/metadataindexingoptions/indexingemptynames) { get; set; } | Obtient ou définit une valeur indiquant s'il faut ou non indexer les noms de champs vides. La valeur par défaut est`vrai` . |
 | [IndexingEmptyValues](../../groupdocs.search.options/metadataindexingoptions/indexingemptyvalues) { get; set; } | Obtient ou définit une valeur indiquant s'il faut ou non indexer les valeurs de champs vides. La valeur par défaut est`vrai` . |
 | [MaxBytesToIndexField](../../groupdocs.search.options/metadataindexingoptions/maxbytestoindexfield) { get; set; } | Obtient ou définit le nombre maximal de valeurs dans un tableau de type byte pour indexer le champ. La valeur par défaut est`int.MaxValue` . |

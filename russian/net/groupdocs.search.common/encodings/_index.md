@@ -160,7 +160,7 @@ public static class Encodings
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Обнаружение кодировки текстового файла](https://docs.groupdocs.com/display/searchnet/Text+file+encoding+detection)
 

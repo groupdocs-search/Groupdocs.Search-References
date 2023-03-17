@@ -16,7 +16,7 @@ public override double GetSimilarityLevel(int termLength)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| termLength | Int32 | 期限长度。 |
+| termLength | Int32 | 词长。 |
 
 ### 返回值
 

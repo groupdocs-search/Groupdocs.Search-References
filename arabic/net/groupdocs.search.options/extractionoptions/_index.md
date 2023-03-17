@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لاستخراج البيانات من المستندات.
 type: docs
-weight: 790
+weight: 820
 url: /ar/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class
@@ -24,7 +24,7 @@ public class ExtractionOptions
 
 | اسم | وصف |
 | --- | --- |
-| [CustomExtractor](../../groupdocs.search.options/extractionoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هي`لا شيء` . |
+| [CustomExtractor](../../groupdocs.search.options/extractionoptions/customextractor) { get; set; } | الحصول على أو تعيين مستخرج النص المخصص. القيمة الافتراضية هي`باطل` . |
 | [Encoding](../../groupdocs.search.options/extractionoptions/encoding) { get; set; } | الحصول على أو تعيين الترميز المستخدم للاستخراج من المستندات النصية. |
 | [ImageIndexingOptions](../../groupdocs.search.options/extractionoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/extractionoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |

@@ -1,14 +1,14 @@
 ---
 title: OcrIndexingOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 提供用于 OCR 处理和索引识别文本的选项
+description: 提供用于 OCR 处理和索引已识别文本的选项
 type: docs
-weight: 970
+weight: 1000
 url: /zh/net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
 
-提供用于 OCR 处理和索引识别文本的选项。
+提供用于 OCR 处理和索引已识别文本的选项。
 
 ```csharp
 public class OcrIndexingOptions
@@ -18,9 +18,9 @@ public class OcrIndexingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | 获取或设置一个值，该值指示是否识别作为容器中项目的图像中的文本 （例如，ZIP 存档中的图像）。 默认值为`错误的`. |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | 获取或设置一个值，该值指示是否识别嵌入图像中的文本 （例如，DOCX 文档中的图像）。 默认值为`错误的`. |
-| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | 获取或设置一个值，该值指示是否识别单独图像文件中的文本。 默认值为`错误的`. |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | 获取或设置一个值，该值指示是否识别属于容器 中项目的图像中的文本（例如，ZIP 存档中的图像）。 默认值为`错误的`. |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | 获取或设置一个值，指示是否识别嵌入图像中的文本 （例如，DOCX 文档中的图像）。 默认值为`错误的`. |
+| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | 获取或设置一个值，表示是否识别单独图像文件中的文本。 默认值为`错误的`. |
 | [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | 获取或设置用于 OCR 处理的 OCR 连接器。 默认值为`无效的`，这意味着没有使用 OCR。 |
 
 ### 也可以看看

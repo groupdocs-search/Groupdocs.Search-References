@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置是否启用拼写校正器的值 默认值为错误的.
+description: 获取或设置一个值指示是否启用拼写校正器 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/spellingcorrectoroptions/enabled/
 ---
 ## SpellingCorrectorOptions.Enabled property
 
-获取或设置是否启用拼写校正器的值。 默认值为`错误的`.
+获取或设置一个值，指示是否启用拼写校正器。 默认值为`错误的`.
 
 ```csharp
 public bool Enabled { get; set; }

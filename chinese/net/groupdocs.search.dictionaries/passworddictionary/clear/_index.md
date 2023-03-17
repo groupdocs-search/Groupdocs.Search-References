@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: GroupDocs.Search for .NET API 参考
-description: 从中删除所有密码PasswordDictionarygroupdocs.search.dictionaries/passworddictionary对象.
+description: 从此删除所有密码PasswordDictionarygroupdocs.search.dictionaries/passworddictionary对象.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.dictionaries/passworddictionary/clear/
 ---
 ## PasswordDictionary.Clear method
 
-从中删除所有密码[`PasswordDictionary`](../../passworddictionary)对象.
+从此删除所有密码[`PasswordDictionary`](../../passworddictionary)对象.
 
 ```csharp
 public void Clear()

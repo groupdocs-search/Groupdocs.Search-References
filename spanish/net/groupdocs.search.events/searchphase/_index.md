@@ -3,7 +3,7 @@ title: SearchPhase
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa las fases de búsqueda.
 type: docs
-weight: 580
+weight: 590
 url: /es/net/groupdocs.search.events/searchphase/
 ---
 ## SearchPhase enumeration

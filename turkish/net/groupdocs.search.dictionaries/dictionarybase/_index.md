@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir sözlük için temel sınıfı temsil eder.
 type: docs
-weight: 400
+weight: 410
 url: /tr/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class

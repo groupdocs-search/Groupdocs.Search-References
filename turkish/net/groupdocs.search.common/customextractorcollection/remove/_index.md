@@ -20,7 +20,7 @@ public bool Remove(IFieldExtractor extractor)
 
 ### Geri dönüş değeri
 
-`doğru` eğer*extractor* koleksiyondan başarıyla kaldırıldı; aksi halde,`yanlış` . Bu yöntem aynı zamanda şunu da döndürür:`yanlış` eğer*extractor* orijinal koleksiyonda bulunmaz.
+`doğru` eğer*extractor* koleksiyondan başarıyla kaldırıldı; aksi takdirde,`YANLIŞ` . Bu yöntem aynı zamanda şunu da döndürür:`YANLIŞ` eğer*extractor* orijinal koleksiyonda bulunmaz.
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: StreamOutputAdapter
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示一个输出适配器它将输出收集到一个Stream.
+description: 表示将输出收集到Stream.
 type: docs
 weight: 300
 url: /zh/net/groupdocs.search.common/streamoutputadapter/
 ---
 ## StreamOutputAdapter class
 
-表示一个输出适配器，它将输出收集到一个Stream.
+表示将输出收集到Stream.
 
 ```csharp
 public class StreamOutputAdapter : OutputAdapter
@@ -18,23 +18,24 @@ public class StreamOutputAdapter : OutputAdapter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | 初始化[`StreamOutputAdapter`](../streamoutputadapter)类. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | 初始化一个新的实例[`StreamOutputAdapter`](../streamoutputadapter)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | 获取输出格式。 |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | 获取输出流。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [输出适配器](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 
 ### 例子
 
-该示例演示了类的典型用法。
+该示例演示了该类的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -46,9 +47,9 @@ index.Add(documentsFolder); // 索引指定文件夹中的文档
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // 获取索引文档的信息
 
-using (Stream stream = new MemoryStream()) // 创建一个流
+using (Stream stream = new MemoryStream()) // 创建流
 {
-    StreamOutputAdapter adapter = new StreamOutputAdapter(stream); // 创建一个流 output adapter
+    StreamOutputAdapter adapter = new StreamOutputAdapter(stream); // 创建流 output adapter
     index.GetDocumentText(documents[0], adapter); // 将文档文本生成到流中
 }
 ```

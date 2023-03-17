@@ -20,10 +20,10 @@ public abstract class Document
 | --- | --- |
 | virtual [AdditionalFields](../../groupdocs.search.common/document/additionalfields) { get; set; } | 获取或设置文档的附加字段。 |
 | virtual [Attributes](../../groupdocs.search.common/document/attributes) { get; set; } | 获取或设置文档的属性。 |
-| abstract [DocumentKey](../../groupdocs.search.common/document/documentkey) { get; } | 获取用于在索引中标识文档的文档键。 |
+| abstract [DocumentKey](../../groupdocs.search.common/document/documentkey) { get; } | 获取用于标识索引中文档的文档键。 |
 | abstract [DocumentSourceKind](../../groupdocs.search.common/document/documentsourcekind) { get; } | 获取文档来源种类。 |
 | abstract [Extension](../../groupdocs.search.common/document/extension) { get; } | 获取用于此文档类型的扩展名。 |
-| abstract [IsLazy](../../groupdocs.search.common/document/islazy) { get; } | 获取一个值，该值指示是否根据需要加载文档。 |
+| abstract [IsLazy](../../groupdocs.search.common/document/islazy) { get; } | 获取一个值，指示文档是否按需要加载。 |
 | abstract [ModificationDate](../../groupdocs.search.common/document/modificationdate) { get; } | 获取文档的最后修改日期。 |
 
 ## 方法
@@ -31,14 +31,14 @@ public abstract class Document
 | 姓名 | 描述 |
 | --- | --- |
 | static [CreateFromFile](../../groupdocs.search.common/document/createfromfile)(string) | 从文件创建文档。 |
-| static [CreateFromStream](../../groupdocs.search.common/document/createfromstream)(string, DateTime, string, Stream) | 从流中创建一个文档。 |
-| static [CreateFromStructure](../../groupdocs.search.common/document/createfromstructure)(string, DateTime, DocumentField[]) | 从文本字段数组的结构创建文档。 |
-| static [CreateLazy](../../groupdocs.search.common/document/createlazy)(DocumentSourceKind, string, IDocumentLoader) | 创建一个延迟加载的文档。 |
+| static [CreateFromStream](../../groupdocs.search.common/document/createfromstream)(string, DateTime, string, Stream) | 从流创建文档。 |
+| static [CreateFromStructure](../../groupdocs.search.common/document/createfromstructure)(string, DateTime, DocumentField[]) | 从作为文本字段数组的结构创建文档。 |
+| static [CreateLazy](../../groupdocs.search.common/document/createlazy)(DocumentSourceKind, string, IDocumentLoader) | 创建延迟加载文档。 |
 | override [ToString](../../groupdocs.search.common/document/tostring)() | 返回一个String代表当前[`Document`](../document). |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [来自不同来源的索引](https://docs.groupdocs.com/search/net/indexing-from-different-sources/)
 

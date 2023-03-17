@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет базовый класс средства выделения результатов поиска.
 type: docs
-weight: 620
+weight: 650
 url: /ru/net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class
@@ -13,6 +13,12 @@ url: /ru/net/groupdocs.search.highlighters/highlighter/
 ```csharp
 public abstract class Highlighter : ResultBuilderFactory
 ```
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
 
 ### Смотрите также
 

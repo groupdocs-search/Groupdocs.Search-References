@@ -1,14 +1,14 @@
 ---
 title: UseSynonymSearch
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Aramada eşanlamlı kullanım bayrağını alır veya ayarlar. Varsayılan değeryanlış .
+description: Aramada eşanlamlı kullanım bayrağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 130
 url: /tr/net/groupdocs.search.options/searchoptions/usesynonymsearch/
 ---
 ## SearchOptions.UseSynonymSearch property
 
-Aramada eşanlamlı kullanım bayrağını alır veya ayarlar. Varsayılan değer:`yanlış` .
+Aramada eşanlamlı kullanım bayrağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool UseSynonymSearch { get; set; }

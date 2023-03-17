@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل ARGB ألفا  أحمر  أخضر  أزرق اللون .
 type: docs
-weight: 710
+weight: 740
 url: /ar/net/groupdocs.search.options/color/
 ---
 ## Color class

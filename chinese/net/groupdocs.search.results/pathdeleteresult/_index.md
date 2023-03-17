@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示从索引中删除索引文件或文件夹的操作结果
 type: docs
-weight: 1180
+weight: 1220
 url: /zh/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class
@@ -24,7 +24,7 @@ public class PathDeleteResult
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [删除索引路径](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
 

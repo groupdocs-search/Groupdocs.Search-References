@@ -1,14 +1,14 @@
 ---
 title: WordPattern
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化WordPatterngroupdocs.search.common/wordpattern类.
+description: 初始化一个新的实例WordPatterngroupdocs.search.common/wordpattern类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/wordpattern/wordpattern/
 ---
 ## WordPattern constructor
 
-初始化[`WordPattern`](../../wordpattern)类.
+初始化一个新的实例[`WordPattern`](../../wordpattern)类.
 
 ```csharp
 public WordPattern()

@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: GroupDocs.Search для справочника API .NET
 description: Указывает местоположение изображения.
 type: docs
-weight: 870
+weight: 900
 url: /ru/net/groupdocs.search.options/imagelocation/
 ---
 ## ImageLocation enumeration

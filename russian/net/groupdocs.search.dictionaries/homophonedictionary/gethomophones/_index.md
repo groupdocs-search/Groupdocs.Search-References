@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Возвращаемое значение
 
-Омофоны для указанного слова или пустой массив , если[`HomophoneDictionary`](../../homophonedictionary)объект не содержит указанного слова.
+Омофоны для указанного слова или пустой массив , если[`HomophoneDictionary`](../../homophonedictionary) объект не содержит указанного слова.
 
 ### Смотрите также
 

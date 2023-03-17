@@ -1,14 +1,14 @@
 ---
 title: ExtractedItemInfo
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化ExtractedItemInfogroupdocs.search.common/extractediteminfo类.
+description: 初始化一个新的实例ExtractedItemInfogroupdocs.search.common/extractediteminfo类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/extractediteminfo/extractediteminfo/
 ---
 ## ExtractedItemInfo constructor
 
-初始化[`ExtractedItemInfo`](../../extractediteminfo)类.
+初始化一个新的实例[`ExtractedItemInfo`](../../extractediteminfo)类.
 
 ```csharp
 public ExtractedItemInfo(FormatFamily formatFamily, DocumentField[] fields, string itemInfo, 
@@ -19,7 +19,7 @@ public ExtractedItemInfo(FormatFamily formatFamily, DocumentField[] fields, stri
 | --- | --- | --- |
 | formatFamily | FormatFamily | 文档格式系列。 |
 | fields | DocumentField[] | 提取的字段。 |
-| itemInfo | String | 商品信息。 |
+| itemInfo | String | 物品信息。 |
 | innerPath | String | 容器中项目的路径。 |
 
 ### 也可以看看

@@ -29,7 +29,7 @@ public interface IContainerItemExtractor : IFieldExtractor
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Estrattori di testo personalizzati](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

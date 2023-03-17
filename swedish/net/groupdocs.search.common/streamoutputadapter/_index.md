@@ -18,12 +18,13 @@ public class StreamOutputAdapter : OutputAdapter
 
 | namn | Beskrivning |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | Initierar en ny instans av[`StreamOutputAdapter`](../streamoutputadapter) class. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Initierar en ny instans av[`StreamOutputAdapter`](../streamoutputadapter) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Hämtar utdataformatet. |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | Får en utström. |
 
 ### Anmärkningar

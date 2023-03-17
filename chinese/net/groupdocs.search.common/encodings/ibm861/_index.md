@@ -1,14 +1,14 @@
 ---
 title: ibm861
 second_title: GroupDocs.Search for .NET API 参考
-description: ibm861 编码
+description: ibm861编码
 type: docs
 weight: 510
 url: /zh/net/groupdocs.search.common/encodings/ibm861/
 ---
 ## Encodings.ibm861 field
 
-ibm861 编码。
+ibm861编码。
 
 ```csharp
 public const string ibm861;

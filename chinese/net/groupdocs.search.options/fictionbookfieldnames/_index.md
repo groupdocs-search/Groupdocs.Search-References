@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示分面搜索的字段名称列表
 type: docs
-weight: 800
+weight: 830
 url: /zh/net/groupdocs.search.options/fictionbookfieldnames/
 ---
 ## FictionBookFieldNames class
@@ -20,16 +20,16 @@ public static class FictionBookFieldNames
 | --- | --- |
 | const [Author](../../groupdocs.search.options/fictionbookfieldnames/author) | 作者字段名. |
 | const [Description](../../groupdocs.search.options/fictionbookfieldnames/description) | 描述字段名称。 |
-| const [Keywords](../../groupdocs.search.options/fictionbookfieldnames/keywords) | 关键字字段名。 |
+| const [Keywords](../../groupdocs.search.options/fictionbookfieldnames/keywords) | 关键字字段名. |
 | const [Language](../../groupdocs.search.options/fictionbookfieldnames/language) | 语言字段名称。 |
-| const [PublishedDate](../../groupdocs.search.options/fictionbookfieldnames/publisheddate) | 发布日期字段名称。 |
+| const [PublishedDate](../../groupdocs.search.options/fictionbookfieldnames/publisheddate) | 发布日期字段名. |
 | const [Publisher](../../groupdocs.search.options/fictionbookfieldnames/publisher) | 发布者字段名称。 |
 | const [Subject](../../groupdocs.search.options/fictionbookfieldnames/subject) | 主题字段名称。 |
-| const [Title](../../groupdocs.search.options/fictionbookfieldnames/title) | 标题字段名称。 |
+| const [Title](../../groupdocs.search.options/fictionbookfieldnames/title) | 标题字段名. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [分面搜索](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

@@ -3,7 +3,7 @@ title: DictionaryBase
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الأساسية للقاموس.
 type: docs
-weight: 400
+weight: 410
 url: /ar/net/groupdocs.search.dictionaries/dictionarybase/
 ---
 ## DictionaryBase class

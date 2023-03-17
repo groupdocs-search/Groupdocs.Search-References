@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل حاوية للجمع بين عدة فهارس وتنفيذ عمليات مشتركة عليها.
 type: docs
-weight: 660
+weight: 690
 url: /ar/net/groupdocs.search/indexrepository/
 ---
 ## IndexRepository class

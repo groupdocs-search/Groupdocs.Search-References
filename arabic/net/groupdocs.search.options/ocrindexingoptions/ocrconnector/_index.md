@@ -1,14 +1,14 @@
 ---
 title: OcrConnector
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هيلا شيء  مما يعني عدم استخدام OCR.
+description: الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هيباطل  مما يعني عدم استخدام OCR.
 type: docs
 weight: 40
 url: /ar/net/groupdocs.search.options/ocrindexingoptions/ocrconnector/
 ---
 ## OcrIndexingOptions.OcrConnector property
 
-الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هي`لا شيء` ، مما يعني عدم استخدام OCR.
+الحصول على أو تعيين موصل OCR المستخدم في معالجة OCR . القيمة الافتراضية هي`باطل` ، مما يعني عدم استخدام OCR.
 
 ```csharp
 public IOcrConnector OcrConnector { get; set; }

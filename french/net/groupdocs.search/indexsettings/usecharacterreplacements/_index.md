@@ -1,14 +1,14 @@
 ---
 title: UseCharacterReplacements
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit une valeur indiquant sil faut ou non utiliser des remplacements de caractères. La valeur par défaut estfaux .
+description: Obtient ou définit une valeur indiquant sil faut ou non utiliser des remplacements de caractères. La valeur par défaut estFAUX .
 type: docs
 weight: 120
 url: /fr/net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property
 
-Obtient ou définit une valeur indiquant s'il faut ou non utiliser des remplacements de caractères. La valeur par défaut est`faux` .
+Obtient ou définit une valeur indiquant s'il faut ou non utiliser des remplacements de caractères. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseCharacterReplacements { get; set; }

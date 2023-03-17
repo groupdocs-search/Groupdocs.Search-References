@@ -18,13 +18,14 @@ public class FileOutputAdapter : OutputAdapter
 
 | İsim | Tanım |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | Yeni bir örneğini başlatır.[`FileOutputAdapter`](../fileoutputadapter) sınıf. |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Yeni bir örneğini başlatır.[`FileOutputAdapter`](../fileoutputadapter) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | Bir çıktı dosyası yolu alır. |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ### Notlar
 

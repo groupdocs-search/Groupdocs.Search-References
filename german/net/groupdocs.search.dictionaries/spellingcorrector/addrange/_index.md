@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<string> words)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*words* ist`Null`. |
+| ArgumentNullException | Wann geworfen*words* Ist`Null`. |
 
 ### Siehe auch
 
@@ -48,7 +48,7 @@ public void AddRange(string[] words)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*words* ist`Null`. |
+| ArgumentNullException | Wann geworfen*words* Ist`Null`. |
 
 ### Siehe auch
 

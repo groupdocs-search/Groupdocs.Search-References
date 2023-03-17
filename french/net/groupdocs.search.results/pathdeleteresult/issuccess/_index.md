@@ -16,7 +16,7 @@ public bool IsSuccess { get; }
 
 ### Valeur de la propriété
 
-`vrai` si l'opération de suppression a réussi ; sinon, renvoie`faux`.
+`vrai` si l'opération de suppression a réussi ; sinon, renvoie`FAUX`.
 
 ### Voir également
 

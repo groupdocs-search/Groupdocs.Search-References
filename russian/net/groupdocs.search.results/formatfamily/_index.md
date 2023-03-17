@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: GroupDocs.Search для справочника API .NET
 description: Задает семейство форматов объединяющее несколько похожих форматов.
 type: docs
-weight: 1130
+weight: 1170
 url: /ru/net/groupdocs.search.results/formatfamily/
 ---
 ## FormatFamily class
@@ -53,7 +53,7 @@ public class FormatFamily
 | static readonly [Torrent](../../groupdocs.search.results/formatfamily/torrent) | Представляет торрент-форматы. |
 | static readonly [Unknown](../../groupdocs.search.results/formatfamily/unknown) | Представляет неизвестное семейство форматов. |
 | static readonly [Video](../../groupdocs.search.results/formatfamily/video) | Представляет форматы видео. |
-| static readonly [WordProcessing](../../groupdocs.search.results/formatfamily/wordprocessing) | Представляет форматы обработки текста. |
+| static readonly [WordProcessing](../../groupdocs.search.results/formatfamily/wordprocessing) | Представляет форматы обработки текстов. |
 
 ### Смотрите также
 

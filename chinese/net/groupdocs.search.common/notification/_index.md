@@ -1,14 +1,14 @@
 ---
 title: Notification
 second_title: GroupDocs.Search for .NET API 参考
-description: 索引所有通知的基类 该类还包含创建通知对象的方法
+description: 索引所有通知的基类 此类还包含用于创建通知对象的方法
 type: docs
 weight: 250
 url: /zh/net/groupdocs.search.common/notification/
 ---
 ## Notification class
 
-索引所有通知的基类。 该类还包含创建通知对象的方法。
+索引所有通知的基类。 此类还包含用于创建通知对象的方法。
 
 ```csharp
 public abstract class Notification
@@ -22,9 +22,9 @@ public abstract class Notification
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* [文件重命名](https://docs.groupdocs.com/display/searchnet/Document+renaming)
+* [文档重命名](https://docs.groupdocs.com/display/searchnet/Document+renaming)
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Extractor
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un outil dextraction préliminaire de données à partir de documents pour séparer létape dindexation rapide ultérieure.
 type: docs
-weight: 610
+weight: 620
 url: /fr/net/groupdocs.search/extractor/
 ---
 ## Extractor class

@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا لاستبدال الأحرف يتم استخدامه أثناء عملية الفهرسة. يمكن استخدام استبدال الأحرف  على سبيل المثال  لإزالة علامات التشكيل من الأحرف المحركة أو لعمل فهرس غير حساس لحالة الأحرف.
 type: docs
-weight: 370
+weight: 380
 url: /ar/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class

@@ -1,14 +1,14 @@
 ---
 title: ItemResults
 second_title: GroupDocs.Search for .NET API 参考
-description: 返回删除每个路径的结果
+description: 返回删除每条路径的结果
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.results/deleteresult/itemresults/
 ---
 ## DeleteResult.ItemResults property
 
-返回删除每个路径的结果。
+返回删除每条路径的结果。
 
 ```csharp
 public PathDeleteResult[] ItemResults { get; }

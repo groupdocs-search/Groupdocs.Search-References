@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر طرقًا تسمح بتنشيط المنتج بترخيص مقيّد واسترداد كمية الميغابايت التي تمت معالجتها . تعرف على المزيد حول التراخيص المقننةهناhttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /ar/net/groupdocs.search/metered/
 ---
 ## Metered class

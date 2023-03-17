@@ -16,7 +16,7 @@ public IWordFormsProvider WordFormsProvider { get; set; }
 
 ### Valore della proprietà
 
-La parola forma provider.
+La parola forma fornitore.
 
 ### Guarda anche
 

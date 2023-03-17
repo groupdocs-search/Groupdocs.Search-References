@@ -1,14 +1,14 @@
 ---
 title: PPSX
 second_title: GroupDocs.Search for .NET API 参考
-description: PPSXPower Point 幻灯片放映文件是使用 Microsoft PowerPoint 2007 及更高版本为 幻灯片放映目的创建的了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/ppsx/.
+description: PPSXPower Point 幻灯片放映文件是使用 Microsoft PowerPoint 2007 及更高版本创建的用于 幻灯片放映目的详细了解此文件格式 这里https//wiki.fileformat.com/presentation/ppsx/.
 type: docs
 weight: 520
 url: /zh/net/groupdocs.search.results/filetype/ppsx/
 ---
 ## FileType.PPSX field
 
-PPSX、Power Point 幻灯片放映文件是使用 Microsoft PowerPoint 2007 及更高版本为 幻灯片放映目的创建的。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/ppsx/).
+PPSX、Power Point 幻灯片放映文件是使用 Microsoft PowerPoint 2007 及更高版本创建的，用于 幻灯片放映目的。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/ppsx/).
 
 ```csharp
 public static readonly FileType PPSX;

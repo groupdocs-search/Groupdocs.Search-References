@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt Argumente für das Ereignis dar das eintritt wenn ein passwortgeschütztes Dokument indiziert wird.
 type: docs
-weight: 570
+weight: 580
 url: /de/net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class
@@ -27,7 +27,7 @@ public class PasswordRequiredEventArgs : BaseIndexEventArgs
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

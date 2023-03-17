@@ -3,7 +3,7 @@ title: Alphabet
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta un dizionario di caratteri utilizzato durante lindicizzazione per rilevare il tipo di carattere. Ogni carattere può essere gestito come separatore come lettera o entrambi.
 type: docs
-weight: 360
+weight: 370
 url: /it/net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class
@@ -33,7 +33,7 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Tipi di caratteri](https://docs.groupdocs.com/display/searchnet/Character+types)
 * [Gestire l'alfabeto](https://docs.groupdocs.com/display/searchnet/Alphabet)

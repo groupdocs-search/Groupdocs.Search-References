@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此包含的单词数HomophoneDictionarygroupdocs.search.dictionaries/homophonedictionary.
+description: 获取这个包含的单词数HomophoneDictionarygroupdocs.search.dictionaries/homophonedictionary.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/homophonedictionary/count/
 ---
 ## HomophoneDictionary.Count property
 
-获取此包含的单词数[`HomophoneDictionary`](../../homophonedictionary).
+获取这个包含的单词数[`HomophoneDictionary`](../../homophonedictionary).
 
 ```csharp
 public int Count { get; }

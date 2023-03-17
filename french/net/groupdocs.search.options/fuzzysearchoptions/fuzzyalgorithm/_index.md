@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lalgorithme de recherche floue. Les algorithmes de recherche floue actuellement disponibles sontSimilarityLevelgroupdocs.search.options/similaritylevel etTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . La valeur par défaut est une instance deSimilarityLevelgroupdocs.search.options/similaritylevel avec une valeur de niveau de similarité de05 .
+description: Obtient ou définit lalgorithme de recherche floue. Les algorithmes de recherche floue actuellement disponibles sontSimilarityLevelgroupdocs.search.options/similaritylevel etTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. La valeur par défaut est une instance deSimilarityLevelgroupdocs.search.options/similaritylevel avec une valeur de niveau de similarité de05 .
 type: docs
 weight: 30
 url: /fr/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Obtient ou définit l'algorithme de recherche floue. Les algorithmes de recherche floue actuellement disponibles sont[`SimilarityLevel`](../../similaritylevel) et[`TableDiscreteFunction`](../../tablediscretefunction) . La valeur par défaut est une instance de[`SimilarityLevel`](../../similaritylevel) avec une valeur de niveau de similarité de`0,5` .
+Obtient ou définit l'algorithme de recherche floue. Les algorithmes de recherche floue actuellement disponibles sont[`SimilarityLevel`](../../similaritylevel) et[`TableDiscreteFunction`](../../tablediscretefunction). La valeur par défaut est une instance de[`SimilarityLevel`](../../similaritylevel) avec une valeur de niveau de similarité de`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }

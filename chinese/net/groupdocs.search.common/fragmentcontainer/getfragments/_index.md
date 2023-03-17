@@ -1,14 +1,14 @@
 ---
 title: GetFragments
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取包含的文本片段数组
+description: 获取包含文本片段的数组
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/fragmentcontainer/getfragments/
 ---
 ## FragmentContainer.GetFragments method
 
-获取包含的文本片段数组。
+获取包含文本片段的数组。
 
 ```csharp
 public string[] GetFragments()
@@ -16,7 +16,7 @@ public string[] GetFragments()
 
 ### 返回值
 
-包含的文本片段数组。
+包含文本片段的数组。
 
 ### 也可以看看
 

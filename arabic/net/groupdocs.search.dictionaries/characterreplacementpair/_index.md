@@ -3,7 +3,7 @@ title: CharacterReplacementPair
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل شخصية / زوج بديل .
 type: docs
-weight: 380
+weight: 390
 url: /ar/net/groupdocs.search.dictionaries/characterreplacementpair/
 ---
 ## CharacterReplacementPair class

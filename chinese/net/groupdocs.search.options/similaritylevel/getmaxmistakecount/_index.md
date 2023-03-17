@@ -1,14 +1,14 @@
 ---
 title: GetMaxMistakeCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定术语长度的最大允许错误数
+description: 获取指定任期长度的最大允许错误数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.options/similaritylevel/getmaxmistakecount/
 ---
 ## SimilarityLevel.GetMaxMistakeCount method
 
-获取指定术语长度的最大允许错误数。
+获取指定任期长度的最大允许错误数。
 
 ```csharp
 public override int GetMaxMistakeCount(int termLength)
@@ -16,7 +16,7 @@ public override int GetMaxMistakeCount(int termLength)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| termLength | Int32 | 期限长度。 |
+| termLength | Int32 | 词长。 |
 
 ### 返回值
 

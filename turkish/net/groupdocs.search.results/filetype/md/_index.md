@@ -1,14 +1,14 @@
 ---
 title: MD
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Markdown dil lehçeleriyle oluşturulan metin dosyaları .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/wordprocessing/md/ .
+description: Markdown dil lehçeleriyle oluşturulan metin dosyaları .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/wordprocessing/md/ .
 type: docs
 weight: 310
 url: /tr/net/groupdocs.search.results/filetype/md/
 ---
 ## FileType.MD field
 
-Markdown dil lehçeleriyle oluşturulan metin dosyaları, .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/word-processing/md/) .
+Markdown dil lehçeleriyle oluşturulan metin dosyaları, .MD veya .MARKDOWN dosya uzantısıyla kaydedilir. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/word-processing/md/) .
 
 ```csharp
 public static readonly FileType MD;

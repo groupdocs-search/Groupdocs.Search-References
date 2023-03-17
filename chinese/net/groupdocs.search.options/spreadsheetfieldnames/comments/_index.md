@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: GroupDocs.Search for .NET API 参考
-description: 评论字段名称
+description: 评论字段名称.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/spreadsheetfieldnames/comments/
 ---
 ## SpreadsheetFieldNames.Comments field
 
-评论字段名称。
+评论字段名称.
 
 ```csharp
 public const string Comments;

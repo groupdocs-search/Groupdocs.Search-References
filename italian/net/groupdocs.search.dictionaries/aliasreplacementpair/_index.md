@@ -3,7 +3,7 @@ title: AliasReplacementPair
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta una coppia alias/sostituzione.
 type: docs
-weight: 350
+weight: 360
 url: /it/net/groupdocs.search.dictionaries/aliasreplacementpair/
 ---
 ## AliasReplacementPair class

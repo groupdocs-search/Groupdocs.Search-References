@@ -1,18 +1,24 @@
 ---
 title: OutputAdapter
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılarFileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter  veStringOutputAdapter./stringoutputadapter .
+description: Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılarFileOutputAdapter./fileoutputadapter  StreamOutputAdapter./streamoutputadapter  StructureOutputAdapter./structureoutputadapter  veStringOutputAdapter./stringoutputadapter .
 type: docs
 weight: 260
 url: /tr/net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class
 
-Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılar:[`FileOutputAdapter`](../fileoutputadapter) ,[`StreamOutputAdapter`](../streamoutputadapter) , ve[`StringOutputAdapter`](../stringoutputadapter) .
+Genelleştirilmiş bir biçimde bir çıktı toplamak için kullanılan bir çıkış bağdaştırıcısının temel sınıfını temsil eder. Şu anda kullanılabilen bağdaştırıcılar:[`FileOutputAdapter`](../fileoutputadapter) , [`StreamOutputAdapter`](../streamoutputadapter) , [`StructureOutputAdapter`](../structureoutputadapter) , ve[`StringOutputAdapter`](../stringoutputadapter) .
 
 ```csharp
 public abstract class OutputAdapter : ResultBuilderFactory
 ```
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ### Notlar
 

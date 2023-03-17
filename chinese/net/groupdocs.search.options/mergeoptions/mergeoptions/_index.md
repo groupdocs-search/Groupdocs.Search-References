@@ -1,14 +1,14 @@
 ---
 title: MergeOptions
 second_title: GroupDocs.Search for .NET API 参考
-description: 初始化MergeOptionsgroupdocs.search.options/mergeoptions类.
+description: 初始化一个新的实例MergeOptionsgroupdocs.search.options/mergeoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.options/mergeoptions/mergeoptions/
 ---
 ## MergeOptions constructor
 
-初始化[`MergeOptions`](../../mergeoptions)类.
+初始化一个新的实例[`MergeOptions`](../../mergeoptions)类.
 
 ```csharp
 public MergeOptions()

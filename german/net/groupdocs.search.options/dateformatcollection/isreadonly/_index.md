@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Eigentumswert
 
-`Stimmt`wenn die Sammlung schreibgeschützt ist; Andernfalls,`FALSCH`.
+`WAHR` wenn die Sammlung schreibgeschützt ist; ansonsten,`FALSCH`.
 
 ### Siehe auch
 

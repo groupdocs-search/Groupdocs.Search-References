@@ -30,12 +30,13 @@ Der Namensraum stellt allgemeine Klassen der Bibliothek bereit.
 | [IndexInfo](./indexinfo) | Enthält grundlegende Informationen zu einem[`Index`](../groupdocs.search/index) . |
 | [IndexingReport](./indexingreport) | Stellt detaillierte Informationen zu einem Indizierungsvorgang dar. |
 | [Notification](./notification) | Die Basisklasse für alle Benachrichtigungen an den Index. Diese Klasse enthält auch Methoden zum Erstellen von Benachrichtigungsobjekten. |
-| [OutputAdapter](./outputadapter) | Stellt die Basisklasse eines Ausgabeadapters dar, der verwendet wird, um eine Ausgabe in verallgemeinerter Form zu sammeln. Die derzeit verfügbaren Adapter sind[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) ,[`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , und[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
+| [OutputAdapter](./outputadapter) | Stellt die Basisklasse eines Ausgabeadapters dar, der verwendet wird, um eine Ausgabe in verallgemeinerter Form zu sammeln. Die derzeit verfügbaren Adapter sind[`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter) , [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter) , [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) , und[`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter) . |
 | [ResultBuilderFactory](./resultbuilderfactory) | Repräsentiert die Basisklasse einer Ergebnisgenerator-Factory. |
 | [SearchImage](./searchimage) | Stellt ein zu suchendes Bild dar. |
 | [SearchReport](./searchreport) | Stellt detaillierte Informationen zu einem Suchvorgang dar. |
 | [StreamOutputAdapter](./streamoutputadapter) | Stellt einen Ausgabeadapter dar, der Ausgaben in a sammeltStream . |
 | [StringOutputAdapter](./stringoutputadapter) | Stellt einen Ausgabeadapter dar, der die Ausgabe alsString . |
+| [StructureOutputAdapter](./structureoutputadapter) | Stellt einen Ausgabeadapter dar, der die Ausgabe als Struktur sammelt, die jedes Feld separat enthält. |
 | [WordPattern](./wordpattern) | Stellt ein Wortmuster dar, das in der Wortplatzhaltersuche verwendet werden soll. |
 ## Schnittstellen
 
@@ -49,7 +50,7 @@ Der Namensraum stellt allgemeine Klassen der Bibliothek bereit.
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [DocumentSourceKind](./documentsourcekind) | Definiert die Arten von Dokumentquellen. |
+| [DocumentSourceKind](./documentsourcekind) | Definiert die Arten von Dokumentenquellen. |
 | [DocumentStatus](./documentstatus) | Stellt einen Dokumentverarbeitungsstatus dar. |
 | [IndexStatus](./indexstatus) | Gibt einen Indexstatus an. |
 | [VersionUpdateResult](./versionupdateresult) | Stellt das Ergebnis einer Indexversionsaktualisierungsoperation dar. |

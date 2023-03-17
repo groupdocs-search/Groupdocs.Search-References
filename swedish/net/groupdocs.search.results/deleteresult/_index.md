@@ -3,7 +3,7 @@ title: DeleteResult
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar resultatet av operationen att ta bort indexerade filer eller mappar från ett index.
 type: docs
-weight: 1100
+weight: 1140
 url: /sv/net/groupdocs.search.results/deleteresult/
 ---
 ## DeleteResult class

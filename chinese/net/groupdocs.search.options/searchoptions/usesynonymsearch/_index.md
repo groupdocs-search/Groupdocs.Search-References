@@ -1,14 +1,14 @@
 ---
 title: UseSynonymSearch
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置在搜索中使用同义词的标志 默认值为错误的.
+description: 获取或设置在搜索中使用同义词标志 默认值为错误的.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.search.options/searchoptions/usesynonymsearch/
 ---
 ## SearchOptions.UseSynonymSearch property
 
-获取或设置在搜索中使用同义词的标志。 默认值为`错误的`.
+获取或设置在搜索中使用同义词标志。 默认值为`错误的`.
 
 ```csharp
 public bool UseSynonymSearch { get; set; }

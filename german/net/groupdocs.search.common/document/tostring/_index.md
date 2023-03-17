@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Rückgabewert
 
-EINString das repräsentiert den Strom[`Document`](../../document).
+AString das repräsentiert den Strom[`Document`](../../document).
 
 ### Siehe auch
 

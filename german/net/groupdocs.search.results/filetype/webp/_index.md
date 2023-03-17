@@ -1,14 +1,14 @@
 ---
 title: WEBP
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: WebP eingeführt von Google ist ein modernes RasterWebbildDateiformat das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität während die Bildgröße erheblich reduziert wird. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/webp/ .
+description: WebP eingeführt von Google ist ein modernes RasterWebbildDateiformat das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität während die Bildgröße erheblich reduziert wird. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/webp/ .
 type: docs
 weight: 690
 url: /de/net/groupdocs.search.results/filetype/webp/
 ---
 ## FileType.WEBP field
 
-WebP, eingeführt von Google, ist ein modernes Raster-Webbild-Dateiformat, das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität, während die Bildgröße erheblich reduziert wird. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/webp/) .
+WebP, eingeführt von Google, ist ein modernes Raster-Webbild-Dateiformat, das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität, während die Bildgröße erheblich reduziert wird. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/webp/) .
 
 ```csharp
 public static readonly FileType WEBP;

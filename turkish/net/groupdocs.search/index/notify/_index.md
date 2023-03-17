@@ -20,7 +20,7 @@ public bool Notify(Notification notification)
 
 ### Geri dönüş değeri
 
-İade`doğru`bildirim başarılı bir şekilde gerçekleştirilmişse; aksi halde`yanlış` .
+İade`doğru`bildirim başarılı bir şekilde gerçekleştirilmişse; aksi takdirde`YANLIŞ` .
 
 ### Ayrıca bakınız
 

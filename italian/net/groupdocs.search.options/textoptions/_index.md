@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce opzioni per recuperare il testo del documento da un indice.
 type: docs
-weight: 1060
+weight: 1100
 url: /it/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ottiene o imposta i campi del documento aggiuntivi utilizzati per l'indicizzazione. Il valore predefinito è`nullo` . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Ottiene o imposta i campi del documento aggiuntivi utilizzati per l'indicizzazione. Il valore predefinito è`nullo`. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Ottiene o imposta l'oggetto di annullamento. Il valore predefinito è`nullo` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo` . Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Ottiene o imposta l'estrattore di testo personalizzato utilizzato per l'indicizzazione. Il valore predefinito è`nullo`. Si noti che questo valore viene utilizzato solo se il testo del documento non è stato salvato nell'indice. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Ottiene o imposta un valore che indica se il tag Head è generato nell'HTML di output. Il valore predefinito è`VERO` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Ottiene le opzioni di indicizzazione delle immagini per la ricerca inversa delle immagini. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Ottiene le opzioni per l'indicizzazione dei campi dei metadati. |
@@ -34,7 +34,7 @@ public class TextOptions
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ottenere documenti indicizzati](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
 * [Evidenziazione dei risultati della ricerca](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)

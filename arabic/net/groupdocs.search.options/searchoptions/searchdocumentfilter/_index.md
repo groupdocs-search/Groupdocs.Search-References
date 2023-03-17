@@ -1,14 +1,14 @@
 ---
 title: SearchDocumentFilter
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين عامل تصفية مستند البحث.SearchDocumentFiltergroupdocs.search.options/searchoptions/searchdocumentfilter يعمل على منطق التضمين. استخدامSearchDocumentFiltergroupdocs.search.options/searchdocumentfilter فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هيلا شيء  مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها.
+description: الحصول على أو تعيين عامل تصفية مستند البحث.SearchDocumentFiltergroupdocs.search.options/searchoptions/searchdocumentfilter يعمل على منطق التضمين. استخدامSearchDocumentFiltergroupdocs.search.options/searchdocumentfilter فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هيباطل  مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها.
 type: docs
 weight: 90
 url: /ar/net/groupdocs.search.options/searchoptions/searchdocumentfilter/
 ---
 ## SearchOptions.SearchDocumentFilter property
 
-الحصول على أو تعيين عامل تصفية مستند البحث.`SearchDocumentFilter` يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها.
+الحصول على أو تعيين عامل تصفية مستند البحث.`SearchDocumentFilter` يعمل على منطق التضمين. استخدام[`SearchDocumentFilter`](../../searchdocumentfilter) فئة لتكوين مثيلات عامل تصفية مستند البحث . القيمة الافتراضية هي`باطل` ، مما يعني أنه سيتم إرجاع جميع المستندات التي تم العثور عليها.
 
 ```csharp
 public ISearchDocumentFilter SearchDocumentFilter { get; set; }

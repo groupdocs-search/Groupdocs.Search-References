@@ -14,6 +14,12 @@ url: /ar/net/groupdocs.search.common/resultbuilderfactory/
 public abstract class ResultBuilderFactory
 ```
 
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
+
 ### أنظر أيضا
 
 * مساحة الاسم [GroupDocs.Search.Common](../../groupdocs.search.common)

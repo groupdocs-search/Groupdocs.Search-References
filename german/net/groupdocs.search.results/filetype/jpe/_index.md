@@ -1,14 +1,14 @@
 ---
 title: JPE
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ein JPEG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/jpeg/ .
+description: Ein JPEG ist ein Bildformat das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 280
 url: /de/net/groupdocs.search.results/filetype/jpe/
 ---
 ## FileType.JPE field
 
-Ein JPEG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/jpeg/) .
+Ein JPEG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPE;

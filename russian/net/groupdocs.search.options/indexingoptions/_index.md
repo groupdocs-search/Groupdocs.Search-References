@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет параметры для операции индексирования.
 type: docs
-weight: 900
+weight: 930
 url: /ru/net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
@@ -33,7 +33,7 @@ public class IndexingOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Параметры индексирования](https://docs.groupdocs.com/display/searchnet/Indexing+options)
 

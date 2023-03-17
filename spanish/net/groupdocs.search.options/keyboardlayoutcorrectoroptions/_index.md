@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para el corrector de distribución de teclado.
 type: docs
-weight: 910
+weight: 940
 url: /es/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 ## KeyboardLayoutCorrectorOptions class
@@ -18,7 +18,7 @@ public class KeyboardLayoutCorrectorOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado es`falso` . |
+| [Enabled](../../groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled) { get; set; } | Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado es`FALSO` . |
 
 ### Observaciones
 

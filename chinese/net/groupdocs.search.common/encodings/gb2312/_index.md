@@ -1,14 +1,14 @@
 ---
 title: gb2312
 second_title: GroupDocs.Search for .NET API 参考
-description: gb2312 编码
+description: gb2312编码
 type: docs
 weight: 140
 url: /zh/net/groupdocs.search.common/encodings/gb2312/
 ---
 ## Encodings.gb2312 field
 
-gb2312 编码。
+gb2312编码。
 
 ```csharp
 public const string gb2312;

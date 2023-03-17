@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado esFALSO .
 type: docs
 weight: 10
 url: /es/net/groupdocs.search.options/keyboardlayoutcorrectoroptions/enabled/
 ---
 ## KeyboardLayoutCorrectorOptions.Enabled property
 
-Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si el corrector de distribución de teclado está habilitado. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool Enabled { get; set; }

@@ -3,7 +3,7 @@ title: CharacterType
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет тип символа в зависимости от того как он должен быть проиндексирован.
 type: docs
-weight: 390
+weight: 400
 url: /ru/net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration

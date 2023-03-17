@@ -16,12 +16,12 @@ public ExtractedData Extract(Document document, ExtractionOptions extractionOpti
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Document | 来自文件系统、流或结构的文档。 |
+| document | Document | 该文件来自文件系统、流或结构。 |
 | extractionOptions | ExtractionOptions | 提取选项。 |
 
 ### 返回值
 
-提取的文档数据。
+文档的提取数据。
 
 ### 也可以看看
 

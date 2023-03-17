@@ -20,7 +20,7 @@ public static DocumentFilter CreateFileLengthLowerBound(long lowerBound)
 
 ### 返回值
 
-按文档长度过滤的文档。
+按文档长度过滤文档。
 
 ### 也可以看看
 

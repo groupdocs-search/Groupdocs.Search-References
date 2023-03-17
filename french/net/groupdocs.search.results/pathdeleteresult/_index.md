@@ -3,7 +3,7 @@ title: PathDeleteResult
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente le résultat de lopération de suppression dun fichier ou dossier indexé dun index.
 type: docs
-weight: 1180
+weight: 1220
 url: /fr/net/groupdocs.search.results/pathdeleteresult/
 ---
 ## PathDeleteResult class

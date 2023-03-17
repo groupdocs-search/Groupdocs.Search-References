@@ -1,14 +1,14 @@
 ---
 title: UseHomophoneSearch
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lindicateur dutilisation des homophones dans la recherche. La valeur par défaut estfaux .
+description: Obtient ou définit lindicateur dutilisation des homophones dans la recherche. La valeur par défaut estFAUX .
 type: docs
 weight: 120
 url: /fr/net/groupdocs.search.options/searchoptions/usehomophonesearch/
 ---
 ## SearchOptions.UseHomophoneSearch property
 
-Obtient ou définit l'indicateur d'utilisation des homophones dans la recherche. La valeur par défaut est`faux` .
+Obtient ou définit l'indicateur d'utilisation des homophones dans la recherche. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseHomophoneSearch { get; set; }

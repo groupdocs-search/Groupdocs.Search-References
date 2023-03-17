@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет методы которые позволяют активировать продукт с лицензией Metered и получать количество обработанных МБ. Подробнее о лицензиях Meteredздесьhttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /ru/net/groupdocs.search/metered/
 ---
 ## Metered class
@@ -30,7 +30,7 @@ public class Metered
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
 

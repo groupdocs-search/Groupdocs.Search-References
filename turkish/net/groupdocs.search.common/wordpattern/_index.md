@@ -3,7 +3,7 @@ title: WordPattern
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Sözcük joker karakter aramasında kullanılacak bir sözcük modelini temsil eder.
 type: docs
-weight: 330
+weight: 340
 url: /tr/net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class

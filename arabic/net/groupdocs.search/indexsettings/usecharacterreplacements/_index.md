@@ -1,14 +1,14 @@
 ---
 title: UseCharacterReplacements
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 120
 url: /ar/net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property
 
-الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseCharacterReplacements { get; set; }

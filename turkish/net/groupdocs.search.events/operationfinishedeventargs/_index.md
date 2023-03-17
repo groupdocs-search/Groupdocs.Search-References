@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: İndeksleme işleminin bittiği olay için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 540
+weight: 550
 url: /tr/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class

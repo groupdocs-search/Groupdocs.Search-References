@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет результат операции обновления версии индекса.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/groupdocs.search.common/versionupdateresult/
 ---
 ## VersionUpdateResult enumeration

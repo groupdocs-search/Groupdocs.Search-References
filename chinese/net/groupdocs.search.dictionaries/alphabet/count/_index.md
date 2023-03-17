@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取包含在Alphabetgroupdocs.search.dictionaries/alphabet.
+description: 获取包含的字符数Alphabetgroupdocs.search.dictionaries/alphabet.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/alphabet/count/
 ---
 ## Alphabet.Count property
 
-获取包含在[`Alphabet`](../../alphabet).
+获取包含的字符数[`Alphabet`](../../alphabet).
 
 ```csharp
 public int Count { get; }

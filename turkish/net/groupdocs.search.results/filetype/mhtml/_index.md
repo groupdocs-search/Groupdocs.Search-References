@@ -1,14 +1,14 @@
 ---
 title: MHTML
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: MHTML uzantılı dosyalar bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/web/mhtml/ .
+description: MHTML uzantılı dosyalar bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/web/mhtml/ .
 type: docs
 weight: 330
 url: /tr/net/groupdocs.search.results/filetype/mhtml/
 ---
 ## FileType.MHTML field
 
-MHTML uzantılı dosyalar, bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/web/mhtml/) .
+MHTML uzantılı dosyalar, bir dizi farklı uygulama tarafından oluşturulabilen bir web sayfası arşiv biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/web/mhtml/) .
 
 ```csharp
 public static readonly FileType MHTML;

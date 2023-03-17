@@ -3,7 +3,7 @@ title: TermsBefore
 second_title: GroupDocs.Search efter .NET API Reference
 description: Hämtar eller ställer in det maximala antalet ord i ett textfragment före det markerade ordet. Värdet måste ligga i intervallet från 0 till 10000. Standardvärdet är7 .
 type: docs
-weight: 40
+weight: 60
 url: /sv/net/groupdocs.search.options/highlightoptions/termsbefore/
 ---
 ## HighlightOptions.TermsBefore property

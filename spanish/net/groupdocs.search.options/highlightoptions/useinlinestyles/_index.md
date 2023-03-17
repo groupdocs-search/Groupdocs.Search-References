@@ -3,7 +3,7 @@ title: UseInlineStyles
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Obtiene o establece un valor que indica si se utilizan estilos en línea para resaltar ocurrencias. El valor predeterminado esverdadero .
 type: docs
-weight: 60
+weight: 80
 url: /es/net/groupdocs.search.options/highlightoptions/useinlinestyles/
 ---
 ## HighlightOptions.UseInlineStyles property

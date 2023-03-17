@@ -3,7 +3,7 @@ title: TermsTotal
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: الحصول على أو تعيين الحد الأقصى لعدد الكلمات في جزء النص. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي21 .
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/groupdocs.search.options/highlightoptions/termstotal/
 ---
 ## HighlightOptions.TermsTotal property

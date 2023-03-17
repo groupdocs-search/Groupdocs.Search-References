@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: GroupDocs.Search for .NET API 参考
-description: 增强型元文件格式 EMF 独立于设备存储图形图像 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/emf/.
+description: 增强型图元文件格式 EMF 独立于设备存储图形图像 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/emf/.
 type: docs
 weight: 180
 url: /zh/net/groupdocs.search.results/filetype/emf/
 ---
 ## FileType.EMF field
 
-增强型元文件格式 (EMF) 独立于设备存储图形图像。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/emf/).
+增强型图元文件格式 (EMF) 独立于设备存储图形图像。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/emf/).
 
 ```csharp
 public static readonly FileType EMF;

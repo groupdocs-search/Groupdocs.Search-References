@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا كان[`CharacterReplacementDictionary`](../../characterreplacementdictionary) يحتوي الكائن على الحرف المحدد ؛ وإلا ،`خاطئة` .
+`حقيقي` إذا كان[`CharacterReplacementDictionary`](../../characterreplacementdictionary) يحتوي الكائن على الحرف المحدد ؛ وإلا ،`خطأ شنيع` .
 
 ### أنظر أيضا
 

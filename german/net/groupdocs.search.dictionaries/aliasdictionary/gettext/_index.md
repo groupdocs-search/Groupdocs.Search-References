@@ -26,7 +26,7 @@ Ein Text, der dem angegebenen Alias oder zugeordnet ist`Null`.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*alias* ist`Null`. |
+| ArgumentNullException | Wann geworfen*alias* Ist`Null`. |
 
 ### Siehe auch
 

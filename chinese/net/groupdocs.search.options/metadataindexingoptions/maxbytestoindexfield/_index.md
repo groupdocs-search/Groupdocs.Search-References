@@ -1,14 +1,14 @@
 ---
 title: MaxBytesToIndexField
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置 byte 类型数组中用于索引字段的最大值数 默认值为int.MaxValue.
+description: 获取或设置字节类型数组中值的最大数量以索引该字段 默认值为整数最大值.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search.options/metadataindexingoptions/maxbytestoindexfield/
 ---
 ## MetadataIndexingOptions.MaxBytesToIndexField property
 
-获取或设置 byte 类型数组中用于索引字段的最大值数。 默认值为`int.MaxValue`.
+获取或设置字节类型数组中值的最大数量以索引该字段。 默认值为`整数最大值`.
 
 ```csharp
 public int MaxBytesToIndexField { get; set; }

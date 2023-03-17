@@ -1,14 +1,14 @@
 ---
 title: AVI
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Il formato di file AVI è un formato di file contenitore multimediale audio video introdotto da Microsoft. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/video/avi/ .
+description: Il formato di file AVI è un formato di file contenitore multimediale audio video introdotto da Microsoft. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/video/avi/ .
 type: docs
 weight: 20
 url: /it/net/groupdocs.search.results/filetype/avi/
 ---
 ## FileType.AVI field
 
-Il formato di file AVI è un formato di file contenitore multimediale audio video introdotto da Microsoft. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/video/avi/) .
+Il formato di file AVI è un formato di file contenitore multimediale audio video introdotto da Microsoft. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/video/avi/) .
 
 ```csharp
 public static readonly FileType AVI;

@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### قيمة الإرجاع
 
-المرادفات للكلمة المحددة أو المصفوفة الفارغة إذا كان الملف[`SynonymDictionary`](../../synonymdictionary)لا يحتوي الكائن على الكلمة المحددة.
+المرادفات للكلمة المحددة أو المصفوفة الفارغة إذا كان الملف[`SynonymDictionary`](../../synonymdictionary) لا يحتوي الكائن على الكلمة المحددة.
 
 ### أنظر أيضا
 

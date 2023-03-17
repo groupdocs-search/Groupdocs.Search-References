@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Proporciona opciones para recuperar el texto de un documento de un índice.
 type: docs
-weight: 1060
+weight: 1100
 url: /es/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo` . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtiene o establece los campos de documento adicionales que se usaron para la indexación. El valor predeterminado es`nulo`. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Obtiene o establece el objeto de cancelación. El valor predeterminado es`nulo` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtiene o establece el extractor de texto personalizado que se utilizó para la indexación. El valor predeterminado es`nulo` . Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtiene o establece el extractor de texto personalizado que se utilizó para la indexación. El valor predeterminado es`nulo`. Tenga en cuenta que este valor se usa solo si el texto del documento no se guardó en el índice. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Obtiene o establece un valor que indica si la etiqueta Head se genera en el HTML de salida. El valor predeterminado es`verdadero` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Obtiene las opciones de indexación de imágenes para la búsqueda inversa de imágenes. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Obtiene las opciones para indexar campos de metadatos. |

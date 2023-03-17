@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir dizin güncelleyiciyi temsil eder. Bu sınıf belgeleri eski bir sürümün dizininde yeniden dizinler.
 type: docs
-weight: 680
+weight: 710
 url: /tr/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class

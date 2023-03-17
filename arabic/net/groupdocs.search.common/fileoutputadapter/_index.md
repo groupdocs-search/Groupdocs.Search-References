@@ -18,13 +18,14 @@ public class FileOutputAdapter : OutputAdapter
 
 | اسم | وصف |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter)(string) | يقوم بتهيئة مثيل جديد لملف[`FileOutputAdapter`](../fileoutputadapter) فئة . |
+| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | يقوم بتهيئة مثيل جديد لملف[`FileOutputAdapter`](../fileoutputadapter) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/fileoutputadapter/filepath) { get; } | يحصل على مسار ملف الإخراج . |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | يحصل على تنسيق الإخراج . |
 
 ### ملاحظات
 

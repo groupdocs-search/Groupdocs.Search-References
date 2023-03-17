@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar huvudklassen för att indexera dokument och söka igenom dem.
 type: docs
-weight: 650
+weight: 680
 url: /sv/net/groupdocs.search/index/
 ---
 ## Index class

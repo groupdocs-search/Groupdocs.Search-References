@@ -1,14 +1,14 @@
 ---
 title: TIFF
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: TIFF o TIF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/tiff/ .
+description: TIFF o TIF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/tiff/ .
 type: docs
 weight: 610
 url: /it/net/groupdocs.search.results/filetype/tiff/
 ---
 ## FileType.TIFF field
 
-TIFF o TIF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/tiff/) .
+TIFF o TIF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/tiff/) .
 
 ```csharp
 public static readonly FileType TIFF;

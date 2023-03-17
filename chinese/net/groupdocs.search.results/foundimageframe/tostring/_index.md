@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-一个String代表当前[`FoundImageFrame`](../../foundimageframe).
+AString代表当前[`FoundImageFrame`](../../foundimageframe).
 
 ### 也可以看看
 

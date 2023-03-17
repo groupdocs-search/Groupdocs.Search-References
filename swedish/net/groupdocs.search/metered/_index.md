@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Search efter .NET API Reference
 description: Tillhandahåller metoder som gör det möjligt att aktivera produkt med Meteredlicens och hämta mängden bearbetade MB. Läs mer om Meteredlicenserhärhttps//purchase.groupdocs.com/faqs/licensing/metered .
 type: docs
-weight: 700
+weight: 730
 url: /sv/net/groupdocs.search/metered/
 ---
 ## Metered class

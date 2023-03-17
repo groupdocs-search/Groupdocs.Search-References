@@ -3,7 +3,7 @@ title: FoundDocumentField
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert ein gefundenes Dokumentfeld.
 type: docs
-weight: 1150
+weight: 1190
 url: /de/net/groupdocs.search.results/founddocumentfield/
 ---
 ## FoundDocumentField class
@@ -35,7 +35,7 @@ public class FoundDocumentField
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suchergebnisse](https://docs.groupdocs.com/display/searchnet/Search+results)
 

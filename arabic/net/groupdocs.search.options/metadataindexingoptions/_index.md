@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لفهرسة حقول البيانات الوصفية.
 type: docs
-weight: 940
+weight: 970
 url: /ar/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class

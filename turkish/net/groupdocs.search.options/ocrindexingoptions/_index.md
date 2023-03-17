@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: OCR işleme ve tanınan metni indeksleme için seçenekler sunar.
 type: docs
-weight: 970
+weight: 1000
 url: /tr/net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
@@ -18,9 +18,9 @@ public class OcrIndexingOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | Bir container 'deki (örneğin, bir ZIP arşivindeki görüntüler) öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki resimler). Varsayılan değer:`yanlış` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`yanlış` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/ocrindexingoptions/enabledforcontaineritemimages) { get; set; } | Bir container 'deki (örneğin, bir ZIP arşivindeki görüntüler) öğeler olan görüntülerdeki metnin tanınıp tanınmayacağını gösteren bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/ocrindexingoptions/enabledforembeddedimages) { get; set; } | Katıştırılmış resimlerdeki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar (örneğin, bir DOCX belgesindeki resimler). Varsayılan değer:`YANLIŞ` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/ocrindexingoptions/enabledforseparateimages) { get; set; } | Ayrı görüntü dosyalarındaki metnin tanınıp tanınmayacağını belirten bir değer alır veya ayarlar. Varsayılan değer:`YANLIŞ` . |
 | [OcrConnector](../../groupdocs.search.options/ocrindexingoptions/ocrconnector) { get; set; } | OCR işleme için kullanılan bir OCR bağlayıcısı alır veya ayarlar. Varsayılan değer:`hükümsüz` , yani OCR kullanılmaz. |
 
 ### Ayrıca bakınız

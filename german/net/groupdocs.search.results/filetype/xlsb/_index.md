@@ -1,14 +1,14 @@
 ---
 title: XLSB
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Das XLSBDateiformat gibt das ExcelBinärdateiformat an bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt die den Inhalt von ExcelArbeitsmappen angeben. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/specification/spreadsheet/xlsb/ .
+description: Das XLSBDateiformat gibt das ExcelBinärdateiformat an bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt die den Inhalt von ExcelArbeitsmappen angeben. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/specification/spreadsheet/xlsb/ .
 type: docs
 weight: 750
 url: /de/net/groupdocs.search.results/filetype/xlsb/
 ---
 ## FileType.XLSB field
 
-Das XLSB-Dateiformat gibt das Excel-Binärdateiformat an, bei dem es sich um eine Sammlung von Datensätzen und -Strukturen handelt, die den Inhalt von Excel-Arbeitsmappen angeben. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) .
+Das XLSB-Dateiformat gibt das Excel-Binärdateiformat an, bei dem es sich um eine Sammlung von Datensätzen und -Strukturen handelt, die den Inhalt von Excel-Arbeitsmappen angeben. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) .
 
 ```csharp
 public static readonly FileType XLSB;

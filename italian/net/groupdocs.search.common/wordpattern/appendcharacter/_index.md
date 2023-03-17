@@ -1,14 +1,14 @@
 ---
 title: AppendCharacter
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: Aggiunge un carattere al modello di parola.
+description: Aggiunge un carattere al modello di parole.
 type: docs
 weight: 20
 url: /it/net/groupdocs.search.common/wordpattern/appendcharacter/
 ---
 ## WordPattern.AppendCharacter method
 
-Aggiunge un carattere al modello di parola.
+Aggiunge un carattere al modello di parole.
 
 ```csharp
 public void AppendCharacter(char character)

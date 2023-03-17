@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر طرقًا لتطبيق الترخيص .
 type: docs
-weight: 690
+weight: 720
 url: /ar/net/groupdocs.search/license/
 ---
 ## License class

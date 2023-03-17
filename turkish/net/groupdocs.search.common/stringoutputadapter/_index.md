@@ -18,7 +18,13 @@ public class StringOutputAdapter : OutputAdapter
 
 | İsim | Tanım |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter)() | Yeni bir örneğini başlatır.[`StringOutputAdapter`](../stringoutputadapter) sınıf. |
+| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Yeni bir örneğini başlatır.[`StringOutputAdapter`](../stringoutputadapter) sınıf. |
+
+## Özellikleri
+
+| İsim | Tanım |
+| --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Çıktı biçimini alır. |
 
 ## yöntemler
 
@@ -46,7 +52,7 @@ index.Add(documentsFolder); // Belgeleri belirtilen klasörden indeksleme
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Dizinlenmiş belgeler hakkında bilgi alma
 
-StringOutputAdapter adapter = new StringOutputAdapter(); // Bir dizi çıkış bağdaştırıcısı oluşturma
+StringOutputAdapter adapter = new StringOutputAdapter(OutputFormat.Html); // Bir dizi çıkış bağdaştırıcısı oluşturma
 index.GetDocumentText(documents[0], adapter); // Bağdaştırıcıya bir belge metni oluşturma
 String result = adapter.GetResult(); // sonuç almak
 ```

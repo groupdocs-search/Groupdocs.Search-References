@@ -3,7 +3,7 @@ title: MailFieldNames
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示分面搜索的字段名称列表
 type: docs
-weight: 920
+weight: 950
 url: /zh/net/groupdocs.search.options/mailfieldnames/
 ---
 ## MailFieldNames class
@@ -18,14 +18,14 @@ public static class MailFieldNames
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [MailDisplayTo](../../groupdocs.search.options/mailfieldnames/maildisplayto) | 邮件显示到字段名称。 |
-| const [MailMessageBody](../../groupdocs.search.options/mailfieldnames/mailmessagebody) | 邮件正文字段名称。 |
-| const [MailSenderName](../../groupdocs.search.options/mailfieldnames/mailsendername) | 邮件发件人名称字段名称。 |
+| const [MailDisplayTo](../../groupdocs.search.options/mailfieldnames/maildisplayto) | 邮件显示字段名. |
+| const [MailMessageBody](../../groupdocs.search.options/mailfieldnames/mailmessagebody) | 邮件消息正文字段名。 |
+| const [MailSenderName](../../groupdocs.search.options/mailfieldnames/mailsendername) | 邮件发件人姓名字段名. |
 | const [MailSubject](../../groupdocs.search.options/mailfieldnames/mailsubject) | 邮件主题字段名称。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [分面搜索](https://docs.groupdocs.com/display/searchnet/Faceted+search)
 

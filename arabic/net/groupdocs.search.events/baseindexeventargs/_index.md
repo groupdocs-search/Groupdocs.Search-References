@@ -3,7 +3,7 @@ title: BaseIndexEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الفئة الأساسية لوسائط الحدث.
 type: docs
-weight: 490
+weight: 500
 url: /ar/net/groupdocs.search.events/baseindexeventargs/
 ---
 ## BaseIndexEventArgs class

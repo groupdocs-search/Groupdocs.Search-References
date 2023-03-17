@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل الوسيطات لحدث تم تحديث تقدم عملية الفهرسة.
 type: docs
-weight: 550
+weight: 560
 url: /ar/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class

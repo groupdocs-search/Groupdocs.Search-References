@@ -1,14 +1,14 @@
 ---
 title: FuzzyAlgorithm
 second_title: GroupDocs.Search для справочника API .NET
-description: Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поискаSimilarityLevelgroupdocs.search.options/similaritylevel а такжеTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction . Значение по умолчанию  экземплярSimilarityLevelgroupdocs.search.options/similaritylevel со значением уровня подобия05 .
+description: Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поискаSimilarityLevelgroupdocs.search.options/similaritylevel иTableDiscreteFunctiongroupdocs.search.options/tablediscretefunction. Значение по умолчанию  экземплярSimilarityLevelgroupdocs.search.options/similaritylevel со значением уровня подобия05 .
 type: docs
 weight: 30
 url: /ru/net/groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm/
 ---
 ## FuzzySearchOptions.FuzzyAlgorithm property
 
-Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поиска:[`SimilarityLevel`](../../similaritylevel) а также[`TableDiscreteFunction`](../../tablediscretefunction) . Значение по умолчанию — экземпляр[`SimilarityLevel`](../../similaritylevel) со значением уровня подобия`0,5` .
+Получает или задает алгоритм нечеткого поиска. Доступные в настоящее время алгоритмы нечеткого поиска:[`SimilarityLevel`](../../similaritylevel) и[`TableDiscreteFunction`](../../tablediscretefunction). Значение по умолчанию — экземпляр[`SimilarityLevel`](../../similaritylevel) со значением уровня подобия`0,5` .
 
 ```csharp
 public FuzzyAlgorithm FuzzyAlgorithm { get; set; }

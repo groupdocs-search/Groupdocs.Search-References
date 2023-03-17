@@ -16,7 +16,7 @@ public void AppendCharacter(char character)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| character | Char | 要附加的字符。 |
+| character | Char | 要追加的字符。 |
 
 ### 也可以看看
 

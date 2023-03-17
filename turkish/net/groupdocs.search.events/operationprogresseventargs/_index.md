@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: İndeksleme işlemi ilerlemesinin güncellenmesi olayı için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 550
+weight: 560
 url: /tr/net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class

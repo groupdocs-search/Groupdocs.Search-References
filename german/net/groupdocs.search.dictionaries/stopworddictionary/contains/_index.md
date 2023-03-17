@@ -20,7 +20,7 @@ public bool Contains(string word)
 
 ### Rückgabewert
 
-`Stimmt` wenn die[`StopWordDictionary`](../../stopworddictionary) Objekt enthält das angegebene Wort; Andernfalls,`FALSCH` .
+`WAHR` wenn die[`StopWordDictionary`](../../stopworddictionary) Objekt enthält das angegebene Wort; ansonsten,`FALSCH` .
 
 ### Siehe auch
 

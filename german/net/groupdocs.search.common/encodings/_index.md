@@ -160,7 +160,7 @@ public static class Encodings
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Erkennung der Kodierung von Textdateien](https://docs.groupdocs.com/display/searchnet/Text+file+encoding+detection)
 

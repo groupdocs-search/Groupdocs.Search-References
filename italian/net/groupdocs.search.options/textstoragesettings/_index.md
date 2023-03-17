@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta le impostazioni di archiviazione del testo.
 type: docs
-weight: 1070
+weight: 1110
 url: /it/net/groupdocs.search.options/textstoragesettings/
 ---
 ## TextStorageSettings class
@@ -28,7 +28,7 @@ public class TextStorageSettings
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Memorizzazione del testo dei documenti indicizzati](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
 * [Impostazioni dell'indice di ricerca](https://docs.groupdocs.com/display/searchnet/Search+index+settings)

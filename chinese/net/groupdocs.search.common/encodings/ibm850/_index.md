@@ -1,14 +1,14 @@
 ---
 title: ibm850
 second_title: GroupDocs.Search for .NET API 参考
-description: ibm850 编码
+description: ibm850编码
 type: docs
 weight: 460
 url: /zh/net/groupdocs.search.common/encodings/ibm850/
 ---
 ## Encodings.ibm850 field
 
-ibm850 编码。
+ibm850编码。
 
 ```csharp
 public const string ibm850;

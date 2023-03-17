@@ -1,14 +1,14 @@
 ---
 title: XLS
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: XLS uzantılı dosyalar Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar Microsoft Excel ve OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/specification/spreadsheet/xls/ .
+description: XLS uzantılı dosyalar Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar Microsoft Excel ve OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/specification/spreadsheet/xls/ .
 type: docs
 weight: 740
 url: /tr/net/groupdocs.search.results/filetype/xls/
 ---
 ## FileType.XLS field
 
-XLS uzantılı dosyalar, Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar, Microsoft Excel ve OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/specification/spreadsheet/xls/) .
+XLS uzantılı dosyalar, Excel İkili Dosya Biçimini temsil eder. Bu tür dosyalar, Microsoft Excel ve OpenOffice Calc veya Apple Numbers gibi diğer benzer elektronik tablo programları tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/specification/spreadsheet/xls/) .
 
 ```csharp
 public static readonly FileType XLS;

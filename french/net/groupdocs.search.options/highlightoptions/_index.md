@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des options pour mettre en surbrillance les termes trouvés.
 type: docs
-weight: 830
+weight: 860
 url: /fr/net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -24,16 +24,18 @@ public class HighlightOptions : TextOptions
 
 | Nom | La description |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtient ou définit les champs de document supplémentaires qui ont été utilisés pour l'indexation. La valeur par défaut est`nul` . Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Obtient ou définit les champs de document supplémentaires qui ont été utilisés pour l'indexation. La valeur par défaut est`nul`. Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Obtient ou définit l'objet d'annulation. La valeur par défaut est`nul` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul` . Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Obtient ou définit l'extracteur de texte personnalisé utilisé pour l'indexation. La valeur par défaut est`nul`. Notez que cette valeur est utilisée uniquement si le texte du document n'a pas été enregistré dans l'index. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Obtient ou définit une valeur indiquant si la balise Head est générée dans la sortie HTML. La valeur par défaut est`vrai` . |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Obtient ou définit une couleur utilisée pour mettre en surbrillance les occurrences. La valeur par défaut est #FFD800. |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Obtient les options d'indexation d'image pour la recherche d'image inversée. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Obtient les options d'indexation des champs de métadonnées. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Obtient les options de traitement OCR et d'indexation du texte reconnu. |
-| [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Obtient ou définit le nombre maximal de mots dans un fragment de texte après le mot en surbrillance. La valeur doit être comprise entre 0 et 10 000. La valeur par défaut est`sept` . |
-| [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Obtient ou définit le nombre maximal de mots dans un fragment de texte avant le mot en surbrillance. La valeur doit être comprise entre 0 et 10 000. La valeur par défaut est`sept` . |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Obtient ou définit la balise de fin de la mise en surbrillance du mot trouvé. Cette balise est utilisée uniquement lors de la mise en surbrillance en texte brut. La valeur par défaut est une chaîne vide. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Obtient ou définit la balise de début de la mise en surbrillance du mot trouvé. Cette balise est utilisée uniquement lors de la mise en surbrillance en texte brut. La valeur par défaut est une chaîne vide. |
+| [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Obtient ou définit le nombre maximal de mots dans un fragment de texte après le mot en surbrillance. La valeur doit être comprise entre 0 et 10 000. La valeur par défaut est`7` . |
+| [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Obtient ou définit le nombre maximal de mots dans un fragment de texte avant le mot en surbrillance. La valeur doit être comprise entre 0 et 10 000. La valeur par défaut est`7` . |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Obtient ou définit le nombre maximal de mots dans un fragment de texte. La valeur doit être comprise entre 0 et 10 000. La valeur par défaut est`21` . |
 | [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | Obtient ou définit une valeur indiquant si les styles en ligne sont utilisés pour mettre en surbrillance les occurrences. La valeur par défaut est`vrai` . |
 

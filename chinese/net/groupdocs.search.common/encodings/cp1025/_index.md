@@ -1,14 +1,14 @@
 ---
 title: cp1025
 second_title: GroupDocs.Search for .NET API 参考
-description: cp1025 编码
+description: cp1025编码
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.common/encodings/cp1025/
 ---
 ## Encodings.cp1025 field
 
-cp1025 编码。
+cp1025编码。
 
 ```csharp
 public const string cp1025;

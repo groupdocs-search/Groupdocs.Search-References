@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un paso de una función de paso.
 type: docs
-weight: 1040
+weight: 1080
 url: /es/net/groupdocs.search.options/step/
 ---
 ## Step class

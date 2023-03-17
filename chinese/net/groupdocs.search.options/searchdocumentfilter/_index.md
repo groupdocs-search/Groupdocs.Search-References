@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Search for .NET API 参考
 description: 包含用于创建搜索文档过滤器的方法
 type: docs
-weight: 990
+weight: 1030
 url: /zh/net/groupdocs.search.options/searchdocumentfilter/
 ---
 ## SearchDocumentFilter class
@@ -19,16 +19,16 @@ public static class SearchDocumentFilter
 | 姓名 | 描述 |
 | --- | --- |
 | static [CreateAnd](../../groupdocs.search.options/searchdocumentfilter/createand)(params ISearchDocumentFilter[]) | 创建指定过滤器的逻辑合取。 |
-| static [CreateAttribute](../../groupdocs.search.options/searchdocumentfilter/createattribute)(params string[]) | 创建一个过滤器，用于从指定的允许属性列表中跳过没有任何值的文档。 |
+| static [CreateAttribute](../../groupdocs.search.options/searchdocumentfilter/createattribute)(params string[]) | 创建一个过滤器，用于跳过在指定的允许属性列表中没有任何值的文档。 |
 | static [CreateFileExtension](../../groupdocs.search.options/searchdocumentfilter/createfileextension)(params string[]) | 创建一个过滤器，用于跳过不在指定的可能扩展名列表中的文档。 |
 | static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression)(string) | 创建过滤器以跳过与正则表达式不匹配的文档。 正则表达式应用于文档的完整路径。 |
 | static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression_1)(string, RegexOptions) | 创建过滤器以跳过与正则表达式不匹配的文档。 正则表达式应用于文档的完整路径。 |
-| static [CreateNot](../../groupdocs.search.options/searchdocumentfilter/createnot)(ISearchDocumentFilter) | 创建一个与指定的内部过滤器具有逆逻辑的过滤器。 |
+| static [CreateNot](../../groupdocs.search.options/searchdocumentfilter/createnot)(ISearchDocumentFilter) | 创建一个过滤器，该过滤器具有与指定内部过滤器相关的逆逻辑。 |
 | static [CreateOr](../../groupdocs.search.options/searchdocumentfilter/createor)(params ISearchDocumentFilter[]) | 创建指定过滤器的逻辑析取。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索结果中的文档过滤](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
 * [搜索选项](https://docs.groupdocs.com/display/searchnet/Search+options)

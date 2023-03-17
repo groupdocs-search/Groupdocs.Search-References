@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取此包含的单词数SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector.
+description: 获取这个包含的单词数SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.dictionaries/spellingcorrector/count/
 ---
 ## SpellingCorrector.Count property
 
-获取此包含的单词数[`SpellingCorrector`](../../spellingcorrector).
+获取这个包含的单词数[`SpellingCorrector`](../../spellingcorrector).
 
 ```csharp
 public int Count { get; }

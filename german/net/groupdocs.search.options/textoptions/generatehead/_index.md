@@ -1,14 +1,14 @@
 ---
 title: GenerateHead
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob das HeadTag im AusgabeHTML generiert wird. Der Standardwert istStimmt .
+description: Ruft einen Wert ab oder legt einen Wert fest der angibt ob das HeadTag im AusgabeHTML generiert wird. Der Standardwert istWAHR .
 type: docs
 weight: 50
 url: /de/net/groupdocs.search.options/textoptions/generatehead/
 ---
 ## TextOptions.GenerateHead property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`Stimmt` .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Head-Tag im Ausgabe-HTML generiert wird. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool GenerateHead { get; set; }

@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: GroupDocs.Search efter .NET API Reference
 description: Hämtar eller ställer in det maximala antalet ord i ett textfragment efter markerat ord. Värdet måste ligga i intervallet från 0 till 10000. Standardvärdet är7 .
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

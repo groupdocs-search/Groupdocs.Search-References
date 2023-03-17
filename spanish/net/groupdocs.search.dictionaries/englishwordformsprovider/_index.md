@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un proveedor de formas de palabras en inglés.
 type: docs
-weight: 420
+weight: 430
 url: /es/net/groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 ## EnglishWordFormsProvider class

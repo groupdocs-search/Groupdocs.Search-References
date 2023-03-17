@@ -1,14 +1,14 @@
 ---
 title: EMLX
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: EMLX dosya formatı Apple tarafından uygulanır ve geliştirilir. Apple Mail uygulaması epostaları dışa aktarmak için EMLX dosya biçimini kullanır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/email/emlx/ .
+description: EMLX dosya formatı Apple tarafından uygulanır ve geliştirilir. Apple Mail uygulaması epostaları dışa aktarmak için EMLX dosya biçimini kullanır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/email/emlx/ .
 type: docs
 weight: 200
 url: /tr/net/groupdocs.search.results/filetype/emlx/
 ---
 ## FileType.EMLX field
 
-EMLX dosya formatı Apple tarafından uygulanır ve geliştirilir. Apple Mail uygulaması, e-postaları dışa aktarmak için EMLX dosya biçimini kullanır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/email/emlx/) .
+EMLX dosya formatı Apple tarafından uygulanır ve geliştirilir. Apple Mail uygulaması, e-postaları dışa aktarmak için EMLX dosya biçimini kullanır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/email/emlx/) .
 
 ```csharp
 public static readonly FileType EMLX;

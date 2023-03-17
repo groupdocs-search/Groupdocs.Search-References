@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Fornisce le opzioni della ricerca fuzzy.
 type: docs
-weight: 820
+weight: 850
 url: /it/net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class
@@ -20,13 +20,13 @@ public class FuzzySearchOptions
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Ottiene o imposta un valore che indica se l'algoritmo di ricerca fuzzy deve considerare la trasposizione di due caratteri adiacenti come un singolo errore. Il valore predefinito è`VERO` . |
 | [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Ottiene o imposta un valore che indica se la funzione di ricerca fuzzy è abilitata. Il valore predefinito è`falso` . |
-| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Ottiene o imposta l'algoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sono[`SimilarityLevel`](../similaritylevel) e[`TableDiscreteFunction`](../tablediscretefunction) . Il valore predefinito è un'istanza di[`SimilarityLevel`](../similaritylevel) con un valore del livello di somiglianza di`0,5` . |
+| [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Ottiene o imposta l'algoritmo di ricerca fuzzy. Gli algoritmi di ricerca fuzzy attualmente disponibili sono[`SimilarityLevel`](../similaritylevel) E[`TableDiscreteFunction`](../tablediscretefunction). Il valore predefinito è un'istanza di[`SimilarityLevel`](../similaritylevel) con un valore del livello di somiglianza di`0,5` . |
 | [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Ottiene o imposta un valore che indica se verranno restituiti solo i risultati migliori. Il valore predefinito è`falso` . |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Ottiene o imposta il superamento massimo del numero minimo di errori rilevati. Il valore predefinito è`0` . |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ricerca sfocata](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 * [opzioni di ricerca](https://docs.groupdocs.com/display/searchnet/Search+options)

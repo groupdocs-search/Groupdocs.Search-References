@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: XLSM uzantılı dosyalar Makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
+description: XLSM uzantılı dosyalar Makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
 type: docs
 weight: 760
 url: /tr/net/groupdocs.search.results/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-XLSM uzantılı dosyalar, Makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
+XLSM uzantılı dosyalar, Makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
 
 ```csharp
 public static readonly FileType XLSM;

@@ -1,14 +1,14 @@
 ---
 title: DJV
 second_title: GroupDocs.Search for .NET API 参考
-description: DjVu 是一种图形文件格式适用于扫描的文档和书籍尤其是那些包含 文本绘图图像和照片的组合 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/djvu/.
+description: DjVu 是一种图形文件格式适用于扫描的文档和书籍尤其是那些包含 文本绘图图像和照片组合的文档和书籍 了解有关此文件格式的更多信息 这里https//wiki.fileformat.com/image/djvu/.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.search.results/filetype/djv/
 ---
 ## FileType.DJV field
 
-DjVu 是一种图形文件格式，适用于扫描的文档和书籍，尤其是那些包含 文本、绘图、图像和照片的组合。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/djvu/).
+DjVu 是一种图形文件格式，适用于扫描的文档和书籍，尤其是那些包含 文本、绘图、图像和照片组合的文档和书籍。 了解有关此文件格式的更多信息 [这里](https://wiki.fileformat.com/image/djvu/).
 
 ```csharp
 public static readonly FileType DJV;

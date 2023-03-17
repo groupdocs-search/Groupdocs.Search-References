@@ -1,14 +1,14 @@
 ---
 title: IsChunkSearch
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置分块搜索的标志 默认值为错误的.
+description: 获取或设置分块搜索标志 默认值为错误的.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.options/searchoptions/ischunksearch/
 ---
 ## SearchOptions.IsChunkSearch property
 
-获取或设置分块搜索的标志。 默认值为`错误的`.
+获取或设置分块搜索标志。 默认值为`错误的`.
 
 ```csharp
 public bool IsChunkSearch { get; set; }

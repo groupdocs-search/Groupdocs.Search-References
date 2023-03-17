@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示索引操作完成事件的参数
 type: docs
-weight: 540
+weight: 550
 url: /zh/net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class
@@ -19,7 +19,7 @@ public class OperationFinishedEventArgs : BaseIndexEventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | 获取索引文件夹。 |
-| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID。 |
+| [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | 获取索引 ID. |
 | [Message](../../groupdocs.search.events/operationfinishedeventargs/message) { get; } | 获取消息。 |
 | [OperationType](../../groupdocs.search.events/operationfinishedeventargs/operationtype) { get; } | 获取操作类型。 |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | 获取索引状态。 |
@@ -27,7 +27,7 @@ public class OperationFinishedEventArgs : BaseIndexEventArgs
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

@@ -1,14 +1,14 @@
 ---
 title: RTF
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: Microsoft tarafından tanıtılan ve belgelenen Zengin Metin Biçimi RTF uygulamalarda kullanım için biçimli metin ve grafikleri kodlama yöntemini temsil eder. Biçim diğer Microsoft Ürünleri ile platformlar arası belge alışverişini kolaylaştırır böylece birlikte çalışabilirlik amacına hizmet eder. Bu dosya biçimi hakkında daha fazla bilgi edinin buradahttps//wiki.fileformat.com/wordprocessing/rtf/ .
+description: Microsoft tarafından tanıtılan ve belgelenen Zengin Metin Biçimi RTF uygulamalarda kullanım için biçimli metin ve grafikleri kodlama yöntemini temsil eder. Biçim diğer Microsoft Ürünleri ile platformlar arası belge alışverişini kolaylaştırır böylece birlikte çalışabilirlik amacına hizmet eder. Bu dosya biçimi hakkında daha fazla bilgi edinin Buradahttps//wiki.fileformat.com/wordprocessing/rtf/ .
 type: docs
 weight: 590
 url: /tr/net/groupdocs.search.results/filetype/rtf/
 ---
 ## FileType.RTF field
 
-Microsoft tarafından tanıtılan ve belgelenen Zengin Metin Biçimi (RTF), uygulamalarda kullanım için biçimli metin ve grafikleri kodlama yöntemini temsil eder. Biçim, diğer Microsoft Ürünleri ile platformlar arası belge alışverişini kolaylaştırır, böylece birlikte çalışabilirlik amacına hizmet eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [burada](https://wiki.fileformat.com/word-processing/rtf/) .
+Microsoft tarafından tanıtılan ve belgelenen Zengin Metin Biçimi (RTF), uygulamalarda kullanım için biçimli metin ve grafikleri kodlama yöntemini temsil eder. Biçim, diğer Microsoft Ürünleri ile platformlar arası belge alışverişini kolaylaştırır, böylece birlikte çalışabilirlik amacına hizmet eder. Bu dosya biçimi hakkında daha fazla bilgi edinin [Burada](https://wiki.fileformat.com/word-processing/rtf/) .
 
 ```csharp
 public static readonly FileType RTF;

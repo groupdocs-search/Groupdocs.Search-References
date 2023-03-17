@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### El valor de la propiedad
 
-`verdadero`si la colección es de solo lectura; de lo contrario,`falso`.
+`verdadero` si la colección es de solo lectura; de lo contrario,`FALSO`.
 
 ### Ver también
 

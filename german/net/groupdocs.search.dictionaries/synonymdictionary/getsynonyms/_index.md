@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Rückgabewert
 
-Die Synonyme für das angegebene Wort oder leeres Array , wenn die[`SynonymDictionary`](../../synonymdictionary)Objekt enthält das angegebene Wort nicht.
+Die Synonyme für das angegebene Wort oder leeres Array , wenn die[`SynonymDictionary`](../../synonymdictionary) Objekt enthält das angegebene Wort nicht.
 
 ### Siehe auch
 

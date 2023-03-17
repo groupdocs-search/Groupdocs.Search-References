@@ -3,7 +3,7 @@ title: OperationType
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل نوع عملية فهرس .
 type: docs
-weight: 560
+weight: 570
 url: /ar/net/groupdocs.search.events/operationtype/
 ---
 ## OperationType enumeration

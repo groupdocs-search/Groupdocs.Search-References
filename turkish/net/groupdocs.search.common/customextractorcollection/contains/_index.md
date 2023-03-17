@@ -20,7 +20,7 @@ public bool Contains(IFieldExtractor item)
 
 ### Geri dönüş değeri
 
-`doğru` eğer*item* koleksiyonda bulunur; aksi halde,`yanlış`.
+`doğru` eğer*item* koleksiyonda bulunur; aksi takdirde,`YANLIŞ`.
 
 ### Ayrıca bakınız
 

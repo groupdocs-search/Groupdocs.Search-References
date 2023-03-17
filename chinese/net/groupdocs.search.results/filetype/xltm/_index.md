@@ -1,14 +1,14 @@
 ---
 title: XLTM
 second_title: GroupDocs.Search for .NET API 参考
-description: XLTM 文件扩展名将 Microsoft Excel 生成的文件表示为 Macroenabled 模板文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xltm/.
+description: XLTM 文件扩展名表示由 Microsoft Excel 生成的文件作为启用宏的 模板文件详细了解此文件格式 这里https//wiki.fileformat.com/specification/spreadsheet/xltm/.
 type: docs
 weight: 790
 url: /zh/net/groupdocs.search.results/filetype/xltm/
 ---
 ## FileType.XLTM field
 
-XLTM 文件扩展名将 Microsoft Excel 生成的文件表示为 Macro-enabled 模板文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xltm/).
+XLTM 文件扩展名表示由 Microsoft Excel 生成的文件，作为启用宏的 模板文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/specification/spreadsheet/xltm/).
 
 ```csharp
 public static readonly FileType XLTM;

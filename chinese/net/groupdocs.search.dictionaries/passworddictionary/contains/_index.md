@@ -16,7 +16,7 @@ public bool Contains(string key)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 完整的文件路径或文档键。 |
+| key | String | 完整文件路径或文档密钥。 |
 
 ### 返回值
 

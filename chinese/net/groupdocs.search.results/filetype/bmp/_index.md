@@ -1,14 +1,14 @@
 ---
 title: BMP
 second_title: GroupDocs.Search for .NET API 参考
-description: 扩展名为 .BMP 的文件表示位图图像文件用于存储位图数字图像 这些图像独立于图形适配器也称为设备无关位图 DIB 文件 格式了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/bmp/.
+description: 扩展名为 .BMP 的文件表示用于存储位图数字图像的位图图像文件 这些图像独立于图形适配器也称为设备独立位图 DIB 文件 格式了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/bmp/.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.results/filetype/bmp/
 ---
 ## FileType.BMP field
 
-扩展名为 .BMP 的文件表示位图图像文件，用于存储位图数字图像。 这些图像独立于图形适配器，也称为设备无关位图 (DIB) 文件 格式。了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/bmp/).
+扩展名为 .BMP 的文件表示用于存储位图数字图像的位图图像文件。 这些图像独立于图形适配器，也称为设备独立位图 (DIB) 文件 格式。了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/bmp/).
 
 ```csharp
 public static readonly FileType BMP;

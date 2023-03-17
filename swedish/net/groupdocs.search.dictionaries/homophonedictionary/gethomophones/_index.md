@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Returvärde
 
-Homofonerna för det angivna ordet eller tomma array om[`HomophoneDictionary`](../../homophonedictionary)objektet innehåller inte det angivna ordet.
+Homofonerna för det angivna ordet eller tomma array om[`HomophoneDictionary`](../../homophonedictionary) objektet innehåller inte det angivna ordet.
 
 ### Se även
 

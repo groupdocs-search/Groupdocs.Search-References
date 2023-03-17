@@ -3,7 +3,7 @@ title: EventHub
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Fournit des événements dindex pour labonnement.
 type: docs
-weight: 500
+weight: 510
 url: /fr/net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class

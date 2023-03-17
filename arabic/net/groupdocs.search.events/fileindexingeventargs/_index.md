@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل وسيطات لحدث بدء فهرسة المستند.
 type: docs
-weight: 510
+weight: 520
 url: /ar/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class

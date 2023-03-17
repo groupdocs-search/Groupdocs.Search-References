@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt ein Zeichenersetzungswörterbuch dar das während des Indizierungsprozesses verwendet wird. Die Zeichenersetzung kann beispielsweise verwendet werden um Akzente aus Zeichen mit Akzent zu entfernen oder einen Index ohne Berücksichtigung der Groß/Kleinschreibung zu erstellen.
 type: docs
-weight: 370
+weight: 380
 url: /de/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
@@ -38,7 +38,7 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Zeichenersetzung während der Indizierung](https://docs.groupdocs.com/display/searchnet/Character+replacement+during+Indexing)
 * [Verwalten von Zeichenersetzungen](https://docs.groupdocs.com/display/searchnet/Character+replacements)

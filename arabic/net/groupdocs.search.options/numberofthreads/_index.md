@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يحدد عدد المواضيع.
 type: docs
-weight: 950
+weight: 980
 url: /ar/net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration

@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قائمة بأسماء الحقول للبحث متعدد الأوجه.
 type: docs
-weight: 1030
+weight: 1070
 url: /ar/net/groupdocs.search.options/spreadsheetfieldnames/
 ---
 ## SpreadsheetFieldNames class

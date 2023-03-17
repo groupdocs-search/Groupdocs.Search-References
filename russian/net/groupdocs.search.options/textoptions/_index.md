@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Search для справочника API .NET
 description: Предоставляет опции для извлечения текста документа из индекса.
 type: docs
-weight: 1060
+weight: 1100
 url: /ru/net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
@@ -24,9 +24,9 @@ public class TextOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Получает или задает дополнительные поля документа, которые использовались для индексации. Значение по умолчанию:`нулевой` . Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Получает или задает дополнительные поля документа, которые использовались для индексации. Значение по умолчанию:`нулевой`. Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Получает или задает объект отмены. Значение по умолчанию:`нулевой` . |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Получает или задает пользовательский экстрактор текста, который использовался для индексации. Значение по умолчанию:`нулевой` . Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Получает или задает пользовательский экстрактор текста, который использовался для индексации. Значение по умолчанию:`нулевой`. Обратите внимание, что это значение используется только в том случае, если текст документа не был сохранен в индексе. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Получает или задает значение, указывающее, создается ли тег Head в выходном HTML-коде. Значение по умолчанию:`истинный` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Получает параметры индексации изображения для обратного поиска изображения. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Получает параметры для индексации полей метаданных. |
@@ -34,7 +34,7 @@ public class TextOptions
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Получение проиндексированных документов](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
 * [Выделение результатов поиска](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)

@@ -1,14 +1,14 @@
 ---
 title: IsAsync
 second_title: Référence de l'API GroupDocs.Search pour .NET
-description: Obtient ou définit lindicateur dexécution asynchrone de lopération. La valeur par défaut estfaux .
+description: Obtient ou définit lindicateur dexécution asynchrone de lopération. La valeur par défaut estFAUX .
 type: docs
 weight: 40
 url: /fr/net/groupdocs.search.options/updateoptions/isasync/
 ---
 ## UpdateOptions.IsAsync property
 
-Obtient ou définit l'indicateur d'exécution asynchrone de l'opération. La valeur par défaut est`faux` .
+Obtient ou définit l'indicateur d'exécution asynchrone de l'opération. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IsAsync { get; set; }

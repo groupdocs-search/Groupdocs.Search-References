@@ -20,7 +20,7 @@ public bool Contains(IFieldExtractor item)
 
 ### Valor_devuelto
 
-`verdadero` si*item* se encuentra en la colección; de lo contrario,`falso`.
+`verdadero` si*item* se encuentra en la colección; de lo contrario,`FALSO`.
 
 ### Ver también
 

@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Dizin sürümü güncelleme işleminin sonucunu temsil eder.
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/groupdocs.search.common/versionupdateresult/
 ---
 ## VersionUpdateResult enumeration

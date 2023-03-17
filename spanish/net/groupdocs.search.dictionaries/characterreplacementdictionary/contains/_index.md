@@ -20,7 +20,7 @@ public bool Contains(char character)
 
 ### Valor_devuelto
 
-`verdadero` Si el[`CharacterReplacementDictionary`](../../characterreplacementdictionary) el objeto contiene el carácter especificado; de lo contrario,`falso` .
+`verdadero` Si el[`CharacterReplacementDictionary`](../../characterreplacementdictionary) el objeto contiene el carácter especificado; de lo contrario,`FALSO` .
 
 ### Ver también
 

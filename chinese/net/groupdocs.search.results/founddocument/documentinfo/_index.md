@@ -1,14 +1,14 @@
 ---
 title: DocumentInfo
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取文档信息
+description: 获取文档信息.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.results/founddocument/documentinfo/
 ---
 ## FoundDocument.DocumentInfo property
 
-获取文档信息。
+获取文档信息.
 
 ```csharp
 public DocumentInfo DocumentInfo { get; }

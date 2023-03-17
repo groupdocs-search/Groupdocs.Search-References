@@ -11,15 +11,17 @@ url: /tr/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 Yeni bir örneğini başlatır.[`StreamOutputAdapter`](../../streamoutputadapter) sınıf.
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Çıkış biçimi. |
 | stream | Stream | Çıkış akışı. |
 
 ### Ayrıca bakınız
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * ad alanı [GroupDocs.Search.Common](../../streamoutputadapter)
 * toplantı [GroupDocs.Search](../../../)

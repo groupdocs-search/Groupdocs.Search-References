@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: GroupDocs.Search efter .NET API Reference
 description: Anger en bildplats.
 type: docs
-weight: 870
+weight: 900
 url: /sv/net/groupdocs.search.options/imagelocation/
 ---
 ## ImageLocation enumeration

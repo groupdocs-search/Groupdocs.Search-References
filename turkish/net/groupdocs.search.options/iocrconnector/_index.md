@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Görüntü belgelerindeki ve katıştırılmış görüntülerdeki metni tanımak için gereken yöntemleri tanımlar.
 type: docs
-weight: 840
+weight: 870
 url: /tr/net/groupdocs.search.options/iocrconnector/
 ---
 ## IOcrConnector interface

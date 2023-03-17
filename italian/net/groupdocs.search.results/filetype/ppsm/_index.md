@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
-description: I file con estensione PPSM rappresentano il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/presentation/ppsm/ .
+description: I file con estensione PPSM rappresentano il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/presentation/ppsm/ .
 type: docs
 weight: 510
 url: /it/net/groupdocs.search.results/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-I file con estensione PPSM rappresentano il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/presentation/ppsm/) .
+I file con estensione PPSM rappresentano il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/presentation/ppsm/) .
 
 ```csharp
 public static readonly FileType PPSM;

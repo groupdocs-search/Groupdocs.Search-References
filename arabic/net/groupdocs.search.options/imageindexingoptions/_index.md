@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات فهرسة الصور للبحث العكسي عن الصور.
 type: docs
-weight: 860
+weight: 890
 url: /ar/net/groupdocs.search.options/imageindexingoptions/
 ---
 ## ImageIndexingOptions class
@@ -18,9 +18,9 @@ public class ImageIndexingOptions
 
 | اسم | وصف |
 | --- | --- |
-| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة الصور التي هي عناصر في حاوية (على سبيل المثال ، الصور في أرشيف ZIP) . القيمة الافتراضية هي`خاطئة` . |
-| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة الصور المضمنة (على سبيل المثال ، الصور في مستند DOCX) . القيمة الافتراضية هي`خاطئة` . |
-| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هي`خاطئة` . |
+| [EnabledForContainerItemImages](../../groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة الصور التي هي عناصر في حاوية (على سبيل المثال ، الصور في أرشيف ZIP) . القيمة الافتراضية هي`خطأ شنيع` . |
+| [EnabledForEmbeddedImages](../../groupdocs.search.options/imageindexingoptions/enabledforembeddedimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة الصور المضمنة (على سبيل المثال ، الصور في مستند DOCX) . القيمة الافتراضية هي`خطأ شنيع` . |
+| [EnabledForSeparateImages](../../groupdocs.search.options/imageindexingoptions/enabledforseparateimages) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم فهرسة ملفات صور منفصلة. القيمة الافتراضية هي`خطأ شنيع` . |
 
 ### أنظر أيضا
 

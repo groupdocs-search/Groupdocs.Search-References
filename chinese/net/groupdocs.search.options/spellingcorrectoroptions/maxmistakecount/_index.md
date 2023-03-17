@@ -1,14 +1,14 @@
 ---
 title: MaxMistakeCount
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置最大错误数 默认值为2.
+description: 获取或设置最大错误数 默认值为2个.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.search.options/spellingcorrectoroptions/maxmistakecount/
 ---
 ## SpellingCorrectorOptions.MaxMistakeCount property
 
-获取或设置最大错误数。 默认值为`2`.
+获取或设置最大错误数。 默认值为`2个`.
 
 ```csharp
 public int MaxMistakeCount { get; set; }

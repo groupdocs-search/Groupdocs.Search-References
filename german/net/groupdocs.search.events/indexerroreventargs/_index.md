@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Stellt Argumente für das Ereignis dar dass ein Indexfehler aufgetreten ist.
 type: docs
-weight: 530
+weight: 540
 url: /de/net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class
@@ -27,7 +27,7 @@ public class IndexErrorEventArgs : BaseIndexEventArgs
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Suche nach Indexereignissen](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 

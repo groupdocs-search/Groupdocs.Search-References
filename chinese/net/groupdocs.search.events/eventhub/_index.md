@@ -1,14 +1,14 @@
 ---
 title: EventHub
 second_title: GroupDocs.Search for .NET API 参考
-description: 为订阅提供索引事件
+description: 提供订阅的索引事件
 type: docs
-weight: 500
+weight: 510
 url: /zh/net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class
 
-为订阅提供索引事件。
+提供订阅的索引事件。
 
 ```csharp
 public class EventHub
@@ -19,23 +19,23 @@ public class EventHub
 | 姓名 | 描述 |
 | --- | --- |
 | event [ErrorOccurred](../../groupdocs.search.events/eventhub/erroroccurred) | 在索引操作期间发生错误时发生。 |
-| event [FileIndexing](../../groupdocs.search.events/eventhub/fileindexing) | 当文档要被索引时发生。 |
-| event [ImagePreparing](../../groupdocs.search.events/eventhub/imagepreparing) | 在准备索引图像时发生。 |
-| event [OperationFinished](../../groupdocs.search.events/eventhub/operationfinished) | 在索引操作完成时发生。 |
-| event [OperationProgressChanged](../../groupdocs.search.events/eventhub/operationprogresschanged) | 在索引或更新操作的进度发生变化时发生。 |
+| event [FileIndexing](../../groupdocs.search.events/eventhub/fileindexing) | 在文档要被索引时发生。 |
+| event [ImagePreparing](../../groupdocs.search.events/eventhub/imagepreparing) | 在准备为索引准备图像时发生。 |
+| event [OperationFinished](../../groupdocs.search.events/eventhub/operationfinished) | 索引操作完成时发生。 |
+| event [OperationProgressChanged](../../groupdocs.search.events/eventhub/operationprogresschanged) | 索引或更新操作的进度更改时发生。 |
 | event [PasswordRequired](../../groupdocs.search.events/eventhub/passwordrequired) | 当文档需要密码才能打开时发生。 |
-| event [SearchPhaseCompleted](../../groupdocs.search.events/eventhub/searchphasecompleted) | 在搜索阶段完成时发生。 |
-| event [StatusChanged](../../groupdocs.search.events/eventhub/statuschanged) | 当索引状态改变时发生。 |
+| event [SearchPhaseCompleted](../../groupdocs.search.events/eventhub/searchphasecompleted) | 搜索阶段完成时发生。 |
+| event [StatusChanged](../../groupdocs.search.events/eventhub/statuschanged) | 索引状态改变时发生。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [搜索索引事件](https://docs.groupdocs.com/display/searchnet/Search+index+events)
 
 ### 例子
 
-示例演示了接口的典型用法。
+该示例演示了接口的典型用法。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

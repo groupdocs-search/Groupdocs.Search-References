@@ -3,7 +3,7 @@ title: Step
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente une étape dune fonction détape.
 type: docs
-weight: 1040
+weight: 1080
 url: /fr/net/groupdocs.search.options/step/
 ---
 ## Step class

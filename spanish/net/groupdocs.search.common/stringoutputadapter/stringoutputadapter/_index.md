@@ -11,11 +11,16 @@ url: /es/net/groupdocs.search.common/stringoutputadapter/stringoutputadapter/
 Inicializa una nueva instancia del[`StringOutputAdapter`](../../stringoutputadapter) clase.
 
 ```csharp
-public StringOutputAdapter()
+public StringOutputAdapter(OutputFormat outputFormat)
 ```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| outputFormat | OutputFormat | El formato de salida. |
 
 ### Ver también
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StringOutputAdapter](../../stringoutputadapter)
 * espacio de nombres [GroupDocs.Search.Common](../../stringoutputadapter)
 * asamblea [GroupDocs.Search](../../../)

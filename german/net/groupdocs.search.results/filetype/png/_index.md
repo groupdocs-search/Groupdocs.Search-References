@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: PNG Portable Network Graphics bezieht sich auf ein RasterbildDateiformat das verlustfreie Komprimierung verwendet. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/png/ .
+description: PNG Portable Network Graphics bezieht sich auf ein RasterbildDateiformat das verlustfreie Komprimierung verwendet. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/png/ .
 type: docs
 weight: 460
 url: /de/net/groupdocs.search.results/filetype/png/
 ---
 ## FileType.PNG field
 
-PNG, Portable Network Graphics, bezieht sich auf ein Rasterbild-Dateiformat, das verlustfreie Komprimierung verwendet. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/png/) .
+PNG, Portable Network Graphics, bezieht sich auf ein Rasterbild-Dateiformat, das verlustfreie Komprimierung verwendet. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/png/) .
 
 ```csharp
 public static readonly FileType PNG;

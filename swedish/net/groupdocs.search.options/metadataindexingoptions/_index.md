@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Search efter .NET API Reference
 description: Ger alternativ för att indexera metadatafält.
 type: docs
-weight: 940
+weight: 970
 url: /sv/net/groupdocs.search.options/metadataindexingoptions/
 ---
 ## MetadataIndexingOptions class

@@ -3,7 +3,7 @@ title: SearchPhase
 second_title: GroupDocs.Search efter .NET API Reference
 description: Representerar sökfaserna.
 type: docs
-weight: 580
+weight: 590
 url: /sv/net/groupdocs.search.events/searchphase/
 ---
 ## SearchPhase enumeration

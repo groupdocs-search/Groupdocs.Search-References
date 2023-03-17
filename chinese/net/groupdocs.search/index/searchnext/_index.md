@@ -1,14 +1,14 @@
 ---
 title: SearchNext
 second_title: GroupDocs.Search for .NET API 参考
-description: 继续使用方法 Search. 开始的块搜索
+description: 继续使用 Search 方法开始的块搜索
 type: docs
 weight: 230
 url: /zh/net/groupdocs.search/index/searchnext/
 ---
 ## SearchNext(ChunkSearchToken) {#searchnext}
 
-继续使用方法 Search. 开始的块搜索
+继续使用 Search 方法开始的块搜索。
 
 ```csharp
 public SearchResult SearchNext(ChunkSearchToken chunkSearchToken)
@@ -61,7 +61,7 @@ while (result.NextChunkSearchToken != null)
 
 ## SearchNext(ChunkSearchToken, Cancellation) {#searchnext_1}
 
-继续使用方法 Search. 开始的块搜索
+继续使用 Search 方法开始的块搜索。
 
 ```csharp
 public SearchResult SearchNext(ChunkSearchToken chunkSearchToken, Cancellation cancellation)
@@ -78,7 +78,7 @@ public SearchResult SearchNext(ChunkSearchToken chunkSearchToken, Cancellation c
 
 ### 例子
 
-该示例演示如何使用对象形式的查询执行搜索。
+该示例演示了如何使用对象形式的查询来执行搜索。
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -88,7 +88,7 @@ string query = "Einstein";
 Index index = new Index(indexFolder); // 在指定文件夹中创建索引
 index.Add(documentsFolder); // 索引指定文件夹中的文档
 
-Cancellation cancellation = new Cancellation(); // 如果取消，此取消对象将中止所有继续搜索
+Cancellation cancellation = new Cancellation(); // 如果取消，此取消对象将中止所有搜索继续
 SearchOptions options = new SearchOptions();
 options.IsChunkSearch = true; // 启用块搜索
 options.Cancellation = cancellation;

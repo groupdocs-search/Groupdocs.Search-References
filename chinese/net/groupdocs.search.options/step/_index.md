@@ -1,14 +1,14 @@
 ---
 title: Step
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示步进函数的一个步骤
+description: 表示step函数的一个step
 type: docs
-weight: 1040
+weight: 1080
 url: /zh/net/groupdocs.search.options/step/
 ---
 ## Step class
 
-表示步进函数的一个步骤。
+表示step函数的一个step。
 
 ```csharp
 public class Step
@@ -18,18 +18,18 @@ public class Step
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Step](step)(int, int) | 初始化[`Step`](../step)类. |
+| [Step](step)(int, int) | 初始化一个新的实例[`Step`](../step)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Level](../../groupdocs.search.options/step/level) { get; } | 获取关卡。 |
+| [Level](../../groupdocs.search.options/step/level) { get; } | 获取级别。 |
 | [LowerLimit](../../groupdocs.search.options/step/lowerlimit) { get; } | 获取下限。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [模糊搜索](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

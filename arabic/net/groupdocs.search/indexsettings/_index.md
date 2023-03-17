@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل إعدادات الفهرس التي تسمح بتخصيص عمليات الفهرسة.
 type: docs
-weight: 670
+weight: 700
 url: /ar/net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -24,17 +24,17 @@ public class IndexSettings
 
 | اسم | وصف |
 | --- | --- |
-| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هي`خاطئة` . |
+| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا . القيمة الافتراضية هي`خطأ شنيع` . |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | الحصول على مجموعة المستخرج المخصصة. |
-| [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية المستند[`DocumentFilter`](./documentfilter) يعمل على منطق التضمين. استخدم ملف[`DocumentFilter`](../../groupdocs.search.options/documentfilter) فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه تتم فهرسة جميع المستندات المضافة. |
+| [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | الحصول على أو تعيين عامل تصفية المستند[`DocumentFilter`](./documentfilter) يعمل على منطق التضمين. استخدم ملف[`DocumentFilter`](../../groupdocs.search.options/documentfilter) فئة لإنشاء مثيلات مرشح المستند . القيمة الافتراضية هي`باطل` ، مما يعني أنه تتم فهرسة جميع المستندات المضافة. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | الحصول على نوع الفهرس أو تحديده. القيمة الافتراضية هيNormalIndex . |
 | [InMemoryIndex](../../groupdocs.search/indexsettings/inmemoryindex) { get; } | يحصل على قيمة تشير إلى ما إذا كان الفهرس مخزنًا في الذاكرة أو على القرص. |
 | [Logger](../../groupdocs.search/indexsettings/logger) { get; set; } | الحصول على أو تعيين المسجل الذي يتم استخدامه لتسجيل الأحداث والأخطاء في الفهرس. لاحظ أن المسجل لا يتم حفظه ويجب إنشاؤه وتعيينه في كل مرة يتم فيها إنشاء الفهرس أو تحميله. |
 | [MaxIndexingReportCount](../../groupdocs.search/indexsettings/maxindexingreportcount) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد تقارير الفهرسة. القيمة الافتراضية هي`5` . |
 | [MaxSearchReportCount](../../groupdocs.search/indexsettings/maxsearchreportcount) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد تقارير البحث. القيمة الافتراضية هي`10` . |
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | الحصول على أو تحديد عدد المواضيع المستخدمة للبحث. القيمة الافتراضية هيDefault ، مما يعني أنه سيتم إجراء البحث باستخدام عدد من الخيوط يساوي عدد مراكز المعالج. |
-| [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هي`لا شيء` ، مما يعني أنه لا يتم تخزين نصوص المستند. |
-| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هي`خاطئة` . |
+| [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | الحصول على أو تعيين إعدادات تخزين النص . القيمة الافتراضية هي`باطل` ، مما يعني أنه لا يتم تخزين نصوص المستند. |
+| [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | الحصول على أو تعيين قيمة تشير إلى استخدام بدائل الأحرف أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
 | [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الوضع الأولي يستخدم لاستخراج النص إن أمكن. القيمة الافتراضية هي`حقيقي` . يمكن أن يؤدي الوضع الخام إلى زيادة سرعة الفهرسة بشكل كبير ، لكن الوضع العادي يحسن تنسيق النص المستخرج. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | الحصول على أو تعيين قيمة تشير إلى استخدام كلمات التوقف أم لا. القيمة الافتراضية هي`حقيقي` . |
 

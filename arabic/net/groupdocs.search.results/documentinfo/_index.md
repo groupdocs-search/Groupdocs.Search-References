@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل واصفًا لمستند مفهرس.
 type: docs
-weight: 1110
+weight: 1150
 url: /ar/net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class

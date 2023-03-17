@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا للمتجانسات المتجانسة.
 type: docs
-weight: 430
+weight: 440
 url: /ar/net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class

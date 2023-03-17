@@ -18,17 +18,18 @@ public class StreamOutputAdapter : OutputAdapter
 
 | Имя | Описание |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter)(Stream) | Инициализирует новый экземпляр[`StreamOutputAdapter`](../streamoutputadapter) класс. |
+| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Инициализирует новый экземпляр[`StreamOutputAdapter`](../streamoutputadapter) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
+| [OutputFormat](../../groupdocs.search.common/resultbuilderfactory/outputformat) { get; } | Получает выходной формат. |
 | [Stream](../../groupdocs.search.common/streamoutputadapter/stream) { get; } | Получает выходной поток. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Выходные адаптеры](https://docs.groupdocs.com/display/searchnet/Output+adapters)
 

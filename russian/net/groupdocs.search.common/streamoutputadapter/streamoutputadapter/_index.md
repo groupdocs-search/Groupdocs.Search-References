@@ -11,15 +11,17 @@ url: /ru/net/groupdocs.search.common/streamoutputadapter/streamoutputadapter/
 Инициализирует новый экземпляр[`StreamOutputAdapter`](../../streamoutputadapter) класс.
 
 ```csharp
-public StreamOutputAdapter(Stream stream)
+public StreamOutputAdapter(OutputFormat outputFormat, Stream stream)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
+| outputFormat | OutputFormat | Выходной формат. |
 | stream | Stream | Выходной поток. |
 
 ### Смотрите также
 
+* enum [OutputFormat](../../../groupdocs.search.options/outputformat)
 * class [StreamOutputAdapter](../../streamoutputadapter)
 * пространство имен [GroupDocs.Search.Common](../../streamoutputadapter)
 * сборка [GroupDocs.Search](../../../)

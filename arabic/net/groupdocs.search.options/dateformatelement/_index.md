@@ -3,7 +3,7 @@ title: DateFormatElement
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل عنصر تنسيق التاريخ.
 type: docs
-weight: 760
+weight: 790
 url: /ar/net/groupdocs.search.options/dateformatelement/
 ---
 ## DateFormatElement class

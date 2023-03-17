@@ -1,14 +1,14 @@
 ---
 title: LastDocumentPath
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取最后处理的文档的路径
+description: 获取上次处理文档的路径
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.events/operationprogresseventargs/lastdocumentpath/
 ---
 ## OperationProgressEventArgs.LastDocumentPath property
 
-获取最后处理的文档的路径。
+获取上次处理文档的路径。
 
 ```csharp
 public string LastDocumentPath { get; }

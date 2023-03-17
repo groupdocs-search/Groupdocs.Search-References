@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Valor_devuelto
 
-Los sinónimos de la palabra especificada o matriz vacía si la[`SynonymDictionary`](../../synonymdictionary)el objeto no contiene la palabra especificada.
+Los sinónimos de la palabra especificada o matriz vacía si la[`SynonymDictionary`](../../synonymdictionary) el objeto no contiene la palabra especificada.
 
 ### Ver también
 

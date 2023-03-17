@@ -1,14 +1,14 @@
 ---
 title: WordFormsProvider
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取或设置词表提供者
+description: 获取或设置单词形式提供程序
 type: docs
 weight: 90
 url: /zh/net/groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider/
 ---
 ## DictionaryRepository.WordFormsProvider property
 
-获取或设置词表提供者。
+获取或设置单词形式提供程序。
 
 ```csharp
 public IWordFormsProvider WordFormsProvider { get; set; }
@@ -16,7 +16,7 @@ public IWordFormsProvider WordFormsProvider { get; set; }
 
 ### 适当的价值
 
-单词表单提供者。
+这个词形式提供者。
 
 ### 也可以看看
 

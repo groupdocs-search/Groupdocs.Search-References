@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет тип файла.
 type: docs
-weight: 1120
+weight: 1160
 url: /ru/net/groupdocs.search.results/filetype/
 ---
 ## FileType class
@@ -118,7 +118,7 @@ public class FileType
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Поддерживаемые форматы документов](https://docs.groupdocs.com/display/searchnet/Supported+Document+Formats)
 * [Получить поддерживаемые форматы файлов](https://docs.groupdocs.com/display/searchnet/Get+supported+file+formats)

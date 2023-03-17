@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: .NET API Başvurusu için GroupDocs.Search
-description: .XLT uzantılı dosyalar Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
+description: .XLT uzantılı dosyalar Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/specification/spreadsheet/xlt/ .
 type: docs
 weight: 780
 url: /tr/net/groupdocs.search.results/filetype/xlt/
 ---
 ## FileType.XLT field
 
-.XLT uzantılı dosyalar, Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
+.XLT uzantılı dosyalar, Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/specification/spreadsheet/xlt/) .
 
 ```csharp
 public static readonly FileType XLT;

@@ -1,14 +1,14 @@
 ---
 title: IBM_Thai
 second_title: GroupDocs.Search for .NET API 参考
-description: IBMThai 编码
+description: IBM泰语编码
 type: docs
 weight: 600
 url: /zh/net/groupdocs.search.common/encodings/ibm_thai/
 ---
 ## Encodings.IBM_Thai field
 
-IBM-Thai 编码。
+IBM-泰语编码。
 
 ```csharp
 public const string IBM_Thai;

@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Lexception levée lorsquune restriction de licence est déclenchée.
 type: docs
-weight: 600
+weight: 610
 url: /fr/net/groupdocs.search.exceptions/licenserestrictionexception/
 ---
 ## LicenseRestrictionException class

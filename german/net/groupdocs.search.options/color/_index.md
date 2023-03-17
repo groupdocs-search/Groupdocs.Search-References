@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert eine ARGBFarbe Alpha Rot Grün Blau.
 type: docs
-weight: 710
+weight: 740
 url: /de/net/groupdocs.search.options/color/
 ---
 ## Color class

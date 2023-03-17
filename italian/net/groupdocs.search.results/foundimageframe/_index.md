@@ -3,7 +3,7 @@ title: FoundImageFrame
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Rappresenta una cornice immagine trovata.
 type: docs
-weight: 1160
+weight: 1200
 url: /it/net/groupdocs.search.results/foundimageframe/
 ---
 ## FoundImageFrame class

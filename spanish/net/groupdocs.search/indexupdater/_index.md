@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs.Buscar referencia de API de .NET
 description: Representa un actualizador de índice. Esta clase realiza la reindexación de documentos en un índice de una versión anterior.
 type: docs
-weight: 680
+weight: 710
 url: /es/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class

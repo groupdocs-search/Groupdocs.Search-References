@@ -1,14 +1,14 @@
 ---
 title: IsChunkSearch
 second_title: GroupDocs. ابحث عن مرجع .NET API
-description: الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هيخاطئة .
+description: الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 50
 url: /ar/net/groupdocs.search.options/searchoptions/ischunksearch/
 ---
 ## SearchOptions.IsChunkSearch property
 
-الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هي`خاطئة` .
+الحصول على علم البحث عن طريق القطع أو تحديده . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IsChunkSearch { get; set; }

@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: GroupDocs.Search для справочника API .NET
 description: Представляет базовый класс для фильтров документов. Содержит методы для создания экземпляров фильтров документов.
 type: docs
-weight: 770
+weight: 800
 url: /ru/net/groupdocs.search.options/documentfilter/
 ---
 ## DocumentFilter class
@@ -37,7 +37,7 @@ public abstract class DocumentFilter
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Фильтрация документов при индексации](https://docs.groupdocs.com/display/searchnet/Document+filtering+during+indexing)
 

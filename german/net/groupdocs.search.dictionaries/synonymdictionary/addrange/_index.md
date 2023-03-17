@@ -22,7 +22,7 @@ public void AddRange(IEnumerable<string[]> synonyms)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*synonyms* ist`Null`. |
+| ArgumentNullException | Wann geworfen*synonyms* Ist`Null`. |
 | ArgumentException | Wird ausgelöst, wenn die Anzahl der Synonyme in einer Gruppe kleiner als 2 ist. |
 
 ### Siehe auch
@@ -49,7 +49,7 @@ public void AddRange(string[][] synonyms)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wann geworfen*synonyms* ist`Null`. |
+| ArgumentNullException | Wann geworfen*synonyms* Ist`Null`. |
 | ArgumentException | Wird ausgelöst, wenn die Anzahl der Synonyme in einer Gruppe kleiner als 2 ist. |
 
 ### Siehe auch

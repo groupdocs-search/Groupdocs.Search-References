@@ -1,14 +1,14 @@
 ---
 title: UseCaseSensitiveSearch
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece el indicador de búsqueda que distingue entre mayúsculas y minúsculas. El valor predeterminado esfalso .
+description: Obtiene o establece el indicador de búsqueda que distingue entre mayúsculas y minúsculas. El valor predeterminado esFALSO .
 type: docs
 weight: 110
 url: /es/net/groupdocs.search.options/searchoptions/usecasesensitivesearch/
 ---
 ## SearchOptions.UseCaseSensitiveSearch property
 
-Obtiene o establece el indicador de búsqueda que distingue entre mayúsculas y minúsculas. El valor predeterminado es`falso` .
+Obtiene o establece el indicador de búsqueda que distingue entre mayúsculas y minúsculas. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool UseCaseSensitiveSearch { get; set; }

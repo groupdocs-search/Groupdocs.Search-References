@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يوفر خيارات لعملية التحديث .
 type: docs
-weight: 1080
+weight: 1120
 url: /ar/net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -24,9 +24,9 @@ public class UpdateOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Cancellation](../../groupdocs.search.options/updateoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`لا شيء` . |
+| [Cancellation](../../groupdocs.search.options/updateoptions/cancellation) { get; set; } | الحصول على كائن إلغاء العملية أو تعيينه. القيمة الافتراضية هي`باطل` . |
 | [ImageIndexingOptions](../../groupdocs.search.options/updateoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
-| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خاطئة` . |
+| [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | الحصول على أو تعيين إشارة تنفيذ العملية غير المتزامن. القيمة الافتراضية هي`خطأ شنيع` . |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | يحصل على خيارات معالجة OCR وفهرسة النص الذي تم التعرف عليه. |
 | [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | الحصول على أو تحديد عدد الخيوط المستخدمة للفهرسة . القيمة الافتراضية هي`1` . |

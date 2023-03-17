@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Search for .NET API 参考
-description: 将指定的别名对和关联文本添加到AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
+description: 将指定的别名对和相关文本添加到该实例AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.dictionaries/aliasdictionary/add/
 ---
 ## AliasDictionary.Add method
 
-将指定的别名对和关联文本添加到[`AliasDictionary`](../../aliasdictionary).
+将指定的别名对和相关文本添加到该实例[`AliasDictionary`](../../aliasdictionary).
 
 ```csharp
 public void Add(string alias, string text)
@@ -16,14 +16,14 @@ public void Add(string alias, string text)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| alias | String | 要添加到字典的别名。 |
+| alias | String | 要添加到字典中的别名。 |
 | text | String | 要与别名关联的文本。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*alias*或者*text*是`无效的`. |
+| ArgumentNullException | 抛出时*alias*或者*text*是`无效的`. |
 | ArgumentException | 别名包含不在 ab 和 0-9 范围内的字符。 |
 
 ### 也可以看看

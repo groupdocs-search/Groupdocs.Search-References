@@ -1,14 +1,14 @@
 ---
 title: CharacterReplacementDictionary
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示在索引过程中使用的字符替换字典 可以使用字符替换例如从重音字符中删除重音或制作不区分大小写的索引
+description: 表示在索引过程中使用的字符替换字典 字符替换可用于例如从重音字符中删除重音符号或制作不区分大小写的索引
 type: docs
-weight: 370
+weight: 380
 url: /zh/net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
 
-表示在索引过程中使用的字符替换字典。 可以使用字符替换，例如，从重音字符中删除重音或制作不区分大小写的索引。
+表示在索引过程中使用的字符替换字典。 字符替换可用于例如从重音字符中删除重音符号或制作不区分大小写的索引。
 
 ```csharp
 public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
@@ -18,16 +18,16 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../groupdocs.search.dictionaries/characterreplacementdictionary/count) { get; } | 获取此包含的字符数[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [Count](../../groupdocs.search.dictionaries/characterreplacementdictionary/count) { get; } | 获取这个包含的字符数[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange)(CharacterReplacementPair[]) | 将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_1)(IEnumerable&lt;CharacterReplacementPair&gt;) | 将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;char, char&gt;&gt;) | 将指定的字符替换集合添加到[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| [Clear](../../groupdocs.search.dictionaries/characterreplacementdictionary/clear)() | 删除所有字符替换[`CharacterReplacementDictionary`](../characterreplacementdictionary)对象. |
+| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange)(CharacterReplacementPair[]) | 将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_1)(IEnumerable&lt;CharacterReplacementPair&gt;) | 将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;char, char&gt;&gt;) | 将指定的字符替换集合添加到该实例[`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [Clear](../../groupdocs.search.dictionaries/characterreplacementdictionary/clear)() | 从 a 中删除所有字符替换[`CharacterReplacementDictionary`](../characterreplacementdictionary)对象. |
 | [Contains](../../groupdocs.search.dictionaries/characterreplacementdictionary/contains)(char) | 确定是否[`CharacterReplacementDictionary`](../characterreplacementdictionary)对象包含指定字符的替换。 |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | 将字典导出到具有指定名称的文件。 |
 | [GetEnumerator](../../groupdocs.search.dictionaries/characterreplacementdictionary/getenumerator)() | 返回一个遍历集合的枚举器。 |
@@ -38,7 +38,7 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [索引期间的字符替换](https://docs.groupdocs.com/display/searchnet/Character+replacement+during+Indexing)
 * [管理字符替换](https://docs.groupdocs.com/display/searchnet/Character+replacements)

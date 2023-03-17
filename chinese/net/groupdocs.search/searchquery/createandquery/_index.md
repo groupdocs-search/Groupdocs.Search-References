@@ -1,14 +1,14 @@
 ---
 title: CreateAndQuery
 second_title: GroupDocs.Search for .NET API 参考
-description: 创建一个组合查询该查询将仅查找每个原始查询将找到的文档
+description: 创建一个组合查询它将只查找将为每个原始查询找到的文档
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search/searchquery/createandquery/
 ---
 ## SearchQuery.CreateAndQuery method
 
-创建一个组合查询，该查询将仅查找每个原始查询将找到的文档。
+创建一个组合查询，它将只查找将为每个原始查询找到的文档。
 
 ```csharp
 public static SearchQuery CreateAndQuery(SearchQuery leftQuery, SearchQuery rightQuery)
@@ -21,7 +21,7 @@ public static SearchQuery CreateAndQuery(SearchQuery leftQuery, SearchQuery righ
 
 ### 返回值
 
-一个组合的 AND 查询。
+组合的 AND 查询。
 
 ### 也可以看看
 

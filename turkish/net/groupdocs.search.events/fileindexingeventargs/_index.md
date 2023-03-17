@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir belge indeksleme başlangıcı olayı için bağımsız değişkenleri temsil eder.
 type: docs
-weight: 510
+weight: 520
 url: /tr/net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class

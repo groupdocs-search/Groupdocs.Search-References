@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: GroupDocs.Search for .NET API 参考
 description: 表示模糊搜索算法的基类
 type: docs
-weight: 810
+weight: 840
 url: /zh/net/groupdocs.search.options/fuzzyalgorithm/
 ---
 ## FuzzyAlgorithm class
@@ -18,12 +18,12 @@ public abstract class FuzzyAlgorithm
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [GetMaxMistakeCount](../../groupdocs.search.options/fuzzyalgorithm/getmaxmistakecount)(int) | 获取指定术语长度的最大允许错误数。 |
-| abstract [GetSimilarityLevel](../../groupdocs.search.options/fuzzyalgorithm/getsimilaritylevel)(int) | 获取指定词条长度的相似度。 |
+| abstract [GetMaxMistakeCount](../../groupdocs.search.options/fuzzyalgorithm/getmaxmistakecount)(int) | 获取指定任期长度的最大允许错误数。 |
+| abstract [GetSimilarityLevel](../../groupdocs.search.options/fuzzyalgorithm/getsimilaritylevel)(int) | 获取指定术语长度的相似度。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [模糊搜索](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
 

@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取一个值该值指示该集合是否为只读
+description: 获取一个值指示集合是否为只读
 type: docs
 weight: 20
 url: /zh/net/groupdocs.search.common/customextractorcollection/isreadonly/
 ---
 ## CustomExtractorCollection.IsReadOnly property
 
-获取一个值，该值指示该集合是否为只读。
+获取一个值，指示集合是否为只读。
 
 ```csharp
 public bool IsReadOnly { get; }

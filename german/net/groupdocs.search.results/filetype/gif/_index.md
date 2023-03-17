@@ -1,14 +1,14 @@
 ---
 title: GIF
 second_title: GroupDocs.Suche nach .NET-API-Referenz
-description: Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/gif/ .
+description: Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/gif/ .
 type: docs
 weight: 240
 url: /de/net/groupdocs.search.results/filetype/gif/
 ---
 ## FileType.GIF field
 
-Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/gif/) .
+Ein GIF oder Graphical Interchange Format ist eine Art stark komprimiertes Bild. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/gif/) .
 
 ```csharp
 public static readonly FileType GIF;

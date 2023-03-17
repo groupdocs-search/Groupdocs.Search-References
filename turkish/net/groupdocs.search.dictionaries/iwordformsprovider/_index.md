@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir sözcük formu sağlayıcısının arayüzünü tanımlar.
 type: docs
-weight: 440
+weight: 450
 url: /tr/net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface

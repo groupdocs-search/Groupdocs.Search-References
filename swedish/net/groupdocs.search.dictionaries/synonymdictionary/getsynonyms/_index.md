@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Returvärde
 
-Synonymerna för det angivna ordet eller tomma array om[`SynonymDictionary`](../../synonymdictionary)objektet innehåller inte det angivna ordet.
+Synonymerna för det angivna ordet eller tomma array om[`SynonymDictionary`](../../synonymdictionary) objektet innehåller inte det angivna ordet.
 
 ### Se även
 

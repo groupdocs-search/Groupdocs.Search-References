@@ -1,14 +1,14 @@
 ---
 title: OperationType
 second_title: GroupDocs.Search for .NET API 参考
-description: 表示索引操作类型
+description: 表示一个索引操作类型
 type: docs
-weight: 560
+weight: 570
 url: /zh/net/groupdocs.search.events/operationtype/
 ---
 ## OperationType enumeration
 
-表示索引操作类型。
+表示一个索引操作类型。
 
 ```csharp
 public enum OperationType

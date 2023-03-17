@@ -3,7 +3,7 @@ title: DictionaryRepository
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Bir dosyadaki tüm sözlüklerin bir havuzunu temsil eder.Index../groupdocs.search/index .
 type: docs
-weight: 410
+weight: 420
 url: /tr/net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class

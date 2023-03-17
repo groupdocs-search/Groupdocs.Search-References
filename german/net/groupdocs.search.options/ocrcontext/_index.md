@@ -3,7 +3,7 @@ title: OcrContext
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Repräsentiert den OCRVerarbeitungskontext.
 type: docs
-weight: 960
+weight: 990
 url: /de/net/groupdocs.search.options/ocrcontext/
 ---
 ## OcrContext class

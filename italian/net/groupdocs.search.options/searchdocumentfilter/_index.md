@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Cerca il riferimento dell'API .NET
 description: Contiene i metodi per la creazione di filtri per i documenti di ricerca.
 type: docs
-weight: 990
+weight: 1030
 url: /it/net/groupdocs.search.options/searchdocumentfilter/
 ---
 ## SearchDocumentFilter class
@@ -28,7 +28,7 @@ public static class SearchDocumentFilter
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Filtraggio dei documenti nei risultati di ricerca](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
 * [opzioni di ricerca](https://docs.groupdocs.com/display/searchnet/Search+options)

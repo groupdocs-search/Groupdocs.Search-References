@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs. ابحث عن مرجع .NET API
 description: يمثل قاموسًا لكلمات مرور المستندات.
 type: docs
-weight: 450
+weight: 460
 url: /ar/net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class

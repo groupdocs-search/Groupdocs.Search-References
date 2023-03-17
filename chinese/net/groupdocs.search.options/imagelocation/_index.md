@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: GroupDocs.Search for .NET API 参考
 description: 指定图像位置
 type: docs
-weight: 870
+weight: 900
 url: /zh/net/groupdocs.search.options/imagelocation/
 ---
 ## ImageLocation enumeration
@@ -20,7 +20,7 @@ public enum ImageLocation
 | --- | --- | --- |
 | Separate | `0` | 单独文件中的图像。 |
 | Embedded | `1` | 嵌入在另一个文档中的图像。 |
-| ContainerItem | `2` | 作为容器文件中的元素的图像。 |
+| ContainerItem | `2` | 作为容器文件中元素的图像。 |
 
 ### 也可以看看
 

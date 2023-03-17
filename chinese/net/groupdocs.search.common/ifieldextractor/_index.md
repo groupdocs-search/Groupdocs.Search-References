@@ -29,7 +29,7 @@ public interface IFieldExtractor
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [自定义文本提取器](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
 

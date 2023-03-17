@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: Référence de l'API GroupDocs.Search pour .NET
 description: Représente un programme de mise à jour dindex. Cette classe effectue la réindexation des documents dans un index dune ancienne version.
 type: docs
-weight: 680
+weight: 710
 url: /fr/net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class

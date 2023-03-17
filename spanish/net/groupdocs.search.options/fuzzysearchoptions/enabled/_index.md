@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si la función de búsqueda aproximada está habilitada. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool Enabled { get; set; }

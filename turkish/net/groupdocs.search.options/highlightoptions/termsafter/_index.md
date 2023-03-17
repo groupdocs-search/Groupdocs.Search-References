@@ -3,7 +3,7 @@ title: TermsAfter
 second_title: .NET API Başvurusu için GroupDocs.Search
 description: Vurgulanan kelimeden sonra bir metin parçasındaki maksimum kelime sayısını alır veya ayarlar. Değer 0 ile 10000 arasında olmalıdır. Varsayılan değer7 .
 type: docs
-weight: 30
+weight: 50
 url: /tr/net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property

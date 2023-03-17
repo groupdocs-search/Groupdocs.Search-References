@@ -1,14 +1,14 @@
 ---
 title: GetHomophoneGroups
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取指定单词所属的所有同音词组
+description: 获取指定单词所属的所有同音字组
 type: docs
 weight: 60
 url: /zh/net/groupdocs.search.dictionaries/homophonedictionary/gethomophonegroups/
 ---
 ## HomophoneDictionary.GetHomophoneGroups method
 
-获取指定单词所属的所有同音词组
+获取指定单词所属的所有同音字组。
 
 ```csharp
 public string[][] GetHomophoneGroups(string word)
@@ -16,11 +16,11 @@ public string[][] GetHomophoneGroups(string word)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| word | String | 获得同音字组的词。 |
+| word | String | 获取同音词组的词。 |
 
 ### 返回值
 
-指定词所属的所有同音词组。
+指定单词所属的所有同音字组。
 
 ### 也可以看看
 

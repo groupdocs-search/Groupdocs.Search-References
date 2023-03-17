@@ -19,7 +19,7 @@ public static Document CreateFromStructure(string documentKey, DateTime modifica
 | --- | --- | --- |
 | documentKey | String | La chiave del documento. |
 | modificationDate | DateTime | La data di modifica del documento. |
-| fields | DocumentField[] | I campi del documento. |
+| fields | DocumentField[] | campi del documento. |
 
 ### Valore di ritorno
 

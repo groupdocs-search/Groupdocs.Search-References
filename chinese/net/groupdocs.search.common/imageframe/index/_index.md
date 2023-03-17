@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取图像中帧的索引
+description: 获取帧在图像中的索引
 type: docs
 weight: 10
 url: /zh/net/groupdocs.search.common/imageframe/index/
 ---
 ## ImageFrame.Index property
 
-获取图像中帧的索引。
+获取帧在图像中的索引。
 
 ```csharp
 public int Index { get; }

@@ -1,14 +1,14 @@
 ---
 title: HomophoneDictionary
 second_title: GroupDocs.Search for .NET API 参考
-description: 获取同音字字典
+description: 获取同音词字典
 type: docs
 weight: 50
 url: /zh/net/groupdocs.search.dictionaries/dictionaryrepository/homophonedictionary/
 ---
 ## DictionaryRepository.HomophoneDictionary property
 
-获取同音字字典。
+获取同音词字典。
 
 ```csharp
 public HomophoneDictionary HomophoneDictionary { get; }
@@ -16,7 +16,7 @@ public HomophoneDictionary HomophoneDictionary { get; }
 
 ### 适当的价值
 
-同音字词典。
+同音字辞典。
 
 ### 也可以看看
 

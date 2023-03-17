@@ -1,14 +1,14 @@
 ---
 title: EnabledForContainerItemImages
 second_title: GroupDocs.Buscar referencia de API de .NET
-description: Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor por ejemplo imágenes en un archivo ZIP. El valor predeterminado esfalso .
+description: Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor por ejemplo imágenes en un archivo ZIP. El valor predeterminado esFALSO .
 type: docs
 weight: 10
 url: /es/net/groupdocs.search.options/imageindexingoptions/enabledforcontaineritemimages/
 ---
 ## ImageIndexingOptions.EnabledForContainerItemImages property
 
-Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor (por ejemplo, imágenes en un archivo ZIP). El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si se indexan imágenes que son elementos en un contenedor (por ejemplo, imágenes en un archivo ZIP). El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool EnabledForContainerItemImages { get; set; }

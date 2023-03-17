@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Suche nach .NET-API-Referenz
 description: Bietet Optionen zum Extrahieren von Daten aus Dokumenten.
 type: docs
-weight: 790
+weight: 820
 url: /de/net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class
@@ -29,7 +29,7 @@ public class ExtractionOptions
 | [ImageIndexingOptions](../../groupdocs.search.options/extractionoptions/imageindexingoptions) { get; } | Ruft die Bildindizierungsoptionen für die umgekehrte Bildsuche ab. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/extractionoptions/metadataindexingoptions) { get; } | Ruft die Optionen zum Indizieren von Metadatenfeldern ab. |
 | [OcrIndexingOptions](../../groupdocs.search.options/extractionoptions/ocrindexingoptions) { get; } | Ruft die Optionen für die OCR-Verarbeitung und Indexierung von erkanntem Text ab. |
-| [UseRawTextExtraction](../../groupdocs.search.options/extractionoptions/userawtextextraction) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Rohmodus für die Textextraktion verwendet wird, falls möglich. Der Standardwert ist`Stimmt` . Der Rohmodus kann die Indizierungsgeschwindigkeit erheblich erhöhen, aber der Normalmodus verbessert die Formatierung des extrahierten Textes. |
+| [UseRawTextExtraction](../../groupdocs.search.options/extractionoptions/userawtextextraction) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der Rohmodus für die Textextraktion verwendet wird, falls möglich. Der Standardwert ist`WAHR` . Der Rohmodus kann die Indizierungsgeschwindigkeit erheblich erhöhen, aber der Normalmodus verbessert die Formatierung des extrahierten Textes. |
 
 ### Siehe auch
 

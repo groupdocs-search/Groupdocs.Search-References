@@ -1,14 +1,14 @@
 ---
 title: UpdateVersion
 second_title: GroupDocs.Search for .NET API 参考
-description: 在旧版本的索引中执行重新索引文档 更新后的索引将放置在newIndexPathdirectory. 中的索引indexPath目录不会改变
+description: 在旧版本的索引中执行重新索引文档 更新的索引将放在newIndexPathdirectory. 中的索引indexPath目录不会更改
 type: docs
 weight: 40
 url: /zh/net/groupdocs.search/indexupdater/updateversion/
 ---
 ## IndexUpdater.UpdateVersion method
 
-在旧版本的索引中执行重新索引文档。 更新后的索引将放置在*newIndexPath*directory. 中的索引*indexPath*目录不会改变。
+在旧版本的索引中执行重新索引文档。 更新的索引将放在*newIndexPath*directory. 中的索引*indexPath*目录不会更改。
 
 ```csharp
 public VersionUpdateResult UpdateVersion(string indexPath, string newIndexPath)
