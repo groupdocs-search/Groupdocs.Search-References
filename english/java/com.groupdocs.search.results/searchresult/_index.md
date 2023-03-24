@@ -40,33 +40,26 @@ String indexFolder = "c:\\MyIndex\\";
  // Printing the result
  System.out.println("Documents: " + result.getDocumentCount());
  System.out.println("Total occurrences: " + result.getOccurrenceCount());
- for (int i = 0; i < result.getDocumentCount(); i++)
- {
+ for (int i = 0; i < result.getDocumentCount(); i++) {
      FoundDocument document = result.getFoundDocument(i);
      System.out.println("\tDocument: " + document.getDocumentInfo().getFilePath());
      System.out.println("\tOccurrences: " + document.getOccurrenceCount());
-     for (int j = 0; j < document.getFoundFields().length; j++)
-     {
+     for (int j = 0; j < document.getFoundFields().length; j++) {
          FoundDocumentField field = document.getFoundFields()[j];
          System.out.println("\t\tField: " + field.getFieldName());
          System.out.println("\t\tOccurrences: " + document.getOccurrenceCount());
          // Printing found terms
-         if (field.getTerms() != null)
-         {
-             for (int k = 0; k < field.getTerms().length; k++)
-             {
+         if (field.getTerms() != null) {
+             for (int k = 0; k < field.getTerms().length; k++) {
                  System.out.println("\t\t\t" + field.getTerms()[k] + " - " + field.getTermsOccurrences()[k]);
              }
          }
          // Printing found phrases
-         if (field.getTermSequences() != null)
-         {
-             for (int k = 0; k < field.getTermSequences().length; k++)
-             {
+         if (field.getTermSequences() != null) {
+             for (int k = 0; k < field.getTermSequences().length; k++) {
                  String[] terms = field.getTermSequences()[k];
                  String sequence = "";
-                 for (int m = 0; m < terms.length; m++)
-                 {
+                 for (int m = 0; m < terms.length; m++) {
                      sequence += terms[m] + " ";
                  }
                  System.out.println("\t\t\t" + sequence + " - " + field.getTermSequencesOccurrences()[k]);

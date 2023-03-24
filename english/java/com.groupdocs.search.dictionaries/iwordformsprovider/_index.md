@@ -19,26 +19,21 @@ Defines interface of a word forms provider.
 The following example demonstrates how to implement a custom word forms provider.
 
 ```
-public class SimpleWordFormsProvider implements IWordFormsProvider
- {
-     public final String[] getWordForms(String word)
-     {
+public class SimpleWordFormsProvider implements IWordFormsProvider {
+     public final String[] getWordForms(String word) {
          ArrayList<String> result = new ArrayList<String>();
          // Assume that the input word is in the plural, then we add the singular
          if (word.length() > 2 &&
-             word.toLowerCase().endsWith("es"))
-         {
+             word.toLowerCase().endsWith("es")) {
              result.add(word.substring(0, word.length() - 2));
          }
          if (word.length() > 1 &&
-             word.toLowerCase().endsWith("s"))
-         {
+             word.toLowerCase().endsWith("s")) {
              result.add(word.substring(0, word.length() - 1));
          }
          // Then assume that the input word is in the singular, we add the plural
          if (word.length() > 1 &&
-             word.toLowerCase().endsWith("y"))
-         {
+             word.toLowerCase().endsWith("y")) {
              result.add(word.substring(0, word.length() - 1).concat("is"));
          }
          result.add(word.concat("s"));
