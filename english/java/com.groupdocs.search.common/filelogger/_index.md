@@ -24,7 +24,8 @@ Represents a logger that logs events and errors to a local file.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  String logPath = "c:\\Log.txt";
@@ -33,6 +34,7 @@ String indexFolder = "c:\\MyIndex\\";
  Index index = new Index(indexFolder, settings); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  SearchResult result = index.search(query); // Search in index
+ 
 ```
 
 

@@ -25,7 +25,8 @@ Represents a search result matching a search query.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentFolder = "c:\\MyDocuments\\";
  // Creating an index
  Index index = new Index(indexFolder);
@@ -67,6 +68,7 @@ String indexFolder = "c:\\MyIndex\\";
          }
      }
  }
+ 
 ```
 
 

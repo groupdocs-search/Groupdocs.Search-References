@@ -21,7 +21,8 @@ Represents an output adapter that collects output as a  System.String .
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -29,6 +30,7 @@ String indexFolder = "c:\\MyIndex\\";
  StringOutputAdapter adapter = new StringOutputAdapter(); // Creating a string output adapter
  index.getDocumentText(documents[0], adapter); // Generating a document text into the adapter
  String result = adapter.getResult(); // Getting a result
+ 
 ```
 
 

@@ -21,15 +21,15 @@ Represents a date format.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "daterange(2017-01-01 ~~ 2019-12-31)";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  SearchOptions options = new SearchOptions();
  options.getDateFormats().clear(); // Removing default date formats
- DateFormatElement[] elements = new DateFormatElement[]
- {
+ DateFormatElement[] elements = new DateFormatElement[] {
      DateFormatElement.getMonthTwoDigits(),
      DateFormatElement.getDateSeparator(),
      DateFormatElement.getDayOfMonthTwoDigits(),
@@ -40,6 +40,7 @@ String indexFolder = "c:\\MyIndex\\";
  com.groupdocs.search.DateFormat dateFormat = new com.groupdocs.search.DateFormat(elements, "/");
  options.getDateFormats().addItem(dateFormat);
  SearchResult result = index.search(query, options); // Search in index
+ 
 ```
 
 

@@ -23,7 +23,8 @@ Represents a search query in object form.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -43,6 +44,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setMaxOccurrenceCountPerTerm(1000000);
  options.setMaxTotalOccurrenceCount(10000000);
  SearchResult result = index.search(query, options); // Searching
+ 
 ```
 
 

@@ -21,13 +21,15 @@ Provides methods to set metered key.
 The example demonstrates a typical usage of the class.
 
 ```
-try {
+
+ try {
      Metered metered = new Metered();
      metered.setMeteredKey("PublicKey", "PrivateKey");
  }
  catch (java.lang.Exception ex) {
      // ...
  }
+ 
 ```
 
 

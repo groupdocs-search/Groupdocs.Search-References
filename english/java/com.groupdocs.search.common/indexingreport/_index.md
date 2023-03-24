@@ -21,7 +21,8 @@ Represents a detailed information on an indexing operation.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder1 = "c:\\MyDocuments1\\";
  String documentsFolder2 = "c:\\MyDocuments2\\";
  // Creating an index in the specified folder
@@ -32,8 +33,7 @@ String indexFolder = "c:\\MyIndex\\";
  // Getting indexing reports
  IndexingReport[] reports = index.getIndexingReports();
  // Printing reports to the console
- for (IndexingReport report : reports)
- {
+ for (IndexingReport report : reports) {
      DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
      System.out.println("Time: " + df.format(report.getStartTime()));
      System.out.println("Duration: " + report.getIndexingTime());
@@ -43,6 +43,7 @@ String indexFolder = "c:\\MyIndex\\";
      System.out.println("Index size (MB): " + (report.getTotalIndexSize() / 1024.0 / 1024.0));
      System.out.println();
  }
+ 
 ```
 
 

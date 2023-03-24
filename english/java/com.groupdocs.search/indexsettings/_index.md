@@ -21,10 +21,12 @@ Represents the index settings that allow to customize the indexing operations.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexSettings settings = new IndexSettings();
  settings.setIndexType(IndexType.CompactIndex); // Setting the index type
  Index index = new Index(indexFolder, settings); // Creating an index
+ 
 ```
 
 
@@ -232,7 +234,8 @@ Gets a document filter. The  DocumentFilter  works on the inclusion logic. Use t
 The example demonstrates how to set the document filter.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating a filter that skips documents with extensions '.doc', '.docx', '.rtf'
  IndexSettings settings = new IndexSettings();
@@ -245,6 +248,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Searching
  SearchResult result = index.search("Einstein");
+ 
 ```
 ### setDocumentFilter(DocumentFilter value) {#setDocumentFilter-com.groupdocs.search.DocumentFilter-}
 ```
@@ -262,7 +266,8 @@ Sets a document filter. The  DocumentFilter  works on the inclusion logic. Use t
 The example demonstrates how to set the document filter.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating a filter that skips documents with extensions '.doc', '.docx', '.rtf'
  IndexSettings settings = new IndexSettings();
@@ -275,6 +280,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Searching
  SearchResult result = index.search("Einstein");
+ 
 ``` |
 
 ### getTextStorageSettings() {#getTextStorageSettings--}
@@ -291,7 +297,8 @@ Gets the text storage settings. The default value is  null , which means that do
 The example demonstrates how to set the text storage settings.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating index settings instance
  IndexSettings settings = new IndexSettings();
@@ -302,6 +309,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Searching
  SearchResult result = index.search("Einstein");
+ 
 ```
 ### setTextStorageSettings(TextStorageSettings value) {#setTextStorageSettings-com.groupdocs.search.options.TextStorageSettings-}
 ```
@@ -319,7 +327,8 @@ Sets the text storage settings. The default value is  null , which means that do
 The example demonstrates how to set the text storage settings.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating index settings instance
  IndexSettings settings = new IndexSettings();
@@ -330,6 +339,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Searching
  SearchResult result = index.search("Einstein");
+ 
 ``` |
 
 ### getIndexType() {#getIndexType--}

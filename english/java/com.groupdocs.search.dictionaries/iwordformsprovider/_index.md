@@ -19,9 +19,10 @@ Defines interface of a word forms provider.
 The following example demonstrates how to implement a custom word forms provider.
 
 ```
-public class SimpleWordFormsProvider implements IWordFormsProvider {
+
+ public class SimpleWordFormsProvider implements IWordFormsProvider {
      public final String[] getWordForms(String word) {
-         ArrayList<String> result = new ArrayList<String>();
+         ArrayList result = new ArrayList();
          // Assume that the input word is in the plural, then we add the singular
          if (word.length() > 2 &&
              word.toLowerCase().endsWith("es")) {
@@ -42,12 +43,14 @@ public class SimpleWordFormsProvider implements IWordFormsProvider {
          return result.toArray(new String[0]);
      }
  }
+ 
 ```
 
 The next example demonstrates how to set a custom word forms provider for using.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -63,6 +66,7 @@ String indexFolder = "c:\\MyIndex\\";
  // The following words can be found:
  // relative
  // relatives
+ 
 ```
 
 

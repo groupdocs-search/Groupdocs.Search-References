@@ -24,13 +24,15 @@ Represents a container for combining multiple indexes and performing common oper
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder1 = "c:\\MyIndex\\";
+
+ String indexFolder1 = "c:\\MyIndex\\";
  String indexFolder2 = "c:\\MyIndex\\";
  String query = "Einstein";
  IndexRepository repository = new IndexRepository();
  repository.addToRepository(indexFolder1); // Loading an existing index
  repository.addToRepository(indexFolder2); // Loading another existing index
  SearchResult result = repository.search(query); // Searching in indexes of the repository
+ 
 ```
 
 
@@ -109,8 +111,10 @@ Creates a new index in memory.
 The example demonstrates how to create an index in memory through the index repository.
 
 ```
-IndexRepository indexRepository = new IndexRepository();
+
+ IndexRepository indexRepository = new IndexRepository();
  Index index = indexRepository.create();
+ 
 ```
 ### create(IndexSettings settings) {#create-com.groupdocs.search.IndexSettings-}
 ```
@@ -128,10 +132,12 @@ Creates a new index in memory.
 The example demonstrates how to create an index in memory through the index repository.
 
 ```
-IndexRepository indexRepository = new IndexRepository();
+
+ IndexRepository indexRepository = new IndexRepository();
  IndexSettings settings = new IndexSettings();
  settings.setUseStopWords(false); // Disabling use of stop words during indexing
  Index index = indexRepository.create(settings);
+ 
 ``` |
 
 **Returns:**
@@ -152,9 +158,11 @@ Creates a new index on disk. The index folder will be cleaned before the index c
 The example demonstrates how to create an index on disk through the index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexRepository indexRepository = new IndexRepository();
  Index index = indexRepository.create(indexFolder);
+ 
 ``` |
 
 **Returns:**
@@ -176,11 +184,13 @@ Creates a new index on disk. The index folder will be cleaned before the index c
 The example demonstrates how to create an index on disk through the index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexRepository indexRepository = new IndexRepository();
  IndexSettings settings = new IndexSettings();
  settings.setUseStopWords(false); // Disabling use of stop words during indexing
  Index index = indexRepository.create(indexFolder, settings);
+ 
 ``` |
 
 **Returns:**
@@ -201,9 +211,11 @@ Adds an index to the index repository.
 The example demonstrates how to add an index to the index repository.
 
 ```
-Index index = new Index();
+
+ Index index = new Index();
  IndexRepository indexRepository = new IndexRepository();
  indexRepository.addToRepository(index);
+ 
 ``` |
 
 ### addToRepository(String indexFolder) {#addToRepository-java.lang.String-}
@@ -222,9 +234,11 @@ Opens and adds an index to the index repository.
 The example demonstrates how to add an index to the index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexRepository indexRepository = new IndexRepository();
  indexRepository.addToRepository(indexFolder);
+ 
 ``` |
 
 ### update() {#update--}
@@ -238,13 +252,15 @@ Updates all indexes in the repository.
 The example demonstrates how to update indexes in the repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  IndexRepository repository = new IndexRepository();
  Index index = repository.create(indexFolder); // Creating index
  index.add(documentsFolder); // Indexing documents
  // Delete documents from the documents folder or modify them or add new documents to the folder
  repository.update();
+ 
 ```
 
 ### update(UpdateOptions options) {#update-com.groupdocs.search.options.UpdateOptions-}
@@ -263,7 +279,8 @@ Updates all indexes in the repository.
 The example demonstrates how to update indexes in the repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  IndexRepository repository = new IndexRepository();
  Index index = repository.create(indexFolder); // Creating index
@@ -272,6 +289,7 @@ String indexFolder = "c:\\MyIndex\\";
  UpdateOptions options = new UpdateOptions();
  options.setThreads(2); // Setting the number of indexing threads
  repository.update(options);
+ 
 ``` |
 
 ### search(String query) {#search-java.lang.String-}
@@ -290,13 +308,15 @@ Searches in all indexes of the repository.
 The example demonstrates how to perform search in index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  IndexRepository repository = new IndexRepository();
  Index index = repository.create(indexFolder); // Creating index
  index.add(documentsFolder); // Indexing documents
  SearchResult result = repository.search(query); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -318,7 +338,8 @@ Searches in all indexes of the repository.
 The example demonstrates how to perform search in index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  IndexRepository repository = new IndexRepository();
@@ -327,6 +348,7 @@ String indexFolder = "c:\\MyIndex\\";
  SearchOptions options = new SearchOptions();
  options.setUseCaseSensitiveSearch(true); // Setting flag of case sensitive search
  SearchResult result = repository.search(query, options); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -347,13 +369,15 @@ Searches in all indexes of the repository.
 The example demonstrates how to perform search in index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  IndexRepository repository = new IndexRepository();
  Index index = repository.create(indexFolder); // Creating index
  index.add(documentsFolder); // Indexing documents
  SearchQuery query = SearchQuery.createWordQuery("Einstein"); // Creating search query in object form
  SearchResult result = repository.search(query); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -375,7 +399,8 @@ Searches in all indexes of the repository.
 The example demonstrates how to perform search in index repository.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  IndexRepository repository = new IndexRepository();
  Index index = repository.create(indexFolder); // Creating index
@@ -384,6 +409,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setUseCaseSensitiveSearch(true); // Setting flag of case sensitive search
  SearchQuery query = SearchQuery.createWordQuery("Einstein"); // Creating search query in object form
  SearchResult result = repository.search(query, options); // Searching
+ 
 ``` |
 
 **Returns:**

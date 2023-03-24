@@ -73,7 +73,8 @@ Gets the fuzzy search algorithm. The currently available fuzzy search algorithms
 The example demonstrates how to set the fuzzy search algorithm.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
@@ -85,6 +86,7 @@ String indexFolder = "c:\\MyIndex\\";
  // It specifies 2 as the maximum number of mistakes for words from 5 to 7 characters.
  // It specifies 3 as the maximum number of mistakes for words from 8 and more characters.
  SearchResult result = index.search(query, options); // Search in index
+ 
 ```
 ### setFuzzyAlgorithm(FuzzyAlgorithm value) {#setFuzzyAlgorithm-com.groupdocs.search.options.FuzzyAlgorithm-}
 ```
@@ -102,7 +104,8 @@ Sets the fuzzy search algorithm. The currently available fuzzy search algorithms
 The example demonstrates how to set the fuzzy search algorithm.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
@@ -114,6 +117,7 @@ String indexFolder = "c:\\MyIndex\\";
  // It specifies 2 as the maximum number of mistakes for words from 5 to 7 characters.
  // It specifies 3 as the maximum number of mistakes for words from 8 and more characters.
  SearchResult result = index.search(query, options); // Search in index
+ 
 ``` |
 
 ### getOnlyBestResults() {#getOnlyBestResults--}

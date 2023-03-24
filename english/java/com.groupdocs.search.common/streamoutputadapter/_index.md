@@ -21,7 +21,8 @@ Represents an output adapter that collects output into a  java.io.OutputStream .
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -29,6 +30,7 @@ String indexFolder = "c:\\MyIndex\\";
  final ByteArrayOutputStream stream = new ByteArrayOutputStream(); // Creating an output stream
  StreamOutputAdapter adapter = new StreamOutputAdapter(stream); // Creating a stream output adapter
  index.getDocumentText(documents[0], adapter); // Generating a document text into the stream
+ 
 ```
 
 

@@ -21,13 +21,15 @@ Represents an output adapter that collects output into a file.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  DocumentInfo[] documents = index.getIndexedDocuments(); // Getting information on indexed documents
  FileOutputAdapter adapter = new FileOutputAdapter("c:\\DocumentText.htm"); // Creating a file output adapter
  index.getDocumentText(documents[0], adapter); // Generating a document text into the output file
+ 
 ```
 
 

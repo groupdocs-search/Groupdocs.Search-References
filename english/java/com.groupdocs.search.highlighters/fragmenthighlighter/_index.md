@@ -19,7 +19,8 @@ Represents a search result highlighter that highlights search results in text fr
  *  [Highlighting search results][]
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index
  Index index = new Index(indexFolder);
@@ -38,22 +39,20 @@ String indexFolder = "c:\\MyIndex\\";
  index.highlight(document, highlighter, options);
  // Getting the result
  FragmentContainer[] fragmentContainers = highlighter.getResult();
- for (int i = 0; i < fragmentContainers.length; i++)
- {
+ for (int i = 0; i < fragmentContainers.length; i++) {
      FragmentContainer container = fragmentContainers[i];
      String[] fragments = container.getFragments();
-     if (fragments.length > 0)
-     {
+     if (fragments.length > 0) {
          System.out.println(container.getFieldName());
          System.out.println();
-         for (int j = 0; j < fragments.length; j++)
-         {
+         for (int j = 0; j < fragments.length; j++) {
              // Printing HTML markup to console
              System.out.println(fragments[j]);
              System.out.println();
          }
      }
  }
+ 
 ```
 
 

@@ -21,7 +21,8 @@ Represents a search result highlighter that highlights search results in an enti
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index
  Index index = new Index(indexFolder);
@@ -34,6 +35,7 @@ String indexFolder = "c:\\MyIndex\\";
  OutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, "Highlighted.html");
  Highlighter highlighter = new DocumentHighlighter(outputAdapter);
  index.highlight(document, highlighter);
+ 
 ```
 
 

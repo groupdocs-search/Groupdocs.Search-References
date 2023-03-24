@@ -18,27 +18,26 @@ Provides methods for extracting fields from a document.
 The example demonstrates how to implement the interface.
 
 ```
-public class LogExtractor implements IFieldExtractor
- {
+
+ public class LogExtractor implements IFieldExtractor {
      private final String[] extensions = new String[] { ".log" };
+ 
      public final String[] getExtensions() { return extensions; }
-     public final DocumentField[] getFields(String filePath)
-     {
+ 
+     public final DocumentField[] getFields(String filePath) {
          File file = new File(filePath);
-         DocumentField[] fields = new DocumentField[]
-         {
+         DocumentField[] fields = new DocumentField[] {
              new DocumentField("FileName", file.getAbsolutePath()),
              new DocumentField("Content", extractContent(filePath)),
          };
          return fields;
      }
-     private String extractContent(String filePath)
-     {
+ 
+     private String extractContent(String filePath) {
          StringBuilder result = new StringBuilder();
          try {
-             List<String> lines = Files.readAllLines(Paths.get(filePath), StandardCharsets.UTF_8);
-             for (int i = 0; i < lines.size(); i++)
-             {
+             List lines = Files.readAllLines(Paths.get(filePath), StandardCharsets.UTF_8);
+             for (int i = 0; i < lines.size(); i++) {
                  String line = lines.get(i);
                  String processedLine = line.substring(12);
                  result.append(processedLine);
@@ -49,16 +48,19 @@ public class LogExtractor implements IFieldExtractor
          return result.toString();
      }
  }
+ 
 ```
 
 The example demonstrates how to use the custorm extractor for indexing.
 
 ```
-String indexFolder = "c:\\MyIndex\\"; // Specify path to the index folder
+
+ String indexFolder = "c:\\MyIndex\\"; // Specify path to the index folder
  String documentsFolder = "c:\\MyDocuments\\"; // Specify path to a folder containing documents to search
  Index index = new Index(indexFolder); // Creating or loading an index
  index.getIndexSettings().getCustomExtractors().addItem(new LogExtractor()); // Adding custom text extractor to index settings
  index.add(documentsFolder); // Indexing documents from the specified folder
+ 
 ```
 
 
