@@ -22,9 +22,15 @@ The example demonstrates a typical usage of the class.
 
 ```
 
+ try {
+     Metered metered = new Metered();
+     metered.setMeteredKey("PublicKey", "PrivateKey");
+ }
+ catch (java.lang.Exception ex) {
+     // ...
+ }
+ 
 ```
-
-try \{ Metered metered = new Metered(); metered.setMeteredKey("PublicKey", "PrivateKey"); \} catch (java.lang.Exception ex) \{ // ... \}
 
 
 [Evaluation Limitations and Licensing]: https://docs.groupdocs.com/display/searchjava/Evaluation+Limitations+and+Licensing

@@ -21,7 +21,8 @@ Represents an algorithm of the fuzzy search that specifies the similarity level.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
@@ -33,6 +34,7 @@ String indexFolder = "c:\\MyIndex\\";
  // It specifies 1 as the maximum number of mistakes for words from 5 to 9 characters.
  // It specifies 2 as the maximum number of mistakes for words from 10 to 14 characters. And so on.
  SearchResult result = index.search(query, options); // Search in index
+ 
 ```
 
 

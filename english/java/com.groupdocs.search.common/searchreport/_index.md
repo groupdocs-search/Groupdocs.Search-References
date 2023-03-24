@@ -21,7 +21,8 @@ Represents a detailed information on a search operation.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -33,8 +34,7 @@ String indexFolder = "c:\\MyIndex\\";
  // Getting search reports
  SearchReport[] reports = index.getSearchReports();
  // Printing reports to the console
- for (SearchReport report : reports)
- {
+ for (SearchReport report : reports) {
      System.out.println("Query: " + report.getTextQuery());
      DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
      System.out.println("Time: " + df.format(report.getStartTime()));
@@ -43,6 +43,7 @@ String indexFolder = "c:\\MyIndex\\";
      System.out.println("Occurrences: " + report.getOccurrenceCount());
      System.out.println();
  }
+ 
 ```
 
 

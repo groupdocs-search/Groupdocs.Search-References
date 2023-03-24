@@ -45,7 +45,7 @@ public static AttributeChangeBatch create()
 Initializes a new instance of the  AttributeChangeBatch  class.
 
 **Returns:**
-[AttributeChangeBatch](../../com.groupdocs.search.common/attributechangebatch)
+[AttributeChangeBatch](../../com.groupdocs.search.common/attributechangebatch) - A new instance of the  AttributeChangeBatch  class.
 ### add(String path, String[] attributes) {#add-java.lang.String-java.lang.String...-}
 ```
 public abstract void add(String path, String[] attributes)

@@ -21,13 +21,14 @@ Represents an index updater. This class performs reindexing documents in an inde
 The example demonstrates a typical usage of the class.
 
 ```
-String sourceIndexFolder = "c:\\MyOldIndex\\";
+
+ String sourceIndexFolder = "c:\\MyOldIndex\\";
  String targetIndexFolder = "c:\\MyNewIndex\\";
  IndexUpdater updater = new IndexUpdater();
- if (updater.canUpdateVersion(sourceIndexFolder))
- {
+ if (updater.canUpdateVersion(sourceIndexFolder)) {
      int result = updater.updateVersion(sourceIndexFolder, targetIndexFolder);
  }
+ 
 ```
 
 

@@ -47,10 +47,8 @@ public final IFieldExtractor getCustomExtractor()
 
 Gets or sets the custom text extractor. The default value is  null .
 
-Value: The custom text extractor.
-
 **Returns:**
-[IFieldExtractor](../../com.groupdocs.search.common/ifieldextractor)
+[IFieldExtractor](../../com.groupdocs.search.common/ifieldextractor) - The custom text extractor.
 ### setCustomExtractor(IFieldExtractor value) {#setCustomExtractor-com.groupdocs.search.common.IFieldExtractor-}
 ```
 public final void setCustomExtractor(IFieldExtractor value)
@@ -59,12 +57,10 @@ public final void setCustomExtractor(IFieldExtractor value)
 
 Gets or sets the custom text extractor. The default value is  null .
 
-Value: The custom text extractor.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldExtractor](../../com.groupdocs.search.common/ifieldextractor) |  |
+| value | [IFieldExtractor](../../com.groupdocs.search.common/ifieldextractor) | The custom text extractor. |
 
 ### getEncoding() {#getEncoding--}
 ```
@@ -74,10 +70,8 @@ public final String getEncoding()
 
 Gets or sets the encoding used to extract from text documents.
 
-Value: The encoding used to extract from text documents.
-
 **Returns:**
-java.lang.String
+java.lang.String - The encoding used to extract from text documents.
 ### setEncoding(String value) {#setEncoding-java.lang.String-}
 ```
 public final void setEncoding(String value)
@@ -86,12 +80,10 @@ public final void setEncoding(String value)
 
 Gets or sets the encoding used to extract from text documents.
 
-Value: The encoding used to extract from text documents.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The encoding used to extract from text documents. |
 
 ### getUseRawTextExtraction() {#getUseRawTextExtraction--}
 ```
@@ -101,10 +93,8 @@ public final boolean getUseRawTextExtraction()
 
 Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
 
-Value: A value indicating whether the raw mode is used for text extraction if possible.
-
 **Returns:**
-boolean
+boolean - A value indicating whether the raw mode is used for text extraction if possible.
 ### setUseRawTextExtraction(boolean value) {#setUseRawTextExtraction-boolean-}
 ```
 public final void setUseRawTextExtraction(boolean value)
@@ -113,12 +103,10 @@ public final void setUseRawTextExtraction(boolean value)
 
 Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
 
-Value: A value indicating whether the raw mode is used for text extraction if possible.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | A value indicating whether the raw mode is used for text extraction if possible. |
 
 ### getMetadataIndexingOptions() {#getMetadataIndexingOptions--}
 ```
@@ -128,10 +116,8 @@ public final MetadataIndexingOptions getMetadataIndexingOptions()
 
 Gets the options for indexing metadata fields.
 
-Value: The options for indexing metadata fields.
-
 **Returns:**
-[MetadataIndexingOptions](../../com.groupdocs.search.options/metadataindexingoptions)
+[MetadataIndexingOptions](../../com.groupdocs.search.options/metadataindexingoptions) - The options for indexing metadata fields.
 ### getOcrIndexingOptions() {#getOcrIndexingOptions--}
 ```
 public final OcrIndexingOptions getOcrIndexingOptions()
@@ -140,10 +126,8 @@ public final OcrIndexingOptions getOcrIndexingOptions()
 
 Gets the options for OCR processing and indexing recognized text.
 
-Value: The options for OCR processing and indexing recognized text.
-
 **Returns:**
-[OcrIndexingOptions](../../com.groupdocs.search.options/ocrindexingoptions)
+[OcrIndexingOptions](../../com.groupdocs.search.options/ocrindexingoptions) - The options for OCR processing and indexing recognized text.
 ### getImageIndexingOptions() {#getImageIndexingOptions--}
 ```
 public final ImageIndexingOptions getImageIndexingOptions()
@@ -152,7 +136,5 @@ public final ImageIndexingOptions getImageIndexingOptions()
 
 Gets the image indexing options for reverse image search.
 
-Value: The image indexing options for reverse image search.
-
 **Returns:**
-[ImageIndexingOptions](../../com.groupdocs.search.options/imageindexingoptions)
+[ImageIndexingOptions](../../com.groupdocs.search.options/imageindexingoptions) - The image indexing options for reverse image search.

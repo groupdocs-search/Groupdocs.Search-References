@@ -21,8 +21,10 @@ Represents the component license.
 The example demonstrates how to setup license.
 
 ```
-License license = new License();
+
+ License license = new License();
  license.setLicense("C:\\License.lic");
+ 
 ```
 
 

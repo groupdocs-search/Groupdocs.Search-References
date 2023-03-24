@@ -26,12 +26,14 @@ Represents the main class for indexing documents and search through them.
 The example demonstrates a typical usage of the class.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  SearchResult result = index.search(query); // Searching in index
+ 
 ```
 
 
@@ -102,7 +104,9 @@ Initializes a new instance of the  Index  class in memory.
 The example demonstrates how to create index in memory without saving files to disk.
 
 ```
-Index index = new Index();
+
+ Index index = new Index();
+ 
 ```
 
 ### Index(IndexSettings settings) {#Index-com.groupdocs.search.IndexSettings-}
@@ -121,9 +125,11 @@ Initializes a new instance of the  Index  class in memory with particular index 
 The example demonstrates how to create index in memory without saving files to disk with particular index settings.
 
 ```
-IndexSettings settings = new IndexSettings();
+
+ IndexSettings settings = new IndexSettings();
  settings.setIndexType(IndexType.CompactIndex);
  Index index = new Index(settings);
+ 
 ``` |
 
 ### Index(String indexFolder) {#Index-java.lang.String-}
@@ -142,8 +148,10 @@ Initializes a new instance of the  Index  class. Creates a new or opens an exist
 The example demonstrates how to create an index on a disk or open an existing index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  Index index = new Index(indexFolder);
+ 
 ``` |
 
 ### Index(String indexFolder, IndexSettings settings) {#Index-java.lang.String-com.groupdocs.search.IndexSettings-}
@@ -163,10 +171,12 @@ Initializes a new instance of the  Index  class. Creates a new index with partic
 The example demonstrates how to create an index on a disk with particular index settings.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexSettings settings = new IndexSettings();
  settings.setIndexType(IndexType.CompactIndex);
  Index index = new Index(indexFolder, settings);
+ 
 ``` |
 
 ### Index(String indexFolder, boolean overwriteIfExists) {#Index-java.lang.String-boolean-}
@@ -186,8 +196,10 @@ Initializes a new instance of the  Index  class. Loads an existing index from di
 The example demonstrates how to create a new index in a folder that already contains another index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  Index index = new Index(indexFolder, true);
+ 
 ``` |
 
 ### Index(String indexFolder, IndexSettings settings, boolean overwriteIfExists) {#Index-java.lang.String-com.groupdocs.search.IndexSettings-boolean-}
@@ -208,10 +220,12 @@ Initializes a new instance of the  Index  class. Loads an existing index from di
 The example demonstrates how to create an index on a disk with particular index settings.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  IndexSettings settings = new IndexSettings();
  settings.setIndexType(IndexType.CompactIndex);
  Index index = new Index(indexFolder, settings, true);
+ 
 ``` |
 
 ### getEvents() {#getEvents--}
@@ -288,12 +302,14 @@ Performs indexing operation. Adds a file or folder by an absolute or relative pa
 The example demonstrates how to add documents to an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String folderPath = "c:\\MyDocuments\\";
  String filePath = "c:\\Documents\\MyFile.txt";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(folderPath); // Indexing documents in the specified folder
  index.add(filePath); // Indexing the specified document
+ 
 ``` |
 
 ### add(String path, IndexingOptions options) {#add-java.lang.String-com.groupdocs.search.options.IndexingOptions-}
@@ -313,7 +329,8 @@ Performs indexing operation. Adds a file or folder by an absolute or relative pa
 The example demonstrates how to add documents to an index with particular indexing options.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String folderPath = "c:\\MyDocuments\\";
  String filePath = "c:\\Documents\\MyFile.txt";
  Index index = new Index(indexFolder); // Creating index in the specified folder
@@ -321,6 +338,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setThreads(2); // Setting the number of indexing threads
  index.add(folderPath, options); // Indexing documents in the specified folder
  index.add(filePath, options); // Indexing the specified document
+ 
 ``` |
 
 ### add(String[] paths) {#add-java.lang.String---}
@@ -339,12 +357,14 @@ Performs indexing operation. Adds files or folders by an absolute or relative pa
 The example demonstrates how to add documents to an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String folderPath = "c:\\MyDocuments\\";
  String filePath = "c:\\Documents\\MyFile.txt";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  String[] paths = new String[] { folderPath, filePath };
  index.add(paths); // Indexing documents at the specified paths
+ 
 ``` |
 
 ### add(String[] paths, IndexingOptions options) {#add-java.lang.String---com.groupdocs.search.options.IndexingOptions-}
@@ -364,7 +384,8 @@ Performs indexing operation. Adds files or folders by an absolute or relative pa
 The example demonstrates how to add documents to an index with particular indexing options.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String folderPath = "c:\\MyDocuments\\";
  String filePath = "c:\\Documents\\MyFile.txt";
  Index index = new Index(indexFolder); // Creating index in the specified folder
@@ -372,6 +393,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setThreads(2); // Setting the number of indexing threads
  String[] paths = new String[] { folderPath, filePath };
  index.add(paths, options); // Indexing documents at the specified paths
+ 
 ``` |
 
 ### add(Document[] documents, IndexingOptions options) {#add-com.groupdocs.search.Document---com.groupdocs.search.options.IndexingOptions-}
@@ -413,12 +435,14 @@ Re-indexes documents that have been changed or deleted since last update. Adds n
 The example demonstrates how to update an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  // Delete documents from the documents folder or modify them or add new documents to the folder
  index.update(); // Updating the index
+ 
 ```
 
 ### update(UpdateOptions options) {#update-com.groupdocs.search.options.UpdateOptions-}
@@ -437,7 +461,8 @@ Re-indexes documents that have been changed or deleted since last update. Adds n
 The example demonstrates how to update an index with particular update options.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -445,6 +470,7 @@ String indexFolder = "c:\\MyIndex\\";
  UpdateOptions options = new UpdateOptions();
  options.setThreads(2); // Setting the number of indexing threads
  index.update(options); // Updating the index
+ 
 ``` |
 
 ### getIndexingReports() {#getIndexingReports--}
@@ -461,11 +487,13 @@ com.groupdocs.search.common.IndexingReport[] - The indexing reports.
 The example demonstrates how to get indexing reports.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  IndexingReport[] reports = index.getIndexingReports(); // Getting indexing reports
+ 
 ```
 ### getSearchReports() {#getSearchReports--}
 ```
@@ -481,7 +509,8 @@ com.groupdocs.search.common.SearchReport[] - The search reports.
 The example demonstrates how to get search reports.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query1 = "Einstein";
  String query2 = "Newton";
@@ -491,6 +520,7 @@ String indexFolder = "c:\\MyIndex\\";
  SearchResult result2 = index.search(query2);
  SearchResult result3 = index.search(query1 + " & " + query2);
  SearchReport[] reports = index.getSearchReports(); // Getting search reports
+ 
 ```
 ### search(String query) {#search-java.lang.String-}
 ```
@@ -508,34 +538,40 @@ Searches in index.
 The following example demonstrates how to perform simple search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  SearchResult result = index.search(query); // Searching
+ 
 ```
 
 The following example demonstrates how to perform Regex search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  String query = "^[0-9]{3,}"; // The caret symbol at the beginning of the search query tells the index that it is a Regex query
  SearchResult result = index.search(query); // Searching
+ 
 ```
 
 The following example demonstrates how to perform faceted search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  String query = "content:Newton"; // The word before the colon in the query means the document field name to search
  SearchResult result = index.search(query); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -557,7 +593,8 @@ Searches in index.
 The following example demonstrates how to perform fuzzy search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -567,12 +604,14 @@ String indexFolder = "c:\\MyIndex\\";
  // Double quotes at the beginning and end tells the index that it is phrase search query
  String query = "\"The Pursuit of Happiness\"";
  SearchResult result = index.search(query, options); // Searching
+ 
 ```
 
 The following example demonstrates how to perform synonym search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -580,6 +619,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setUseSynonymSearch(true); // Enabling the synonym search
  String query = "cry";
  SearchResult result = index.search(query, options); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -600,7 +640,8 @@ Searches in index.
 The following example demonstrates how to perform search using query in object form.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -616,6 +657,7 @@ String indexFolder = "c:\\MyIndex\\";
  // Combining subqueries into one query
  SearchQuery query = SearchQuery.createPhraseSearchQuery(subquery1, subquery2, subquery3);
  SearchResult result = index.search(query); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -637,7 +679,8 @@ Searches in index.
 The following example demonstrates how to perform search using query in object form.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
@@ -657,6 +700,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setMaxOccurrenceCountPerTerm(1000000);
  options.setMaxTotalOccurrenceCount(10000000);
  SearchResult result = index.search(query, options); // Searching
+ 
 ``` |
 
 **Returns:**
@@ -693,7 +737,8 @@ Continues the chunk search started with method Search.
 The example demonstrates how to perform chunk search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating index in the specified folder
@@ -703,12 +748,12 @@ String indexFolder = "c:\\MyIndex\\";
  SearchResult result = index.search(query, options); // Starting chunk search
  System.out.println("Document count: " + result.getDocumentCount());
  System.out.println("Occurrence count: " + result.getOccurrenceCount());
- while (result.getNextChunkSearchToken() != null)
- {
+ while (result.getNextChunkSearchToken() != null) {
      result = index.searchNext(result.getNextChunkSearchToken()); // Continuing chunk search
      System.out.println("Document count: " + result.getDocumentCount());
      System.out.println("Occurrence count: " + result.getOccurrenceCount());
  }
+ 
 ``` |
 
 **Returns:**
@@ -730,7 +775,8 @@ Continues the chunk search started with method Search.
 The example demonstrates how to perform search using query in object form.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating index in the specified folder
@@ -742,12 +788,12 @@ String indexFolder = "c:\\MyIndex\\";
  SearchResult result = index.search(query, options); // Starting chunk search
  System.out.println("Document count: " + result.getDocumentCount());
  System.out.println("Occurrence count: " + result.getOccurrenceCount());
- while (result.getNextChunkSearchToken() != null)
- {
+ while (result.getNextChunkSearchToken() != null) {
      result = index.searchNext(result.getNextChunkSearchToken(), cancellation); // Continuing chunk search
      System.out.println("Document count: " + result.getDocumentCount());
      System.out.println("Occurrence count: " + result.getOccurrenceCount());
  }
+ 
 ``` |
 
 **Returns:**
@@ -763,7 +809,8 @@ Minimizes the number of index segments by merging them one with another. This op
 The example demonstrates how to merge segments of an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder1 = "c:\\MyDocuments1\\";
  String documentsFolder2 = "c:\\MyDocuments2\\";
  String documentsFolder3 = "c:\\MyDocuments3\\";
@@ -773,6 +820,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder3);
  // Merging segments of the index
  index.optimize();
+ 
 ```
 
 ### optimize(MergeOptions options) {#optimize-com.groupdocs.search.options.MergeOptions-}
@@ -791,7 +839,8 @@ Minimizes the number of index segments by merging them one with another. This op
 The example demonstrates how to merge segments of an index with particular merge options.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder1 = "c:\\MyDocuments1\\";
  String documentsFolder2 = "c:\\MyDocuments2\\";
  String documentsFolder3 = "c:\\MyDocuments3\\";
@@ -805,6 +854,7 @@ String indexFolder = "c:\\MyIndex\\";
  // Merging segments of the index
  index.optimize(options); // This method will return before the operation is completed
  options.getCancellation().cancelAfter(10000); // Setting maximum duration of the operation to 10 seconds
+ 
 ``` |
 
 ### merge(Index index, MergeOptions options) {#merge-com.groupdocs.search.Index-com.groupdocs.search.options.MergeOptions-}
@@ -826,7 +876,8 @@ If the other index has a previous version, it must be updated before merging wit
 The example demonstrates how to merge an index into the current index.
 
 ```
-String indexFolder1 = "c:\\MyIndex1\\";
+
+ String indexFolder1 = "c:\\MyIndex1\\";
  String indexFolder2 = "c:\\MyIndex2\\";
  String documentsFolder1 = "c:\\MyDocuments1\\";
  String documentsFolder2 = "c:\\MyDocuments2\\";
@@ -838,6 +889,7 @@ String indexFolder1 = "c:\\MyIndex1\\";
  options.setCancellation(new Cancellation()); // Creating cancellation object
  // Merging index2 into index1. Note that index2 files will not be changed.
  index1.merge(index2, options);
+ 
 ``` |
 
 ### merge(IndexRepository repository, MergeOptions options) {#merge-com.groupdocs.search.IndexRepository-com.groupdocs.search.options.MergeOptions-}
@@ -859,7 +911,8 @@ If other indexes have a previous version, they must be updated before merging wi
 The example demonstrates how to merge an index repository into the current index.
 
 ```
-String indexFolder1 = "c:\\MyIndex1\\";
+
+ String indexFolder1 = "c:\\MyIndex1\\";
  String indexFolder2 = "c:\\MyIndex2\\";
  String indexFolder3 = "c:\\MyIndex3\\";
  String documentsFolder1 = "c:\\MyDocuments1\\";
@@ -876,6 +929,7 @@ String indexFolder1 = "c:\\MyIndex1\\";
  options.setCancellation(new Cancellation()); // Creating cancellation object
  // Merging all indexes in the index repository into index1. Note that index2 and index3 will not be changed.
  index1.merge(repository, options);
+ 
 ``` |
 
 ### highlight(FoundDocument document, Highlighter highlighter) {#highlight-com.groupdocs.search.results.FoundDocument-com.groupdocs.search.highlighters.Highlighter-}
@@ -895,7 +949,8 @@ Generates HTML formatted text with highlighted found terms.
 The example demonstrates how to highlight occurrences in HTML formatted text.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentFolder = "c:\\MyDocuments\\";
  // Creating an index
  Index index = new Index(indexFolder);
@@ -904,13 +959,13 @@ String indexFolder = "c:\\MyIndex\\";
  // Search for the word 'eternity'
  SearchResult result = index.search("eternity");
  // Highlighting occurrences in text
- if (result.getDocumentCount() > 0)
- {
- 	FoundDocument document = result.getFoundDocument(0); // Getting the first found document
- 	OutputAdapter outputAdapter = new FileOutputAdapter("c:\\Highlighted.html"); // Creating an output adapter to the file
- 	Highlighter highlighter = new HtmlHighlighter(outputAdapter); // Creating the highlighter object
- 	index.highlight(document, highlighter); // Generating HTML formatted text with highlighted occurrences
+ if (result.getDocumentCount() > 0) {
+     FoundDocument document = result.getFoundDocument(0); // Getting the first found document
+     OutputAdapter outputAdapter = new FileOutputAdapter("c:\\Highlighted.html"); // Creating an output adapter to the file
+     Highlighter highlighter = new HtmlHighlighter(outputAdapter); // Creating the highlighter object
+     index.highlight(document, highlighter); // Generating HTML formatted text with highlighted occurrences
  }
+ 
 ``` |
 
 ### highlight(FoundDocument document, Highlighter highlighter, HighlightOptions options) {#highlight-com.groupdocs.search.results.FoundDocument-com.groupdocs.search.highlighters.Highlighter-com.groupdocs.search.options.HighlightOptions-}
@@ -931,7 +986,8 @@ Generates HTML formatted text with highlighted found terms.
 The example demonstrates how to highlight occurrences in HTML formatted text.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentFolder = "c:\\MyDocuments\\";
  // Creating an index
  Index index = new Index(indexFolder);
@@ -940,17 +996,17 @@ String indexFolder = "c:\\MyIndex\\";
  // Search for the word 'eternity'
  SearchResult result = index.search("eternity");
  // Highlighting occurrences in text
- if (result.getDocumentCount() > 0)
- {
- 	 FoundDocument document = result.getFoundDocument(0); // Getting the first found document
- 	 OutputAdapter outputAdapter = new FileOutputAdapter("c:\\Highlighted.html"); // Creating an output adapter to the file
- 	 Highlighter highlighter = new HtmlHighlighter(outputAdapter); // Creating the highlighter object
- 	 HighlightOptions options = new HighlightOptions(); // Creating the highlight options object
- 	 options.setTermsBefore(5);
- 	 options.setTermsAfter(5);
- 	 options.setTermsTotal(15);
- 	 index.highlight(document, highlighter, options); // Generating HTML formatted text with highlighted occurrences
+ if (result.getDocumentCount() > 0) {
+     FoundDocument document = result.getFoundDocument(0); // Getting the first found document
+     OutputAdapter outputAdapter = new FileOutputAdapter("c:\\Highlighted.html"); // Creating an output adapter to the file
+     Highlighter highlighter = new HtmlHighlighter(outputAdapter); // Creating the highlighter object
+     HighlightOptions options = new HighlightOptions(); // Creating the highlight options object
+     options.setTermsBefore(5);
+     options.setTermsAfter(5);
+     options.setTermsTotal(15);
+     index.highlight(document, highlighter, options); // Generating HTML formatted text with highlighted occurrences
  }
+ 
 ``` |
 
 ### getIndexedDocuments() {#getIndexedDocuments--}
@@ -967,7 +1023,8 @@ com.groupdocs.search.results.DocumentInfo[] - An array of all indexed documents.
 The example demonstrates how to get a list of indexed documents from an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -975,6 +1032,7 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Getting list of indexed documents
  DocumentInfo[] documents = index.getIndexedDocuments();
+ 
 ```
 ### getIndexedDocumentItems(DocumentInfo documentInfo) {#getIndexedDocumentItems-com.groupdocs.search.results.DocumentInfo-}
 ```
@@ -992,7 +1050,8 @@ Gets an array of a document items.
 The example demonstrates how to get a list of items of an indexed document from an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -1000,17 +1059,16 @@ String indexFolder = "c:\\MyIndex\\";
  index.add(documentsFolder);
  // Getting list of indexed documents
  DocumentInfo[] documents = index.getIndexedDocuments();
- for (int i = 0; i < documents.length; i++)
- {
- 	 DocumentInfo document = documents[i];
- 	 System.out.println(document.getFilePath());
- 	 DocumentInfo[] items = index.getIndexedDocumentItems(document); // Getting list of document items
- 	 for (int j = 0; j < items.length; j++)
- 	 {
- 	   DocumentInfo item = items[j];
-     System.out.println("\t" + item.getInnerPath());
- 	 }
+ for (int i = 0; i < documents.length; i++) {
+     DocumentInfo document = documents[i];
+     System.out.println(document.getFilePath());
+     DocumentInfo[] items = index.getIndexedDocumentItems(document); // Getting list of document items
+     for (int j = 0; j < items.length; j++) {
+         DocumentInfo item = items[j];
+         System.out.println("\t" + item.getInnerPath());
+     }
  }
+ 
 ``` |
 
 **Returns:**
@@ -1032,7 +1090,8 @@ Generates HTML formatted text for indexed document and transfers it through the 
 The example demonstrates how to get the text of an indexed document from an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -1041,11 +1100,11 @@ String indexFolder = "c:\\MyIndex\\";
  // Getting list of indexed documents
  DocumentInfo[] documents = index.getIndexedDocuments();
  // Getting a document text
- if (documents.length > 0)
- {
- 	 FileOutputAdapter outputAdapter = new FileOutputAdapter("C:\\Text.html");
- 	 index.getDocumentText(documents[0], outputAdapter);
+ if (documents.length > 0) {
+     FileOutputAdapter outputAdapter = new FileOutputAdapter("C:\\Text.html");
+     index.getDocumentText(documents[0], outputAdapter);
  }
+ 
 ``` |
 
 ### getDocumentText(DocumentInfo documentInfo, OutputAdapter adapter, TextOptions options) {#getDocumentText-com.groupdocs.search.results.DocumentInfo-com.groupdocs.search.common.OutputAdapter-com.groupdocs.search.options.TextOptions-}
@@ -1090,7 +1149,8 @@ Deletes indexed files or folders from the index. Then updates the index without 
 The example demonstrates how to delete indexed paths from an index.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder1 = "c:\\MyDocuments\\";
  String documentsFolder2 = "c:\\MyDocuments2\\";
  // Creating an index in the specified folder
@@ -1102,8 +1162,7 @@ String indexFolder = "c:\\MyIndex\\";
  String[] indexedPaths1 = index.getIndexedPaths();
  // Writing indexed paths to the console
  System.out.println("Indexed paths:");
- for (String path : indexedPaths1)
- {
+ for (String path : indexedPaths1) {
      System.out.println("\t" + path);
  }
  // Deleting index path from the index
@@ -1112,10 +1171,10 @@ String indexFolder = "c:\\MyIndex\\";
  String[] indexedPaths2 = index.getIndexedPaths();
  System.out.println("\nDeleted paths: " + deleteResult.getSuccessCount());
  System.out.println("\nIndexed paths:");
- for (String path : indexedPaths2)
- {
+ for (String path : indexedPaths2) {
      System.out.println("\t" + path);
  }
+ 
 ``` |
 
 **Returns:**

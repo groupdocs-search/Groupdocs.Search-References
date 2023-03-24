@@ -241,15 +241,15 @@ Gets the collection of date formats for date range search. The default date form
 The example demonstrates how to set the date formats for the search.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  String query = "Einstein";
  Index index = new Index(indexFolder); // Creating an index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
  SearchOptions options = new SearchOptions();
  options.getDateFormats().clear(); // Removing default date formats
- DateFormatElement[] elements = new DateFormatElement[]
- {
+ DateFormatElement[] elements = new DateFormatElement[] {
      DateFormatElement.getMonthTwoDigits(),
      DateFormatElement.getDayOfMonthTwoDigits(),
      DateFormatElement.getYearFourDigits(),
@@ -258,6 +258,7 @@ String indexFolder = "c:\\MyIndex\\";
  com.groupdocs.search.DateFormat dateFormat = new com.groupdocs.search.DateFormat(elements, "/");
  options.getDateFormats().addItem(dateFormat);
  SearchResult result = index.search(query, options); // Search in index
+ 
 ```
 ### isChunkSearch() {#isChunkSearch--}
 ```
@@ -296,7 +297,8 @@ Gets the search document filter.  SearchDocumentFilter  works on the inclusion l
 The example demonstrates how to set the document filter.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments1\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -309,6 +311,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setSearchDocumentFilter(invertedFilter);
  // Search in index
  SearchResult result = index.search("Einstein", options);
+ 
 ```
 ### setSearchDocumentFilter(ISearchDocumentFilter value) {#setSearchDocumentFilter-com.groupdocs.search.options.ISearchDocumentFilter-}
 ```
@@ -326,7 +329,8 @@ Sets the search document filter.  SearchDocumentFilter  works on the inclusion l
 The example demonstrates how to set the document filter.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments1\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -339,6 +343,7 @@ String indexFolder = "c:\\MyIndex\\";
  options.setSearchDocumentFilter(invertedFilter);
  // Search in index
  SearchResult result = index.search("Einstein", options);
+ 
 ``` |
 
 ### getCancellation() {#getCancellation--}

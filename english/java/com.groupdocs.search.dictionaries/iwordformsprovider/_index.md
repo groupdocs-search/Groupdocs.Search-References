@@ -19,26 +19,22 @@ Defines interface of a word forms provider.
 The following example demonstrates how to implement a custom word forms provider.
 
 ```
-public class SimpleWordFormsProvider implements IWordFormsProvider
- {
-     public final String[] getWordForms(String word)
-     {
-         ArrayList<String> result = new ArrayList<String>();
+
+ public class SimpleWordFormsProvider implements IWordFormsProvider {
+     public final String[] getWordForms(String word) {
+         ArrayList result = new ArrayList();
          // Assume that the input word is in the plural, then we add the singular
          if (word.length() > 2 &&
-             word.toLowerCase().endsWith("es"))
-         {
+             word.toLowerCase().endsWith("es")) {
              result.add(word.substring(0, word.length() - 2));
          }
          if (word.length() > 1 &&
-             word.toLowerCase().endsWith("s"))
-         {
+             word.toLowerCase().endsWith("s")) {
              result.add(word.substring(0, word.length() - 1));
          }
          // Then assume that the input word is in the singular, we add the plural
          if (word.length() > 1 &&
-             word.toLowerCase().endsWith("y"))
-         {
+             word.toLowerCase().endsWith("y")) {
              result.add(word.substring(0, word.length() - 1).concat("is"));
          }
          result.add(word.concat("s"));
@@ -47,12 +43,14 @@ public class SimpleWordFormsProvider implements IWordFormsProvider
          return result.toArray(new String[0]);
      }
  }
+ 
 ```
 
 The next example demonstrates how to set a custom word forms provider for using.
 
 ```
-String indexFolder = "c:\\MyIndex\\";
+
+ String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
  // Creating an index in the specified folder
  Index index = new Index(indexFolder);
@@ -68,6 +66,7 @@ String indexFolder = "c:\\MyIndex\\";
  // The following words can be found:
  // relative
  // relatives
+ 
 ```
 
 
