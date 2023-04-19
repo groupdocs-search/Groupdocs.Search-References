@@ -1,14 +1,14 @@
 ---
 title: TotalDocuments
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the total number of processed documents.
+description: Gets the total number of documents for processing.
 type: docs
 weight: 70
 url: /net/groupdocs.search.events/operationprogresseventargs/totaldocuments/
 ---
 ## OperationProgressEventArgs.TotalDocuments property
 
-Gets the total number of processed documents.
+Gets the total number of documents for processing.
 
 ```csharp
 public int TotalDocuments { get; }
@@ -16,7 +16,7 @@ public int TotalDocuments { get; }
 
 ### Property Value
 
-The total number of processed documents.
+The total number of documents for processing.
 
 ### See Also
 

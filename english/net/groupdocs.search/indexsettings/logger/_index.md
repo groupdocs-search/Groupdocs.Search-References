@@ -3,7 +3,7 @@ title: Logger
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a logger that is used for logging events and errors in the index. Note that the logger is not saved and must be created and assigned each time the index is created or loaded.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.search/indexsettings/logger/
 ---
 ## IndexSettings.Logger property

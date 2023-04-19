@@ -3,7 +3,7 @@ title: AddRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds the specified collection of character replacements to this instance of the CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;KeyValuePair&lt;char, char&gt;&gt;) {#addrange_2}

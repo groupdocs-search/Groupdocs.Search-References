@@ -19,6 +19,7 @@ The namespace provides classes of event arguments.
 | [IndexErrorEventArgs](./indexerroreventargs) | Represents arguments for the event of index error occurred. |
 | [OperationFinishedEventArgs](./operationfinishedeventargs) | Represents arguments for the event of the indexing operation is finished. |
 | [OperationProgressEventArgs](./operationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
+| [OptimizationProgressEventArgs](./optimizationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
 | [PasswordRequiredEventArgs](./passwordrequiredeventargs) | Represents arguments for the event that occurs when document protected by a password is indexing. |
 | [SearchPhaseEventArgs](./searchphaseeventargs) | Represents arguments for the search phase changing events. |
 ## Enumeration

@@ -3,7 +3,7 @@ title: StatusChanged
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when the index status changes.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search.events/eventhub/statuschanged/
 ---
 ## EventHub.StatusChanged event

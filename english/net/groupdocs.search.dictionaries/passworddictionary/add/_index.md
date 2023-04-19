@@ -3,7 +3,7 @@ title: Add
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds a password for a document to the dictionary.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/passworddictionary/add/
 ---
 ## PasswordDictionary.Add method

@@ -3,7 +3,7 @@ title: AddRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds the specified collection of homophone groups to this instance of the HomophoneDictionarygroupdocs.search.dictionaries/homophonedictionary.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/homophonedictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;string[]&gt;) {#addrange}

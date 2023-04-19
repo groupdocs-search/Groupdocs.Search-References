@@ -1,14 +1,14 @@
 ---
 title: IndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides options for indexing operation.
+description: Provides options for the indexing operation.
 type: docs
-weight: 930
+weight: 970
 url: /net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class
 
-Provides options for indexing operation.
+Provides options for the indexing operation.
 
 ```csharp
 public class IndexingOptions
@@ -24,12 +24,15 @@ public class IndexingOptions
 
 | Name | Description |
 | --- | --- |
+| [AutoDetectEncoding](../../groupdocs.search.options/indexingoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | Gets or sets the operation cancellation object. The default value is `null`. |
+| [Encoding](../../groupdocs.search.options/indexingoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
 | [ImageIndexingOptions](../../groupdocs.search.options/indexingoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/indexingoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/indexingoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 | [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | Gets or sets the number of threads used for indexing. The default value is `1`. |
+| [UseRawTextExtraction](../../groupdocs.search.options/indexingoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes all words from a SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector object.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.dictionaries/spellingcorrector/clear/
 ---
 ## SpellingCorrector.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/spellingcorrector/clear/
 Removes all words from a [`SpellingCorrector`](../../spellingcorrector) object.
 
 ```csharp
-public void Clear()
+public override void Clear()
 ```
 
 ### See Also

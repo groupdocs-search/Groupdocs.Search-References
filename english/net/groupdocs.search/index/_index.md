@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the main class for indexing documents and search through them.
 type: docs
-weight: 680
+weight: 700
 url: /net/groupdocs.search/index/
 ---
 ## Index class
@@ -50,7 +50,7 @@ public class Index : IDisposable
 | [Delete](../../groupdocs.search/index/delete#delete)(UpdateOptions, string[]) | Deletes documents indexed from streams or structures. Then updates the index without deleted documents. |
 | [Dispose](../../groupdocs.search/index/dispose)() | Releases all resources used by the [`Index`](../index). |
 | [GetAttributes](../../groupdocs.search/index/getattributes)(string) | Gets all the attributes associated with the specified indexed document. |
-| [GetDocumentText](../../groupdocs.search/index/getdocumenttext#getdocumenttext)(DocumentInfo, OutputAdapter) | Generates HTML formatted text for indexed document and transfers it through the output adapter. |
+| [GetDocumentText](../../groupdocs.search/index/getdocumenttext#getdocumenttext)(DocumentInfo, OutputAdapter) | Generates the text of an indexed document and passes it through an output adapter. |
 | [GetDocumentText](../../groupdocs.search/index/getdocumenttext#getdocumenttext_1)(DocumentInfo, OutputAdapter, TextOptions) | Generates HTML formatted text for indexed document and transfers it through the output adapter. |
 | [GetIndexedDocumentItems](../../groupdocs.search/index/getindexeddocumentitems)(DocumentInfo) | Gets an array of nested items of the specified document (for container documents such as ZIP, OST, PST). |
 | [GetIndexedDocuments](../../groupdocs.search/index/getindexeddocuments)() | Gets an array of all indexed documents. |

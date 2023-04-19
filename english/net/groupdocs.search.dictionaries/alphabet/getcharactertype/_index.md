@@ -3,7 +3,7 @@ title: GetCharacterType
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets a type of a character.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.dictionaries/alphabet/getcharactertype/
 ---
 ## Alphabet.GetCharacterType method

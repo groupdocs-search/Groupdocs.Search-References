@@ -3,7 +3,7 @@ title: Highlighter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the base class of a search result highlighter.
 type: docs
-weight: 650
+weight: 670
 url: /net/groupdocs.search.highlighters/highlighter/
 ---
 ## Highlighter class

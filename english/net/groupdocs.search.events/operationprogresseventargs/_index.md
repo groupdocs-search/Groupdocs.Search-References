@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the event of the indexing operation progress is updated.
 type: docs
-weight: 560
+weight: 570
 url: /net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class
@@ -28,7 +28,7 @@ public class OperationProgressEventArgs : BaseIndexEventArgs
 | [SkippedDocuments](../../groupdocs.search.events/operationprogresseventargs/skippeddocuments) { get; } | Gets the number of skipped documents. |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | Gets the index status. |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | Gets the time of an event. |
-| [TotalDocuments](../../groupdocs.search.events/operationprogresseventargs/totaldocuments) { get; } | Gets the total number of processed documents. |
+| [TotalDocuments](../../groupdocs.search.events/operationprogresseventargs/totaldocuments) { get; } | Gets the total number of documents for processing. |
 
 ### Remarks
 

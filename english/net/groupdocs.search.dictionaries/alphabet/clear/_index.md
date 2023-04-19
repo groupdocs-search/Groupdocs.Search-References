@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Sets the Separator type for all characters in this Alphabetgroupdocs.search.dictionaries/alphabet.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/alphabet/clear/
 ---
 ## Alphabet.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/alphabet/clear/
 Sets the Separator type for all characters in this [`Alphabet`](../../alphabet).
 
 ```csharp
-public void Clear()
+public override void Clear()
 ```
 
 ### See Also

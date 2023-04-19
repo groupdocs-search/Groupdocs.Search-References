@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes all words from this SynonymDictionarygroupdocs.search.dictionaries/synonymdictionary object.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.dictionaries/synonymdictionary/clear/
 ---
 ## SynonymDictionary.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/synonymdictionary/clear/
 Removes all words from this [`SynonymDictionary`](../../synonymdictionary) object.
 
 ```csharp
-public void Clear()
+public override void Clear()
 ```
 
 ### See Also

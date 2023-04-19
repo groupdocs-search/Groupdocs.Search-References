@@ -19,12 +19,13 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/alphabet/count) { get; } | Gets the number of characters contained in the [`Alphabet`](../alphabet). |
+| override [DictionaryType](../../groupdocs.search.dictionaries/alphabet/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../groupdocs.search.dictionaries/alphabet/clear)() | Sets the Separator type for all characters in this [`Alphabet`](../alphabet). |
+| override [Clear](../../groupdocs.search.dictionaries/alphabet/clear)() | Sets the Separator type for all characters in this [`Alphabet`](../alphabet). |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype)(char) | Gets a type of a character. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/alphabet/getenumerator)() | Returns an enumerator that iterates through the collection. |

@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for extracting data from documents.
 type: docs
-weight: 820
+weight: 860
 url: /net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class
@@ -24,8 +24,9 @@ public class ExtractionOptions
 
 | Name | Description |
 | --- | --- |
+| [AutoDetectEncoding](../../groupdocs.search.options/extractionoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [CustomExtractor](../../groupdocs.search.options/extractionoptions/customextractor) { get; set; } | Gets or sets the custom text extractor. The default value is `null`. |
-| [Encoding](../../groupdocs.search.options/extractionoptions/encoding) { get; set; } | Gets or sets the encoding used to extract from text documents. |
+| [Encoding](../../groupdocs.search.options/extractionoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
 | [ImageIndexingOptions](../../groupdocs.search.options/extractionoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/extractionoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/extractionoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
