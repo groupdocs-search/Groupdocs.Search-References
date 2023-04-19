@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for merge operation.
 type: docs
-weight: 1000
+weight: 1010
 url: /net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class

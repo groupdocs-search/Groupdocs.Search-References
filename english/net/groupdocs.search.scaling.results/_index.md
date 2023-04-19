@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Search.Scaling.Results
 second_title: GroupDocs.Search for .NET API Reference
-description: 
+description: The namespace provides the search result classes in the search network.
 type: docs
-weight: 130
+weight: 110
 url: /net/groupdocs.search.scaling.results/
 ---
-
+The namespace provides the search result classes in the search network.
 
 ## Classes
 

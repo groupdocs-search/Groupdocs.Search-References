@@ -22,7 +22,7 @@ public SearchNetworkNode(int nodeIndex, string storagePath, INetworkConnector ne
 
 ### See Also
 
-* interface [INetworkConnector](../../../groupdocs.search.scaling.network/inetworkconnector)
+* interface [INetworkConnector](../../../groupdocs.search.scaling.configuring/inetworkconnector)
 * class [SearchNetworkNode](../../searchnetworknode)
 * namespace [GroupDocs.Search.Scaling](../../searchnetworknode)
 * assembly [GroupDocs.Search](../../../)
@@ -47,7 +47,7 @@ public SearchNetworkNode(int nodeIndex, string storagePath, INetworkConnector ne
 
 ### See Also
 
-* interface [INetworkConnector](../../../groupdocs.search.scaling.network/inetworkconnector)
+* interface [INetworkConnector](../../../groupdocs.search.scaling.configuring/inetworkconnector)
 * interface [ILogger](../../../groupdocs.search.common/ilogger)
 * class [SearchNetworkNode](../../searchnetworknode)
 * namespace [GroupDocs.Search.Scaling](../../searchnetworknode)
@@ -74,7 +74,7 @@ public SearchNetworkNode(int nodeIndex, string storagePath, INetworkConnector ne
 
 ### See Also
 
-* interface [INetworkConnector](../../../groupdocs.search.scaling.network/inetworkconnector)
+* interface [INetworkConnector](../../../groupdocs.search.scaling.configuring/inetworkconnector)
 * interface [ILogger](../../../groupdocs.search.common/ilogger)
 * class [Configuration](../../../groupdocs.search.scaling.configuring/configuration)
 * class [SearchNetworkNode](../../searchnetworknode)

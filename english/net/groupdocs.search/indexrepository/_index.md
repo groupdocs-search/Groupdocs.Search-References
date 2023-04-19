@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a container for combining multiple indexes and performing common operations on them.
 type: docs
-weight: 710
+weight: 720
 url: /net/groupdocs.search/indexrepository/
 ---
 ## IndexRepository class

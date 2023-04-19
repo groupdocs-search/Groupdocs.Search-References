@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for update operation.
 type: docs
-weight: 1170
+weight: 1180
 url: /net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class

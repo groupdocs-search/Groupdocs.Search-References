@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a descriptor for an indexed document.
 type: docs
-weight: 1200
+weight: 1210
 url: /net/groupdocs.search.results/documentinfo/
 ---
 ## DocumentInfo class

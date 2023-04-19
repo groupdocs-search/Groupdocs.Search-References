@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for highlighting found terms.
 type: docs
-weight: 900
+weight: 910
 url: /net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class

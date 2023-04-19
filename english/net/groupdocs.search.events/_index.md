@@ -17,6 +17,7 @@ The namespace provides classes of event arguments.
 | [FileIndexingEventArgs](./fileindexingeventargs) | Represents arguments for the event of a document indexing start. |
 | [ImagePreparingEventArgs](./imagepreparingeventargs) | Represents arguments for the event of an image preparing start. |
 | [IndexErrorEventArgs](./indexerroreventargs) | Represents arguments for the event of index error occurred. |
+| [NodeEventHub](./nodeeventhub) | Provides node events for subscribing. |
 | [OperationFinishedEventArgs](./operationfinishedeventargs) | Represents arguments for the event of the indexing operation is finished. |
 | [OperationProgressEventArgs](./operationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
 | [OptimizationProgressEventArgs](./optimizationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |

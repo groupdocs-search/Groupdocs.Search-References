@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the main class for indexing documents and search through them.
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.search/index/
 ---
 ## Index class

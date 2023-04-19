@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Search.Scaling
 second_title: GroupDocs.Search for .NET API Reference
-description: 
+description: The namespace provides classes of scaling functionality.
 type: docs
 weight: 90
 url: /net/groupdocs.search.scaling/
 ---
-
+The namespace provides classes of scaling functionality.
 
 ## Classes
 
