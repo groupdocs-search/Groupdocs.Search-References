@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the fuzzy search algorithm that contains correspondences between word lengths and the number of allowed mistakes. This algorithm can be specified by a table of output values or by a step function.
 type: docs
-weight: 1150
+weight: 1100
 url: /net/groupdocs.search.options/tablediscretefunction/
 ---
 ## TableDiscreteFunction class

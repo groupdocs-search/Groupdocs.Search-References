@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: GroupDocs.Search for .NET API Reference
 description: Returns an enumerator that iterates through the collection.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.search.dictionaries/alphabet/getenumerator/
 ---
 ## Alphabet.GetEnumerator method

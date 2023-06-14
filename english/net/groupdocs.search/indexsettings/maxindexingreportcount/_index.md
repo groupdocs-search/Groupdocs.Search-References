@@ -3,7 +3,7 @@ title: MaxIndexingReportCount
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the maximum number of indexing reports. The default value is 5.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search/indexsettings/maxindexingreportcount/
 ---
 ## IndexSettings.MaxIndexingReportCount property

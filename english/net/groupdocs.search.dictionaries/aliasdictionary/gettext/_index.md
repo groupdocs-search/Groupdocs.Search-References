@@ -3,7 +3,7 @@ title: GetText
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets a text that is associated with the specified alias.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.search.dictionaries/aliasdictionary/gettext/
 ---
 ## AliasDictionary.GetText method

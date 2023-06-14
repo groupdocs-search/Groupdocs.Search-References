@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the text storage settings. The default value is null which means that document texts are not stored.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search/indexsettings/textstoragesettings/
 ---
 ## IndexSettings.TextStorageSettings property

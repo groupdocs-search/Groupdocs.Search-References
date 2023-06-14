@@ -3,7 +3,7 @@ title: OptimizationProgressEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the event of the indexing operation progress is updated.
 type: docs
-weight: 600
+weight: 580
 url: /net/groupdocs.search.events/optimizationprogresseventargs/
 ---
 ## OptimizationProgressEventArgs class

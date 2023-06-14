@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search query in object form.
 type: docs
-weight: 1450
+weight: 1250
 url: /net/groupdocs.search/searchquery/
 ---
 ## SearchQuery class

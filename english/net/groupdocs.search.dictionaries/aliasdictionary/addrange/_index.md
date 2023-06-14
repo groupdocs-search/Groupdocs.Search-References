@@ -3,7 +3,7 @@ title: AddRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds the specified collection of alias/replacement pairs to this instance of the AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.search.dictionaries/aliasdictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) {#addrange_2}

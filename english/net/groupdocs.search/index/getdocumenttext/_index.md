@@ -1,14 +1,14 @@
 ---
 title: GetDocumentText
 second_title: GroupDocs.Search for .NET API Reference
-description: Generates the text of an indexed document and passes it through an output adapter.
+description: Generates HTML formatted text for indexed document and transfers it through the output adapter.
 type: docs
 weight: 120
 url: /net/groupdocs.search/index/getdocumenttext/
 ---
 ## GetDocumentText(DocumentInfo, OutputAdapter) {#getdocumenttext}
 
-Generates the text of an indexed document and passes it through an output adapter.
+Generates HTML formatted text for indexed document and transfers it through the output adapter.
 
 ```csharp
 public void GetDocumentText(DocumentInfo documentInfo, OutputAdapter adapter)

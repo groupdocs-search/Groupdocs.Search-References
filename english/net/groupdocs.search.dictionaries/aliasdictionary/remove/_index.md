@@ -3,7 +3,7 @@ title: Remove
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes the specified alias from an AliasDictionarygroupdocs.search.dictionaries/aliasdictionary object.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.search.dictionaries/aliasdictionary/remove/
 ---
 ## AliasDictionary.Remove method

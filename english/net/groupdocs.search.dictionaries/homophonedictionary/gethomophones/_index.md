@@ -3,7 +3,7 @@ title: GetHomophones
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the homophones for the specified word. The resulting array does not contain the original word.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.search.dictionaries/homophonedictionary/gethomophones/
 ---
 ## HomophoneDictionary.GetHomophones method

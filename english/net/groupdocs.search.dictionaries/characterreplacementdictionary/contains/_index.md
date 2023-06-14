@@ -3,7 +3,7 @@ title: Contains
 second_title: GroupDocs.Search for .NET API Reference
 description: Determines whether a CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary object contains a replacement for the specified character.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/contains/
 ---
 ## CharacterReplacementDictionary.Contains method

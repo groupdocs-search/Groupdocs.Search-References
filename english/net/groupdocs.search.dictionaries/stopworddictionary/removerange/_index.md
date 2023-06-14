@@ -3,7 +3,7 @@ title: RemoveRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes the specified collection of words from this instance of the StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.search.dictionaries/stopworddictionary/removerange/
 ---
 ## RemoveRange(IEnumerable&lt;string&gt;) {#removerange}

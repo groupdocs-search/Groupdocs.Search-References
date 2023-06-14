@@ -3,7 +3,7 @@ title: CustomExtractors
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the custom extractor collection.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search/indexsettings/customextractors/
 ---
 ## IndexSettings.CustomExtractors property

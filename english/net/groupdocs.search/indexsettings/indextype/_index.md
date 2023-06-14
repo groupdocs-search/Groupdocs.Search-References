@@ -3,7 +3,7 @@ title: IndexType
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the index type. The default value is NormalIndex.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search/indexsettings/indextype/
 ---
 ## IndexSettings.IndexType property

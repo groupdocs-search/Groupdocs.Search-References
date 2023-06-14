@@ -3,7 +3,7 @@ title: DocumentFilter
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a document filter. The DocumentFiltergroupdocs.search/indexsettings/documentfilter works on the inclusion logic. Use the DocumentFiltergroupdocs.search.options/documentfilter class for creation of a document filter instances. The default value is null which means that all added documents are indexed.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search/indexsettings/documentfilter/
 ---
 ## IndexSettings.DocumentFilter property

@@ -3,7 +3,7 @@ title: Contains
 second_title: GroupDocs.Search for .NET API Reference
 description: Determines whether a StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary object contains the specified word.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.search.dictionaries/stopworddictionary/contains/
 ---
 ## StopWordDictionary.Contains method

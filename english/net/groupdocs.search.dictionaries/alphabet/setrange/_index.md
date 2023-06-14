@@ -3,7 +3,7 @@ title: SetRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Sets the type for each character of the specified collection in this instance of the Alphabetgroupdocs.search.dictionaries/alphabet.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.search.dictionaries/alphabet/setrange/
 ---
 ## Alphabet.SetRange method

@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a found document.
 type: docs
-weight: 1240
+weight: 1190
 url: /net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class

@@ -3,7 +3,7 @@ title: Contains
 second_title: GroupDocs.Search for .NET API Reference
 description: Determines whether an AliasDictionarygroupdocs.search.dictionaries/aliasdictionary object contains the specified alias.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.search.dictionaries/aliasdictionary/contains/
 ---
 ## AliasDictionary.Contains method

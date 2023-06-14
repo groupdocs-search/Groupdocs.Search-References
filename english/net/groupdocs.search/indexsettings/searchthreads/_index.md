@@ -3,7 +3,7 @@ title: SearchThreads
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the number of threads used for the search. The default value is Default which means that the search will be performed using the number of threads equal to the number of processor cores.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search/indexsettings/searchthreads/
 ---
 ## IndexSettings.SearchThreads property

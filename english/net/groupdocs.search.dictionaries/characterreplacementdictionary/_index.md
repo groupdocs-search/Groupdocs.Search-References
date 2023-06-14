@@ -19,7 +19,6 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/characterreplacementdictionary/count) { get; } | Gets the number of characters contained in this [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| override [DictionaryType](../../groupdocs.search.dictionaries/characterreplacementdictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -28,7 +27,7 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<char>
 | [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange)(CharacterReplacementPair[]) | Adds the specified collection of character replacements to this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_1)(IEnumerable&lt;CharacterReplacementPair&gt;) | Adds the specified collection of character replacements to this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;char, char&gt;&gt;) | Adds the specified collection of character replacements to this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| override [Clear](../../groupdocs.search.dictionaries/characterreplacementdictionary/clear)() | Removes all character replacements from a [`CharacterReplacementDictionary`](../characterreplacementdictionary) object. |
+| [Clear](../../groupdocs.search.dictionaries/characterreplacementdictionary/clear)() | Removes all character replacements from a [`CharacterReplacementDictionary`](../characterreplacementdictionary) object. |
 | [Contains](../../groupdocs.search.dictionaries/characterreplacementdictionary/contains)(char) | Determines whether a [`CharacterReplacementDictionary`](../characterreplacementdictionary) object contains a replacement for the specified character. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/characterreplacementdictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

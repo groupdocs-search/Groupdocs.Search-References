@@ -3,7 +3,7 @@ title: GetReplacement
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets a replacement for the specified character.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/getreplacement/
 ---
 ## CharacterReplacementDictionary.GetReplacement method

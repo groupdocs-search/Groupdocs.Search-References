@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of synonyms.
 type: docs
-weight: 500
+weight: 490
 url: /net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class
@@ -19,7 +19,6 @@ public class SynonymDictionary : DictionaryBase, IEnumerable<string>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/synonymdictionary/count) { get; } | Gets the number of words contained in this [`SynonymDictionary`](../synonymdictionary). |
-| override [DictionaryType](../../groupdocs.search.dictionaries/synonymdictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -27,7 +26,7 @@ public class SynonymDictionary : DictionaryBase, IEnumerable<string>
 | --- | --- |
 | [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange)(IEnumerable&lt;string[]&gt;) | Adds the specified collection of synonym groups to this instance of the [`SynonymDictionary`](../synonymdictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/synonymdictionary/addrange#addrange_1)(string[][]) | Adds the specified collection of synonym groups to this instance of the [`SynonymDictionary`](../synonymdictionary). |
-| override [Clear](../../groupdocs.search.dictionaries/synonymdictionary/clear)() | Removes all words from this [`SynonymDictionary`](../synonymdictionary) object. |
+| [Clear](../../groupdocs.search.dictionaries/synonymdictionary/clear)() | Removes all words from this [`SynonymDictionary`](../synonymdictionary) object. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetAllSynonymGroups](../../groupdocs.search.dictionaries/synonymdictionary/getallsynonymgroups)() | Gets all groups of synonyms contained in this dictionary. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/synonymdictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

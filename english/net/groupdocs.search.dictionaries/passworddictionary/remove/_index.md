@@ -3,7 +3,7 @@ title: Remove
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes a password of the specified document from the dictionary.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.search.dictionaries/passworddictionary/remove/
 ---
 ## PasswordDictionary.Remove method

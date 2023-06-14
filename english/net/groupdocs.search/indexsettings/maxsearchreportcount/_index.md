@@ -3,7 +3,7 @@ title: MaxSearchReportCount
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the maximum number of search reports. The default value is 10.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search/indexsettings/maxsearchreportcount/
 ---
 ## IndexSettings.MaxSearchReportCount property

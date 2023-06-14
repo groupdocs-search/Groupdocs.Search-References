@@ -3,7 +3,7 @@ title: Threads
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the number of threads used for indexing. The default value is 1.
 type: docs
-weight: 90
+weight: 70
 url: /net/groupdocs.search.options/updateoptions/threads/
 ---
 ## UpdateOptions.Threads property

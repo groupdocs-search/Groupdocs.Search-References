@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes all words from a StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary object.
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.search.dictionaries/stopworddictionary/clear/
 ---
 ## StopWordDictionary.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/stopworddictionary/clear/
 Removes all words from a [`StopWordDictionary`](../../stopworddictionary) object.
 
 ```csharp
-public override void Clear()
+public void Clear()
 ```
 
 ### See Also

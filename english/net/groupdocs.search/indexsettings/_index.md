@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the index settings that allow to customize the indexing operations.
 type: docs
-weight: 730
+weight: 710
 url: /net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -24,6 +24,7 @@ public class IndexSettings
 
 | Name | Description |
 | --- | --- |
+| [AutoDetectEncoding](../../groupdocs.search/indexsettings/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | Gets the custom extractor collection. |
 | [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Gets or sets a document filter. The [`DocumentFilter`](./documentfilter) works on the inclusion logic. Use the [`DocumentFilter`](../../groupdocs.search.options/documentfilter) class for creation of a document filter instances. The default value is `null`, which means that all added documents are indexed. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | Gets or sets the index type. The default value is NormalIndex. |
@@ -34,6 +35,7 @@ public class IndexSettings
 | [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Gets or sets the number of threads used for the search. The default value is Default, which means that the search will be performed using the number of threads equal to the number of processor cores. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Gets or sets the text storage settings. The default value is `null`, which means that document texts are not stored. |
 | [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Gets or sets a value indicating whether to use character replacements or not. The default value is `false`. |
+| [UseRawTextExtraction](../../groupdocs.search/indexsettings/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Gets or sets a value indicating whether to use stop words or not. The default value is `true`. |
 
 ### Remarks

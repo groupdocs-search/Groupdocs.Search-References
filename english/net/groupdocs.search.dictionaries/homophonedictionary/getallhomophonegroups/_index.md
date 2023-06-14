@@ -3,7 +3,7 @@ title: GetAllHomophoneGroups
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets all groups of homophones contained in this dictionary.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.search.dictionaries/homophonedictionary/getallhomophonegroups/
 ---
 ## HomophoneDictionary.GetAllHomophoneGroups method
