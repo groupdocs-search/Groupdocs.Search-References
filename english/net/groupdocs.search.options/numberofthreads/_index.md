@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search for .NET API Reference
 description: Specifies the number of threads.
 type: docs
-weight: 980
+weight: 990
 url: /net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration

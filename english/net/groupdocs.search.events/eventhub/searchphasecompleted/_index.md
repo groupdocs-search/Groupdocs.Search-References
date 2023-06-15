@@ -3,7 +3,7 @@ title: SearchPhaseCompleted
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when the search phase is completed.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.events/eventhub/searchphasecompleted/
 ---
 ## EventHub.SearchPhaseCompleted event

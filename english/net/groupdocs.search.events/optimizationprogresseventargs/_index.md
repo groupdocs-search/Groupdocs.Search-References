@@ -1,29 +1,30 @@
 ---
-title: PasswordRequiredEventArgs
+title: OptimizationProgressEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event that occurs when document protected by a password is indexing.
+description: Represents arguments for the event of the indexing operation progress is updated.
 type: docs
-weight: 590
-url: /net/groupdocs.search.events/passwordrequiredeventargs/
+weight: 580
+url: /net/groupdocs.search.events/optimizationprogresseventargs/
 ---
-## PasswordRequiredEventArgs class
+## OptimizationProgressEventArgs class
 
-Represents arguments for the event that occurs when document protected by a password is indexing.
+Represents arguments for the event of the indexing operation progress is updated.
 
 ```csharp
-public class PasswordRequiredEventArgs : BaseIndexEventArgs
+public class OptimizationProgressEventArgs : BaseIndexEventArgs
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DocumentFullPath](../../groupdocs.search.events/passwordrequiredeventargs/documentfullpath) { get; } | Gets the document full path. |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | Gets the index folder. |
 | [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | Gets the index ID. |
-| [Password](../../groupdocs.search.events/passwordrequiredeventargs/password) { get; set; } | Gets or sets the password for opening the document. |
+| [ProcessedSegments](../../groupdocs.search.events/optimizationprogresseventargs/processedsegments) { get; } | Gets the number of processed segments. |
+| [ProgressPercentage](../../groupdocs.search.events/optimizationprogresseventargs/progresspercentage) { get; } | Gets the percentage of the progress. |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | Gets the index status. |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | Gets the time of an event. |
+| [TotalSegments](../../groupdocs.search.events/optimizationprogresseventargs/totalsegments) { get; } | Gets the total number of segments for processing. |
 
 ### Remarks
 

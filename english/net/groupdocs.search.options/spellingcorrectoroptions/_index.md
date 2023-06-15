@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the spelling corrector.
 type: docs
-weight: 1060
+weight: 1070
 url: /net/groupdocs.search.options/spellingcorrectoroptions/
 ---
 ## SpellingCorrectorOptions class

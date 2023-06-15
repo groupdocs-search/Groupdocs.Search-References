@@ -1,14 +1,14 @@
 ---
 title: OperationProgressChanged
 second_title: GroupDocs.Search for .NET API Reference
-description: Occurs when the progress of indexing or update operation is changed.
+description: Occurs when the progress of the indexing or update operation changes.
 type: docs
 weight: 50
 url: /net/groupdocs.search.events/eventhub/operationprogresschanged/
 ---
 ## EventHub.OperationProgressChanged event
 
-Occurs when the progress of indexing or update operation is changed.
+Occurs when the progress of the indexing or update operation changes.
 
 ```csharp
 public event EventHandler<OperationProgressEventArgs> OperationProgressChanged;

@@ -3,7 +3,7 @@ title: HtmlHighlighter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search result highlighter that highlights search results in an entire document text formatted in HTML.
 type: docs
-weight: 670
+weight: 680
 url: /net/groupdocs.search.highlighters/htmlhighlighter/
 ---
 ## HtmlHighlighter class
