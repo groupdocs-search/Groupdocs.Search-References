@@ -24,6 +24,7 @@ The package provides classes of event arguments.
 | [IndexErrorEventArgs](../com.groupdocs.search.events/indexerroreventargs) | Represents arguments for the event of index error occurred. |
 | [OperationFinishedEventArgs](../com.groupdocs.search.events/operationfinishedeventargs) | Represents arguments for the event of the indexing operation is finished. |
 | [OperationProgressEventArgs](../com.groupdocs.search.events/operationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
+| [OptimizationProgressEventArgs](../com.groupdocs.search.events/optimizationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
 | [PasswordRequiredEventArgs](../com.groupdocs.search.events/passwordrequiredeventargs) | Represents arguments for the event that occurs when document protected by a password is indexing. |
 | [SearchPhaseEventArgs](../com.groupdocs.search.events/searchphaseeventargs) | Represents arguments for the search phase changing events. |
 
