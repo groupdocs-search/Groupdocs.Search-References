@@ -3,7 +3,7 @@ title: OperationType
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an index operation type.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.search.events/operationtype/
 ---
 **Inheritance:**

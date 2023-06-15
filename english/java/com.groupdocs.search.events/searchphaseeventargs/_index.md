@@ -3,7 +3,7 @@ title: SearchPhaseEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the search phase changing events.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.search.events/searchphaseeventargs/
 ---
 **Inheritance:**

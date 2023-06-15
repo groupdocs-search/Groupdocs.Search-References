@@ -3,7 +3,7 @@ title: SearchPhase
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the search phases.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.search.events/searchphase/
 ---
 **Inheritance:**
