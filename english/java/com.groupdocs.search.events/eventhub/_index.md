@@ -53,7 +53,8 @@ The example demonstrates a typical usage of the class.
 | --- | --- |
 | [OperationFinished](#OperationFinished) | Occurs when an index operation is finished. |
 | [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an index operation. |
-| [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of indexing or update operation is changed. |
+| [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of the indexing or update operation changes. |
+| [OptimizationProgressChanged](#OptimizationProgressChanged) |  |
 | [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
 | [FileIndexing](#FileIndexing) | Occurs when a document is going to be indexed. |
 | [ImagePreparing](#ImagePreparing) |  |
@@ -132,7 +133,7 @@ public final Event<EventHandler<OperationProgressEventArgs>> OperationProgressCh
 ```
 
 
-Occurs when the progress of indexing or update operation is changed.
+Occurs when the progress of the indexing or update operation changes.
 
 The example demonstrates how to use the event.
 
@@ -155,6 +156,12 @@ The example demonstrates how to use the event.
  index.add(documentsFolder);
  
 ```
+
+### OptimizationProgressChanged {#OptimizationProgressChanged}
+```
+public final Event<EventHandler<OptimizationProgressEventArgs>> OptimizationProgressChanged
+```
+
 
 ### PasswordRequired {#PasswordRequired}
 ```

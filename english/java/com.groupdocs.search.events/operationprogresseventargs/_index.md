@@ -24,7 +24,7 @@ Represents arguments for the event of the indexing operation progress is updated
 
 | Method | Description |
 | --- | --- |
-| [getTotalDocuments()](#getTotalDocuments--) | Gets the total number of processed documents. |
+| [getTotalDocuments()](#getTotalDocuments--) | Gets the total number of documents for processing. |
 | [getProcessedDocuments()](#getProcessedDocuments--) | Gets the number of successfully processed documents. |
 | [getSkippedDocuments()](#getSkippedDocuments--) | Gets the number of skipped documents. |
 | [getProgressPercentage()](#getProgressPercentage--) | Gets the percentage of the progress. |
@@ -37,10 +37,10 @@ public final int getTotalDocuments()
 ```
 
 
-Gets the total number of processed documents.
+Gets the total number of documents for processing.
 
 **Returns:**
-int - The total number of processed documents.
+int - The total number of documents for processing.
 ### getProcessedDocuments() {#getProcessedDocuments--}
 ```
 public final int getProcessedDocuments()
