@@ -54,10 +54,10 @@ The example demonstrates a typical usage of the class.
 | [OperationFinished](#OperationFinished) | Occurs when an index operation is finished. |
 | [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an index operation. |
 | [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of the indexing or update operation changes. |
-| [OptimizationProgressChanged](#OptimizationProgressChanged) |  |
+| [OptimizationProgressChanged](#OptimizationProgressChanged) | Occurs when the progress of the optimization operation changes. |
 | [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
 | [FileIndexing](#FileIndexing) | Occurs when a document is going to be indexed. |
-| [ImagePreparing](#ImagePreparing) |  |
+| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing. |
 | [StatusChanged](#StatusChanged) | Occurs when the index status changes. |
 | [SearchPhaseCompleted](#SearchPhaseCompleted) | Occurs when the search phase is completed. |
 ### EventHub() {#EventHub--}
@@ -163,6 +163,8 @@ public final Event<EventHandler<OptimizationProgressEventArgs>> OptimizationProg
 ```
 
 
+Occurs when the progress of the optimization operation changes.
+
 ### PasswordRequired {#PasswordRequired}
 ```
 public final Event<EventHandler<PasswordRequiredEventArgs>> PasswordRequired
@@ -231,6 +233,8 @@ The example demonstrates how to use the event.
 public final Event<EventHandler<ImagePreparingEventArgs>> ImagePreparing
 ```
 
+
+Occurs when an image is going to be prepared for indexing.
 
 ### StatusChanged {#StatusChanged}
 ```

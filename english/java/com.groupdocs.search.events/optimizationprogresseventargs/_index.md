@@ -12,7 +12,9 @@ java.lang.Object, [com.groupdocs.search.events.BaseIndexEventArgs](../../com.gro
 public class OptimizationProgressEventArgs extends BaseIndexEventArgs
 ```
 
-Represents arguments for the event of the indexing operation progress is updated. **Learn more**
+Represents arguments for the event of the indexing operation progress is updated.
+
+**Learn more**
 
  *  [Search index events][]
 
