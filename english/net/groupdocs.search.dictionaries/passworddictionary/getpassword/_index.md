@@ -3,7 +3,7 @@ title: GetPassword
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the password for the file.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.search.dictionaries/passworddictionary/getpassword/
 ---
 ## PasswordDictionary.GetPassword method

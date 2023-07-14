@@ -3,7 +3,7 @@ title: UseStopWords
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether to use stop words or not. The default value is true.
 type: docs
-weight: 140
+weight: 120
 url: /net/groupdocs.search/indexsettings/usestopwords/
 ---
 ## IndexSettings.UseStopWords property

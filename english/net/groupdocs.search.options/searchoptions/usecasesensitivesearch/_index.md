@@ -3,7 +3,7 @@ title: UseCaseSensitiveSearch
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the flag of case sensitive search. The default value is false.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.search.options/searchoptions/usecasesensitivesearch/
 ---
 ## SearchOptions.UseCaseSensitiveSearch property

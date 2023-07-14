@@ -12,11 +12,13 @@ The namespace provides classes to specify additional options of various operatio
 
 | Class | Description |
 | --- | --- |
+| [ChangeAttributesOptions](./changeattributesoptions) | Provides options for the change attributes operation. |
 | [Color](./color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [CommonFieldNames](./commonfieldnames) | Represents a list of field names for the faceted search. |
 | [DateFormat](./dateformat) | Represents a date format. |
 | [DateFormatCollection](./dateformatcollection) | Represents a collection of [`DateFormat`](../groupdocs.search.options/dateformat) objects. |
 | [DateFormatElement](./dateformatelement) | Represents a date format element. |
+| [DeleteOptions](./deleteoptions) | Provides options for the delete operation. |
 | [DocumentFilter](./documentfilter) | Represents the base class for document filters. Contains methods for creation document filter instances. |
 | [EpubFieldNames](./epubfieldnames) | Represents a list of field names for the faceted search. |
 | [ExtractionOptions](./extractionoptions) | Provides options for extracting data from documents. |
@@ -26,13 +28,14 @@ The namespace provides classes to specify additional options of various operatio
 | [HighlightOptions](./highlightoptions) | Provides options for highlighting found terms. |
 | [ImageIndexingOptions](./imageindexingoptions) | Provides image indexing options for reverse image search. |
 | [ImageSearchOptions](./imagesearchoptions) | Provides options for reverse image search operation. |
-| [IndexingOptions](./indexingoptions) | Provides options for indexing operation. |
+| [IndexingOptions](./indexingoptions) | Provides options for the indexing operation. |
 | [KeyboardLayoutCorrectorOptions](./keyboardlayoutcorrectoroptions) | Provides options for the keyboard layout corrector. |
 | [MailFieldNames](./mailfieldnames) | Represents a list of field names for the faceted search. |
 | [MergeOptions](./mergeoptions) | Provides options for merge operation. |
 | [MetadataIndexingOptions](./metadataindexingoptions) | Provides options for indexing metadata fields. |
 | [OcrContext](./ocrcontext) | Represents the OCR processing context. |
 | [OcrIndexingOptions](./ocrindexingoptions) | Provides options for OCR processing and indexing recognized text. |
+| [OptimizeOptions](./optimizeoptions) | Provides options for the optimize operation. |
 | [PresentationFieldNames](./presentationfieldnames) | Represents a list of field names for the faceted search. |
 | [SearchDocumentFilter](./searchdocumentfilter) | Contains methods for creating search document filters. |
 | [SearchOptions](./searchoptions) | Provides options for search operation. |
@@ -40,6 +43,7 @@ The namespace provides classes to specify additional options of various operatio
 | [SpellingCorrectorOptions](./spellingcorrectoroptions) | Provides options for the spelling corrector. |
 | [SpreadsheetFieldNames](./spreadsheetfieldnames) | Represents a list of field names for the faceted search. |
 | [Step](./step) | Represents a step of a step function. |
+| [SynchronizeOptions](./synchronizeoptions) | Provides options for the synchronize operation. |
 | [TableDiscreteFunction](./tablediscretefunction) | Represents the fuzzy search algorithm that contains correspondences between word lengths and the number of allowed mistakes. This algorithm can be specified by a table of output values or by a step function. |
 | [TextOptions](./textoptions) | Provides options for retrieving document text from an index. |
 | [TextStorageSettings](./textstoragesettings) | Represents the text storage settings. |

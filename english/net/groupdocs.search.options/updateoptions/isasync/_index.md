@@ -3,7 +3,7 @@ title: IsAsync
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the flag of asynchronous performing the operation. The default value is false.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.search.options/updateoptions/isasync/
 ---
 ## UpdateOptions.IsAsync property

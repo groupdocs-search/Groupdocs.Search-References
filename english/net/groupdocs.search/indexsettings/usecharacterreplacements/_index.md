@@ -3,7 +3,7 @@ title: UseCharacterReplacements
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether to use character replacements or not. The default value is false.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property

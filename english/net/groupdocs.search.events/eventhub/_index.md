@@ -3,7 +3,7 @@ title: EventHub
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides index events for subscribing.
 type: docs
-weight: 510
+weight: 520
 url: /net/groupdocs.search.events/eventhub/
 ---
 ## EventHub class
@@ -18,7 +18,7 @@ public class EventHub
 
 | Name | Description |
 | --- | --- |
-| event [ErrorOccurred](../../groupdocs.search.events/eventhub/erroroccurred) | Occurs when an error happens during an index operation. |
+| event [ErrorOccurred](../../groupdocs.search.events/eventhub/erroroccurred) | Occurs when an error occurs during an index operation. |
 | event [FileIndexing](../../groupdocs.search.events/eventhub/fileindexing) | Occurs when a document is going to be indexed. |
 | event [ImagePreparing](../../groupdocs.search.events/eventhub/imagepreparing) | Occurs when an image is going to be prepared for indexing. |
 | event [OperationFinished](../../groupdocs.search.events/eventhub/operationfinished) | Occurs when an index operation is finished. |

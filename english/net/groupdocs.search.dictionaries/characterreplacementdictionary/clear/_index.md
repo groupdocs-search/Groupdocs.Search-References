@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes all character replacements from a CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary object.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/clear/
 ---
 ## CharacterReplacementDictionary.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/clear/
 Removes all character replacements from a [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object.
 
 ```csharp
-public void Clear()
+public override void Clear()
 ```
 
 ### See Also

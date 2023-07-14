@@ -3,7 +3,7 @@ title: PasswordDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of document passwords.
 type: docs
-weight: 460
+weight: 470
 url: /net/groupdocs.search.dictionaries/passworddictionary/
 ---
 ## PasswordDictionary class
@@ -19,13 +19,14 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/passworddictionary/count) { get; } | Gets the number of elements contained in the dictionary. |
+| override [DictionaryType](../../groupdocs.search.dictionaries/passworddictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
 | [Add](../../groupdocs.search.dictionaries/passworddictionary/add)(string, string) | Adds a password for a document to the dictionary. |
-| [Clear](../../groupdocs.search.dictionaries/passworddictionary/clear)() | Removes all passwords from this [`PasswordDictionary`](../passworddictionary) object. |
+| override [Clear](../../groupdocs.search.dictionaries/passworddictionary/clear)() | Removes all passwords from this [`PasswordDictionary`](../passworddictionary) object. |
 | [Contains](../../groupdocs.search.dictionaries/passworddictionary/contains)(string) | Determines whether the dictionary contains a password for the specified document. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/passworddictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

@@ -3,7 +3,7 @@ title: OccurrenceCount
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the number of occurrences found.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.results/founddocument/occurrencecount/
 ---
 ## FoundDocument.OccurrenceCount property

@@ -3,7 +3,7 @@ title: Terms
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the terms found. The value is evaluated each time the property is accessed.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.search.results/founddocument/terms/
 ---
 ## FoundDocument.Terms property

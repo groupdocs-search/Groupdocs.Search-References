@@ -3,7 +3,7 @@ title: InMemoryIndex
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets a value indicating whether the index is stored in memory or on disk.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.search/indexsettings/inmemoryindex/
 ---
 ## IndexSettings.InMemoryIndex property

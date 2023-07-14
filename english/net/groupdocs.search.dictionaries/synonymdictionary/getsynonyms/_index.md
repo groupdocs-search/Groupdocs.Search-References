@@ -3,7 +3,7 @@ title: GetSynonyms
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the synonyms for the specified word. The resulting array does not contain the original word.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.dictionaries/synonymdictionary/getsynonyms/
 ---
 ## SynonymDictionary.GetSynonyms method

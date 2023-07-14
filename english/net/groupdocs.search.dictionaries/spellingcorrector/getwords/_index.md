@@ -3,7 +3,7 @@ title: GetWords
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the collection of words that is currently contained in this SpellingCorrectorgroupdocs.search.dictionaries/spellingcorrector.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.dictionaries/spellingcorrector/getwords/
 ---
 ## SpellingCorrector.GetWords method

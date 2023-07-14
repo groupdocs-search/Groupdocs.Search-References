@@ -19,6 +19,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/aliasdictionary/count) { get; } | Gets the number of aliases contained in the [`AliasDictionary`](../aliasdictionary). |
+| override [DictionaryType](../../groupdocs.search.dictionaries/aliasdictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -28,7 +29,7 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange)(AliasReplacementPair[]) | Adds the specified collection of alias/replacement pairs to this instance of the [`AliasDictionary`](../aliasdictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_1)(IEnumerable&lt;AliasReplacementPair&gt;) | Adds the specified collection of alias/replacement pairs to this instance of the [`AliasDictionary`](../aliasdictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/aliasdictionary/addrange#addrange_2)(IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;) | Adds the specified collection of alias/replacement pairs to this instance of the [`AliasDictionary`](../aliasdictionary). |
-| [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Removes all aliases from a [`AliasDictionary`](../aliasdictionary) object. |
+| override [Clear](../../groupdocs.search.dictionaries/aliasdictionary/clear)() | Removes all aliases from a [`AliasDictionary`](../aliasdictionary) object. |
 | [Contains](../../groupdocs.search.dictionaries/aliasdictionary/contains)(string) | Determines whether an [`AliasDictionary`](../aliasdictionary) object contains the specified alias. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/aliasdictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

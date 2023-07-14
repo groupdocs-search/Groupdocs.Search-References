@@ -1,14 +1,14 @@
 ---
 title: ErrorOccurred
 second_title: GroupDocs.Search for .NET API Reference
-description: Occurs when an error happens during an index operation.
+description: Occurs when an error occurs during an index operation.
 type: docs
 weight: 10
 url: /net/groupdocs.search.events/eventhub/erroroccurred/
 ---
 ## EventHub.ErrorOccurred event
 
-Occurs when an error happens during an index operation.
+Occurs when an error occurs during an index operation.
 
 ```csharp
 public event EventHandler<IndexErrorEventArgs> ErrorOccurred;
