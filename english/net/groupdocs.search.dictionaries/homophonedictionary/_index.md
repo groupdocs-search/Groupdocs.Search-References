@@ -3,7 +3,7 @@ title: HomophoneDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of heterographic homophones.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.search.dictionaries/homophonedictionary/
 ---
 ## HomophoneDictionary class
@@ -19,6 +19,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/homophonedictionary/count) { get; } | Gets the number of words contained in this [`HomophoneDictionary`](../homophonedictionary). |
+| override [DictionaryType](../../groupdocs.search.dictionaries/homophonedictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -26,7 +27,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 | --- | --- |
 | [AddRange](../../groupdocs.search.dictionaries/homophonedictionary/addrange#addrange)(IEnumerable&lt;string[]&gt;) | Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../homophonedictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/homophonedictionary/addrange#addrange_1)(string[][]) | Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../homophonedictionary). |
-| [Clear](../../groupdocs.search.dictionaries/homophonedictionary/clear)() | Removes all words from a [`HomophoneDictionary`](../homophonedictionary) object. |
+| override [Clear](../../groupdocs.search.dictionaries/homophonedictionary/clear)() | Removes all words from a [`HomophoneDictionary`](../homophonedictionary) object. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetAllHomophoneGroups](../../groupdocs.search.dictionaries/homophonedictionary/getallhomophonegroups)() | Gets all groups of homophones contained in this dictionary. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/homophonedictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

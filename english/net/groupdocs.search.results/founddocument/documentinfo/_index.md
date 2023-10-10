@@ -3,7 +3,7 @@ title: DocumentInfo
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the document info.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.results/founddocument/documentinfo/
 ---
 ## FoundDocument.DocumentInfo property

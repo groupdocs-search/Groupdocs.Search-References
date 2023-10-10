@@ -3,7 +3,7 @@ title: TermSequences
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the term sequences found.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.results/founddocument/termsequences/
 ---
 ## FoundDocument.TermSequences property

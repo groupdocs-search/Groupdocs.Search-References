@@ -3,7 +3,7 @@ title: Contains
 second_title: GroupDocs.Search for .NET API Reference
 description: Determines whether the dictionary contains a password for the specified document.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.dictionaries/passworddictionary/contains/
 ---
 ## PasswordDictionary.Contains method

@@ -3,7 +3,7 @@ title: ExportDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Exports the dictionary to a file with the specified name.
 type: docs
-weight: 10
+weight: 30
 url: /net/groupdocs.search.dictionaries/dictionarybase/exportdictionary/
 ---
 ## DictionaryBase.ExportDictionary method

@@ -3,7 +3,7 @@ title: DocumentHighlighter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search result highlighter that highlights search results in an entire document text.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.search.highlighters/documenthighlighter/
 ---
 ## DocumentHighlighter class

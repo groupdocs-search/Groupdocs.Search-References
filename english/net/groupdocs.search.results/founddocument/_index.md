@@ -3,7 +3,7 @@ title: FoundDocument
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a found document.
 type: docs
-weight: 1190
+weight: 1240
 url: /net/groupdocs.search.results/founddocument/
 ---
 ## FoundDocument class
@@ -18,6 +18,7 @@ public class FoundDocument
 
 | Name | Description |
 | --- | --- |
+| [Attributes](../../groupdocs.search.results/founddocument/attributes) { get; } | Gets the attributes associated with the found document. The corresponding option must be enabled in the search options to retrieve attributes. |
 | [DocumentInfo](../../groupdocs.search.results/founddocument/documentinfo) { get; } | Gets the document info. |
 | [FoundFields](../../groupdocs.search.results/founddocument/foundfields) { get; } | Gets the document fields found. |
 | [OccurrenceCount](../../groupdocs.search.results/founddocument/occurrencecount) { get; } | Gets the number of occurrences found. |

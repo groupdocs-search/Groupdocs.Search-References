@@ -3,7 +3,7 @@ title: AddRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds the specified collection of words to this instance of the StopWordDictionarygroupdocs.search.dictionaries/stopworddictionary.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/stopworddictionary/addrange/
 ---
 ## AddRange(IEnumerable&lt;string&gt;) {#addrange}

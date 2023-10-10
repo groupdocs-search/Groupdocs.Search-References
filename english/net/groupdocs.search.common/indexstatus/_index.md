@@ -18,15 +18,15 @@ public enum IndexStatus
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ready | `0` | Index is free and ready to change. |
-| Failed | `1` | Index needs to be reloaded due to an error. |
-| Indexing | `2` | Index performs an indexing operation. |
-| Updating | `3` | Index performs an updating operation. |
-| Merging | `4` | Index performs a merging operation. |
-| Optimizing | `5` | Index performs an optimizing operation. |
-| Deleting | `6` | Index performs a deleting operation. |
-| Renaming | `7` | Index performs a renaming operation. |
-| ChangingAttributes | `8` | Index changes attributes. |
+| Ready | `0` | The index is free and ready for changes. |
+| Failed | `1` | The index needs to be reloaded due to an error. |
+| Indexing | `2` | The index performs an indexing operation. |
+| Updating | `3` | The index performs an updating operation. |
+| Merging | `4` | The index performs a merging operation. |
+| Optimizing | `5` | The index performs an optimizing operation. |
+| Deleting | `6` | The index performs a deleting operation. |
+| Renaming | `7` | The index performs a renaming operation. |
+| ChangingAttributes | `8` | The index changes attributes. |
 
 ### See Also
 

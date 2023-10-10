@@ -3,7 +3,7 @@ title: UseWordFormsSearch
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the flag of use different word forms in search. The default value is false.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property

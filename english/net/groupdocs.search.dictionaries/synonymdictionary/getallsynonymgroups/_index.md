@@ -3,7 +3,7 @@ title: GetAllSynonymGroups
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets all groups of synonyms contained in this dictionary.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.dictionaries/synonymdictionary/getallsynonymgroups/
 ---
 ## SynonymDictionary.GetAllSynonymGroups method

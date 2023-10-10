@@ -3,7 +3,7 @@ title: RemoveRange
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes the specified collection of character replacements from this instance of the CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/removerange/
 ---
 ## RemoveRange(IEnumerable&lt;char&gt;) {#removerange_1}

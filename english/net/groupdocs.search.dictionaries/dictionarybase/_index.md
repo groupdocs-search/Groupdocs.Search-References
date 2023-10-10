@@ -14,10 +14,17 @@ Represents the base class for a dictionary.
 public abstract class DictionaryBase
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| abstract [DictionaryType](../../groupdocs.search.dictionaries/dictionarybase/dictionarytype) { get; } | Gets the dictionary type. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| abstract [Clear](../../groupdocs.search.dictionaries/dictionarybase/clear)() | Clears the dictionary. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | Imports a dictionary from the specified file. |
 

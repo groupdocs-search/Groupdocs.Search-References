@@ -3,7 +3,7 @@ title: Clear
 second_title: GroupDocs.Search for .NET API Reference
 description: Removes all aliases from a AliasDictionarygroupdocs.search.dictionaries/aliasdictionary object.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.dictionaries/aliasdictionary/clear/
 ---
 ## AliasDictionary.Clear method
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/aliasdictionary/clear/
 Removes all aliases from a [`AliasDictionary`](../../aliasdictionary) object.
 
 ```csharp
-public void Clear()
+public override void Clear()
 ```
 
 ### See Also

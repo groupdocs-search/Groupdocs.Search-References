@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a spelling corrector for terms in a query.
 type: docs
-weight: 470
+weight: 480
 url: /net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class
@@ -19,6 +19,7 @@ public class SpellingCorrector : DictionaryBase
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/spellingcorrector/count) { get; } | Gets the number of words contained in this [`SpellingCorrector`](../spellingcorrector). |
+| override [DictionaryType](../../groupdocs.search.dictionaries/spellingcorrector/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -26,7 +27,7 @@ public class SpellingCorrector : DictionaryBase
 | --- | --- |
 | [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange)(IEnumerable&lt;string&gt;) | Adds the specified collection of words to this instance of the [`SpellingCorrector`](../spellingcorrector). |
 | [AddRange](../../groupdocs.search.dictionaries/spellingcorrector/addrange#addrange_1)(string[]) | Adds the specified collection of words to this instance of the [`SpellingCorrector`](../spellingcorrector). |
-| [Clear](../../groupdocs.search.dictionaries/spellingcorrector/clear)() | Removes all words from a [`SpellingCorrector`](../spellingcorrector) object. |
+| override [Clear](../../groupdocs.search.dictionaries/spellingcorrector/clear)() | Removes all words from a [`SpellingCorrector`](../spellingcorrector) object. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetWords](../../groupdocs.search.dictionaries/spellingcorrector/getwords)() | Gets the collection of words that is currently contained in this [`SpellingCorrector`](../spellingcorrector). |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | Imports a dictionary from the specified file. |

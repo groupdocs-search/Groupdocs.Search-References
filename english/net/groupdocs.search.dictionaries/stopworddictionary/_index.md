@@ -3,7 +3,7 @@ title: StopWordDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of stop words.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.search.dictionaries/stopworddictionary/
 ---
 ## StopWordDictionary class
@@ -19,6 +19,7 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 | Name | Description |
 | --- | --- |
 | [Count](../../groupdocs.search.dictionaries/stopworddictionary/count) { get; } | Gets the number of stop words contained in the [`StopWordDictionary`](../stopworddictionary). |
+| override [DictionaryType](../../groupdocs.search.dictionaries/stopworddictionary/dictionarytype) { get; } | Gets the dictionary type. |
 
 ## Methods
 
@@ -26,7 +27,7 @@ public class StopWordDictionary : DictionaryBase, IEnumerable<string>
 | --- | --- |
 | [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange)(IEnumerable&lt;string&gt;) | Adds the specified collection of words to this instance of the [`StopWordDictionary`](../stopworddictionary). |
 | [AddRange](../../groupdocs.search.dictionaries/stopworddictionary/addrange#addrange_1)(string[]) | Adds the specified collection of words to this instance of the [`StopWordDictionary`](../stopworddictionary). |
-| [Clear](../../groupdocs.search.dictionaries/stopworddictionary/clear)() | Removes all words from a [`StopWordDictionary`](../stopworddictionary) object. |
+| override [Clear](../../groupdocs.search.dictionaries/stopworddictionary/clear)() | Removes all words from a [`StopWordDictionary`](../stopworddictionary) object. |
 | [Contains](../../groupdocs.search.dictionaries/stopworddictionary/contains)(string) | Determines whether a [`StopWordDictionary`](../stopworddictionary) object contains the specified word. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/stopworddictionary/getenumerator)() | Returns an enumerator that iterates through the collection. |

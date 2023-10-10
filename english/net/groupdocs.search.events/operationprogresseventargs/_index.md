@@ -1,14 +1,14 @@
 ---
 title: OperationProgressEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of the indexing operation progress is updated.
+description: Represents the arguments for the progress change event of the indexing operation.
 type: docs
-weight: 560
+weight: 570
 url: /net/groupdocs.search.events/operationprogresseventargs/
 ---
 ## OperationProgressEventArgs class
 
-Represents arguments for the event of the indexing operation progress is updated.
+Represents the arguments for the progress change event of the indexing operation.
 
 ```csharp
 public class OperationProgressEventArgs : BaseIndexEventArgs

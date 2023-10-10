@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the search document filter. SearchDocumentFiltergroupdocs.search.options/searchoptions/searchdocumentfilter works on the inclusion logic. Use SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter class for creation of a search document filter instances. The default value is null which means that all found documents will be returned.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.options/searchoptions/searchdocumentfilter/
 ---
 ## SearchOptions.SearchDocumentFilter property

@@ -3,7 +3,7 @@ title: Relevance
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the relevance of search result.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.search.results/founddocument/relevance/
 ---
 ## FoundDocument.Relevance property

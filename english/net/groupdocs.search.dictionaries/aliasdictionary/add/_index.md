@@ -3,7 +3,7 @@ title: Add
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds the specified pair of alias and associated text to this instance of the AliasDictionarygroupdocs.search.dictionaries/aliasdictionary.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.dictionaries/aliasdictionary/add/
 ---
 ## AliasDictionary.Add method
