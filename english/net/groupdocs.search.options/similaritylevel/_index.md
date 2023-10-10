@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as inversely proportional to the word length.
 type: docs
-weight: 1110
+weight: 1100
 url: /net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class

@@ -3,7 +3,7 @@ title: DocumentDeletedEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the event of a document deletion is finished.
 type: docs
-weight: 1380
+weight: 1370
 url: /net/groupdocs.search.scaling.events/documentdeletedeventargs/
 ---
 ## DocumentDeletedEventArgs class

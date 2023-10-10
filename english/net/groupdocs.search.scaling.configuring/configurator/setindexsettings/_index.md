@@ -14,6 +14,10 @@ Starts configuring the index settings for each shard in the search network.
 public IndexSettingsConfigurator SetIndexSettings()
 ```
 
+### Return Value
+
+The index settings configurator.
+
 ### See Also
 
 * class [IndexSettingsConfigurator](../../indexsettingsconfigurator)

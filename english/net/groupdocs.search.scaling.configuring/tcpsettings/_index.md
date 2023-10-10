@@ -3,7 +3,7 @@ title: TcpSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a TCP network settings.
 type: docs
-weight: 1360
+weight: 1350
 url: /net/groupdocs.search.scaling.configuring/tcpsettings/
 ---
 ## TcpSettings class
@@ -19,6 +19,14 @@ public class TcpSettings : INetworkSettings
 | Name | Description |
 | --- | --- |
 | [TcpSettings](tcpsettings)(int, int, int) | Initializes a new instance of the [`TcpSettings`](../tcpsettings) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ListeningPort](../../groupdocs.search.scaling.configuring/tcpsettings/listeningport) { get; } | Gets the listening port. |
+| [ReceiveTimeout](../../groupdocs.search.scaling.configuring/tcpsettings/receivetimeout) { get; } | Gets the receive timeout in milliseconds. |
+| [SendTimeout](../../groupdocs.search.scaling.configuring/tcpsettings/sendtimeout) { get; } | Gets the send timeout in milliseconds. |
 
 ### See Also
 

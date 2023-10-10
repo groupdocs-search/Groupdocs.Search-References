@@ -14,6 +14,10 @@ Gets the index of the node from which the result was received.
 public int NodeIndex { get; }
 ```
 
+### Property Value
+
+The index of the node from which the result was received.
+
 ### See Also
 
 * class [NetworkImageSearchResult](../../networkimagesearchresult)

@@ -18,6 +18,10 @@ public IndexSettingsConfigurator SetSearchThreads(NumberOfThreads numberOfThread
 | --- | --- | --- |
 | numberOfThreads | NumberOfThreads | The number of search threads. |
 
+### Return Value
+
+The index settings configurator.
+
 ### See Also
 
 * enum [NumberOfThreads](../../../groupdocs.search.options/numberofthreads)

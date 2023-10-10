@@ -3,7 +3,7 @@ title: ChangeAttributesOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the change attributes operation.
 type: docs
-weight: 770
+weight: 760
 url: /net/groupdocs.search.options/changeattributesoptions/
 ---
 ## ChangeAttributesOptions class

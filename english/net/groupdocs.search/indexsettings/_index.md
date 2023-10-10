@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the index settings that allow to customize the indexing operations.
 type: docs
-weight: 730
+weight: 720
 url: /net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class

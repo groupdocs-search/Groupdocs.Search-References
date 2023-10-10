@@ -3,7 +3,7 @@ title: Configurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the search network configurator.
 type: docs
-weight: 1320
+weight: 1310
 url: /net/groupdocs.search.scaling.configuring/configurator/
 ---
 ## Configurator class

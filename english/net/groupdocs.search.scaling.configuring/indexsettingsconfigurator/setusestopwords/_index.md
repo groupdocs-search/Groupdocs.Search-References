@@ -18,6 +18,10 @@ public IndexSettingsConfigurator SetUseStopWords(bool value)
 | --- | --- | --- |
 | value | Boolean | The flag value. |
 
+### Return Value
+
+The index settings configurator.
+
 ### See Also
 
 * class [IndexSettingsConfigurator](../../indexsettingsconfigurator)

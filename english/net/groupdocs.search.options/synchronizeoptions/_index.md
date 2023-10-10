@@ -3,7 +3,7 @@ title: SynchronizeOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the synchronize operation.
 type: docs
-weight: 1150
+weight: 1140
 url: /net/groupdocs.search.options/synchronizeoptions/
 ---
 ## SynchronizeOptions class

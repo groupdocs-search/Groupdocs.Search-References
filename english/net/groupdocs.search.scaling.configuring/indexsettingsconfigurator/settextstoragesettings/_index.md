@@ -19,6 +19,10 @@ public IndexSettingsConfigurator SetTextStorageSettings(bool isUsed, Compression
 | isUsed | Boolean | The flag of using the text storage in index. |
 | compression | Compression | The compression level. |
 
+### Return Value
+
+The index settings configurator.
+
 ### See Also
 
 * enum [Compression](../../../groupdocs.search.options/compression)

@@ -3,7 +3,7 @@ title: NodeConfigurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the search network node configurator.
 type: docs
-weight: 1350
+weight: 1340
 url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/
 ---
 ## NodeConfigurator class

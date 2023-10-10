@@ -20,7 +20,7 @@ The event hub for subscribing to events.
 
 ### See Also
 
-* class [NodeEventHub](../../../groupdocs.search.events/nodeeventhub)
+* class [NodeEventHub](../../../groupdocs.search.scaling.events/nodeeventhub)
 * class [SearchNetworkNode](../../searchnetworknode)
 * namespace [GroupDocs.Search.Scaling](../../searchnetworknode)
 * assembly [GroupDocs.Search](../../../)

@@ -18,6 +18,10 @@ public IndexSettingsConfigurator SetIndexType(IndexType indexType)
 | --- | --- | --- |
 | indexType | IndexType | The index type. |
 
+### Return Value
+
+The index settings configurator.
+
 ### See Also
 
 * enum [IndexType](../../../groupdocs.search.options/indextype)

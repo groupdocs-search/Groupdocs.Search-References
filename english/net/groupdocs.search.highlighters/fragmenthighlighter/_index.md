@@ -3,7 +3,7 @@ title: FragmentHighlighter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search result highlighter that highlights search results in text fragments.
 type: docs
-weight: 670
+weight: 660
 url: /net/groupdocs.search.highlighters/fragmenthighlighter/
 ---
 ## FragmentHighlighter class

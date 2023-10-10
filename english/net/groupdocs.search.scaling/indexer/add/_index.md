@@ -16,7 +16,7 @@ public void Add(Document[] documents, string[] passwords, IndexingOptions option
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documents | Document[] | The documents from file system, stream, or structure. |
+| documents | Document[] | The documents from stream or structure. |
 | passwords | String[] | The document passwords. |
 | options | IndexingOptions | The add options. |
 

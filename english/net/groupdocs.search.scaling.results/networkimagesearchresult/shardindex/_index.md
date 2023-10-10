@@ -14,6 +14,10 @@ Gets the index of the shard from which the result was received.
 public int ShardIndex { get; }
 ```
 
+### Property Value
+
+The index of the shard from which the result was received.
+
 ### See Also
 
 * class [NetworkImageSearchResult](../../networkimagesearchresult)
