@@ -3,7 +3,7 @@ title: DeleteOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the delete operation.
 type: docs
-weight: 830
+weight: 810
 url: /net/groupdocs.search.options/deleteoptions/
 ---
 ## DeleteOptions class

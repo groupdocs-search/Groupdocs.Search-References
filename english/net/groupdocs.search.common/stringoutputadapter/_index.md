@@ -18,7 +18,7 @@ public class StringOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [StringOutputAdapter](stringoutputadapter#constructor_1)(OutputFormat) | Initializes a new instance of the [`StringOutputAdapter`](../stringoutputadapter) class. |
+| [StringOutputAdapter](stringoutputadapter)(OutputFormat) | Initializes a new instance of the [`StringOutputAdapter`](../stringoutputadapter) class. |
 
 ## Properties
 

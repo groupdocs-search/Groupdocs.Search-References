@@ -3,7 +3,7 @@ title: StatusChangedEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for a search network status change event.
 type: docs
-weight: 1430
+weight: 1410
 url: /net/groupdocs.search.scaling.events/statuschangedeventargs/
 ---
 ## StatusChangedEventArgs class

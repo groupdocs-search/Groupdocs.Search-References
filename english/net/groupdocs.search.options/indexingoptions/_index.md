@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the indexing operation.
 type: docs
-weight: 970
+weight: 950
 url: /net/groupdocs.search.options/indexingoptions/
 ---
 ## IndexingOptions class

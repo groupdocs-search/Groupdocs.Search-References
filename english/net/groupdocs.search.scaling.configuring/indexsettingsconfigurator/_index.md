@@ -3,7 +3,7 @@ title: IndexSettingsConfigurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the index settings configurator for each shard in the search network.
 type: docs
-weight: 1330
+weight: 1310
 url: /net/groupdocs.search.scaling.configuring/indexsettingsconfigurator/
 ---
 ## IndexSettingsConfigurator class

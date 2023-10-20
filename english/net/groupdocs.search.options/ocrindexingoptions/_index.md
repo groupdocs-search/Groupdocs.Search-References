@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for OCR processing and indexing recognized text.
 type: docs
-weight: 1040
+weight: 1020
 url: /net/groupdocs.search.options/ocrindexingoptions/
 ---
 ## OcrIndexingOptions class
