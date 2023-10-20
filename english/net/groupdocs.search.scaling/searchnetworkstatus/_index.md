@@ -3,7 +3,7 @@ title: SearchNetworkStatus
 second_title: GroupDocs.Search for .NET API Reference
 description: Specifies a search network status.
 type: docs
-weight: 1520
+weight: 1500
 url: /net/groupdocs.search.scaling/searchnetworkstatus/
 ---
 ## SearchNetworkStatus enumeration

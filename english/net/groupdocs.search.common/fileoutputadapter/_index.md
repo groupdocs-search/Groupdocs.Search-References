@@ -18,7 +18,7 @@ public class FileOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [FileOutputAdapter](fileoutputadapter#constructor)(OutputFormat, string) | Initializes a new instance of the [`FileOutputAdapter`](../fileoutputadapter) class. |
+| [FileOutputAdapter](fileoutputadapter)(OutputFormat, string) | Initializes a new instance of the [`FileOutputAdapter`](../fileoutputadapter) class. |
 
 ## Properties
 

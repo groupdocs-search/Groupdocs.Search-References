@@ -18,7 +18,7 @@ public class StreamOutputAdapter : OutputAdapter
 
 | Name | Description |
 | --- | --- |
-| [StreamOutputAdapter](streamoutputadapter#constructor)(OutputFormat, Stream) | Initializes a new instance of the [`StreamOutputAdapter`](../streamoutputadapter) class. |
+| [StreamOutputAdapter](streamoutputadapter)(OutputFormat, Stream) | Initializes a new instance of the [`StreamOutputAdapter`](../streamoutputadapter) class. |
 
 ## Properties
 

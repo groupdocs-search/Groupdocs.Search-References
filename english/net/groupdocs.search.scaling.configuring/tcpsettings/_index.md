@@ -3,7 +3,7 @@ title: TcpSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a TCP network settings.
 type: docs
-weight: 1350
+weight: 1330
 url: /net/groupdocs.search.scaling.configuring/tcpsettings/
 ---
 ## TcpSettings class
