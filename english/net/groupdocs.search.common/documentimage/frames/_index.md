@@ -1,14 +1,14 @@
 ---
 title: Frames
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets an image frames.
+description: Gets the image frames.
 type: docs
 weight: 20
 url: /net/groupdocs.search.common/documentimage/frames/
 ---
 ## DocumentImage.Frames property
 
-Gets an image frames.
+Gets the image frames.
 
 ```csharp
 public ImageFrame[] Frames { get; }

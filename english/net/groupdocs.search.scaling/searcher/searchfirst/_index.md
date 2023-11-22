@@ -6,6 +6,33 @@ type: docs
 weight: 50
 url: /net/groupdocs.search.scaling/searcher/searchfirst/
 ---
+## SearchFirst(string, SearchOptions) {#searchfirst_2}
+
+Starts a search in the distributed search index.
+
+```csharp
+public NetworkSearchResult SearchFirst(string query, SearchOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | String | The search query. |
+| options | SearchOptions | The search options. |
+
+### Return Value
+
+The search result.
+
+### See Also
+
+* class [NetworkSearchResult](../../../groupdocs.search.scaling.results/networksearchresult)
+* class [SearchOptions](../../../groupdocs.search.options/searchoptions)
+* class [Searcher](../../searcher)
+* namespace [GroupDocs.Search.Scaling](../../searcher)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
 ## SearchFirst(SearchQuery, SearchOptions) {#searchfirst_1}
 
 Starts a search in the distributed search index.

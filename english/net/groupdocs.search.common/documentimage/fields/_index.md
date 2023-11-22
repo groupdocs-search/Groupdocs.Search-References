@@ -1,14 +1,14 @@
 ---
 title: Fields
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets an extracted fields.
+description: Gets the extracted fields.
 type: docs
 weight: 10
 url: /net/groupdocs.search.common/documentimage/fields/
 ---
 ## DocumentImage.Fields property
 
-Gets an extracted fields.
+Gets the extracted fields.
 
 ```csharp
 public DocumentField[] Fields { get; }

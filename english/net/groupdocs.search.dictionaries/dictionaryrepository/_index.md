@@ -1,14 +1,14 @@
 ---
 title: DictionaryRepository
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a repository of all dictionaries in an Index.
+description: Represents a repository of all dictionaries in the Index.
 type: docs
 weight: 420
 url: /net/groupdocs.search.dictionaries/dictionaryrepository/
 ---
 ## DictionaryRepository class
 
-Represents a repository of all dictionaries in an Index.
+Represents a repository of all dictionaries in the Index.
 
 ```csharp
 public class DictionaryRepository

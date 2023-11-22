@@ -18,9 +18,9 @@ public class DocumentImage
 
 | Name | Description |
 | --- | --- |
-| [Fields](../../groupdocs.search.common/documentimage/fields) { get; } | Gets an extracted fields. |
-| [Frames](../../groupdocs.search.common/documentimage/frames) { get; } | Gets an image frames. |
-| [ImageIndex](../../groupdocs.search.common/documentimage/imageindex) { get; } | Gets an ordinal number of the image in the document. |
+| [Fields](../../groupdocs.search.common/documentimage/fields) { get; } | Gets the extracted fields. |
+| [Frames](../../groupdocs.search.common/documentimage/frames) { get; } | Gets the image frames. |
+| [ImageIndex](../../groupdocs.search.common/documentimage/imageindex) { get; } | Gets the ordinal number of the image in the document. |
 
 ### See Also
 

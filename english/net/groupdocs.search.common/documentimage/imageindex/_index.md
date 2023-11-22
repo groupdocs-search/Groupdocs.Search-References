@@ -1,14 +1,14 @@
 ---
 title: ImageIndex
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets an ordinal number of the image in the document.
+description: Gets the ordinal number of the image in the document.
 type: docs
 weight: 30
 url: /net/groupdocs.search.common/documentimage/imageindex/
 ---
 ## DocumentImage.ImageIndex property
 
-Gets an ordinal number of the image in the document.
+Gets the ordinal number of the image in the document.
 
 ```csharp
 public int ImageIndex { get; }
