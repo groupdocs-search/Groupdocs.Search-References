@@ -18,7 +18,7 @@ The namespace provides classes of various dictionaries.
 | [CharacterReplacementDictionary](./characterreplacementdictionary) | Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make case-insensitive index. |
 | [CharacterReplacementPair](./characterreplacementpair) | Represents a character/replacement pair. |
 | [DictionaryBase](./dictionarybase) | Represents the base class for a dictionary. |
-| [DictionaryRepository](./dictionaryrepository) | Represents a repository of all dictionaries in an Index. |
+| [DictionaryRepository](./dictionaryrepository) | Represents a repository of all dictionaries in the Index. |
 | [EnglishWordFormsProvider](./englishwordformsprovider) | Represents an English word forms provider. |
 | [HomophoneDictionary](./homophonedictionary) | Represents a dictionary of heterographic homophones. |
 | [PasswordDictionary](./passworddictionary) | Represents a dictionary of document passwords. |
