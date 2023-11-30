@@ -22,9 +22,9 @@ public sealed class Searcher
 | [GetIndexedDocumentItems](../../groupdocs.search.scaling/searcher/getindexeddocumentitems)(NetworkDocumentInfo) | Gets an array of nested items of the specified document (for container documents such as ZIP, OST, PST). |
 | [GetIndexedDocuments](../../groupdocs.search.scaling/searcher/getindexeddocuments)(int) | Gets an array of all indexed documents. |
 | [Highlight](../../groupdocs.search.scaling/searcher/highlight)(NetworkFoundDocument, Highlighter, HighlightOptions) | Generates HTML formatted text with highlighted found terms. |
-| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst)(SearchImage, ImageSearchOptions) | Performs a reverse image search in the distributed search index. |
-| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_1)(SearchQuery, SearchOptions) | Starts a search in the distributed search index. |
-| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_2)(string, SearchOptions) | Starts a search in the distributed search index. |
+| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst)(SearchImage, ImageSearchOptions) | Starts a reverse image search in the distributed search index. |
+| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_1)(SearchQuery, SearchOptions) | Starts a search with a query in object form in the distributed search index. |
+| [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_2)(string, SearchOptions) | Starts a search with a query in text form in the distributed search index. |
 | [SearchNext](../../groupdocs.search.scaling/searcher/searchnext#searchnext)(NetworkImageSearchToken) | Continues a reverse image search in the distributed search index. |
 | [SearchNext](../../groupdocs.search.scaling/searcher/searchnext#searchnext_1)(NetworkSearchToken) | Continues a search in the distributed search index. |
 

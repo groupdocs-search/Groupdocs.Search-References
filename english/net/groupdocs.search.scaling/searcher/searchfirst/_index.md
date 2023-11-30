@@ -1,14 +1,14 @@
 ---
 title: SearchFirst
 second_title: GroupDocs.Search for .NET API Reference
-description: Starts a search in the distributed search index.
+description: Starts a search with a query in text form in the distributed search index.
 type: docs
 weight: 50
 url: /net/groupdocs.search.scaling/searcher/searchfirst/
 ---
 ## SearchFirst(string, SearchOptions) {#searchfirst_2}
 
-Starts a search in the distributed search index.
+Starts a search with a query in text form in the distributed search index.
 
 ```csharp
 public NetworkSearchResult SearchFirst(string query, SearchOptions options)
@@ -35,7 +35,7 @@ The search result.
 
 ## SearchFirst(SearchQuery, SearchOptions) {#searchfirst_1}
 
-Starts a search in the distributed search index.
+Starts a search with a query in object form in the distributed search index.
 
 ```csharp
 public NetworkSearchResult SearchFirst(SearchQuery query, SearchOptions options)
@@ -63,7 +63,7 @@ The search result.
 
 ## SearchFirst(SearchImage, ImageSearchOptions) {#searchfirst}
 
-Performs a reverse image search in the distributed search index.
+Starts a reverse image search in the distributed search index.
 
 ```csharp
 public NetworkImageSearchResult SearchFirst(SearchImage image, ImageSearchOptions options)
