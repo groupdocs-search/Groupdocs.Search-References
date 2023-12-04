@@ -14,6 +14,15 @@ Represents a search network configuration.
 public class Configuration
 ```
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [Load](../../groupdocs.search.scaling.configuring/configuration/load#load)(Stream) | Loads a search network configuration from a stream. |
+| static [Load](../../groupdocs.search.scaling.configuring/configuration/load#load_1)(string) | Loads a search network configuration from a file. |
+| [Save](../../groupdocs.search.scaling.configuring/configuration/save#save)(Stream) | Saves this configuration to a stream. |
+| [Save](../../groupdocs.search.scaling.configuring/configuration/save#save_1)(string) | Saves this configuration to a file. |
+
 ### See Also
 
 * namespace [GroupDocs.Search.Scaling.Configuring](../../groupdocs.search.scaling.configuring)
