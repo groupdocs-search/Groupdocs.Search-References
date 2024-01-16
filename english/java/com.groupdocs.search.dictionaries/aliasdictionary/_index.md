@@ -1,21 +1,18 @@
 ---
 title: AliasDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of aliases.
+description: Defines interface of a dictionary of aliases.
 type: docs
-weight: 10
+weight: 14
 url: /java/com.groupdocs.search.dictionaries/aliasdictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class AliasDictionary extends DictionaryBase implements Iterable<String>
+public interface AliasDictionary extends DictionaryBase, Iterable<String>
 ```
 
-Represents a dictionary of aliases.
+Defines interface of a dictionary of aliases.
 
 **Learn more**
 

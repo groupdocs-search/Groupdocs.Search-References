@@ -3,16 +3,21 @@ title: SearchImage
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an image to search.
 type: docs
-weight: 31
+weight: 29
 url: /java/com.groupdocs.search.common/searchimage/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.search.SearchImageBase](../../com.groupdocs.search/searchimagebase)
+java.lang.Object
 ```
-public class SearchImage extends SearchImageBase
+public abstract class SearchImage
 ```
 
 Represents an image to search.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SearchImage()](#SearchImage--) |  |
 ## Methods
 
 | Method | Description |
@@ -21,6 +26,12 @@ Represents an image to search.
 | [create(String filePath, int imageIndex)](#create-java.lang.String-int-) | Creates an image from a file to search. |
 | [create(InputStream stream)](#create-java.io.InputStream-) | Creates an image from a stream to search. |
 | [create(InputStream stream, int imageIndex)](#create-java.io.InputStream-int-) | Creates an image from a stream to search. |
+### SearchImage() {#SearchImage--}
+```
+public SearchImage()
+```
+
+
 ### create(String filePath) {#create-java.lang.String-}
 ```
 public static SearchImage create(String filePath)

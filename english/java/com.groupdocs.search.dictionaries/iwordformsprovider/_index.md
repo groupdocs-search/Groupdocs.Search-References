@@ -3,7 +3,7 @@ title: IWordFormsProvider
 second_title: GroupDocs.Search for Java API Reference
 description: Defines interface of a word forms provider.
 type: docs
-weight: 23
+weight: 19
 url: /java/com.groupdocs.search.dictionaries/iwordformsprovider/
 ---```
 public interface IWordFormsProvider

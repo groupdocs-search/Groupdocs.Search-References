@@ -3,7 +3,7 @@ title: LicenseRestrictionException
 second_title: GroupDocs.Search for Java API Reference
 description: The exception that is thrown when a license restriction is triggered.
 type: docs
-weight: 22
+weight: 21
 url: /java/com.groupdocs.search/licenserestrictionexception/
 ---
 **Inheritance:**

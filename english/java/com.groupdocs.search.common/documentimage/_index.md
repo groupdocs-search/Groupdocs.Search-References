@@ -3,50 +3,61 @@ title: DocumentImage
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a document image data.
 type: docs
-weight: 18
+weight: 16
 url: /java/com.groupdocs.search.common/documentimage/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class DocumentImage
+public abstract class DocumentImage
 ```
 
 Represents a document image data.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DocumentImage()](#DocumentImage--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getImageIndex()](#getImageIndex--) | Gets an ordinal number of the image in the document. |
-| [getFields()](#getFields--) | Gets an extracted fields. |
-| [getFrames()](#getFrames--) | Gets an image frames. |
+| [getImageIndex()](#getImageIndex--) | Gets the ordinal number of the image in the document. |
+| [getFields()](#getFields--) | Gets the extracted fields. |
+| [getFrames()](#getFrames--) | Gets the image frames. |
+### DocumentImage() {#DocumentImage--}
+```
+public DocumentImage()
+```
+
+
 ### getImageIndex() {#getImageIndex--}
 ```
-public final int getImageIndex()
+public abstract int getImageIndex()
 ```
 
 
-Gets an ordinal number of the image in the document.
+Gets the ordinal number of the image in the document.
 
 **Returns:**
 int - The ordinal number of the image in the document.
 ### getFields() {#getFields--}
 ```
-public final DocumentField[] getFields()
+public abstract DocumentField[] getFields()
 ```
 
 
-Gets an extracted fields.
+Gets the extracted fields.
 
 **Returns:**
 com.groupdocs.search.common.DocumentField[] - The extracted fields.
 ### getFrames() {#getFrames--}
 ```
-public final ImageFrame[] getFrames()
+public abstract ImageFrame[] getFrames()
 ```
 
 
-Gets an image frames.
+Gets the image frames.
 
 **Returns:**
 com.groupdocs.search.common.ImageFrame[] - The image frames.

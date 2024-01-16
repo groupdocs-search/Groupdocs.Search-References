@@ -3,7 +3,7 @@ title: IContainerItemExtractor
 second_title: GroupDocs.Search for Java API Reference
 description: Provides methods for extracting items from container documents.
 type: docs
-weight: 37
+weight: 35
 url: /java/com.groupdocs.search.common/icontaineritemextractor/
 ---
 **All Implemented Interfaces:**

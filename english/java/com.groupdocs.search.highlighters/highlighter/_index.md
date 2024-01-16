@@ -8,8 +8,11 @@ url: /java/com.groupdocs.search.highlighters/highlighter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.highlighters.IHighlighter](../../com.groupdocs.search.highlighters/ihighlighter)
 ```
-public abstract class Highlighter extends ResultBuilderFactory
+public abstract class Highlighter extends ResultBuilderFactory implements IHighlighter
 ```
 
 Represents the base class of a search result highlighter.

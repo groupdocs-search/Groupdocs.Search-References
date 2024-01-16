@@ -7,7 +7,7 @@ weight: 17
 url: /java/com.groupdocs.search.events/indexerroreventargs/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
+java.lang.Object, [com.groupdocs.search.events.EventArgs](../../com.groupdocs.search.events/eventargs), [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
 ```
 public class IndexErrorEventArgs extends BaseIndexEventArgs
 ```

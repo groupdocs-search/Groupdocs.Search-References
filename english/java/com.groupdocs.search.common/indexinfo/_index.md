@@ -3,16 +3,21 @@ title: IndexInfo
 second_title: GroupDocs.Search for Java API Reference
 description: Contains basic information on an Index.
 type: docs
-weight: 26
+weight: 24
 url: /java/com.groupdocs.search.common/indexinfo/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class IndexInfo
+public abstract class IndexInfo
 ```
 
 Contains basic information on an  Index .
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [IndexInfo()](#IndexInfo--) |  |
 ## Methods
 
 | Method | Description |
@@ -23,9 +28,15 @@ Contains basic information on an  Index .
 | [getVersion()](#getVersion--) | Gets the index version. |
 | [getSegmentCount()](#getSegmentCount--) | Gets the number of index segments. |
 | [getTermCount()](#getTermCount--) | Gets the number of words in the index. |
+### IndexInfo() {#IndexInfo--}
+```
+public IndexInfo()
+```
+
+
 ### getIndexId() {#getIndexId--}
 ```
-public final UUID getIndexId()
+public abstract UUID getIndexId()
 ```
 
 
@@ -35,7 +46,7 @@ Gets the index unique identifier.
 java.util.UUID - The index unique identifier.
 ### getIndexFolder() {#getIndexFolder--}
 ```
-public final String getIndexFolder()
+public abstract String getIndexFolder()
 ```
 
 
@@ -45,7 +56,7 @@ Gets the full folder name where index is located.
 java.lang.String - The full folder name where index is located.
 ### getIndexStatus() {#getIndexStatus--}
 ```
-public final IndexStatus getIndexStatus()
+public abstract IndexStatus getIndexStatus()
 ```
 
 
@@ -55,7 +66,7 @@ Gets the index status.
 [IndexStatus](../../com.groupdocs.search.common/indexstatus) - The index status.
 ### getVersion() {#getVersion--}
 ```
-public final String getVersion()
+public abstract String getVersion()
 ```
 
 
@@ -65,7 +76,7 @@ Gets the index version.
 java.lang.String - The index version.
 ### getSegmentCount() {#getSegmentCount--}
 ```
-public final int getSegmentCount()
+public abstract int getSegmentCount()
 ```
 
 
@@ -75,7 +86,7 @@ Gets the number of index segments.
 int - The number of index segments.
 ### getTermCount() {#getTermCount--}
 ```
-public final int getTermCount()
+public abstract int getTermCount()
 ```
 
 

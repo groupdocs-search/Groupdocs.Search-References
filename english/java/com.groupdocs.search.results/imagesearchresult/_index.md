@@ -9,19 +9,30 @@ url: /java/com.groupdocs.search.results/imagesearchresult/
 **Inheritance:**
 java.lang.Object
 ```
-public class ImageSearchResult
+public abstract class ImageSearchResult
 ```
 
 Represents the result of a reverse image search.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ImageSearchResult()](#ImageSearchResult--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getImageCount()](#getImageCount--) | Gets the number of images found. |
 | [getFoundImage(int index)](#getFoundImage-int-) | Gets the found image by index. |
+### ImageSearchResult() {#ImageSearchResult--}
+```
+public ImageSearchResult()
+```
+
+
 ### getImageCount() {#getImageCount--}
 ```
-public final int getImageCount()
+public abstract int getImageCount()
 ```
 
 
@@ -31,7 +42,7 @@ Gets the number of images found.
 int - The number of images found.
 ### getFoundImage(int index) {#getFoundImage-int-}
 ```
-public final FoundImageFrame getFoundImage(int index)
+public abstract FoundImageFrame getFoundImage(int index)
 ```
 
 

@@ -3,13 +3,16 @@ title: StringOutputAdapter
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an output adapter that collects output as a System.String.
 type: docs
-weight: 34
+weight: 32
 url: /java/com.groupdocs.search.common/stringoutputadapter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.common.OutputAdapter](../../com.groupdocs.search.common/outputadapter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.common.IStringOutputAdapter](../../com.groupdocs.search.common/istringoutputadapter)
 ```
-public class StringOutputAdapter extends OutputAdapter
+public class StringOutputAdapter extends OutputAdapter implements IStringOutputAdapter
 ```
 
 Represents an output adapter that collects output as a  System.String .

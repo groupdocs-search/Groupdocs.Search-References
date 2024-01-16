@@ -3,7 +3,7 @@ title: EnglishWordFormsProvider
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an English word forms provider.
 type: docs
-weight: 17
+weight: 13
 url: /java/com.groupdocs.search.dictionaries/englishwordformsprovider/
 ---
 **Inheritance:**

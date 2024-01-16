@@ -3,7 +3,7 @@ title: IndexUpdater
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an index updater.
 type: docs
-weight: 21
+weight: 20
 url: /java/com.groupdocs.search/indexupdater/
 ---
 **Inheritance:**

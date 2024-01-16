@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.options/keyboardlayoutcorrectoroptions/
 **Inheritance:**
 java.lang.Object
 ```
-public class KeyboardLayoutCorrectorOptions
+public abstract class KeyboardLayoutCorrectorOptions
 ```
 
 Provides options for the keyboard layout corrector.
@@ -22,15 +22,26 @@ Provides options for the keyboard layout corrector.
 
 [Search options]: https://docs.groupdocs.com/display/searchjava/Search+options
 [Keyboard layout correction]: https://docs.groupdocs.com/display/searchjava/Keyboard+layout+correction
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [KeyboardLayoutCorrectorOptions()](#KeyboardLayoutCorrectorOptions--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getEnabled()](#getEnabled--) | Gets a value indicating whether the keyboard layout corrector is enabled. |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Sets a value indicating whether the keyboard layout corrector is enabled. |
+### KeyboardLayoutCorrectorOptions() {#KeyboardLayoutCorrectorOptions--}
+```
+public KeyboardLayoutCorrectorOptions()
+```
+
+
 ### getEnabled() {#getEnabled--}
 ```
-public final boolean getEnabled()
+public abstract boolean getEnabled()
 ```
 
 
@@ -40,7 +51,7 @@ Gets a value indicating whether the keyboard layout corrector is enabled. The de
 boolean - A value indicating whether the keyboard layout corrector is enabled.
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
-public final void setEnabled(boolean value)
+public abstract void setEnabled(boolean value)
 ```
 
 

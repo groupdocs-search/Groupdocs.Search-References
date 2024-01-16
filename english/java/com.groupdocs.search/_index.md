@@ -27,7 +27,6 @@ IndexRepository is a container class for combining multiple indexes and performi
 | [DocumentFilter](../com.groupdocs.search/documentfilter) | Represents the base class for document filters. |
 | [ExtractedData](../com.groupdocs.search/extracteddata) | Represents data retrieved from a document and prepared for indexing. |
 | [Extractor](../com.groupdocs.search/extractor) | Represents a tool for preliminary data extraction from documents for separating the stage of subsequent fast indexing. |
-| [GroupDocsException](../com.groupdocs.search/groupdocsexception) | Represents base exception in GroupDocs products. |
 | [Index](../com.groupdocs.search/index) | Represents the main class for indexing documents and search through them. |
 | [IndexRepository](../com.groupdocs.search/indexrepository) | Represents a container for combining multiple indexes and performing common operations on them. |
 | [IndexSettings](../com.groupdocs.search/indexsettings) | Represents the index settings that allow to customize the indexing operations. |
@@ -36,5 +35,4 @@ IndexRepository is a container class for combining multiple indexes and performi
 | [Notification](../com.groupdocs.search/notification) | The base class for all notifications to the index. |
 | [PleaseReportException](../com.groupdocs.search/pleasereportexception) | Represents the exception that is thrown when an error occurred in the library. |
 | [SearchDocumentFilter](../com.groupdocs.search/searchdocumentfilter) | Contains methods for creating search document filters. |
-| [SearchImageBase](../com.groupdocs.search/searchimagebase) | Represents the base class for a search image. |
 | [SearchQuery](../com.groupdocs.search/searchquery) | Represents a search query in object form. |

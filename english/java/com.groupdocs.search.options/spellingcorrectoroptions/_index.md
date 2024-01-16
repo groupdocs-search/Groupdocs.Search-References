@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.options/spellingcorrectoroptions/
 **Inheritance:**
 java.lang.Object
 ```
-public class SpellingCorrectorOptions
+public abstract class SpellingCorrectorOptions
 ```
 
 Provides options for the spelling corrector.
@@ -22,6 +22,11 @@ Provides options for the spelling corrector.
 
 [Spell checking]: https://docs.groupdocs.com/display/searchjava/Spell+checking
 [Search options]: https://docs.groupdocs.com/display/searchjava/Search+options
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SpellingCorrectorOptions()](#SpellingCorrectorOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,9 +41,15 @@ Provides options for the spelling corrector.
 | [setOnlyBestResultsRange(byte value)](#setOnlyBestResultsRange-byte-) | Sets the maximum exceeding of the minimum number of mistakes that are found. |
 | [getConsiderTranspositions()](#getConsiderTranspositions--) | Gets a value indicating whether the algorithm must consider transposition of two adjacent characters as a single mistake. |
 | [setConsiderTranspositions(boolean value)](#setConsiderTranspositions-boolean-) | Sets a value indicating whether the algorithm must consider transposition of two adjacent characters as a single mistake. |
+### SpellingCorrectorOptions() {#SpellingCorrectorOptions--}
+```
+public SpellingCorrectorOptions()
+```
+
+
 ### getEnabled() {#getEnabled--}
 ```
-public final boolean getEnabled()
+public abstract boolean getEnabled()
 ```
 
 
@@ -48,7 +59,7 @@ Gets a value indicating whether the spelling corrector is enabled. The default v
 boolean - A value indicating whether the spelling corrector is enabled.
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
-public final void setEnabled(boolean value)
+public abstract void setEnabled(boolean value)
 ```
 
 
@@ -61,7 +72,7 @@ Sets a value indicating whether the spelling corrector is enabled. The default v
 
 ### getMaxMistakeCount() {#getMaxMistakeCount--}
 ```
-public final int getMaxMistakeCount()
+public abstract int getMaxMistakeCount()
 ```
 
 
@@ -71,7 +82,7 @@ Gets the maximum number of mistakes. The default value is  2 .
 int - The maximum number of mistakes.
 ### setMaxMistakeCount(int value) {#setMaxMistakeCount-int-}
 ```
-public final void setMaxMistakeCount(int value)
+public abstract void setMaxMistakeCount(int value)
 ```
 
 
@@ -84,7 +95,7 @@ Sets the maximum number of mistakes. The default value is  2 .
 
 ### getOnlyBestResults() {#getOnlyBestResults--}
 ```
-public final boolean getOnlyBestResults()
+public abstract boolean getOnlyBestResults()
 ```
 
 
@@ -94,7 +105,7 @@ Gets a value indicating whether only the best results will be returned. The defa
 boolean -  true  if only the best results will be returned; otherwise  false .
 ### setOnlyBestResults(boolean value) {#setOnlyBestResults-boolean-}
 ```
-public final void setOnlyBestResults(boolean value)
+public abstract void setOnlyBestResults(boolean value)
 ```
 
 
@@ -107,7 +118,7 @@ Sets a value indicating whether only the best results will be returned. The defa
 
 ### getOnlyBestResultsRange() {#getOnlyBestResultsRange--}
 ```
-public final byte getOnlyBestResultsRange()
+public abstract byte getOnlyBestResultsRange()
 ```
 
 
@@ -117,7 +128,7 @@ Gets the maximum exceeding of the minimum number of mistakes that are found. The
 byte - The maximum exceeding of the minimum number of mistakes found.
 ### setOnlyBestResultsRange(byte value) {#setOnlyBestResultsRange-byte-}
 ```
-public final void setOnlyBestResultsRange(byte value)
+public abstract void setOnlyBestResultsRange(byte value)
 ```
 
 
@@ -130,7 +141,7 @@ Sets the maximum exceeding of the minimum number of mistakes that are found. The
 
 ### getConsiderTranspositions() {#getConsiderTranspositions--}
 ```
-public final boolean getConsiderTranspositions()
+public abstract boolean getConsiderTranspositions()
 ```
 
 
@@ -140,7 +151,7 @@ Gets a value indicating whether the algorithm must consider transposition of two
 boolean -  true  if the spelling corrector algorithm considers transpositions; otherwise  false .
 ### setConsiderTranspositions(boolean value) {#setConsiderTranspositions-boolean-}
 ```
-public final void setConsiderTranspositions(boolean value)
+public abstract void setConsiderTranspositions(boolean value)
 ```
 
 

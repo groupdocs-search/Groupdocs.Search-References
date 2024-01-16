@@ -8,8 +8,11 @@ url: /java/com.groupdocs.search.options/textoptions/
 ---
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.options.ITextOptions](../../com.groupdocs.search.options/itextoptions)
 ```
-public class TextOptions
+public class TextOptions implements ITextOptions
 ```
 
 Provides options for retrieving document text from an index.
@@ -27,6 +30,7 @@ Provides options for retrieving document text from an index.
 | Constructor | Description |
 | --- | --- |
 | [TextOptions()](#TextOptions--) | Initializes a new instance of the  TextOptions  class. |
+| [TextOptions(Object data)](#TextOptions-java.lang.Object-) | Initializes a new instance of the  TextOptions  class. |
 ## Methods
 
 | Method | Description |
@@ -39,9 +43,12 @@ Provides options for retrieving document text from an index.
 | [setCancellation(Cancellation value)](#setCancellation-com.groupdocs.search.common.Cancellation-) | Sets the cancellation object. |
 | [getGenerateHead()](#getGenerateHead--) | Gets a value indicating whether the Head tag is generated in the output HTML. |
 | [setGenerateHead(boolean value)](#setGenerateHead-boolean-) | Sets a value indicating whether the Head tag is generated in the output HTML. |
+| [getUseRawTextExtraction()](#getUseRawTextExtraction--) | Gets a value indicating whether the raw mode is used for text extraction if possible. |
+| [setUseRawTextExtraction(boolean value)](#setUseRawTextExtraction-boolean-) | Sets a value indicating whether the raw mode is used for text extraction if possible. |
 | [getMetadataIndexingOptions()](#getMetadataIndexingOptions--) | Gets the options for indexing metadata fields. |
 | [getOcrIndexingOptions()](#getOcrIndexingOptions--) | Gets the options for OCR processing and indexing recognized text. |
 | [getImageIndexingOptions()](#getImageIndexingOptions--) | Gets the image indexing options for reverse image search. |
+| [getCore()](#getCore--) |  |
 ### TextOptions() {#TextOptions--}
 ```
 public TextOptions()
@@ -50,9 +57,22 @@ public TextOptions()
 
 Initializes a new instance of the  TextOptions  class.
 
+### TextOptions(Object data) {#TextOptions-java.lang.Object-}
+```
+public TextOptions(Object data)
+```
+
+
+Initializes a new instance of the  TextOptions  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | java.lang.Object | The serialized data. |
+
 ### getCustomExtractor() {#getCustomExtractor--}
 ```
-public final IFieldExtractor getCustomExtractor()
+public IFieldExtractor getCustomExtractor()
 ```
 
 
@@ -62,7 +82,7 @@ Gets the custom text extractor that was used for indexing. The default value is 
 [IFieldExtractor](../../com.groupdocs.search.common/ifieldextractor) - The custom text extractor that was used for indexing.
 ### setCustomExtractor(IFieldExtractor value) {#setCustomExtractor-com.groupdocs.search.common.IFieldExtractor-}
 ```
-public final void setCustomExtractor(IFieldExtractor value)
+public void setCustomExtractor(IFieldExtractor value)
 ```
 
 
@@ -75,7 +95,7 @@ Sets the custom text extractor that was used for indexing. The default value is 
 
 ### getAdditionalFields() {#getAdditionalFields--}
 ```
-public final DocumentField[] getAdditionalFields()
+public DocumentField[] getAdditionalFields()
 ```
 
 
@@ -85,7 +105,7 @@ Gets the additional document fields that was used for indexing. The default valu
 com.groupdocs.search.common.DocumentField[] - The additional document fields that was used for indexing.
 ### setAdditionalFields(DocumentField[] value) {#setAdditionalFields-com.groupdocs.search.common.DocumentField---}
 ```
-public final void setAdditionalFields(DocumentField[] value)
+public void setAdditionalFields(DocumentField[] value)
 ```
 
 
@@ -98,7 +118,7 @@ Sets the additional document fields that was used for indexing. The default valu
 
 ### getCancellation() {#getCancellation--}
 ```
-public final Cancellation getCancellation()
+public Cancellation getCancellation()
 ```
 
 
@@ -108,7 +128,7 @@ Gets the cancellation object. The default value is  null .
 [Cancellation](../../com.groupdocs.search.common/cancellation) - The cancellation object.
 ### setCancellation(Cancellation value) {#setCancellation-com.groupdocs.search.common.Cancellation-}
 ```
-public final void setCancellation(Cancellation value)
+public void setCancellation(Cancellation value)
 ```
 
 
@@ -121,7 +141,7 @@ Sets the cancellation object. The default value is  null .
 
 ### getGenerateHead() {#getGenerateHead--}
 ```
-public final boolean getGenerateHead()
+public boolean getGenerateHead()
 ```
 
 
@@ -131,7 +151,7 @@ Gets a value indicating whether the Head tag is generated in the output HTML. Th
 boolean - A value indicating whether the Head tag is generated in the output HTML.
 ### setGenerateHead(boolean value) {#setGenerateHead-boolean-}
 ```
-public final void setGenerateHead(boolean value)
+public void setGenerateHead(boolean value)
 ```
 
 
@@ -142,9 +162,32 @@ Sets a value indicating whether the Head tag is generated in the output HTML. Th
 | --- | --- | --- |
 | value | boolean | A value indicating whether the Head tag is generated in the output HTML. |
 
+### getUseRawTextExtraction() {#getUseRawTextExtraction--}
+```
+public boolean getUseRawTextExtraction()
+```
+
+
+Gets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
+
+**Returns:**
+boolean - A value indicating whether the raw mode is used for text extraction if possible.
+### setUseRawTextExtraction(boolean value) {#setUseRawTextExtraction-boolean-}
+```
+public void setUseRawTextExtraction(boolean value)
+```
+
+
+Sets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value indicating whether the raw mode is used for text extraction if possible. |
+
 ### getMetadataIndexingOptions() {#getMetadataIndexingOptions--}
 ```
-public final MetadataIndexingOptions getMetadataIndexingOptions()
+public MetadataIndexingOptions getMetadataIndexingOptions()
 ```
 
 
@@ -154,7 +197,7 @@ Gets the options for indexing metadata fields.
 [MetadataIndexingOptions](../../com.groupdocs.search.options/metadataindexingoptions) - The options for indexing metadata fields.
 ### getOcrIndexingOptions() {#getOcrIndexingOptions--}
 ```
-public final OcrIndexingOptions getOcrIndexingOptions()
+public OcrIndexingOptions getOcrIndexingOptions()
 ```
 
 
@@ -164,7 +207,7 @@ Gets the options for OCR processing and indexing recognized text.
 [OcrIndexingOptions](../../com.groupdocs.search.options/ocrindexingoptions) - The options for OCR processing and indexing recognized text.
 ### getImageIndexingOptions() {#getImageIndexingOptions--}
 ```
-public final ImageIndexingOptions getImageIndexingOptions()
+public ImageIndexingOptions getImageIndexingOptions()
 ```
 
 
@@ -172,3 +215,13 @@ Gets the image indexing options for reverse image search.
 
 **Returns:**
 [ImageIndexingOptions](../../com.groupdocs.search.options/imageindexingoptions) - The image indexing options for reverse image search.
+### getCore() {#getCore--}
+```
+public Object getCore()
+```
+
+
+
+
+**Returns:**
+java.lang.Object

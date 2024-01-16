@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 java.lang.Iterable
 ```
-public class DateFormatCollection implements Iterable<DateFormat>
+public abstract class DateFormatCollection implements Iterable<DateFormat>
 ```
 
 Represents a collection of  DateFormat  objects.
@@ -23,6 +23,11 @@ Represents a collection of  DateFormat  objects.
 
 
 [Date range search]: https://docs.groupdocs.com/display/searchjava/Date+range+search
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DateFormatCollection()](#DateFormatCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,9 +40,15 @@ Represents a collection of  DateFormat  objects.
 | [isReadOnly()](#isReadOnly--) | Gets a value indicating whether the collection is read-only. |
 | [removeItem(DateFormat item)](#removeItem-com.groupdocs.search.options.DateFormat-) | Removes the first occurrence of a specific element from the collection. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
+### DateFormatCollection() {#DateFormatCollection--}
+```
+public DateFormatCollection()
+```
+
+
 ### addItem(DateFormat item) {#addItem-com.groupdocs.search.options.DateFormat-}
 ```
-public final void addItem(DateFormat item)
+public abstract void addItem(DateFormat item)
 ```
 
 
@@ -50,7 +61,7 @@ Adds an date format object to the collection.
 
 ### clear() {#clear--}
 ```
-public final void clear()
+public abstract void clear()
 ```
 
 
@@ -58,7 +69,7 @@ Removes all elements from the collection.
 
 ### containsItem(DateFormat item) {#containsItem-com.groupdocs.search.options.DateFormat-}
 ```
-public final boolean containsItem(DateFormat item)
+public abstract boolean containsItem(DateFormat item)
 ```
 
 
@@ -73,7 +84,7 @@ Determines whether the collection contains a specific item.
 boolean -  true  if item is found in the collection; otherwise,  false .
 ### copyToTArray(DateFormat[] array, int arrayIndex) {#copyToTArray-com.groupdocs.search.options.DateFormat---int-}
 ```
-public final void copyToTArray(DateFormat[] array, int arrayIndex)
+public abstract void copyToTArray(DateFormat[] array, int arrayIndex)
 ```
 
 
@@ -87,7 +98,7 @@ Copies the elements of the collection to an  Array , starting at a particular  A
 
 ### size() {#size--}
 ```
-public final int size()
+public abstract int size()
 ```
 
 
@@ -97,7 +108,7 @@ Gets the number of elements contained in the collection.
 int - The number of elements contained in the collection.
 ### isReadOnly() {#isReadOnly--}
 ```
-public final boolean isReadOnly()
+public abstract boolean isReadOnly()
 ```
 
 
@@ -107,7 +118,7 @@ Gets a value indicating whether the collection is read-only.
 boolean -  true  if the collection is read-only; otherwise,  false .
 ### removeItem(DateFormat item) {#removeItem-com.groupdocs.search.options.DateFormat-}
 ```
-public final boolean removeItem(DateFormat item)
+public abstract boolean removeItem(DateFormat item)
 ```
 
 
@@ -122,7 +133,7 @@ Removes the first occurrence of a specific element from the collection.
 boolean -  true  if item was successfully removed from the collection; otherwise,  false . This method also returns  false  if item is not found in the collection.
 ### iterator() {#iterator--}
 ```
-public final Iterator<DateFormat> iterator()
+public abstract Iterator<DateFormat> iterator()
 ```
 
 

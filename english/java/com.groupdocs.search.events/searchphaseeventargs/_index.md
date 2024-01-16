@@ -7,7 +7,7 @@ weight: 22
 url: /java/com.groupdocs.search.events/searchphaseeventargs/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
+java.lang.Object, [com.groupdocs.search.events.EventArgs](../../com.groupdocs.search.events/eventargs), [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
 ```
 public class SearchPhaseEventArgs extends BaseIndexEventArgs
 ```

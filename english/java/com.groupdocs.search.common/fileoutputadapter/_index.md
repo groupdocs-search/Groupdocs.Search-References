@@ -3,13 +3,16 @@ title: FileOutputAdapter
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an output adapter that collects output into a file.
 type: docs
-weight: 23
+weight: 21
 url: /java/com.groupdocs.search.common/fileoutputadapter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.common.OutputAdapter](../../com.groupdocs.search.common/outputadapter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.common.IFileOutputAdapter](../../com.groupdocs.search.common/ifileoutputadapter)
 ```
-public class FileOutputAdapter extends OutputAdapter
+public class FileOutputAdapter extends OutputAdapter implements IFileOutputAdapter
 ```
 
 Represents an output adapter that collects output into a file.

@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.options/metadataindexingoptions/
 **Inheritance:**
 java.lang.Object
 ```
-public class MetadataIndexingOptions
+public abstract class MetadataIndexingOptions
 ```
 
 Provides options for indexing metadata fields.
@@ -24,6 +24,11 @@ Provides options for indexing metadata fields.
 [Indexing options]: https://docs.groupdocs.com/display/searchjava/Indexing+options
 [Getting indexed documents]: https://docs.groupdocs.com/display/searchjava/Getting+indexed+documents
 [Highlighting search results]: https://docs.groupdocs.com/display/searchjava/Highlighting+search+results
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MetadataIndexingOptions()](#MetadataIndexingOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -46,9 +51,15 @@ Provides options for indexing metadata fields.
 | [setMaxDoublesToIndexField(int value)](#setMaxDoublesToIndexField-int-) | Sets the maximum number of values in an array of type double to index the field. |
 | [getSeparatorBetweenValues()](#getSeparatorBetweenValues--) | Gets the separator between values in a field of type array. |
 | [setSeparatorBetweenValues(String value)](#setSeparatorBetweenValues-java.lang.String-) | Sets the separator between values in a field of type array. |
+### MetadataIndexingOptions() {#MetadataIndexingOptions--}
+```
+public MetadataIndexingOptions()
+```
+
+
 ### getIndexingEmptyValues() {#getIndexingEmptyValues--}
 ```
-public final boolean getIndexingEmptyValues()
+public abstract boolean getIndexingEmptyValues()
 ```
 
 
@@ -58,7 +69,7 @@ Gets a value indicating whether to index empty field values or not. The default 
 boolean - A value indicating whether to index empty field values or not.
 ### setIndexingEmptyValues(boolean value) {#setIndexingEmptyValues-boolean-}
 ```
-public final void setIndexingEmptyValues(boolean value)
+public abstract void setIndexingEmptyValues(boolean value)
 ```
 
 
@@ -71,7 +82,7 @@ Sets a value indicating whether to index empty field values or not. The default 
 
 ### getIndexingEmptyNames() {#getIndexingEmptyNames--}
 ```
-public final boolean getIndexingEmptyNames()
+public abstract boolean getIndexingEmptyNames()
 ```
 
 
@@ -81,7 +92,7 @@ Gets a value indicating whether to index empty field names or not. The default v
 boolean - A value indicating whether to index empty field names or not.
 ### setIndexingEmptyNames(boolean value) {#setIndexingEmptyNames-boolean-}
 ```
-public final void setIndexingEmptyNames(boolean value)
+public abstract void setIndexingEmptyNames(boolean value)
 ```
 
 
@@ -94,7 +105,7 @@ Sets a value indicating whether to index empty field names or not. The default v
 
 ### getDefaultFieldName() {#getDefaultFieldName--}
 ```
-public final String getDefaultFieldName()
+public abstract String getDefaultFieldName()
 ```
 
 
@@ -104,7 +115,7 @@ Gets the default field name used to index empty field names. The default value i
 java.lang.String - The default field name used to index empty field names.
 ### setDefaultFieldName(String value) {#setDefaultFieldName-java.lang.String-}
 ```
-public final void setDefaultFieldName(String value)
+public abstract void setDefaultFieldName(String value)
 ```
 
 
@@ -117,7 +128,7 @@ Sets the default field name used to index empty field names. The default value i
 
 ### getSeparatorInCompoundName() {#getSeparatorInCompoundName--}
 ```
-public final String getSeparatorInCompoundName()
+public abstract String getSeparatorInCompoundName()
 ```
 
 
@@ -127,7 +138,7 @@ Gets the separator in the compound name of a field. The default value is  "." .
 java.lang.String - The separator in the compound name of a field.
 ### setSeparatorInCompoundName(String value) {#setSeparatorInCompoundName-java.lang.String-}
 ```
-public final void setSeparatorInCompoundName(String value)
+public abstract void setSeparatorInCompoundName(String value)
 ```
 
 
@@ -140,7 +151,7 @@ Sets the separator in the compound name of a field. The default value is  "." .
 
 ### getMaxBytesToIndexField() {#getMaxBytesToIndexField--}
 ```
-public final int getMaxBytesToIndexField()
+public abstract int getMaxBytesToIndexField()
 ```
 
 
@@ -150,7 +161,7 @@ Gets the maximum number of values in an array of type byte to index the field. T
 int - The maximum number of values in an array of type byte to index the field.
 ### setMaxBytesToIndexField(int value) {#setMaxBytesToIndexField-int-}
 ```
-public final void setMaxBytesToIndexField(int value)
+public abstract void setMaxBytesToIndexField(int value)
 ```
 
 
@@ -163,7 +174,7 @@ Sets the maximum number of values in an array of type byte to index the field. T
 
 ### getMaxIntsToIndexField() {#getMaxIntsToIndexField--}
 ```
-public final int getMaxIntsToIndexField()
+public abstract int getMaxIntsToIndexField()
 ```
 
 
@@ -173,7 +184,7 @@ Gets the maximum number of values in an array of type int to index the field. Th
 int - The maximum number of values in an array of type int to index the field.
 ### setMaxIntsToIndexField(int value) {#setMaxIntsToIndexField-int-}
 ```
-public final void setMaxIntsToIndexField(int value)
+public abstract void setMaxIntsToIndexField(int value)
 ```
 
 
@@ -186,7 +197,7 @@ Sets the maximum number of values in an array of type int to index the field. Th
 
 ### getMaxLongsToIndexField() {#getMaxLongsToIndexField--}
 ```
-public final int getMaxLongsToIndexField()
+public abstract int getMaxLongsToIndexField()
 ```
 
 
@@ -196,7 +207,7 @@ Gets the maximum number of values in an array of type long to index the field. T
 int - The maximum number of values in an array of type long to index the field.
 ### setMaxLongsToIndexField(int value) {#setMaxLongsToIndexField-int-}
 ```
-public final void setMaxLongsToIndexField(int value)
+public abstract void setMaxLongsToIndexField(int value)
 ```
 
 
@@ -209,7 +220,7 @@ Sets the maximum number of values in an array of type long to index the field. T
 
 ### getMaxDoublesToIndexField() {#getMaxDoublesToIndexField--}
 ```
-public final int getMaxDoublesToIndexField()
+public abstract int getMaxDoublesToIndexField()
 ```
 
 
@@ -219,7 +230,7 @@ Gets the maximum number of values in an array of type double to index the field.
 int - The maximum number of values in an array of type double to index the field.
 ### setMaxDoublesToIndexField(int value) {#setMaxDoublesToIndexField-int-}
 ```
-public final void setMaxDoublesToIndexField(int value)
+public abstract void setMaxDoublesToIndexField(int value)
 ```
 
 
@@ -232,7 +243,7 @@ Sets the maximum number of values in an array of type double to index the field.
 
 ### getSeparatorBetweenValues() {#getSeparatorBetweenValues--}
 ```
-public final String getSeparatorBetweenValues()
+public abstract String getSeparatorBetweenValues()
 ```
 
 
@@ -242,7 +253,7 @@ Gets the separator between values in a field of type array. The default value is
 java.lang.String - The separator between values in a field of type array.
 ### setSeparatorBetweenValues(String value) {#setSeparatorBetweenValues-java.lang.String-}
 ```
-public final void setSeparatorBetweenValues(String value)
+public abstract void setSeparatorBetweenValues(String value)
 ```
 
 

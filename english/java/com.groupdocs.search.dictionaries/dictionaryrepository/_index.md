@@ -1,9 +1,9 @@
 ---
 title: DictionaryRepository
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a repository of all dictionaries in an Index.
+description: Represents a repository of all dictionaries in the Index.
 type: docs
-weight: 16
+weight: 12
 url: /java/com.groupdocs.search.dictionaries/dictionaryrepository/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class DictionaryRepository
 ```
 
-Represents a repository of all dictionaries in an  Index .
+Represents a repository of all dictionaries in the  Index .
 ## Constructors
 
 | Constructor | Description |

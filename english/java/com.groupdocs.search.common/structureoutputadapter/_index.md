@@ -3,13 +3,16 @@ title: StructureOutputAdapter
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an output adapter that collects output as a structure containing each field separately.
 type: docs
-weight: 35
+weight: 33
 url: /java/com.groupdocs.search.common/structureoutputadapter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.common.OutputAdapter](../../com.groupdocs.search.common/outputadapter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.common.IStructureOutputAdapter](../../com.groupdocs.search.common/istructureoutputadapter)
 ```
-public class StructureOutputAdapter extends OutputAdapter
+public class StructureOutputAdapter extends OutputAdapter implements IStructureOutputAdapter
 ```
 
 Represents an output adapter that collects output as a structure containing each field separately.

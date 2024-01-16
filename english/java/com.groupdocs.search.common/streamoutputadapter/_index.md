@@ -3,13 +3,16 @@ title: StreamOutputAdapter
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an output adapter that collects output into a java.io.OutputStream.
 type: docs
-weight: 33
+weight: 31
 url: /java/com.groupdocs.search.common/streamoutputadapter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.common.OutputAdapter](../../com.groupdocs.search.common/outputadapter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.common.IStreamOutputAdapter](../../com.groupdocs.search.common/istreamoutputadapter)
 ```
-public class StreamOutputAdapter extends OutputAdapter
+public class StreamOutputAdapter extends OutputAdapter implements IStreamOutputAdapter
 ```
 
 Represents an output adapter that collects output into a  java.io.OutputStream .

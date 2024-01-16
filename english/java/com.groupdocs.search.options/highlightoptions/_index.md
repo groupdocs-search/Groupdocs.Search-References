@@ -8,8 +8,11 @@ url: /java/com.groupdocs.search.options/highlightoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.options.TextOptions](../../com.groupdocs.search.options/textoptions)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.options.IHighlightOptions](../../com.groupdocs.search.options/ihighlightoptions)
 ```
-public class HighlightOptions extends TextOptions
+public class HighlightOptions extends TextOptions implements IHighlightOptions
 ```
 
 Provides options for highlighting found terms.
@@ -25,6 +28,7 @@ Provides options for highlighting found terms.
 | Constructor | Description |
 | --- | --- |
 | [HighlightOptions()](#HighlightOptions--) | Initializes a new instance of the  HighlightOptions  class. |
+| [HighlightOptions(Object data)](#HighlightOptions-java.lang.Object-) | Initializes a new instance of the  TextOptions  class. |
 ## Methods
 
 | Method | Description |
@@ -51,9 +55,22 @@ public HighlightOptions()
 
 Initializes a new instance of the  HighlightOptions  class.
 
+### HighlightOptions(Object data) {#HighlightOptions-java.lang.Object-}
+```
+public HighlightOptions(Object data)
+```
+
+
+Initializes a new instance of the  TextOptions  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | java.lang.Object | The serialized data. |
+
 ### getTermsBefore() {#getTermsBefore--}
 ```
-public final int getTermsBefore()
+public int getTermsBefore()
 ```
 
 
@@ -63,7 +80,7 @@ Gets the maximum number of words in a text snippet before highlighted word. The 
 int - The maximum number of words in a text snippet before highlighted word.
 ### setTermsBefore(int value) {#setTermsBefore-int-}
 ```
-public final void setTermsBefore(int value)
+public void setTermsBefore(int value)
 ```
 
 
@@ -76,7 +93,7 @@ Sets the maximum number of words in a text snippet before highlighted word. The 
 
 ### getTermsAfter() {#getTermsAfter--}
 ```
-public final int getTermsAfter()
+public int getTermsAfter()
 ```
 
 
@@ -86,7 +103,7 @@ Gets the maximum number of words in a text snippet after highlighted word. The v
 int - The maximum number of words in a text snippet after highlighted word.
 ### setTermsAfter(int value) {#setTermsAfter-int-}
 ```
-public final void setTermsAfter(int value)
+public void setTermsAfter(int value)
 ```
 
 
@@ -99,7 +116,7 @@ Sets the maximum number of words in a text snippet after highlighted word. The v
 
 ### getTermsTotal() {#getTermsTotal--}
 ```
-public final int getTermsTotal()
+public int getTermsTotal()
 ```
 
 
@@ -109,7 +126,7 @@ Gets the maximum number of words in a text snippet. The value must be in the ran
 int - The maximum number of words in a text snippet.
 ### setTermsTotal(int value) {#setTermsTotal-int-}
 ```
-public final void setTermsTotal(int value)
+public void setTermsTotal(int value)
 ```
 
 
@@ -122,7 +139,7 @@ Sets the maximum number of words in a text snippet. The value must be in the ran
 
 ### getUseInlineStyles() {#getUseInlineStyles--}
 ```
-public final boolean getUseInlineStyles()
+public boolean getUseInlineStyles()
 ```
 
 
@@ -132,7 +149,7 @@ Gets a value indicating whether inline styles are used to highlight occurrences.
 boolean - A value indicating whether inline styles are used to highlight occurrences.
 ### setUseInlineStyles(boolean value) {#setUseInlineStyles-boolean-}
 ```
-public final void setUseInlineStyles(boolean value)
+public void setUseInlineStyles(boolean value)
 ```
 
 
@@ -145,7 +162,7 @@ Sets a value indicating whether inline styles are used to highlight occurrences.
 
 ### getHighlightColor() {#getHighlightColor--}
 ```
-public final Color getHighlightColor()
+public Color getHighlightColor()
 ```
 
 
@@ -155,7 +172,7 @@ Gets a color that is used to highlight occurrences. The default value is \#FFD80
 [Color](../../com.groupdocs.search.options/color) - A color that is used to highlight occurrences.
 ### setHighlightColor(Color value) {#setHighlightColor-com.groupdocs.search.options.Color-}
 ```
-public final void setHighlightColor(Color value)
+public void setHighlightColor(Color value)
 ```
 
 
@@ -168,7 +185,7 @@ Sets a color that is used to highlight occurrences. The default value is \#FFD80
 
 ### getTermHighlightStartTag() {#getTermHighlightStartTag--}
 ```
-public final String getTermHighlightStartTag()
+public String getTermHighlightStartTag()
 ```
 
 
@@ -178,7 +195,7 @@ Gets the start tag of the highlighting of the found word. This tag is used only 
 java.lang.String - The start tag of the highlighting of the found word.
 ### setTermHighlightStartTag(String value) {#setTermHighlightStartTag-java.lang.String-}
 ```
-public final void setTermHighlightStartTag(String value)
+public void setTermHighlightStartTag(String value)
 ```
 
 
@@ -191,7 +208,7 @@ Sets the start tag of the highlighting of the found word. This tag is used only 
 
 ### getTermHighlightEndTag() {#getTermHighlightEndTag--}
 ```
-public final String getTermHighlightEndTag()
+public String getTermHighlightEndTag()
 ```
 
 
@@ -201,7 +218,7 @@ Gets the end tag of the highlighting of the found word. This tag is used only wh
 java.lang.String - The end tag of the highlighting of the found word.
 ### setTermHighlightEndTag(String value) {#setTermHighlightEndTag-java.lang.String-}
 ```
-public final void setTermHighlightEndTag(String value)
+public void setTermHighlightEndTag(String value)
 ```
 
 

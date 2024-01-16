@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.options/fuzzysearchoptions/
 **Inheritance:**
 java.lang.Object
 ```
-public class FuzzySearchOptions
+public abstract class FuzzySearchOptions
 ```
 
 Provides options of the fuzzy search.
@@ -22,6 +22,11 @@ Provides options of the fuzzy search.
 
 [Fuzzy search]: https://docs.groupdocs.com/display/searchjava/Fuzzy+search
 [Search options]: https://docs.groupdocs.com/display/searchjava/Search+options
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FuzzySearchOptions()](#FuzzySearchOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,9 +41,15 @@ Provides options of the fuzzy search.
 | [setOnlyBestResultsRange(byte value)](#setOnlyBestResultsRange-byte-) | Sets the maximum exceeding of the minimum number of mistakes that are found. |
 | [getConsiderTranspositions()](#getConsiderTranspositions--) | Gets a value indicating whether the fuzzy search algorithm must consider transposition of two adjacent characters as a single mistake. |
 | [setConsiderTranspositions(boolean value)](#setConsiderTranspositions-boolean-) | Sets a value indicating whether the fuzzy search algorithm must consider transposition of two adjacent characters as a single mistake. |
+### FuzzySearchOptions() {#FuzzySearchOptions--}
+```
+public FuzzySearchOptions()
+```
+
+
 ### getEnabled() {#getEnabled--}
 ```
-public final boolean getEnabled()
+public abstract boolean getEnabled()
 ```
 
 
@@ -48,7 +59,7 @@ Gets a value indicating whether fuzzy search feature is enabled. The default val
 boolean - A value indicating whether fuzzy search feature is enabled.
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
-public final void setEnabled(boolean value)
+public abstract void setEnabled(boolean value)
 ```
 
 
@@ -61,7 +72,7 @@ Sets a value indicating whether fuzzy search feature is enabled. The default val
 
 ### getFuzzyAlgorithm() {#getFuzzyAlgorithm--}
 ```
-public final FuzzyAlgorithm getFuzzyAlgorithm()
+public abstract FuzzyAlgorithm getFuzzyAlgorithm()
 ```
 
 
@@ -90,7 +101,7 @@ The example demonstrates how to set the fuzzy search algorithm.
 ```
 ### setFuzzyAlgorithm(FuzzyAlgorithm value) {#setFuzzyAlgorithm-com.groupdocs.search.options.FuzzyAlgorithm-}
 ```
-public final void setFuzzyAlgorithm(FuzzyAlgorithm value)
+public abstract void setFuzzyAlgorithm(FuzzyAlgorithm value)
 ```
 
 
@@ -122,7 +133,7 @@ The example demonstrates how to set the fuzzy search algorithm.
 
 ### getOnlyBestResults() {#getOnlyBestResults--}
 ```
-public final boolean getOnlyBestResults()
+public abstract boolean getOnlyBestResults()
 ```
 
 
@@ -132,7 +143,7 @@ Gets a value indicating whether only the best results will be returned. The defa
 boolean -  true  if only the best results will be returned; otherwise  false .
 ### setOnlyBestResults(boolean value) {#setOnlyBestResults-boolean-}
 ```
-public final void setOnlyBestResults(boolean value)
+public abstract void setOnlyBestResults(boolean value)
 ```
 
 
@@ -145,7 +156,7 @@ Sets a value indicating whether only the best results will be returned. The defa
 
 ### getOnlyBestResultsRange() {#getOnlyBestResultsRange--}
 ```
-public final byte getOnlyBestResultsRange()
+public abstract byte getOnlyBestResultsRange()
 ```
 
 
@@ -155,7 +166,7 @@ Gets the maximum exceeding of the minimum number of mistakes that are found. The
 byte - The maximum exceeding of the minimum number of mistakes found.
 ### setOnlyBestResultsRange(byte value) {#setOnlyBestResultsRange-byte-}
 ```
-public final void setOnlyBestResultsRange(byte value)
+public abstract void setOnlyBestResultsRange(byte value)
 ```
 
 
@@ -168,7 +179,7 @@ Sets the maximum exceeding of the minimum number of mistakes that are found. The
 
 ### getConsiderTranspositions() {#getConsiderTranspositions--}
 ```
-public final boolean getConsiderTranspositions()
+public abstract boolean getConsiderTranspositions()
 ```
 
 
@@ -178,7 +189,7 @@ Gets a value indicating whether the fuzzy search algorithm must consider transpo
 boolean -  true  if the fuzzy search algorithm considers transpositions; otherwise  false .
 ### setConsiderTranspositions(boolean value) {#setConsiderTranspositions-boolean-}
 ```
-public final void setConsiderTranspositions(boolean value)
+public abstract void setConsiderTranspositions(boolean value)
 ```
 
 

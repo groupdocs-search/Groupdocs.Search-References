@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Search for Java API Reference
 description: Defines interface of a logger that is used for logging events and errors in an index.
 type: docs
-weight: 40
+weight: 38
 url: /java/com.groupdocs.search.common/ilogger/
 ---```
 public interface ILogger

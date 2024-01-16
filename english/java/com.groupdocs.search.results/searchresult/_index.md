@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 java.lang.Iterable
 ```
-public class SearchResult implements Iterable<FoundDocument>
+public abstract class SearchResult implements Iterable<FoundDocument>
 ```
 
 Represents a search result matching a search query.
@@ -74,6 +74,11 @@ The example demonstrates a typical usage of the class.
 
 [Searching]: https://docs.groupdocs.com/display/searchjava/Searching
 [Search results]: https://docs.groupdocs.com/display/searchjava/Search+results
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SearchResult()](#SearchResult--) |  |
 ## Methods
 
 | Method | Description |
@@ -88,9 +93,15 @@ The example demonstrates a typical usage of the class.
 | [getSearchDuration()](#getSearchDuration--) | Gets the search duration in seconds. |
 | [getFoundDocument(int index)](#getFoundDocument-int-) | Gets the found document by index. |
 | [iterator()](#iterator--) | Returns an iterator that iterates through the collection of the documents found. |
+### SearchResult() {#SearchResult--}
+```
+public SearchResult()
+```
+
+
 ### getDocumentCount() {#getDocumentCount--}
 ```
-public final int getDocumentCount()
+public abstract int getDocumentCount()
 ```
 
 
@@ -100,7 +111,7 @@ Gets the number of documents found.
 int - The number of documents found.
 ### getOccurrenceCount() {#getOccurrenceCount--}
 ```
-public final int getOccurrenceCount()
+public abstract int getOccurrenceCount()
 ```
 
 
@@ -110,7 +121,7 @@ Gets the total number of occurrences found.
 int - The total number of occurrences found.
 ### getTruncated() {#getTruncated--}
 ```
-public final boolean getTruncated()
+public abstract boolean getTruncated()
 ```
 
 
@@ -120,7 +131,7 @@ Gets a value indicating that the result is truncated.
 boolean - A value indicating that the result is truncated.
 ### getWarnings() {#getWarnings--}
 ```
-public final String getWarnings()
+public abstract String getWarnings()
 ```
 
 
@@ -130,7 +141,7 @@ Gets a warnings describing the result.
 java.lang.String - A warnings describing the result.
 ### getNextChunkSearchToken() {#getNextChunkSearchToken--}
 ```
-public final ChunkSearchToken getNextChunkSearchToken()
+public abstract ChunkSearchToken getNextChunkSearchToken()
 ```
 
 
@@ -140,7 +151,7 @@ Gets a chunk search token for searching the next chunk.
 [ChunkSearchToken](../../com.groupdocs.search.common/chunksearchtoken) - A chunk search token for searching the next chunk.
 ### getStartTime() {#getStartTime--}
 ```
-public final Date getStartTime()
+public abstract Date getStartTime()
 ```
 
 
@@ -150,7 +161,7 @@ Gets the start time of the search.
 java.util.Date - The start time of the search.
 ### getEndTime() {#getEndTime--}
 ```
-public final Date getEndTime()
+public abstract Date getEndTime()
 ```
 
 
@@ -160,7 +171,7 @@ Gets the end time of the search.
 java.util.Date - The end time of the search.
 ### getSearchDuration() {#getSearchDuration--}
 ```
-public final double getSearchDuration()
+public abstract double getSearchDuration()
 ```
 
 
@@ -170,7 +181,7 @@ Gets the search duration in seconds.
 double - The search duration in seconds.
 ### getFoundDocument(int index) {#getFoundDocument-int-}
 ```
-public final FoundDocument getFoundDocument(int index)
+public abstract FoundDocument getFoundDocument(int index)
 ```
 
 
@@ -185,7 +196,7 @@ Gets the found document by index.
 [FoundDocument](../../com.groupdocs.search.results/founddocument) - The found document.
 ### iterator() {#iterator--}
 ```
-public final Iterator<FoundDocument> iterator()
+public abstract Iterator<FoundDocument> iterator()
 ```
 
 

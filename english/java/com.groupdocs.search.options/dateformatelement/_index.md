@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.options/dateformatelement/
 **Inheritance:**
 java.lang.Object
 ```
-public class DateFormatElement
+public abstract class DateFormatElement
 ```
 
 Represents a date format element.
@@ -20,6 +20,11 @@ Represents a date format element.
 
 
 [Date range search]: https://docs.groupdocs.com/display/searchjava/Date+range+search
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DateFormatElement()](#DateFormatElement--) |  |
 ## Methods
 
 | Method | Description |
@@ -37,9 +42,15 @@ Represents a date format element.
 | [getYearTwoDigits()](#getYearTwoDigits--) | Gets the year element, represented by two digits. |
 | [getYearFourDigits()](#getYearFourDigits--) | Gets the year element, represented by four digits. |
 | [getDateSeparator()](#getDateSeparator--) | Gets the date separator element. |
+### DateFormatElement() {#DateFormatElement--}
+```
+public DateFormatElement()
+```
+
+
 ### getFormat() {#getFormat--}
 ```
-public final String getFormat()
+public abstract String getFormat()
 ```
 
 
@@ -49,7 +60,7 @@ Gets the format string.
 java.lang.String - The format string.
 ### getSingleFormat() {#getSingleFormat--}
 ```
-public final String getSingleFormat()
+public abstract String getSingleFormat()
 ```
 
 
@@ -59,7 +70,7 @@ Gets the single format string.
 java.lang.String - The single format string.
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 

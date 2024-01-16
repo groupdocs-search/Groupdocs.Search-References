@@ -1,21 +1,18 @@
 ---
 title: StopWordDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of stop words.
+description: Defines interface of a dictionary of stop words.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.groupdocs.search.dictionaries/stopworddictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class StopWordDictionary extends DictionaryBase implements Iterable<String>
+public interface StopWordDictionary extends DictionaryBase, Iterable<String>
 ```
 
-Represents a dictionary of stop words.
+Defines interface of a dictionary of stop words.
 
 **Learn more**
 

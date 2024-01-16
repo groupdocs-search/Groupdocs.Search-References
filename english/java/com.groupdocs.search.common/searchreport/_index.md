@@ -3,13 +3,13 @@ title: SearchReport
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a detailed information on a search operation.
 type: docs
-weight: 32
+weight: 30
 url: /java/com.groupdocs.search.common/searchreport/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class SearchReport
+public abstract class SearchReport
 ```
 
 Represents a detailed information on a search operation.
@@ -48,6 +48,11 @@ The example demonstrates a typical usage of the class.
 
 
 [Search reports]: https://docs.groupdocs.com/display/searchjava/Search+reports
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [SearchReport()](#SearchReport--) |  |
 ## Methods
 
 | Method | Description |
@@ -61,9 +66,15 @@ The example demonstrates a typical usage of the class.
 | [getObjectQuery()](#getObjectQuery--) | Gets the search query in object form. |
 | [getSearchOptions()](#getSearchOptions--) | Gets the search options. |
 | [toString()](#toString--) | Returns a String that represents the current  SearchReport . |
+### SearchReport() {#SearchReport--}
+```
+public SearchReport()
+```
+
+
 ### getStartTime() {#getStartTime--}
 ```
-public final Date getStartTime()
+public abstract Date getStartTime()
 ```
 
 
@@ -73,7 +84,7 @@ Gets the start time of the search.
 java.util.Date - The start time of the search.
 ### getEndTime() {#getEndTime--}
 ```
-public final Date getEndTime()
+public abstract Date getEndTime()
 ```
 
 
@@ -83,7 +94,7 @@ Gets the end time of the search.
 java.util.Date - The end time of the search.
 ### getSearchDuration() {#getSearchDuration--}
 ```
-public final double getSearchDuration()
+public abstract double getSearchDuration()
 ```
 
 
@@ -93,7 +104,7 @@ Gets the search duration in seconds.
 double - The search duration in seconds.
 ### getDocumentCount() {#getDocumentCount--}
 ```
-public final int getDocumentCount()
+public abstract int getDocumentCount()
 ```
 
 
@@ -103,7 +114,7 @@ Gets the number of documents found.
 int - The number of documents found.
 ### getOccurrenceCount() {#getOccurrenceCount--}
 ```
-public final int getOccurrenceCount()
+public abstract int getOccurrenceCount()
 ```
 
 
@@ -113,7 +124,7 @@ Gets the total number of occurrences found.
 int - The total number of occurrences found.
 ### getTextQuery() {#getTextQuery--}
 ```
-public final String getTextQuery()
+public abstract String getTextQuery()
 ```
 
 
@@ -123,7 +134,7 @@ Gets the search query in text form.
 java.lang.String - The search query in text form.
 ### getObjectQuery() {#getObjectQuery--}
 ```
-public final SearchQuery getObjectQuery()
+public abstract SearchQuery getObjectQuery()
 ```
 
 
@@ -133,7 +144,7 @@ Gets the search query in object form.
 [SearchQuery](../../com.groupdocs.search/searchquery) - The search query in object form.
 ### getSearchOptions() {#getSearchOptions--}
 ```
-public final SearchOptions getSearchOptions()
+public abstract SearchOptions getSearchOptions()
 ```
 
 
@@ -143,7 +154,7 @@ Gets the search options.
 [SearchOptions](../../com.groupdocs.search.options/searchoptions) - The search options.
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 

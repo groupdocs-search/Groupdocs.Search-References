@@ -44,6 +44,7 @@ The example demonstrates a typical usage of the class.
 | Constructor | Description |
 | --- | --- |
 | [SimilarityLevel(double value)](#SimilarityLevel-double-) | Initializes a new instance of the  SimilarityLevel  class. |
+| [SimilarityLevel(Object data)](#SimilarityLevel-java.lang.Object-) | Initializes a new instance of the  SimilarityLevel  class. |
 ## Methods
 
 | Method | Description |
@@ -62,6 +63,19 @@ Initializes a new instance of the  SimilarityLevel  class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The similarity level value. |
+
+### SimilarityLevel(Object data) {#SimilarityLevel-java.lang.Object-}
+```
+public SimilarityLevel(Object data)
+```
+
+
+Initializes a new instance of the  SimilarityLevel  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | java.lang.Object | The serialized data. |
 
 ### getSimilarityLevel(int termLength) {#getSimilarityLevel-int-}
 ```

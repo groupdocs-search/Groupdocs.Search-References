@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.results/founddocument/
 **Inheritance:**
 java.lang.Object
 ```
-public class FoundDocument
+public abstract class FoundDocument
 ```
 
 Represents a found document.
@@ -20,6 +20,11 @@ Represents a found document.
 
 
 [Search results]: https://docs.groupdocs.com/display/searchjava/Search+results
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FoundDocument()](#FoundDocument--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,12 +35,19 @@ Represents a found document.
 | [getFoundFields()](#getFoundFields--) | Gets the document fields found. |
 | [getTerms()](#getTerms--) | Gets the terms found. |
 | [getTermSequences()](#getTermSequences--) | Gets the term sequences found. |
+| [getAttributes()](#getAttributes--) | Gets the attributes associated with the found document. |
 | [toString()](#toString--) | Returns string representation of the found document. |
 | [serialize()](#serialize--) | Serializes the current instance to a byte array. |
 | [deserialize(byte[] array)](#deserialize-byte---) | Deserializes an instance from a byte array. |
+### FoundDocument() {#FoundDocument--}
+```
+public FoundDocument()
+```
+
+
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
-public final DocumentInfo getDocumentInfo()
+public abstract DocumentInfo getDocumentInfo()
 ```
 
 
@@ -45,7 +57,7 @@ Gets the document info.
 [DocumentInfo](../../com.groupdocs.search.results/documentinfo) - The document info.
 ### getRelevance() {#getRelevance--}
 ```
-public final double getRelevance()
+public abstract double getRelevance()
 ```
 
 
@@ -55,7 +67,7 @@ Gets the relevance of search result.
 double - The relevance of search result.
 ### getOccurrenceCount() {#getOccurrenceCount--}
 ```
-public final int getOccurrenceCount()
+public abstract int getOccurrenceCount()
 ```
 
 
@@ -65,7 +77,7 @@ Gets the number of occurrences found.
 int - The number of occurrences found.
 ### getFoundFields() {#getFoundFields--}
 ```
-public final FoundDocumentField[] getFoundFields()
+public abstract FoundDocumentField[] getFoundFields()
 ```
 
 
@@ -75,7 +87,7 @@ Gets the document fields found.
 com.groupdocs.search.results.FoundDocumentField[] - The document fields found.
 ### getTerms() {#getTerms--}
 ```
-public final String[] getTerms()
+public abstract String[] getTerms()
 ```
 
 
@@ -85,7 +97,7 @@ Gets the terms found. The value is evaluated each time the property is accessed.
 java.lang.String[] - The terms found.
 ### getTermSequences() {#getTermSequences--}
 ```
-public final String[][] getTermSequences()
+public abstract String[][] getTermSequences()
 ```
 
 
@@ -93,9 +105,19 @@ Gets the term sequences found.
 
 **Returns:**
 java.lang.String[][] - The term sequences found.
+### getAttributes() {#getAttributes--}
+```
+public abstract String[] getAttributes()
+```
+
+
+Gets the attributes associated with the found document. The corresponding option must be enabled in the search options to retrieve attributes.
+
+**Returns:**
+java.lang.String[] - The attributes associated with the found document.
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 
@@ -105,7 +127,7 @@ Returns string representation of the found document.
 java.lang.String - A string that represents the found document.
 ### serialize() {#serialize--}
 ```
-public final byte[] serialize()
+public abstract byte[] serialize()
 ```
 
 

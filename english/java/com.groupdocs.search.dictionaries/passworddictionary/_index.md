@@ -1,21 +1,18 @@
 ---
 title: PasswordDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of document passwords.
+description: Defines interface of a dictionary of document passwords.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.groupdocs.search.dictionaries/passworddictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class PasswordDictionary extends DictionaryBase implements Iterable<String>
+public interface PasswordDictionary extends DictionaryBase, Iterable<String>
 ```
 
-Represents a dictionary of document passwords.
+Defines interface of a dictionary of document passwords.
 
 **Learn more**
 

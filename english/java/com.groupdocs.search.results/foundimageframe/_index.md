@@ -9,10 +9,15 @@ url: /java/com.groupdocs.search.results/foundimageframe/
 **Inheritance:**
 java.lang.Object
 ```
-public class FoundImageFrame
+public abstract class FoundImageFrame
 ```
 
 Represents a found image frame.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FoundImageFrame()](#FoundImageFrame--) |  |
 ## Methods
 
 | Method | Description |
@@ -22,9 +27,15 @@ Represents a found image frame.
 | [getFrameIndex()](#getFrameIndex--) | Gets the index of the frame in the image. |
 | [getHashDifferences()](#getHashDifferences--) | Gets the number of mismatched bits in the image hash. |
 | [toString()](#toString--) | Returns a  System.String  that represents the current  FoundImageFrame . |
+### FoundImageFrame() {#FoundImageFrame--}
+```
+public FoundImageFrame()
+```
+
+
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
-public final DocumentInfo getDocumentInfo()
+public abstract DocumentInfo getDocumentInfo()
 ```
 
 
@@ -34,7 +45,7 @@ Gets the document info.
 [DocumentInfo](../../com.groupdocs.search.results/documentinfo) - The document info.
 ### getImageIndex() {#getImageIndex--}
 ```
-public final int getImageIndex()
+public abstract int getImageIndex()
 ```
 
 
@@ -44,7 +55,7 @@ Gets the ordinal number of the image in the document.
 int - The ordinal number of the image in the document.
 ### getFrameIndex() {#getFrameIndex--}
 ```
-public final int getFrameIndex()
+public abstract int getFrameIndex()
 ```
 
 
@@ -54,7 +65,7 @@ Gets the index of the frame in the image.
 int - The index of the frame in the image.
 ### getHashDifferences() {#getHashDifferences--}
 ```
-public final int getHashDifferences()
+public abstract int getHashDifferences()
 ```
 
 
@@ -64,7 +75,7 @@ Gets the number of mismatched bits in the image hash.
 int - The number of mismatched bits in the image hash.
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 

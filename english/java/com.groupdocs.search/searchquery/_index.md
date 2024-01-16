@@ -3,7 +3,7 @@ title: SearchQuery
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a search query in object form.
 type: docs
-weight: 27
+weight: 25
 url: /java/com.groupdocs.search/searchquery/
 ---
 **Inheritance:**
@@ -26,23 +26,30 @@ The example demonstrates a typical usage of the class.
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
+ 
  Index index = new Index(indexFolder); // Creating index in the specified folder
  index.add(documentsFolder); // Indexing documents from the specified folder
+ 
  // Creating subquery of date range search
  SearchQuery subquery1 = SearchQuery.createDateRangeQuery(new Date(2011, 6, 17), new Date(2013, 1, 1));
+ 
  // Creating subquery of wildcard with number of missed words from 0 to 2
  SearchQuery subquery2 = SearchQuery.createWildcardQuery(0, 2);
+ 
  // Creating subquery of simple word
  SearchQuery subquery3 = SearchQuery.createWordQuery("birth");
  subquery3.setSearchOptions(new SearchOptions()); // Setting search options only for subquery 3
  subquery3.getSearchOptions().getFuzzySearch().setEnabled(true);
  subquery3.getSearchOptions().getFuzzySearch().setFuzzyAlgorithm(new TableDiscreteFunction(1));
+ 
  // Combining subqueries into one query
  SearchQuery query = SearchQuery.createPhraseSearchQuery(subquery1, subquery2, subquery3);
+ 
  // Creating search options object with increased capacity of found occurrences
  SearchOptions options = new SearchOptions(); // Overall search options
  options.setMaxOccurrenceCountPerTerm(1000000);
  options.setMaxTotalOccurrenceCount(10000000);
+ 
  SearchResult result = index.search(query, options); // Searching
  
 ```
@@ -60,9 +67,9 @@ The example demonstrates a typical usage of the class.
 | [getFirstChild()](#getFirstChild--) | Gets the first child query. |
 | [getSecondChild()](#getSecondChild--) | Gets the second child query. |
 | [getChild(int index)](#getChild-int-) | Gets a child query by an index. |
-| [getSearchOptions()](#getSearchOptions--) | Gets the search options of this seach query. |
-| [setSearchOptions(SearchOptions value)](#setSearchOptions-com.groupdocs.search.options.SearchOptions-) | Sets the search options of this seach query. |
-| [toString()](#toString--) | Returns a String that represents the current  SearchQuery  instance. |
+| [getSearchOptions()](#getSearchOptions--) | Gets or sets the search options of this seach query. |
+| [setSearchOptions(SearchOptions value)](#setSearchOptions-com.groupdocs.search.options.SearchOptions-) | Gets or sets the search options of this seach query. |
+| [toString()](#toString--) | Returns a  System.String  that represents the current  SearchQuery  instance. |
 | [createWordQuery(String term)](#createWordQuery-java.lang.String-) | Creates a simple word query. |
 | [createWordPatternQuery(WordPattern pattern)](#createWordPatternQuery-com.groupdocs.search.common.WordPattern-) | Creates a word pattern query. |
 | [createRegexQuery(String pattern)](#createRegexQuery-java.lang.String-) | Creates a regular expression query. |
@@ -137,7 +144,7 @@ public final SearchOptions getSearchOptions()
 ```
 
 
-Gets the search options of this seach query.
+Gets or sets the search options of this seach query.
 
 **Returns:**
 [SearchOptions](../../com.groupdocs.search.options/searchoptions) - The search options.
@@ -147,7 +154,7 @@ public final void setSearchOptions(SearchOptions value)
 ```
 
 
-Sets the search options of this seach query.
+Gets or sets the search options of this seach query.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -160,10 +167,10 @@ public abstract String toString()
 ```
 
 
-Returns a String that represents the current  SearchQuery  instance.
+Returns a  System.String  that represents the current  SearchQuery  instance.
 
 **Returns:**
-java.lang.String - A String that represents the current  SearchQuery  instance.
+java.lang.String - A  System.String  that represents the current  SearchQuery  instance.
 ### createWordQuery(String term) {#createWordQuery-java.lang.String-}
 ```
 public static SearchQuery createWordQuery(String term)

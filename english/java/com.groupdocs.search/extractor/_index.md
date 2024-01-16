@@ -22,9 +22,9 @@ Represents a tool for preliminary data extraction from documents for separating 
 
 | Field | Description |
 | --- | --- |
-| [ErrorOccurred](#ErrorOccurred) |  |
-| [ImagePreparing](#ImagePreparing) |  |
-| [PasswordRequired](#PasswordRequired) |  |
+| [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an extractor operation. |
+| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing. |
+| [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
 ## Methods
 
 | Method | Description |
@@ -48,17 +48,23 @@ public final Event<EventHandler<IndexErrorEventArgs>> ErrorOccurred
 ```
 
 
+Occurs when an error happens during an extractor operation.
+
 ### ImagePreparing {#ImagePreparing}
 ```
 public final Event<EventHandler<ImagePreparingEventArgs>> ImagePreparing
 ```
 
 
+Occurs when an image is going to be prepared for indexing.
+
 ### PasswordRequired {#PasswordRequired}
 ```
 public final Event<EventHandler<PasswordRequiredEventArgs>> PasswordRequired
 ```
 
+
+Occurs when a document requires password for opening.
 
 ### getSettings() {#getSettings--}
 ```

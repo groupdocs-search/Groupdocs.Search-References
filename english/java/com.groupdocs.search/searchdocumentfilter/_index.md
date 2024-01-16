@@ -3,7 +3,7 @@ title: SearchDocumentFilter
 second_title: GroupDocs.Search for Java API Reference
 description: Contains methods for creating search document filters.
 type: docs
-weight: 25
+weight: 24
 url: /java/com.groupdocs.search/searchdocumentfilter/
 ---
 **Inheritance:**
@@ -31,12 +31,12 @@ Contains methods for creating search document filters.
 
 | Method | Description |
 | --- | --- |
-| [createFilePathRegularExpression(String pattern)](#createFilePathRegularExpression-java.lang.String-) | Creates filter for skipping documents that are not match a regular expression. |
-| [createFilePathRegularExpression(String pattern, int options)](#createFilePathRegularExpression-java.lang.String-int-) | Creates filter for skipping documents that are not match a regular expression. |
-| [createFileExtension(String[] extensions)](#createFileExtension-java.lang.String...-) | Creates filter for skipping documents that are not in the specified list of possible extensions. |
-| [createNot(ISearchDocumentFilter innerFilter)](#createNot-com.groupdocs.search.options.ISearchDocumentFilter-) | Creates filter that has inverse logic in relation to the specified inner filter. |
-| [createAnd(ISearchDocumentFilter[] filters)](#createAnd-com.groupdocs.search.options.ISearchDocumentFilter...-) | Creates logical conjunction of the specified filters. |
-| [createOr(ISearchDocumentFilter[] filters)](#createOr-com.groupdocs.search.options.ISearchDocumentFilter...-) | Creates logical disjunction of the specified filters. |
+| [createFilePathRegularExpression(String pattern)](#createFilePathRegularExpression-java.lang.String-) | Creates a filter for skipping documents that are not match a regular expression. |
+| [createFilePathRegularExpression(String pattern, int options)](#createFilePathRegularExpression-java.lang.String-int-) | Creates a filter for skipping documents that are not match a regular expression. |
+| [createFileExtension(String[] extensions)](#createFileExtension-java.lang.String...-) | Creates a filter for skipping documents that are not in the specified list of possible extensions. |
+| [createNot(ISearchDocumentFilter innerFilter)](#createNot-com.groupdocs.search.options.ISearchDocumentFilter-) | Creates a filter that has inverse logic in relation to the specified inner filter. |
+| [createAnd(ISearchDocumentFilter[] filters)](#createAnd-com.groupdocs.search.options.ISearchDocumentFilter...-) | Creates a logical conjunction of the specified filters. |
+| [createOr(ISearchDocumentFilter[] filters)](#createOr-com.groupdocs.search.options.ISearchDocumentFilter...-) | Creates a logical disjunction of the specified filters. |
 | [createAttribute(String[] attributes)](#createAttribute-java.lang.String...-) | Creates a filter for skipping documents that do not have any value from the specified list of allowable attributes. |
 ### SearchDocumentFilter() {#SearchDocumentFilter--}
 ```
@@ -50,7 +50,7 @@ public static ISearchDocumentFilter createFilePathRegularExpression(String patte
 ```
 
 
-Creates filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
+Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -65,7 +65,7 @@ public static ISearchDocumentFilter createFilePathRegularExpression(String patte
 ```
 
 
-Creates filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
+Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -81,7 +81,7 @@ public static ISearchDocumentFilter createFileExtension(String[] extensions)
 ```
 
 
-Creates filter for skipping documents that are not in the specified list of possible extensions.
+Creates a filter for skipping documents that are not in the specified list of possible extensions.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ public static ISearchDocumentFilter createNot(ISearchDocumentFilter innerFilter)
 ```
 
 
-Creates filter that has inverse logic in relation to the specified inner filter.
+Creates a filter that has inverse logic in relation to the specified inner filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,7 +111,7 @@ public static ISearchDocumentFilter createAnd(ISearchDocumentFilter[] filters)
 ```
 
 
-Creates logical conjunction of the specified filters.
+Creates a logical conjunction of the specified filters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -126,7 +126,7 @@ public static ISearchDocumentFilter createOr(ISearchDocumentFilter[] filters)
 ```
 
 
-Creates logical disjunction of the specified filters.
+Creates a logical disjunction of the specified filters.
 
 **Parameters:**
 | Parameter | Type | Description |

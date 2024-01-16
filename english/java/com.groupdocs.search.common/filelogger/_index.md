@@ -3,7 +3,7 @@ title: FileLogger
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a logger that logs events and errors to a local file.
 type: docs
-weight: 22
+weight: 20
 url: /java/com.groupdocs.search.common/filelogger/
 ---
 **Inheritance:**

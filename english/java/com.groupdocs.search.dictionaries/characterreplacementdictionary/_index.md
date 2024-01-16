@@ -1,21 +1,18 @@
 ---
 title: CharacterReplacementDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a character replacement dictionary that is used during the indexing process.
+description: Defines interface of a character replacement dictionary that is used during the indexing process.
 type: docs
-weight: 13
+weight: 16
 url: /java/com.groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class CharacterReplacementDictionary extends DictionaryBase implements Iterable<Character>
+public interface CharacterReplacementDictionary extends DictionaryBase, Iterable<Character>
 ```
 
-Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make case-insensitive index.
+Defines interface of a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make case-insensitive index.
 
 **Learn more**
 

@@ -3,7 +3,7 @@ title: Cancellation
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an object for requesting cancellation of an operation.
 type: docs
-weight: 13
+weight: 11
 url: /java/com.groupdocs.search.common/cancellation/
 ---
 **Inheritance:**

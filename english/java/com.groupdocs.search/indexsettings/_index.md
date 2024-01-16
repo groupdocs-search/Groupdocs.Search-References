@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the index settings that allow to customize the indexing operations.
 type: docs
-weight: 20
+weight: 19
 url: /java/com.groupdocs.search/indexsettings/
 ---
 **Inheritance:**
@@ -49,10 +49,6 @@ The example demonstrates a typical usage of the class.
 | [setMaxSearchReportCount(int value)](#setMaxSearchReportCount-int-) | Sets the maximum number of search reports. |
 | [getUseCharacterReplacements()](#getUseCharacterReplacements--) | Gets a value indicating whether to use character replacements or not. |
 | [setUseCharacterReplacements(boolean value)](#setUseCharacterReplacements-boolean-) | Sets a value indicating whether to use character replacements or not. |
-| [getAutoDetectEncoding()](#getAutoDetectEncoding--) | Gets a value indicating whether to detect encoding automatically or not. |
-| [setAutoDetectEncoding(boolean value)](#setAutoDetectEncoding-boolean-) | Sets a value indicating whether to detect encoding automatically or not. |
-| [getUseRawTextExtraction()](#getUseRawTextExtraction--) | Gets a value indicating whether the raw mode is used for text extraction if possible. |
-| [setUseRawTextExtraction(boolean value)](#setUseRawTextExtraction-boolean-) | Sets a value indicating whether the raw mode is used for text extraction if possible. |
 | [getDocumentFilter()](#getDocumentFilter--) | Gets a document filter. |
 | [setDocumentFilter(DocumentFilter value)](#setDocumentFilter-com.groupdocs.search.DocumentFilter-) | Sets a document filter. |
 | [getTextStorageSettings()](#getTextStorageSettings--) | Gets the text storage settings. |
@@ -173,52 +169,6 @@ Sets a value indicating whether to use character replacements or not. The defaul
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether to use character replacements or not. |
-
-### getAutoDetectEncoding() {#getAutoDetectEncoding--}
-```
-public final boolean getAutoDetectEncoding()
-```
-
-
-Gets a value indicating whether to detect encoding automatically or not. The default value is  false .
-
-**Returns:**
-boolean - A value indicating whether to detect encoding automatically or not.
-### setAutoDetectEncoding(boolean value) {#setAutoDetectEncoding-boolean-}
-```
-public final void setAutoDetectEncoding(boolean value)
-```
-
-
-Sets a value indicating whether to detect encoding automatically or not. The default value is  false .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | A value indicating whether to detect encoding automatically or not. |
-
-### getUseRawTextExtraction() {#getUseRawTextExtraction--}
-```
-public final boolean getUseRawTextExtraction()
-```
-
-
-Gets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
-
-**Returns:**
-boolean - A value indicating whether the raw mode is used for text extraction if possible.
-### setUseRawTextExtraction(boolean value) {#setUseRawTextExtraction-boolean-}
-```
-public final void setUseRawTextExtraction(boolean value)
-```
-
-
-Sets a value indicating whether the raw mode is used for text extraction if possible. The default value is  true . The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | A value indicating whether the raw mode is used for text extraction if possible. |
 
 ### getDocumentFilter() {#getDocumentFilter--}
 ```
@@ -394,9 +344,7 @@ public final CustomExtractorCollection getCustomExtractors()
 ```
 
 
-Gets the custom extractor collection.
-
-The full example of implementing a custom extractor is presented in documentation for  GroupDocs.Search.Common.IFieldExtractor  interface.
+Gets the custom extractor collection. The full example of implementing a custom extractor is presented in documentation for  GroupDocs.Search.Common.IFieldExtractor  interface.
 
 **Returns:**
 [CustomExtractorCollection](../../com.groupdocs.search.common/customextractorcollection) - The custom extractor collection.
