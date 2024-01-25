@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.search.scaling/indexer/add/
 ---
-## Indexer.Add method
+## Add(Document[], string[], IndexingOptions) {#add}
 
 Performs indexing operation. Indexing only from stream and structure is supported.
 
@@ -23,6 +23,29 @@ public void Add(Document[] documents, string[] passwords, IndexingOptions option
 ### See Also
 
 * class [Document](../../../groupdocs.search.common/document)
+* class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
+* class [Indexer](../../indexer)
+* namespace [GroupDocs.Search.Scaling](../../indexer)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Add(ExtractedData[], IndexingOptions) {#add_1}
+
+Performs indexing operation. Adds the extracted data to the search network.
+
+```csharp
+public void Add(ExtractedData[] data, IndexingOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | ExtractedData[] | The extracted data. |
+| options | IndexingOptions | The indexing options. |
+
+### See Also
+
+* class [ExtractedData](../../../groupdocs.search.common/extracteddata)
 * class [IndexingOptions](../../../groupdocs.search.options/indexingoptions)
 * class [Indexer](../../indexer)
 * namespace [GroupDocs.Search.Scaling](../../indexer)

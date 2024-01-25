@@ -18,7 +18,8 @@ public sealed class Indexer
 
 | Name | Description |
 | --- | --- |
-| [Add](../../groupdocs.search.scaling/indexer/add)(Document[], string[], IndexingOptions) | Performs indexing operation. Indexing only from stream and structure is supported. |
+| [Add](../../groupdocs.search.scaling/indexer/add#add_1)(ExtractedData[], IndexingOptions) | Performs indexing operation. Adds the extracted data to the search network. |
+| [Add](../../groupdocs.search.scaling/indexer/add#add)(Document[], string[], IndexingOptions) | Performs indexing operation. Indexing only from stream and structure is supported. |
 | [ChangeAttributes](../../groupdocs.search.scaling/indexer/changeattributes)(AttributeChangeBatch, ChangeAttributesOptions) | Applies the specified batch of attribute changes to indexed documents without reindexing. |
 | [Delete](../../groupdocs.search.scaling/indexer/delete)(string[], DeleteOptions) | Deletes indexed documents. |
 | [DeleteAllData](../../groupdocs.search.scaling/indexer/deletealldata)() | Deletes all indexed data from all shards of the search network. |
