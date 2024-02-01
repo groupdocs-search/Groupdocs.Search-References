@@ -119,4 +119,4 @@ public abstract Configurator completeIndexSettings()
 Completes the configuration of the index settings.
 
 **Returns:**
-[Configurator](../../com.groupdocs.search/configurator) - The configurator.
+[Configurator](../../com.groupdocs.search.scaling.configuring/configurator) - The configurator.

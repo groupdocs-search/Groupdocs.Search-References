@@ -3,7 +3,7 @@ title: TextStorageSettings
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the text storage settings.
 type: docs
-weight: 38
+weight: 42
 url: /java/com.groupdocs.search.options/textstoragesettings/
 ---
 **Inheritance:**

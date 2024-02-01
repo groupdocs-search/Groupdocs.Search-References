@@ -3,7 +3,7 @@ title: MergeOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for merge operation.
 type: docs
-weight: 26
+weight: 28
 url: /java/com.groupdocs.search.options/mergeoptions/
 ---
 **Inheritance:**

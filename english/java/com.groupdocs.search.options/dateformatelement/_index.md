@@ -3,7 +3,7 @@ title: DateFormatElement
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a date format element.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.search.options/dateformatelement/
 ---
 **Inheritance:**

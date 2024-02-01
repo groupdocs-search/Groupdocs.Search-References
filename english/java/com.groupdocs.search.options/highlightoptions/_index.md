@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for highlighting found terms.
 type: docs
-weight: 20
+weight: 22
 url: /java/com.groupdocs.search.options/highlightoptions/
 ---
 **Inheritance:**

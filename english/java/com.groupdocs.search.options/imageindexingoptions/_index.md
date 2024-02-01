@@ -3,7 +3,7 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides image indexing options for reverse image search.
 type: docs
-weight: 21
+weight: 23
 url: /java/com.groupdocs.search.options/imageindexingoptions/
 ---
 **Inheritance:**

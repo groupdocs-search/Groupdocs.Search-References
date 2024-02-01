@@ -3,7 +3,7 @@ title: CommonFieldNames
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.search.options/commonfieldnames/
 ---
 **Inheritance:**

@@ -22,6 +22,7 @@ Represents a service that manages search queries to shards of the search network
 
 | Method | Description |
 | --- | --- |
+| [searchFirst(String query, SearchOptions options)](#searchFirst-java.lang.String-com.groupdocs.search.options.SearchOptions-) | Starts a search with a query in text form in the distributed search index. |
 | [searchFirst(SearchQuery query, SearchOptions options)](#searchFirst-com.groupdocs.search.SearchQuery-com.groupdocs.search.options.SearchOptions-) | Starts a search in the distributed search index. |
 | [searchFirst(SearchImage image, ImageSearchOptions options)](#searchFirst-com.groupdocs.search.common.SearchImage-com.groupdocs.search.options.ImageSearchOptions-) | Performs a reverse image search in the distributed search index. |
 | [searchNext(NetworkSearchToken networkSearchToken)](#searchNext-com.groupdocs.search.scaling.results.NetworkSearchToken-) | Continues a search in the distributed search index. |
@@ -36,6 +37,22 @@ public Searcher()
 ```
 
 
+### searchFirst(String query, SearchOptions options) {#searchFirst-java.lang.String-com.groupdocs.search.options.SearchOptions-}
+```
+public abstract NetworkSearchResult searchFirst(String query, SearchOptions options)
+```
+
+
+Starts a search with a query in text form in the distributed search index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | java.lang.String | The search query. |
+| options | [SearchOptions](../../com.groupdocs.search.options/searchoptions) | The search options. |
+
+**Returns:**
+[NetworkSearchResult](../../com.groupdocs.search.scaling.results/networksearchresult) - The search result.
 ### searchFirst(SearchQuery query, SearchOptions options) {#searchFirst-com.groupdocs.search.SearchQuery-com.groupdocs.search.options.SearchOptions-}
 ```
 public abstract NetworkSearchResult searchFirst(SearchQuery query, SearchOptions options)

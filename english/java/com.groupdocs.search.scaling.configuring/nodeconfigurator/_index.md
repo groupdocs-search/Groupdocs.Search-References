@@ -130,4 +130,4 @@ public abstract Configurator completeNode()
 Completes the configuration of the search network node.
 
 **Returns:**
-[Configurator](../../com.groupdocs.search/configurator) - The configurator.
+[Configurator](../../com.groupdocs.search.scaling.configuring/configurator) - The configurator.

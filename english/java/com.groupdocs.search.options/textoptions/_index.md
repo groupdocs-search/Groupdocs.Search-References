@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for retrieving document text from an index.
 type: docs
-weight: 37
+weight: 41
 url: /java/com.groupdocs.search.options/textoptions/
 ---
 **Inheritance:**

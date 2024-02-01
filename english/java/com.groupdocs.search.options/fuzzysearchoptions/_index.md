@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options of the fuzzy search.
 type: docs
-weight: 19
+weight: 21
 url: /java/com.groupdocs.search.options/fuzzysearchoptions/
 ---
 **Inheritance:**

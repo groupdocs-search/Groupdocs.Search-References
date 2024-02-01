@@ -3,7 +3,7 @@ title: OcrIndexingOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for OCR processing and indexing recognized text.
 type: docs
-weight: 29
+weight: 31
 url: /java/com.groupdocs.search.options/ocrindexingoptions/
 ---
 **Inheritance:**

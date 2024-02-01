@@ -3,7 +3,7 @@ title: SimilarityLevel
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an algorithm of the fuzzy search that specifies the similarity level.
 type: docs
-weight: 32
+weight: 35
 url: /java/com.groupdocs.search.options/similaritylevel/
 ---
 **Inheritance:**

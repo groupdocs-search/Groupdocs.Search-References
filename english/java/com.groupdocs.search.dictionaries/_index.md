@@ -39,3 +39,4 @@ The package provides classes of various dictionaries.
 | Enum | Description |
 | --- | --- |
 | [CharacterType](../com.groupdocs.search.dictionaries/charactertype) | Represents a type of a character, depending on how it should be indexed. |
+| [DictionaryType](../com.groupdocs.search.dictionaries/dictionarytype) | Represents a type of a dictionary. |

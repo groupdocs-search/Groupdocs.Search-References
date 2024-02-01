@@ -3,7 +3,7 @@ title: IndexingOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for indexing operation.
 type: docs
-weight: 23
+weight: 25
 url: /java/com.groupdocs.search.options/indexingoptions/
 ---
 **Inheritance:**

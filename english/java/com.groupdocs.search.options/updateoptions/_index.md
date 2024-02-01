@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for update operation.
 type: docs
-weight: 39
+weight: 43
 url: /java/com.groupdocs.search.options/updateoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: FuzzyAlgorithm
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the base class for fuzzy search algorithms.
 type: docs
-weight: 18
+weight: 20
 url: /java/com.groupdocs.search.options/fuzzyalgorithm/
 ---
 **Inheritance:**

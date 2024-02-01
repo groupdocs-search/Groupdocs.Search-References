@@ -14,11 +14,13 @@ The package provides classes to specify additional options of various operations
 
 | Class | Description |
 | --- | --- |
+| [ChangeAttributesOptions](../com.groupdocs.search.options/changeattributesoptions) | Provides options for the change attributes operation. |
 | [Color](../com.groupdocs.search.options/color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [CommonFieldNames](../com.groupdocs.search.options/commonfieldnames) | Represents a list of field names for the faceted search. |
 | [DateFormat](../com.groupdocs.search.options/dateformat) | Represents a date format. |
 | [DateFormatCollection](../com.groupdocs.search.options/dateformatcollection) | Represents a collection of  DateFormat  objects. |
 | [DateFormatElement](../com.groupdocs.search.options/dateformatelement) | Represents a date format element. |
+| [DeleteOptions](../com.groupdocs.search.options/deleteoptions) | Provides options for the delete operation. |
 | [EpubFieldNames](../com.groupdocs.search.options/epubfieldnames) | Represents a list of field names for the faceted search. |
 | [ExtractionOptions](../com.groupdocs.search.options/extractionoptions) | Provides options for extracting data from documents. |
 | [FictionBookFieldNames](../com.groupdocs.search.options/fictionbookfieldnames) | Represents a list of field names for the faceted search. |
@@ -34,12 +36,14 @@ The package provides classes to specify additional options of various operations
 | [MetadataIndexingOptions](../com.groupdocs.search.options/metadataindexingoptions) | Provides options for indexing metadata fields. |
 | [OcrContext](../com.groupdocs.search.options/ocrcontext) | Represents the OCR processing context. |
 | [OcrIndexingOptions](../com.groupdocs.search.options/ocrindexingoptions) | Provides options for OCR processing and indexing recognized text. |
+| [OptimizeOptions](../com.groupdocs.search.options/optimizeoptions) | Provides options for the optimize operation. |
 | [PresentationFieldNames](../com.groupdocs.search.options/presentationfieldnames) | Represents a list of field names for the faceted search. |
 | [SearchOptions](../com.groupdocs.search.options/searchoptions) | Provides options for search operation. |
 | [SimilarityLevel](../com.groupdocs.search.options/similaritylevel) | Represents an algorithm of the fuzzy search that specifies the similarity level. |
 | [SpellingCorrectorOptions](../com.groupdocs.search.options/spellingcorrectoroptions) | Provides options for the spelling corrector. |
 | [SpreadsheetFieldNames](../com.groupdocs.search.options/spreadsheetfieldnames) | Represents a list of field names for the faceted search. |
 | [Step](../com.groupdocs.search.options/step) | Represents a step of a step function. |
+| [SynchronizeOptions](../com.groupdocs.search.options/synchronizeoptions) | Provides options for the synchronize operation. |
 | [TableDiscreteFunction](../com.groupdocs.search.options/tablediscretefunction) | Represents the fuzzy search algorithm that contains correspondences between word lengths and the number of allowed mistakes. |
 | [TextOptions](../com.groupdocs.search.options/textoptions) | Provides options for retrieving document text from an index. |
 | [TextStorageSettings](../com.groupdocs.search.options/textstoragesettings) | Represents the text storage settings. |

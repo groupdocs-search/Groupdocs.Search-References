@@ -3,7 +3,7 @@ title: OcrContext
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the OCR processing context.
 type: docs
-weight: 28
+weight: 30
 url: /java/com.groupdocs.search.options/ocrcontext/
 ---
 **Inheritance:**

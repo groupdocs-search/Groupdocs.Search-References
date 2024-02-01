@@ -3,7 +3,7 @@ title: SpellingCorrectorOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for the spelling corrector.
 type: docs
-weight: 33
+weight: 36
 url: /java/com.groupdocs.search.options/spellingcorrectoroptions/
 ---
 **Inheritance:**

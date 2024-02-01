@@ -3,7 +3,7 @@ title: KeyboardLayoutCorrectorOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for the keyboard layout corrector.
 type: docs
-weight: 24
+weight: 26
 url: /java/com.groupdocs.search.options/keyboardlayoutcorrectoroptions/
 ---
 **Inheritance:**

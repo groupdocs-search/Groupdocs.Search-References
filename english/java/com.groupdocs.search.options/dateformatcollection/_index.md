@@ -3,7 +3,7 @@ title: DateFormatCollection
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a collection of DateFormat objects.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.search.options/dateformatcollection/
 ---
 **Inheritance:**

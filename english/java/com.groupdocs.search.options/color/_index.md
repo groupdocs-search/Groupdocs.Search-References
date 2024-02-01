@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an ARGB alpha red green blue color.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.search.options/color/
 ---
 **Inheritance:**

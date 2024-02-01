@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for search operation.
 type: docs
-weight: 31
+weight: 34
 url: /java/com.groupdocs.search.options/searchoptions/
 ---
 **Inheritance:**

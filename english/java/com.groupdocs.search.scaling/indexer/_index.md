@@ -23,6 +23,7 @@ Represents a service that manages the distribution of indexed documents across s
 | Method | Description |
 | --- | --- |
 | [add(Document[] documents, String[] passwords, IndexingOptions options)](#add-com.groupdocs.search.Document---java.lang.String---com.groupdocs.search.options.IndexingOptions-) | Performs indexing operation. |
+| [add(ExtractedData[] data, IndexingOptions options)](#add-com.groupdocs.search.ExtractedData---com.groupdocs.search.options.IndexingOptions-) | Performs indexing operation. |
 | [delete(String[] documentKeys, DeleteOptions options)](#delete-java.lang.String---com.groupdocs.search.options.DeleteOptions-) | Deletes indexed documents. |
 | [optimize(OptimizeOptions options)](#optimize-com.groupdocs.search.options.OptimizeOptions-) | Minimizes the number of index segments by merging them one with another. |
 | [synchronize(SynchronizeOptions options)](#synchronize-com.groupdocs.search.options.SynchronizeOptions-) | Synchronizes the list of indexed documents with those on shards. |
@@ -60,6 +61,20 @@ Performs indexing operation. Indexing only from stream and structure is supporte
 | documents | [Document\[\]](../../com.groupdocs.search/document) | The documents from file system, stream, or structure. |
 | passwords | java.lang.String[] | The document passwords. |
 | options | [IndexingOptions](../../com.groupdocs.search.options/indexingoptions) | The add options. |
+
+### add(ExtractedData[] data, IndexingOptions options) {#add-com.groupdocs.search.ExtractedData---com.groupdocs.search.options.IndexingOptions-}
+```
+public abstract void add(ExtractedData[] data, IndexingOptions options)
+```
+
+
+Performs indexing operation. Adds the extracted data to the search network.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | [ExtractedData\[\]](../../com.groupdocs.search/extracteddata) | The extracted data. |
+| options | [IndexingOptions](../../com.groupdocs.search.options/indexingoptions) | The indexing options. |
 
 ### delete(String[] documentKeys, DeleteOptions options) {#delete-java.lang.String---com.groupdocs.search.options.DeleteOptions-}
 ```

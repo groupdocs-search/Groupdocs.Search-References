@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for extracting data from documents.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.search.options/extractionoptions/
 ---
 **Inheritance:**

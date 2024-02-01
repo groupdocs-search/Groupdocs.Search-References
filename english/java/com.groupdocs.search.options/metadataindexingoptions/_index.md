@@ -3,7 +3,7 @@ title: MetadataIndexingOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for indexing metadata fields.
 type: docs
-weight: 27
+weight: 29
 url: /java/com.groupdocs.search.options/metadataindexingoptions/
 ---
 **Inheritance:**
