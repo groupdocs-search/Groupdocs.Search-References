@@ -3,7 +3,7 @@ title: WordPattern
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a word pattern to use in word wildcard search.
 type: docs
-weight: 36
+weight: 34
 url: /java/com.groupdocs.search.common/wordpattern/
 ---
 **Inheritance:**
@@ -39,6 +39,7 @@ Represents a word pattern to use in word wildcard search.
 | [appendOneOrMoreCharactersWildcard()](#appendOneOrMoreCharactersWildcard--) | Appends one or more characters wildcard to the word pattern. |
 | [appendWildcard(int min, int max)](#appendWildcard-int-int-) | Appends a wildcard to the word pattern. |
 | [toString()](#toString--) | Returns a  System.String  that represents the current  WordPattern . |
+| [getCore()](#getCore--) |  |
 ### WordPattern() {#WordPattern--}
 ```
 public WordPattern()
@@ -49,7 +50,7 @@ Initializes a new instance of the  WordPattern  class.
 
 ### appendString(String text) {#appendString-java.lang.String-}
 ```
-public final void appendString(String text)
+public void appendString(String text)
 ```
 
 
@@ -62,7 +63,7 @@ Appends a string to the word pattern.
 
 ### appendCharacter(char character) {#appendCharacter-char-}
 ```
-public final void appendCharacter(char character)
+public void appendCharacter(char character)
 ```
 
 
@@ -75,7 +76,7 @@ Appends a character to the word pattern.
 
 ### appendOneCharacterWildcard() {#appendOneCharacterWildcard--}
 ```
-public final void appendOneCharacterWildcard()
+public void appendOneCharacterWildcard()
 ```
 
 
@@ -83,7 +84,7 @@ Appends one character wildcard to the word pattern.
 
 ### appendZeroOrOneCharacterWildcard() {#appendZeroOrOneCharacterWildcard--}
 ```
-public final void appendZeroOrOneCharacterWildcard()
+public void appendZeroOrOneCharacterWildcard()
 ```
 
 
@@ -91,7 +92,7 @@ Appends zero or one character wildcard to the word pattern.
 
 ### appendZeroOrMoreCharactersWildcard() {#appendZeroOrMoreCharactersWildcard--}
 ```
-public final void appendZeroOrMoreCharactersWildcard()
+public void appendZeroOrMoreCharactersWildcard()
 ```
 
 
@@ -99,7 +100,7 @@ Appends zero or more characters wildcard to the word pattern.
 
 ### appendOneOrMoreCharactersWildcard() {#appendOneOrMoreCharactersWildcard--}
 ```
-public final void appendOneOrMoreCharactersWildcard()
+public void appendOneOrMoreCharactersWildcard()
 ```
 
 
@@ -107,7 +108,7 @@ Appends one or more characters wildcard to the word pattern.
 
 ### appendWildcard(int min, int max) {#appendWildcard-int-int-}
 ```
-public final void appendWildcard(int min, int max)
+public void appendWildcard(int min, int max)
 ```
 
 
@@ -129,3 +130,13 @@ Returns a  System.String  that represents the current  WordPattern .
 
 **Returns:**
 java.lang.String - A  System.String  that represents the current  WordPattern .
+### getCore() {#getCore--}
+```
+public Object getCore()
+```
+
+
+
+
+**Returns:**
+java.lang.Object

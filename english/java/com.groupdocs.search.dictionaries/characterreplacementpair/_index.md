@@ -3,7 +3,7 @@ title: CharacterReplacementPair
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a character/replacement pair.
 type: docs
-weight: 14
+weight: 11
 url: /java/com.groupdocs.search.dictionaries/characterreplacementpair/
 ---
 **Inheritance:**

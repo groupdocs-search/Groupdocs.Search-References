@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search for Java API Reference
 description: Specifies the number of threads.
 type: docs
-weight: 46
+weight: 50
 url: /java/com.groupdocs.search.options/numberofthreads/
 ---
 **Inheritance:**

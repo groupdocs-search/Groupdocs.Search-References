@@ -3,13 +3,13 @@ title: IndexingReport
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a detailed information on an indexing operation.
 type: docs
-weight: 27
+weight: 25
 url: /java/com.groupdocs.search.common/indexingreport/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class IndexingReport
+public abstract class IndexingReport
 ```
 
 Represents a detailed information on an indexing operation.
@@ -48,6 +48,11 @@ The example demonstrates a typical usage of the class.
 
 
 [Indexing reports]: https://docs.groupdocs.com/display/searchjava/Indexing+reports
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [IndexingReport()](#IndexingReport--) |  |
 ## Methods
 
 | Method | Description |
@@ -64,9 +69,15 @@ The example demonstrates a typical usage of the class.
 | [getIndexedDocuments()](#getIndexedDocuments--) | Gets the list of indexed documents. |
 | [getUpdatedDocuments()](#getUpdatedDocuments--) | Gets the list of updated documents. |
 | [getRemovedDocuments()](#getRemovedDocuments--) | Gets the list of removed from index documents. |
+### IndexingReport() {#IndexingReport--}
+```
+public IndexingReport()
+```
+
+
 ### getTotalDocumentsInIndex() {#getTotalDocumentsInIndex--}
 ```
-public final int getTotalDocumentsInIndex()
+public abstract int getTotalDocumentsInIndex()
 ```
 
 
@@ -76,7 +87,7 @@ Gets the total number of documents in the index.
 int - The total number of documents in the index.
 ### getTotalTermCount() {#getTotalTermCount--}
 ```
-public final int getTotalTermCount()
+public abstract int getTotalTermCount()
 ```
 
 
@@ -86,7 +97,7 @@ Gets the total number of terms in index.
 int - The total number of terms in index.
 ### getIndexedDocumentsSize() {#getIndexedDocumentsSize--}
 ```
-public final double getIndexedDocumentsSize()
+public abstract double getIndexedDocumentsSize()
 ```
 
 
@@ -96,7 +107,7 @@ Gets the total length of indexed documents in MB.
 double - The total length of indexed documents in MB.
 ### getSegmentCount() {#getSegmentCount--}
 ```
-public final int getSegmentCount()
+public abstract int getSegmentCount()
 ```
 
 
@@ -106,7 +117,7 @@ Gets the number of index segments.
 int - The number of index segments.
 ### getTotalIndexSize() {#getTotalIndexSize--}
 ```
-public final long getTotalIndexSize()
+public abstract long getTotalIndexSize()
 ```
 
 
@@ -116,7 +127,7 @@ Gets the total index size in bytes.
 long - The total index size in bytes.
 ### getStartTime() {#getStartTime--}
 ```
-public final Date getStartTime()
+public abstract Date getStartTime()
 ```
 
 
@@ -126,7 +137,7 @@ Gets the indexing start time.
 java.util.Date - The indexing start time.
 ### getEndTime() {#getEndTime--}
 ```
-public final Date getEndTime()
+public abstract Date getEndTime()
 ```
 
 
@@ -136,7 +147,7 @@ Gets the indexing end time.
 java.util.Date - The indexing end time.
 ### getIndexingTime() {#getIndexingTime--}
 ```
-public final double getIndexingTime()
+public abstract double getIndexingTime()
 ```
 
 
@@ -146,7 +157,7 @@ Gets the indexing duration in seconds.
 double - The indexing duration in seconds.
 ### getErrors() {#getErrors--}
 ```
-public final String[] getErrors()
+public abstract String[] getErrors()
 ```
 
 
@@ -156,7 +167,7 @@ Gets the list of errors.
 java.lang.String[] - The list of errors.
 ### getIndexedDocuments() {#getIndexedDocuments--}
 ```
-public final String[] getIndexedDocuments()
+public abstract String[] getIndexedDocuments()
 ```
 
 
@@ -166,7 +177,7 @@ Gets the list of indexed documents.
 java.lang.String[] - The list of indexed documents.
 ### getUpdatedDocuments() {#getUpdatedDocuments--}
 ```
-public final String[] getUpdatedDocuments()
+public abstract String[] getUpdatedDocuments()
 ```
 
 
@@ -176,7 +187,7 @@ Gets the list of updated documents.
 java.lang.String[] - The list of updated documents.
 ### getRemovedDocuments() {#getRemovedDocuments--}
 ```
-public final String[] getRemovedDocuments()
+public abstract String[] getRemovedDocuments()
 ```
 
 

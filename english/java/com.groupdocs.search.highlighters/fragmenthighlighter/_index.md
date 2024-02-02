@@ -8,8 +8,11 @@ url: /java/com.groupdocs.search.highlighters/fragmenthighlighter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.highlighters.Highlighter](../../com.groupdocs.search.highlighters/highlighter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.highlighters.IFragmentHighlighter](../../com.groupdocs.search.highlighters/ifragmenthighlighter)
 ```
-public class FragmentHighlighter extends Highlighter
+public class FragmentHighlighter extends Highlighter implements IFragmentHighlighter
 ```
 
 Represents a search result highlighter that highlights search results in text fragments.

@@ -7,9 +7,9 @@ weight: 11
 url: /java/com.groupdocs.search.licensing/metered/
 ---
 **Inheritance:**
-java.lang.Object, com.groupdocs.search.MeteredAssistant
+java.lang.Object
 ```
-public class Metered extends MeteredAssistant
+public class Metered
 ```
 
 Provides methods to set metered key.

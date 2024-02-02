@@ -3,7 +3,7 @@ title: TableDiscreteFunction
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the fuzzy search algorithm that contains correspondences between word lengths and the number of allowed mistakes.
 type: docs
-weight: 36
+weight: 40
 url: /java/com.groupdocs.search.options/tablediscretefunction/
 ---
 **Inheritance:**

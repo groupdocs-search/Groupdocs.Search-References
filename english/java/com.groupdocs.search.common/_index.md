@@ -14,8 +14,6 @@ The package provides common classes of the library.
 
 | Class | Description |
 | --- | --- |
-| [ArrayReader](../com.groupdocs.search.common/arrayreader) | Represents a byte array data reader. |
-| [ArrayWriter](../com.groupdocs.search.common/arraywriter) | Represents a byte array data writer. |
 | [AttributeChangeBatch](../com.groupdocs.search.common/attributechangebatch) | Represents a container for attribute changes. |
 | [Cancellation](../com.groupdocs.search.common/cancellation) | Represents an object for requesting cancellation of an operation. |
 | [ChunkSearchToken](../com.groupdocs.search.common/chunksearchtoken) | Represents a token for the continuation of the chunk search (search by pages). |

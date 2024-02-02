@@ -3,7 +3,7 @@ title: Encodings
 second_title: GroupDocs.Search for Java API Reference
 description: Contains names of possible encodings.
 type: docs
-weight: 19
+weight: 17
 url: /java/com.groupdocs.search.common/encodings/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: EpubFieldNames
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 15
+weight: 17
 url: /java/com.groupdocs.search.options/epubfieldnames/
 ---
 **Inheritance:**

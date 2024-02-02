@@ -3,7 +3,7 @@ title: MulticastDelegate
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a delegate which refers to class instances that have method to be invoked.
 type: docs
-weight: 28
+weight: 26
 url: /java/com.groupdocs.search.common/multicastdelegate/
 ---
 **Inheritance:**

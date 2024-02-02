@@ -7,7 +7,7 @@ weight: 20
 url: /java/com.groupdocs.search.events/optimizationprogresseventargs/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
+java.lang.Object, [com.groupdocs.search.events.EventArgs](../../com.groupdocs.search.events/eventargs), [com.groupdocs.search.events.BaseIndexEventArgs](../../com.groupdocs.search.events/baseindexeventargs)
 ```
 public class OptimizationProgressEventArgs extends BaseIndexEventArgs
 ```

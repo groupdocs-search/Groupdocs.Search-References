@@ -1,21 +1,18 @@
 ---
 title: SynonymDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of synonyms.
+description: Defines interface of a dictionary of synonyms.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.search.dictionaries/synonymdictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class SynonymDictionary extends DictionaryBase implements Iterable<String>
+public interface SynonymDictionary extends DictionaryBase, Iterable<String>
 ```
 
-Represents a dictionary of synonyms.
+Defines interface of a dictionary of synonyms.
 
 **Learn more**
 

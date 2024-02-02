@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.results/founddocumentfield/
 **Inheritance:**
 java.lang.Object
 ```
-public class FoundDocumentField
+public abstract class FoundDocumentField
 ```
 
 Represents a found document field.
@@ -20,6 +20,11 @@ Represents a found document field.
 
 
 [Search results]: https://docs.groupdocs.com/display/searchjava/Search+results
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FoundDocumentField()](#FoundDocumentField--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,12 +36,17 @@ Represents a found document field.
 | [getTermSequences()](#getTermSequences--) | Gets the term sequences found. |
 | [getTermSequencesOccurrences()](#getTermSequencesOccurrences--) | Gets the occurrences of the found term sequences. |
 | [toString()](#toString--) | Returns string representation of the found document field. |
-| [getTermSequencePositions()](#getTermSequencePositions--) | Gets the found term sequence positions. |
 | [serialize()](#serialize--) | Serializes the current instance to a byte array. |
 | [deserialize(byte[] array)](#deserialize-byte---) | Deserializes an instance from a byte array. |
+### FoundDocumentField() {#FoundDocumentField--}
+```
+public FoundDocumentField()
+```
+
+
 ### getFieldName() {#getFieldName--}
 ```
-public final String getFieldName()
+public abstract String getFieldName()
 ```
 
 
@@ -46,7 +56,7 @@ Gets the field name.
 java.lang.String - The field name.
 ### getOccurrenceCount() {#getOccurrenceCount--}
 ```
-public final int getOccurrenceCount()
+public abstract int getOccurrenceCount()
 ```
 
 
@@ -56,7 +66,7 @@ Gets the number of occurrences found.
 int - The number of occurrences found.
 ### getTerms() {#getTerms--}
 ```
-public final String[] getTerms()
+public abstract String[] getTerms()
 ```
 
 
@@ -66,7 +76,7 @@ Gets the terms found.
 java.lang.String[] - The terms found.
 ### getTermsOccurrences() {#getTermsOccurrences--}
 ```
-public final int[] getTermsOccurrences()
+public abstract int[] getTermsOccurrences()
 ```
 
 
@@ -76,7 +86,7 @@ Gets the occurrences of the found terms.
 int[] - The occurrences of the found terms.
 ### getTermSequences() {#getTermSequences--}
 ```
-public final String[][] getTermSequences()
+public abstract String[][] getTermSequences()
 ```
 
 
@@ -86,7 +96,7 @@ Gets the term sequences found.
 java.lang.String[][] - The term sequences found.
 ### getTermSequencesOccurrences() {#getTermSequencesOccurrences--}
 ```
-public final int[] getTermSequencesOccurrences()
+public abstract int[] getTermSequencesOccurrences()
 ```
 
 
@@ -96,7 +106,7 @@ Gets the occurrences of the found term sequences.
 int[] - The occurrences of the found term sequences.
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 
@@ -104,19 +114,9 @@ Returns string representation of the found document field.
 
 **Returns:**
 java.lang.String - A string that represents the found document field.
-### getTermSequencePositions() {#getTermSequencePositions--}
-```
-public final int[][] getTermSequencePositions()
-```
-
-
-Gets the found term sequence positions.
-
-**Returns:**
-int[][] - The found term sequence positions.
 ### serialize() {#serialize--}
 ```
-public final byte[] serialize()
+public abstract byte[] serialize()
 ```
 
 

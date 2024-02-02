@@ -3,7 +3,7 @@ title: Compression
 second_title: GroupDocs.Search for Java API Reference
 description: Specifies a compression level.
 type: docs
-weight: 43
+weight: 47
 url: /java/com.groupdocs.search.options/compression/
 ---
 **Inheritance:**

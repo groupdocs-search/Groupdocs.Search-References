@@ -3,7 +3,7 @@ title: ImageLocation
 second_title: GroupDocs.Search for Java API Reference
 description: Specifies an image location.
 type: docs
-weight: 44
+weight: 48
 url: /java/com.groupdocs.search.options/imagelocation/
 ---
 **Inheritance:**

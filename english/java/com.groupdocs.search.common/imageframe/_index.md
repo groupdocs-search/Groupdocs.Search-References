@@ -3,24 +3,35 @@ title: ImageFrame
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an image frame.
 type: docs
-weight: 25
+weight: 23
 url: /java/com.groupdocs.search.common/imageframe/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class ImageFrame
+public abstract class ImageFrame
 ```
 
 Represents an image frame.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ImageFrame()](#ImageFrame--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getIndex()](#getIndex--) | Gets the index of the frame in the image. |
+### ImageFrame() {#ImageFrame--}
+```
+public ImageFrame()
+```
+
+
 ### getIndex() {#getIndex--}
 ```
-public final int getIndex()
+public abstract int getIndex()
 ```
 
 

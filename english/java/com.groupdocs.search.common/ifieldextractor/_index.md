@@ -3,7 +3,7 @@ title: IFieldExtractor
 second_title: GroupDocs.Search for Java API Reference
 description: Provides methods for extracting fields from a document.
 type: docs
-weight: 39
+weight: 37
 url: /java/com.groupdocs.search.common/ifieldextractor/
 ---```
 public interface IFieldExtractor

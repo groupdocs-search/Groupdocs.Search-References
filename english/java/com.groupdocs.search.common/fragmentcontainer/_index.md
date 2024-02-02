@@ -3,7 +3,7 @@ title: FragmentContainer
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a container for text fragments with highlighted found terms of one document field.
 type: docs
-weight: 24
+weight: 22
 url: /java/com.groupdocs.search.common/fragmentcontainer/
 ---
 **Inheritance:**
@@ -20,6 +20,11 @@ Represents a container for text fragments with highlighted found terms of one do
 
 
 [Highlighting search results]: https://docs.groupdocs.com/display/searchjava/Highlighting+search+results
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FragmentContainer()](#FragmentContainer--) |  |
 ## Methods
 
 | Method | Description |
@@ -27,9 +32,15 @@ Represents a container for text fragments with highlighted found terms of one do
 | [getFieldName()](#getFieldName--) | Gets the document field name. |
 | [getCount()](#getCount--) | Gets the number of contained text fragments. |
 | [getFragments()](#getFragments--) | Gets an array of contained text fragments. |
+### FragmentContainer() {#FragmentContainer--}
+```
+public FragmentContainer()
+```
+
+
 ### getFieldName() {#getFieldName--}
 ```
-public final String getFieldName()
+public abstract String getFieldName()
 ```
 
 
@@ -39,7 +50,7 @@ Gets the document field name.
 java.lang.String - The document field name.
 ### getCount() {#getCount--}
 ```
-public final int getCount()
+public abstract int getCount()
 ```
 
 
@@ -49,7 +60,7 @@ Gets the number of contained text fragments.
 int - The number of contained text fragments.
 ### getFragments() {#getFragments--}
 ```
-public final String[] getFragments()
+public abstract String[] getFragments()
 ```
 
 

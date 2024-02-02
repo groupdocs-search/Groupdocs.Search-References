@@ -3,7 +3,7 @@ title: CustomExtractorCollection
 second_title: GroupDocs.Search for Java API Reference
 description: Contains a collection of custom extractors.
 type: docs
-weight: 15
+weight: 13
 url: /java/com.groupdocs.search.common/customextractorcollection/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 java.lang.Iterable
 ```
-public class CustomExtractorCollection implements Iterable
+public abstract class CustomExtractorCollection implements Iterable
 ```
 
 Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by build-in extractors, then this extractor will be used instead of built-in one.
@@ -23,6 +23,11 @@ Contains a collection of custom extractors. If the collection contains an extrac
 
 
 [Custom text extractors]: https://docs.groupdocs.com/display/searchjava/Custom+text+extractors
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [CustomExtractorCollection()](#CustomExtractorCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,9 +40,15 @@ Contains a collection of custom extractors. If the collection contains an extrac
 | [containsItem(IFieldExtractor item)](#containsItem-com.groupdocs.search.common.IFieldExtractor-) | Determines whether the collection contains a specific extractor. |
 | [copyToTArray(IFieldExtractor[] array, int arrayIndex)](#copyToTArray-com.groupdocs.search.common.IFieldExtractor---int-) | Copies the elements of the collection to an array, starting at a particular array index. |
 | [removeItem(IFieldExtractor extractor)](#removeItem-com.groupdocs.search.common.IFieldExtractor-) | Removes an extractor from the collection. |
+### CustomExtractorCollection() {#CustomExtractorCollection--}
+```
+public CustomExtractorCollection()
+```
+
+
 ### size() {#size--}
 ```
-public final int size()
+public abstract int size()
 ```
 
 
@@ -47,7 +58,7 @@ Gets the number of extractors contained in the collection.
 int - The number of extractors contained in the collection.
 ### isReadOnly() {#isReadOnly--}
 ```
-public final boolean isReadOnly()
+public abstract boolean isReadOnly()
 ```
 
 
@@ -57,17 +68,17 @@ Gets a value indicating whether the collection is read-only.
 boolean - A value indicating whether the collection is read-only.
 ### iterator() {#iterator--}
 ```
-public final ListIterator iterator()
+public abstract Iterator<IFieldExtractor> iterator()
 ```
 
 
 Returns an iterator for this collection.
 
 **Returns:**
-java.util.ListIterator - An iterator object that can be used to iterate through the collection.
+java.util.Iterator<com.groupdocs.search.common.IFieldExtractor> - An iterator object that can be used to iterate through the collection.
 ### addItem(IFieldExtractor extractor) {#addItem-com.groupdocs.search.common.IFieldExtractor-}
 ```
-public final void addItem(IFieldExtractor extractor)
+public abstract void addItem(IFieldExtractor extractor)
 ```
 
 
@@ -80,7 +91,7 @@ Adds an extractor to the collection.
 
 ### clear() {#clear--}
 ```
-public final void clear()
+public abstract void clear()
 ```
 
 
@@ -88,7 +99,7 @@ Removes all extractors from the collection.
 
 ### containsItem(IFieldExtractor item) {#containsItem-com.groupdocs.search.common.IFieldExtractor-}
 ```
-public final boolean containsItem(IFieldExtractor item)
+public abstract boolean containsItem(IFieldExtractor item)
 ```
 
 
@@ -103,7 +114,7 @@ Determines whether the collection contains a specific extractor.
 boolean -  true  if  item  is found in the collection; otherwise,  false .
 ### copyToTArray(IFieldExtractor[] array, int arrayIndex) {#copyToTArray-com.groupdocs.search.common.IFieldExtractor---int-}
 ```
-public final void copyToTArray(IFieldExtractor[] array, int arrayIndex)
+public abstract void copyToTArray(IFieldExtractor[] array, int arrayIndex)
 ```
 
 
@@ -117,7 +128,7 @@ Copies the elements of the collection to an array, starting at a particular arra
 
 ### removeItem(IFieldExtractor extractor) {#removeItem-com.groupdocs.search.common.IFieldExtractor-}
 ```
-public final boolean removeItem(IFieldExtractor extractor)
+public abstract boolean removeItem(IFieldExtractor extractor)
 ```
 
 

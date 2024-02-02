@@ -3,7 +3,7 @@ title: FictionBookFieldNames
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 17
+weight: 19
 url: /java/com.groupdocs.search.options/fictionbookfieldnames/
 ---
 **Inheritance:**

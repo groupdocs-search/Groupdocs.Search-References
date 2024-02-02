@@ -3,13 +3,13 @@ title: AttributeChangeBatch
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a container for attribute changes.
 type: docs
-weight: 12
+weight: 10
 url: /java/com.groupdocs.search.common/attributechangebatch/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public abstract class AttributeChangeBatch
+public class AttributeChangeBatch
 ```
 
 Represents a container for attribute changes.
@@ -22,11 +22,16 @@ Represents a container for attribute changes.
 
 [Document attributes]: https://docs.groupdocs.com/display/searchjava/Document+attributes
 [Document filtering in search result]: https://docs.groupdocs.com/display/searchjava/Document+filtering+in+search+result
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AttributeChangeBatch()](#AttributeChangeBatch--) | Initializes a new instance of the  AttributeChangeBatch  class. |
+| [AttributeChangeBatch(Object data)](#AttributeChangeBatch-java.lang.Object-) | Initializes a new instance of the  AttributeChangeBatch  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [create()](#create--) | Initializes a new instance of the  AttributeChangeBatch  class. |
 | [add(String path, String[] attributes)](#add-java.lang.String-java.lang.String...-) | Adds the specified attributes to the specified indexed document. |
 | [add(String[] paths, String[] attributes)](#add-java.lang.String---java.lang.String...-) | Adds the specified attributes to the specified indexed documents. |
 | [addToAll(String[] attributes)](#addToAll-java.lang.String...-) | Adds the specified attributes to all documents in the index. |
@@ -36,19 +41,31 @@ Represents a container for attribute changes.
 | [removeAll(String[] paths)](#removeAll-java.lang.String---) | Removes all attributes from the specified indexed documents. |
 | [removeFromAll(String[] attributes)](#removeFromAll-java.lang.String...-) | Removes the specified attributes from all documents in the index. |
 | [clear()](#clear--) | Removes all attributes from all documents in the index. |
-### create() {#create--}
+| [getCore()](#getCore--) |  |
+### AttributeChangeBatch() {#AttributeChangeBatch--}
 ```
-public static AttributeChangeBatch create()
+public AttributeChangeBatch()
 ```
 
 
 Initializes a new instance of the  AttributeChangeBatch  class.
 
-**Returns:**
-[AttributeChangeBatch](../../com.groupdocs.search.common/attributechangebatch) - A new instance of the  AttributeChangeBatch  class.
+### AttributeChangeBatch(Object data) {#AttributeChangeBatch-java.lang.Object-}
+```
+public AttributeChangeBatch(Object data)
+```
+
+
+Initializes a new instance of the  AttributeChangeBatch  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | java.lang.Object | The serialized data. |
+
 ### add(String path, String[] attributes) {#add-java.lang.String-java.lang.String...-}
 ```
-public abstract void add(String path, String[] attributes)
+public void add(String path, String[] attributes)
 ```
 
 
@@ -62,7 +79,7 @@ Adds the specified attributes to the specified indexed document.
 
 ### add(String[] paths, String[] attributes) {#add-java.lang.String---java.lang.String...-}
 ```
-public abstract void add(String[] paths, String[] attributes)
+public void add(String[] paths, String[] attributes)
 ```
 
 
@@ -76,7 +93,7 @@ Adds the specified attributes to the specified indexed documents.
 
 ### addToAll(String[] attributes) {#addToAll-java.lang.String...-}
 ```
-public abstract void addToAll(String[] attributes)
+public void addToAll(String[] attributes)
 ```
 
 
@@ -89,7 +106,7 @@ Adds the specified attributes to all documents in the index.
 
 ### remove(String path, String[] attributes) {#remove-java.lang.String-java.lang.String...-}
 ```
-public abstract void remove(String path, String[] attributes)
+public void remove(String path, String[] attributes)
 ```
 
 
@@ -103,7 +120,7 @@ Removes the specified attributes from the specified indexed document.
 
 ### remove(String[] paths, String[] attributes) {#remove-java.lang.String---java.lang.String...-}
 ```
-public abstract void remove(String[] paths, String[] attributes)
+public void remove(String[] paths, String[] attributes)
 ```
 
 
@@ -117,7 +134,7 @@ Removes the specified attributes from the specified indexed documents.
 
 ### removeAll(String path) {#removeAll-java.lang.String-}
 ```
-public abstract void removeAll(String path)
+public void removeAll(String path)
 ```
 
 
@@ -130,7 +147,7 @@ Removes all attributes from the specified indexed document.
 
 ### removeAll(String[] paths) {#removeAll-java.lang.String---}
 ```
-public abstract void removeAll(String[] paths)
+public void removeAll(String[] paths)
 ```
 
 
@@ -143,7 +160,7 @@ Removes all attributes from the specified indexed documents.
 
 ### removeFromAll(String[] attributes) {#removeFromAll-java.lang.String...-}
 ```
-public abstract void removeFromAll(String[] attributes)
+public void removeFromAll(String[] attributes)
 ```
 
 
@@ -156,9 +173,19 @@ Removes the specified attributes from all documents in the index.
 
 ### clear() {#clear--}
 ```
-public abstract void clear()
+public void clear()
 ```
 
 
 Removes all attributes from all documents in the index.
 
+### getCore() {#getCore--}
+```
+public Object getCore()
+```
+
+
+
+
+**Returns:**
+java.lang.Object

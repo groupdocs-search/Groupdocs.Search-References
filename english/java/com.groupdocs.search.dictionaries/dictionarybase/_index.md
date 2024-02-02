@@ -1,18 +1,15 @@
 ---
 title: DictionaryBase
 second_title: GroupDocs.Search for Java API Reference
-description: Represents the base class for a dictionary.
+description: Defines interface of a dictionary.
 type: docs
-weight: 15
+weight: 17
 url: /java/com.groupdocs.search.dictionaries/dictionarybase/
----
-**Inheritance:**
-java.lang.Object
-```
-public abstract class DictionaryBase
+---```
+public interface DictionaryBase
 ```
 
-Represents the base class for a dictionary.
+Defines interface of a dictionary.
 
 **Learn more**
 
@@ -20,28 +17,27 @@ Represents the base class for a dictionary.
 
 
 [Update index]: https://docs.groupdocs.com/display/searchjava/Update+index
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [ErrorOccurred](#ErrorOccurred) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getDictionaryType()](#getDictionaryType--) | Gets the dictionary type. |
 | [exportDictionary(String filePath)](#exportDictionary-java.lang.String-) | Exports the dictionary to a file with the specified name. |
 | [importDictionary(String filePath)](#importDictionary-java.lang.String-) | Imports a dictionary from the specified file. |
-| [copyFrom(DictionaryBase other)](#copyFrom-com.groupdocs.search.dictionaries.DictionaryBase-) |  |
-| [setFilePath(String filePath, boolean saveOnChange)](#setFilePath-java.lang.String-boolean-) |  |
-### ErrorOccurred {#ErrorOccurred}
+| [clear()](#clear--) | Clears the dictionary. |
+### getDictionaryType() {#getDictionaryType--}
 ```
-public final Event<Action1<String>> ErrorOccurred
+public abstract DictionaryType getDictionaryType()
 ```
 
 
+Gets the dictionary type.
+
+**Returns:**
+[DictionaryType](../../com.groupdocs.search.dictionaries/dictionarytype) - The dictionary type.
 ### exportDictionary(String filePath) {#exportDictionary-java.lang.String-}
 ```
-public final void exportDictionary(String filePath)
+public abstract void exportDictionary(String filePath)
 ```
 
 
@@ -54,7 +50,7 @@ Exports the dictionary to a file with the specified name.
 
 ### importDictionary(String filePath) {#importDictionary-java.lang.String-}
 ```
-public final void importDictionary(String filePath)
+public abstract void importDictionary(String filePath)
 ```
 
 
@@ -65,30 +61,11 @@ Imports a dictionary from the specified file.
 | --- | --- | --- |
 | filePath | java.lang.String | The file to import from. |
 
-### copyFrom(DictionaryBase other) {#copyFrom-com.groupdocs.search.dictionaries.DictionaryBase-}
+### clear() {#clear--}
 ```
-public void copyFrom(DictionaryBase other)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| other | [DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase) |  |
-
-### setFilePath(String filePath, boolean saveOnChange) {#setFilePath-java.lang.String-boolean-}
-```
-public void setFilePath(String filePath, boolean saveOnChange)
+public abstract void clear()
 ```
 
 
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String |  |
-| saveOnChange | boolean |  |
+Clears the dictionary.
 

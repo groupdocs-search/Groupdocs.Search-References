@@ -3,7 +3,7 @@ title: ExtractedItemInfo
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a container item information.
 type: docs
-weight: 20
+weight: 18
 url: /java/com.groupdocs.search.common/extractediteminfo/
 ---
 **Inheritance:**

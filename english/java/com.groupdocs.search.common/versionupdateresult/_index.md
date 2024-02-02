@@ -3,7 +3,7 @@ title: VersionUpdateResult
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the result of an index version update operation.
 type: docs
-weight: 44
+weight: 42
 url: /java/com.groupdocs.search.common/versionupdateresult/
 ---
 **Inheritance:**

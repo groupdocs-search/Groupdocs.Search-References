@@ -3,7 +3,7 @@ title: DateFormat
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a date format.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.search.options/dateformat/
 ---
 **Inheritance:**
@@ -57,6 +57,7 @@ The example demonstrates a typical usage of the class.
 | --- | --- |
 | [getDateSeparator()](#getDateSeparator--) | Gets the date separator. |
 | [toString()](#toString--) | Returns a String that represents the current  DateFormat . |
+| [getCore()](#getCore--) |  |
 ### DateFormat(String cultureName, DateFormatElement[] formatElements) {#DateFormat-java.lang.String-com.groupdocs.search.options.DateFormatElement---}
 ```
 public DateFormat(String cultureName, DateFormatElement[] formatElements)
@@ -87,7 +88,7 @@ Initializes a new instance of the  DateFormat  class.
 
 ### getDateSeparator() {#getDateSeparator--}
 ```
-public final String getDateSeparator()
+public String getDateSeparator()
 ```
 
 
@@ -105,3 +106,13 @@ Returns a String that represents the current  DateFormat .
 
 **Returns:**
 java.lang.String - A String that represents the current  DateFormat .
+### getCore() {#getCore--}
+```
+public Object getCore()
+```
+
+
+
+
+**Returns:**
+java.lang.Object

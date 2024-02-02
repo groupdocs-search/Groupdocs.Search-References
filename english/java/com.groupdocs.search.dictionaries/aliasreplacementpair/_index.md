@@ -3,7 +3,7 @@ title: AliasReplacementPair
 second_title: GroupDocs.Search for Java API Reference
 description: Represents an alias/replacement pair.
 type: docs
-weight: 11
+weight: 10
 url: /java/com.groupdocs.search.dictionaries/aliasreplacementpair/
 ---
 **Inheritance:**

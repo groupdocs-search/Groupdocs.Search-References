@@ -3,7 +3,7 @@ title: Delegate
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a delegate which refers to a class instance that has a method to be invoked.
 type: docs
-weight: 16
+weight: 14
 url: /java/com.groupdocs.search.common/delegate/
 ---
 **Inheritance:**

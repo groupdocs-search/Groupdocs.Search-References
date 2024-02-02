@@ -52,7 +52,7 @@ The example demonstrates a typical usage of the class.
 | Field | Description |
 | --- | --- |
 | [OperationFinished](#OperationFinished) | Occurs when an index operation is finished. |
-| [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an index operation. |
+| [ErrorOccurred](#ErrorOccurred) | Occurs when an error occurs during an index operation. |
 | [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of the indexing or update operation changes. |
 | [OptimizationProgressChanged](#OptimizationProgressChanged) | Occurs when the progress of the optimization operation changes. |
 | [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
@@ -103,7 +103,7 @@ public final Event<EventHandler<IndexErrorEventArgs>> ErrorOccurred
 ```
 
 
-Occurs when an error happens during an index operation.
+Occurs when an error occurs during an index operation.
 
 The example demonstrates how to use the event.
 

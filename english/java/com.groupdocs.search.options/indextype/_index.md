@@ -3,7 +3,7 @@ title: IndexType
 second_title: GroupDocs.Search for Java API Reference
 description: Specifies an index type.
 type: docs
-weight: 45
+weight: 49
 url: /java/com.groupdocs.search.options/indextype/
 ---
 **Inheritance:**

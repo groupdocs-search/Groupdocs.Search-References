@@ -1,21 +1,18 @@
 ---
 title: Alphabet
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of characters that is used during indexing to detect character type.
+description: Defines interface of a dictionary of characters that is used during indexing to detect character type.
 type: docs
-weight: 12
+weight: 15
 url: /java/com.groupdocs.search.dictionaries/alphabet/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class Alphabet extends DictionaryBase implements Iterable<Character>
+public interface Alphabet extends DictionaryBase, Iterable<Character>
 ```
 
-Represents a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator, as letter, or both.
+Defines interface of a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator, as letter, or both.
 
 **Learn more**
 

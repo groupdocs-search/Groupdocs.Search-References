@@ -3,7 +3,7 @@ title: Index
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the main class for indexing documents and search through them.
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.search/index/
 ---
 **Inheritance:**
@@ -85,7 +85,7 @@ The example demonstrates a typical usage of the class.
 | [highlight(FoundDocument document, Highlighter highlighter, HighlightOptions options)](#highlight-com.groupdocs.search.results.FoundDocument-com.groupdocs.search.highlighters.Highlighter-com.groupdocs.search.options.HighlightOptions-) | Generates HTML formatted text with highlighted found terms. |
 | [getIndexedDocuments()](#getIndexedDocuments--) | Gets an array of all indexed documents. |
 | [getIndexedDocumentItems(DocumentInfo documentInfo)](#getIndexedDocumentItems-com.groupdocs.search.results.DocumentInfo-) | Gets an array of a document items. |
-| [getDocumentText(DocumentInfo documentInfo, OutputAdapter adapter)](#getDocumentText-com.groupdocs.search.results.DocumentInfo-com.groupdocs.search.common.OutputAdapter-) | Generates HTML formatted text for indexed document and transfers it through the output adapter. |
+| [getDocumentText(DocumentInfo documentInfo, OutputAdapter adapter)](#getDocumentText-com.groupdocs.search.results.DocumentInfo-com.groupdocs.search.common.OutputAdapter-) | Generates the text of an indexed document and passes it through an output adapter. |
 | [getDocumentText(DocumentInfo documentInfo, OutputAdapter adapter, TextOptions options)](#getDocumentText-com.groupdocs.search.results.DocumentInfo-com.groupdocs.search.common.OutputAdapter-com.groupdocs.search.options.TextOptions-) | Generates HTML formatted text for indexed document and transfers it through the output adapter. |
 | [getIndexedPaths()](#getIndexedPaths--) | Gets an array of indexed paths - documents or folders. |
 | [delete(String[] paths, UpdateOptions options)](#delete-java.lang.String---com.groupdocs.search.options.UpdateOptions-) | Deletes indexed files or folders from the index. |
@@ -1079,7 +1079,7 @@ public final void getDocumentText(DocumentInfo documentInfo, OutputAdapter adapt
 ```
 
 
-Generates HTML formatted text for indexed document and transfers it through the output adapter.
+Generates the text of an indexed document and passes it through an output adapter.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,18 +1,18 @@
 ---
 title: SpellingCorrector
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a spelling corrector for terms in a query.
+description: Defines interface of a spelling corrector for terms in a query.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.search.dictionaries/spellingcorrector/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
+**All Implemented Interfaces:**
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
 ```
-public abstract class SpellingCorrector extends DictionaryBase
+public interface SpellingCorrector extends DictionaryBase
 ```
 
-Represents a spelling corrector for terms in a query.
+Defines interface of a spelling corrector for terms in a query.
 
 **Learn more**
 

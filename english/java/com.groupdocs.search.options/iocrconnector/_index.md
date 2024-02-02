@@ -3,7 +3,7 @@ title: IOcrConnector
 second_title: GroupDocs.Search for Java API Reference
 description: Defines methods that are required to recognize text on image documents and embedded images.
 type: docs
-weight: 41
+weight: 45
 url: /java/com.groupdocs.search.options/iocrconnector/
 ---```
 public interface IOcrConnector

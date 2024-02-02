@@ -3,7 +3,7 @@ title: IndexRepository
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a container for combining multiple indexes and performing common operations on them.
 type: docs
-weight: 19
+weight: 18
 url: /java/com.groupdocs.search/indexrepository/
 ---
 **Inheritance:**

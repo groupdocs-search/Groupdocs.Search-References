@@ -8,8 +8,11 @@ url: /java/com.groupdocs.search.highlighters/documenthighlighter/
 ---
 **Inheritance:**
 java.lang.Object, [com.groupdocs.search.common.ResultBuilderFactory](../../com.groupdocs.search.common/resultbuilderfactory), [com.groupdocs.search.highlighters.Highlighter](../../com.groupdocs.search.highlighters/highlighter)
+
+**All Implemented Interfaces:**
+[com.groupdocs.search.highlighters.IDocumentHighlighter](../../com.groupdocs.search.highlighters/idocumenthighlighter)
 ```
-public class DocumentHighlighter extends Highlighter
+public class DocumentHighlighter extends Highlighter implements IDocumentHighlighter
 ```
 
 Represents a search result highlighter that highlights search results in an entire document text.

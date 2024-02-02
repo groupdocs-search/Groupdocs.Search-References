@@ -3,7 +3,7 @@ title: WordsFieldNames
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 40
+weight: 44
 url: /java/com.groupdocs.search.options/wordsfieldnames/
 ---
 **Inheritance:**

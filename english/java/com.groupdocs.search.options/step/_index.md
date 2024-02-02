@@ -3,7 +3,7 @@ title: Step
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a step of a step function.
 type: docs
-weight: 35
+weight: 38
 url: /java/com.groupdocs.search.options/step/
 ---
 **Inheritance:**

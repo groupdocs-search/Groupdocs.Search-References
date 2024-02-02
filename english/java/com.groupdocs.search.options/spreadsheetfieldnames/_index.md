@@ -3,7 +3,7 @@ title: SpreadsheetFieldNames
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a list of field names for the faceted search.
 type: docs
-weight: 34
+weight: 37
 url: /java/com.groupdocs.search.options/spreadsheetfieldnames/
 ---
 **Inheritance:**

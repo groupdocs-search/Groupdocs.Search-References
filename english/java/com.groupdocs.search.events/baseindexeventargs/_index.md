@@ -7,9 +7,9 @@ weight: 10
 url: /java/com.groupdocs.search.events/baseindexeventargs/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.groupdocs.search.events.EventArgs](../../com.groupdocs.search.events/eventargs)
 ```
-public class BaseIndexEventArgs
+public class BaseIndexEventArgs extends EventArgs
 ```
 
 Represents the base class of event arguments.

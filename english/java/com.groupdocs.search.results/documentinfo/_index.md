@@ -9,7 +9,7 @@ url: /java/com.groupdocs.search.results/documentinfo/
 **Inheritance:**
 java.lang.Object
 ```
-public class DocumentInfo
+public abstract class DocumentInfo
 ```
 
 Represents a descriptor for an indexed document.
@@ -22,6 +22,11 @@ Represents a descriptor for an indexed document.
 
 [Search results]: https://docs.groupdocs.com/display/searchjava/Search+results
 [Getting indexed documents]: https://docs.groupdocs.com/display/searchjava/Getting+indexed+documents
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [DocumentInfo()](#DocumentInfo--) |  |
 ## Methods
 
 | Method | Description |
@@ -36,9 +41,15 @@ Represents a descriptor for an indexed document.
 | [getIndexedWithError()](#getIndexedWithError--) | Gets the indicator of indexing error. |
 | [serialize()](#serialize--) | Serializes the current instance to a byte array. |
 | [deserialize(byte[] array)](#deserialize-byte---) | Deserializes an instance from a byte array. |
+### DocumentInfo() {#DocumentInfo--}
+```
+public DocumentInfo()
+```
+
+
 ### toString() {#toString--}
 ```
-public String toString()
+public abstract String toString()
 ```
 
 
@@ -48,7 +59,7 @@ Returns a  System.String  that represents the current  DocumentInfo .
 java.lang.String - A  System.String  that represents the current  DocumentInfo .
 ### getFilePath() {#getFilePath--}
 ```
-public final String getFilePath()
+public abstract String getFilePath()
 ```
 
 
@@ -58,7 +69,7 @@ Gets the file path for indexed from file or the document key for indexed from st
 java.lang.String - The file path or document key.
 ### getFileType() {#getFileType--}
 ```
-public final FileType getFileType()
+public abstract FileType getFileType()
 ```
 
 
@@ -68,7 +79,7 @@ Gets the file type.
 [FileType](../../com.groupdocs.search.results/filetype) - The file type.
 ### getFormatFamily() {#getFormatFamily--}
 ```
-public final FormatFamily getFormatFamily()
+public abstract FormatFamily getFormatFamily()
 ```
 
 
@@ -78,7 +89,7 @@ Gets the document format family.
 [FormatFamily](../../com.groupdocs.search.results/formatfamily) - The document format family.
 ### getInnerPath() {#getInnerPath--}
 ```
-public final String getInnerPath()
+public abstract String getInnerPath()
 ```
 
 
@@ -88,7 +99,7 @@ Gets the inner path for the container document item.
 java.lang.String - The inner path.
 ### getInnerPathParts() {#getInnerPathParts--}
 ```
-public final String[] getInnerPathParts()
+public abstract String[] getInnerPathParts()
 ```
 
 
@@ -98,7 +109,7 @@ Gets the inner path parts for the container document item.
 java.lang.String[] - The inner path parts.
 ### getDocumentSourceKind() {#getDocumentSourceKind--}
 ```
-public final DocumentSourceKind getDocumentSourceKind()
+public abstract DocumentSourceKind getDocumentSourceKind()
 ```
 
 
@@ -108,7 +119,7 @@ Gets the document source kind.
 [DocumentSourceKind](../../com.groupdocs.search.common/documentsourcekind) - The document source kind.
 ### getIndexedWithError() {#getIndexedWithError--}
 ```
-public final boolean getIndexedWithError()
+public abstract boolean getIndexedWithError()
 ```
 
 
@@ -118,7 +129,7 @@ Gets the indicator of indexing error.
 boolean - The indicator of indexing error.
 ### serialize() {#serialize--}
 ```
-public final byte[] serialize()
+public abstract byte[] serialize()
 ```
 
 

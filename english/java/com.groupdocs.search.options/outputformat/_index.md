@@ -3,7 +3,7 @@ title: OutputFormat
 second_title: GroupDocs.Search for Java API Reference
 description: The output format of a data.
 type: docs
-weight: 47
+weight: 51
 url: /java/com.groupdocs.search.options/outputformat/
 ---
 **Inheritance:**

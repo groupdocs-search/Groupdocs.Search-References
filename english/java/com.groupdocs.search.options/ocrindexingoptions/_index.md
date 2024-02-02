@@ -3,16 +3,21 @@ title: OcrIndexingOptions
 second_title: GroupDocs.Search for Java API Reference
 description: Provides options for OCR processing and indexing recognized text.
 type: docs
-weight: 29
+weight: 31
 url: /java/com.groupdocs.search.options/ocrindexingoptions/
 ---
 **Inheritance:**
 java.lang.Object
 ```
-public class OcrIndexingOptions
+public abstract class OcrIndexingOptions
 ```
 
 Provides options for OCR processing and indexing recognized text.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [OcrIndexingOptions()](#OcrIndexingOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -25,9 +30,15 @@ Provides options for OCR processing and indexing recognized text.
 | [setEnabledForEmbeddedImages(boolean value)](#setEnabledForEmbeddedImages-boolean-) | Sets a value indicating whether to recognize text in embedded images (for example, images in a DOCX document). |
 | [getOcrConnector()](#getOcrConnector--) | Gets an OCR connector that is used for OCR processing. |
 | [setOcrConnector(IOcrConnector value)](#setOcrConnector-com.groupdocs.search.options.IOcrConnector-) | Sets an OCR connector that is used for OCR processing. |
+### OcrIndexingOptions() {#OcrIndexingOptions--}
+```
+public OcrIndexingOptions()
+```
+
+
 ### getEnabledForSeparateImages() {#getEnabledForSeparateImages--}
 ```
-public final boolean getEnabledForSeparateImages()
+public abstract boolean getEnabledForSeparateImages()
 ```
 
 
@@ -37,7 +48,7 @@ Gets a value indicating whether to recognize text in separate image files. The d
 boolean - A value indicating whether to recognize text in separate image files.
 ### setEnabledForSeparateImages(boolean value) {#setEnabledForSeparateImages-boolean-}
 ```
-public final void setEnabledForSeparateImages(boolean value)
+public abstract void setEnabledForSeparateImages(boolean value)
 ```
 
 
@@ -50,7 +61,7 @@ Sets a value indicating whether to recognize text in separate image files. The d
 
 ### getEnabledForContainerItemImages() {#getEnabledForContainerItemImages--}
 ```
-public final boolean getEnabledForContainerItemImages()
+public abstract boolean getEnabledForContainerItemImages()
 ```
 
 
@@ -60,7 +71,7 @@ Gets a value indicating whether to recognize text in images that are items in a 
 boolean - A value indicating whether to recognize text in images that are items in a container.
 ### setEnabledForContainerItemImages(boolean value) {#setEnabledForContainerItemImages-boolean-}
 ```
-public final void setEnabledForContainerItemImages(boolean value)
+public abstract void setEnabledForContainerItemImages(boolean value)
 ```
 
 
@@ -73,7 +84,7 @@ Sets a value indicating whether to recognize text in images that are items in a 
 
 ### getEnabledForEmbeddedImages() {#getEnabledForEmbeddedImages--}
 ```
-public final boolean getEnabledForEmbeddedImages()
+public abstract boolean getEnabledForEmbeddedImages()
 ```
 
 
@@ -83,7 +94,7 @@ Gets a value indicating whether to recognize text in embedded images (for exampl
 boolean - A value indicating whether to recognize text in embedded images.
 ### setEnabledForEmbeddedImages(boolean value) {#setEnabledForEmbeddedImages-boolean-}
 ```
-public final void setEnabledForEmbeddedImages(boolean value)
+public abstract void setEnabledForEmbeddedImages(boolean value)
 ```
 
 
@@ -96,7 +107,7 @@ Sets a value indicating whether to recognize text in embedded images (for exampl
 
 ### getOcrConnector() {#getOcrConnector--}
 ```
-public final IOcrConnector getOcrConnector()
+public abstract IOcrConnector getOcrConnector()
 ```
 
 
@@ -106,7 +117,7 @@ Gets an OCR connector that is used for OCR processing. The default value is  nul
 [IOcrConnector](../../com.groupdocs.search.options/iocrconnector) - An OCR connector that is used for OCR processing.
 ### setOcrConnector(IOcrConnector value) {#setOcrConnector-com.groupdocs.search.options.IOcrConnector-}
 ```
-public final void setOcrConnector(IOcrConnector value)
+public abstract void setOcrConnector(IOcrConnector value)
 ```
 
 

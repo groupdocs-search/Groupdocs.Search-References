@@ -18,3 +18,7 @@ is_root: true
 | [com.groupdocs.search.licensing](./com.groupdocs.search.licensing) | The package provides classes for setting a product license. |
 | [com.groupdocs.search.options](./com.groupdocs.search.options) | The package provides classes to specify additional options of various operations. |
 | [com.groupdocs.search.results](./com.groupdocs.search.results) | The package provides search result classes. |
+| [com.groupdocs.search.scaling](./com.groupdocs.search.scaling) | The namespace provides classes of scaling functionality. |
+| [com.groupdocs.search.scaling.configuring](./com.groupdocs.search.scaling.configuring) | The namespace provides classes for configuring the search network. |
+| [com.groupdocs.search.scaling.events](./com.groupdocs.search.scaling.events) | The namespace provides classes of event arguments in the search network. |
+| [com.groupdocs.search.scaling.results](./com.groupdocs.search.scaling.results) | The namespace provides the search result classes in the search network. |

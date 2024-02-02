@@ -1,21 +1,18 @@
 ---
 title: HomophoneDictionary
 second_title: GroupDocs.Search for Java API Reference
-description: Represents a dictionary of heterographic homophones.
+description: Defines interface of a dictionary of heterographic homophones.
 type: docs
 weight: 18
 url: /java/com.groupdocs.search.dictionaries/homophonedictionary/
 ---
-**Inheritance:**
-java.lang.Object, [com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase)
-
 **All Implemented Interfaces:**
-java.lang.Iterable
+[com.groupdocs.search.dictionaries.DictionaryBase](../../com.groupdocs.search.dictionaries/dictionarybase), java.lang.Iterable
 ```
-public abstract class HomophoneDictionary extends DictionaryBase implements Iterable<String>
+public interface HomophoneDictionary extends DictionaryBase, Iterable<String>
 ```
 
-Represents a dictionary of heterographic homophones.
+Defines interface of a dictionary of heterographic homophones.
 
 **Learn more**
 
