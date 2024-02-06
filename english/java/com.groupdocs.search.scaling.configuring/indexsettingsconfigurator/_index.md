@@ -3,7 +3,7 @@ title: IndexSettingsConfigurator
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the index settings configurator for each shard in the search network.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.search.scaling.configuring/indexsettingsconfigurator/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TcpSettings
 second_title: GroupDocs.Search for Java API Reference
 description: Represents a TCP network settings.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.search.scaling.configuring/tcpsettings/
 ---
 **Inheritance:**

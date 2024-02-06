@@ -3,7 +3,7 @@ title: NodeConfigurator
 second_title: GroupDocs.Search for Java API Reference
 description: Represents the search network node configurator.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.search.scaling.configuring/nodeconfigurator/
 ---
 **Inheritance:**
