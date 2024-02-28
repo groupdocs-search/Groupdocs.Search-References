@@ -27,6 +27,7 @@ public enum IndexStatus
 | Deleting | `6` | The index performs a deleting operation. |
 | Renaming | `7` | The index performs a renaming operation. |
 | ChangingAttributes | `8` | The index changes attributes. |
+| CheckingSegments | `9` | The index checks segments. |
 
 ### See Also
 

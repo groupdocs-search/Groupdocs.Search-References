@@ -3,7 +3,7 @@ title: Dispose
 second_title: GroupDocs.Search for .NET API Reference
 description: Releases all resources used by the Indexgroupdocs.search/index.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search/index/dispose/
 ---
 ## Index.Dispose method

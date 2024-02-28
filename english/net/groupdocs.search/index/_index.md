@@ -46,6 +46,7 @@ public class Index : IDisposable
 | [Add](../../groupdocs.search/index/add#add_3)(string, IndexingOptions) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
 | [Add](../../groupdocs.search/index/add#add_5)(string[], IndexingOptions) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
 | [ChangeAttributes](../../groupdocs.search/index/changeattributes)(AttributeChangeBatch) | Applies the specified batch of attribute changes to indexed documents without reindexing during the update operation. |
+| [CheckSegments](../../groupdocs.search/index/checksegments)(bool) | Checks the index for damaged segment files on the disk. The method fixes index functionality in the presence of damaged segments, if *fixIndexFunctionality* is true; does not fix - otherwise. |
 | [Delete](../../groupdocs.search/index/delete#delete_1)(string[], UpdateOptions) | Deletes indexed files or folders from the index. Then updates the index without deleted paths. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder. |
 | [Delete](../../groupdocs.search/index/delete#delete)(UpdateOptions, string[]) | Deletes documents indexed from streams or structures. Then updates the index without deleted documents. |
 | [Dispose](../../groupdocs.search/index/dispose)() | Releases all resources used by the [`Index`](../index). |

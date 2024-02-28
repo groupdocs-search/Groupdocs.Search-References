@@ -3,7 +3,7 @@ title: Search
 second_title: GroupDocs.Search for .NET API Reference
 description: Searches in index.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.search/index/search/
 ---
 ## Search(string) {#search_3}
