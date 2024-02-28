@@ -3,7 +3,7 @@ title: GetSearchReports
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the reports on search operations.
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.search/index/getsearchreports/
 ---
 ## Index.GetSearchReports method
