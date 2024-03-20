@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/removerange/
 ---
-## RemoveRange(IEnumerable&lt;char&gt;) {#removerange_1}
+## RemoveRange(IEnumerable&lt;char&gt;) {#removerange_2}
 
 Removes the specified collection of character replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
@@ -17,6 +17,26 @@ public void RemoveRange(IEnumerable<char> characters)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characters | IEnumerable`1 | The collection of characters to remove. |
+
+### See Also
+
+* class [CharacterReplacementDictionary](../../characterreplacementdictionary)
+* namespace [GroupDocs.Search.Dictionaries](../../characterreplacementdictionary)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## RemoveRange(IEnumerable&lt;int&gt;) {#removerange_3}
+
+Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+
+```csharp
+public void RemoveRange(IEnumerable<int> codePoints)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codePoints | IEnumerable`1 | The collection of Unicode code points to remove. |
 
 ### See Also
 
@@ -37,6 +57,26 @@ public void RemoveRange(char[] characters)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characters | Char[] | The collection of characters to remove. |
+
+### See Also
+
+* class [CharacterReplacementDictionary](../../characterreplacementdictionary)
+* namespace [GroupDocs.Search.Dictionaries](../../characterreplacementdictionary)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## RemoveRange(int[]) {#removerange_1}
+
+Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+
+```csharp
+public void RemoveRange(int[] codePoints)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codePoints | Int32[] | The collection of Unicode code points to remove. |
 
 ### See Also
 

@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/alphabet/getenumerator/
 Returns an enumerator that iterates through the collection.
 
 ```csharp
-public IEnumerator<char> GetEnumerator()
+public IEnumerator<int> GetEnumerator()
 ```
 
 ### Return Value

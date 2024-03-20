@@ -1,17 +1,17 @@
 ---
 title: Replacement
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the replacement.
+description: Gets the replacement Unicode code point.
 type: docs
 weight: 30
 url: /net/groupdocs.search.dictionaries/characterreplacementpair/replacement/
 ---
 ## CharacterReplacementPair.Replacement property
 
-Gets the replacement.
+Gets the replacement Unicode code point.
 
 ```csharp
-public char Replacement { get; }
+public int Replacement { get; }
 ```
 
 ### See Also

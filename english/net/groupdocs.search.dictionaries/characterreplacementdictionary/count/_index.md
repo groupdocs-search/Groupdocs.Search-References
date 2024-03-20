@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the number of characters contained in this CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
+description: Gets the number of Unicode code points contained in this CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary.
 type: docs
 weight: 10
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/count/
 ---
 ## CharacterReplacementDictionary.Count property
 
-Gets the number of characters contained in this [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+Gets the number of Unicode code points contained in this [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Property Value
 
-The number of characters in the dictionary.
+The number of Unicode code points in the dictionary.
 
 ### See Also
 

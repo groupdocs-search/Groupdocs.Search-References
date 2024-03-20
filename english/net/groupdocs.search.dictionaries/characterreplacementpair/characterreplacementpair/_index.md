@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.search.dictionaries/characterreplacementpair/characterreplacementpair/
 ---
-## CharacterReplacementPair constructor
+## CharacterReplacementPair(char, char) {#constructor}
 
 Initializes a new instance of the [`CharacterReplacementPair`](../../characterreplacementpair) class.
 
@@ -18,6 +18,27 @@ public CharacterReplacementPair(char character, char replacement)
 | --- | --- | --- |
 | character | Char | The character to be replaced. |
 | replacement | Char | The replacement. |
+
+### See Also
+
+* class [CharacterReplacementPair](../../characterreplacementpair)
+* namespace [GroupDocs.Search.Dictionaries](../../characterreplacementpair)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## CharacterReplacementPair(int, int) {#constructor_1}
+
+Initializes a new instance of the [`CharacterReplacementPair`](../../characterreplacementpair) class.
+
+```csharp
+public CharacterReplacementPair(int character, int replacement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| character | Int32 | The Unicode code point to be replaced. |
+| replacement | Int32 | The replacement Unicode code point. |
 
 ### See Also
 

@@ -26,6 +26,26 @@ public void AddRange(IEnumerable<KeyValuePair<char, char>> characterReplacements
 
 ---
 
+## AddRange(IEnumerable&lt;KeyValuePair&lt;int, int&gt;&gt;) {#addrange_3}
+
+Adds the specified collection of Unicode code point replacements to this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+
+```csharp
+public void AddRange(IEnumerable<KeyValuePair<int, int>> characterReplacements)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| characterReplacements | IEnumerable`1 | The collection of Unicode code point replacements to add to the dictionary. |
+
+### See Also
+
+* class [CharacterReplacementDictionary](../../characterreplacementdictionary)
+* namespace [GroupDocs.Search.Dictionaries](../../characterreplacementdictionary)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
 ## AddRange(IEnumerable&lt;CharacterReplacementPair&gt;) {#addrange_1}
 
 Adds the specified collection of character replacements to this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).

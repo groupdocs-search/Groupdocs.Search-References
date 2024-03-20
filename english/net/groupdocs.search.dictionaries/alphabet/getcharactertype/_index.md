@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/groupdocs.search.dictionaries/alphabet/getcharactertype/
 ---
-## Alphabet.GetCharacterType method
+## GetCharacterType(char) {#getcharactertype}
 
 Gets a type of a character.
 
@@ -17,6 +17,56 @@ public CharacterType GetCharacterType(char character)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | character | Char | The character to get a type. |
+
+### Return Value
+
+A type of the character.
+
+### See Also
+
+* enum [CharacterType](../../charactertype)
+* class [Alphabet](../../alphabet)
+* namespace [GroupDocs.Search.Dictionaries](../../alphabet)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## GetCharacterType(int) {#getcharactertype_1}
+
+Gets a type of a Unicode code point.
+
+```csharp
+public CharacterType GetCharacterType(int codePoint)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codePoint | Int32 | The Unicode code point to get a type. |
+
+### Return Value
+
+A type of the Unicode code point.
+
+### See Also
+
+* enum [CharacterType](../../charactertype)
+* class [Alphabet](../../alphabet)
+* namespace [GroupDocs.Search.Dictionaries](../../alphabet)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## GetCharacterType(string) {#getcharactertype_2}
+
+Gets a type of a character. This method can be used to obtain the type of surrogate pair.
+
+```csharp
+public CharacterType GetCharacterType(string character)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| character | String | The character or surrogate pair to get a type. |
 
 ### Return Value
 
