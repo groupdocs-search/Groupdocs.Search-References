@@ -11,7 +11,7 @@ url: /net/groupdocs.search.dictionaries/alphabet/
 Represents a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator, as letter, or both.
 
 ```csharp
-public class Alphabet : DictionaryBase, IEnumerable<char>
+public class Alphabet : DictionaryBase, IEnumerable<int>
 ```
 
 ## Properties
@@ -27,10 +27,14 @@ public class Alphabet : DictionaryBase, IEnumerable<char>
 | --- | --- |
 | override [Clear](../../groupdocs.search.dictionaries/alphabet/clear)() | Sets the Separator type for all characters in this [`Alphabet`](../alphabet). |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
-| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype)(char) | Gets a type of a character. |
+| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype)(char) | Gets a type of a character. |
+| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype_1)(int) | Gets a type of a Unicode code point. |
+| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype_2)(string) | Gets a type of a character. This method can be used to obtain the type of surrogate pair. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/alphabet/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | Imports a dictionary from the specified file. |
-| [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange)(char[], CharacterType) | Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../alphabet). |
+| [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange#setrange)(char[], CharacterType) | Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../alphabet). |
+| [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange#setrange_1)(int[], CharacterType) | Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../alphabet). |
+| [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange#setrange_2)(string[], CharacterType) | Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../alphabet). |
 
 ### Remarks
 

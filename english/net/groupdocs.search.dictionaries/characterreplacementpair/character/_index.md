@@ -1,17 +1,17 @@
 ---
 title: Character
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the character.
+description: Gets the Unicode code point to be replaced.
 type: docs
 weight: 20
 url: /net/groupdocs.search.dictionaries/characterreplacementpair/character/
 ---
 ## CharacterReplacementPair.Character property
 
-Gets the character.
+Gets the Unicode code point to be replaced.
 
 ```csharp
-public char Character { get; }
+public int Character { get; }
 ```
 
 ### See Also

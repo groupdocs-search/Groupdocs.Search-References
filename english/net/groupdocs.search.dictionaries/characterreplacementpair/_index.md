@@ -18,14 +18,15 @@ public class CharacterReplacementPair
 
 | Name | Description |
 | --- | --- |
-| [CharacterReplacementPair](characterreplacementpair)(char, char) | Initializes a new instance of the [`CharacterReplacementPair`](../characterreplacementpair) class. |
+| [CharacterReplacementPair](characterreplacementpair#constructor)(char, char) | Initializes a new instance of the [`CharacterReplacementPair`](../characterreplacementpair) class. |
+| [CharacterReplacementPair](characterreplacementpair#constructor_1)(int, int) | Initializes a new instance of the [`CharacterReplacementPair`](../characterreplacementpair) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Character](../../groupdocs.search.dictionaries/characterreplacementpair/character) { get; } | Gets the character. |
-| [Replacement](../../groupdocs.search.dictionaries/characterreplacementpair/replacement) { get; } | Gets the replacement. |
+| [Character](../../groupdocs.search.dictionaries/characterreplacementpair/character) { get; } | Gets the Unicode code point to be replaced. |
+| [Replacement](../../groupdocs.search.dictionaries/characterreplacementpair/replacement) { get; } | Gets the replacement Unicode code point. |
 
 ### See Also
 

@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/groupdocs.search.dictionaries/alphabet/setrange/
 ---
-## Alphabet.SetRange method
+## SetRange(char[], CharacterType) {#setrange}
 
 Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../../alphabet).
 
@@ -17,6 +17,50 @@ public void SetRange(char[] characters, CharacterType type)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characters | Char[] | The collection of characters to set the type. |
+| type | CharacterType | The character type. |
+
+### See Also
+
+* enum [CharacterType](../../charactertype)
+* class [Alphabet](../../alphabet)
+* namespace [GroupDocs.Search.Dictionaries](../../alphabet)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## SetRange(string[], CharacterType) {#setrange_2}
+
+Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../../alphabet).
+
+```csharp
+public void SetRange(string[] characters, CharacterType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| characters | String[] | The collection of characters and surrogate pairs to set the type. |
+| type | CharacterType | The character type. |
+
+### See Also
+
+* enum [CharacterType](../../charactertype)
+* class [Alphabet](../../alphabet)
+* namespace [GroupDocs.Search.Dictionaries](../../alphabet)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## SetRange(int[], CharacterType) {#setrange_1}
+
+Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../../alphabet).
+
+```csharp
+public void SetRange(int[] codePoints, CharacterType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codePoints | Int32[] | The collection of Unicode code points to set the type. |
 | type | CharacterType | The character type. |
 
 ### See Also

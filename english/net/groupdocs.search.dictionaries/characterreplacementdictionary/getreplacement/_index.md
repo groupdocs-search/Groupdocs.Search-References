@@ -1,26 +1,26 @@
 ---
 title: GetReplacement
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a replacement for the specified character.
+description: Gets a replacement for the specified Unicode code point.
 type: docs
 weight: 70
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/getreplacement/
 ---
 ## CharacterReplacementDictionary.GetReplacement method
 
-Gets a replacement for the specified character.
+Gets a replacement for the specified Unicode code point.
 
 ```csharp
-public char GetReplacement(char character)
+public int GetReplacement(int codePoint)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character | Char | The character to get a replacement for. |
+| codePoint | Int32 | The character to get a replacement for. |
 
 ### Return Value
 
-The replacement for the specified character.
+The replacement for the specified Unicode code point.
 
 ### See Also
 

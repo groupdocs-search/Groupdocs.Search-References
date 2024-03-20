@@ -1,26 +1,26 @@
 ---
 title: Contains
 second_title: GroupDocs.Search for .NET API Reference
-description: Determines whether a CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary object contains a replacement for the specified character.
+description: Determines whether a CharacterReplacementDictionarygroupdocs.search.dictionaries/characterreplacementdictionary object contains a replacement for the specified Unicode code point.
 type: docs
 weight: 50
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/contains/
 ---
 ## CharacterReplacementDictionary.Contains method
 
-Determines whether a [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object contains a replacement for the specified character.
+Determines whether a [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object contains a replacement for the specified Unicode code point.
 
 ```csharp
-public bool Contains(char character)
+public bool Contains(int codePoint)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character | Char | The character to locate in the [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object. |
+| codePoint | Int32 | The Unicode code point to locate in the [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object. |
 
 ### Return Value
 
-`true` if the [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object contains the specified character; otherwise, `false`.
+`true` if the [`CharacterReplacementDictionary`](../../characterreplacementdictionary) object contains the specified Unicode code point; otherwise, `false`.
 
 ### See Also
 
