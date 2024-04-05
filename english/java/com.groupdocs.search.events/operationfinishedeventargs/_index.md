@@ -3,7 +3,7 @@ title: OperationFinishedEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event of the indexing operation is finished.
 type: docs
-weight: 18
+weight: 17
 url: /java/com.groupdocs.search.events/operationfinishedeventargs/
 ---
 **Inheritance:**

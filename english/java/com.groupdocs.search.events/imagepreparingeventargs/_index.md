@@ -3,7 +3,7 @@ title: ImagePreparingEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event of an image preparing start.
 type: docs
-weight: 16
+weight: 15
 url: /java/com.groupdocs.search.events/imagepreparingeventargs/
 ---
 **Inheritance:**

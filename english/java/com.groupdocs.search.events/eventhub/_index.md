@@ -3,7 +3,7 @@ title: EventHub
 second_title: GroupDocs.Search for Java API Reference
 description: Provides index events for subscribing.
 type: docs
-weight: 13
+weight: 12
 url: /java/com.groupdocs.search.events/eventhub/
 ---
 **Inheritance:**

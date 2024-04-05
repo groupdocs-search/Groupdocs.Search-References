@@ -3,7 +3,7 @@ title: PasswordRequiredEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event that occurs when document protected by a password is indexing.
 type: docs
-weight: 21
+weight: 20
 url: /java/com.groupdocs.search.events/passwordrequiredeventargs/
 ---
 **Inheritance:**

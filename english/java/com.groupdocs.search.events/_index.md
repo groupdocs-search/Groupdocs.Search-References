@@ -16,7 +16,6 @@ The package provides classes of event arguments.
 | --- | --- |
 | [BaseIndexEventArgs](../com.groupdocs.search.events/baseindexeventargs) | Represents the base class of event arguments. |
 | [Event<T>](../com.groupdocs.search.events/event) | This class is intended to be inherited when subscribing to events. |
-| [EventHandler<T>](../com.groupdocs.search.events/eventhandler) | Represents the base class of an event handler. |
 | [EventHub](../com.groupdocs.search.events/eventhub) | Provides index events for subscribing. |
 | [EventHubBase](../com.groupdocs.search.events/eventhubbase) | The base abstract class for event hubs. |
 | [FileIndexingEventArgs](../com.groupdocs.search.events/fileindexingeventargs) | Represents arguments for the event of a document indexing start. |
@@ -27,6 +26,12 @@ The package provides classes of event arguments.
 | [OptimizationProgressEventArgs](../com.groupdocs.search.events/optimizationprogresseventargs) | Represents arguments for the event of the indexing operation progress is updated. |
 | [PasswordRequiredEventArgs](../com.groupdocs.search.events/passwordrequiredeventargs) | Represents arguments for the event that occurs when document protected by a password is indexing. |
 | [SearchPhaseEventArgs](../com.groupdocs.search.events/searchphaseeventargs) | Represents arguments for the search phase changing events. |
+
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [EventHandler<T>](../com.groupdocs.search.events/eventhandler) | Represents the base class of an event handler. |
 
 ## Enumerations
 

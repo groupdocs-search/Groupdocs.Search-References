@@ -3,7 +3,7 @@ title: IndexErrorEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event of index error occurred.
 type: docs
-weight: 17
+weight: 16
 url: /java/com.groupdocs.search.events/indexerroreventargs/
 ---
 **Inheritance:**
