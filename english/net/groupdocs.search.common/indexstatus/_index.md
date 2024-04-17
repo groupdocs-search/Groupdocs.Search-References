@@ -28,6 +28,7 @@ public enum IndexStatus
 | Renaming | `7` | The index performs a renaming operation. |
 | ChangingAttributes | `8` | The index changes attributes. |
 | CheckingSegments | `9` | The index checks segments. |
+| SavingIndex | `10` | The index is saved to another folder. |
 
 ### See Also
 
