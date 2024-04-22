@@ -3,7 +3,7 @@ title: OperationProgressEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event of the indexing operation progress is updated.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.search.events/operationprogresseventargs/
 ---
 **Inheritance:**

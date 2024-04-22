@@ -3,7 +3,7 @@ title: com.groupdocs.search.scaling
 second_title: GroupDocs.Search for Java API Reference
 description: The namespace provides classes of scaling functionality.
 type: docs
-weight: 18
+weight: 21
 url: /java/com.groupdocs.search.scaling/
 ---
 

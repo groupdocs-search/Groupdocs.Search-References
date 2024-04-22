@@ -3,7 +3,7 @@ title: EventHubBase
 second_title: GroupDocs.Search for Java API Reference
 description: The base abstract class for event hubs.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.search.events/eventhubbase/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Search for Java API Reference
 description: Represents arguments for the event of a document indexing start.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.search.events/fileindexingeventargs/
 ---
 **Inheritance:**

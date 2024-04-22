@@ -3,7 +3,7 @@ title: com.groupdocs.search.scaling.results
 second_title: GroupDocs.Search for Java API Reference
 description: The namespace provides the search result classes in the search network.
 type: docs
-weight: 21
+weight: 24
 url: /java/com.groupdocs.search.scaling.results/
 ---
 

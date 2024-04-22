@@ -14,8 +14,11 @@ is_root: true
 | [com.groupdocs.search.common](./com.groupdocs.search.common) | The package provides common classes of the library. |
 | [com.groupdocs.search.dictionaries](./com.groupdocs.search.dictionaries) | The package provides classes of various dictionaries. |
 | [com.groupdocs.search.events](./com.groupdocs.search.events) | The package provides classes of event arguments. |
+| [com.groupdocs.search.exceptions](./com.groupdocs.search.exceptions) |  |
+| [com.groupdocs.search.helpers](./com.groupdocs.search.helpers) |  |
 | [com.groupdocs.search.highlighters](./com.groupdocs.search.highlighters) | The package provides highlighters for highlighting search results in text. |
-| [com.groupdocs.search.licensing](./com.groupdocs.search.licensing) | The package provides classes for setting a product license. |
+| [com.groupdocs.search.licenses](./com.groupdocs.search.licenses) |  |
+| [com.groupdocs.search.logging](./com.groupdocs.search.logging) |  |
 | [com.groupdocs.search.options](./com.groupdocs.search.options) | The package provides classes to specify additional options of various operations. |
 | [com.groupdocs.search.results](./com.groupdocs.search.results) | The package provides search result classes. |
 | [com.groupdocs.search.scaling](./com.groupdocs.search.scaling) | The namespace provides classes of scaling functionality. |
