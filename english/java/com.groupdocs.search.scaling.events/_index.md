@@ -3,7 +3,7 @@ title: com.groupdocs.search.scaling.events
 second_title: GroupDocs.Search for Java API Reference
 description: The namespace provides classes of event arguments in the search network.
 type: docs
-weight: 20
+weight: 23
 url: /java/com.groupdocs.search.scaling.events/
 ---
 
