@@ -3,7 +3,7 @@ title: Highlight
 second_title: GroupDocs.Search for .NET API Reference
 description: Generates HTML formatted text with highlighted found terms.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.search/index/highlight/
 ---
 ## Highlight(FoundDocument, Highlighter) {#highlight}

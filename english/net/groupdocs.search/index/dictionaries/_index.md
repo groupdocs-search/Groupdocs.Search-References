@@ -3,7 +3,7 @@ title: Dictionaries
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the dictionary repository.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search/index/dictionaries/
 ---
 ## Index.Dictionaries property

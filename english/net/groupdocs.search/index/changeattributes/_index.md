@@ -3,7 +3,7 @@ title: ChangeAttributes
 second_title: GroupDocs.Search for .NET API Reference
 description: Applies the specified batch of attribute changes to indexed documents without reindexing during the update operation.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search/index/changeattributes/
 ---
 ## Index.ChangeAttributes method

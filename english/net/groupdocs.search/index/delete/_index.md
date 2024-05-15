@@ -3,7 +3,7 @@ title: Delete
 second_title: GroupDocs.Search for .NET API Reference
 description: Deletes indexed files or folders from the index. Then updates the index without deleted paths. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search/index/delete/
 ---
 ## Delete(string[], UpdateOptions) {#delete_1}

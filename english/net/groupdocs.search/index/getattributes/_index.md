@@ -3,7 +3,7 @@ title: GetAttributes
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets all the attributes associated with the specified indexed document.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.search/index/getattributes/
 ---
 ## Index.GetAttributes method

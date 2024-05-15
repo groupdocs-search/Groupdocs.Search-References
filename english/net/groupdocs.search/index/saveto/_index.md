@@ -1,14 +1,14 @@
 ---
 title: SaveTo
 second_title: GroupDocs.Search for .NET API Reference
-description: Saves this index to another folder. Does not change the settings of this index.
+description: Saves the inmemory index to disk. Also saves the regular index to another folder. Does not change the settings of this index.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.search/index/saveto/
 ---
 ## Index.SaveTo method
 
-Saves this index to another folder. Does not change the settings of this index.
+Saves the in-memory index to disk. Also saves the regular index to another folder. Does not change the settings of this index.
 
 ```csharp
 public void SaveTo(string indexFolder)

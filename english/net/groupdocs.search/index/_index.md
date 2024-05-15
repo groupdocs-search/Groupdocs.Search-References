@@ -39,6 +39,8 @@ public class Index : IDisposable
 
 | Name | Description |
 | --- | --- |
+| static [LoadIntoMemoryCompletely](../../groupdocs.search/index/loadintomemorycompletely#loadintomemorycompletely)(string) | Loads the entire index into memory. Any changes to the index are not automatically saved to the original folder. |
+| static [LoadIntoMemoryCompletely](../../groupdocs.search/index/loadintomemorycompletely#loadintomemorycompletely_1)(string, IndexSettings) | Loads the entire index into memory. Any changes to the index are not automatically saved to the original folder. |
 | [Add](../../groupdocs.search/index/add#add_2)(string) | Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed. |
 | [Add](../../groupdocs.search/index/add#add_4)(string[]) | Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed. |
 | [Add](../../groupdocs.search/index/add#add)(Document[], IndexingOptions) | Performs indexing operation. Adds documents from file system, stream or structure. |
@@ -65,7 +67,7 @@ public class Index : IDisposable
 | [Notify](../../groupdocs.search/index/notify)(Notification) | Passes the specified notification object to the index to perform the notification. |
 | [Optimize](../../groupdocs.search/index/optimize#optimize)() | Minimizes the number of index segments by merging them one with another. This operation improves search performance. |
 | [Optimize](../../groupdocs.search/index/optimize#optimize_1)(MergeOptions) | Minimizes the number of index segments by merging them one with another. This operation improves search performance. |
-| [SaveTo](../../groupdocs.search/index/saveto)(string) | Saves this index to another folder. Does not change the settings of this index. |
+| [SaveTo](../../groupdocs.search/index/saveto)(string) | Saves the in-memory index to disk. Also saves the regular index to another folder. Does not change the settings of this index. |
 | [Search](../../groupdocs.search/index/search#search_1)(SearchQuery) | Searches in index. |
 | [Search](../../groupdocs.search/index/search#search_3)(string) | Searches in index. |
 | [Search](../../groupdocs.search/index/search#search)(SearchImage, ImageSearchOptions) | Performs a reverse image search in the index. |
