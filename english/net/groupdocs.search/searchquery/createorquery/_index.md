@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/groupdocs.search/searchquery/createorquery/
 ---
-## SearchQuery.CreateOrQuery method
+## CreateOrQuery(SearchQuery, SearchQuery) {#createorquery}
 
 Creates a combined query that will find all the documents which will be found at least for one of the original queries.
 
@@ -18,6 +18,30 @@ public static SearchQuery CreateOrQuery(SearchQuery leftQuery, SearchQuery right
 | --- | --- | --- |
 | leftQuery | SearchQuery | The left child query. |
 | rightQuery | SearchQuery | The right child query. |
+
+### Return Value
+
+A combined OR query.
+
+### See Also
+
+* class [SearchQuery](../../searchquery)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## CreateOrQuery(params SearchQuery[]) {#createorquery_1}
+
+Creates a combined query that will find all the documents which will be found at least for one of the original queries.
+
+```csharp
+public static SearchQuery CreateOrQuery(params SearchQuery[] queries)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queries | SearchQuery[] | The child queries. |
 
 ### Return Value
 

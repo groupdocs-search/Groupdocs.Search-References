@@ -28,12 +28,14 @@ public abstract class SearchQuery
 
 | Name | Description |
 | --- | --- |
-| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery)(SearchQuery, SearchQuery) | Creates a combined query that will find only documents which will be found for each original query. |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery_1)(params SearchQuery[]) | Creates a combined query that will find only documents which will be found for each original query. |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery)(SearchQuery, SearchQuery) | Creates a combined query that will find only documents which will be found for each original query. |
 | static [CreateDateRangeQuery](../../groupdocs.search/searchquery/createdaterangequery)(DateTime, DateTime) | Creates a date range query. |
 | static [CreateFieldQuery](../../groupdocs.search/searchquery/createfieldquery)(string, SearchQuery) | Adds a field to the specified query. |
 | static [CreateNotQuery](../../groupdocs.search/searchquery/createnotquery)(SearchQuery) | Creates an inverted query that will find the rest documents in an index against ones which will be found for the original query. |
 | static [CreateNumericRangeQuery](../../groupdocs.search/searchquery/createnumericrangequery)(long, long) | Creates a numeric range query. |
-| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery)(SearchQuery, SearchQuery) | Creates a combined query that will find all the documents which will be found at least for one of the original queries. |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery_1)(params SearchQuery[]) | Creates a combined query that will find all the documents which will be found at least for one of the original queries. |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery)(SearchQuery, SearchQuery) | Creates a combined query that will find all the documents which will be found at least for one of the original queries. |
 | static [CreatePhraseSearchQuery](../../groupdocs.search/searchquery/createphrasesearchquery)(params SearchQuery[]) | Creates a phrase search query. |
 | static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery)(string) | Creates a regular expression query. |
 | static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery_1)(string, RegexOptions) | Creates a regular expression query. |
