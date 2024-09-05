@@ -3,7 +3,7 @@ title: Repository
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the index repository object if the index is contained in it.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.search/index/repository/
 ---
 ## Index.Repository property

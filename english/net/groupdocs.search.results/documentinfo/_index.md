@@ -25,6 +25,7 @@ public class DocumentInfo
 | [IndexedWithError](../../groupdocs.search.results/documentinfo/indexedwitherror) { get; } | Gets the indicator of indexing error. |
 | [InnerPath](../../groupdocs.search.results/documentinfo/innerpath) { get; } | Gets the inner path for the container document item. |
 | [InnerPathParts](../../groupdocs.search.results/documentinfo/innerpathparts) { get; } | Gets the inner path parts for the container document item. |
+| [ModificationTime](../../groupdocs.search.results/documentinfo/modificationtime) { get; } | Gets the modification time. |
 
 ## Methods
 

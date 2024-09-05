@@ -1,17 +1,17 @@
 ---
-title: AddNode
+title: AddSlaveNode
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds a node to the search network configuration.
 type: docs
-weight: 20
-url: /net/groupdocs.search.scaling.configuring/configurator/addnode/
+weight: 30
+url: /net/groupdocs.search.scaling.configuring/configurator/addslavenode/
 ---
-## Configurator.AddNode method
+## Configurator.AddSlaveNode method
 
 Adds a node to the search network configuration.
 
 ```csharp
-public NodeConfigurator AddNode(int nodeIndex)
+public SlaveNodeConfigurator AddSlaveNode(int nodeIndex)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ The node configurator.
 
 ### See Also
 
-* class [NodeConfigurator](../../nodeconfigurator)
+* class [SlaveNodeConfigurator](../../slavenodeconfigurator)
 * class [Configurator](../../configurator)
 * namespace [GroupDocs.Search.Scaling.Configuring](../../../groupdocs.search.scaling.configuring)
 * assembly [GroupDocs.Search](../../../)

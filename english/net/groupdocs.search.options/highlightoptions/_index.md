@@ -38,7 +38,7 @@ public class HighlightOptions : TextOptions
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Gets or sets the maximum number of words in a text fragment before highlighted word. The value must be in the range from 0 to 10000. The default value is `7`. |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Gets or sets the maximum number of words in a text fragment. The value must be in the range from 0 to 10000. The default value is `21`. |
 | [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | Gets or sets a value indicating whether inline styles are used to highlight occurrences. The default value is `true`. |
-| [UseRawTextExtraction](../../groupdocs.search.options/textoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/textoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 

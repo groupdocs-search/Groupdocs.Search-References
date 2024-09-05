@@ -3,7 +3,7 @@ title: Update
 second_title: GroupDocs.Search for .NET API Reference
 description: Reindexes documents that have been changed or deleted since last update. Adds new files that have been added to the indexed folders.
 type: docs
-weight: 260
+weight: 280
 url: /net/groupdocs.search/index/update/
 ---
 ## Update() {#update}

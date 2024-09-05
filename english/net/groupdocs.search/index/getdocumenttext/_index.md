@@ -3,7 +3,7 @@ title: GetDocumentText
 second_title: GroupDocs.Search for .NET API Reference
 description: Generates the text of an indexed document and passes it through an output adapter.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.search/index/getdocumenttext/
 ---
 ## GetDocumentText(DocumentInfo, OutputAdapter) {#getdocumenttext}

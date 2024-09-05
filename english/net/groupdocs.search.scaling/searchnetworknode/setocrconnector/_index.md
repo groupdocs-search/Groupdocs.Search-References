@@ -3,7 +3,7 @@ title: SetOcrConnector
 second_title: GroupDocs.Search for .NET API Reference
 description: Sets an OCR connector that is used for OCR processing.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.search.scaling/searchnetworknode/setocrconnector/
 ---
 ## SearchNetworkNode.SetOcrConnector method

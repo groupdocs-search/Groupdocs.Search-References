@@ -3,7 +3,7 @@ title: ListeningPort
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the listening port.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.scaling.configuring/tcpsettings/listeningport/
 ---
 ## TcpSettings.ListeningPort property

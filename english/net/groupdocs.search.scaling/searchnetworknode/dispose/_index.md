@@ -3,7 +3,7 @@ title: Dispose
 second_title: GroupDocs.Search for .NET API Reference
 description: Releases all resources used by the SearchNetworkNodegroupdocs.search.scaling/searchnetworknode.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.scaling/searchnetworknode/dispose/
 ---
 ## SearchNetworkNode.Dispose method

@@ -1,17 +1,17 @@
 ---
-title: AddIndexer
+title: AddExtractor
 second_title: GroupDocs.Search for .NET API Reference
-description: Adds an indexer service to the search network node.
+description: Adds an extractor service to the search network node.
 type: docs
-weight: 20
-url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/addindexer/
+weight: 10
+url: /net/groupdocs.search.scaling.configuring/slavenodeconfigurator/addextractor/
 ---
-## NodeConfigurator.AddIndexer method
+## SlaveNodeConfigurator.AddExtractor method
 
-Adds an indexer service to the search network node.
+Adds an extractor service to the search network node.
 
 ```csharp
-public NodeConfigurator AddIndexer(string storagePath)
+public SlaveNodeConfigurator AddExtractor(string storagePath)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ This search network node configurator.
 
 ### See Also
 
-* class [NodeConfigurator](../../nodeconfigurator)
+* class [SlaveNodeConfigurator](../../slavenodeconfigurator)
 * namespace [GroupDocs.Search.Scaling.Configuring](../../../groupdocs.search.scaling.configuring)
 * assembly [GroupDocs.Search](../../../)
 

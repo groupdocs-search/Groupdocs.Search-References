@@ -3,7 +3,7 @@ title: Merge
 second_title: GroupDocs.Search for .NET API Reference
 description: Merges the specified index into the current index. Note that the other index will not be changed.
 type: docs
-weight: 200
+weight: 220
 url: /net/groupdocs.search/index/merge/
 ---
 ## Merge(Index, MergeOptions) {#merge}

@@ -15,7 +15,9 @@ The namespace provides classes for configuring the search network.
 | [Configuration](./configuration) | Represents a search network configuration. |
 | [Configurator](./configurator) | Represents the search network configurator. |
 | [IndexSettingsConfigurator](./indexsettingsconfigurator) | Represents the index settings configurator for each shard in the search network. |
+| [MasterNodeConfigurator](./masternodeconfigurator) | Represents the master node configurator. |
 | [NodeConfigurator](./nodeconfigurator) | Represents the search network node configurator. |
+| [SlaveNodeConfigurator](./slavenodeconfigurator) | Represents the slave node configurator. |
 | [TcpSettings](./tcpsettings) | Represents a TCP network settings. |
 ## Interfaces
 

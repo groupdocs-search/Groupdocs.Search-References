@@ -3,7 +3,7 @@ title: SendTimeout
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the send timeout in milliseconds.
 type: docs
-weight: 40
+weight: 60
 url: /net/groupdocs.search.scaling.configuring/tcpsettings/sendtimeout/
 ---
 ## TcpSettings.SendTimeout property

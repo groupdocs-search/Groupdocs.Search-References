@@ -3,7 +3,7 @@ title: Start
 second_title: GroupDocs.Search for .NET API Reference
 description: Starts the functioning of the search network node.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.search.scaling/searchnetworknode/start/
 ---
 ## SearchNetworkNode.Start method

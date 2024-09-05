@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/groupdocs.search/searchquery/createandquery/
 ---
-## SearchQuery.CreateAndQuery method
+## CreateAndQuery(SearchQuery, SearchQuery) {#createandquery}
 
 Creates a combined query that will find only documents which will be found for each original query.
 
@@ -18,6 +18,30 @@ public static SearchQuery CreateAndQuery(SearchQuery leftQuery, SearchQuery righ
 | --- | --- | --- |
 | leftQuery | SearchQuery | The left child query. |
 | rightQuery | SearchQuery | The right child query. |
+
+### Return Value
+
+A combined AND query.
+
+### See Also
+
+* class [SearchQuery](../../searchquery)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## CreateAndQuery(params SearchQuery[]) {#createandquery_1}
+
+Creates a combined query that will find only documents which will be found for each original query.
+
+```csharp
+public static SearchQuery CreateAndQuery(params SearchQuery[] queries)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| queries | SearchQuery[] | The child queries. |
 
 ### Return Value
 

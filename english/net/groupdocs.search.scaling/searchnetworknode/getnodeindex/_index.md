@@ -3,7 +3,7 @@ title: GetNodeIndex
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the index of the node where the service is located.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search.scaling/searchnetworknode/getnodeindex/
 ---
 ## SearchNetworkNode.GetNodeIndex method

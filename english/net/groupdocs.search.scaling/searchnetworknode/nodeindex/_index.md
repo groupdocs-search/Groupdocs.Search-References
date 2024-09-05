@@ -3,7 +3,7 @@ title: NodeIndex
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the index of the search network node.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.search.scaling/searchnetworknode/nodeindex/
 ---
 ## SearchNetworkNode.NodeIndex property

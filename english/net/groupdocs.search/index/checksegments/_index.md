@@ -3,7 +3,7 @@ title: CheckSegments
 second_title: GroupDocs.Search for .NET API Reference
 description: Checks the index for damaged segment files on the disk. The method fixes index functionality in the presence of damaged segments if fixIndexFunctionality is true does not fix  otherwise.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search/index/checksegments/
 ---
 ## Index.CheckSegments method

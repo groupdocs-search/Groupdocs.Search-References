@@ -3,7 +3,7 @@ title: SetWordFormsProvider
 second_title: GroupDocs.Search for .NET API Reference
 description: Sets a word forms provider.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.search.scaling/searchnetworknode/setwordformsprovider/
 ---
 ## SearchNetworkNode.SetWordFormsProvider method

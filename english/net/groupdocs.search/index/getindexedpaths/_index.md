@@ -3,7 +3,7 @@ title: GetIndexedPaths
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets an array of indexed paths  documents or folders.
 type: docs
-weight: 160
+weight: 180
 url: /net/groupdocs.search/index/getindexedpaths/
 ---
 ## Index.GetIndexedPaths method

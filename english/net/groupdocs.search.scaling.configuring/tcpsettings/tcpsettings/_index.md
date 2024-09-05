@@ -11,7 +11,8 @@ url: /net/groupdocs.search.scaling.configuring/tcpsettings/tcpsettings/
 Initializes a new instance of the [`TcpSettings`](../../tcpsettings) class.
 
 ```csharp
-public TcpSettings(int listeningPort, int sendTimeout, int receiveTimeout)
+public TcpSettings(int listeningPort, int sendTimeout, int receiveTimeout, int connectTimeout, 
+    int retryTimeout)
 ```
 
 | Parameter | Type | Description |
@@ -19,6 +20,8 @@ public TcpSettings(int listeningPort, int sendTimeout, int receiveTimeout)
 | listeningPort | Int32 | The listening port. |
 | sendTimeout | Int32 | The send timeout in milliseconds. |
 | receiveTimeout | Int32 | The receive timeout in milliseconds. |
+| connectTimeout | Int32 | The connect timeout in milliseconds. |
+| retryTimeout | Int32 | The retry timeout in milliseconds. |
 
 ### See Also
 

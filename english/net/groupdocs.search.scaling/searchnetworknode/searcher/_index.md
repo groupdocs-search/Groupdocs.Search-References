@@ -3,7 +3,7 @@ title: Searcher
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the searcher.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.search.scaling/searchnetworknode/searcher/
 ---
 ## SearchNetworkNode.Searcher property

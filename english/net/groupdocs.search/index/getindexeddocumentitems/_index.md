@@ -3,7 +3,7 @@ title: GetIndexedDocumentItems
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets an array of nested items of the specified document for container documents such as ZIP OST PST.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.search/index/getindexeddocumentitems/
 ---
 ## Index.GetIndexedDocumentItems method

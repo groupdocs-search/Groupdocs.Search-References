@@ -3,7 +3,7 @@ title: Add
 second_title: GroupDocs.Search for .NET API Reference
 description: Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search/index/add/
 ---
 ## Add(string) {#add_2}
