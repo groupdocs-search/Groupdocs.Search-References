@@ -3,7 +3,7 @@ title: SearchNetworkNode
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search network node that can contain services such as extractor indexer searcher shard.
 type: docs
-weight: 1490
+weight: 1510
 url: /net/groupdocs.search.scaling/searchnetworknode/
 ---
 ## SearchNetworkNode class
@@ -13,14 +13,6 @@ Represents a search network node that can contain services such as extractor, in
 ```csharp
 public class SearchNetworkNode : IDisposable
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [SearchNetworkNode](searchnetworknode#constructor)(int, string, INetworkSettings) | Initializes a new instance of the [`SearchNetworkNode`](../searchnetworknode) class. |
-| [SearchNetworkNode](searchnetworknode#constructor_1)(int, string, INetworkSettings, ILogger) | Initializes a new instance of the [`SearchNetworkNode`](../searchnetworknode) class. |
-| [SearchNetworkNode](searchnetworknode#constructor_2)(int, string, INetworkSettings, ILogger, Configuration) | Initializes a new instance of the [`SearchNetworkNode`](../searchnetworknode) class. |
 
 ## Properties
 
@@ -36,6 +28,9 @@ public class SearchNetworkNode : IDisposable
 
 | Name | Description |
 | --- | --- |
+| static [CreateMasterNode](../../groupdocs.search.scaling/searchnetworknode/createmasternode)(int, string, INetworkSettings, ILogger, Configuration) | Creates a master node of the search network. |
+| static [CreateSlaveNode](../../groupdocs.search.scaling/searchnetworknode/createslavenode#createslavenode)(int, string, INetworkSettings) | Creates a slave node of the search network. |
+| static [CreateSlaveNode](../../groupdocs.search.scaling/searchnetworknode/createslavenode#createslavenode_1)(int, string, INetworkSettings, ILogger) | Creates a slave node of the search network. |
 | [ConfigureAllNodes](../../groupdocs.search.scaling/searchnetworknode/configureallnodes)() | Configures all nodes in the search network. |
 | [ConfigureNode](../../groupdocs.search.scaling/searchnetworknode/configurenode)(int) | Configures the specified node in the search network. |
 | [Dispose](../../groupdocs.search.scaling/searchnetworknode/dispose)() | Releases all resources used by the [`SearchNetworkNode`](../searchnetworknode). |

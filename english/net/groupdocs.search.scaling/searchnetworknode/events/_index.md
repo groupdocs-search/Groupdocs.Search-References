@@ -3,7 +3,7 @@ title: Events
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the event hub for subscribing to events.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.scaling/searchnetworknode/events/
 ---
 ## SearchNetworkNode.Events property

@@ -3,7 +3,7 @@ title: NodeConfigurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the search network node configurator.
 type: docs
-weight: 1320
+weight: 1330
 url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/
 ---
 ## NodeConfigurator class
@@ -11,20 +11,14 @@ url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/
 Represents the search network node configurator.
 
 ```csharp
-public class NodeConfigurator
+public abstract class NodeConfigurator
 ```
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddExtractor](../../groupdocs.search.scaling.configuring/nodeconfigurator/addextractor)(string) | Adds an extractor service to the search network node. |
-| [AddIndexer](../../groupdocs.search.scaling.configuring/nodeconfigurator/addindexer)(string) | Adds an indexer service to the search network node. |
-| [AddLogSink](../../groupdocs.search.scaling.configuring/nodeconfigurator/addlogsink)() | Adds a log sink to the search network node. |
-| [AddSearcher](../../groupdocs.search.scaling.configuring/nodeconfigurator/addsearcher)(string) | Adds a searcher service to the search network node. |
-| [AddShard](../../groupdocs.search.scaling.configuring/nodeconfigurator/addshard)(string) | Adds a shard service to the search network node. |
 | [CompleteNode](../../groupdocs.search.scaling.configuring/nodeconfigurator/completenode)() | Completes the configuration of the search network node. |
-| [SetTcpEndpoint](../../groupdocs.search.scaling.configuring/nodeconfigurator/settcpendpoint)(string, int) | Sets the TCP endpoint. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: SaveTo
 second_title: GroupDocs.Search for .NET API Reference
 description: Saves the inmemory index to disk. Also saves the regular index to another folder. Does not change the settings of this index.
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.search/index/saveto/
 ---
 ## Index.SaveTo method

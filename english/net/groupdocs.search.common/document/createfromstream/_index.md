@@ -19,7 +19,7 @@ public static Document CreateFromStream(string documentKey, DateTime modificatio
 | --- | --- | --- |
 | documentKey | String | The document key. |
 | modificationDate | DateTime | The document modification date. |
-| extension | String | The document extension. |
+| extension | String | The document extension. The extension must start with the period character '.'. |
 | stream | Stream | The document stream. |
 
 ### Return Value

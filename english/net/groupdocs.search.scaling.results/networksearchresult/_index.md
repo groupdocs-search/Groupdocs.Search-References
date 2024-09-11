@@ -3,7 +3,7 @@ title: NetworkSearchResult
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search result matching a search query.
 type: docs
-weight: 1470
+weight: 1490
 url: /net/groupdocs.search.scaling.results/networksearchresult/
 ---
 ## NetworkSearchResult class

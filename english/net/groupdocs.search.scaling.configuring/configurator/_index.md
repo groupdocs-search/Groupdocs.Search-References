@@ -24,7 +24,8 @@ public class Configurator
 
 | Name | Description |
 | --- | --- |
-| [AddNode](../../groupdocs.search.scaling.configuring/configurator/addnode)(int) | Adds a node to the search network configuration. |
+| [AddMasterNode](../../groupdocs.search.scaling.configuring/configurator/addmasternode)(int) | Adds a node to the search network configuration. |
+| [AddSlaveNode](../../groupdocs.search.scaling.configuring/configurator/addslavenode)(int) | Adds a node to the search network configuration. |
 | [CompleteConfiguration](../../groupdocs.search.scaling.configuring/configurator/completeconfiguration)() | Completes the configuration process and returns an instance of the search network configuration. |
 | [SetIndexSettings](../../groupdocs.search.scaling.configuring/configurator/setindexsettings)() | Starts configuring the index settings for each shard in the search network. |
 

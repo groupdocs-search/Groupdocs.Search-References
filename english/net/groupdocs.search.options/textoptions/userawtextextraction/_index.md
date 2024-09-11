@@ -1,14 +1,14 @@
 ---
 title: UseRawTextExtraction
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is true. The raw mode can significantly increase the indexing speed but normal mode improves the formatting of the extracted text.
+description: Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is false. The raw mode can significantly increase the indexing speed but normal mode improves the formatting of the extracted text.
 type: docs
 weight: 90
 url: /net/groupdocs.search.options/textoptions/userawtextextraction/
 ---
 ## TextOptions.UseRawTextExtraction property
 
-Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
+Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text.
 
 ```csharp
 public bool UseRawTextExtraction { get; set; }

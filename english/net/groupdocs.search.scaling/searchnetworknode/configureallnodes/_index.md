@@ -3,7 +3,7 @@ title: ConfigureAllNodes
 second_title: GroupDocs.Search for .NET API Reference
 description: Configures all nodes in the search network.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.search.scaling/searchnetworknode/configureallnodes/
 ---
 ## SearchNetworkNode.ConfigureAllNodes method

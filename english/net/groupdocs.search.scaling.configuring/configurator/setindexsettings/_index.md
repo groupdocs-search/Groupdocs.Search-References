@@ -3,7 +3,7 @@ title: SetIndexSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Starts configuring the index settings for each shard in the search network.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.scaling.configuring/configurator/setindexsettings/
 ---
 ## Configurator.SetIndexSettings method

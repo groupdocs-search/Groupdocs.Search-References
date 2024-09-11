@@ -32,7 +32,7 @@ public class UpdateOptions
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 | [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | Gets or sets the number of threads used for indexing. The default value is `1`. |
-| [UseRawTextExtraction](../../groupdocs.search.options/updateoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/updateoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 

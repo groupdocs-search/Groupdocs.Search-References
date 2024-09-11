@@ -3,7 +3,7 @@ title: ConfigureNode
 second_title: GroupDocs.Search for .NET API Reference
 description: Configures the specified node in the search network.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search.scaling/searchnetworknode/configurenode/
 ---
 ## SearchNetworkNode.ConfigureNode method

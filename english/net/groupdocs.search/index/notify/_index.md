@@ -3,7 +3,7 @@ title: Notify
 second_title: GroupDocs.Search for .NET API Reference
 description: Passes the specified notification object to the index to perform the notification.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.search/index/notify/
 ---
 ## Index.Notify method

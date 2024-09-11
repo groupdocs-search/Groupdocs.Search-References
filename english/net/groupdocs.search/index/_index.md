@@ -55,6 +55,7 @@ public class Index : IDisposable
 | [GetAttributes](../../groupdocs.search/index/getattributes)(string) | Gets all the attributes associated with the specified indexed document. |
 | [GetDocumentText](../../groupdocs.search/index/getdocumenttext#getdocumenttext)(DocumentInfo, OutputAdapter) | Generates the text of an indexed document and passes it through an output adapter. |
 | [GetDocumentText](../../groupdocs.search/index/getdocumenttext#getdocumenttext_1)(DocumentInfo, OutputAdapter, TextOptions) | Generates HTML formatted text for indexed document and transfers it through the output adapter. |
+| [GetIndexedDocument](../../groupdocs.search/index/getindexeddocument)(string) | Gets an indexed document by document key. |
 | [GetIndexedDocumentItems](../../groupdocs.search/index/getindexeddocumentitems)(DocumentInfo) | Gets an array of nested items of the specified document (for container documents such as ZIP, OST, PST). |
 | [GetIndexedDocuments](../../groupdocs.search/index/getindexeddocuments)() | Gets an array of all indexed documents. |
 | [GetIndexedPaths](../../groupdocs.search/index/getindexedpaths)() | Gets an array of indexed paths - documents or folders. |

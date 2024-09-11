@@ -3,7 +3,7 @@ title: Indexer
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the indexer.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.scaling/searchnetworknode/indexer/
 ---
 ## SearchNetworkNode.Indexer property

@@ -3,7 +3,7 @@ title: GetShardIndices
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets an array of all shard indices in the search network.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.search.scaling/searchnetworknode/getshardindices/
 ---
 ## SearchNetworkNode.GetShardIndices method

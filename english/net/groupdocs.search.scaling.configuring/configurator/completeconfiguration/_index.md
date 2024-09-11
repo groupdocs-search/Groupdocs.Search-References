@@ -3,7 +3,7 @@ title: CompleteConfiguration
 second_title: GroupDocs.Search for .NET API Reference
 description: Completes the configuration process and returns an instance of the search network configuration.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.scaling.configuring/configurator/completeconfiguration/
 ---
 ## Configurator.CompleteConfiguration method

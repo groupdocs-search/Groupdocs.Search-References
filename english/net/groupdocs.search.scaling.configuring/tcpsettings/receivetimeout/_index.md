@@ -3,7 +3,7 @@ title: ReceiveTimeout
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the receive timeout in milliseconds.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.scaling.configuring/tcpsettings/receivetimeout/
 ---
 ## TcpSettings.ReceiveTimeout property

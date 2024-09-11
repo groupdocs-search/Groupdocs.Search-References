@@ -3,7 +3,7 @@ title: GetIndexingReports
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the reports on indexing operations.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.search/index/getindexingreports/
 ---
 ## Index.GetIndexingReports method

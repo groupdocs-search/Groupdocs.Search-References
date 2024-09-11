@@ -31,7 +31,7 @@ public class TextOptions
 | [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
-| [UseRawTextExtraction](../../groupdocs.search.options/textoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `true`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/textoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: GetIndexedDocuments
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets an array of all indexed documents.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.search/index/getindexeddocuments/
 ---
 ## Index.GetIndexedDocuments method

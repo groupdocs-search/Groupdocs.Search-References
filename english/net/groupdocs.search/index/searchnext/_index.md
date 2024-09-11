@@ -3,7 +3,7 @@ title: SearchNext
 second_title: GroupDocs.Search for .NET API Reference
 description: Continues the chunk search started with method Search.
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.search/index/searchnext/
 ---
 ## SearchNext(ChunkSearchToken) {#searchnext}

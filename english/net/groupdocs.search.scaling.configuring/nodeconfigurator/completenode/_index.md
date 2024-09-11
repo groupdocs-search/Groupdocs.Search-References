@@ -3,7 +3,7 @@ title: CompleteNode
 second_title: GroupDocs.Search for .NET API Reference
 description: Completes the configuration of the search network node.
 type: docs
-weight: 60
+weight: 10
 url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/completenode/
 ---
 ## NodeConfigurator.CompleteNode method

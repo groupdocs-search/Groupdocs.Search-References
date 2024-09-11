@@ -3,15 +3,15 @@ title: AddShard
 second_title: GroupDocs.Search for .NET API Reference
 description: Adds a shard service to the search network node.
 type: docs
-weight: 50
-url: /net/groupdocs.search.scaling.configuring/nodeconfigurator/addshard/
+weight: 20
+url: /net/groupdocs.search.scaling.configuring/slavenodeconfigurator/addshard/
 ---
-## NodeConfigurator.AddShard method
+## SlaveNodeConfigurator.AddShard method
 
 Adds a shard service to the search network node.
 
 ```csharp
-public NodeConfigurator AddShard(string storagePath)
+public SlaveNodeConfigurator AddShard(string storagePath)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ This search network node configurator.
 
 ### See Also
 
-* class [NodeConfigurator](../../nodeconfigurator)
+* class [SlaveNodeConfigurator](../../slavenodeconfigurator)
 * namespace [GroupDocs.Search.Scaling.Configuring](../../../groupdocs.search.scaling.configuring)
 * assembly [GroupDocs.Search](../../../)
 
