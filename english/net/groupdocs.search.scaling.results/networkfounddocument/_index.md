@@ -3,7 +3,7 @@ title: NetworkFoundDocument
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a found document in the search network.
 type: docs
-weight: 1460
+weight: 1480
 url: /net/groupdocs.search.scaling.results/networkfounddocument/
 ---
 ## NetworkFoundDocument class

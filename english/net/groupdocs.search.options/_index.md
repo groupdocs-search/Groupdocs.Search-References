@@ -39,6 +39,7 @@ The namespace provides classes to specify additional options of various operatio
 | [PresentationFieldNames](./presentationfieldnames) | Represents a list of field names for the faceted search. |
 | [SearchDocumentFilter](./searchdocumentfilter) | Contains methods for creating search document filters. |
 | [SearchOptions](./searchoptions) | Provides options for search operation. |
+| [SeparateProcessOptions](./separateprocessoptions) | Provides options for extracting data from documents in a separate process. |
 | [SimilarityLevel](./similaritylevel) | Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as inversely proportional to the word length. |
 | [SpellingCorrectorOptions](./spellingcorrectoroptions) | Provides options for the spelling corrector. |
 | [SpreadsheetFieldNames](./spreadsheetfieldnames) | Represents a list of field names for the faceted search. |

@@ -3,7 +3,7 @@ title: Configuration
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search network configuration.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/groupdocs.search.scaling.configuring/configuration/
 ---
 ## Configuration class

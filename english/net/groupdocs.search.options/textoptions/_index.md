@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for retrieving document text from an index.
 type: docs
-weight: 1140
+weight: 1160
 url: /net/groupdocs.search.options/textoptions/
 ---
 ## TextOptions class
