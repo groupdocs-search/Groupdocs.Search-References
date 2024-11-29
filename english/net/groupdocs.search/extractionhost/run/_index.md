@@ -3,7 +3,7 @@ title: Run
 second_title: GroupDocs.Search for .NET API Reference
 description: Starts the service for extracting data from documents.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search/extractionhost/run/
 ---
 ## ExtractionHost.Run method

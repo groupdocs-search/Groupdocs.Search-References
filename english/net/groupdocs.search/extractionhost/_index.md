@@ -20,6 +20,12 @@ public class ExtractionHost : IDisposable
 | --- | --- |
 | [ExtractionHost](extractionhost)(string[]) | Initializes a new instance of the [`ExtractionHost`](../extractionhost) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [CustomExtractors](../../groupdocs.search/extractionhost/customextractors) { get; } | Gets the custom extractor collection. |
+
 ## Methods
 
 | Name | Description |

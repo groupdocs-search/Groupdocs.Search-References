@@ -21,6 +21,7 @@ public class SeparateProcessOptions
 | [AssemblyPath](../../groupdocs.search.options/separateprocessoptions/assemblypath) { get; set; } | Gets or sets the path to the separate process assembly. |
 | [ExtractInSeparateProcess](../../groupdocs.search.options/separateprocessoptions/extractinseparateprocess) { get; set; } | Gets or sets a value indicating whether a separate process is used to extract data from documents. The default value is `false`. When this option is enabled, data extraction is performed in a separate process in only one thread. The specified number of threads is ignored when extracting in a separate process. |
 | [Timeout](../../groupdocs.search.options/separateprocessoptions/timeout) { get; set; } | Gets or sets the maximum time to wait for the result of data extraction in a separate process. The default value is 10 minutes. |
+| [UseDotnetToStartProcess](../../groupdocs.search.options/separateprocessoptions/usedotnettostartprocess) { get; set; } | Gets or sets the flag for using `dotnet` to start the process. The default value is `true`. Set the value to `false` if you want to start a self-contained application. Note that `dotnet` is never used to start on the old .NET Framework. |
 
 ### See Also
 

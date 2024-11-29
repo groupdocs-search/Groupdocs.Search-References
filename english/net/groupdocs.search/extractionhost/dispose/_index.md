@@ -3,7 +3,7 @@ title: Dispose
 second_title: GroupDocs.Search for .NET API Reference
 description: Releases all resources used by the ExtractionHostgroupdocs.search/extractionhost.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search/extractionhost/dispose/
 ---
 ## ExtractionHost.Dispose method
