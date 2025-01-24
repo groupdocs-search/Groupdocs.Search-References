@@ -3,7 +3,7 @@ title: SynchronizationCompleted
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when synchronization with all nodes is finished.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.search.scaling.events/nodeeventhub/synchronizationcompleted/
 ---
 ## NodeEventHub.SynchronizationCompleted event

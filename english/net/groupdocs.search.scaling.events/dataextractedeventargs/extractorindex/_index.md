@@ -3,7 +3,7 @@ title: ExtractorIndex
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the extractor index.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.scaling.events/dataextractedeventargs/extractorindex/
 ---
 ## DataExtractedEventArgs.ExtractorIndex property

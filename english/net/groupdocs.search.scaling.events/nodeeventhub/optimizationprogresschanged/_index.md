@@ -3,7 +3,7 @@ title: OptimizationProgressChanged
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when the progress of the optimization operation has changed.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.search.scaling.events/nodeeventhub/optimizationprogresschanged/
 ---
 ## NodeEventHub.OptimizationProgressChanged event

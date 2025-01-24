@@ -3,7 +3,7 @@ title: Optimize
 second_title: GroupDocs.Search for .NET API Reference
 description: Minimizes the number of index segments by merging them one with another. This operation improves search performance.
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.search.scaling/indexer/optimize/
 ---
 ## Indexer.Optimize method

@@ -3,7 +3,7 @@ title: GetPasswordDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the password dictionary.
 type: docs
-weight: 110
+weight: 130
 url: /net/groupdocs.search.scaling/indexer/getpassworddictionary/
 ---
 ## Indexer.GetPasswordDictionary method

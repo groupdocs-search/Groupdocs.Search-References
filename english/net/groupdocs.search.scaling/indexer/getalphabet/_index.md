@@ -3,7 +3,7 @@ title: GetAlphabet
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the alphabet dictionary.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.search.scaling/indexer/getalphabet/
 ---
 ## Indexer.GetAlphabet method

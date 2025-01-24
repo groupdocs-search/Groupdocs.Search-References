@@ -3,7 +3,7 @@ title: UpdateOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for update operation.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/groupdocs.search.options/updateoptions/
 ---
 ## UpdateOptions class
@@ -31,6 +31,7 @@ public class UpdateOptions
 | [IsAsync](../../groupdocs.search.options/updateoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/updateoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/updateoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
+| [SeparateProcessOptions](../../groupdocs.search.options/updateoptions/separateprocessoptions) { get; } | Gets the options for extracting data in a separate process. |
 | [Threads](../../groupdocs.search.options/updateoptions/threads) { get; set; } | Gets or sets the number of threads used for indexing. The default value is `1`. |
 | [UseRawTextExtraction](../../groupdocs.search.options/updateoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 

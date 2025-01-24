@@ -3,7 +3,7 @@ title: SlaveNodeConfigurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the slave node configurator.
 type: docs
-weight: 1340
+weight: 1360
 url: /net/groupdocs.search.scaling.configuring/slavenodeconfigurator/
 ---
 ## SlaveNodeConfigurator class

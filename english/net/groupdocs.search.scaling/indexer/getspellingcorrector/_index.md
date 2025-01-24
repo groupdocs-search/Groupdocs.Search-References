@@ -3,7 +3,7 @@ title: GetSpellingCorrector
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the spelling corrector dictionary.
 type: docs
-weight: 120
+weight: 140
 url: /net/groupdocs.search.scaling/indexer/getspellingcorrector/
 ---
 ## Indexer.GetSpellingCorrector method

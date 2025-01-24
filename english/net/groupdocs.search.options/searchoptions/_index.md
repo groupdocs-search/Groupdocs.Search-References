@@ -3,7 +3,7 @@ title: SearchOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for search operation.
 type: docs
-weight: 1070
+weight: 1080
 url: /net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class
@@ -29,8 +29,8 @@ public class SearchOptions
 | [FuzzySearch](../../groupdocs.search.options/searchoptions/fuzzysearch) { get; } | Gets the fuzzy search options. |
 | [IsChunkSearch](../../groupdocs.search.options/searchoptions/ischunksearch) { get; set; } | Gets or sets the flag of search by chunks. The default value is `false`. |
 | [KeyboardLayoutCorrector](../../groupdocs.search.options/searchoptions/keyboardlayoutcorrector) { get; } | Gets the keyboard layout corrector options. |
-| [MaxOccurrenceCountPerTerm](../../groupdocs.search.options/searchoptions/maxoccurrencecountperterm) { get; set; } | Gets or sets the maximum number of occurrences of each term in a search query. The default value is `100000`. |
-| [MaxTotalOccurrenceCount](../../groupdocs.search.options/searchoptions/maxtotaloccurrencecount) { get; set; } | Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is `500000`. |
+| [MaxOccurrenceCountPerTerm](../../groupdocs.search.options/searchoptions/maxoccurrencecountperterm) { get; set; } | Gets or sets the maximum number of occurrences of each term in a search query. The default value is `2000000000`. |
+| [MaxTotalOccurrenceCount](../../groupdocs.search.options/searchoptions/maxtotaloccurrencecount) { get; set; } | Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is `2000000000`. |
 | [RetrieveAttributes](../../groupdocs.search.options/searchoptions/retrieveattributes) { get; set; } | Gets or sets the flag of retrieving attributes associated with found documents. The default value is `false`. |
 | [SearchDocumentFilter](../../groupdocs.search.options/searchoptions/searchdocumentfilter) { get; set; } | Gets or sets the search document filter. [`SearchDocumentFilter`](./searchdocumentfilter) works on the inclusion logic. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of a search document filter instances. The default value is `null`, which means that all found documents will be returned. |
 | [SpellingCorrector](../../groupdocs.search.options/searchoptions/spellingcorrector) { get; } | Gets the spelling corrector options. |

@@ -1,14 +1,14 @@
 ---
 title: MaxTotalOccurrenceCount
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is 500000.
+description: Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is 2000000000.
 type: docs
 weight: 80
 url: /net/groupdocs.search.options/searchoptions/maxtotaloccurrencecount/
 ---
 ## SearchOptions.MaxTotalOccurrenceCount property
 
-Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is `500000`.
+Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is `2000000000`.
 
 ```csharp
 public int MaxTotalOccurrenceCount { get; set; }

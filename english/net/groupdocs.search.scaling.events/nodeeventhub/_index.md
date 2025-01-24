@@ -3,7 +3,7 @@ title: NodeEventHub
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides node events for subscribing.
 type: docs
-weight: 1420
+weight: 1440
 url: /net/groupdocs.search.scaling.events/nodeeventhub/
 ---
 ## NodeEventHub class
@@ -25,6 +25,7 @@ public class NodeEventHub
 | event [DocumentDeleted](../../groupdocs.search.scaling.events/nodeeventhub/documentdeleted) | Occurs when a document has been deleted. |
 | event [DocumentIndexed](../../groupdocs.search.scaling.events/nodeeventhub/documentindexed) | Occurs when a document has been indexed. |
 | event [ErrorOccurred](../../groupdocs.search.scaling.events/nodeeventhub/erroroccurred) | Occurs when an error occurs in one of the nodes of the search network. |
+| event [ExtractionCompleted](../../groupdocs.search.scaling.events/nodeeventhub/extractioncompleted) | Occurs when a separate task to extract all enqueued documents is finished. |
 | event [IndexingCompleted](../../groupdocs.search.scaling.events/nodeeventhub/indexingcompleted) | Occurs when indexing of all enqueued documents is finished. |
 | event [IndexingProgressChanged](../../groupdocs.search.scaling.events/nodeeventhub/indexingprogresschanged) | Occurs when the progress of the indexing operation has changed. |
 | event [OptimizationCompleted](../../groupdocs.search.scaling.events/nodeeventhub/optimizationcompleted) | Occurs when optimization of all nodes is finished. |

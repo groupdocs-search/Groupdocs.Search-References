@@ -3,7 +3,7 @@ title: Delete
 second_title: GroupDocs.Search for .NET API Reference
 description: Deletes indexed documents.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.search.scaling/indexer/delete/
 ---
 ## Indexer.Delete method

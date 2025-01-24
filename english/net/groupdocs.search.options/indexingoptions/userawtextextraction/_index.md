@@ -3,7 +3,7 @@ title: UseRawTextExtraction
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is false. The raw mode can significantly increase the indexing speed but normal mode improves the formatting of the extracted text.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search.options/indexingoptions/userawtextextraction/
 ---
 ## IndexingOptions.UseRawTextExtraction property

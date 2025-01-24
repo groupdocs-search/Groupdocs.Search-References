@@ -3,7 +3,7 @@ title: IndexingProgressChanged
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when the progress of the indexing operation has changed.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.scaling.events/nodeeventhub/indexingprogresschanged/
 ---
 ## NodeEventHub.IndexingProgressChanged event
