@@ -14,15 +14,22 @@ Represents a service that manages the distribution of indexed documents across s
 public sealed class Indexer
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Status](../../groupdocs.search.scaling/indexer/status) { get; } | Gets the current search network status. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../groupdocs.search.scaling/indexer/add#add_1)(ExtractedData[], IndexingOptions) | Performs indexing operation. Adds the extracted data to the search network. |
-| [Add](../../groupdocs.search.scaling/indexer/add#add)(Document[], string[], IndexingOptions) | Performs indexing operation. Indexing only from stream and structure is supported. |
+| [Add](../../groupdocs.search.scaling/indexer/add#add_1)(IList&lt;ExtractedData&gt;, IndexingOptions) | Performs indexing operation. Adds the extracted data to the search network. |
+| [Add](../../groupdocs.search.scaling/indexer/add#add)(IList&lt;Document&gt;, IList&lt;string&gt;, IndexingOptions) | Performs indexing operation. Indexing only from stream and structure is supported. |
 | [ChangeAttributes](../../groupdocs.search.scaling/indexer/changeattributes)(AttributeChangeBatch, ChangeAttributesOptions) | Applies the specified batch of attribute changes to indexed documents without reindexing. |
 | [Delete](../../groupdocs.search.scaling/indexer/delete)(string[], DeleteOptions) | Deletes indexed documents. |
 | [DeleteAllData](../../groupdocs.search.scaling/indexer/deletealldata)() | Deletes all indexed data from all shards of the search network. |
+| [Extract](../../groupdocs.search.scaling/indexer/extract)(IList&lt;Document&gt;, IList&lt;string&gt;, IndexingOptions) | Extracts data from documents. |
 | [GetAliasDictionary](../../groupdocs.search.scaling/indexer/getaliasdictionary)(int) | Gets the alias dictionary. |
 | [GetAlphabet](../../groupdocs.search.scaling/indexer/getalphabet)(int) | Gets the alphabet dictionary. |
 | [GetAttributes](../../groupdocs.search.scaling/indexer/getattributes)(string) | Gets all the attributes associated with the specified indexed document. |

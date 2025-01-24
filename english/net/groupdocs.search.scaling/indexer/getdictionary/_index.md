@@ -3,7 +3,7 @@ title: GetDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets a dictionary from the specified shard.
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.search.scaling/indexer/getdictionary/
 ---
 ## Indexer.GetDictionary method

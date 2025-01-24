@@ -3,7 +3,7 @@ title: GetSynonymDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the synonym dictionary.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.search.scaling/indexer/getsynonymdictionary/
 ---
 ## Indexer.GetSynonymDictionary method

@@ -18,6 +18,7 @@ public class DataExtractedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
+| [Data](../../groupdocs.search.scaling.events/dataextractedeventargs/data) { get; } | Gets the extracted document data. |
 | [DocumentKey](../../groupdocs.search.scaling.events/dataextractedeventargs/documentkey) { get; } | Gets the document key. |
 | [ExtractorIndex](../../groupdocs.search.scaling.events/dataextractedeventargs/extractorindex) { get; } | Gets the extractor index. |
 

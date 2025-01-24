@@ -3,7 +3,7 @@ title: OptimizationCompleted
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when optimization of all nodes is finished.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.search.scaling.events/nodeeventhub/optimizationcompleted/
 ---
 ## NodeEventHub.OptimizationCompleted event

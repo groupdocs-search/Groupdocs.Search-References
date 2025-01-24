@@ -3,7 +3,7 @@ title: StatusChanged
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when the search network status changes.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.search.scaling.events/nodeeventhub/statuschanged/
 ---
 ## NodeEventHub.StatusChanged event

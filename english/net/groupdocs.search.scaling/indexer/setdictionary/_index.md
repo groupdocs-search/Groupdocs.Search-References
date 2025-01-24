@@ -3,7 +3,7 @@ title: SetDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Sets a dictionary in the specified shard.
 type: docs
-weight: 160
+weight: 180
 url: /net/groupdocs.search.scaling/indexer/setdictionary/
 ---
 ## SetDictionary(DictionaryBase, int) {#setdictionary_1}

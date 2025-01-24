@@ -3,7 +3,7 @@ title: GetAliasDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the alias dictionary.
 type: docs
-weight: 50
+weight: 70
 url: /net/groupdocs.search.scaling/indexer/getaliasdictionary/
 ---
 ## Indexer.GetAliasDictionary method

@@ -3,7 +3,7 @@ title: GetCharacterReplacementDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the character replacement dictionary.
 type: docs
-weight: 80
+weight: 100
 url: /net/groupdocs.search.scaling/indexer/getcharacterreplacementdictionary/
 ---
 ## Indexer.GetCharacterReplacementDictionary method

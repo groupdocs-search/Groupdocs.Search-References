@@ -1,25 +1,26 @@
 ---
-title: ExtractorIndex
+title: Data
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the extractor index.
+description: Gets the extracted document data.
 type: docs
-weight: 30
-url: /net/groupdocs.search.scaling.events/dataextractedeventargs/extractorindex/
+weight: 10
+url: /net/groupdocs.search.scaling.events/dataextractedeventargs/data/
 ---
-## DataExtractedEventArgs.ExtractorIndex property
+## DataExtractedEventArgs.Data property
 
-Gets the extractor index.
+Gets the extracted document data.
 
 ```csharp
-public int ExtractorIndex { get; }
+public ExtractedData Data { get; }
 ```
 
 ### Property Value
 
-The extractor index.
+The extracted document data.
 
 ### See Also
 
+* class [ExtractedData](../../../groupdocs.search.common/extracteddata)
 * class [DataExtractedEventArgs](../../dataextractedeventargs)
 * namespace [GroupDocs.Search.Scaling.Events](../../../groupdocs.search.scaling.events)
 * assembly [GroupDocs.Search](../../../)

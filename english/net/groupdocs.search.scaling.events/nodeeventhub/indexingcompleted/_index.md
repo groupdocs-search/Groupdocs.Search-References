@@ -3,7 +3,7 @@ title: IndexingCompleted
 second_title: GroupDocs.Search for .NET API Reference
 description: Occurs when indexing of all enqueued documents is finished.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.search.scaling.events/nodeeventhub/indexingcompleted/
 ---
 ## NodeEventHub.IndexingCompleted event

@@ -3,7 +3,7 @@ title: DocumentKey
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the document key.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.search.scaling.events/dataextractedeventargs/documentkey/
 ---
 ## DataExtractedEventArgs.DocumentKey property

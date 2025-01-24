@@ -3,7 +3,7 @@ title: GetStopWordDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the stop word dictionary.
 type: docs
-weight: 130
+weight: 150
 url: /net/groupdocs.search.scaling/indexer/getstopworddictionary/
 ---
 ## Indexer.GetStopWordDictionary method

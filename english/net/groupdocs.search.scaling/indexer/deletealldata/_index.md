@@ -3,7 +3,7 @@ title: DeleteAllData
 second_title: GroupDocs.Search for .NET API Reference
 description: Deletes all indexed data from all shards of the search network.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.search.scaling/indexer/deletealldata/
 ---
 ## Indexer.DeleteAllData method

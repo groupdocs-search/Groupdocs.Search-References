@@ -3,7 +3,7 @@ title: GetHomophoneDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the homophone dictionary.
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.search.scaling/indexer/gethomophonedictionary/
 ---
 ## Indexer.GetHomophoneDictionary method

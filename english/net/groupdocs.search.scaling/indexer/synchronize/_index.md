@@ -3,7 +3,7 @@ title: Synchronize
 second_title: GroupDocs.Search for .NET API Reference
 description: Synchronizes the list of indexed documents with those on shards. This operation fixes issues with indexing and deletion of documents that resulted from communication problems with the search network nodes.
 type: docs
-weight: 170
+weight: 190
 url: /net/groupdocs.search.scaling/indexer/synchronize/
 ---
 ## Indexer.Synchronize method

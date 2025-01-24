@@ -20,11 +20,12 @@ public enum SearchNetworkStatus
 | --- | --- | --- |
 | Ready | `0` | The search network is free and ready for changes. |
 | Configuring | `1` | The search network performs a configuring operation. |
-| Indexing | `2` | The search network performs an indexing operation. |
-| Optimizing | `3` | The search network performs an optimizing operation. |
-| Deleting | `4` | The search network performs a deleting operation. |
-| ChangingAttributes | `5` | The search network changes attributes. |
-| Synchronizing | `6` | The search network performs a synchronizing operation. |
+| Extracting | `2` | The search network performs an extracting operation. |
+| Indexing | `3` | The search network performs an indexing operation. |
+| Optimizing | `4` | The search network performs an optimizing operation. |
+| Deleting | `5` | The search network performs a deleting operation. |
+| ChangingAttributes | `6` | The search network changes attributes. |
+| Synchronizing | `7` | The search network performs a synchronizing operation. |
 
 ### See Also
 
