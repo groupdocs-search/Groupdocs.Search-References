@@ -3,7 +3,7 @@ title: IndexingReport
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a detailed information on an indexing operation.
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.search.common/indexingreport/
 ---
 ## IndexingReport class

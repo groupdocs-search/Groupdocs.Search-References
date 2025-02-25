@@ -3,7 +3,7 @@ title: FoundDocumentField
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a found document field.
 type: docs
-weight: 1250
+weight: 1260
 url: /net/groupdocs.search.results/founddocumentfield/
 ---
 ## FoundDocumentField class

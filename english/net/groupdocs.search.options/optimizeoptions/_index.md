@@ -3,7 +3,7 @@ title: OptimizeOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for the optimize operation.
 type: docs
-weight: 1040
+weight: 1050
 url: /net/groupdocs.search.options/optimizeoptions/
 ---
 ## OptimizeOptions class

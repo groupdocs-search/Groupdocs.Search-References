@@ -3,7 +3,7 @@ title: Indexer
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a service that manages the distribution of indexed documents across shards of the search network.
 type: docs
-weight: 1460
+weight: 1470
 url: /net/groupdocs.search.scaling/indexer/
 ---
 ## Indexer class

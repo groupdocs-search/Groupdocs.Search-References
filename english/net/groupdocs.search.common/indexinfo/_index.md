@@ -3,7 +3,7 @@ title: IndexInfo
 second_title: GroupDocs.Search for .NET API Reference
 description: Contains basic information on an Index.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.search.common/indexinfo/
 ---
 ## IndexInfo class

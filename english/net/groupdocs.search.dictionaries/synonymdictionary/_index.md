@@ -3,7 +3,7 @@ title: SynonymDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of synonyms.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.search.dictionaries/synonymdictionary/
 ---
 ## SynonymDictionary class

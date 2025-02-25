@@ -3,7 +3,7 @@ title: OutputFormat
 second_title: GroupDocs.Search for .NET API Reference
 description: The output format of a data.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/groupdocs.search.options/outputformat/
 ---
 ## OutputFormat enumeration

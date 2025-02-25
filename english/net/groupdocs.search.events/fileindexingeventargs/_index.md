@@ -3,7 +3,7 @@ title: FileIndexingEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the event of a document indexing start.
 type: docs
-weight: 530
+weight: 540
 url: /net/groupdocs.search.events/fileindexingeventargs/
 ---
 ## FileIndexingEventArgs class
@@ -30,6 +30,7 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 | [SkipIndexing](../../groupdocs.search.events/fileindexingeventargs/skipindexing) { get; set; } | Gets or sets a value indicating that indexing of the document should be skipped. |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | Gets the index status. |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | Gets the time of an event. |
+| [WordSplitter](../../groupdocs.search.events/fileindexingeventargs/wordsplitter) { get; set; } | Gets or sets the custom word splitter used to split text into words. |
 
 ### Remarks
 

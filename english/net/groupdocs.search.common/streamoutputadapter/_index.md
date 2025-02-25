@@ -3,7 +3,7 @@ title: StreamOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output into a Stream.
 type: docs
-weight: 300
+weight: 310
 url: /net/groupdocs.search.common/streamoutputadapter/
 ---
 ## StreamOutputAdapter class

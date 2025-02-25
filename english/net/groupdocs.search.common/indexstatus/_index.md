@@ -3,7 +3,7 @@ title: IndexStatus
 second_title: GroupDocs.Search for .NET API Reference
 description: Specifies an index status.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.search.common/indexstatus/
 ---
 ## IndexStatus enumeration

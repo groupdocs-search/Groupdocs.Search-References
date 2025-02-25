@@ -3,7 +3,7 @@ title: SearchImage
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an image to search.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.search.common/searchimage/
 ---
 ## SearchImage class

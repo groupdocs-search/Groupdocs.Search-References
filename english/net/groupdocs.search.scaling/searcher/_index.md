@@ -3,7 +3,7 @@ title: Searcher
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a service that manages search queries to shards of the search network.
 type: docs
-weight: 1550
+weight: 1560
 url: /net/groupdocs.search.scaling/searcher/
 ---
 ## Searcher class

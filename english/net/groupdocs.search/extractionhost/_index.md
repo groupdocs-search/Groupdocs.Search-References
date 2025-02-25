@@ -3,7 +3,7 @@ title: ExtractionHost
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a service for extracting data from documents in a separate process.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.search/extractionhost/
 ---
 ## ExtractionHost class

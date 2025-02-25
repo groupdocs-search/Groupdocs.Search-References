@@ -3,7 +3,7 @@ title: ImageFrame
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an image frame.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.search.common/imageframe/
 ---
 ## ImageFrame class

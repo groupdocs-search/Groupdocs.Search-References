@@ -3,7 +3,7 @@ title: OutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the base class of an output adapter that is used to collect an output in a generalized form. The currently available adapters are FileOutputAdapter./fileoutputadapter StreamOutputAdapter./streamoutputadapter StructureOutputAdapter./structureoutputadapter and StringOutputAdapter./stringoutputadapter.
 type: docs
-weight: 260
+weight: 270
 url: /net/groupdocs.search.common/outputadapter/
 ---
 ## OutputAdapter class

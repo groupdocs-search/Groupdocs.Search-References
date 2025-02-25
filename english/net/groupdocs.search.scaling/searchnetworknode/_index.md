@@ -3,7 +3,7 @@ title: SearchNetworkNode
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a search network node that can contain services such as extractor indexer searcher shard.
 type: docs
-weight: 1530
+weight: 1540
 url: /net/groupdocs.search.scaling/searchnetworknode/
 ---
 ## SearchNetworkNode class

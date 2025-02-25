@@ -3,7 +3,7 @@ title: NetworkDocumentInfo
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a descriptor for an indexed document in the search network.
 type: docs
-weight: 1470
+weight: 1480
 url: /net/groupdocs.search.scaling.results/networkdocumentinfo/
 ---
 ## NetworkDocumentInfo class

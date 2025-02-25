@@ -3,7 +3,7 @@ title: NetworkImageSearchResult
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an image search result matching a search image.
 type: docs
-weight: 1490
+weight: 1500
 url: /net/groupdocs.search.scaling.results/networkimagesearchresult/
 ---
 ## NetworkImageSearchResult class
