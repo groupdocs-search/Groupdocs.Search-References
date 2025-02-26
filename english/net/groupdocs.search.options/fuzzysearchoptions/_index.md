@@ -3,7 +3,7 @@ title: FuzzySearchOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options of the fuzzy search.
 type: docs
-weight: 880
+weight: 890
 url: /net/groupdocs.search.options/fuzzysearchoptions/
 ---
 ## FuzzySearchOptions class

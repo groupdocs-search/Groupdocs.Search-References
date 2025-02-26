@@ -3,7 +3,7 @@ title: CharacterType
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a type of a character depending on how it should be indexed.
 type: docs
-weight: 400
+weight: 410
 url: /net/groupdocs.search.dictionaries/charactertype/
 ---
 ## CharacterType enumeration

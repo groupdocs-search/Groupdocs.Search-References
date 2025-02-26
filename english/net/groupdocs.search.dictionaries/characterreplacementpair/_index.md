@@ -3,7 +3,7 @@ title: CharacterReplacementPair
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a character/replacement pair.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.search.dictionaries/characterreplacementpair/
 ---
 ## CharacterReplacementPair class

@@ -3,7 +3,7 @@ title: SpellingCorrector
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a spelling corrector for terms in a query.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.search.dictionaries/spellingcorrector/
 ---
 ## SpellingCorrector class

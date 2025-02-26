@@ -3,7 +3,7 @@ title: StringOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output as a String.
 type: docs
-weight: 310
+weight: 320
 url: /net/groupdocs.search.common/stringoutputadapter/
 ---
 ## StringOutputAdapter class

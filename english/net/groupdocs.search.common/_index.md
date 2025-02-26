@@ -46,6 +46,7 @@ The namespace provides common classes of the library.
 | [IDocumentLoader](./idocumentloader) | Defines the document loader interface that is used to load lazy documents. |
 | [IFieldExtractor](./ifieldextractor) | Provides methods for extracting fields from a document. |
 | [ILogger](./ilogger) | Defines interface of a logger that is used for logging events and errors in an index. |
+| [IWordSplitter](./iwordsplitter) | Defines a method for splitting text into individual words. |
 ## Enumeration
 
 | Enumeration | Description |

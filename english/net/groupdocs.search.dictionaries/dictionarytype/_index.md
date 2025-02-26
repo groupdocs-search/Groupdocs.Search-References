@@ -3,7 +3,7 @@ title: DictionaryType
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a type of a dictionary.
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.search.dictionaries/dictionarytype/
 ---
 ## DictionaryType enumeration

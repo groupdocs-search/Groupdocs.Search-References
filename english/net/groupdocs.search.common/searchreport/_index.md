@@ -3,7 +3,7 @@ title: SearchReport
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a detailed information on a search operation.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.search.common/searchreport/
 ---
 ## SearchReport class

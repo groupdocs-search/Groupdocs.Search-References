@@ -3,7 +3,7 @@ title: AliasDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a dictionary of aliases.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.search.dictionaries/aliasdictionary/
 ---
 ## AliasDictionary class

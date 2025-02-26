@@ -3,7 +3,7 @@ title: StructureOutputAdapter
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents an output adapter that collects output as a structure containing each field separately.
 type: docs
-weight: 320
+weight: 330
 url: /net/groupdocs.search.common/structureoutputadapter/
 ---
 ## StructureOutputAdapter class

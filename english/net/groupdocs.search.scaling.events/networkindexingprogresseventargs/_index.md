@@ -3,7 +3,7 @@ title: NetworkIndexingProgressEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the arguments for the progress change event of the indexing operation.
 type: docs
-weight: 1420
+weight: 1430
 url: /net/groupdocs.search.scaling.events/networkindexingprogresseventargs/
 ---
 ## NetworkIndexingProgressEventArgs class

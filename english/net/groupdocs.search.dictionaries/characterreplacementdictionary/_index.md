@@ -3,7 +3,7 @@ title: CharacterReplacementDictionary
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used for example to remove accents from accented characters or to make caseinsensitive index.
 type: docs
-weight: 380
+weight: 390
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
