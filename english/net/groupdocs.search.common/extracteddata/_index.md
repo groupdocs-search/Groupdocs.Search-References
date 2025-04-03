@@ -14,6 +14,12 @@ Represents data retrieved from a document and prepared for indexing.
 public class ExtractedData
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsExtractionSuccessful](../../groupdocs.search.common/extracteddata/isextractionsuccessful) { get; } | Gets a value indicating whether the data extraction process completed successfully. |
+
 ## Methods
 
 | Name | Description |
