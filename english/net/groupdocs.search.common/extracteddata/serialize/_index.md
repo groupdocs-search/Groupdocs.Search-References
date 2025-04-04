@@ -3,7 +3,7 @@ title: Serialize
 second_title: GroupDocs.Search for .NET API Reference
 description: Serializes the current instance to a byte array.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.search.common/extracteddata/serialize/
 ---
 ## ExtractedData.Serialize method
