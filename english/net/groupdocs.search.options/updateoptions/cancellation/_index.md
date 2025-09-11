@@ -3,7 +3,7 @@ title: Cancellation
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the operation cancellation object. The default value is null.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.search.options/updateoptions/cancellation/
 ---
 ## UpdateOptions.Cancellation property

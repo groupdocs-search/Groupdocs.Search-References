@@ -26,6 +26,7 @@ public enum DictionaryType
 | SpellingCorrector | `5` | The spelling corrector. |
 | StopWordDictionary | `6` | The stop word dictionary. |
 | PasswordDictionary | `7` | The password dictionary. |
+| TokenizationDictionary | `8` | The tokenization dictionary. |
 
 ### See Also
 

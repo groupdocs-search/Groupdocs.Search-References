@@ -3,7 +3,7 @@ title: WordFormsProvider
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a word forms provider.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider/
 ---
 ## DictionaryRepository.WordFormsProvider property

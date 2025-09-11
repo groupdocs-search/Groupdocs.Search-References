@@ -3,7 +3,7 @@ title: CustomExtractor
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the custom text extractor. The default value is null.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.search.options/extractionoptions/customextractor/
 ---
 ## ExtractionOptions.CustomExtractor property

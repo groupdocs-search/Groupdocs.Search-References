@@ -3,10 +3,10 @@ title: ImageIndexingOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the image indexing options for reverse image search.
 type: docs
-weight: 50
-url: /net/groupdocs.search.options/updateoptions/imageindexingoptions/
+weight: 40
+url: /net/groupdocs.search.options/baseoptions/imageindexingoptions/
 ---
-## UpdateOptions.ImageIndexingOptions property
+## BaseOptions.ImageIndexingOptions property
 
 Gets the image indexing options for reverse image search.
 
@@ -21,7 +21,7 @@ The image indexing options for reverse image search.
 ### See Also
 
 * class [ImageIndexingOptions](../../imageindexingoptions)
-* class [UpdateOptions](../../updateoptions)
+* class [BaseOptions](../../baseoptions)
 * namespace [GroupDocs.Search.Options](../../../groupdocs.search.options)
 * assembly [GroupDocs.Search](../../../)
 

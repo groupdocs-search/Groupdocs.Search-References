@@ -4,9 +4,9 @@ second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether to detect encoding automatically or not. The default value is false.
 type: docs
 weight: 20
-url: /net/groupdocs.search.options/extractionoptions/autodetectencoding/
+url: /net/groupdocs.search.options/baseoptions/autodetectencoding/
 ---
-## ExtractionOptions.AutoDetectEncoding property
+## BaseOptions.AutoDetectEncoding property
 
 Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`.
 
@@ -20,7 +20,7 @@ A value indicating whether to detect encoding automatically or not.
 
 ### See Also
 
-* class [ExtractionOptions](../../extractionoptions)
+* class [BaseOptions](../../baseoptions)
 * namespace [GroupDocs.Search.Options](../../../groupdocs.search.options)
 * assembly [GroupDocs.Search](../../../)
 

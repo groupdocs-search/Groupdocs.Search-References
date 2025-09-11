@@ -3,7 +3,7 @@ title: SeparateProcessOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the options for extracting data in a separate process.
 type: docs
-weight: 90
+weight: 40
 url: /net/groupdocs.search.options/updateoptions/separateprocessoptions/
 ---
 ## UpdateOptions.SeparateProcessOptions property

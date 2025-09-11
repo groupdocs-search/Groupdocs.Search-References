@@ -3,10 +3,10 @@ title: Encoding
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets the encoding used to extract text from text documents. The default value is null which means that the default encoding UTF8 is used. If AutoDetectEncoding is true then this value is used as the default encoding.
 type: docs
-weight: 40
-url: /net/groupdocs.search.options/updateoptions/encoding/
+weight: 30
+url: /net/groupdocs.search.options/baseoptions/encoding/
 ---
-## UpdateOptions.Encoding property
+## BaseOptions.Encoding property
 
 Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding.
 
@@ -20,7 +20,7 @@ The encoding used to extract text from text documents.
 
 ### See Also
 
-* class [UpdateOptions](../../updateoptions)
+* class [BaseOptions](../../baseoptions)
 * namespace [GroupDocs.Search.Options](../../../groupdocs.search.options)
 * assembly [GroupDocs.Search](../../../)
 

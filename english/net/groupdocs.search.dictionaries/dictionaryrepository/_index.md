@@ -19,13 +19,14 @@ public class DictionaryRepository
 | Name | Description |
 | --- | --- |
 | [AliasDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/aliasdictionary) { get; } | Gets a dictionary of aliases. |
-| [Alphabet](../../groupdocs.search.dictionaries/dictionaryrepository/alphabet) { get; } | Gets a dictionary of characters. |
+| [Alphabet](../../groupdocs.search.dictionaries/dictionaryrepository/alphabet) { get; } | Gets the dictionary of characters used by the internal tokenization mechanism to split text into words. |
 | [CharacterReplacements](../../groupdocs.search.dictionaries/dictionaryrepository/characterreplacements) { get; } | Gets a dictionary of character replacements. |
 | [DocumentPasswords](../../groupdocs.search.dictionaries/dictionaryrepository/documentpasswords) { get; } | Gets a dictionary of document passwords. |
 | [HomophoneDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/homophonedictionary) { get; } | Gets a dictionary of homophones. |
 | [SpellingCorrector](../../groupdocs.search.dictionaries/dictionaryrepository/spellingcorrector) { get; } | Gets a spelling corrector. |
 | [StopWordDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/stopworddictionary) { get; } | Gets a dictionary of stop words. |
 | [SynonymDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/synonymdictionary) { get; } | Gets a dictionary of synonyms. |
+| [TokenizationDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/tokenizationdictionary) { get; } | Gets the dictionary of characters that defines whether a token is considered as a valid word or a separator when using external tokenization tools. |
 | [WordFormsProvider](../../groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider) { get; set; } | Gets or sets a word forms provider. |
 
 ### See Also

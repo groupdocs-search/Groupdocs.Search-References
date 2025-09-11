@@ -3,7 +3,7 @@ title: HighlightOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for highlighting found terms.
 type: docs
-weight: 900
+weight: 910
 url: /net/groupdocs.search.options/highlightoptions/
 ---
 ## HighlightOptions class
@@ -25,20 +25,23 @@ public class HighlightOptions : TextOptions
 | Name | Description |
 | --- | --- |
 | [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Gets or sets the additional document fields that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
+| [AutoDetectEncoding](../../groupdocs.search.options/baseoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Gets or sets the cancellation object. The default value is `null`. |
 | [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
+| [Encoding](../../groupdocs.search.options/baseoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Gets or sets a value indicating whether the Head tag is generated in the output HTML. The default value is `true`. |
 | [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | Gets or sets a color that is used to highlight occurrences. The default value is #FFD800. |
-| [ImageIndexingOptions](../../groupdocs.search.options/textoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
-| [MetadataIndexingOptions](../../groupdocs.search.options/textoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
-| [OcrIndexingOptions](../../groupdocs.search.options/textoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
+| [ImageIndexingOptions](../../groupdocs.search.options/baseoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
+| [MetadataIndexingOptions](../../groupdocs.search.options/baseoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
+| [OcrIndexingOptions](../../groupdocs.search.options/baseoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 | [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | Gets of sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string. |
 | [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | Gets of sets the start tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string. |
 | [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | Gets or sets the maximum number of words in a text fragment after highlighted word. The value must be in the range from 0 to 10000. The default value is `7`. |
 | [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | Gets or sets the maximum number of words in a text fragment before highlighted word. The value must be in the range from 0 to 10000. The default value is `7`. |
 | [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | Gets or sets the maximum number of words in a text fragment. The value must be in the range from 0 to 10000. The default value is `21`. |
+| [UseBackupPrivilege](../../groupdocs.search.options/baseoptions/usebackupprivilege) { get; set; } | Gets or sets a value indicating whether the process should use the SeBackupPrivilege and FILE_FLAG_BACKUP_SEMANTICS to access files and directories. The default value is `false`. |
 | [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | Gets or sets a value indicating whether inline styles are used to highlight occurrences. The default value is `true`. |
-| [UseRawTextExtraction](../../groupdocs.search.options/textoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 

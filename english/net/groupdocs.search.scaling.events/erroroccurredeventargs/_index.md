@@ -3,7 +3,7 @@ title: ErrorOccurredEventArgs
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents arguments for the event of an error occurs in one of the nodes of the search network.
 type: docs
-weight: 1420
+weight: 1430
 url: /net/groupdocs.search.scaling.events/erroroccurredeventargs/
 ---
 ## ErrorOccurredEventArgs class

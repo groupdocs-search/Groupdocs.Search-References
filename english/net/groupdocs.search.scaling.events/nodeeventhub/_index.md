@@ -3,7 +3,7 @@ title: NodeEventHub
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides node events for subscribing.
 type: docs
-weight: 1450
+weight: 1460
 url: /net/groupdocs.search.scaling.events/nodeeventhub/
 ---
 ## NodeEventHub class

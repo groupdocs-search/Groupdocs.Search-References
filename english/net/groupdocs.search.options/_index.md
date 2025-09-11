@@ -12,6 +12,7 @@ The namespace provides classes to specify additional options of various operatio
 
 | Class | Description |
 | --- | --- |
+| [BaseOptions](./baseoptions) | Provides base options for index operations. |
 | [ChangeAttributesOptions](./changeattributesoptions) | Provides options for the change attributes operation. |
 | [Color](./color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [CommonFieldNames](./commonfieldnames) | Represents a list of field names for the faceted search. |

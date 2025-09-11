@@ -3,7 +3,7 @@ title: Indexer
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a service that manages the distribution of indexed documents across shards of the search network.
 type: docs
-weight: 1470
+weight: 1480
 url: /net/groupdocs.search.scaling/indexer/
 ---
 ## Indexer class
@@ -40,6 +40,7 @@ public sealed class Indexer
 | [GetSpellingCorrector](../../groupdocs.search.scaling/indexer/getspellingcorrector)(int) | Gets the spelling corrector dictionary. |
 | [GetStopWordDictionary](../../groupdocs.search.scaling/indexer/getstopworddictionary)(int) | Gets the stop word dictionary. |
 | [GetSynonymDictionary](../../groupdocs.search.scaling/indexer/getsynonymdictionary)(int) | Gets the synonym dictionary. |
+| [GetTokenizationDictionary](../../groupdocs.search.scaling/indexer/gettokenizationdictionary)(int) | Gets the tokenization dictionary. |
 | [Optimize](../../groupdocs.search.scaling/indexer/optimize)(OptimizeOptions) | Minimizes the number of index segments by merging them one with another. This operation improves search performance. |
 | [SetDictionary](../../groupdocs.search.scaling/indexer/setdictionary#setdictionary)(DictionaryBase) | Sets a dictionary in all shards. |
 | [SetDictionary](../../groupdocs.search.scaling/indexer/setdictionary#setdictionary_1)(DictionaryBase, int) | Sets a dictionary in the specified shard. |

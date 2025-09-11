@@ -3,7 +3,7 @@ title: ExtractionOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides options for extracting data from documents.
 type: docs
-weight: 860
+weight: 870
 url: /net/groupdocs.search.options/extractionoptions/
 ---
 ## ExtractionOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.search.options/extractionoptions/
 Provides options for extracting data from documents.
 
 ```csharp
-public class ExtractionOptions
+public class ExtractionOptions : BaseOptions
 ```
 
 ## Constructors
@@ -24,16 +24,18 @@ public class ExtractionOptions
 
 | Name | Description |
 | --- | --- |
-| [AutoDetectEncoding](../../groupdocs.search.options/extractionoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
+| [AutoDetectEncoding](../../groupdocs.search.options/baseoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [CustomExtractor](../../groupdocs.search.options/extractionoptions/customextractor) { get; set; } | Gets or sets the custom text extractor. The default value is `null`. |
-| [Encoding](../../groupdocs.search.options/extractionoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
-| [ImageIndexingOptions](../../groupdocs.search.options/extractionoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
-| [MetadataIndexingOptions](../../groupdocs.search.options/extractionoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
-| [OcrIndexingOptions](../../groupdocs.search.options/extractionoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
-| [UseRawTextExtraction](../../groupdocs.search.options/extractionoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [Encoding](../../groupdocs.search.options/baseoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
+| [ImageIndexingOptions](../../groupdocs.search.options/baseoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
+| [MetadataIndexingOptions](../../groupdocs.search.options/baseoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
+| [OcrIndexingOptions](../../groupdocs.search.options/baseoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
+| [UseBackupPrivilege](../../groupdocs.search.options/baseoptions/usebackupprivilege) { get; set; } | Gets or sets a value indicating whether the process should use the SeBackupPrivilege and FILE_FLAG_BACKUP_SEMANTICS to access files and directories. The default value is `false`. |
+| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
 
 ### See Also
 
+* class [BaseOptions](../baseoptions)
 * namespace [GroupDocs.Search.Options](../../groupdocs.search.options)
 * assembly [GroupDocs.Search](../../)
 

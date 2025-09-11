@@ -22,6 +22,7 @@ public enum DocumentSourceKind
 | Stream | `1` | The stream document source. |
 | Structure | `2` | The structure document source. |
 | ExtractedData | `3` | The document source of previously extracted data. |
+| TempFile | `4` | The temp file document source. |
 
 ### See Also
 

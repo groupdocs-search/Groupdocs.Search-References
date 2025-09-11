@@ -1,14 +1,14 @@
 ---
 title: Alphabet
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a dictionary of characters.
+description: Gets the dictionary of characters used by the internal tokenization mechanism to split text into words.
 type: docs
 weight: 20
 url: /net/groupdocs.search.dictionaries/dictionaryrepository/alphabet/
 ---
 ## DictionaryRepository.Alphabet property
 
-Gets a dictionary of characters.
+Gets the dictionary of characters used by the internal tokenization mechanism to split text into words.
 
 ```csharp
 public Alphabet Alphabet { get; }
