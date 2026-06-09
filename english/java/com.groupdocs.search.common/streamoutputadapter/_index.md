@@ -17,13 +17,16 @@ public class StreamOutputAdapter extends OutputAdapter implements IStreamOutputA
 
 Represents an output adapter that collects output into a  java.io.OutputStream .
 
+
 **Learn more**
 
- *  [Output adapters][]
+* [Output adapters](../https://docs.groupdocs.com/display/searchjava/Output+adapters)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -35,19 +38,22 @@ The example demonstrates a typical usage of the class.
  index.getDocumentText(documents[0], adapter); // Generating a document text into the stream
  
 ```
+ 
+````
 
 
-[Output adapters]: https://docs.groupdocs.com/display/searchjava/Output+adapters
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)](#StreamOutputAdapter-com.groupdocs.search.options.OutputFormat-java.io.OutputStream-) | Initializes a new instance of the  StreamOutputAdapter  class. |
+| [StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)](#StreamOutputAdapter-com.groupdocs.search.options.OutputFormat-java.io.OutputStream-) | Initializes a new instance of the  StreamOutputAdapter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getStream()](#getStream--) | Gets an output stream. |
+| [getStream()](#getStream--) | Gets an output stream.
+ |
 ### StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream) {#StreamOutputAdapter-com.groupdocs.search.options.OutputFormat-java.io.OutputStream-}
 ```
 public StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)
@@ -56,11 +62,14 @@ public StreamOutputAdapter(OutputFormat outputFormat, OutputStream stream)
 
 Initializes a new instance of the  StreamOutputAdapter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
-| stream | java.io.OutputStream | The output stream. |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format.
+ |
+| stream | java.io.OutputStream | The output stream.
+ |
 
 ### getStream() {#getStream--}
 ```
@@ -70,5 +79,7 @@ public final OutputStream getStream()
 
 Gets an output stream.
 
+
 **Returns:**
 java.io.OutputStream - The output stream.
+

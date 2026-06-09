@@ -16,16 +16,19 @@ public class StructureOutputAdapter extends OutputAdapter implements IStructureO
 ```
 
 Represents an output adapter that collects output as a structure containing each field separately.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [StructureOutputAdapter(OutputFormat outputFormat)](#StructureOutputAdapter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  StructureOutputAdapter  class. |
+| [StructureOutputAdapter(OutputFormat outputFormat)](#StructureOutputAdapter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  StructureOutputAdapter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getResult()](#getResult--) | Gets the resulting array of fields. |
+| [getResult()](#getResult--) | Gets the resulting array of fields.
+ |
 ### StructureOutputAdapter(OutputFormat outputFormat) {#StructureOutputAdapter-com.groupdocs.search.options.OutputFormat-}
 ```
 public StructureOutputAdapter(OutputFormat outputFormat)
@@ -34,10 +37,12 @@ public StructureOutputAdapter(OutputFormat outputFormat)
 
 Initializes a new instance of the  StructureOutputAdapter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format.
+ |
 
 ### getResult() {#getResult--}
 ```
@@ -47,5 +52,7 @@ public final DocumentField[] getResult()
 
 Gets the resulting array of fields.
 
+
 **Returns:**
 com.groupdocs.search.common.DocumentField[] - The resulting array of fields.
+

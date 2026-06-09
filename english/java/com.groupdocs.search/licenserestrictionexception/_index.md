@@ -13,21 +13,29 @@ public class LicenseRestrictionException extends System.ApplicationException
 ```
 
 The exception that is thrown when a license restriction is triggered.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [LicenseRestrictionException(String message)](#LicenseRestrictionException-java.lang.String-) | Initializes a new instance of the  LicenseRestrictionException  class. |
+| [LicenseRestrictionException(String message)](#LicenseRestrictionException-java.lang.String-) | Initializes a new instance of the 
+LicenseRestrictionException
+ class.
+ |
 ### LicenseRestrictionException(String message) {#LicenseRestrictionException-java.lang.String-}
 ```
 public LicenseRestrictionException(String message)
 ```
 
 
-Initializes a new instance of the  LicenseRestrictionException  class.
+Initializes a new instance of the 
+LicenseRestrictionException
+ class.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The exception message. |
+| message | java.lang.String | The exception message.
+ |
 

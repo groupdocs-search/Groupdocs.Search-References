@@ -13,6 +13,7 @@ public abstract class NetworkFoundDocument
 ```
 
 Represents a found document in the search network.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +23,10 @@ Represents a found document in the search network.
 
 | Method | Description |
 | --- | --- |
-| [getFoundDocument()](#getFoundDocument--) | Gets the found document. |
-| [getShardIndex()](#getShardIndex--) | Gets the shard index. |
+| [getFoundDocument()](#getFoundDocument--) | Gets the found document.
+ |
+| [getShardIndex()](#getShardIndex--) | Gets the shard index.
+ |
 ### NetworkFoundDocument() {#NetworkFoundDocument--}
 ```
 public NetworkFoundDocument()
@@ -38,8 +41,10 @@ public abstract FoundDocument getFoundDocument()
 
 Gets the found document.
 
+
 **Returns:**
 [FoundDocument](../../com.groupdocs.search.results/founddocument) - The found document.
+
 ### getShardIndex() {#getShardIndex--}
 ```
 public abstract int getShardIndex()
@@ -48,5 +53,7 @@ public abstract int getShardIndex()
 
 Gets the shard index.
 
+
 **Returns:**
 int - The shard index.
+

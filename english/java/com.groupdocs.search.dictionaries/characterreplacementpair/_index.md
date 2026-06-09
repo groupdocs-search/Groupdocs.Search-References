@@ -13,17 +13,21 @@ public class CharacterReplacementPair
 ```
 
 Represents a character/replacement pair.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [CharacterReplacementPair(char character, char replacement)](#CharacterReplacementPair-char-char-) | Initializes a new instance of the  CharacterReplacementPair  class. |
+| [CharacterReplacementPair(char character, char replacement)](#CharacterReplacementPair-char-char-) | Initializes a new instance of the  CharacterReplacementPair  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCharacter()](#getCharacter--) | Gets the character. |
-| [getReplacement()](#getReplacement--) | Gets the replacement. |
+| [getCharacter()](#getCharacter--) | Gets the character.
+ |
+| [getReplacement()](#getReplacement--) | Gets the replacement.
+ |
 ### CharacterReplacementPair(char character, char replacement) {#CharacterReplacementPair-char-char-}
 ```
 public CharacterReplacementPair(char character, char replacement)
@@ -32,11 +36,14 @@ public CharacterReplacementPair(char character, char replacement)
 
 Initializes a new instance of the  CharacterReplacementPair  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character | char | The character to be replaced. |
-| replacement | char | The replacement. |
+| character | char | The character to be replaced.
+ |
+| replacement | char | The replacement.
+ |
 
 ### getCharacter() {#getCharacter--}
 ```
@@ -46,8 +53,10 @@ public final char getCharacter()
 
 Gets the character.
 
+
 **Returns:**
 char - The character.
+
 ### getReplacement() {#getReplacement--}
 ```
 public final char getReplacement()
@@ -56,5 +65,7 @@ public final char getReplacement()
 
 Gets the replacement.
 
+
 **Returns:**
 char - The replacement.
+

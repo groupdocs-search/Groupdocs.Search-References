@@ -13,6 +13,7 @@ public abstract class NetworkSearchToken
 ```
 
 Represents a token for the continuation of the network chunk search (search by pages).
+
 ## Constructors
 
 | Constructor | Description |

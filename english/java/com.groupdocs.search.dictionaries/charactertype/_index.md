@@ -13,14 +13,19 @@ public enum CharacterType extends Enum<CharacterType>
 ```
 
 Represents a type of a character, depending on how it should be indexed.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Separator](#Separator) | The separator character. |
-| [Letter](#Letter) | The valid character. |
-| [Blended](#Blended) | Both the separator and the valid character. |
-| [SeparateWord](#SeparateWord) | The character that represents a whole word. |
+| [Separator](#Separator) | The separator character.
+ |
+| [Letter](#Letter) | The valid character.
+ |
+| [Blended](#Blended) | Both the separator and the valid character.
+ |
+| [SeparateWord](#SeparateWord) | The character that represents a whole word.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,7 @@ public static final CharacterType Separator
 
 The separator character.
 
+
 ### Letter {#Letter}
 ```
 public static final CharacterType Letter
@@ -42,6 +48,7 @@ public static final CharacterType Letter
 
 
 The valid character.
+
 
 ### Blended {#Blended}
 ```
@@ -51,6 +58,7 @@ public static final CharacterType Blended
 
 Both the separator and the valid character.
 
+
 ### SeparateWord {#SeparateWord}
 ```
 public static final CharacterType SeparateWord
@@ -58,6 +66,7 @@ public static final CharacterType SeparateWord
 
 
 The character that represents a whole word.
+
 
 ### values() {#values--}
 ```

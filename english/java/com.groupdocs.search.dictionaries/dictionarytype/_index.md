@@ -13,18 +13,27 @@ public enum DictionaryType extends Enum<DictionaryType>
 ```
 
 Represents a type of a dictionary.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Alphabet](#Alphabet) | The alphabet. |
-| [AliasDictionary](#AliasDictionary) | The alias dictionary. |
-| [CharacterReplacementDictionary](#CharacterReplacementDictionary) | The character replacement dictionary. |
-| [SynonymDictionary](#SynonymDictionary) | The synonym dictionary. |
-| [HomophoneDictionary](#HomophoneDictionary) | The homophone dictionary. |
-| [SpellingCorrector](#SpellingCorrector) | The spelling corrector. |
-| [StopWordDictionary](#StopWordDictionary) | The stop word dictionary. |
-| [PasswordDictionary](#PasswordDictionary) | The password dictionary. |
+| [Alphabet](#Alphabet) | The alphabet.
+ |
+| [AliasDictionary](#AliasDictionary) | The alias dictionary.
+ |
+| [CharacterReplacementDictionary](#CharacterReplacementDictionary) | The character replacement dictionary.
+ |
+| [SynonymDictionary](#SynonymDictionary) | The synonym dictionary.
+ |
+| [HomophoneDictionary](#HomophoneDictionary) | The homophone dictionary.
+ |
+| [SpellingCorrector](#SpellingCorrector) | The spelling corrector.
+ |
+| [StopWordDictionary](#StopWordDictionary) | The stop word dictionary.
+ |
+| [PasswordDictionary](#PasswordDictionary) | The password dictionary.
+ |
 ## Methods
 
 | Method | Description |
@@ -39,6 +48,7 @@ public static final DictionaryType Alphabet
 
 The alphabet.
 
+
 ### AliasDictionary {#AliasDictionary}
 ```
 public static final DictionaryType AliasDictionary
@@ -46,6 +56,7 @@ public static final DictionaryType AliasDictionary
 
 
 The alias dictionary.
+
 
 ### CharacterReplacementDictionary {#CharacterReplacementDictionary}
 ```
@@ -55,6 +66,7 @@ public static final DictionaryType CharacterReplacementDictionary
 
 The character replacement dictionary.
 
+
 ### SynonymDictionary {#SynonymDictionary}
 ```
 public static final DictionaryType SynonymDictionary
@@ -62,6 +74,7 @@ public static final DictionaryType SynonymDictionary
 
 
 The synonym dictionary.
+
 
 ### HomophoneDictionary {#HomophoneDictionary}
 ```
@@ -71,6 +84,7 @@ public static final DictionaryType HomophoneDictionary
 
 The homophone dictionary.
 
+
 ### SpellingCorrector {#SpellingCorrector}
 ```
 public static final DictionaryType SpellingCorrector
@@ -78,6 +92,7 @@ public static final DictionaryType SpellingCorrector
 
 
 The spelling corrector.
+
 
 ### StopWordDictionary {#StopWordDictionary}
 ```
@@ -87,6 +102,7 @@ public static final DictionaryType StopWordDictionary
 
 The stop word dictionary.
 
+
 ### PasswordDictionary {#PasswordDictionary}
 ```
 public static final DictionaryType PasswordDictionary
@@ -94,6 +110,7 @@ public static final DictionaryType PasswordDictionary
 
 
 The password dictionary.
+
 
 ### values() {#values--}
 ```

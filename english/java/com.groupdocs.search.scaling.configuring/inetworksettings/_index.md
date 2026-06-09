@@ -10,3 +10,4 @@ public interface INetworkSettings
 ```
 
 Represents a network settings.
+

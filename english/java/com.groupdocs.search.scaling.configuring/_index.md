@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.scaling.configuring/
 The namespace provides classes for configuring the search network.
 
 
+
 ## Classes
 
 | Class | Description |

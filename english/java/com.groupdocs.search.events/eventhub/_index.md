@@ -3,7 +3,7 @@ title: EventHub
 second_title: GroupDocs.Search for Java API Reference
 description: Provides index events for subscribing.
 type: docs
-weight: 13
+weight: 12
 url: /java/com.groupdocs.search.events/eventhub/
 ---
 **Inheritance:**
@@ -14,13 +14,16 @@ public abstract class EventHub extends EventHubBase
 
 Provides index events for subscribing.
 
+
 **Learn more**
 
- *  [Search index events][]
+* [Search index events](../https://docs.groupdocs.com/display/searchjava/Search+index+events)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -39,9 +42,10 @@ The example demonstrates a typical usage of the class.
  SearchResult result = index.search(query);
  
 ```
+ 
+````
 
 
-[Search index events]: https://docs.groupdocs.com/display/searchjava/Search+index+events
 ## Constructors
 
 | Constructor | Description |
@@ -51,15 +55,24 @@ The example demonstrates a typical usage of the class.
 
 | Field | Description |
 | --- | --- |
-| [OperationFinished](#OperationFinished) | Occurs when an index operation is finished. |
-| [ErrorOccurred](#ErrorOccurred) | Occurs when an error occurs during an index operation. |
-| [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of the indexing or update operation changes. |
-| [OptimizationProgressChanged](#OptimizationProgressChanged) | Occurs when the progress of the optimization operation changes. |
-| [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
-| [FileIndexing](#FileIndexing) | Occurs when a document is going to be indexed. |
-| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing. |
-| [StatusChanged](#StatusChanged) | Occurs when the index status changes. |
-| [SearchPhaseCompleted](#SearchPhaseCompleted) | Occurs when the search phase is completed. |
+| [OperationFinished](#OperationFinished) | Occurs when an index operation is finished.
+ |
+| [ErrorOccurred](#ErrorOccurred) | Occurs when an error occurs during an index operation.
+ |
+| [OperationProgressChanged](#OperationProgressChanged) | Occurs when the progress of the indexing or update operation changes.
+ |
+| [OptimizationProgressChanged](#OptimizationProgressChanged) | Occurs when the progress of the optimization operation changes.
+ |
+| [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening.
+ |
+| [FileIndexing](#FileIndexing) | Occurs when a document is going to be indexed.
+ |
+| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing.
+ |
+| [StatusChanged](#StatusChanged) | Occurs when the index status changes.
+ |
+| [SearchPhaseCompleted](#SearchPhaseCompleted) | Occurs when the search phase is completed.
+ |
 ### EventHub() {#EventHub--}
 ```
 public EventHub()
@@ -76,7 +89,8 @@ Occurs when an index operation is finished.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -96,6 +110,10 @@ The example demonstrates how to use the event.
  index.add(documentsFolder);
  
 ```
+ 
+````
+
+
 
 ### ErrorOccurred {#ErrorOccurred}
 ```
@@ -107,7 +125,8 @@ Occurs when an error occurs during an index operation.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -126,6 +145,10 @@ The example demonstrates how to use the event.
  SearchResult result = index.search(query);
  
 ```
+ 
+````
+
+
 
 ### OperationProgressChanged {#OperationProgressChanged}
 ```
@@ -137,7 +160,8 @@ Occurs when the progress of the indexing or update operation changes.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -156,6 +180,10 @@ The example demonstrates how to use the event.
  index.add(documentsFolder);
  
 ```
+ 
+````
+
+
 
 ### OptimizationProgressChanged {#OptimizationProgressChanged}
 ```
@@ -164,6 +192,7 @@ public final Event<EventHandler<OptimizationProgressEventArgs>> OptimizationProg
 
 
 Occurs when the progress of the optimization operation changes.
+
 
 ### PasswordRequired {#PasswordRequired}
 ```
@@ -175,7 +204,8 @@ Occurs when a document requires password for opening.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -193,6 +223,10 @@ The example demonstrates how to use the event.
  index.add(documentsFolder);
  
 ```
+ 
+````
+
+
 
 ### FileIndexing {#FileIndexing}
 ```
@@ -204,7 +238,8 @@ Occurs when a document is going to be indexed.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -227,6 +262,10 @@ The example demonstrates how to use the event.
  index.add(documentsFolder);
  
 ```
+ 
+````
+
+
 
 ### ImagePreparing {#ImagePreparing}
 ```
@@ -235,6 +274,7 @@ public final Event<EventHandler<ImagePreparingEventArgs>> ImagePreparing
 
 
 Occurs when an image is going to be prepared for indexing.
+
 
 ### StatusChanged {#StatusChanged}
 ```
@@ -246,7 +286,8 @@ Occurs when the index status changes.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -268,6 +309,10 @@ The example demonstrates how to use the event.
  index.add(documentsFolder, options);
  
 ```
+ 
+````
+
+
 
 ### SearchPhaseCompleted {#SearchPhaseCompleted}
 ```
@@ -279,7 +324,8 @@ Occurs when the search phase is completed.
 
 The example demonstrates how to use the event.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -302,4 +348,8 @@ The example demonstrates how to use the event.
  SearchResult result = index.search("Einstein", options);
  
 ```
+ 
+````
+
+
 

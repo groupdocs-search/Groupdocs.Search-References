@@ -14,19 +14,21 @@ public enum Compression extends Enum<Compression>
 
 Specifies a compression level.
 
+
 **Learn more**
 
- *  [Storing text of indexed documents][]
+* [Storing text of indexed documents](../https://docs.groupdocs.com/display/searchjava/Storing+text+of+indexed+documents)
 
-
-[Storing text of indexed documents]: https://docs.groupdocs.com/display/searchjava/Storing+text+of+indexed+documents
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [None](#None) | Compression is disabled. |
-| [Normal](#Normal) | Normal compression level. |
-| [High](#High) | High compression level. |
+| [None](#None) | Compression is disabled.
+ |
+| [Normal](#Normal) | Normal compression level.
+ |
+| [High](#High) | High compression level.
+ |
 ## Methods
 
 | Method | Description |
@@ -41,6 +43,7 @@ public static final Compression None
 
 Compression is disabled.
 
+
 ### Normal {#Normal}
 ```
 public static final Compression Normal
@@ -49,6 +52,7 @@ public static final Compression Normal
 
 Normal compression level.
 
+
 ### High {#High}
 ```
 public static final Compression High
@@ -56,6 +60,7 @@ public static final Compression High
 
 
 High compression level.
+
 
 ### values() {#values--}
 ```

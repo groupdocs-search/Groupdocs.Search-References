@@ -13,6 +13,7 @@ public abstract class Action1<T> extends MulticastDelegate
 ```
 
 Encapsulates a method that has a single parameter and does not return a value.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Encapsulates a method that has a single parameter and does not return a value.
 
 | Method | Description |
 | --- | --- |
-| [invoke(T arg)](#invoke-T-) | The method to be invoked. |
+| [invoke(T arg)](#invoke-T-) | The method to be invoked.
+ |
 ### Action1() {#Action1--}
 ```
 public Action1()
@@ -37,8 +39,10 @@ public abstract void invoke(T arg)
 
 The method to be invoked.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arg | T | The parameter. |
+| arg | T | The parameter.
+ |
 

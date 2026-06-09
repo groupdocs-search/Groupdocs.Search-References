@@ -14,12 +14,11 @@ public class FictionBookFieldNames
 
 Represents a list of field names for the faceted search.
 
+
 **Learn more**
 
- *  [Faceted search][]
+* [Faceted search](../https://docs.groupdocs.com/display/searchjava/Faceted+search)
 
-
-[Faceted search]: https://docs.groupdocs.com/display/searchjava/Faceted+search
 ## Constructors
 
 | Constructor | Description |
@@ -29,14 +28,22 @@ Represents a list of field names for the faceted search.
 
 | Field | Description |
 | --- | --- |
-| [Title](#Title) | The title field name. |
-| [Subject](#Subject) | The subject field name. |
-| [Keywords](#Keywords) | The keywords field name. |
-| [Author](#Author) | The author field name. |
-| [Description](#Description) | The description field name. |
-| [Language](#Language) | The language field name. |
-| [Publisher](#Publisher) | The publisher field name. |
-| [PublishedDate](#PublishedDate) | The published date field name. |
+| [Title](#Title) | The title field name.
+ |
+| [Subject](#Subject) | The subject field name.
+ |
+| [Keywords](#Keywords) | The keywords field name.
+ |
+| [Author](#Author) | The author field name.
+ |
+| [Description](#Description) | The description field name.
+ |
+| [Language](#Language) | The language field name.
+ |
+| [Publisher](#Publisher) | The publisher field name.
+ |
+| [PublishedDate](#PublishedDate) | The published date field name.
+ |
 ### FictionBookFieldNames() {#FictionBookFieldNames--}
 ```
 public FictionBookFieldNames()
@@ -51,6 +58,7 @@ public static final String Title
 
 The title field name.
 
+
 ### Subject {#Subject}
 ```
 public static final String Subject
@@ -58,6 +66,7 @@ public static final String Subject
 
 
 The subject field name.
+
 
 ### Keywords {#Keywords}
 ```
@@ -67,6 +76,7 @@ public static final String Keywords
 
 The keywords field name.
 
+
 ### Author {#Author}
 ```
 public static final String Author
@@ -74,6 +84,7 @@ public static final String Author
 
 
 The author field name.
+
 
 ### Description {#Description}
 ```
@@ -83,6 +94,7 @@ public static final String Description
 
 The description field name.
 
+
 ### Language {#Language}
 ```
 public static final String Language
@@ -90,6 +102,7 @@ public static final String Language
 
 
 The language field name.
+
 
 ### Publisher {#Publisher}
 ```
@@ -99,6 +112,7 @@ public static final String Publisher
 
 The publisher field name.
 
+
 ### PublishedDate {#PublishedDate}
 ```
 public static final String PublishedDate
@@ -106,4 +120,5 @@ public static final String PublishedDate
 
 
 The published date field name.
+
 

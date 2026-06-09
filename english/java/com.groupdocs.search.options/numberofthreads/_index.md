@@ -14,25 +14,33 @@ public enum NumberOfThreads extends Enum<NumberOfThreads>
 
 Specifies the number of threads.
 
+
 **Learn more**
 
- *  [Search index settings][]
+* [Search index settings](../https://docs.groupdocs.com/display/searchjava/Search+index+settings)
 
-
-[Search index settings]: https://docs.groupdocs.com/display/searchjava/Search+index+settings
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Default](#Default) | The default value. |
-| [One](#One) | One thread. |
-| [Two](#Two) | Two threads. |
-| [Three](#Three) | Three threads. |
-| [Four](#Four) | Four threads. |
-| [Five](#Five) | Five threads. |
-| [Six](#Six) | Six threads. |
-| [Seven](#Seven) | Seven threads. |
-| [Eight](#Eight) | Eight threads. |
+| [Default](#Default) | The default value.
+ |
+| [One](#One) | One thread.
+ |
+| [Two](#Two) | Two threads.
+ |
+| [Three](#Three) | Three threads.
+ |
+| [Four](#Four) | Four threads.
+ |
+| [Five](#Five) | Five threads.
+ |
+| [Six](#Six) | Six threads.
+ |
+| [Seven](#Seven) | Seven threads.
+ |
+| [Eight](#Eight) | Eight threads.
+ |
 ## Methods
 
 | Method | Description |
@@ -47,6 +55,7 @@ public static final NumberOfThreads Default
 
 The default value.
 
+
 ### One {#One}
 ```
 public static final NumberOfThreads One
@@ -54,6 +63,7 @@ public static final NumberOfThreads One
 
 
 One thread.
+
 
 ### Two {#Two}
 ```
@@ -63,6 +73,7 @@ public static final NumberOfThreads Two
 
 Two threads.
 
+
 ### Three {#Three}
 ```
 public static final NumberOfThreads Three
@@ -70,6 +81,7 @@ public static final NumberOfThreads Three
 
 
 Three threads.
+
 
 ### Four {#Four}
 ```
@@ -79,6 +91,7 @@ public static final NumberOfThreads Four
 
 Four threads.
 
+
 ### Five {#Five}
 ```
 public static final NumberOfThreads Five
@@ -86,6 +99,7 @@ public static final NumberOfThreads Five
 
 
 Five threads.
+
 
 ### Six {#Six}
 ```
@@ -95,6 +109,7 @@ public static final NumberOfThreads Six
 
 Six threads.
 
+
 ### Seven {#Seven}
 ```
 public static final NumberOfThreads Seven
@@ -103,6 +118,7 @@ public static final NumberOfThreads Seven
 
 Seven threads.
 
+
 ### Eight {#Eight}
 ```
 public static final NumberOfThreads Eight
@@ -110,6 +126,7 @@ public static final NumberOfThreads Eight
 
 
 Eight threads.
+
 
 ### values() {#values--}
 ```

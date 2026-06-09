@@ -13,6 +13,7 @@ public abstract class ImageSearchResult
 ```
 
 Represents the result of a reverse image search.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +23,10 @@ Represents the result of a reverse image search.
 
 | Method | Description |
 | --- | --- |
-| [getImageCount()](#getImageCount--) | Gets the number of images found. |
-| [getFoundImage(int index)](#getFoundImage-int-) | Gets the found image by index. |
+| [getImageCount()](#getImageCount--) | Gets the number of images found.
+ |
+| [getFoundImage(int index)](#getFoundImage-int-) | Gets the found image by index.
+ |
 ### ImageSearchResult() {#ImageSearchResult--}
 ```
 public ImageSearchResult()
@@ -38,8 +41,10 @@ public abstract int getImageCount()
 
 Gets the number of images found.
 
+
 **Returns:**
 int - The number of images found.
+
 ### getFoundImage(int index) {#getFoundImage-int-}
 ```
 public abstract FoundImageFrame getFoundImage(int index)
@@ -48,10 +53,13 @@ public abstract FoundImageFrame getFoundImage(int index)
 
 Gets the found image by index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The index of a found image. |
+| index | int | The index of a found image.
+ |
 
 **Returns:**
 [FoundImageFrame](../../com.groupdocs.search.results/foundimageframe) - The found image.
+

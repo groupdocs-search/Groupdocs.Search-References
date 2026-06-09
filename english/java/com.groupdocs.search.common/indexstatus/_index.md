@@ -13,19 +13,29 @@ public enum IndexStatus extends Enum<IndexStatus>
 ```
 
 Specifies an index status.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Ready](#Ready) | Index is free and ready to change. |
-| [Failed](#Failed) | Index needs to be reloaded due to an error. |
-| [Indexing](#Indexing) | Index performs an indexing operation. |
-| [Updating](#Updating) | Index performs an updating operation. |
-| [Merging](#Merging) | Index performs a merging operation. |
-| [Optimizing](#Optimizing) | Index performs an optimizing operation. |
-| [Deleting](#Deleting) | Index performs a deleting operation. |
-| [Renaming](#Renaming) | Index performs a renaming operation. |
-| [ChangingAttributes](#ChangingAttributes) | Index changes attributes. |
+| [Ready](#Ready) | Index is free and ready to change.
+ |
+| [Failed](#Failed) | Index needs to be reloaded due to an error.
+ |
+| [Indexing](#Indexing) | Index performs an indexing operation.
+ |
+| [Updating](#Updating) | Index performs an updating operation.
+ |
+| [Merging](#Merging) | Index performs a merging operation.
+ |
+| [Optimizing](#Optimizing) | Index performs an optimizing operation.
+ |
+| [Deleting](#Deleting) | Index performs a deleting operation.
+ |
+| [Renaming](#Renaming) | Index performs a renaming operation.
+ |
+| [ChangingAttributes](#ChangingAttributes) | Index changes attributes.
+ |
 ## Methods
 
 | Method | Description |
@@ -40,6 +50,7 @@ public static final IndexStatus Ready
 
 Index is free and ready to change.
 
+
 ### Failed {#Failed}
 ```
 public static final IndexStatus Failed
@@ -47,6 +58,7 @@ public static final IndexStatus Failed
 
 
 Index needs to be reloaded due to an error.
+
 
 ### Indexing {#Indexing}
 ```
@@ -56,6 +68,7 @@ public static final IndexStatus Indexing
 
 Index performs an indexing operation.
 
+
 ### Updating {#Updating}
 ```
 public static final IndexStatus Updating
@@ -63,6 +76,7 @@ public static final IndexStatus Updating
 
 
 Index performs an updating operation.
+
 
 ### Merging {#Merging}
 ```
@@ -72,6 +86,7 @@ public static final IndexStatus Merging
 
 Index performs a merging operation.
 
+
 ### Optimizing {#Optimizing}
 ```
 public static final IndexStatus Optimizing
@@ -79,6 +94,7 @@ public static final IndexStatus Optimizing
 
 
 Index performs an optimizing operation.
+
 
 ### Deleting {#Deleting}
 ```
@@ -88,6 +104,7 @@ public static final IndexStatus Deleting
 
 Index performs a deleting operation.
 
+
 ### Renaming {#Renaming}
 ```
 public static final IndexStatus Renaming
@@ -96,6 +113,7 @@ public static final IndexStatus Renaming
 
 Index performs a renaming operation.
 
+
 ### ChangingAttributes {#ChangingAttributes}
 ```
 public static final IndexStatus ChangingAttributes
@@ -103,6 +121,7 @@ public static final IndexStatus ChangingAttributes
 
 
 Index changes attributes.
+
 
 ### values() {#values--}
 ```

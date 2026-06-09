@@ -13,18 +13,23 @@ public class OptimizeOptions
 ```
 
 Provides options for the optimize operation.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [OptimizeOptions()](#OptimizeOptions--) | Initializes a new instance of the  OptimizeOptions  class. |
-| [OptimizeOptions(Object data)](#OptimizeOptions-java.lang.Object-) | Initializes a new instance of the  OptimizeOptions  class. |
+| [OptimizeOptions()](#OptimizeOptions--) | Initializes a new instance of the  OptimizeOptions  class.
+ |
+| [OptimizeOptions(Object data)](#OptimizeOptions-java.lang.Object-) | Initializes a new instance of the  OptimizeOptions  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isAsync()](#isAsync--) | Gets the flag of asynchronous performing the operation. |
-| [setAsync(boolean value)](#setAsync-boolean-) | Sets the flag of asynchronous performing the operation. |
+| [isAsync()](#isAsync--) | Gets the flag of asynchronous performing the operation.
+ |
+| [setAsync(boolean value)](#setAsync-boolean-) | Sets the flag of asynchronous performing the operation.
+ |
 | [getCore()](#getCore--) |  |
 ### OptimizeOptions() {#OptimizeOptions--}
 ```
@@ -34,6 +39,7 @@ public OptimizeOptions()
 
 Initializes a new instance of the  OptimizeOptions  class.
 
+
 ### OptimizeOptions(Object data) {#OptimizeOptions-java.lang.Object-}
 ```
 public OptimizeOptions(Object data)
@@ -42,10 +48,12 @@ public OptimizeOptions(Object data)
 
 Initializes a new instance of the  OptimizeOptions  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | java.lang.Object | The serialized data. |
+| data | java.lang.Object | The serialized data.
+ |
 
 ### isAsync() {#isAsync--}
 ```
@@ -55,8 +63,10 @@ public boolean isAsync()
 
 Gets the flag of asynchronous performing the operation. The default value is  false .
 
+
 **Returns:**
 boolean - The flag of asynchronous performing the operation.
+
 ### setAsync(boolean value) {#setAsync-boolean-}
 ```
 public void setAsync(boolean value)
@@ -65,10 +75,12 @@ public void setAsync(boolean value)
 
 Sets the flag of asynchronous performing the operation. The default value is  false .
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | The flag of asynchronous performing the operation. |
+| value | boolean | The flag of asynchronous performing the operation.
+ |
 
 ### getCore() {#getCore--}
 ```

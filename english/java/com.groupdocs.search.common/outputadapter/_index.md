@@ -17,9 +17,8 @@ public abstract class OutputAdapter extends ResultBuilderFactory implements IOut
 
 Represents the base class of an output adapter that is used to collect an output in a generalized form. The currently available adapters are  FileOutputAdapter ,  StreamOutputAdapter ,  StructureOutputAdapter , and  StringOutputAdapter .
 
+
 **Learn more**
 
- *  [Output adapters][]
+* [Output adapters](../https://docs.groupdocs.com/display/searchjava/Output+adapters)
 
-
-[Output adapters]: https://docs.groupdocs.com/display/searchjava/Output+adapters

@@ -13,6 +13,7 @@ public abstract class NetworkImageSearchToken
 ```
 
 Represents a token for the continuation of the network chunk image search (search by pages).
+
 ## Constructors
 
 | Constructor | Description |

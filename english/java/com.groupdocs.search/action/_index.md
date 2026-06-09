@@ -13,6 +13,7 @@ public abstract class Action extends MulticastDelegate
 ```
 
 Encapsulates a method that has no parameters and does not return a value.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Encapsulates a method that has no parameters and does not return a value.
 
 | Method | Description |
 | --- | --- |
-| [invoke()](#invoke--) | The method to be invoked. |
+| [invoke()](#invoke--) | The method to be invoked.
+ |
 ### Action() {#Action--}
 ```
 public Action()
@@ -36,4 +38,5 @@ public abstract void invoke()
 
 
 The method to be invoked.
+
 

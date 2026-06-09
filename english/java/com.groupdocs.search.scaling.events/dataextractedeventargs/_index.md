@@ -13,12 +13,15 @@ public class DataExtractedEventArgs extends EventArgs
 ```
 
 Represents arguments for the event of a document data extraction is finished.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getExtractorIndex()](#getExtractorIndex--) | Gets the extractor index. |
-| [getDocumentKey()](#getDocumentKey--) | Gets the document key. |
+| [getExtractorIndex()](#getExtractorIndex--) | Gets the extractor index.
+ |
+| [getDocumentKey()](#getDocumentKey--) | Gets the document key.
+ |
 ### getExtractorIndex() {#getExtractorIndex--}
 ```
 public final int getExtractorIndex()
@@ -27,8 +30,10 @@ public final int getExtractorIndex()
 
 Gets the extractor index.
 
+
 **Returns:**
 int - The extractor index.
+
 ### getDocumentKey() {#getDocumentKey--}
 ```
 public final String getDocumentKey()
@@ -37,5 +42,7 @@ public final String getDocumentKey()
 
 Gets the document key.
 
+
 **Returns:**
 java.lang.String - The document key.
+

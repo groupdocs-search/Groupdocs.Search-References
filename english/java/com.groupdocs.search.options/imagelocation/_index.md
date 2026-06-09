@@ -13,13 +13,17 @@ public enum ImageLocation extends Enum<ImageLocation>
 ```
 
 Specifies an image location.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Separate](#Separate) | An image in separate file. |
-| [Embedded](#Embedded) | An image embedded in another document. |
-| [ContainerItem](#ContainerItem) | An image that is an element in a container file. |
+| [Separate](#Separate) | An image in separate file.
+ |
+| [Embedded](#Embedded) | An image embedded in another document.
+ |
+| [ContainerItem](#ContainerItem) | An image that is an element in a container file.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +38,7 @@ public static final ImageLocation Separate
 
 An image in separate file.
 
+
 ### Embedded {#Embedded}
 ```
 public static final ImageLocation Embedded
@@ -42,6 +47,7 @@ public static final ImageLocation Embedded
 
 An image embedded in another document.
 
+
 ### ContainerItem {#ContainerItem}
 ```
 public static final ImageLocation ContainerItem
@@ -49,6 +55,7 @@ public static final ImageLocation ContainerItem
 
 
 An image that is an element in a container file.
+
 
 ### values() {#values--}
 ```

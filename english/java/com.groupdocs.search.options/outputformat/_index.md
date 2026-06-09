@@ -13,12 +13,15 @@ public enum OutputFormat extends Enum<OutputFormat>
 ```
 
 The output format of a data.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Html](#Html) | The HTML format. |
-| [PlainText](#PlainText) | The plain text format. |
+| [Html](#Html) | The HTML format.
+ |
+| [PlainText](#PlainText) | The plain text format.
+ |
 ## Methods
 
 | Method | Description |
@@ -33,6 +36,7 @@ public static final OutputFormat Html
 
 The HTML format.
 
+
 ### PlainText {#PlainText}
 ```
 public static final OutputFormat PlainText
@@ -40,6 +44,7 @@ public static final OutputFormat PlainText
 
 
 The plain text format.
+
 
 ### values() {#values--}
 ```

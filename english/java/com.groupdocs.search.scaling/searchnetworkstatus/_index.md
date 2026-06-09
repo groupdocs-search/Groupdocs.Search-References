@@ -13,17 +13,25 @@ public enum SearchNetworkStatus extends Enum<SearchNetworkStatus>
 ```
 
 Specifies a search network status.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Ready](#Ready) | The search network is free and ready for changes. |
-| [Configuring](#Configuring) | The search network performs a configuring operation. |
-| [Indexing](#Indexing) | The search network performs an indexing operation. |
-| [Optimizing](#Optimizing) | The search network performs an optimizing operation. |
-| [Deleting](#Deleting) | The search network performs a deleting operation. |
-| [ChangingAttributes](#ChangingAttributes) | The search network changes attributes. |
-| [Synchronizing](#Synchronizing) | The search network performs a synchronizing operation. |
+| [Ready](#Ready) | The search network is free and ready for changes.
+ |
+| [Configuring](#Configuring) | The search network performs a configuring operation.
+ |
+| [Indexing](#Indexing) | The search network performs an indexing operation.
+ |
+| [Optimizing](#Optimizing) | The search network performs an optimizing operation.
+ |
+| [Deleting](#Deleting) | The search network performs a deleting operation.
+ |
+| [ChangingAttributes](#ChangingAttributes) | The search network changes attributes.
+ |
+| [Synchronizing](#Synchronizing) | The search network performs a synchronizing operation.
+ |
 ## Methods
 
 | Method | Description |
@@ -38,6 +46,7 @@ public static final SearchNetworkStatus Ready
 
 The search network is free and ready for changes.
 
+
 ### Configuring {#Configuring}
 ```
 public static final SearchNetworkStatus Configuring
@@ -45,6 +54,7 @@ public static final SearchNetworkStatus Configuring
 
 
 The search network performs a configuring operation.
+
 
 ### Indexing {#Indexing}
 ```
@@ -54,6 +64,7 @@ public static final SearchNetworkStatus Indexing
 
 The search network performs an indexing operation.
 
+
 ### Optimizing {#Optimizing}
 ```
 public static final SearchNetworkStatus Optimizing
@@ -61,6 +72,7 @@ public static final SearchNetworkStatus Optimizing
 
 
 The search network performs an optimizing operation.
+
 
 ### Deleting {#Deleting}
 ```
@@ -70,6 +82,7 @@ public static final SearchNetworkStatus Deleting
 
 The search network performs a deleting operation.
 
+
 ### ChangingAttributes {#ChangingAttributes}
 ```
 public static final SearchNetworkStatus ChangingAttributes
@@ -78,6 +91,7 @@ public static final SearchNetworkStatus ChangingAttributes
 
 The search network changes attributes.
 
+
 ### Synchronizing {#Synchronizing}
 ```
 public static final SearchNetworkStatus Synchronizing
@@ -85,6 +99,7 @@ public static final SearchNetworkStatus Synchronizing
 
 
 The search network performs a synchronizing operation.
+
 
 ### values() {#values--}
 ```

@@ -13,6 +13,7 @@ public abstract class IndexInfo
 ```
 
 Contains basic information on an  Index .
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,12 +23,18 @@ Contains basic information on an  Index .
 
 | Method | Description |
 | --- | --- |
-| [getIndexId()](#getIndexId--) | Gets the index unique identifier. |
-| [getIndexFolder()](#getIndexFolder--) | Gets the full folder name where index is located. |
-| [getIndexStatus()](#getIndexStatus--) | Gets the index status. |
-| [getVersion()](#getVersion--) | Gets the index version. |
-| [getSegmentCount()](#getSegmentCount--) | Gets the number of index segments. |
-| [getTermCount()](#getTermCount--) | Gets the number of words in the index. |
+| [getIndexId()](#getIndexId--) | Gets the index unique identifier.
+ |
+| [getIndexFolder()](#getIndexFolder--) | Gets the full folder name where index is located.
+ |
+| [getIndexStatus()](#getIndexStatus--) | Gets the index status.
+ |
+| [getVersion()](#getVersion--) | Gets the index version.
+ |
+| [getSegmentCount()](#getSegmentCount--) | Gets the number of index segments.
+ |
+| [getTermCount()](#getTermCount--) | Gets the number of words in the index.
+ |
 ### IndexInfo() {#IndexInfo--}
 ```
 public IndexInfo()
@@ -42,8 +49,10 @@ public abstract UUID getIndexId()
 
 Gets the index unique identifier.
 
+
 **Returns:**
 java.util.UUID - The index unique identifier.
+
 ### getIndexFolder() {#getIndexFolder--}
 ```
 public abstract String getIndexFolder()
@@ -52,8 +61,10 @@ public abstract String getIndexFolder()
 
 Gets the full folder name where index is located.
 
+
 **Returns:**
 java.lang.String - The full folder name where index is located.
+
 ### getIndexStatus() {#getIndexStatus--}
 ```
 public abstract IndexStatus getIndexStatus()
@@ -62,8 +73,10 @@ public abstract IndexStatus getIndexStatus()
 
 Gets the index status.
 
+
 **Returns:**
 [IndexStatus](../../com.groupdocs.search.common/indexstatus) - The index status.
+
 ### getVersion() {#getVersion--}
 ```
 public abstract String getVersion()
@@ -72,8 +85,10 @@ public abstract String getVersion()
 
 Gets the index version.
 
+
 **Returns:**
 java.lang.String - The index version.
+
 ### getSegmentCount() {#getSegmentCount--}
 ```
 public abstract int getSegmentCount()
@@ -82,8 +97,10 @@ public abstract int getSegmentCount()
 
 Gets the number of index segments.
 
+
 **Returns:**
 int - The number of index segments.
+
 ### getTermCount() {#getTermCount--}
 ```
 public abstract int getTermCount()
@@ -92,5 +109,7 @@ public abstract int getTermCount()
 
 Gets the number of words in the index.
 
+
 **Returns:**
 int - The number of words in the index.
+

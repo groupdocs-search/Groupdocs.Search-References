@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.scaling/
 The namespace provides classes of scaling functionality.
 
 
+
 ## Classes
 
 | Class | Description |

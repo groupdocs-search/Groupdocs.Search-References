@@ -17,13 +17,16 @@ public class DocumentHighlighter extends Highlighter implements IDocumentHighlig
 
 Represents a search result highlighter that highlights search results in an entire document text.
 
+
 **Learn more**
 
- *  [Highlighting search results][]
+* [Highlighting search results](../https://docs.groupdocs.com/display/searchjava/Highlighting+search+results)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -40,19 +43,22 @@ The example demonstrates a typical usage of the class.
  index.highlight(document, highlighter);
  
 ```
+ 
+````
 
 
-[Highlighting search results]: https://docs.groupdocs.com/display/searchjava/Highlighting+search+results
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DocumentHighlighter(OutputAdapter outputAdapter)](#DocumentHighlighter-com.groupdocs.search.common.OutputAdapter-) | Initializes a new instance of the  DocumentHighlighter  class. |
+| [DocumentHighlighter(OutputAdapter outputAdapter)](#DocumentHighlighter-com.groupdocs.search.common.OutputAdapter-) | Initializes a new instance of the  DocumentHighlighter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getOutputAdapter()](#getOutputAdapter--) | Gets the output adapter passed in the constructor. |
+| [getOutputAdapter()](#getOutputAdapter--) | Gets the output adapter passed in the constructor.
+ |
 ### DocumentHighlighter(OutputAdapter outputAdapter) {#DocumentHighlighter-com.groupdocs.search.common.OutputAdapter-}
 ```
 public DocumentHighlighter(OutputAdapter outputAdapter)
@@ -61,10 +67,12 @@ public DocumentHighlighter(OutputAdapter outputAdapter)
 
 Initializes a new instance of the  DocumentHighlighter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputAdapter | [OutputAdapter](../../com.groupdocs.search.common/outputadapter) | The output adapter transferring a result of the highlighting. |
+| outputAdapter | [OutputAdapter](../../com.groupdocs.search.common/outputadapter) | The output adapter transferring a result of the highlighting.
+ |
 
 ### getOutputAdapter() {#getOutputAdapter--}
 ```
@@ -74,5 +82,7 @@ public final OutputAdapter getOutputAdapter()
 
 Gets the output adapter passed in the constructor.
 
+
 **Returns:**
 [OutputAdapter](../../com.groupdocs.search.common/outputadapter) - The output adapter passed in the constructor.
+

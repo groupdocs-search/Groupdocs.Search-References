@@ -13,6 +13,7 @@ public abstract class NetworkDocumentInfo
 ```
 
 Represents a descriptor for an indexed document in the search network.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +23,10 @@ Represents a descriptor for an indexed document in the search network.
 
 | Method | Description |
 | --- | --- |
-| [getDocumentInfo()](#getDocumentInfo--) | Gets the descriptor for an indexed document. |
-| [getShardIndex()](#getShardIndex--) | Gets the shard index. |
+| [getDocumentInfo()](#getDocumentInfo--) | Gets the descriptor for an indexed document.
+ |
+| [getShardIndex()](#getShardIndex--) | Gets the shard index.
+ |
 ### NetworkDocumentInfo() {#NetworkDocumentInfo--}
 ```
 public NetworkDocumentInfo()
@@ -38,8 +41,10 @@ public abstract DocumentInfo getDocumentInfo()
 
 Gets the descriptor for an indexed document.
 
+
 **Returns:**
 [DocumentInfo](../../com.groupdocs.search.results/documentinfo) - The descriptor for an indexed document.
+
 ### getShardIndex() {#getShardIndex--}
 ```
 public abstract int getShardIndex()
@@ -48,5 +53,7 @@ public abstract int getShardIndex()
 
 Gets the shard index.
 
+
 **Returns:**
 int - The shard index.
+

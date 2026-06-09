@@ -11,14 +11,17 @@ public interface IWordFormsProvider
 
 Defines interface of a word forms provider.
 
+
 **Learn more**
 
- *  [Search for different word forms][]
- *  [Word forms provider][]
+* [Search for different word forms](../https://docs.groupdocs.com/display/searchjava/Search+for+different+word+forms)
+* [Word forms provider](../https://docs.groupdocs.com/display/searchjava/Word+forms+provider)
+
 
 The following example demonstrates how to implement a custom word forms provider.
 
-```
+````
+ ```
 
  public class SimpleWordFormsProvider implements IWordFormsProvider {
      public final String[] getWordForms(String word) {
@@ -45,10 +48,14 @@ The following example demonstrates how to implement a custom word forms provider
  }
  
 ```
+ 
+````
+
 
 The next example demonstrates how to set a custom word forms provider for using.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -68,15 +75,16 @@ The next example demonstrates how to set a custom word forms provider for using.
  // relatives
  
 ```
+ 
+````
 
 
-[Search for different word forms]: https://docs.groupdocs.com/display/searchjava/Search+for+different+word+forms
-[Word forms provider]: https://docs.groupdocs.com/display/searchjava/Word+forms+provider
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWordForms(String word)](#getWordForms-java.lang.String-) | Gets the word forms for the specified word. |
+| [getWordForms(String word)](#getWordForms-java.lang.String-) | Gets the word forms for the specified word.
+ |
 ### getWordForms(String word) {#getWordForms-java.lang.String-}
 ```
 public abstract String[] getWordForms(String word)
@@ -85,10 +93,13 @@ public abstract String[] getWordForms(String word)
 
 Gets the word forms for the specified word. The resulting array does not contain the original word.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| word | java.lang.String | The word to suggest the word forms. |
+| word | java.lang.String | The word to suggest the word forms.
+ |
 
 **Returns:**
 java.lang.String[] - The word forms for the specified word or empty array if the  IWordFormsProvider  does not provide word forms for the specified word.
+

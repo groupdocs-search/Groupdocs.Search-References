@@ -11,13 +11,16 @@ public interface IFieldExtractor
 
 Provides methods for extracting fields from a document.
 
+
 **Learn more**
 
- *  [Custom text extractors][]
+* [Custom text extractors](../https://docs.groupdocs.com/display/searchjava/Custom+text+extractors)
+
 
 The example demonstrates how to implement the interface.
 
-```
+````
+ ```
 
  public class LogExtractor implements IFieldExtractor {
      private final String[] extensions = new String[] { ".log" };
@@ -50,10 +53,14 @@ The example demonstrates how to implement the interface.
  }
  
 ```
+ 
+````
+
 
 The example demonstrates how to use the custorm extractor for indexing.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\"; // Specify path to the index folder
  String documentsFolder = "c:\\MyDocuments\\"; // Specify path to a folder containing documents to search
@@ -62,16 +69,20 @@ The example demonstrates how to use the custorm extractor for indexing.
  index.add(documentsFolder); // Indexing documents from the specified folder
  
 ```
+ 
+````
 
 
-[Custom text extractors]: https://docs.groupdocs.com/display/searchjava/Custom+text+extractors
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getExtensions()](#getExtensions--) | Gets the supported extensions. |
-| [getFields(String filePath)](#getFields-java.lang.String-) | Extracts all fields from the specified document. |
-| [getFields(InputStream stream)](#getFields-java.io.InputStream-) | Extracts all fields from the specified document. |
+| [getExtensions()](#getExtensions--) | Gets the supported extensions.
+ |
+| [getFields(String filePath)](#getFields-java.lang.String-) | Extracts all fields from the specified document.
+ |
+| [getFields(InputStream stream)](#getFields-java.io.InputStream-) | Extracts all fields from the specified document.
+ |
 ### getExtensions() {#getExtensions--}
 ```
 public abstract String[] getExtensions()
@@ -80,8 +91,10 @@ public abstract String[] getExtensions()
 
 Gets the supported extensions.
 
+
 **Returns:**
 java.lang.String[] - The supported extensions.
+
 ### getFields(String filePath) {#getFields-java.lang.String-}
 ```
 public abstract DocumentField[] getFields(String filePath)
@@ -90,13 +103,16 @@ public abstract DocumentField[] getFields(String filePath)
 
 Extracts all fields from the specified document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The document file path. |
+| filePath | java.lang.String | The document file path.
+ |
 
 **Returns:**
 com.groupdocs.search.common.DocumentField[] - The extracted fields.
+
 ### getFields(InputStream stream) {#getFields-java.io.InputStream-}
 ```
 public abstract DocumentField[] getFields(InputStream stream)
@@ -105,10 +121,13 @@ public abstract DocumentField[] getFields(InputStream stream)
 
 Extracts all fields from the specified document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The document stream. |
+| stream | java.io.InputStream | The document stream.
+ |
 
 **Returns:**
 com.groupdocs.search.common.DocumentField[] - The extracted fields.
+

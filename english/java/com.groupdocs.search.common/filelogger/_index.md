@@ -17,13 +17,16 @@ public class FileLogger implements ILogger
 
 Represents a logger that logs events and errors to a local file.
 
+
 **Learn more**
 
- *  [Logging][]
+* [Logging](../https://docs.groupdocs.com/display/searchjava/Logging)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -36,22 +39,28 @@ The example demonstrates a typical usage of the class.
  SearchResult result = index.search(query); // Search in index
  
 ```
+ 
+````
 
 
-[Logging]: https://docs.groupdocs.com/display/searchjava/Logging
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileLogger(String filePath, double maxSize)](#FileLogger-java.lang.String-double-) | Initializes a new instance of the  FileLogger  class. |
+| [FileLogger(String filePath, double maxSize)](#FileLogger-java.lang.String-double-) | Initializes a new instance of the  FileLogger  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [error(String message)](#error-java.lang.String-) | Logs an error that occurred in the index. |
-| [trace(String message)](#trace-java.lang.String-) | Logs an event that occurred in the index. |
-| [getFilePath()](#getFilePath--) | Gets the log file path. |
-| [getMaxSize()](#getMaxSize--) | Gets the maximum size of log file in megabytes. |
+| [error(String message)](#error-java.lang.String-) | Logs an error that occurred in the index.
+ |
+| [trace(String message)](#trace-java.lang.String-) | Logs an event that occurred in the index.
+ |
+| [getFilePath()](#getFilePath--) | Gets the log file path.
+ |
+| [getMaxSize()](#getMaxSize--) | Gets the maximum size of log file in megabytes.
+ |
 ### FileLogger(String filePath, double maxSize) {#FileLogger-java.lang.String-double-}
 ```
 public FileLogger(String filePath, double maxSize)
@@ -60,11 +69,14 @@ public FileLogger(String filePath, double maxSize)
 
 Initializes a new instance of the  FileLogger  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The log file path. |
-| maxSize | double | The maximum size of the log file in megabytes. The value must be in the range from 0.1 to 1000. |
+| filePath | java.lang.String | The log file path.
+ |
+| maxSize | double | The maximum size of the log file in megabytes. The value must be in the range from 0.1 to 1000.
+ |
 
 ### error(String message) {#error-java.lang.String-}
 ```
@@ -74,10 +86,12 @@ public final void error(String message)
 
 Logs an error that occurred in the index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The error message. |
+| message | java.lang.String | The error message.
+ |
 
 ### trace(String message) {#trace-java.lang.String-}
 ```
@@ -87,10 +101,12 @@ public final void trace(String message)
 
 Logs an event that occurred in the index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The event message. |
+| message | java.lang.String | The event message.
+ |
 
 ### getFilePath() {#getFilePath--}
 ```
@@ -100,8 +116,10 @@ public final String getFilePath()
 
 Gets the log file path.
 
+
 **Returns:**
 java.lang.String - The log file path.
+
 ### getMaxSize() {#getMaxSize--}
 ```
 public final double getMaxSize()
@@ -110,5 +128,7 @@ public final double getMaxSize()
 
 Gets the maximum size of log file in megabytes.
 
+
 **Returns:**
 double - The maximum size of log file in megabytes.
+

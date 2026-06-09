@@ -13,15 +13,21 @@ public enum OperationType extends Enum<OperationType>
 ```
 
 Represents an index operation type.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Indexing](#Indexing) | Adding documents to an index. |
-| [Updating](#Updating) | Updating documents in an index. |
-| [Merging](#Merging) | Merging indexes. |
-| [Optimizing](#Optimizing) | Optimizing an index. |
-| [Deleting](#Deleting) | Deleting paths from an index. |
+| [Indexing](#Indexing) | Adding documents to an index.
+ |
+| [Updating](#Updating) | Updating documents in an index.
+ |
+| [Merging](#Merging) | Merging indexes.
+ |
+| [Optimizing](#Optimizing) | Optimizing an index.
+ |
+| [Deleting](#Deleting) | Deleting paths from an index.
+ |
 ## Methods
 
 | Method | Description |
@@ -36,6 +42,7 @@ public static final OperationType Indexing
 
 Adding documents to an index.
 
+
 ### Updating {#Updating}
 ```
 public static final OperationType Updating
@@ -43,6 +50,7 @@ public static final OperationType Updating
 
 
 Updating documents in an index.
+
 
 ### Merging {#Merging}
 ```
@@ -52,6 +60,7 @@ public static final OperationType Merging
 
 Merging indexes.
 
+
 ### Optimizing {#Optimizing}
 ```
 public static final OperationType Optimizing
@@ -60,6 +69,7 @@ public static final OperationType Optimizing
 
 Optimizing an index.
 
+
 ### Deleting {#Deleting}
 ```
 public static final OperationType Deleting
@@ -67,6 +77,7 @@ public static final OperationType Deleting
 
 
 Deleting paths from an index.
+
 
 ### values() {#values--}
 ```

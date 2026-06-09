@@ -16,11 +16,13 @@ public abstract class ResultBuilderFactory implements IResultBuilderFactory
 ```
 
 Represents the base class of a result builder factory.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getOutputFormat()](#getOutputFormat--) | Gets the output format. |
+| [getOutputFormat()](#getOutputFormat--) | Gets the output format.
+ |
 | [getCore()](#getCore--) |  |
 ### getOutputFormat() {#getOutputFormat--}
 ```
@@ -30,8 +32,10 @@ public OutputFormat getOutputFormat()
 
 Gets the output format.
 
+
 **Returns:**
 [OutputFormat](../../com.groupdocs.search.options/outputformat) - The output format.
+
 ### getCore() {#getCore--}
 ```
 public Object getCore()

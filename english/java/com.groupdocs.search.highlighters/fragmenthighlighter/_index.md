@@ -17,11 +17,13 @@ public class FragmentHighlighter extends Highlighter implements IFragmentHighlig
 
 Represents a search result highlighter that highlights search results in text fragments.
 
+
 **Learn more**
 
- *  [Highlighting search results][]
+* [Highlighting search results](../https://docs.groupdocs.com/display/searchjava/Highlighting+search+results)
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -57,19 +59,22 @@ Represents a search result highlighter that highlights search results in text fr
  }
  
 ```
+ 
+````
 
 
-[Highlighting search results]: https://docs.groupdocs.com/display/searchjava/Highlighting+search+results
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FragmentHighlighter(OutputFormat outputFormat)](#FragmentHighlighter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  FragmentHighlighter  class. |
+| [FragmentHighlighter(OutputFormat outputFormat)](#FragmentHighlighter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  FragmentHighlighter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getResult()](#getResult--) | Gets an array of resulting fragment containers. |
+| [getResult()](#getResult--) | Gets an array of resulting fragment containers.
+ |
 ### FragmentHighlighter(OutputFormat outputFormat) {#FragmentHighlighter-com.groupdocs.search.options.OutputFormat-}
 ```
 public FragmentHighlighter(OutputFormat outputFormat)
@@ -78,10 +83,12 @@ public FragmentHighlighter(OutputFormat outputFormat)
 
 Initializes a new instance of the  FragmentHighlighter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format.
+ |
 
 ### getResult() {#getResult--}
 ```
@@ -91,5 +98,7 @@ public final FragmentContainer[] getResult()
 
 Gets an array of resulting fragment containers.
 
+
 **Returns:**
 com.groupdocs.search.common.FragmentContainer[] - An array of resulting fragment containers.
+

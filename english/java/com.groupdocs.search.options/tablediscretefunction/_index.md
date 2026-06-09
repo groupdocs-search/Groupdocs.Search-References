@@ -14,13 +14,16 @@ public class TableDiscreteFunction extends FuzzyAlgorithm
 
 Represents the fuzzy search algorithm that contains correspondences between word lengths and the number of allowed mistakes. This algorithm can be specified by a table of output values or by a step function.
 
+
 **Learn more**
 
- *  [Fuzzy search][]
+* [Fuzzy search](../https://docs.groupdocs.com/display/searchjava/Fuzzy+search)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -36,21 +39,26 @@ The example demonstrates a typical usage of the class.
  SearchResult result = index.search(query, options); // Search in index
  
 ```
+ 
+````
 
 
-[Fuzzy search]: https://docs.groupdocs.com/display/searchjava/Fuzzy+search
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)](#TableDiscreteFunction-int-int---) | Initializes a new instance of the  TableDiscreteFunction  class. |
-| [TableDiscreteFunction(int firstStepLevel, Step[] steps)](#TableDiscreteFunction-int-com.groupdocs.search.options.Step...-) | Initializes a new instance of the  TableDiscreteFunction  class. |
+| [TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)](#TableDiscreteFunction-int-int---) | Initializes a new instance of the  TableDiscreteFunction  class.
+ |
+| [TableDiscreteFunction(int firstStepLevel, Step[] steps)](#TableDiscreteFunction-int-com.groupdocs.search.options.Step...-) | Initializes a new instance of the  TableDiscreteFunction  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSimilarityLevel(int termLength)](#getSimilarityLevel-int-) | Gets a similarity level for specified term length. |
-| [getMaxMistakeCount(int termLength)](#getMaxMistakeCount-int-) | Gets a maximum allowed number of mistakes for specified term length. |
+| [getSimilarityLevel(int termLength)](#getSimilarityLevel-int-) | Gets a similarity level for specified term length.
+ |
+| [getMaxMistakeCount(int termLength)](#getMaxMistakeCount-int-) | Gets a maximum allowed number of mistakes for specified term length.
+ |
 ### TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs) {#TableDiscreteFunction-int-int---}
 ```
 public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
@@ -59,11 +67,14 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 Initializes a new instance of the  TableDiscreteFunction  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| offsetOfInputs | int | The offset of the table indeces relative to the input values. |
-| tableOfOutputs | int[] | The table of output values. |
+| offsetOfInputs | int | The offset of the table indeces relative to the input values.
+ |
+| tableOfOutputs | int[] | The table of output values.
+ |
 
 ### TableDiscreteFunction(int firstStepLevel, Step[] steps) {#TableDiscreteFunction-int-com.groupdocs.search.options.Step...-}
 ```
@@ -73,11 +84,14 @@ public TableDiscreteFunction(int firstStepLevel, Step[] steps)
 
 Initializes a new instance of the  TableDiscreteFunction  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstStepLevel | int | The level of the first step of the step function. |
-| steps | [Step\[\]](../../com.groupdocs.search.options/step) | The next steps of the step function. |
+| firstStepLevel | int | The level of the first step of the step function.
+ |
+| steps | [Step\[\]](../../com.groupdocs.search.options/step) | The next steps of the step function.
+ |
 
 ### getSimilarityLevel(int termLength) {#getSimilarityLevel-int-}
 ```
@@ -87,13 +101,16 @@ public double getSimilarityLevel(int termLength)
 
 Gets a similarity level for specified term length.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| termLength | int | The term length. |
+| termLength | int | The term length.
+ |
 
 **Returns:**
 double - A similarity level.
+
 ### getMaxMistakeCount(int termLength) {#getMaxMistakeCount-int-}
 ```
 public int getMaxMistakeCount(int termLength)
@@ -102,10 +119,13 @@ public int getMaxMistakeCount(int termLength)
 
 Gets a maximum allowed number of mistakes for specified term length.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| termLength | int | The term length. |
+| termLength | int | The term length.
+ |
 
 **Returns:**
 int - A maximum allowed number of mistakes.
+

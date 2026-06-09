@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.scaling.results/
 The namespace provides the search result classes in the search network.
 
 
+
 ## Classes
 
 | Class | Description |

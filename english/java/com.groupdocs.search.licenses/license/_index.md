@@ -7,9 +7,9 @@ weight: 10
 url: /java/com.groupdocs.search.licenses/license/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, com.groupdocs.search.LicenseAssistant
 ```
-public class License
+public class License extends LicenseAssistant
 ```
 ## Constructors
 

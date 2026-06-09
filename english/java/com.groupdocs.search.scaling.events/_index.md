@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.scaling.events/
 The namespace provides classes of event arguments in the search network.
 
 
+
 ## Classes
 
 | Class | Description |

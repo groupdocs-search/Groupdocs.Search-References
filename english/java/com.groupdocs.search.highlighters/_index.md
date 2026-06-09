@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.highlighters/
 The package provides highlighters for highlighting search results in text.
 
 
+
 ## Classes
 
 | Class | Description |

@@ -13,13 +13,17 @@ public enum DocumentStatus extends Enum<DocumentStatus>
 ```
 
 Represents a document processing status.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [SuccessfullyProcessed](#SuccessfullyProcessed) | Document successfully indexed. |
-| [Skipped](#Skipped) | Document skipped. |
-| [ProcessedWithError](#ProcessedWithError) | Error occurred during document indexing. |
+| [SuccessfullyProcessed](#SuccessfullyProcessed) | Document successfully indexed.
+ |
+| [Skipped](#Skipped) | Document skipped.
+ |
+| [ProcessedWithError](#ProcessedWithError) | Error occurred during document indexing.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +38,7 @@ public static final DocumentStatus SuccessfullyProcessed
 
 Document successfully indexed.
 
+
 ### Skipped {#Skipped}
 ```
 public static final DocumentStatus Skipped
@@ -42,6 +47,7 @@ public static final DocumentStatus Skipped
 
 Document skipped.
 
+
 ### ProcessedWithError {#ProcessedWithError}
 ```
 public static final DocumentStatus ProcessedWithError
@@ -49,6 +55,7 @@ public static final DocumentStatus ProcessedWithError
 
 
 Error occurred during document indexing.
+
 
 ### values() {#values--}
 ```

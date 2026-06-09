@@ -17,9 +17,8 @@ public abstract class Highlighter extends ResultBuilderFactory implements IHighl
 
 Represents the base class of a search result highlighter.
 
+
 **Learn more**
 
- *  [Highlighting search results][]
+* [Highlighting search results](../https://docs.groupdocs.com/display/searchjava/Highlighting+search+results)
 
-
-[Highlighting search results]: https://docs.groupdocs.com/display/searchjava/Highlighting+search+results

@@ -16,6 +16,7 @@ SearchQuery is the base class and the factory for all types of search queries in
 IndexRepository is a container class for combining multiple indexes and performing common operations on them.
 
 
+
 ## Classes
 
 | Class | Description |

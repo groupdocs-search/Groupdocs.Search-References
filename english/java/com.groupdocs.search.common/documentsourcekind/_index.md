@@ -13,14 +13,19 @@ public enum DocumentSourceKind extends Enum<DocumentSourceKind>
 ```
 
 Defines the kinds of document sources.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [File](#File) | The file document source. |
-| [Stream](#Stream) | The stream document source. |
-| [Structure](#Structure) | The structure document source. |
-| [ExtractedData](#ExtractedData) | The document source of previously extracted data. |
+| [File](#File) | The file document source.
+ |
+| [Stream](#Stream) | The stream document source.
+ |
+| [Structure](#Structure) | The structure document source.
+ |
+| [ExtractedData](#ExtractedData) | The document source of previously extracted data.
+ |
 ## Methods
 
 | Method | Description |
@@ -35,6 +40,7 @@ public static final DocumentSourceKind File
 
 The file document source.
 
+
 ### Stream {#Stream}
 ```
 public static final DocumentSourceKind Stream
@@ -42,6 +48,7 @@ public static final DocumentSourceKind Stream
 
 
 The stream document source.
+
 
 ### Structure {#Structure}
 ```
@@ -51,6 +58,7 @@ public static final DocumentSourceKind Structure
 
 The structure document source.
 
+
 ### ExtractedData {#ExtractedData}
 ```
 public static final DocumentSourceKind ExtractedData
@@ -58,6 +66,7 @@ public static final DocumentSourceKind ExtractedData
 
 
 The document source of previously extracted data.
+
 
 ### values() {#values--}
 ```

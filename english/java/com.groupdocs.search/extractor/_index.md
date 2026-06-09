@@ -13,24 +13,31 @@ public class Extractor extends EventHubBase
 ```
 
 Represents a tool for preliminary data extraction from documents for separating the stage of subsequent fast indexing.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Extractor()](#Extractor--) | Initializes a new instance of the  Extractor  class. |
+| [Extractor()](#Extractor--) | Initializes a new instance of the  Extractor  class.
+ |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an extractor operation. |
-| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing. |
-| [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening. |
+| [ErrorOccurred](#ErrorOccurred) | Occurs when an error happens during an extractor operation.
+ |
+| [ImagePreparing](#ImagePreparing) | Occurs when an image is going to be prepared for indexing.
+ |
+| [PasswordRequired](#PasswordRequired) | Occurs when a document requires password for opening.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSettings()](#getSettings--) | Gets the extractor settings. |
-| [extract(Document document, ExtractionOptions extractionOptions)](#extract-com.groupdocs.search.Document-com.groupdocs.search.options.ExtractionOptions-) | Extracts data from a document. |
+| [getSettings()](#getSettings--) | Gets the extractor settings.
+ |
+| [extract(Document document, ExtractionOptions extractionOptions)](#extract-com.groupdocs.search.Document-com.groupdocs.search.options.ExtractionOptions-) | Extracts data from a document.
+ |
 | [raiseErrorOccurredPublic(String message, boolean isCritical)](#raiseErrorOccurredPublic-java.lang.String-boolean-) |  |
 | [raiseImagePreparingPublic(String documentKey, String[] innerPath, int imageIndex, ImageFrame[] frames, InputStream stream)](#raiseImagePreparingPublic-java.lang.String-java.lang.String---int-com.groupdocs.search.common.ImageFrame---java.io.InputStream-) |  |
 | [raisePasswordRequiredPublic(String filePath)](#raisePasswordRequiredPublic-java.lang.String-) |  |
@@ -42,6 +49,7 @@ public Extractor()
 
 Initializes a new instance of the  Extractor  class.
 
+
 ### ErrorOccurred {#ErrorOccurred}
 ```
 public final Event<EventHandler<IndexErrorEventArgs>> ErrorOccurred
@@ -49,6 +57,7 @@ public final Event<EventHandler<IndexErrorEventArgs>> ErrorOccurred
 
 
 Occurs when an error happens during an extractor operation.
+
 
 ### ImagePreparing {#ImagePreparing}
 ```
@@ -58,6 +67,7 @@ public final Event<EventHandler<ImagePreparingEventArgs>> ImagePreparing
 
 Occurs when an image is going to be prepared for indexing.
 
+
 ### PasswordRequired {#PasswordRequired}
 ```
 public final Event<EventHandler<PasswordRequiredEventArgs>> PasswordRequired
@@ -65,6 +75,7 @@ public final Event<EventHandler<PasswordRequiredEventArgs>> PasswordRequired
 
 
 Occurs when a document requires password for opening.
+
 
 ### getSettings() {#getSettings--}
 ```
@@ -74,8 +85,10 @@ public final ExtractorSettings getSettings()
 
 Gets the extractor settings.
 
+
 **Returns:**
 [ExtractorSettings](../../com.groupdocs.search.common/extractorsettings) - The extractor settings.
+
 ### extract(Document document, ExtractionOptions extractionOptions) {#extract-com.groupdocs.search.Document-com.groupdocs.search.options.ExtractionOptions-}
 ```
 public final ExtractedData extract(Document document, ExtractionOptions extractionOptions)
@@ -84,14 +97,18 @@ public final ExtractedData extract(Document document, ExtractionOptions extracti
 
 Extracts data from a document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.groupdocs.search/document) | The document from file system, stream or structure. |
-| extractionOptions | [ExtractionOptions](../../com.groupdocs.search.options/extractionoptions) | The extraction options. |
+| document | [Document](../../com.groupdocs.search/document) | The document from file system, stream or structure.
+ |
+| extractionOptions | [ExtractionOptions](../../com.groupdocs.search.options/extractionoptions) | The extraction options.
+ |
 
 **Returns:**
 [ExtractedData](../../com.groupdocs.search/extracteddata) - The extracted data of the document.
+
 ### raiseErrorOccurredPublic(String message, boolean isCritical) {#raiseErrorOccurredPublic-java.lang.String-boolean-}
 ```
 public final void raiseErrorOccurredPublic(String message, boolean isCritical)

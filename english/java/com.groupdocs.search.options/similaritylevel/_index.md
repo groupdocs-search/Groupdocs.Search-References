@@ -14,13 +14,16 @@ public class SimilarityLevel extends FuzzyAlgorithm
 
 Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as inversely proportional to the word length.
 
+
 **Learn more**
 
- *  [Fuzzy search][]
+* [Fuzzy search](../https://docs.groupdocs.com/display/searchjava/Fuzzy+search)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -36,21 +39,26 @@ The example demonstrates a typical usage of the class.
  SearchResult result = index.search(query, options); // Search in index
  
 ```
+ 
+````
 
 
-[Fuzzy search]: https://docs.groupdocs.com/display/searchjava/Fuzzy+search
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SimilarityLevel(double value)](#SimilarityLevel-double-) | Initializes a new instance of the  SimilarityLevel  class. |
-| [SimilarityLevel(Object data)](#SimilarityLevel-java.lang.Object-) | Initializes a new instance of the  SimilarityLevel  class. |
+| [SimilarityLevel(double value)](#SimilarityLevel-double-) | Initializes a new instance of the  SimilarityLevel  class.
+ |
+| [SimilarityLevel(Object data)](#SimilarityLevel-java.lang.Object-) | Initializes a new instance of the  SimilarityLevel  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSimilarityLevel(int termLength)](#getSimilarityLevel-int-) | Gets the similarity level value for the specified term length. |
-| [getMaxMistakeCount(int termLength)](#getMaxMistakeCount-int-) | Gets the maximum allowed number of mistakes for the specified term length. |
+| [getSimilarityLevel(int termLength)](#getSimilarityLevel-int-) | Gets the similarity level value for the specified term length.
+ |
+| [getMaxMistakeCount(int termLength)](#getMaxMistakeCount-int-) | Gets the maximum allowed number of mistakes for the specified term length.
+ |
 ### SimilarityLevel(double value) {#SimilarityLevel-double-}
 ```
 public SimilarityLevel(double value)
@@ -59,10 +67,12 @@ public SimilarityLevel(double value)
 
 Initializes a new instance of the  SimilarityLevel  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | The similarity level value. |
+| value | double | The similarity level value.
+ |
 
 ### SimilarityLevel(Object data) {#SimilarityLevel-java.lang.Object-}
 ```
@@ -72,10 +82,12 @@ public SimilarityLevel(Object data)
 
 Initializes a new instance of the  SimilarityLevel  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | java.lang.Object | The serialized data. |
+| data | java.lang.Object | The serialized data.
+ |
 
 ### getSimilarityLevel(int termLength) {#getSimilarityLevel-int-}
 ```
@@ -85,13 +97,16 @@ public double getSimilarityLevel(int termLength)
 
 Gets the similarity level value for the specified term length.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| termLength | int | The term length. |
+| termLength | int | The term length.
+ |
 
 **Returns:**
 double - The similarity level value.
+
 ### getMaxMistakeCount(int termLength) {#getMaxMistakeCount-int-}
 ```
 public int getMaxMistakeCount(int termLength)
@@ -100,10 +115,13 @@ public int getMaxMistakeCount(int termLength)
 
 Gets the maximum allowed number of mistakes for the specified term length.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| termLength | int | The term length. |
+| termLength | int | The term length.
+ |
 
 **Returns:**
 int - The maximum allowed number of mistakes.
+

@@ -10,6 +10,7 @@ url: /java/com.groupdocs.search.results/
 The package provides search result classes.
 
 
+
 ## Classes
 
 | Class | Description |

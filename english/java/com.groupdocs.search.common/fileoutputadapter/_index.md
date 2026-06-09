@@ -17,13 +17,16 @@ public class FileOutputAdapter extends OutputAdapter implements IFileOutputAdapt
 
 Represents an output adapter that collects output into a file.
 
+
 **Learn more**
 
- *  [Output adapters][]
+* [Output adapters](../https://docs.groupdocs.com/display/searchjava/Output+adapters)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -34,19 +37,22 @@ The example demonstrates a typical usage of the class.
  index.getDocumentText(documents[0], adapter); // Generating a document text into the output file
  
 ```
+ 
+````
 
 
-[Output adapters]: https://docs.groupdocs.com/display/searchjava/Output+adapters
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileOutputAdapter(OutputFormat outputFormat, String filePath)](#FileOutputAdapter-com.groupdocs.search.options.OutputFormat-java.lang.String-) | Initializes a new instance of the  FileOutputAdapter  class. |
+| [FileOutputAdapter(OutputFormat outputFormat, String filePath)](#FileOutputAdapter-com.groupdocs.search.options.OutputFormat-java.lang.String-) | Initializes a new instance of the  FileOutputAdapter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFilePath()](#getFilePath--) | Gets an output file path. |
+| [getFilePath()](#getFilePath--) | Gets an output file path.
+ |
 ### FileOutputAdapter(OutputFormat outputFormat, String filePath) {#FileOutputAdapter-com.groupdocs.search.options.OutputFormat-java.lang.String-}
 ```
 public FileOutputAdapter(OutputFormat outputFormat, String filePath)
@@ -55,11 +61,14 @@ public FileOutputAdapter(OutputFormat outputFormat, String filePath)
 
 Initializes a new instance of the  FileOutputAdapter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
-| filePath | java.lang.String | The output file path. |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format.
+ |
+| filePath | java.lang.String | The output file path.
+ |
 
 ### getFilePath() {#getFilePath--}
 ```
@@ -69,5 +78,7 @@ public final String getFilePath()
 
 Gets an output file path.
 
+
 **Returns:**
 java.lang.String - The output file path.
+

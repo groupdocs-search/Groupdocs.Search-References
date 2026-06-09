@@ -13,6 +13,7 @@ public abstract class ChunkSearchToken
 ```
 
 Represents a token for the continuation of the chunk search (search by pages).
+
 ## Constructors
 
 | Constructor | Description |

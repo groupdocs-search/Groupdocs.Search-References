@@ -13,6 +13,7 @@ public abstract class ExtractorSettings
 ```
 
 Contains settings for the document data extractor.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +23,10 @@ Contains settings for the document data extractor.
 
 | Method | Description |
 | --- | --- |
-| [getIndexType()](#getIndexType--) | Gets the index type the extractor is used for. |
-| [setIndexType(IndexType value)](#setIndexType-com.groupdocs.search.options.IndexType-) | Sets the index type the extractor is used for. |
+| [getIndexType()](#getIndexType--) | Gets the index type the extractor is used for.
+ |
+| [setIndexType(IndexType value)](#setIndexType-com.groupdocs.search.options.IndexType-) | Sets the index type the extractor is used for.
+ |
 ### ExtractorSettings() {#ExtractorSettings--}
 ```
 public ExtractorSettings()
@@ -38,8 +41,10 @@ public abstract IndexType getIndexType()
 
 Gets the index type the extractor is used for. The default value is  GroupDocs.Search.Options.IndexType.NormalIndex .
 
+
 **Returns:**
 [IndexType](../../com.groupdocs.search.options/indextype) - The index type the extractor is used for.
+
 ### setIndexType(IndexType value) {#setIndexType-com.groupdocs.search.options.IndexType-}
 ```
 public abstract void setIndexType(IndexType value)
@@ -48,8 +53,10 @@ public abstract void setIndexType(IndexType value)
 
 Sets the index type the extractor is used for. The default value is  GroupDocs.Search.Options.IndexType.NormalIndex .
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IndexType](../../com.groupdocs.search.options/indextype) | The index type the extractor is used for. |
+| value | [IndexType](../../com.groupdocs.search.options/indextype) | The index type the extractor is used for.
+ |
 

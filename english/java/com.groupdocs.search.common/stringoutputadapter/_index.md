@@ -17,13 +17,16 @@ public class StringOutputAdapter extends OutputAdapter implements IStringOutputA
 
 Represents an output adapter that collects output as a  System.String .
 
+
 **Learn more**
 
- *  [Output adapters][]
+* [Output adapters](../https://docs.groupdocs.com/display/searchjava/Output+adapters)
+
 
 The example demonstrates a typical usage of the class.
 
-```
+````
+ ```
 
  String indexFolder = "c:\\MyIndex\\";
  String documentsFolder = "c:\\MyDocuments\\";
@@ -35,19 +38,22 @@ The example demonstrates a typical usage of the class.
  String result = adapter.getResult(); // Getting a result
  
 ```
+ 
+````
 
 
-[Output adapters]: https://docs.groupdocs.com/display/searchjava/Output+adapters
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [StringOutputAdapter(OutputFormat outputFormat)](#StringOutputAdapter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  StringOutputAdapter  class. |
+| [StringOutputAdapter(OutputFormat outputFormat)](#StringOutputAdapter-com.groupdocs.search.options.OutputFormat-) | Initializes a new instance of the  StringOutputAdapter  class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getResult()](#getResult--) | Gets the resulting string. |
+| [getResult()](#getResult--) | Gets the resulting string.
+ |
 ### StringOutputAdapter(OutputFormat outputFormat) {#StringOutputAdapter-com.groupdocs.search.options.OutputFormat-}
 ```
 public StringOutputAdapter(OutputFormat outputFormat)
@@ -56,10 +62,12 @@ public StringOutputAdapter(OutputFormat outputFormat)
 
 Initializes a new instance of the  StringOutputAdapter  class.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format. |
+| outputFormat | [OutputFormat](../../com.groupdocs.search.options/outputformat) | The output format.
+ |
 
 ### getResult() {#getResult--}
 ```
@@ -69,5 +77,7 @@ public final String getResult()
 
 Gets the resulting string.
 
+
 **Returns:**
 java.lang.String - The resulting string.
+

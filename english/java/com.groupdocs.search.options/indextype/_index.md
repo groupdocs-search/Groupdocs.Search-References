@@ -14,19 +14,21 @@ public enum IndexType extends Enum<IndexType>
 
 Specifies an index type.
 
+
 **Learn more**
 
- *  [Search index settings][]
+* [Search index settings](../https://docs.groupdocs.com/display/searchjava/Search+index+settings)
 
-
-[Search index settings]: https://docs.groupdocs.com/display/searchjava/Search+index+settings
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NormalIndex](#NormalIndex) | Normal index with documents metadata and documents content which supports all search features. |
-| [MetadataIndex](#MetadataIndex) | Index that contains only metadata of documents, without content. |
-| [CompactIndex](#CompactIndex) | Index type that takes much less disk space but does not support phrase search and date range search features. |
+| [NormalIndex](#NormalIndex) | Normal index with documents metadata and documents content which supports all search features.
+ |
+| [MetadataIndex](#MetadataIndex) | Index that contains only metadata of documents, without content.
+ |
+| [CompactIndex](#CompactIndex) | Index type that takes much less disk space but does not support phrase search and date range search features.
+ |
 ## Methods
 
 | Method | Description |
@@ -41,6 +43,7 @@ public static final IndexType NormalIndex
 
 Normal index with documents metadata and documents content which supports all search features.
 
+
 ### MetadataIndex {#MetadataIndex}
 ```
 public static final IndexType MetadataIndex
@@ -49,6 +52,7 @@ public static final IndexType MetadataIndex
 
 Index that contains only metadata of documents, without content.
 
+
 ### CompactIndex {#CompactIndex}
 ```
 public static final IndexType CompactIndex
@@ -56,6 +60,7 @@ public static final IndexType CompactIndex
 
 
 Index type that takes much less disk space but does not support phrase search and date range search features.
+
 
 ### values() {#values--}
 ```

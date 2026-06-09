@@ -14,12 +14,11 @@ public class MailFieldNames
 
 Represents a list of field names for the faceted search.
 
+
 **Learn more**
 
- *  [Faceted search][]
+* [Faceted search](../https://docs.groupdocs.com/display/searchjava/Faceted+search)
 
-
-[Faceted search]: https://docs.groupdocs.com/display/searchjava/Faceted+search
 ## Constructors
 
 | Constructor | Description |
@@ -29,10 +28,14 @@ Represents a list of field names for the faceted search.
 
 | Field | Description |
 | --- | --- |
-| [MailMessageBody](#MailMessageBody) | The mail message body field name. |
-| [MailSenderName](#MailSenderName) | The mail sender name field name. |
-| [MailDisplayTo](#MailDisplayTo) | The mail display to field name. |
-| [MailSubject](#MailSubject) | The mail subject field name. |
+| [MailMessageBody](#MailMessageBody) | The mail message body field name.
+ |
+| [MailSenderName](#MailSenderName) | The mail sender name field name.
+ |
+| [MailDisplayTo](#MailDisplayTo) | The mail display to field name.
+ |
+| [MailSubject](#MailSubject) | The mail subject field name.
+ |
 ### MailFieldNames() {#MailFieldNames--}
 ```
 public MailFieldNames()
@@ -47,6 +50,7 @@ public static final String MailMessageBody
 
 The mail message body field name.
 
+
 ### MailSenderName {#MailSenderName}
 ```
 public static final String MailSenderName
@@ -54,6 +58,7 @@ public static final String MailSenderName
 
 
 The mail sender name field name.
+
 
 ### MailDisplayTo {#MailDisplayTo}
 ```
@@ -63,6 +68,7 @@ public static final String MailDisplayTo
 
 The mail display to field name.
 
+
 ### MailSubject {#MailSubject}
 ```
 public static final String MailSubject
@@ -70,4 +76,5 @@ public static final String MailSubject
 
 
 The mail subject field name.
+
 

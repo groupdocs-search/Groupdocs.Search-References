@@ -13,6 +13,7 @@ public abstract class DocumentImage
 ```
 
 Represents a document image data.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,9 +23,12 @@ Represents a document image data.
 
 | Method | Description |
 | --- | --- |
-| [getImageIndex()](#getImageIndex--) | Gets the ordinal number of the image in the document. |
-| [getFields()](#getFields--) | Gets the extracted fields. |
-| [getFrames()](#getFrames--) | Gets the image frames. |
+| [getImageIndex()](#getImageIndex--) | Gets the ordinal number of the image in the document.
+ |
+| [getFields()](#getFields--) | Gets the extracted fields.
+ |
+| [getFrames()](#getFrames--) | Gets the image frames.
+ |
 ### DocumentImage() {#DocumentImage--}
 ```
 public DocumentImage()
@@ -39,8 +43,10 @@ public abstract int getImageIndex()
 
 Gets the ordinal number of the image in the document.
 
+
 **Returns:**
 int - The ordinal number of the image in the document.
+
 ### getFields() {#getFields--}
 ```
 public abstract DocumentField[] getFields()
@@ -49,8 +55,10 @@ public abstract DocumentField[] getFields()
 
 Gets the extracted fields.
 
+
 **Returns:**
 com.groupdocs.search.common.DocumentField[] - The extracted fields.
+
 ### getFrames() {#getFrames--}
 ```
 public abstract ImageFrame[] getFrames()
@@ -59,5 +67,7 @@ public abstract ImageFrame[] getFrames()
 
 Gets the image frames.
 
+
 **Returns:**
 com.groupdocs.search.common.ImageFrame[] - The image frames.
+

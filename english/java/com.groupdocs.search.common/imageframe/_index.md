@@ -13,6 +13,7 @@ public abstract class ImageFrame
 ```
 
 Represents an image frame.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents an image frame.
 
 | Method | Description |
 | --- | --- |
-| [getIndex()](#getIndex--) | Gets the index of the frame in the image. |
+| [getIndex()](#getIndex--) | Gets the index of the frame in the image.
+ |
 ### ImageFrame() {#ImageFrame--}
 ```
 public ImageFrame()
@@ -37,5 +39,7 @@ public abstract int getIndex()
 
 Gets the index of the frame in the image.
 
+
 **Returns:**
 int - The index of the frame in the image.
+

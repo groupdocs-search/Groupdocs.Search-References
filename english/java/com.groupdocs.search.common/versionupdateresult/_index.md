@@ -13,13 +13,17 @@ public enum VersionUpdateResult extends Enum<VersionUpdateResult>
 ```
 
 Represents the result of an index version update operation.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Updated](#Updated) | Index version updated. |
-| [AlreadyUpToDate](#AlreadyUpToDate) | Index version is already up-to-date. |
-| [Unsupported](#Unsupported) | Index version is not supported or directory does not contain valid index data. |
+| [Updated](#Updated) | Index version updated.
+ |
+| [AlreadyUpToDate](#AlreadyUpToDate) | Index version is already up-to-date.
+ |
+| [Unsupported](#Unsupported) | Index version is not supported or directory does not contain valid index data.
+ |
 ## Methods
 
 | Method | Description |
@@ -34,6 +38,7 @@ public static final VersionUpdateResult Updated
 
 Index version updated.
 
+
 ### AlreadyUpToDate {#AlreadyUpToDate}
 ```
 public static final VersionUpdateResult AlreadyUpToDate
@@ -42,6 +47,7 @@ public static final VersionUpdateResult AlreadyUpToDate
 
 Index version is already up-to-date.
 
+
 ### Unsupported {#Unsupported}
 ```
 public static final VersionUpdateResult Unsupported
@@ -49,6 +55,7 @@ public static final VersionUpdateResult Unsupported
 
 
 Index version is not supported or directory does not contain valid index data.
+
 
 ### values() {#values--}
 ```

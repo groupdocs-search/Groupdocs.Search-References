@@ -14,12 +14,11 @@ public class CommonFieldNames
 
 Represents a list of field names for the faceted search.
 
+
 **Learn more**
 
- *  [Faceted search][]
+* [Faceted search](../https://docs.groupdocs.com/display/searchjava/Faceted+search)
 
-
-[Faceted search]: https://docs.groupdocs.com/display/searchjava/Faceted+search
 ## Constructors
 
 | Constructor | Description |
@@ -29,12 +28,18 @@ Represents a list of field names for the faceted search.
 
 | Field | Description |
 | --- | --- |
-| [Content](#Content) | The content field name. |
-| [FileName](#FileName) | The file name field name. |
-| [FormatFamily](#FormatFamily) | The format family field name. |
-| [CreationDate](#CreationDate) | The creation date field name. |
-| [ModificationDate](#ModificationDate) | The modification date field name. |
-| [EmbeddedImageOcr](#EmbeddedImageOcr) | The embedded image OCR field name. |
+| [Content](#Content) | The content field name.
+ |
+| [FileName](#FileName) | The file name field name.
+ |
+| [FormatFamily](#FormatFamily) | The format family field name.
+ |
+| [CreationDate](#CreationDate) | The creation date field name.
+ |
+| [ModificationDate](#ModificationDate) | The modification date field name.
+ |
+| [EmbeddedImageOcr](#EmbeddedImageOcr) | The embedded image OCR field name.
+ |
 ### CommonFieldNames() {#CommonFieldNames--}
 ```
 public CommonFieldNames()
@@ -49,6 +54,7 @@ public static final String Content
 
 The content field name.
 
+
 ### FileName {#FileName}
 ```
 public static final String FileName
@@ -56,6 +62,7 @@ public static final String FileName
 
 
 The file name field name.
+
 
 ### FormatFamily {#FormatFamily}
 ```
@@ -65,6 +72,7 @@ public static final String FormatFamily
 
 The format family field name.
 
+
 ### CreationDate {#CreationDate}
 ```
 public static final String CreationDate
@@ -72,6 +80,7 @@ public static final String CreationDate
 
 
 The creation date field name.
+
 
 ### ModificationDate {#ModificationDate}
 ```
@@ -81,6 +90,7 @@ public static final String ModificationDate
 
 The modification date field name.
 
+
 ### EmbeddedImageOcr {#EmbeddedImageOcr}
 ```
 public static final String EmbeddedImageOcr
@@ -88,4 +98,5 @@ public static final String EmbeddedImageOcr
 
 
 The embedded image OCR field name.
+
 
