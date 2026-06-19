@@ -1,37 +1,49 @@
 ---
-title: GroupDocs.Search Product Family
-additionalTitle: GroupDocs API References
+title: "GroupDocs.Search"
+linktitle: "GroupDocs.Search"
+description: "GroupDocs.Search API reference for .NET, Java, Node.js, and Python — Index and full-text search with fuzzy, synonym, regex, and faceted queries."
+keywords: "GroupDocs.Search, search API, API reference, .NET, Java, Python, document processing"
+additionalTitle: "GroupDocs API References"
 type: docs
+layout: family
 weight: 10
-description: "Transform your document search process with this API for advance full text search capability into any existing or new cross platform application"
 url: /
+lead: "Index and full-text search with fuzzy, synonym, regex, and faceted queries."
+
+platforms:
+  - name: ".NET"
+    key: net
+    ref: "/net/"
+    install: "dotnet add package GroupDocs.Search"
+  - name: "Java"
+    key: java
+    ref: "/java/"
+    install: "com.groupdocs:groupdocs-search"
+
+formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "Text"]
+
+capabilities:
+  - "Full-text indexing"
+  - "Fuzzy, synonym & regex search"
+  - "Faceted & phrase search"
+  - "Highlight results"
+  - "Incremental indexing"
+  - "Search across formats"
+
+resources:
+  - name: "Documentation"
+    url: "https://docs.groupdocs.com/search/"
+    icon: "api"
+  - name: "Code examples"
+    url: "https://github.com/groupdocs-search"
+    icon: "code"
+  - name: "Releases & changelog"
+    url: "https://releases.groupdocs.com/search/"
+    icon: "demos"
+  - name: "Support forum"
+    url: "https://forum.groupdocs.com/c/search/"
+    icon: "free-support"
+  - name: "Product page"
+    url: "https://products.groupdocs.com/search/"
+    icon: "total"
 ---
-
-## GroupDocs.Search for .NET
-
-{{% alert color="primary" %}} 
-
-![GroupDocs.Search for .NET Product Logo](gdocs_net.png)
-
-On Premise API for .NET applications to perform data indexing and text search in your documents.
-
-{{% /alert %}} 
-
-These are links to some useful resources:
-
-- [GroupDocs.Search for .NET API Reference](/search/net/)
-
-
-## GroupDocs.Search for Java
-
-{{% alert color="primary" %}}
-
-![GroupDocs.Search for Java Product Logo](gdocs_java.png)
-
-Java API that helps developers to implement text search and data indexing for documents provided in Java-based applications.
-
-{{% /alert %}}
-
-These are links to some useful resources:
-
-- [GroupDocs.Search for Java API Reference](/search/java/)
