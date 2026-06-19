@@ -12,10 +12,14 @@ lead: "Index and full-text search with fuzzy, synonym, regex, and faceted querie
 
 platforms:
   - name: ".NET"
+    version: "26.6.1"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.search/26.6.1"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Search"
   - name: "Java"
+    version: "26.6"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/26.6/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-search"
