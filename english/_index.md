@@ -25,6 +25,8 @@ platforms:
     install: "com.groupdocs:groupdocs-search"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "Text"]
+formatsCount: "70+"
+formatsNote: "…and 60+ more document, email, and text formats."
 
 capabilities:
   - "Full-text indexing"
