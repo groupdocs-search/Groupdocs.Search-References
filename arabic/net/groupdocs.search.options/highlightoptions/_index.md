@@ -1,0 +1,58 @@
+---
+title: "HighlightOptions"
+second_title: "GroupDocs.Search for .NET API Reference"
+description: "يوفر خيارات لتسليط الضوء على المصطلحات التي تم العثور عليها."
+type: docs
+weight: 910
+url: /ar/net/groupdocs.search.options/highlightoptions/
+---
+## HighlightOptions class
+
+يوفر خيارات لتسليط الضوء على المصطلحات التي تم العثور عليها.
+
+```csharp
+public class HighlightOptions : TextOptions
+```
+
+## المنشئات
+
+| الاسم | الوصف |
+| --- | --- |
+| [HighlightOptions](highlightoptions)() | ينشئ مثيلة جديدة من الفئة [`HighlightOptions`](../highlightoptions). |
+
+## الخصائص
+
+| الاسم | الوصف |
+| --- | --- |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | يحصل أو يضبط حقول المستند الإضافية التي تم استخدامها للفهرسة. القيمة الافتراضية هي `null`. لاحظ أن هذه القيمة تُستخدم فقط إذا لم يُحفظ نص المستند في الفهرس. |
+| [AutoDetectEncoding](../../groupdocs.search.options/baseoptions/autodetectencoding) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان سيتم اكتشاف الترميز تلقائيًا أم لا. القيمة الافتراضية هي `false`. |
+| [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | يحصل أو يضبط كائن الإلغاء. القيمة الافتراضية هي `null`. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | يحصل أو يضبط مستخرج النص المخصص الذي تم استخدامه للفهرسة. القيمة الافتراضية هي `null`. لاحظ أن هذه القيمة تُستخدم فقط إذا لم يُحفظ نص المستند في الفهرس. |
+| [Encoding](../../groupdocs.search.options/baseoptions/encoding) { get; set; } | يحصل أو يضبط الترميز المستخدم لاستخراج النص من المستندات النصية. القيمة الافتراضية هي `null`، مما يعني أن الترميز الافتراضي UTF-8 يُستخدم. إذا كان AutoDetectEncoding `true` فستُستخدم هذه القيمة كترميز افتراضي. |
+| [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان سيتم إنشاء وسم Head في HTML الناتج. القيمة الافتراضية هي `true`. |
+| [HighlightColor](../../groupdocs.search.options/highlightoptions/highlightcolor) { get; set; } | يحصل أو يضبط لونًا يُستخدم لتسليط الضوء على التكرارات. القيمة الافتراضية هي #FFD800. |
+| [ImageIndexingOptions](../../groupdocs.search.options/baseoptions/imageindexingoptions) { get; } | يحصل على خيارات فهرسة الصور للبحث العكسي عن الصور. |
+| [MetadataIndexingOptions](../../groupdocs.search.options/baseoptions/metadataindexingoptions) { get; } | يحصل على خيارات فهرسة حقول البيانات الوصفية. |
+| [OcrIndexingOptions](../../groupdocs.search.options/baseoptions/ocrindexingoptions) { get; } | يحصل على خيارات معالجة OCR وفهرسة النص المعترف به. |
+| [TermHighlightEndTag](../../groupdocs.search.options/highlightoptions/termhighlightendtag) { get; set; } | يحصل أو يضبط وسم النهاية لتسليط الضوء على الكلمة الموجودة. يُستخدم هذا الوسم فقط عند التسليط في النص العادي. القيمة الافتراضية هي سلسلة فارغة. |
+| [TermHighlightStartTag](../../groupdocs.search.options/highlightoptions/termhighlightstarttag) { get; set; } | يحصل أو يضبط وسم البداية لتسليط الضوء على الكلمة الموجودة. يُستخدم هذا الوسم فقط عند التسليط في النص العادي. القيمة الافتراضية هي سلسلة فارغة. |
+| [TermsAfter](../../groupdocs.search.options/highlightoptions/termsafter) { get; set; } | يحصل أو يضبط الحد الأقصى لعدد الكلمات في مقطع نصي بعد الكلمة المميزة. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي `7`. |
+| [TermsBefore](../../groupdocs.search.options/highlightoptions/termsbefore) { get; set; } | يحصل أو يضبط الحد الأقصى لعدد الكلمات في مقطع نصي قبل الكلمة المميزة. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي `7`. |
+| [TermsTotal](../../groupdocs.search.options/highlightoptions/termstotal) { get; set; } | يحصل أو يضبط الحد الأقصى لعدد الكلمات في مقطع نصي. يجب أن تكون القيمة في النطاق من 0 إلى 10000. القيمة الافتراضية هي `21`. |
+| [UseBackupPrivilege](../../groupdocs.search.options/baseoptions/usebackupprivilege) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب على العملية استخدام SeBackupPrivilege و FILE_FLAG_BACKUP_SEMANTICS للوصول إلى الملفات والأدلة. القيمة الافتراضية هي `false`. |
+| [UseInlineStyles](../../groupdocs.search.options/highlightoptions/useinlinestyles) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كانت الأنماط المضمنة تُستخدم لتسليط الضوء على النتائج. القيمة الافتراضية هي `true`. |
+| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان وضع الخام يُستخدم لاستخراج النص إذا كان ذلك ممكنًا. القيمة الافتراضية هي `false`. يمكن أن يزيد وضع الخام بشكل كبير من سرعة الفهرسة، لكن الوضع العادي يحسن تنسيق النص المستخرج. |
+
+### ملاحظات
+
+**Learn more**
+
+* [Highlighting search results](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
+
+### انظر أيضًا
+
+* class [TextOptions](../textoptions)
+* namespace [GroupDocs.Search.Options](../../groupdocs.search.options)
+* assembly [GroupDocs.Search](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
