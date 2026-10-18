@@ -1,0 +1,59 @@
+---
+title: "GroupDocs.Search.Common"
+second_title: "GroupDocs.Search για .NET Αναφορά API"
+description: "Ο ονοματοχώρος παρέχει κοινές κλάσεις της βιβλιοθήκης."
+type: docs
+weight: 20
+url: /el/net/groupdocs.search.common/
+---
+Ο ονοματοχώρος παρέχει κοινές κλάσεις της βιβλιοθήκης.
+
+## Κλάσεις
+
+| Κλάση | Περιγραφή |
+| --- | --- |
+| [AttributeChangeBatch](./attributechangebatch) | Αντιπροσωπεύει ένα δοχείο για αλλαγές ιδιοτήτων. |
+| [Cancellation](./cancellation) | Αντιπροσωπεύει ένα αντικείμενο για αίτηση ακύρωσης μιας λειτουργίας. |
+| [ChunkSearchToken](./chunksearchtoken) | Αντιπροσωπεύει ένα διακριτικό για τη συνέχιση της αναζήτησης τμημάτων (αναζήτηση ανά σελίδες). |
+| [CustomExtractorCollection](./customextractorcollection) | Περιέχει μια συλλογή προσαρμοσμένων εξαγωγέων. Εάν η συλλογή περιέχει έναν εξαγωγέα για κάποια επέκταση αρχείου που καλύπτεται από ενσωματωμένους εξαγωγείς, τότε αυτός ο εξαγωγέας θα χρησιμοποιηθεί αντί του ενσωματωμένου. |
+| [Document](./document) | Αναπαριστά τη βασική κλάση για έγγραφα που προστίθενται σε έναν δείκτη από το σύστημα αρχείων, ροή ή δομή. Περιέχει στατικές μεθόδους για τη δημιουργία εγγράφων από διαφορετικούς τύπους πηγών. |
+| [DocumentField](./documentfield) | Αναπαριστά δεδομένα πεδίου εγγράφου. |
+| [DocumentImage](./documentimage) | Αναπαριστά δεδομένα εικόνας εγγράφου. |
+| [Encodings](./encodings) | Περιέχει ονόματα πιθανών κωδικοποιήσεων. |
+| [ExtractedData](./extracteddata) | Αναπαριστά δεδομένα που ανακτήθηκαν από ένα έγγραφο και προετοιμάστηκαν για ευρετηρίαση. |
+| [ExtractedItemInfo](./extractediteminfo) | Αναπαριστά πληροφορίες στοιχείου κοντέινερ. |
+| [ExtractorSettings](./extractorsettings) | Περιέχει ρυθμίσεις για τον εξαγωγέα δεδομένων εγγράφου. |
+| [FileLogger](./filelogger) | Αναπαριστά έναν καταγραφέα που καταγράφει συμβάντα και σφάλματα σε τοπικό αρχείο. |
+| [FileOutputAdapter](./fileoutputadapter) | Αναπαριστά έναν προσαρμογέα εξόδου που συλλέγει την έξοδο σε ένα αρχείο. |
+| [FragmentContainer](./fragmentcontainer) | Αναπαριστά ένα κοντέινερ για αποσπάσματα κειμένου με επισημασμένους εντοπισμένους όρους ενός πεδίου εγγράφου. |
+| [ImageFrame](./imageframe) | Αναπαριστά ένα πλαίσιο εικόνας. |
+| [IndexInfo](./indexinfo) | Περιέχει βασικές πληροφορίες για έναν Δείκτη. |
+| [IndexingReport](./indexingreport) | Αναπαριστά λεπτομερείς πληροφορίες για μια λειτουργία ευρετηρίασης. |
+| [Notification](./notification) | Η βασική κλάση για όλες τις ειδοποιήσεις προς τον δείκτη. Αυτή η κλάση περιέχει επίσης μεθόδους για τη δημιουργία αντικειμένων ειδοποίησης. |
+| [OutputAdapter](./outputadapter) | Αναπαριστά τη βασική κλάση ενός προσαρμογέα εξόδου που χρησιμοποιείται για τη συλλογή εξόδου σε γενικευμένη μορφή. Οι τρέχουσες διαθέσιμες προσαρμογές είναι [`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter), [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter), [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter), και [`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter). |
+| [ResultBuilderFactory](./resultbuilderfactory) | Αναπαριστά τη βασική κλάση ενός εργοστασίου δημιουργού αποτελεσμάτων. |
+| [SearchImage](./searchimage) | Αναπαριστά μια εικόνα προς αναζήτηση. |
+| [SearchReport](./searchreport) | Αναπαριστά λεπτομερείς πληροφορίες για μια λειτουργία αναζήτησης. |
+| [StreamOutputAdapter](./streamoutputadapter) | Αναπαριστά έναν προσαρμογέα εξόδου που συλλέγει την έξοδο σε μια Ροή. |
+| [StringOutputAdapter](./stringoutputadapter) | Αναπαριστά έναν προσαρμογέα εξόδου που συλλέγει την έξοδο ως Σειρά. |
+| [StructureOutputAdapter](./structureoutputadapter) | Αναπαριστά έναν προσαρμογέα εξόδου που συλλέγει την έξοδο ως δομή που περιέχει κάθε πεδίο ξεχωριστά. |
+| [WordPattern](./wordpattern) | Αναπαριστά ένα πρότυπο λέξης για χρήση στην αναζήτηση μπαλαντέρ λέξεων. |
+## Διεπαφές
+
+| Διεπαφή | Περιγραφή |
+| --- | --- |
+| [IContainerItemExtractor](./icontaineritemextractor) | Παρέχει μεθόδους για την εξαγωγή αντικειμένων από έγγραφα περιέκτη. |
+| [IDocumentLoader](./idocumentloader) | Ορίζει τη διεπαφή φορτωτή εγγράφων που χρησιμοποιείται για τη φόρτωση νωθών εγγράφων. |
+| [IFieldExtractor](./ifieldextractor) | Παρέχει μεθόδους για την εξαγωγή πεδίων από ένα έγγραφο. |
+| [ILogger](./ilogger) | Ορίζει τη διεπαφή ενός καταγραφέα που χρησιμοποιείται για την καταγραφή συμβάντων και σφαλμάτων σε ένα ευρετήριο. |
+| [IWordSplitter](./iwordsplitter) | Ορίζει μια μέθοδο για το διαχωρισμό του κειμένου σε μεμονωμένες λέξεις. |
+## Απαρίθμηση
+
+| Απαρίθμηση | Περιγραφή |
+| --- | --- |
+| [DocumentSourceKind](./documentsourcekind) | Ορίζει τους τύπους πηγών εγγράφων. |
+| [DocumentStatus](./documentstatus) | Αναπαριστά μια κατάσταση επεξεργασίας εγγράφου. |
+| [IndexStatus](./indexstatus) | Καθορίζει μια κατάσταση ευρετηρίου. |
+| [VersionUpdateResult](./versionupdateresult) | Αναπαριστά το αποτέλεσμα μιας λειτουργίας ενημέρωσης έκδοσης ευρετηρίου. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
