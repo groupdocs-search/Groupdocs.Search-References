@@ -1,0 +1,188 @@
+---
+title: "Index"
+second_title: "GroupDocs.Search .NET के लिए API Reference"
+description: "मेमोरी में Indexgroupdocs.search/index क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।"
+type: docs
+weight: 10
+url: /hi/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+मेमोरी में [`Index`](../../index) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
+
+```csharp
+public Index()
+```
+
+### उदाहरण
+
+उदाहरण दिखाता है कि डिस्क पर फ़ाइलें सहेजे बिना मेमोरी में इंडेक्स कैसे बनाया जाए।
+
+```csharp
+Index index = new Index(); 
+```
+
+### संबंधित देखें
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+विशिष्ट इंडेक्स सेटिंग्स के साथ मेमोरी में [`Index`](../../index) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है।
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+
+### उदाहरण
+
+उदाहरण दिखाता है कि विशिष्ट इंडेक्स सेटिंग्स के साथ डिस्क पर फ़ाइलें सहेजे बिना मेमोरी में इंडेक्स कैसे बनाया जाए।
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### संबंधित देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+[`Index`](../../index) क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। डिस्क पर नया इंडेक्स बनाता है या मौजूदा इंडेक्स खोलता है।
+
+```csharp
+public Index(string indexFolder)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | इंडेक्स फ़ोल्डर पथ। |
+
+### उदाहरण
+
+उदाहरण दिखाता है कि डिस्क पर इंडेक्स कैसे बनाया जाए या मौजूदा इंडेक्स कैसे खोला जाए।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### संबंधित देखें
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+`[`Index`](../../index)` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। विशेष सेटिंग्स के साथ नया इंडेक्स बनाता है या डिस्क पर मौजूदा इंडेक्स खोलता है।
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | इंडेक्स फ़ोल्डर पथ। |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+
+### उदाहरण
+
+यह उदाहरण दिखाता है कि कैसे डिस्क पर विशेष इंडेक्स सेटिंग्स के साथ एक इंडेक्स बनाया जाए।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### संबंधित देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+`[`Index`](../../index)` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। यदि *overwriteIfExists* `false` है तो डिस्क से मौजूदा इंडेक्स लोड करता है; अन्यथा डिस्क पर नया इंडेक्स बनाता है।
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | इंडेक्स फ़ोल्डर पथ। |
+| overwriteIfExists | Boolean | इंडेक्स फ़ोल्डर को ओवरराइट करने का फ़्लैग। |
+
+### उदाहरण
+
+यह उदाहरण दिखाता है कि कैसे ऐसे फ़ोल्डर में नया इंडेक्स बनाया जाए जिसमें पहले से ही एक अन्य इंडेक्स मौजूद है।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### संबंधित देखें
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+`[`Index`](../../index)` क्लास का नया इंस्टेंस इनिशियलाइज़ करता है। यदि *overwriteIfExists* `false` है तो डिस्क से मौजूदा इंडेक्स लोड करता है; अन्यथा विशेष इंडेक्स सेटिंग्स के साथ डिस्क पर नया इंडेक्स बनाता है।
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| indexFolder | String | इंडेक्स फ़ोल्डर पथ। |
+| settings | IndexSettings | इंडेक्स सेटिंग्स ऑब्जेक्ट। |
+| overwriteIfExists | Boolean | इंडेक्स फ़ोल्डर को ओवरराइट करने का फ़्लैग। |
+
+### उदाहरण
+
+यह उदाहरण दिखाता है कि कैसे डिस्क पर विशेष इंडेक्स सेटिंग्स के साथ एक इंडेक्स बनाया जाए।
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### संबंधित देखें
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- संपादित न करें: generated by xmldocmd GroupDocs.search.dll के लिए -->
