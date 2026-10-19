@@ -1,0 +1,188 @@
+---
+title: "Index"
+second_title: "Referensi API GroupDocs.Search untuk .NET"
+description: "Menginisialisasi instance baru dari kelas Indexgroupdocs.search/index di memori."
+type: docs
+weight: 10
+url: /id/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index) di memori.
+
+```csharp
+public Index()
+```
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks di memori tanpa menyimpan file ke disk.
+
+```csharp
+Index index = new Index(); 
+```
+
+### Lihat Juga
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index) di memori dengan pengaturan indeks tertentu.
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| settings | IndexSettings | Objek pengaturan indeks. |
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks di memori tanpa menyimpan file ke disk dengan pengaturan indeks tertentu.
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### Lihat Juga
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index). Membuat indeks baru atau membuka indeks yang sudah ada di disk.
+
+```csharp
+public Index(string indexFolder)
+```
+
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| indexFolder | String | Jalur folder indeks. |
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks di disk atau membuka indeks yang sudah ada.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### Lihat Juga
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index). Membuat indeks baru dengan pengaturan tertentu atau membuka indeks yang sudah ada di disk.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| indexFolder | String | Jalur folder indeks. |
+| settings | IndexSettings | Objek pengaturan indeks. |
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks pada disk dengan pengaturan indeks tertentu.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### Lihat Juga
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index). Memuat indeks yang sudah ada dari disk jika *overwriteIfExists* bernilai `false`; membuat indeks baru di disk jika tidak.
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| indexFolder | String | Jalur folder indeks. |
+| overwriteIfExists | Boolean | Bendera untuk menimpa folder indeks. |
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks baru dalam folder yang sudah berisi indeks lain.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### Lihat Juga
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+Menginisialisasi instance baru dari kelas [`Index`](../../index). Memuat indeks yang sudah ada dari disk jika *overwriteIfExists* bernilai `false`; membuat indeks baru di disk dengan pengaturan indeks tertentu jika tidak.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| Parameter | Type | Deskripsi |
+| --- | --- | --- |
+| indexFolder | String | Jalur folder indeks. |
+| settings | IndexSettings | Objek pengaturan indeks. |
+| overwriteIfExists | Boolean | Bendera untuk menimpa folder indeks. |
+
+### Contoh
+
+Contoh ini menunjukkan cara membuat indeks pada disk dengan pengaturan indeks tertentu.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### Lihat Juga
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
