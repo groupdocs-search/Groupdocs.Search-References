@@ -1,0 +1,188 @@
+---
+title: "Index"
+second_title: "GroupDocs.Search för .NET API-referens"
+description: "Initierar en ny instans av klassen Indexgroupdocs.search/index i minnet."
+type: docs
+weight: 10
+url: /sv/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+Initierar en ny instans av klassen [`Index`](../../index) i minnet.
+
+```csharp
+public Index()
+```
+
+### Exempel
+
+Exemplet visar hur man skapar ett index i minnet utan att spara filer på disk.
+
+```csharp
+Index index = new Index(); 
+```
+
+### Se även
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+Initierar en ny instans av klassen [`Index`](../../index) i minnet med specifika indexinställningar.
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| settings | IndexSettings | Indexinställningsobjektet. |
+
+### Exempel
+
+Exemplet visar hur man skapar ett index i minnet utan att spara filer på disk med specifika indexinställningar.
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### Se även
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+Initierar en ny instans av klassen [`Index`](../../index). Skapar ett nytt eller öppnar ett befintligt index på disk.
+
+```csharp
+public Index(string indexFolder)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| indexFolder | String | Sökvägen till indexmappen. |
+
+### Exempel
+
+Exemplet visar hur man skapar ett index på en disk eller öppnar ett befintligt index.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### Se även
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+Initierar en ny instans av klassen [`Index`](../../index). Skapar ett nytt index med särskilda inställningar eller öppnar ett befintligt index på disk.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| indexFolder | String | Sökvägen till indexmappen. |
+| settings | IndexSettings | Indexinställningsobjektet. |
+
+### Exempel
+
+Exemplet visar hur man skapar ett index på en disk med särskilda indexinställningar.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### Se även
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+Initierar en ny instans av klassen [`Index`](../../index). Laddar ett befintligt index från disk om *overwriteIfExists* är `false`; skapar annars ett nytt index på disk.
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| indexFolder | String | Sökvägen till indexmappen. |
+| overwriteIfExists | Boolean | Flaggan för att skriva över indexmappen. |
+
+### Exempel
+
+Exemplet visar hur man skapar ett nytt index i en mapp som redan innehåller ett annat index.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### Se även
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+Initierar en ny instans av klassen [`Index`](../../index). Laddar ett befintligt index från disk om *overwriteIfExists* är `false`; skapar annars ett nytt index på disk med särskilda indexinställningar.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| indexFolder | String | Sökvägen till indexmappen. |
+| settings | IndexSettings | Indexinställningsobjektet. |
+| overwriteIfExists | Boolean | Flaggan för att skriva över indexmappen. |
+
+### Exempel
+
+Exemplet visar hur man skapar ett index på en disk med särskilda indexinställningar.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### Se även
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
