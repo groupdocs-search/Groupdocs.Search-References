@@ -1,0 +1,96 @@
+---
+title: "SearchQuery"
+second_title: "GroupDocs.Search for .NET API リファレンス"
+description: "検索クエリをオブジェクト形式で表します。"
+type: docs
+weight: 1580
+url: /ja/net/groupdocs.search/searchquery/
+---
+## SearchQuery class
+
+検索クエリをオブジェクト形式で表します。
+
+```csharp
+public abstract class SearchQuery
+```
+
+## プロパティ
+
+| 名前 | 説明 |
+| --- | --- |
+| virtual [ChildCount](../../groupdocs.search/searchquery/childcount) { get; } | 子クエリの数を取得します。 |
+| virtual [FieldName](../../groupdocs.search/searchquery/fieldname) { get; } | フィールド名を取得します。 |
+| virtual [FirstChild](../../groupdocs.search/searchquery/firstchild) { get; } | 最初の子クエリを取得します。 |
+| [SearchOptions](../../groupdocs.search/searchquery/searchoptions) { get; set; } | この検索クエリの検索オプションを取得または設定します。 |
+| virtual [SecondChild](../../groupdocs.search/searchquery/secondchild) { get; } | 2番目の子クエリを取得します。 |
+
+## メソッド
+
+| 名前 | 説明 |
+| --- | --- |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery_1)(params SearchQuery[]) | 元のクエリそれぞれに対して見つかるドキュメントのみを検索する結合クエリを作成します。 |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery)(SearchQuery, SearchQuery) | 元のクエリそれぞれに対して見つかるドキュメントのみを検索する結合クエリを作成します。 |
+| static [CreateDateRangeQuery](../../groupdocs.search/searchquery/createdaterangequery)(DateTime, DateTime) | 日付範囲クエリを作成します。 |
+| static [CreateFieldQuery](../../groupdocs.search/searchquery/createfieldquery)(string, SearchQuery) | 指定されたクエリにフィールドを追加します。 |
+| static [CreateNotQuery](../../groupdocs.search/searchquery/createnotquery)(SearchQuery) | 元のクエリで見つかるドキュメントに対して、インデックス内の残りのドキュメントを検索する反転クエリを作成します。 |
+| static [CreateNumericRangeQuery](../../groupdocs.search/searchquery/createnumericrangequery)(long, long) | 数値範囲クエリを作成します。 |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery_1)(params SearchQuery[]) | 元のクエリのいずれかで見つかるすべてのドキュメントを検索する結合クエリを作成します。 |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery)(SearchQuery, SearchQuery) | 元のクエリのいずれかで見つかるすべてのドキュメントを検索する結合クエリを作成します。 |
+| static [CreatePhraseSearchQuery](../../groupdocs.search/searchquery/createphrasesearchquery)(params SearchQuery[]) | フレーズ検索クエリを作成します。 |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery)(string) | 正規表現クエリを作成します。 |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery_1)(string, RegexOptions) | 正規表現クエリを作成します。 |
+| static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery)(int) | フレーズ検索用のワイルドカードを作成します。 |
+| static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery_1)(int, int) | フレーズ検索用のワイルドカードを作成します。 |
+| static [CreateWordPatternQuery](../../groupdocs.search/searchquery/createwordpatternquery)(WordPattern) | 単語パターンクエリを作成します。 |
+| static [CreateWordQuery](../../groupdocs.search/searchquery/createwordquery)(string) | シンプルな単語クエリを作成します。 |
+| abstract [GetChild](../../groupdocs.search/searchquery/getchild)(int) | インデックスで子クエリを取得します。 |
+| abstract [ToString](../../groupdocs.search/searchquery/tostring)() | 現在の [`SearchQuery`](../searchquery) インスタンスを表す文字列を返します。 |
+
+### 備考
+
+**Learn more**
+
+* [Searching](https://docs.groupdocs.com/display/searchnet/Searching)
+* [Queries in text and object form](https://docs.groupdocs.com/display/searchnet/Queries+in+text+and+object+form)
+* [Nesting search queries in object form](https://docs.groupdocs.com/display/searchnet/Nesting+search+queries+in+object+form)
+
+### 例
+
+この例はクラスの典型的な使用方法を示しています。
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+Index index = new Index(indexFolder); // Creating index in the specified folder
+index.Add(documentsFolder); // Indexing documents from the specified folder
+
+// 日付範囲検索のサブクエリを作成しています。
+SearchQuery subquery1 = SearchQuery.CreateDateRangeQuery(new DateTime(2011, 6, 17), new DateTime(2013, 1, 1));
+
+// 0から2までの欠落単語数を持つワイルドカードのサブクエリを作成しています。
+SearchQuery subquery2 = SearchQuery.CreateWildcardQuery(0, 2);
+
+// シンプルな単語のサブクエリを作成しています。
+SearchQuery subquery3 = SearchQuery.CreateWordQuery("birth");
+subquery3.SearchOptions = new SearchOptions(); // Setting search options only for subquery 3
+subquery3.SearchOptions.FuzzySearch.Enabled = true;
+subquery3.SearchOptions.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1);
+
+// サブクエリを1つのクエリに結合しています。
+SearchQuery query = SearchQuery.CreatePhraseSearchQuery(subquery1, subquery2, subquery3);
+
+// 見つかった出現回数の容量を増加させた検索オプションオブジェクトを作成しています。
+SearchOptions options = new SearchOptions(); // Overall search options
+options.MaxOccurrenceCountPerTerm = 1000000;
+options.MaxTotalOccurrenceCount = 10000000;
+
+SearchResult result = index.Search(query, options); // Searching
+```
+
+### 関連項目
+
+* namespace [GroupDocs.Search](../../groupdocs.search)
+* assembly [GroupDocs.Search](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
