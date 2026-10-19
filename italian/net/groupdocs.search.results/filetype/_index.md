@@ -1,0 +1,133 @@
+---
+title: "FileType"
+second_title: "GroupDocs.Search per .NET Riferimento API"
+description: "Rappresenta il tipo di file."
+type: docs
+weight: 1240
+url: /it/net/groupdocs.search.results/filetype/
+---
+## FileType class
+
+Rappresenta il tipo di file.
+
+```csharp
+public class FileType
+```
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [Description](../../groupdocs.search.results/filetype/description) { get; } | Ottiene la descrizione del tipo di file. |
+| [Extension](../../groupdocs.search.results/filetype/extension) { get; } | Ottiene l'estensione del file. |
+| [FormatFamily](../../groupdocs.search.results/filetype/formatfamily) { get; } | Ottiene la famiglia del formato. |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| override [ToString](../../groupdocs.search.results/filetype/tostring)() | Restituisce una stringa che rappresenta il [`FileType`](../filetype) corrente. |
+| static [GetSupportedFileTypes](../../groupdocs.search.results/filetype/getsupportedfiletypes)() | Recupera i tipi di file supportati. |
+
+## Campi
+
+| Nome | Descrizione |
+| --- | --- |
+| static readonly [ASF](../../groupdocs.search.results/filetype/asf) | Il Advanced Systems Format (ASF) è un contenitore multimediale digitale progettato principalmente per l'archiviazione e la trasmissione di flussi multimediali. Microsoft Windows Media Video (WMV) è il formato video compresso e Microsoft Windows Media Audio (WMA) è il formato audio compresso, insieme a metadati aggiuntivi nel contenitore ASF sviluppato da Microsoft. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/video/wmv/). |
+| static readonly [AVI](../../groupdocs.search.results/filetype/avi) | Il formato file AVI è un contenitore multimediale Audio Video introdotto da Microsoft. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/video/avi/). |
+| static readonly [BMP](../../groupdocs.search.results/filetype/bmp) | I file con estensione .BMP rappresentano file di immagini bitmap utilizzati per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dall'adattatore grafico e sono anche chiamate formato file device independent bitmap (DIB). Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/bmp/). |
+| static readonly [CHM](../../groupdocs.search.results/filetype/chm) | Il formato file CHM rappresenta il file di aiuto HTML di Microsoft, costituito da una raccolta di pagine HTML. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/chm/). |
+| static readonly [CSV](../../groupdocs.search.results/filetype/csv) | I file con estensione CSV (Comma Separated Values) rappresentano file di testo semplice che contengono record di dati con valori separati da virgola. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/csv/). |
+| static readonly [DC3](../../groupdocs.search.results/filetype/dc3) | Rappresenta il tipo di file DC3. |
+| static readonly [DCM](../../groupdocs.search.results/filetype/dcm) | I file con estensione .DCM rappresentano immagini digitali che memorizzano informazioni mediche dei pazienti, come risonanze magnetiche (MRI), tomografie computerizzate (CT) e immagini ecografiche. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/dcm/). |
+| static readonly [DIC](../../groupdocs.search.results/filetype/dic) | Rappresenta il tipo di file DIC. |
+| static readonly [DICOM](../../groupdocs.search.results/filetype/dicom) | Rappresenta il tipo di file DICOM. |
+| static readonly [DJV](../../groupdocs.search.results/filetype/djv) | DjVu è un formato di file grafico destinato a documenti e libri scansionati, soprattutto quelli che contengono una combinazione di testo, disegni, immagini e fotografie. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/djvu/). |
+| static readonly [DJVU](../../groupdocs.search.results/filetype/djvu) | DjVu è un formato di file grafico destinato a documenti e libri scansionati, soprattutto quelli che contengono una combinazione di testo, disegni, immagini e fotografie. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/djvu/). |
+| static readonly [DOC](../../groupdocs.search.results/filetype/doc) | I file con estensione .doc rappresentano documenti generati da Microsoft Word o altri programmi di videoscrittura in formato file binario. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/doc/). |
+| static readonly [DOCM](../../groupdocs.search.results/filetype/docm) | I file DOCM sono documenti generati da Microsoft Word 2007 o versioni successive con la possibilità di eseguire macro. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/docm/). |
+| static readonly [DOCX](../../groupdocs.search.results/filetype/docx) | DOCX è un formato noto per i documenti Microsoft Word. Introdotto nel 2007 con il rilascio di Microsoft Office 2007, la struttura di questo nuovo formato di documento è stata modificata da puro binario a una combinazione di file XML e binari. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/docx/). |
+| static readonly [DOT](../../groupdocs.search.results/filetype/dot) | I file con estensione .DOT sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOC o DOCX. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/dot/). |
+| static readonly [DOTM](../../groupdocs.search.results/filetype/dotm) | Un file con estensione DOTM rappresenta un file modello creato con Microsoft Word 2007 o versioni successive. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/dotm/). |
+| static readonly [DOTX](../../groupdocs.search.results/filetype/dotx) | I file con estensione DOTX sono file modello creati da Microsoft Word per avere impostazioni preformattate per la generazione di ulteriori file DOCX. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/dotx/). |
+| static readonly [EMF](../../groupdocs.search.results/filetype/emf) | Il formato Enhanced Metafile (EMF) memorizza immagini grafiche in modo indipendente dal dispositivo. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/emf/). |
+| static readonly [EML](../../groupdocs.search.results/filetype/eml) | Il formato file EML rappresenta i messaggi di posta elettronica salvati con Outlook e altre applicazioni pertinenti. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/email/eml/). |
+| static readonly [EMLX](../../groupdocs.search.results/filetype/emlx) | Il formato file EMLX è implementato e sviluppato da Apple. L'applicazione Apple Mail utilizza il formato file EMLX per esportare le email. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/email/emlx/). |
+| static readonly [EPUB](../../groupdocs.search.results/filetype/epub) | I file con estensione .EPUB sono un formato di file e‑book che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/ebook/epub/). |
+| static readonly [FB2](../../groupdocs.search.results/filetype/fb2) | I file con estensione FB2 sono file eBook FictionBook 2.0 che contengono la struttura dell'eBook. Si basano sul formato XML e includono tag speciali per descrivere ogni elemento del libro. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/ebook/fb2/). |
+| static readonly [FLV](../../groupdocs.search.results/filetype/flv) | Rappresenta il tipo di file FLV. |
+| static readonly [GIF](../../groupdocs.search.results/filetype/gif) | Un GIF (Graphics Interchange Format) è un tipo di immagine altamente compressa. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/gif/). |
+| static readonly [HTM](../../groupdocs.search.results/filetype/htm) | I file con estensione HTM rappresentano l'Hypertext Markup Language per la creazione di pagine web da visualizzare nei browser. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/htm/). |
+| static readonly [HTML](../../groupdocs.search.results/filetype/html) | HTML (Hyper Text Markup Language) è l'estensione per le pagine web create per la visualizzazione nei browser. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/html/). |
+| static readonly [JP2](../../groupdocs.search.results/filetype/jp2) | JPEG 2000 (JP2) è un sistema di codifica delle immagini e uno standard di compressione d'immagine all'avanguardia. Progettato, usando la tecnologia wavelet, JPEG 2000 può codificare contenuti lossless in qualsiasi qualità simultaneamente. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/jp2/). |
+| static readonly [JPE](../../groupdocs.search.results/filetype/jpe) | Un JPEG è un tipo di formato immagine salvato mediante compressione con perdita. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [JPEG](../../groupdocs.search.results/filetype/jpeg) | Un JPEG è un tipo di formato immagine salvato mediante compressione con perdita. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [JPG](../../groupdocs.search.results/filetype/jpg) | Un JPEG è un tipo di formato immagine salvato mediante compressione con perdita. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [MD](../../groupdocs.search.results/filetype/md) | I file di testo creati con dialetti del linguaggio Markdown vengono salvati con l'estensione .MD o .MARKDOWN. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/md/). |
+| static readonly [MHT](../../groupdocs.search.results/filetype/mht) | I file con estensione MHT rappresentano un formato di archivio di pagine web che può essere creato da diverse applicazioni. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/mhtml/). |
+| static readonly [MHTML](../../groupdocs.search.results/filetype/mhtml) | I file con estensione MHTML rappresentano un formato di archivio di pagine web che può essere creato da diverse applicazioni. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/mhtml/). |
+| static readonly [MOV](../../groupdocs.search.results/filetype/mov) | Il formato MOV o QuickTime è un contenitore multimediale sviluppato da Apple: contiene una o più tracce, ciascuna traccia contiene un tipo particolare di dati, ad esempio video, audio, testo, ecc. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/video/mov/). |
+| static readonly [MP3](../../groupdocs.search.results/filetype/mp3) | I file con estensione MP3 sono formati di file audio codificati digitalmente, basati formalmente su MPEG-1 Audio Layer III o MPEG-2 Audio Layer III. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/audio/mp3/). |
+| static readonly [MPP](../../groupdocs.search.results/filetype/mpp) | MPP è un formato di file proprietario sviluppato da Microsoft come formato per Microsoft Project (MSP), un software di gestione dei progetti. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/project-management/mpp/). |
+| static readonly [MSG](../../groupdocs.search.results/filetype/msg) | MSG è un formato di file utilizzato da Microsoft Outlook ed Exchange per archiviare messaggi email, contatti, appuntamenti o altre attività. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/email/msg/). |
+| static readonly [ODP](../../groupdocs.search.results/filetype/odp) | I file con estensione ODP rappresentano il formato di presentazione utilizzato da OpenOffice.org nello standard aperto OASIS. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/odp/). |
+| static readonly [ODS](../../groupdocs.search.results/filetype/ods) | I file con estensione ODS indicano il formato OpenDocument Spreadsheet, modificabile dall'utente. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/ods/). |
+| static readonly [ODT](../../groupdocs.search.results/filetype/odt) | I file ODT sono un tipo di documento creato con applicazioni di elaborazione testi basate sul formato OpenDocument Text. Sono creati con programmi come OpenOffice Writer gratuito e possono contenere contenuti come testo, immagini, oggetti e stili. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/odt/). |
+| static readonly [ONE](../../groupdocs.search.results/filetype/one) | I file con estensione .ONE sono creati dall'applicazione Microsoft OneNote. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/note-taking/one/). |
+| static readonly [OST](../../groupdocs.search.results/filetype/ost) | I file OST o Offline Storage rappresentano i dati della casella di posta dell'utente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/email/ost/). |
+| static readonly [OTS](../../groupdocs.search.results/filetype/ots) | Rappresenta il formato di file modello di foglio di calcolo OpenDocument. Scopri di più sui formati di file dei fogli di calcolo [qui](https://wiki.fileformat.com/spreadsheet/). |
+| static readonly [OTT](../../groupdocs.search.results/filetype/ott) | I file con estensione OTT rappresentano documenti modello generati da applicazioni conformi al formato standard OpenDocument di OASIS. Questi sono creati con applicazioni di elaborazione testi come il gratuito OpenOffice Writer e possono contenere impostazioni utilizzabili per generare nuovi documenti da questi file modello. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/ott/). |
+| static readonly [PDF](../../groupdocs.search.results/filetype/pdf) | Il Portable Document Format (PDF) è un tipo di documento creato da Adobe negli anni '90. Lo scopo di questo formato di file era introdurre uno standard per la rappresentazione di documenti e altri materiali di riferimento in un formato indipendente dal software applicativo, dall'hardware e dal sistema operativo. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/view/pdf/). |
+| static readonly [PNG](../../groupdocs.search.results/filetype/png) | PNG, Portable Network Graphics, si riferisce a un tipo di formato di file immagine raster che utilizza compressione senza perdita. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/png/). |
+| static readonly [POT](../../groupdocs.search.results/filetype/pot) | I file con estensione .POT rappresentano i file modello di Microsoft PowerPoint in formato binario creati dalle versioni PowerPoint 97-2003. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/pot/). |
+| static readonly [POTM](../../groupdocs.search.results/filetype/potm) | I file con estensione POTM sono file modello di Microsoft PowerPoint con supporto per macro. I file POTM sono creati con PowerPoint 2007 o versioni successive e contengono impostazioni predefinite che possono essere utilizzate per creare ulteriori file di presentazione. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/potm/). |
+| static readonly [POTX](../../groupdocs.search.results/filetype/potx) | I file con estensione .POTX rappresentano presentazioni modello di Microsoft PowerPoint create con Microsoft PowerPoint 2007 e versioni successive. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/potx/). |
+| static readonly [PPS](../../groupdocs.search.results/filetype/pps) | I file PPS, PowerPoint Slide Show, sono creati utilizzando Microsoft PowerPoint per scopi di presentazione. La lettura e la creazione dei file PPS è supportata da Microsoft PowerPoint 97-2003. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/pps/). |
+| static readonly [PPSM](../../groupdocs.search.results/filetype/ppsm) | I file con estensione PPSM rappresentano il formato di file Slide Show con macro, creato con Microsoft PowerPoint 2007 o versioni successive. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/ppsm/). |
+| static readonly [PPSX](../../groupdocs.search.results/filetype/ppsx) | I file PPSX, Power Point Slide Show, sono creati utilizzando Microsoft PowerPoint 2007 e versioni successive per scopi di presentazione. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/ppsx/). |
+| static readonly [PPT](../../groupdocs.search.results/filetype/ppt) | Un file con estensione PPT rappresenta un file PowerPoint che consiste in una raccolta di diapositive da visualizzare come presentazione. Specifica il formato di file binario utilizzato da Microsoft PowerPoint 97-2003. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/ppt/). |
+| static readonly [PPTM](../../groupdocs.search.results/filetype/pptm) | I file con estensione PPTM sono file di presentazione con macro, creati con Microsoft PowerPoint 2007 o versioni successive. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/pptm/). |
+| static readonly [PPTX](../../groupdocs.search.results/filetype/pptx) | I file con estensione PPTX sono file di presentazione creati con la popolare applicazione Microsoft PowerPoint. A differenza della versione precedente del formato di file di presentazione PPT, che era binario, il formato PPTX si basa sul formato di file di presentazione open XML di Microsoft PowerPoint. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/presentation/pptx/). |
+| static readonly [PSD](../../groupdocs.search.results/filetype/psd) | PSD, Photoshop Document, rappresenta il formato di file nativo di Adobe Photoshop utilizzato per la progettazione e lo sviluppo grafico. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/psd/). |
+| static readonly [PST](../../groupdocs.search.results/filetype/pst) | I file con estensione .PST rappresentano i file di archiviazione personale di Outlook (chiamati anche Personal Storage Table) che memorizzano una varietà di informazioni dell'utente. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/email/pst/). |
+| static readonly [QT](../../groupdocs.search.results/filetype/qt) | Il formato MOV o QuickTime è un contenitore multimediale sviluppato da Apple: contiene una o più tracce, ciascuna traccia contiene un tipo particolare di dati, ad esempio video, audio, testo, ecc. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/video/mov/). |
+| static readonly [RTF](../../groupdocs.search.results/filetype/rtf) | Introdotto e documentato da Microsoft, il Rich Text Format (RTF) rappresenta un metodo di codifica del testo formattato e della grafica per l'uso all'interno delle applicazioni. Il formato facilita lo scambio di documenti cross‑platform con altri prodotti Microsoft, servendo così allo scopo di interoperabilità. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/rtf/). |
+| static readonly [TIF](../../groupdocs.search.results/filetype/tif) | TIFF o TIF, Tagged Image File Format, rappresenta immagini raster destinate all'uso su una varietà di dispositivi che rispettano questo standard di formato file. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/tiff/). |
+| static readonly [TIFF](../../groupdocs.search.results/filetype/tiff) | TIFF o TIF, Tagged Image File Format, rappresenta immagini raster destinate all'uso su una varietà di dispositivi che rispettano questo standard di formato file. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/tiff/). |
+| static readonly [TORRENT](../../groupdocs.search.results/filetype/torrent) | Rappresenta il tipo di file TORRENT. |
+| static readonly [TSV](../../groupdocs.search.results/filetype/tsv) | Un formato di file Tab-Separated Values (TSV) rappresenta dati separati da tabulazioni in formato di testo semplice. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/spreadsheet/tsv/). |
+| static readonly [TXT](../../groupdocs.search.results/filetype/txt) | Un file con estensione .TXT rappresenta un documento di testo che contiene testo semplice sotto forma di righe. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/word-processing/txt/). |
+| static readonly [Unknown](../../groupdocs.search.results/filetype/unknown) | Rappresenta un tipo di file sconosciuto. |
+| static readonly [VSD](../../groupdocs.search.results/filetype/vsd) | I file VSD sono disegni creati con l'applicazione Microsoft Visio per rappresentare una varietà di oggetti grafici e le loro interconnessioni. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/vsd/). |
+| static readonly [VSS](../../groupdocs.search.results/filetype/vss) | I file VSS sono file stencil creati con Microsoft Visio 2007 e versioni precedenti. I file stencil forniscono oggetti di disegno che possono essere inclusi in un disegno Visio .VSD. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/vss/). |
+| static readonly [WAV](../../groupdocs.search.results/filetype/wav) | WAV, noto per WAVE (Waveform Audio File Format), è un sottoinsieme della specifica Resource Interchange File Format (RIFF) di Microsoft per la memorizzazione di file audio digitali. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/audio/wav/). |
+| static readonly [WEBP](../../groupdocs.search.results/filetype/webp) | WebP, introdotto da Google, è un moderno formato di file immagine raster per il web basato su compressione senza perdita e con perdita. Fornisce la stessa qualità dell'immagine riducendo notevolmente le dimensioni del file. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/webp/). |
+| static readonly [WMF](../../groupdocs.search.results/filetype/wmf) | I file con estensione WMF rappresentano il Microsoft Windows Metafile (WMF) per la memorizzazione di dati di immagini vettoriali e bitmap. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/wmf/). |
+| static readonly [XHTML](../../groupdocs.search.results/filetype/xhtml) | L'XHTML è un formato di file basato su testo con markup in XML, che utilizza una riformulazione di HTML 4.0. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/xhtml/). |
+| static readonly [XLA](../../groupdocs.search.results/filetype/xla) | Rappresenta il tipo di file XLA. |
+| static readonly [XLAM](../../groupdocs.search.results/filetype/xlam) | Rappresenta il tipo di file XLAM. |
+| static readonly [XLS](../../groupdocs.search.results/filetype/xls) | I file con estensione XLS rappresentano il formato Excel Binary File Format. Tali file possono essere creati da Microsoft Excel così come da altri programmi di fogli di calcolo simili, come OpenOffice Calc o Apple Numbers. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xls/). |
+| static readonly [XLSB](../../groupdocs.search.results/filetype/xlsb) | Il formato di file XLSB specifica l'Excel Binary File Format, che è una raccolta di record e strutture che definiscono il contenuto di una cartella di lavoro Excel. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlsb/). |
+| static readonly [XLSM](../../groupdocs.search.results/filetype/xlsm) | I file con estensione XLSM sono un tipo di file di foglio di calcolo che supportano le macro. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlsm/). |
+| static readonly [XLSX](../../groupdocs.search.results/filetype/xlsx) | XLSX è un formato ben noto per i documenti Microsoft Excel, introdotto da Microsoft con il rilascio di Microsoft Office 2007. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlsx/). |
+| static readonly [XLT](../../groupdocs.search.results/filetype/xlt) | I file con estensione .XLT sono file modello creati con Microsoft Excel, un'applicazione di foglio di calcolo che fa parte della suite Microsoft Office. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlt/). |
+| static readonly [XLTM](../../groupdocs.search.results/filetype/xltm) | L'estensione di file XLTM rappresenta i file generati da Microsoft Excel come file modello abilitati alle macro. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xltm/). |
+| static readonly [XLTX](../../groupdocs.search.results/filetype/xltx) | I file con estensione XLTX rappresentano i file modello di Microsoft Excel basati sulle specifiche del formato di file Office OpenXML. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xltx/). |
+| static readonly [XML](../../groupdocs.search.results/filetype/xml) | XML sta per Extensible Markup Language, un linguaggio simile a HTML ma diverso nell'uso dei tag per definire gli oggetti. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/web/xml/). |
+| static readonly [ZIP](../../groupdocs.search.results/filetype/zip) | L'estensione di file ZIP rappresenta archivi che possono contenere uno o più file o directory. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/compression/zip/). |
+
+### Osservazioni
+
+**Learn more**
+
+* [Supported Document Formats](https://docs.groupdocs.com/display/searchnet/Supported+Document+Formats)
+* [Get supported file formats](https://docs.groupdocs.com/display/searchnet/Get+supported+file+formats)
+* [Search results](https://docs.groupdocs.com/display/searchnet/Search+results)
+* [Getting indexed documents](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
+
+### Vedi anche
+
+* namespace [GroupDocs.Search.Results](../../groupdocs.search.results)
+* assembly [GroupDocs.Search](../../)
+
+<!-- NON MODIFICARE: generato da xmldocmd per GroupDocs.search.dll -->
