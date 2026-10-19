@@ -1,0 +1,96 @@
+---
+title: "SearchQuery"
+second_title: "GroupDocs.Search 용 .NET API Reference"
+description: "검색 쿼리를 객체 형태로 나타냅니다."
+type: docs
+weight: 1580
+url: /ko/net/groupdocs.search/searchquery/
+---
+## SearchQuery class
+
+검색 쿼리를 객체 형태로 나타냅니다.
+
+```csharp
+public abstract class SearchQuery
+```
+
+## 속성
+
+| 이름 | 설명 |
+| --- | --- |
+| virtual [ChildCount](../../groupdocs.search/searchquery/childcount) { get; } | 자식 쿼리 수를 가져옵니다. |
+| virtual [FieldName](../../groupdocs.search/searchquery/fieldname) { get; } | 필드 이름을 가져옵니다. |
+| virtual [FirstChild](../../groupdocs.search/searchquery/firstchild) { get; } | 첫 번째 자식 쿼리를 가져옵니다. |
+| [SearchOptions](../../groupdocs.search/searchquery/searchoptions) { get; set; } | 이 검색 쿼리의 검색 옵션을 가져오거나 설정합니다. |
+| virtual [SecondChild](../../groupdocs.search/searchquery/secondchild) { get; } | 두 번째 자식 쿼리를 가져옵니다. |
+
+## 메서드
+
+| 이름 | 설명 |
+| --- | --- |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery_1)(params SearchQuery[]) | 각 원본 쿼리에 대해 찾을 수 있는 문서만을 찾는 결합된 쿼리를 생성합니다. |
+| static [CreateAndQuery](../../groupdocs.search/searchquery/createandquery#createandquery)(SearchQuery, SearchQuery) | 각 원본 쿼리에 대해 찾을 수 있는 문서만을 찾는 결합된 쿼리를 생성합니다. |
+| static [CreateDateRangeQuery](../../groupdocs.search/searchquery/createdaterangequery)(DateTime, DateTime) | 날짜 범위 쿼리를 생성합니다. |
+| static [CreateFieldQuery](../../groupdocs.search/searchquery/createfieldquery)(string, SearchQuery) | 지정된 쿼리에 필드를 추가합니다. |
+| static [CreateNotQuery](../../groupdocs.search/searchquery/createnotquery)(SearchQuery) | 원본 쿼리로 찾을 수 있는 문서에 대해 인덱스에서 나머지 문서를 찾는 역전된 쿼리를 생성합니다. |
+| static [CreateNumericRangeQuery](../../groupdocs.search/searchquery/createnumericrangequery)(long, long) | 숫자 범위 쿼리를 생성합니다. |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery_1)(params SearchQuery[]) | 원본 쿼리 중 하나라도 찾을 수 있는 모든 문서를 찾는 결합된 쿼리를 생성합니다. |
+| static [CreateOrQuery](../../groupdocs.search/searchquery/createorquery#createorquery)(SearchQuery, SearchQuery) | 원본 쿼리 중 하나라도 찾을 수 있는 모든 문서를 찾는 결합된 쿼리를 생성합니다. |
+| static [CreatePhraseSearchQuery](../../groupdocs.search/searchquery/createphrasesearchquery)(params SearchQuery[]) | 구문 검색 쿼리를 생성합니다. |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery)(string) | 정규 표현식 쿼리를 생성합니다. |
+| static [CreateRegexQuery](../../groupdocs.search/searchquery/createregexquery#createregexquery_1)(string, RegexOptions) | 정규 표현식 쿼리를 생성합니다. |
+| static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery)(int) | 구문 검색을 위한 와일드카드를 생성합니다. |
+| static [CreateWildcardQuery](../../groupdocs.search/searchquery/createwildcardquery#createwildcardquery_1)(int, int) | 구문 검색을 위한 와일드카드를 생성합니다. |
+| static [CreateWordPatternQuery](../../groupdocs.search/searchquery/createwordpatternquery)(WordPattern) | 단어 패턴 쿼리를 생성합니다. |
+| static [CreateWordQuery](../../groupdocs.search/searchquery/createwordquery)(string) | 단순 단어 쿼리를 생성합니다. |
+| abstract [GetChild](../../groupdocs.search/searchquery/getchild)(int) | 인덱스로 자식 쿼리를 가져옵니다. |
+| abstract [ToString](../../groupdocs.search/searchquery/tostring)() | 현재 [`SearchQuery`](../searchquery) 인스턴스를 나타내는 문자열을 반환합니다. |
+
+### 비고
+
+**Learn more**
+
+* [Searching](https://docs.groupdocs.com/display/searchnet/Searching)
+* [Queries in text and object form](https://docs.groupdocs.com/display/searchnet/Queries+in+text+and+object+form)
+* [Nesting search queries in object form](https://docs.groupdocs.com/display/searchnet/Nesting+search+queries+in+object+form)
+
+### 예제
+
+이 예제는 클래스의 일반적인 사용 방법을 보여줍니다.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+string documentsFolder = @"c:\MyDocuments\";
+
+Index index = new Index(indexFolder); // Creating index in the specified folder
+index.Add(documentsFolder); // Indexing documents from the specified folder
+
+// 날짜 범위 검색의 하위 쿼리를 생성합니다
+SearchQuery subquery1 = SearchQuery.CreateDateRangeQuery(new DateTime(2011, 6, 17), new DateTime(2013, 1, 1));
+
+// 0에서 2까지 누락된 단어 수를 가진 와일드카드의 하위 쿼리를 생성합니다
+SearchQuery subquery2 = SearchQuery.CreateWildcardQuery(0, 2);
+
+// 단순 단어의 하위 쿼리를 생성합니다
+SearchQuery subquery3 = SearchQuery.CreateWordQuery("birth");
+subquery3.SearchOptions = new SearchOptions(); // Setting search options only for subquery 3
+subquery3.SearchOptions.FuzzySearch.Enabled = true;
+subquery3.SearchOptions.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1);
+
+// 하위 쿼리를 하나의 쿼리로 결합합니다
+SearchQuery query = SearchQuery.CreatePhraseSearchQuery(subquery1, subquery2, subquery3);
+
+// 검색 결과 발생 횟수 용량이 증가된 검색 옵션 객체를 생성합니다
+SearchOptions options = new SearchOptions(); // Overall search options
+options.MaxOccurrenceCountPerTerm = 1000000;
+options.MaxTotalOccurrenceCount = 10000000;
+
+SearchResult result = index.Search(query, options); // Searching
+```
+
+### 또 보기
+
+* namespace [GroupDocs.Search](../../groupdocs.search)
+* assembly [GroupDocs.Search](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
