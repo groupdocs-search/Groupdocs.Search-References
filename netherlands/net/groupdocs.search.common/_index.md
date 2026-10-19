@@ -1,0 +1,59 @@
+---
+title: "GroupDocs.Search.Common"
+second_title: "GroupDocs.Search voor .NET API-referentie"
+description: "De namespace biedt algemene klassen van de bibliotheek."
+type: docs
+weight: 20
+url: /nl/net/groupdocs.search.common/
+---
+De namespace biedt algemene klassen van de bibliotheek.
+
+## Klassen
+
+| Klasse | Beschrijving |
+| --- | --- |
+| [AttributeChangeBatch](./attributechangebatch) | Stelt een container voor attribuutwijzigingen voor. |
+| [Cancellation](./cancellation) | Stelt een object voor om annulering van een bewerking aan te vragen. |
+| [ChunkSearchToken](./chunksearchtoken) | Stelt een token voor de voortzetting van de chunk-zoekopdracht (zoeken per pagina) voor. |
+| [CustomExtractorCollection](./customextractorcollection) | Bevat een verzameling aangepaste extractors. Als de verzameling een extractor bevat voor een bestandsextensie die wordt gedekt door ingebouwde extractors, dan wordt deze extractor gebruikt in plaats van de ingebouwde. |
+| [Document](./document) | Stelt de basisklasse voor documenten die aan een index worden toegevoegd vanuit het bestandssysteem, een stream of een structuur. Bevat statische methoden voor het maken van documenten uit verschillende soorten bronnen. |
+| [DocumentField](./documentfield) | Stelt gegevens van een documentveld voor. |
+| [DocumentImage](./documentimage) | Stelt gegevens van een documentafbeelding voor. |
+| [Encodings](./encodings) | Bevat namen van mogelijke coderingen. |
+| [ExtractedData](./extracteddata) | Stelt gegevens voor die uit een document zijn opgehaald en voorbereid voor indexering. |
+| [ExtractedItemInfo](./extractediteminfo) | Stelt informatie over een containeritem voor. |
+| [ExtractorSettings](./extractorsettings) | Bevat instellingen voor de documentgegevens-extractor. |
+| [FileLogger](./filelogger) | Stelt een logger voor die gebeurtenissen en fouten naar een lokaal bestand logt. |
+| [FileOutputAdapter](./fileoutputadapter) | Stelt een outputadapter voor die output verzamelt in een bestand. |
+| [FragmentContainer](./fragmentcontainer) | Stelt een container voor tekstfragmenten met gemarkeerde gevonden termen van één documentveld voor. |
+| [ImageFrame](./imageframe) | Stelt een afbeeldingsframe voor. |
+| [IndexInfo](./indexinfo) | Bevat basisinformatie over een index. |
+| [IndexingReport](./indexingreport) | Stelt gedetailleerde informatie over een indexeerbewerking voor. |
+| [Notification](./notification) | De basisklasse voor alle meldingen aan de index. Deze klasse bevat ook methoden voor het maken van meldingsobjecten. |
+| [OutputAdapter](./outputadapter) | Stelt de basisklasse van een outputadapter voor die wordt gebruikt om output in een gegeneraliseerde vorm te verzamelen. De momenteel beschikbare adapters zijn [`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter), [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter), [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter) en [`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter). |
+| [ResultBuilderFactory](./resultbuilderfactory) | Stelt de basisklasse van een result builder-fabriek voor. |
+| [SearchImage](./searchimage) | Stelt een afbeelding voor om te zoeken. |
+| [SearchReport](./searchreport) | Stelt gedetailleerde informatie over een zoekbewerking voor. |
+| [StreamOutputAdapter](./streamoutputadapter) | Stelt een outputadapter voor die output verzamelt in een stream. |
+| [StringOutputAdapter](./stringoutputadapter) | Stelt een outputadapter voor die output verzamelt als een string. |
+| [StructureOutputAdapter](./structureoutputadapter) | Stelt een outputadapter voor die output verzamelt als een structuur met elk veld afzonderlijk. |
+| [WordPattern](./wordpattern) | Stelt een woordpatroon voor dat wordt gebruikt in een wildcard-woordzoekopdracht. |
+## Interfaces
+
+| Interface | Beschrijving |
+| --- | --- |
+| [IContainerItemExtractor](./icontaineritemextractor) | Biedt methoden voor het extraheren van items uit containerdocumenten. |
+| [IDocumentLoader](./idocumentloader) | Definieert de documentloader-interface die wordt gebruikt om lazy-documenten te laden. |
+| [IFieldExtractor](./ifieldextractor) | Biedt methoden voor het extraheren van velden uit een document. |
+| [ILogger](./ilogger) | Definieert de interface van een logger die wordt gebruikt voor het loggen van gebeurtenissen en fouten in een index. |
+| [IWordSplitter](./iwordsplitter) | Definieert een methode voor het splitsen van tekst in afzonderlijke woorden. |
+## Enumeratie
+
+| Enumeratie | Beschrijving |
+| --- | --- |
+| [DocumentSourceKind](./documentsourcekind) | Definieert de soorten documentbronnen. |
+| [DocumentStatus](./documentstatus) | Stelt een documentverwerkingsstatus voor. |
+| [IndexStatus](./indexstatus) | Specificeert een indexstatus. |
+| [VersionUpdateResult](./versionupdateresult) | Stelt het resultaat van een indexversie‑update‑operatie voor. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
