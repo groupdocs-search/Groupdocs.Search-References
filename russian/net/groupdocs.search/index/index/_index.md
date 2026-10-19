@@ -1,0 +1,188 @@
+---
+title: "Index"
+second_title: "Справочник API GroupDocs.Search для .NET"
+description: "Инициализирует новый экземпляр класса Indexgroupdocs.search/index в памяти."
+type: docs
+weight: 10
+url: /ru/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+Инициализирует новый экземпляр класса [`Index`](../../index) в памяти.
+
+```csharp
+public Index()
+```
+
+### Примеры
+
+В примере демонстрируется, как создать индекс в памяти без сохранения файлов на диск.
+
+```csharp
+Index index = new Index(); 
+```
+
+### См. также
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+Инициализирует новый экземпляр класса [`Index`](../../index) в памяти с определёнными настройками индекса.
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| Parameter | Type | Описание |
+| --- | --- | --- |
+| settings | IndexSettings | Объект настроек индекса. |
+
+### Примеры
+
+В примере демонстрируется, как создать индекс в памяти без сохранения файлов на диск с определёнными настройками индекса.
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### См. также
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+Инициализирует новый экземпляр класса [`Index`](../../index). Создаёт новый или открывает существующий индекс на диске.
+
+```csharp
+public Index(string indexFolder)
+```
+
+| Parameter | Type | Описание |
+| --- | --- | --- |
+| indexFolder | String | Путь к папке индекса. |
+
+### Примеры
+
+В примере демонстрируется, как создать индекс на диске или открыть существующий индекс.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### См. также
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+Инициализирует новый экземпляр класса [`Index`](../../index). Создаёт новый индекс с определёнными настройками или открывает существующий индекс на диске.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| Parameter | Type | Описание |
+| --- | --- | --- |
+| indexFolder | String | Путь к папке индекса. |
+| settings | IndexSettings | Объект настроек индекса. |
+
+### Примеры
+
+Пример демонстрирует, как создать индекс на диске с определёнными настройками индекса.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### См. также
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+Инициализирует новый экземпляр класса [`Index`](../../index). Загружает существующий индекс с диска, если *overwriteIfExists* равно `false`; в противном случае создаёт новый индекс на диске.
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| Parameter | Type | Описание |
+| --- | --- | --- |
+| indexFolder | String | Путь к папке индекса. |
+| overwriteIfExists | Boolean | Флаг перезаписи папки индекса. |
+
+### Примеры
+
+Пример демонстрирует, как создать новый индекс в папке, которая уже содержит другой индекс.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### См. также
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+Инициализирует новый экземпляр класса [`Index`](../../index). Загружает существующий индекс с диска, если *overwriteIfExists* равно `false`; в противном случае создаёт новый индекс на диске с определёнными настройками индекса.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| Parameter | Type | Описание |
+| --- | --- | --- |
+| indexFolder | String | Путь к папке индекса. |
+| settings | IndexSettings | Объект настроек индекса. |
+| overwriteIfExists | Boolean | Флаг перезаписи папки индекса. |
+
+### Примеры
+
+Пример демонстрирует, как создать индекс на диске с определёнными настройками индекса.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### См. также
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
