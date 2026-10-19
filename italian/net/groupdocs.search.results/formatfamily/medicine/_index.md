@@ -1,0 +1,23 @@
+---
+title: "Medicine"
+second_title: "GroupDocs.Search per .NET Riferimento API"
+description: "Rappresenta i formati medici."
+type: docs
+weight: 130
+url: /it/net/groupdocs.search.results/formatfamily/medicine/
+---
+## FormatFamily.Medicine field
+
+Rappresenta i formati medici.
+
+```csharp
+public static readonly FormatFamily Medicine;
+```
+
+### Vedi anche
+
+* class [FormatFamily](../../formatfamily)
+* namespace [GroupDocs.Search.Results](../../../groupdocs.search.results)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- NON MODIFICARE: generato da xmldocmd per GroupDocs.search.dll -->
