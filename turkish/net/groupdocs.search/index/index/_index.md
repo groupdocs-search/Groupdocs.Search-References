@@ -1,0 +1,188 @@
+---
+title: "Index"
+second_title: "GroupDocs.Search için .NET API Referansı"
+description: "Bellekte Indexgroupdocs.search/index sınıfının yeni bir örneğini başlatır."
+type: docs
+weight: 10
+url: /tr/net/groupdocs.search/index/index/
+---
+## Index() {#constructor}
+
+Bellekte [`Index`](../../index) sınıfının yeni bir örneğini başlatır.
+
+```csharp
+public Index()
+```
+
+### Örnekler
+
+Örnek, dosyaları diske kaydetmeden bellekte indeks oluşturmanın nasıl yapılacağını gösterir.
+
+```csharp
+Index index = new Index(); 
+```
+
+### Ayrıca Bakınız
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(IndexSettings) {#constructor_1}
+
+Bellekte belirli indeks ayarlarıyla [`Index`](../../index) sınıfının yeni bir örneğini başlatır.
+
+```csharp
+public Index(IndexSettings settings)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| settings | IndexSettings | Dizin ayarları nesnesi. |
+
+### Örnekler
+
+Örnek, dosyaları diske kaydetmeden ve belirli indeks ayarlarıyla bellekte indeks oluşturmanın nasıl yapılacağını gösterir.
+
+```csharp
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(settings);
+```
+
+### Ayrıca Bakınız
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string) {#constructor_2}
+
+[`Index`](../../index) sınıfının yeni bir örneğini başlatır. Diskte yeni bir indeks oluşturur veya mevcut bir indeksi açar.
+
+```csharp
+public Index(string indexFolder)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| indexFolder | String | Dizin klasör yolu. |
+
+### Örnekler
+
+Örnek, diskte bir indeks oluşturmanın veya mevcut bir indeksi açmanın nasıl yapılacağını gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder); 
+```
+
+### Ayrıca Bakınız
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings) {#constructor_4}
+
+Yeni bir [`Index`](../../index) sınıfının örneğini başlatır. Belirli ayarlarla yeni bir indeks oluşturur veya disk üzerindeki mevcut bir indeksi açar.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| indexFolder | String | Dizin klasör yolu. |
+| settings | IndexSettings | Dizin ayarları nesnesi. |
+
+### Örnekler
+
+Örnek, belirli indeks ayarlarıyla bir diskte indeks oluşturmanın nasıl yapılacağını gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings);
+```
+
+### Ayrıca Bakınız
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, bool) {#constructor_3}
+
+Yeni bir [`Index`](../../index) sınıfının örneğini başlatır. *overwriteIfExists* `false` ise diskteki mevcut bir indeksi yükler; aksi takdirde diskte yeni bir indeks oluşturur.
+
+```csharp
+public Index(string indexFolder, bool overwriteIfExists)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| indexFolder | String | Dizin klasör yolu. |
+| overwriteIfExists | Boolean | İndeks klasörünün üzerine yazma bayrağı. |
+
+### Örnekler
+
+Örnek, içinde zaten başka bir indeks bulunan bir klasörde yeni bir indeks oluşturmanın nasıl yapılacağını gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+Index index = new Index(indexFolder, true);
+```
+
+### Ayrıca Bakınız
+
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+---
+
+## Index(string, IndexSettings, bool) {#constructor_5}
+
+Yeni bir [`Index`](../../index) sınıfının örneğini başlatır. *overwriteIfExists* `false` ise diskteki mevcut bir indeksi yükler; aksi takdirde belirli indeks ayarlarıyla diskte yeni bir indeks oluşturur.
+
+```csharp
+public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
+```
+
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| indexFolder | String | Dizin klasör yolu. |
+| settings | IndexSettings | Dizin ayarları nesnesi. |
+| overwriteIfExists | Boolean | İndeks klasörünün üzerine yazma bayrağı. |
+
+### Örnekler
+
+Örnek, belirli indeks ayarlarıyla bir diskte indeks oluşturmanın nasıl yapılacağını gösterir.
+
+```csharp
+string indexFolder = @"c:\MyIndex\";
+IndexSettings settings = new IndexSettings();
+settings.IndexType = IndexType.CompactIndex;
+Index index = new Index(indexFolder, settings, true);
+```
+
+### Ayrıca Bakınız
+
+* class [IndexSettings](../../indexsettings)
+* class [Index](../../index)
+* namespace [GroupDocs.Search](../../../groupdocs.search)
+* assembly [GroupDocs.Search](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
