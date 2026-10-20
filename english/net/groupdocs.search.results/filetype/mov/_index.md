@@ -3,7 +3,7 @@ title: MOV
 second_title: GroupDocs.Search for .NET API Reference
 description: MOV or QuickTime File format is multimedia container which is developed by Apple contains one or more tracks each track holds a particular type of data i.e. Video Audio text etc. Learn more about this file format herehttps//wiki.fileformat.com/video/mov/.
 type: docs
-weight: 340
+weight: 350
 url: /net/groupdocs.search.results/filetype/mov/
 ---
 ## FileType.MOV field

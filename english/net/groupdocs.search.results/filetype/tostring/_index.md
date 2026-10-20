@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Search for .NET API Reference
 description: Returns a String that represents the current FileTypegroupdocs.search.results/filetype.
 type: docs
-weight: 860
+weight: 870
 url: /net/groupdocs.search.results/filetype/tostring/
 ---
 ## FileType.ToString method

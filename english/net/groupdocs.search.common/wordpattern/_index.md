@@ -1,14 +1,14 @@
 ---
 title: WordPattern
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a word pattern to use in word wildcard search.
+description: Represents a word pattern for the wildcard search.
 type: docs
 weight: 350
 url: /net/groupdocs.search.common/wordpattern/
 ---
 ## WordPattern class
 
-Represents a word pattern to use in word wildcard search.
+Represents a word pattern for the wildcard search.
 
 ```csharp
 public class WordPattern
@@ -35,10 +35,7 @@ public class WordPattern
 
 ### Remarks
 
-**Learn more**
-
-* [Wildcard search](https://docs.groupdocs.com/display/searchnet/Wildcard+search)
-* [Phrase search](https://docs.groupdocs.com/display/searchnet/Phrase+search)
+A pattern is a sequence of values, each of them either a character or a wildcard. A wildcard carries the flag that puts it above MaxValue, together with the least and the greatest number of characters it stands for, therefore a character of the pattern is anything that fits into a UTF-16 code unit.
 
 ### See Also
 

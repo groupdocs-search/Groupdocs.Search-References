@@ -18,6 +18,16 @@ public void SaveTo(string indexFolder)
 | --- | --- | --- |
 | indexFolder | String | The path to the index folder to save. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The folder is the folder of this index, or it contains an index that is not replaced: an index of another version or a damaged index. |
+
+### Remarks
+
+An index of the current version that the folder contains is replaced by the saved index.
+
 ### See Also
 
 * class [Index](../../index)

@@ -19,6 +19,12 @@ public void SetRange(char[] characters, CharacterType type)
 | characters | Char[] | The collection of characters to set the type. |
 | type | CharacterType | The character type. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * enum [CharacterType](../../charactertype)
@@ -41,6 +47,12 @@ public void SetRange(string[] characters, CharacterType type)
 | characters | String[] | The collection of characters and surrogate pairs to set the type. |
 | type | CharacterType | The character type. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * enum [CharacterType](../../charactertype)
@@ -62,6 +74,12 @@ public void SetRange(int[] codePoints, CharacterType type)
 | --- | --- | --- |
 | codePoints | Int32[] | The collection of Unicode code points to set the type. |
 | type | CharacterType | The character type. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 

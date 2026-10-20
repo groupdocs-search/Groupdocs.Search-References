@@ -18,6 +18,12 @@ public void ImportDictionary(string filePath)
 | --- | --- | --- |
 | filePath | String | The file to import from. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes a dictionary that defines how the text of documents is divided into terms (see [`DictionaryRepository`](../../dictionaryrepository)), and the index of the dictionary contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [DictionaryBase](../../dictionarybase)

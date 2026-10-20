@@ -3,7 +3,7 @@ title: BaseOptions
 second_title: GroupDocs.Search for .NET API Reference
 description: Provides base options for index operations.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.search.options/baseoptions/
 ---
 ## BaseOptions class

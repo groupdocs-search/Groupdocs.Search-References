@@ -3,7 +3,7 @@ title: XLSB
 second_title: GroupDocs.Search for .NET API Reference
 description: XLSB file format specifies the Excel Binary File Format which is a collection of records and structures that specify Excel workbook content. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xlsb/.
 type: docs
-weight: 750
+weight: 760
 url: /net/groupdocs.search.results/filetype/xlsb/
 ---
 ## FileType.XLSB field

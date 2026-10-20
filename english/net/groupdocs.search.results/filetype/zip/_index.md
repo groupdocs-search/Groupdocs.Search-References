@@ -3,7 +3,7 @@ title: ZIP
 second_title: GroupDocs.Search for .NET API Reference
 description: ZIP file extension represents archives that can hold one or more files or directories. Learn more about this file format herehttps//wiki.fileformat.com/compression/zip/.
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.search.results/filetype/zip/
 ---
 ## FileType.ZIP field

@@ -18,6 +18,12 @@ public void AddRange(IEnumerable<string> words)
 | --- | --- | --- |
 | words | IEnumerable`1 | The collection of words to add to the dictionary. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [StopWordDictionary](../../stopworddictionary)
@@ -37,6 +43,12 @@ public void AddRange(string[] words)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | words | String[] | The collection of words to add to the dictionary. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 

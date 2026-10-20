@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets the file extension.
 type: docs
-weight: 840
+weight: 850
 url: /net/groupdocs.search.results/filetype/extension/
 ---
 ## FileType.Extension property

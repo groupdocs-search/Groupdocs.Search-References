@@ -19,6 +19,10 @@ public void SetDictionary(DictionaryBase dictionary, int shardIndex)
 | dictionary | DictionaryBase | The dictionary. |
 | shardIndex | Int32 | The shard index. |
 
+### Remarks
+
+The alphabet, the tokenization dictionary, the stop word dictionary and the character replacement dictionary define how the text of documents is divided into terms. Therefore a shard accepts another content of such a dictionary only while its index contains no documents and performs no operation. A shard that does not accept the dictionary keeps its own one and writes the reason to its log.
+
 ### See Also
 
 * class [DictionaryBase](../../../groupdocs.search.dictionaries/dictionarybase)
@@ -39,6 +43,10 @@ public void SetDictionary(DictionaryBase dictionary)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dictionary | DictionaryBase | The dictionary. |
+
+### Remarks
+
+The alphabet, the tokenization dictionary, the stop word dictionary and the character replacement dictionary define how the text of documents is divided into terms. Therefore a shard accepts another content of such a dictionary only while its index contains no documents and performs no operation. A shard that does not accept the dictionary keeps its own one and writes the reason to its log.
 
 ### See Also
 

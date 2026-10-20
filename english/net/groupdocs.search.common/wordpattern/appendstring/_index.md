@@ -18,6 +18,10 @@ public void AppendString(string text)
 | --- | --- | --- |
 | text | String | The string to append. |
 
+### Remarks
+
+The string is appended as UTF-16 code units rather than as code points, which is how the terms of an index are stored. A character above the basic plane therefore becomes the pair of its surrogates and is searched for as such. Appending it as a single code point would have set the bit that marks a wildcard and turned the character into one.
+
 ### See Also
 
 * class [WordPattern](../../wordpattern)

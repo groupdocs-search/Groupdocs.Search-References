@@ -3,7 +3,7 @@ title: NumberOfThreads
 second_title: GroupDocs.Search for .NET API Reference
 description: Specifies the number of threads.
 type: docs
-weight: 1030
+weight: 1040
 url: /net/groupdocs.search.options/numberofthreads/
 ---
 ## NumberOfThreads enumeration
@@ -18,7 +18,7 @@ public enum NumberOfThreads
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | `0` | The default value. |
+| Default | `0` | The default value: the number of threads is equal to the number of processor cores (ProcessorCount). |
 | One | `1` | One thread. |
 | Two | `2` | Two threads. |
 | Three | `3` | Three threads. |

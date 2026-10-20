@@ -29,6 +29,10 @@ public class DictionaryRepository
 | [TokenizationDictionary](../../groupdocs.search.dictionaries/dictionaryrepository/tokenizationdictionary) { get; } | Gets the dictionary of characters that defines whether a token is considered as a valid word or a separator when using external tokenization tools. |
 | [WordFormsProvider](../../groupdocs.search.dictionaries/dictionaryrepository/wordformsprovider) { get; set; } | Gets or sets a word forms provider. |
 
+### Remarks
+
+The dictionaries [`Alphabet`](./alphabet), [`TokenizationDictionary`](./tokenizationdictionary), [`CharacterReplacements`](./characterreplacements) and [`StopWordDictionary`](./stopworddictionary) define how the text of documents is divided into terms. Therefore they can be changed only while the index contains no documents and its status is Ready. The other dictionaries can be changed at any time.
+
 ### See Also
 
 * namespace [GroupDocs.Search.Dictionaries](../../groupdocs.search.dictionaries)

@@ -3,7 +3,7 @@ title: TXT
 second_title: GroupDocs.Search for .NET API Reference
 description: A file with .TXT extension represents a text document that contains plain text in the form of lines. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/txt/.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.search.results/filetype/txt/
 ---
 ## FileType.TXT field

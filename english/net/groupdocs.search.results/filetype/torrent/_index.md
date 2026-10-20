@@ -3,7 +3,7 @@ title: TORRENT
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents TORRENT file type.
 type: docs
-weight: 620
+weight: 630
 url: /net/groupdocs.search.results/filetype/torrent/
 ---
 ## FileType.TORRENT field

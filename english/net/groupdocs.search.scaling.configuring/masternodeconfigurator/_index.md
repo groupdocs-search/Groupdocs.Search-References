@@ -3,7 +3,7 @@ title: MasterNodeConfigurator
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the master node configurator.
 type: docs
-weight: 1360
+weight: 1370
 url: /net/groupdocs.search.scaling.configuring/masternodeconfigurator/
 ---
 ## MasterNodeConfigurator class

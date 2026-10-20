@@ -3,7 +3,7 @@ title: MPP
 second_title: GroupDocs.Search for .NET API Reference
 description: MPP is proprietary file format developed by Microsoft as file format for Microsoft Project MSP which is a project management application software. Learn more about this file format herehttps//wiki.fileformat.com/projectmanagement/mpp/.
 type: docs
-weight: 360
+weight: 370
 url: /net/groupdocs.search.results/filetype/mpp/
 ---
 ## FileType.MPP field

@@ -3,7 +3,7 @@ title: Unknown
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents unknown file type.
 type: docs
-weight: 650
+weight: 660
 url: /net/groupdocs.search.results/filetype/unknown/
 ---
 ## FileType.Unknown field

@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the file type.
 type: docs
-weight: 1240
+weight: 1250
 url: /net/groupdocs.search.results/filetype/
 ---
 ## FileType class
@@ -63,6 +63,7 @@ public class FileType
 | static readonly [JPE](../../groupdocs.search.results/filetype/jpe) | A JPEG is a type of image format that is saved using the method of lossy compression. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg/). |
 | static readonly [JPEG](../../groupdocs.search.results/filetype/jpeg) | A JPEG is a type of image format that is saved using the method of lossy compression. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg/). |
 | static readonly [JPG](../../groupdocs.search.results/filetype/jpg) | A JPEG is a type of image format that is saved using the method of lossy compression. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [LOG](../../groupdocs.search.results/filetype/log) | A file with .LOG extension is typically a text document containing plain text in the form of lines. |
 | static readonly [MD](../../groupdocs.search.results/filetype/md) | Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/md/). |
 | static readonly [MHT](../../groupdocs.search.results/filetype/mht) | Files with MHT extension represent a web page archive format that can be created by a number of different applications. Learn more about this file format [here](https://wiki.fileformat.com/web/mhtml/). |
 | static readonly [MHTML](../../groupdocs.search.results/filetype/mhtml) | Files with MHTML extension represent a web page archive format that can be created by a number of different applications. Learn more about this file format [here](https://wiki.fileformat.com/web/mhtml/). |

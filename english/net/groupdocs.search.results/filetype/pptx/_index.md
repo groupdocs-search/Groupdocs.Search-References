@@ -3,7 +3,7 @@ title: PPTX
 second_title: GroupDocs.Search for .NET API Reference
 description: Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pptx/.
 type: docs
-weight: 550
+weight: 560
 url: /net/groupdocs.search.results/filetype/pptx/
 ---
 ## FileType.PPTX field

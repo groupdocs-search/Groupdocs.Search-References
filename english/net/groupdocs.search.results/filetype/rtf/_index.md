@@ -3,7 +3,7 @@ title: RTF
 second_title: GroupDocs.Search for .NET API Reference
 description: Introduced and documented by Microsoft the Rich Text Format RTF represents a method of encoding formatted text and graphics for use within applications. The format facilitates crossplatform document exchange with other Microsoft Products thus serving the purpose of interoperability. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/rtf/.
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.search.results/filetype/rtf/
 ---
 ## FileType.RTF field

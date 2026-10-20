@@ -19,9 +19,19 @@ public void Merge(Index index, MergeOptions options)
 | index | Index | The index to merge into. |
 | options | MergeOptions | The merge options. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The other index contains documents and divides their text into terms differently from the current index. |
+
 ### Remarks
 
 If the other index has a previous version, it must be updated before merging with [`IndexUpdater`](../../indexupdater).
+
+The indexes have to divide the text of documents into terms in the same way: a search finds a document reliably only if the document was indexed with the dictionaries and settings that the index uses. The operation compares the current index with the other index if it contains documents: the settings [`UseStopWords`](../../indexsettings/usestopwords), [`UseCharacterReplacements`](../../indexsettings/usecharacterreplacements), [`ReplaceUnpairedSurrogates`](../../indexsettings/replaceunpairedsurrogates) and [`SkipBlendedOnlyTerms`](../../indexsettings/skipblendedonlyterms), the alphabet, the tokenization dictionary, the stop word dictionary if the indexes use stop words, and the character replacement dictionary if the indexes use character replacements. If a difference is found, the operation throws InvalidOperationException and no index is changed.
+
+The alphabet, the tokenization dictionary, the stop word dictionary and the character replacement dictionary of the current index are not changed by the operation. The other dictionaries of the other index are merged into the dictionaries of the current index.
 
 ### Examples
 
@@ -68,9 +78,19 @@ public void Merge(IndexRepository repository, MergeOptions options)
 | repository | IndexRepository | The index repository to merge into. |
 | options | MergeOptions | The merge options. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | An index of the repository contains documents and divides their text into terms differently from the current index. |
+
 ### Remarks
 
 If other indexes have a previous version, they must be updated before merging with [`IndexUpdater`](../../indexupdater).
+
+The indexes have to divide the text of documents into terms in the same way: a search finds a document reliably only if the document was indexed with the dictionaries and settings that the index uses. The operation compares the current index with every index of the repository that contains documents: the settings [`UseStopWords`](../../indexsettings/usestopwords), [`UseCharacterReplacements`](../../indexsettings/usecharacterreplacements), [`ReplaceUnpairedSurrogates`](../../indexsettings/replaceunpairedsurrogates) and [`SkipBlendedOnlyTerms`](../../indexsettings/skipblendedonlyterms), the alphabet, the tokenization dictionary, the stop word dictionary if the indexes use stop words, and the character replacement dictionary if the indexes use character replacements. If a difference is found, the operation throws InvalidOperationException and no index is changed.
+
+The alphabet, the tokenization dictionary, the stop word dictionary and the character replacement dictionary of the current index are not changed by the operation. The other dictionaries of the other indexes are merged into the dictionaries of the current index.
 
 ### Examples
 

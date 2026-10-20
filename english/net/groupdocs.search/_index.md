@@ -17,7 +17,7 @@ The namespace provides classes for indexing and searching text data in documents
 | [Index](./index) | Represents the main class for indexing documents and search through them. |
 | [IndexRepository](./indexrepository) | Represents a container for combining multiple indexes and performing common operations on them. |
 | [IndexSettings](./indexsettings) | Represents the index settings that allow to customize the indexing operations. |
-| [IndexUpdater](./indexupdater) | Represents an index updater. This class performs reindexing documents in an index of an old version. |
+| [IndexUpdater](./indexupdater) | Represents an index updater. This class updates an index of an old version to the latest version. Depending on the old version, the data of the index are converted or its documents are indexed again. |
 | [License](./license) | Provides methods for applying license. |
 | [Metered](./metered) | Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed. Learn more about Metered licenses [here](https://purchase.groupdocs.com/faqs/licensing/metered). |
 | [SearchQuery](./searchquery) | Represents a search query in object form. |

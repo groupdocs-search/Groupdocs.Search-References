@@ -18,6 +18,12 @@ public void RemoveRange(IEnumerable<char> characters)
 | --- | --- | --- |
 | characters | IEnumerable`1 | The collection of characters to remove. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [CharacterReplacementDictionary](../../characterreplacementdictionary)
@@ -37,6 +43,12 @@ public void RemoveRange(IEnumerable<int> codePoints)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | codePoints | IEnumerable`1 | The collection of Unicode code points to remove. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 
@@ -58,6 +70,12 @@ public void RemoveRange(char[] characters)
 | --- | --- | --- |
 | characters | Char[] | The collection of characters to remove. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [CharacterReplacementDictionary](../../characterreplacementdictionary)
@@ -77,6 +95,12 @@ public void RemoveRange(int[] codePoints)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | codePoints | Int32[] | The collection of Unicode code points to remove. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 

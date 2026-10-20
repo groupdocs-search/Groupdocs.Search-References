@@ -22,6 +22,16 @@ public string[] GetSynonyms(string word)
 
 The synonyms for the specified word or empty array if the [`SynonymDictionary`](../../synonymdictionary) object does not contain the specified word.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when *word* is `null`. |
+
+### Remarks
+
+The case of the letters of the word is not taken into account.
+
 ### See Also
 
 * class [SynonymDictionary](../../synonymdictionary)

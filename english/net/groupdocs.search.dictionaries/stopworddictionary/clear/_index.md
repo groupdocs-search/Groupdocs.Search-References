@@ -14,6 +14,12 @@ Removes all words from a [`StopWordDictionary`](../../stopworddictionary) object
 public override void Clear()
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [StopWordDictionary](../../stopworddictionary)

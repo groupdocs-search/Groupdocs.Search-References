@@ -3,7 +3,7 @@ title: PPS
 second_title: GroupDocs.Search for .NET API Reference
 description: PPS PowerPoint Slide Show files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 972003. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pps/.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.search.results/filetype/pps/
 ---
 ## FileType.PPS field

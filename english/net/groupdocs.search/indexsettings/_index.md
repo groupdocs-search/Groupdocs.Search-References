@@ -3,7 +3,7 @@ title: IndexSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents the index settings that allow to customize the indexing operations.
 type: docs
-weight: 720
+weight: 730
 url: /net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
@@ -31,7 +31,9 @@ public class IndexSettings
 | [Logger](../../groupdocs.search/indexsettings/logger) { get; set; } | Gets or sets a logger that is used for logging events and errors in the index. Note that the logger is not saved and must be created and assigned each time the index is created or loaded. |
 | [MaxIndexingReportCount](../../groupdocs.search/indexsettings/maxindexingreportcount) { get; set; } | Gets or sets the maximum number of indexing reports. The default value is `5`. |
 | [MaxSearchReportCount](../../groupdocs.search/indexsettings/maxsearchreportcount) { get; set; } | Gets or sets the maximum number of search reports. The default value is `10`. |
-| [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Gets or sets the number of threads used for the search. The default value is Default, which means that the search will be performed using the number of threads equal to the number of processor cores. |
+| [ReplaceUnpairedSurrogates](../../groupdocs.search/indexsettings/replaceunpairedsurrogates) { get; set; } | Gets or sets a flag for replacing unpaired surrogates. The default value is `true`. |
+| [SearchThreads](../../groupdocs.search/indexsettings/searchthreads) { get; set; } | Gets or sets the number of threads used for the search. The default value is Default, which means that the search will be performed using the number of threads equal to the number of processor cores (ProcessorCount). |
+| [SkipBlendedOnlyTerms](../../groupdocs.search/indexsettings/skipblendedonlyterms) { get; set; } | Gets or sets a flag to skip terms consisting solely of blended characters. The default value is `true`. |
 | [TextStorageSettings](../../groupdocs.search/indexsettings/textstoragesettings) { get; set; } | Gets or sets the text storage settings. The default value is `null`, which means that document texts are not stored. |
 | [UseCharacterReplacements](../../groupdocs.search/indexsettings/usecharacterreplacements) { get; set; } | Gets or sets a value indicating whether to use character replacements or not. The default value is `false`. |
 | [UseStopWords](../../groupdocs.search/indexsettings/usestopwords) { get; set; } | Gets or sets a value indicating whether to use stop words or not. The default value is `true`. |

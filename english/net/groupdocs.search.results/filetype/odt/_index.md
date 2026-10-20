@@ -3,7 +3,7 @@ title: ODT
 second_title: GroupDocs.Search for .NET API Reference
 description: ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text images objects and styles. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/odt/.
 type: docs
-weight: 400
+weight: 410
 url: /net/groupdocs.search.results/filetype/odt/
 ---
 ## FileType.ODT field

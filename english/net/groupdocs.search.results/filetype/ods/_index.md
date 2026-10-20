@@ -3,7 +3,7 @@ title: ODS
 second_title: GroupDocs.Search for .NET API Reference
 description: Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ods/.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.search.results/filetype/ods/
 ---
 ## FileType.ODS field

@@ -22,6 +22,10 @@ public bool Contains(string word)
 
 `true` if the [`StopWordDictionary`](../../stopworddictionary) object contains the specified word; otherwise, `false`.
 
+### Remarks
+
+The case of the letters of the word is not taken into account.
+
 ### See Also
 
 * class [StopWordDictionary](../../stopworddictionary)

@@ -3,7 +3,7 @@ title: UseCharacterReplacements
 second_title: GroupDocs.Search for .NET API Reference
 description: Gets or sets a value indicating whether to use character replacements or not. The default value is false.
 type: docs
-weight: 110
+weight: 130
 url: /net/groupdocs.search/indexsettings/usecharacterreplacements/
 ---
 ## IndexSettings.UseCharacterReplacements property
@@ -17,6 +17,20 @@ public bool UseCharacterReplacements { get; set; }
 ### Property Value
 
 A value indicating whether to use character replacements or not.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The value is changed while an index that uses these settings contains documents or is not in the Ready status. |
+
+### Remarks
+
+The setting defines how the text of documents is divided into terms. Therefore, when an index uses these settings, the value can be changed only while the index contains no documents and its status is Ready.
+
+The value is saved in the index when it is changed or, if that is not possible, before the next operation that changes the index.
+
+A new index uses the settings object passed to its constructor until the index is disposed. If one settings object is used to create several indexes, each of them has to allow the change.
 
 ### See Also
 

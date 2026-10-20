@@ -18,6 +18,10 @@ public DocumentFilter DocumentFilter { get; set; }
 
 The document filter.
 
+### Remarks
+
+The value can be changed at any time. A value changed after an index was created with these settings is saved in the index by the next operation that changes the index.
+
 ### Examples
 
 The example demonstrates how to set the document filter.

@@ -14,6 +14,12 @@ Sets the Separator type for all characters in this [`Alphabet`](../../alphabet).
 public override void Clear()
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [Alphabet](../../alphabet)

@@ -18,6 +18,10 @@ public Alphabet TokenizationDictionary { get; }
 
 The dictionary of characters.
 
+### Remarks
+
+The dictionary defines how the text of documents is divided into terms, so it can be changed only while the index contains no documents and its status is Ready.
+
 ### See Also
 
 * class [Alphabet](../../alphabet)

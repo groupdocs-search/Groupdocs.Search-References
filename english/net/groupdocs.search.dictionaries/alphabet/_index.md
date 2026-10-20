@@ -38,6 +38,10 @@ public class Alphabet : DictionaryBase, IEnumerable<int>
 
 ### Remarks
 
+The dictionary defines how the text of documents is divided into terms. Therefore the dictionary of an index can be changed only while the index contains no documents and its status is Ready; otherwise a method that changes the dictionary throws InvalidOperationException. A call that does not change the content of the dictionary is always allowed. To use another content with documents that are indexed already, create a new index and index the documents again.
+
+A change of the dictionary of an index is saved in the index at once. If it cannot be saved, the method throws the exception that describes the failure, and the dictionary stays unchanged.
+
 **Learn more**
 
 * [Character types](https://docs.groupdocs.com/display/searchnet/Character+types)

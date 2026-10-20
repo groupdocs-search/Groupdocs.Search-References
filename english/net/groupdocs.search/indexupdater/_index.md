@@ -1,14 +1,14 @@
 ---
 title: IndexUpdater
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents an index updater. This class performs reindexing documents in an index of an old version.
+description: Represents an index updater. This class updates an index of an old version to the latest version. Depending on the old version the data of the index are converted or its documents are indexed again.
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.search/indexupdater/
 ---
 ## IndexUpdater class
 
-Represents an index updater. This class performs reindexing documents in an index of an old version.
+Represents an index updater. This class updates an index of an old version to the latest version. Depending on the old version, the data of the index are converted or its documents are indexed again.
 
 ```csharp
 public class IndexUpdater
@@ -26,7 +26,7 @@ public class IndexUpdater
 | --- | --- |
 | [CanUpdateVersion](../../groupdocs.search/indexupdater/canupdateversion)(string) | Checks whether an index in the specified directory can be updated to the latest version. |
 | [IsLatestVersion](../../groupdocs.search/indexupdater/islatestversion)(string) | Checks whether the specified directory contains an index of the latest version. |
-| [UpdateVersion](../../groupdocs.search/indexupdater/updateversion)(string, string) | Performs reindexing documents in an index of an old version. The updated index will be placed in the *newIndexPath* directory. The index in the *indexPath* directory will not be changed. |
+| [UpdateVersion](../../groupdocs.search/indexupdater/updateversion)(string, string) | Updates an index of an old version to the latest version. Depending on the old version, the data of the index are converted or its documents are indexed again; in the latter case the documents must be available at the paths from which they were indexed. The updated index will be placed in the *newIndexPath* directory. The index in the *indexPath* directory will not be changed. |
 
 ### Remarks
 

@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/groupdocs.search.dictionaries/homophonedictionary/addrange/
 ---
-## AddRange(IEnumerable&lt;string[]&gt;) {#addrange}
+## HomophoneDictionary.AddRange method
 
 Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../../homophonedictionary).
 
@@ -17,33 +17,6 @@ public void AddRange(IEnumerable<string[]> homophones)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | homophones | IEnumerable`1 | The collection of homophone groups to add to the dictionary. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | Thrown when *homophones* is `null`. |
-| ArgumentException | Thrown when number of homophones in a group is less than 2. |
-
-### See Also
-
-* class [HomophoneDictionary](../../homophonedictionary)
-* namespace [GroupDocs.Search.Dictionaries](../../../groupdocs.search.dictionaries)
-* assembly [GroupDocs.Search](../../../)
-
----
-
-## AddRange(string[][]) {#addrange_1}
-
-Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../../homophonedictionary).
-
-```csharp
-public void AddRange(string[][] homophones)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| homophones | String[][] | The collection of homophone groups to add to the dictionary. |
 
 ### Exceptions
 

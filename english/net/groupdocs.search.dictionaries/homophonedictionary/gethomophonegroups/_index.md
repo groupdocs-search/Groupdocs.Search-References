@@ -22,6 +22,16 @@ public string[][] GetHomophoneGroups(string word)
 
 All groups of homophones to which the specified word belongs.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Thrown when *word* is `null`. |
+
+### Remarks
+
+The case of the letters of the word is not taken into account: the groups contain the word as the dictionary keeps it, in the lower case.
+
 ### See Also
 
 * class [HomophoneDictionary](../../homophonedictionary)

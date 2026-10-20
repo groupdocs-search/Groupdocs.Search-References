@@ -18,6 +18,10 @@ public Compression Compression { get; set; }
 
 The compression of text storage.
 
+### Remarks
+
+The setting is fixed when an index is created with the index settings that hold these text storage settings: a value assigned after that is ignored.
+
 ### See Also
 
 * enum [Compression](../../compression)

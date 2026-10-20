@@ -24,7 +24,7 @@ public void Add(string alias, string text)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *alias* or *text* is `null`. |
-| ArgumentException | Alias contains character that is not from the ranges a-b and 0-9. |
+| ArgumentException | Alias contains character that is not from the ranges a-z and 0-9. |
 
 ### See Also
 

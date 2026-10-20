@@ -18,6 +18,10 @@ public int MaxIndexingReportCount { get; set; }
 
 The maximum number of indexing reports.
 
+### Remarks
+
+The value can be changed at any time. A value changed after an index was created with these settings is saved in the index by the next operation that changes the index.
+
 ### See Also
 
 * class [IndexSettings](../../indexsettings)

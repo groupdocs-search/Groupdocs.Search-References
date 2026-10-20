@@ -3,7 +3,7 @@ title: VSD
 second_title: GroupDocs.Search for .NET API Reference
 description: VSD files are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Learn more about this file format herehttps//wiki.fileformat.com/image/vsd/.
 type: docs
-weight: 660
+weight: 670
 url: /net/groupdocs.search.results/filetype/vsd/
 ---
 ## FileType.VSD field

@@ -3,7 +3,7 @@ title: XHTML
 second_title: GroupDocs.Search for .NET API Reference
 description: The XHTML is a text based file format with markup in the XML using a reformulation of HTML 4.0. Learn more about this file format herehttps//wiki.fileformat.com/web/xhtml/.
 type: docs
-weight: 710
+weight: 720
 url: /net/groupdocs.search.results/filetype/xhtml/
 ---
 ## FileType.XHTML field

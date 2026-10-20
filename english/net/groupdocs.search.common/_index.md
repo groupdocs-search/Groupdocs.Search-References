@@ -37,7 +37,7 @@ The namespace provides common classes of the library.
 | [StreamOutputAdapter](./streamoutputadapter) | Represents an output adapter that collects output into a Stream. |
 | [StringOutputAdapter](./stringoutputadapter) | Represents an output adapter that collects output as a String. |
 | [StructureOutputAdapter](./structureoutputadapter) | Represents an output adapter that collects output as a structure containing each field separately. |
-| [WordPattern](./wordpattern) | Represents a word pattern to use in word wildcard search. |
+| [WordPattern](./wordpattern) | Represents a word pattern for the wildcard search. |
 ## Interfaces
 
 | Interface | Description |

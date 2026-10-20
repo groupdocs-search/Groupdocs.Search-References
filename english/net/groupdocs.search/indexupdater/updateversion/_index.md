@@ -1,14 +1,14 @@
 ---
 title: UpdateVersion
 second_title: GroupDocs.Search for .NET API Reference
-description: Performs reindexing documents in an index of an old version. The updated index will be placed in the newIndexPath directory. The index in the indexPath directory will not be changed.
+description: Updates an index of an old version to the latest version. Depending on the old version the data of the index are converted or its documents are indexed again in the latter case the documents must be available at the paths from which they were indexed. The updated index will be placed in the newIndexPath directory. The index in the indexPath directory will not be changed.
 type: docs
 weight: 40
 url: /net/groupdocs.search/indexupdater/updateversion/
 ---
 ## IndexUpdater.UpdateVersion method
 
-Performs reindexing documents in an index of an old version. The updated index will be placed in the *newIndexPath* directory. The index in the *indexPath* directory will not be changed.
+Updates an index of an old version to the latest version. Depending on the old version, the data of the index are converted or its documents are indexed again; in the latter case the documents must be available at the paths from which they were indexed. The updated index will be placed in the *newIndexPath* directory. The index in the *indexPath* directory will not be changed.
 
 ```csharp
 public VersionUpdateResult UpdateVersion(string indexPath, string newIndexPath)
@@ -17,11 +17,21 @@ public VersionUpdateResult UpdateVersion(string indexPath, string newIndexPath)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | indexPath | String | The index directory path. |
-| newIndexPath | String | The directory for the updated index. |
+| newIndexPath | String | The directory for the updated index. If the index can be updated, the directory is created if it does not exist; otherwise its content is deleted before the updated index is written. When the update fails, the content may already be deleted. |
 
 ### Return Value
 
 The result of the index version update operation.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The index can be updated, and *newIndexPath* is `null`. |
+| ArgumentException | The index can be updated, and *newIndexPath* is empty, or it is the *indexPath* directory, a directory that contains it or a directory inside it. A directory where the index keeps a part of its data is treated as the *indexPath* directory is, and the directories are recognized under their other names as well. |
+| InvalidDataException | The index in the *indexPath* directory is damaged and cannot be converted. Nothing of the update remains in the *newIndexPath* directory. |
+| IOException | A file or a directory of the index or of the *newIndexPath* directory cannot be accessed. |
+| UnauthorizedAccessException | The access to a file or a directory of the index or of the *newIndexPath* directory is denied. |
 
 ### See Also
 

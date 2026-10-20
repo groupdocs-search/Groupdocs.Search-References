@@ -3,7 +3,7 @@ title: XLA
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents XLA file type.
 type: docs
-weight: 720
+weight: 730
 url: /net/groupdocs.search.results/filetype/xla/
 ---
 ## FileType.XLA field

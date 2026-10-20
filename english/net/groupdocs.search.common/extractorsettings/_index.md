@@ -19,6 +19,7 @@ public class ExtractorSettings
 | Name | Description |
 | --- | --- |
 | [IndexType](../../groupdocs.search.common/extractorsettings/indextype) { get; set; } | Gets or sets the index type the extractor is used for. The default value is NormalIndex. |
+| [TempFolder](../../groupdocs.search.common/extractorsettings/tempfolder) { get; set; } | Gets or sets the folder for temporary files. |
 
 ### See Also
 

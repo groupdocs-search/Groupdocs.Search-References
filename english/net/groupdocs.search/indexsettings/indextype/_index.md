@@ -18,6 +18,10 @@ public IndexType IndexType { get; set; }
 
 The index type.
 
+### Remarks
+
+The setting is fixed when an index is created with these settings: a value assigned after that is ignored.
+
 ### See Also
 
 * enum [IndexType](../../../groupdocs.search.options/indextype)

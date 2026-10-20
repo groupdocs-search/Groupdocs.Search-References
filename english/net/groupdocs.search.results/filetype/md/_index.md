@@ -3,7 +3,7 @@ title: MD
 second_title: GroupDocs.Search for .NET API Reference
 description: Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/md/.
 type: docs
-weight: 310
+weight: 320
 url: /net/groupdocs.search.results/filetype/md/
 ---
 ## FileType.MD field

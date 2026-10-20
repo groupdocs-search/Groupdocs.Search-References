@@ -14,6 +14,12 @@ Clears the dictionary.
 public abstract void Clear()
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes a dictionary that defines how the text of documents is divided into terms (see [`DictionaryRepository`](../../dictionaryrepository)), and the index of the dictionary contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [DictionaryBase](../../dictionarybase)

@@ -3,7 +3,7 @@ title: POTX
 second_title: GroupDocs.Search for .NET API Reference
 description: Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. Learn more about this file format herehttps//wiki.fileformat.com/presentation/potx/.
 type: docs
-weight: 490
+weight: 500
 url: /net/groupdocs.search.results/filetype/potx/
 ---
 ## FileType.POTX field

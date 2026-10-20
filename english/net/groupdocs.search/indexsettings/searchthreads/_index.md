@@ -1,14 +1,14 @@
 ---
 title: SearchThreads
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the number of threads used for the search. The default value is Default which means that the search will be performed using the number of threads equal to the number of processor cores.
+description: Gets or sets the number of threads used for the search. The default value is Default which means that the search will be performed using the number of threads equal to the number of processor cores ProcessorCount.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.search/indexsettings/searchthreads/
 ---
 ## IndexSettings.SearchThreads property
 
-Gets or sets the number of threads used for the search. The default value is Default, which means that the search will be performed using the number of threads equal to the number of processor cores.
+Gets or sets the number of threads used for the search. The default value is Default, which means that the search will be performed using the number of threads equal to the number of processor cores (ProcessorCount).
 
 ```csharp
 public NumberOfThreads SearchThreads { get; set; }
@@ -17,6 +17,18 @@ public NumberOfThreads SearchThreads { get; set; }
 ### Property Value
 
 The number of threads used for the search.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | The value is not a member of [`NumberOfThreads`](../../../groupdocs.search.options/numberofthreads). |
+
+### Remarks
+
+The value can be changed at any time. A search uses the value that is set when the search starts.
+
+A value changed while an index uses these settings is saved in the index at once or, if the index performs an operation at that moment, when the operation is finished. A new index uses the settings with which it is created; an existing index that is opened uses the settings saved in it, which [`IndexSettings`](../../index/indexsettings) returns.
 
 ### See Also
 

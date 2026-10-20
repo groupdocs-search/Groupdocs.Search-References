@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents OpenDocument Spreadsheet Template file format. Learn more about spreadsheet file formats herehttps//wiki.fileformat.com/spreadsheet/.
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.search.results/filetype/ots/
 ---
 ## FileType.OTS field

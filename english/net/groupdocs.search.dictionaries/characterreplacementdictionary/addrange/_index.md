@@ -18,6 +18,12 @@ public void AddRange(IEnumerable<KeyValuePair<char, char>> characterReplacements
 | --- | --- | --- |
 | characterReplacements | IEnumerable`1 | The collection of character replacements to add to the dictionary. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [CharacterReplacementDictionary](../../characterreplacementdictionary)
@@ -37,6 +43,12 @@ public void AddRange(IEnumerable<KeyValuePair<int, int>> characterReplacements)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characterReplacements | IEnumerable`1 | The collection of Unicode code point replacements to add to the dictionary. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 
@@ -58,6 +70,12 @@ public void AddRange(IEnumerable<CharacterReplacementPair> characterReplacements
 | --- | --- | --- |
 | characterReplacements | IEnumerable`1 | The collection of character replacements to add to the dictionary. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
 ### See Also
 
 * class [CharacterReplacementPair](../../characterreplacementpair)
@@ -78,6 +96,12 @@ public void AddRange(CharacterReplacementPair[] characterReplacements)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | characterReplacements | CharacterReplacementPair[] | The collection of character replacements to add to the dictionary. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
 
 ### See Also
 

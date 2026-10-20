@@ -25,8 +25,7 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 
 | Name | Description |
 | --- | --- |
-| [AddRange](../../groupdocs.search.dictionaries/homophonedictionary/addrange#addrange)(IEnumerable&lt;string[]&gt;) | Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../homophonedictionary). |
-| [AddRange](../../groupdocs.search.dictionaries/homophonedictionary/addrange#addrange_1)(string[][]) | Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../homophonedictionary). |
+| [AddRange](../../groupdocs.search.dictionaries/homophonedictionary/addrange)(IEnumerable&lt;string[]&gt;) | Adds the specified collection of homophone groups to this instance of the [`HomophoneDictionary`](../homophonedictionary). |
 | override [Clear](../../groupdocs.search.dictionaries/homophonedictionary/clear)() | Removes all words from a [`HomophoneDictionary`](../homophonedictionary) object. |
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetAllHomophoneGroups](../../groupdocs.search.dictionaries/homophonedictionary/getallhomophonegroups)() | Gets all groups of homophones contained in this dictionary. |

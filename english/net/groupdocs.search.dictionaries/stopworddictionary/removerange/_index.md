@@ -18,6 +18,16 @@ public void RemoveRange(IEnumerable<string> words)
 | --- | --- | --- |
 | words | IEnumerable`1 | The collection of words to remove. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
+### Remarks
+
+A word is removed as it is added: without the white space around it and in the lower case.
+
 ### See Also
 
 * class [StopWordDictionary](../../stopworddictionary)
@@ -37,6 +47,16 @@ public void RemoveRange(string[] words)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | words | String[] | The collection of words to remove. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The call changes the dictionary of an index that contains documents, is not in the Ready status or is disposed. |
+
+### Remarks
+
+A word is removed as it is added: without the white space around it and in the lower case.
 
 ### See Also
 

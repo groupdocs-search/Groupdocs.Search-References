@@ -3,7 +3,7 @@ title: INetworkSettings
 second_title: GroupDocs.Search for .NET API Reference
 description: Represents a network settings.
 type: docs
-weight: 1340
+weight: 1350
 url: /net/groupdocs.search.scaling.configuring/inetworksettings/
 ---
 ## INetworkSettings interface

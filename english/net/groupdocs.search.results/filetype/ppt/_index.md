@@ -3,7 +3,7 @@ title: PPT
 second_title: GroupDocs.Search for .NET API Reference
 description: A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 972003. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppt/.
 type: docs
-weight: 530
+weight: 540
 url: /net/groupdocs.search.results/filetype/ppt/
 ---
 ## FileType.PPT field
