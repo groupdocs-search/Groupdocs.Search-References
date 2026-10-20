@@ -1,14 +1,14 @@
 ---
 title: OperationFinishedEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of the indexing operation is finished.
+description: Represents arguments for the event that occurs when an index operation is finished.
 type: docs
 weight: 570
 url: /net/groupdocs.search.events/operationfinishedeventargs/
 ---
 ## OperationFinishedEventArgs class
 
-Represents arguments for the event of the indexing operation is finished.
+Represents arguments for the event that occurs when an index operation is finished.
 
 ```csharp
 public class OperationFinishedEventArgs : BaseIndexEventArgs
@@ -29,7 +29,7 @@ public class OperationFinishedEventArgs : BaseIndexEventArgs
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### See Also
 

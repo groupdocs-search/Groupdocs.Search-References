@@ -20,7 +20,7 @@ The custom extractor collection.
 
 ### Remarks
 
-The full example of implementing a custom extractor is presented in documentation for [`IFieldExtractor`](../../../groupdocs.search.common/ifieldextractor) interface.
+The full example of implementing a custom extractor is presented in the documentation for the [`IFieldExtractor`](../../../groupdocs.search.common/ifieldextractor) interface.
 
 ### See Also
 

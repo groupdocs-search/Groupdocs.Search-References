@@ -18,6 +18,10 @@ public bool IsChunkSearch { get; set; }
 
 The flag of search by chunks.
 
+### Remarks
+
+The next chunk is searched with [`SearchNext`](../../../groupdocs.search/index/searchnext) while [`NextChunkSearchToken`](../../../groupdocs.search.results/searchresult/nextchunksearchtoken) is not `null`. The number of chunks is not fixed: index segments in which the query cannot find anything are skipped, so the number of chunks can differ from search to search.
+
 ### See Also
 
 * class [SearchOptions](../../searchoptions)

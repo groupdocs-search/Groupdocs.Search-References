@@ -16,7 +16,7 @@ public void SetRange(char[] characters, CharacterType type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| characters | Char[] | The collection of characters to set the type. |
+| characters | Char[] | The collection of characters to set the type for. |
 | type | CharacterType | The character type. |
 
 ### Exceptions
@@ -44,7 +44,7 @@ public void SetRange(string[] characters, CharacterType type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| characters | String[] | The collection of characters and surrogate pairs to set the type. |
+| characters | String[] | The collection of characters and surrogate pairs to set the type for. |
 | type | CharacterType | The character type. |
 
 ### Exceptions
@@ -72,7 +72,7 @@ public void SetRange(int[] codePoints, CharacterType type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codePoints | Int32[] | The collection of Unicode code points to set the type. |
+| codePoints | Int32[] | The collection of Unicode code points to set the type for. |
 | type | CharacterType | The character type. |
 
 ### Exceptions

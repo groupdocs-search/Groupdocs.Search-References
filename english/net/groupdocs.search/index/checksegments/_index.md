@@ -1,14 +1,14 @@
 ---
 title: CheckSegments
 second_title: GroupDocs.Search for .NET API Reference
-description: Checks the index for damaged segment files on the disk. The method fixes index functionality in the presence of damaged segments if fixIndexFunctionality is true does not fix  otherwise.
+description: Checks the index files for damage. The method repairs the index if fixIndexFunctionality is true otherwise it only reports the damage found.
 type: docs
 weight: 100
 url: /net/groupdocs.search/index/checksegments/
 ---
 ## Index.CheckSegments method
 
-Checks the index for damaged segment files on the disk. The method fixes index functionality in the presence of damaged segments, if *fixIndexFunctionality* is true; does not fix - otherwise.
+Checks the index files for damage. The method repairs the index if *fixIndexFunctionality* is `true`; otherwise, it only reports the damage found.
 
 ```csharp
 public void CheckSegments(bool fixIndexFunctionality)
@@ -17,6 +17,10 @@ public void CheckSegments(bool fixIndexFunctionality)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fixIndexFunctionality | Boolean | The index functionality fix flag. |
+
+### Remarks
+
+Every damage found and every repair made is reported through the [`ErrorOccurred`](../../../groupdocs.search.events/eventhub/erroroccurred) event. The repair keeps documents whenever possible: the documents of a segment or a text that cannot be restored are deleted from the index, so that the next update indexes their files again.
 
 ### See Also
 

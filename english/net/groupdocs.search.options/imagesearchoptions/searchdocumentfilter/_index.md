@@ -1,14 +1,14 @@
 ---
 title: SearchDocumentFilter
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the search document filter. SearchDocumentFiltergroupdocs.search.options/imagesearchoptions/searchdocumentfilter works on the inclusion logic. Use SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter class for creation of a search document filter instances. The default value is null which means that all found documents will be returned.
+description: Gets or sets the search document filter. SearchDocumentFiltergroupdocs.search.options/imagesearchoptions/searchdocumentfilter works on the inclusion logic. Use SearchDocumentFiltergroupdocs.search.options/searchdocumentfilter class for creation of search document filter instances. The default value is null which means that all found documents will be returned.
 type: docs
 weight: 40
 url: /net/groupdocs.search.options/imagesearchoptions/searchdocumentfilter/
 ---
 ## ImageSearchOptions.SearchDocumentFilter property
 
-Gets or sets the search document filter. `SearchDocumentFilter` works on the inclusion logic. Use [`SearchDocumentFilter`](../../searchdocumentfilter) class for creation of a search document filter instances. The default value is `null`, which means that all found documents will be returned.
+Gets or sets the search document filter. `SearchDocumentFilter` works on the inclusion logic. Use [`SearchDocumentFilter`](../../searchdocumentfilter) class for creation of search document filter instances. The default value is `null`, which means that all found documents will be returned.
 
 ```csharp
 public ISearchDocumentFilter SearchDocumentFilter { get; set; }

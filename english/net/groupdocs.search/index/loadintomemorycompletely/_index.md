@@ -22,6 +22,12 @@ public static Index LoadIntoMemoryCompletely(string indexFolder)
 
 The loaded in-memory index.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
+
 ### See Also
 
 * class [Index](../../index)
@@ -46,6 +52,12 @@ public static Index LoadIntoMemoryCompletely(string indexFolder, IndexSettings s
 ### Return Value
 
 The loaded in-memory index.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
 
 ### See Also
 

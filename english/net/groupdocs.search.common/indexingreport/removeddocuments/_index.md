@@ -1,14 +1,14 @@
 ---
 title: RemovedDocuments
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the list of removed from index documents.
+description: Gets the list of documents removed from the index.
 type: docs
 weight: 60
 url: /net/groupdocs.search.common/indexingreport/removeddocuments/
 ---
 ## IndexingReport.RemovedDocuments property
 
-Gets the list of removed from index documents.
+Gets the list of documents removed from the index.
 
 ```csharp
 public string[] RemovedDocuments { get; }
@@ -16,7 +16,7 @@ public string[] RemovedDocuments { get; }
 
 ### Property Value
 
-The list of removed from index documents.
+The list of documents removed from the index.
 
 ### See Also
 

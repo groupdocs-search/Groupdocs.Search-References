@@ -20,7 +20,7 @@ public DocumentInfo[] GetIndexedDocumentItems(DocumentInfo documentInfo)
 
 ### Return Value
 
-An array of a document items.
+An array of document items.
 
 ### Examples
 

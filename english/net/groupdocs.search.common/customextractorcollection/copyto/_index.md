@@ -16,7 +16,7 @@ public void CopyTo(IFieldExtractor[] array, int arrayIndex)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | IFieldExtractor[] | The one-dimensional array that is the destination of the elements copied from collection. The array must have zero-based indexing. |
+| array | IFieldExtractor[] | The one-dimensional array that is the destination of the elements copied from the collection. The array must have zero-based indexing. |
 | arrayIndex | Int32 | The zero-based index in array at which copying begins. |
 
 ### See Also

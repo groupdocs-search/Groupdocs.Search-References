@@ -18,7 +18,7 @@ public class LicenseRestrictionException : ApplicationException
 
 **Learn more**
 
-* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
+* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/search/net/evaluation-limitations-and-licensing/)
 
 ### See Also
 

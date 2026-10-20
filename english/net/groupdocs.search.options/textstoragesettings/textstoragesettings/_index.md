@@ -16,7 +16,7 @@ public TextStorageSettings(Compression compression)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| compression | Compression | The compression of text storage. |
+| compression | Compression | The compression of the text storage. |
 
 ### See Also
 

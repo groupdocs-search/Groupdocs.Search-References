@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides methods for applying license.
+description: Provides methods for applying a license.
 type: docs
 weight: 750
 url: /net/groupdocs.search/license/
 ---
 ## License class
 
-Provides methods for applying license.
+Provides methods for applying a license.
 
 ```csharp
 public sealed class License
@@ -31,11 +31,11 @@ public sealed class License
 
 **Learn more**
 
-* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
+* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/search/net/evaluation-limitations-and-licensing/)
 
 ### Examples
 
-The example demonstrates how to setup license.
+The example demonstrates how to set up a license.
 
 ```csharp
 License license = new License();

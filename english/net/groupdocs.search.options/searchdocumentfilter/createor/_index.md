@@ -20,7 +20,7 @@ public static ISearchDocumentFilter CreateOr(params ISearchDocumentFilter[] filt
 
 ### Return Value
 
-A search document filter that represents result of disjunction of the specified filters.
+A search document filter that represents the result of disjunction of the specified filters.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: CustomExtractorCollection
 second_title: GroupDocs.Search for .NET API Reference
-description: Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by buildin extractors then this extractor will be used instead of builtin one.
+description: Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by builtin extractors then this extractor will be used instead of the builtin one.
 type: docs
 weight: 40
 url: /net/groupdocs.search.common/customextractorcollection/
 ---
 ## CustomExtractorCollection class
 
-Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by build-in extractors, then this extractor will be used instead of built-in one.
+Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by built-in extractors, then this extractor will be used instead of the built-in one.
 
 ```csharp
 public class CustomExtractorCollection : ICollection<IFieldExtractor>
@@ -36,7 +36,7 @@ public class CustomExtractorCollection : ICollection<IFieldExtractor>
 
 **Learn more**
 
-* [Custom text extractors](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
+* [Custom text extractors](https://docs.groupdocs.com/search/net/custom-text-extractors/)
 
 ### See Also
 

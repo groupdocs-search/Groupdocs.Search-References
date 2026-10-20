@@ -8,7 +8,7 @@ url: /net/groupdocs.search.options/metadataindexingoptions/separatorbetweenvalue
 ---
 ## MetadataIndexingOptions.SeparatorBetweenValues property
 
-Gets or sets the separator between values ​​in a field of type array. The default value is the space sign.
+Gets or sets the separator between values in a field of type array. The default value is the space sign.
 
 ```csharp
 public string SeparatorBetweenValues { get; set; }
@@ -16,7 +16,7 @@ public string SeparatorBetweenValues { get; set; }
 
 ### Property Value
 
-The separator between values ​​in a field of type array.
+The separator between values in a field of type array.
 
 ### See Also
 

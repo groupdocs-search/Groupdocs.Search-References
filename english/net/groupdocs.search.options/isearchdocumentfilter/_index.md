@@ -1,14 +1,14 @@
 ---
 title: ISearchDocumentFilter
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents search document filter. Use SearchDocumentFilter./searchdocumentfilter class for creation of a filter instances.
+description: Represents a search document filter. Use the SearchDocumentFilter./searchdocumentfilter class for creation of filter instances.
 type: docs
 weight: 940
 url: /net/groupdocs.search.options/isearchdocumentfilter/
 ---
 ## ISearchDocumentFilter interface
 
-Represents search document filter. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of a filter instances.
+Represents a search document filter. Use the [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of filter instances.
 
 ```csharp
 public interface ISearchDocumentFilter

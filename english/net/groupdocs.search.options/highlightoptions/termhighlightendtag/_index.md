@@ -1,14 +1,14 @@
 ---
 title: TermHighlightEndTag
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets of sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+description: Gets or sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
 type: docs
 weight: 30
 url: /net/groupdocs.search.options/highlightoptions/termhighlightendtag/
 ---
 ## HighlightOptions.TermHighlightEndTag property
 
-Gets of sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
+Gets or sets the end tag of the highlighting of the found word. This tag is used only when highlighting in plain text. The default value is an empty string.
 
 ```csharp
 public string TermHighlightEndTag { get; set; }

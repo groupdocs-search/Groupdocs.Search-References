@@ -31,7 +31,7 @@ public interface IFieldExtractor
 
 **Learn more**
 
-* [Custom text extractors](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
+* [Custom text extractors](https://docs.groupdocs.com/search/net/custom-text-extractors/)
 
 ### Examples
 
@@ -59,21 +59,29 @@ public class LogExtractor : IFieldExtractor
         return fields;
     }
 
+    public DocumentField[] GetFields(Stream stream)
+    {
+        throw new NotSupportedException(); // Extraction from a stream is not supported in this example
+    }
+
     private string ExtractContent(string filePath)
     {
         StringBuilder result = new StringBuilder();
         using (StreamReader streamReader = File.OpenText(filePath))
         {
-            string line = streamReader.ReadLine();
-            string processedLine = line.Remove(0, 12);
-            result.AppendLine(processedLine);
+            string line;
+            while ((line = streamReader.ReadLine()) != null)
+            {
+                string processedLine = line.Remove(0, 12);
+                result.AppendLine(processedLine);
+            }
         }
         return result.ToString();
     }
 }
 ```
 
-The example demonstrates how to use the custorm extractor for indexing.
+The example demonstrates how to use the custom extractor for indexing.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\"; // Specify path to the index folder

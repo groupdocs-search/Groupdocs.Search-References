@@ -1,14 +1,14 @@
 ---
 title: IndexedWithError
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the indicator of indexing error.
+description: Gets the indicator of an indexing error.
 type: docs
 weight: 60
 url: /net/groupdocs.search.results/documentinfo/indexedwitherror/
 ---
 ## DocumentInfo.IndexedWithError property
 
-Gets the indicator of indexing error.
+Gets the indicator of an indexing error.
 
 ```csharp
 public bool IndexedWithError { get; }
@@ -16,7 +16,7 @@ public bool IndexedWithError { get; }
 
 ### Property Value
 
-The indicator of indexing error.
+The indicator of an indexing error.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: GroupDocs.Search for .NET API Reference
-description: Sets metered public and private key.
+description: Sets the metered public and private keys.
 type: docs
 weight: 20
 url: /net/groupdocs.search/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Sets metered public and private key.
+Sets the metered public and private keys.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

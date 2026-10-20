@@ -1,14 +1,14 @@
 ---
 title: SearchReport
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a detailed information on a search operation.
+description: Represents detailed information on a search operation.
 type: docs
 weight: 300
 url: /net/groupdocs.search.common/searchreport/
 ---
 ## SearchReport class
 
-Represents a detailed information on a search operation.
+Represents detailed information on a search operation.
 
 ```csharp
 public class SearchReport
@@ -37,7 +37,7 @@ public class SearchReport
 
 **Learn more**
 
-* [Search reports](https://docs.groupdocs.com/display/searchnet/Search+reports)
+* [Search reports](https://docs.groupdocs.com/search/net/search-reports/)
 
 ### Examples
 

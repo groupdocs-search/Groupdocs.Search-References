@@ -24,7 +24,7 @@ public abstract class Notification
 
 **Learn more**
 
-* [Document renaming](https://docs.groupdocs.com/display/searchnet/Document+renaming)
+* [Document renaming](https://docs.groupdocs.com/search/net/document-renaming/)
 
 ### See Also
 

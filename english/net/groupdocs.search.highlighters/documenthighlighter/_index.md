@@ -31,7 +31,7 @@ public class DocumentHighlighter : Highlighter
 
 **Learn more**
 
-* [Highlighting search results](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
+* [Highlighting search results](https://docs.groupdocs.com/search/net/highlighting-search-results/)
 
 ### Examples
 
@@ -47,7 +47,7 @@ Index index = new Index(indexFolder);
 // Indexing documents from the specified folder
 index.Add(documentsFolder);
 
-// Search for the phase 'Theory of Relativity'
+// Search for the phrase 'Theory of Relativity'
 SearchResult result = index.Search("\"Theory of Relativity\"");
 
 // Highlighting found words in the text of a document

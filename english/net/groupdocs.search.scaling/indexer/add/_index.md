@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Search for .NET API Reference
-description: Performs indexing operation. Indexing only from stream and structure is supported.
+description: Performs an indexing operation. Indexing only from stream and structure is supported.
 type: docs
 weight: 20
 url: /net/groupdocs.search.scaling/indexer/add/
 ---
 ## Add(IList&lt;Document&gt;, IList&lt;string&gt;, IndexingOptions) {#add}
 
-Performs indexing operation. Indexing only from stream and structure is supported.
+Performs an indexing operation. Indexing only from stream and structure is supported.
 
 ```csharp
 public void Add(IList<Document> documents, IList<string> passwords, IndexingOptions options)
@@ -32,7 +32,7 @@ public void Add(IList<Document> documents, IList<string> passwords, IndexingOpti
 
 ## Add(IList&lt;ExtractedData&gt;, IndexingOptions) {#add_1}
 
-Performs indexing operation. Adds the extracted data to the search network.
+Performs an indexing operation. Adds the extracted data to the search network.
 
 ```csharp
 public void Add(IList<ExtractedData> data, IndexingOptions options)

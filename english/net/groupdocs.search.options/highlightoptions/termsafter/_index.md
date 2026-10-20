@@ -1,14 +1,14 @@
 ---
 title: TermsAfter
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the maximum number of words in a text fragment after highlighted word. The value must be in the range from 0 to 10000. The default value is 7.
+description: Gets or sets the maximum number of words in a text fragment after a highlighted word. The value must be in the range from 0 to 10000. The default value is 7.
 type: docs
 weight: 50
 url: /net/groupdocs.search.options/highlightoptions/termsafter/
 ---
 ## HighlightOptions.TermsAfter property
 
-Gets or sets the maximum number of words in a text fragment after highlighted word. The value must be in the range from 0 to 10000. The default value is `7`.
+Gets or sets the maximum number of words in a text fragment after a highlighted word. The value must be in the range from 0 to 10000. The default value is `7`.
 
 ```csharp
 public int TermsAfter { get; set; }
@@ -16,7 +16,7 @@ public int TermsAfter { get; set; }
 
 ### Property Value
 
-The maximum number of words in a text fragment after highlighted word.
+The maximum number of words in a text fragment after a highlighted word.
 
 ### See Also
 

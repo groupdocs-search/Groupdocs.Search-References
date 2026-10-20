@@ -1,14 +1,14 @@
 ---
 title: DataExtractedEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of a document data extraction is finished.
+description: Represents arguments for the event that occurs when data extraction from a document is finished.
 type: docs
 weight: 1410
 url: /net/groupdocs.search.scaling.events/dataextractedeventargs/
 ---
 ## DataExtractedEventArgs class
 
-Represents arguments for the event of a document data extraction is finished.
+Represents arguments for the event that occurs when data extraction from a document is finished.
 
 ```csharp
 public class DataExtractedEventArgs : EventArgs

@@ -20,7 +20,7 @@ public abstract SearchQuery GetChild(int index)
 
 ### Return Value
 
-A child query corresponding the specified index.
+A child query corresponding to the specified index.
 
 ### See Also
 

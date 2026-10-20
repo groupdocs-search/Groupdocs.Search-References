@@ -1,14 +1,14 @@
 ---
 title: OutputFormat
 second_title: GroupDocs.Search for .NET API Reference
-description: The output format of a data.
+description: The output format of data.
 type: docs
 weight: 1080
 url: /net/groupdocs.search.options/outputformat/
 ---
 ## OutputFormat enumeration
 
-The output format of a data.
+The output format of data.
 
 ```csharp
 public enum OutputFormat

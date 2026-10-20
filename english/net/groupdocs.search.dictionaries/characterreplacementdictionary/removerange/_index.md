@@ -34,7 +34,7 @@ public void RemoveRange(IEnumerable<char> characters)
 
 ## RemoveRange(IEnumerable&lt;int&gt;) {#removerange_3}
 
-Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+Removes the specified collection of Unicode code point replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public void RemoveRange(IEnumerable<int> codePoints)
@@ -86,7 +86,7 @@ public void RemoveRange(char[] characters)
 
 ## RemoveRange(int[]) {#removerange_1}
 
-Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
+Removes the specified collection of Unicode code point replacements from this instance of the [`CharacterReplacementDictionary`](../../characterreplacementdictionary).
 
 ```csharp
 public void RemoveRange(int[] codePoints)

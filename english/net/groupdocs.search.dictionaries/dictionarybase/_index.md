@@ -32,7 +32,7 @@ public abstract class DictionaryBase
 
 **Learn more**
 
-* [Update index](https://docs.groupdocs.com/display/searchnet/Update+index)
+* [Update index](https://docs.groupdocs.com/search/net/update-index/)
 
 ### See Also
 

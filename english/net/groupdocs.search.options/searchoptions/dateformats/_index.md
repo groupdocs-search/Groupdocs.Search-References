@@ -35,7 +35,9 @@ options.DateFormats.Clear(); // Removing default date formats
 DateFormatElement[] elements = new DateFormatElement[]
 {
     DateFormatElement.MonthTwoDigits,
+    DateFormatElement.DateSeparator,
     DateFormatElement.DayOfMonthTwoDigits,
+    DateFormatElement.DateSeparator,
     DateFormatElement.YearFourDigits,
 };
 // Creating a date format pattern 'MM/dd/yyyy'

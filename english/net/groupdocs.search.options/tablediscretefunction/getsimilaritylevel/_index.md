@@ -1,14 +1,14 @@
 ---
 title: GetSimilarityLevel
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a similarity level for specified term length.
+description: Gets a similarity level for the specified term length.
 type: docs
 weight: 30
 url: /net/groupdocs.search.options/tablediscretefunction/getsimilaritylevel/
 ---
 ## TableDiscreteFunction.GetSimilarityLevel method
 
-Gets a similarity level for specified term length.
+Gets a similarity level for the specified term length.
 
 ```csharp
 public override double GetSimilarityLevel(int termLength)

@@ -1,14 +1,14 @@
 ---
 title: SearchOptions
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the search options of this seach query.
+description: Gets or sets the search options of this search query.
 type: docs
 weight: 150
 url: /net/groupdocs.search/searchquery/searchoptions/
 ---
 ## SearchQuery.SearchOptions property
 
-Gets or sets the search options of this seach query.
+Gets or sets the search options of this search query.
 
 ```csharp
 public SearchOptions SearchOptions { get; set; }

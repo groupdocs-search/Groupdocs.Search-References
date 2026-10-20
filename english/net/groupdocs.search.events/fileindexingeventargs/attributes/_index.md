@@ -1,14 +1,14 @@
 ---
 title: Attributes
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or set the attributes of the document.
+description: Gets or sets the attributes of the document.
 type: docs
 weight: 20
 url: /net/groupdocs.search.events/fileindexingeventargs/attributes/
 ---
 ## FileIndexingEventArgs.Attributes property
 
-Gets or set the attributes of the document.
+Gets or sets the attributes of the document.
 
 ```csharp
 public string[] Attributes { get; set; }

@@ -36,7 +36,7 @@ public class StringOutputAdapter : OutputAdapter
 
 **Learn more**
 
-* [Output adapters](https://docs.groupdocs.com/display/searchnet/Output+adapters)
+* [Output adapters](https://docs.groupdocs.com/search/net/output-adapters/)
 
 ### Examples
 

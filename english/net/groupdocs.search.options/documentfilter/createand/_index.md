@@ -20,7 +20,7 @@ public static DocumentFilter CreateAnd(params DocumentFilter[] filters)
 
 ### Return Value
 
-A document filter that represents result of conjunction of the specified filters.
+A document filter that represents the result of conjunction of the specified filters.
 
 ### See Also
 

@@ -23,7 +23,7 @@ public void AddRange(IEnumerable<string[]> synonyms)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *synonyms* is `null`. |
-| ArgumentException | Thrown when number of synonyms in a group is less than 2. |
+| ArgumentException | Thrown when the number of synonyms in a group is less than 2. |
 
 ### See Also
 

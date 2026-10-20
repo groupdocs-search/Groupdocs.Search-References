@@ -16,11 +16,11 @@ The namespace provides classes of event arguments.
 | [EventHub](./eventhub) | Provides index events for subscribing. |
 | [FileIndexingEventArgs](./fileindexingeventargs) | Represents arguments for the event of a document indexing start. |
 | [ImagePreparingEventArgs](./imagepreparingeventargs) | Represents arguments for the event of an image preparing start. |
-| [IndexErrorEventArgs](./indexerroreventargs) | Represents arguments for the event of index error occurred. |
-| [OperationFinishedEventArgs](./operationfinishedeventargs) | Represents arguments for the event of the indexing operation is finished. |
+| [IndexErrorEventArgs](./indexerroreventargs) | Represents arguments for the event of an index error. |
+| [OperationFinishedEventArgs](./operationfinishedeventargs) | Represents arguments for the event that occurs when an index operation is finished. |
 | [OperationProgressEventArgs](./operationprogresseventargs) | Represents the arguments for the progress change event of the indexing operation. |
 | [OptimizationProgressEventArgs](./optimizationprogresseventargs) | Represents the arguments for the progress change event of the optimization operation. |
-| [PasswordRequiredEventArgs](./passwordrequiredeventargs) | Represents arguments for the event that occurs when document protected by a password is indexing. |
+| [PasswordRequiredEventArgs](./passwordrequiredeventargs) | Represents arguments for the event that occurs when a document protected by a password is being indexed. |
 | [SearchPhaseEventArgs](./searchphaseeventargs) | Represents arguments for the search phase changing events. |
 ## Enumeration
 

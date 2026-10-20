@@ -22,7 +22,7 @@ public class FoundDocument
 | [DocumentInfo](../../groupdocs.search.results/founddocument/documentinfo) { get; } | Gets the document info. |
 | [FoundFields](../../groupdocs.search.results/founddocument/foundfields) { get; } | Gets the document fields found. |
 | [OccurrenceCount](../../groupdocs.search.results/founddocument/occurrencecount) { get; } | Gets the number of occurrences found. |
-| [Relevance](../../groupdocs.search.results/founddocument/relevance) { get; } | Gets the relevance of search result. |
+| [Relevance](../../groupdocs.search.results/founddocument/relevance) { get; } | Gets the relevance of the search result. |
 | [Terms](../../groupdocs.search.results/founddocument/terms) { get; } | Gets the terms found. The value is evaluated each time the property is accessed. |
 | [TermSequences](../../groupdocs.search.results/founddocument/termsequences) { get; } | Gets the term sequences found. |
 
@@ -32,13 +32,13 @@ public class FoundDocument
 | --- | --- |
 | static [Deserialize](../../groupdocs.search.results/founddocument/deserialize)(byte[]) | Deserializes an instance from a byte array. |
 | [Serialize](../../groupdocs.search.results/founddocument/serialize)() | Serializes the current instance to a byte array. |
-| override [ToString](../../groupdocs.search.results/founddocument/tostring)() | Returns string representation of the found document. |
+| override [ToString](../../groupdocs.search.results/founddocument/tostring)() | Returns a string representation of the found document. |
 
 ### Remarks
 
 **Learn more**
 
-* [Search results](https://docs.groupdocs.com/display/searchnet/Search+results)
+* [Search results](https://docs.groupdocs.com/search/net/search-results/)
 
 ### See Also
 

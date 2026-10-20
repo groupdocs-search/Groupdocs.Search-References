@@ -1,14 +1,14 @@
 ---
 title: DocumentImage
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a document image data.
+description: Represents document image data.
 type: docs
 weight: 70
 url: /net/groupdocs.search.common/documentimage/
 ---
 ## DocumentImage class
 
-Represents a document image data.
+Represents document image data.
 
 ```csharp
 public class DocumentImage

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Search for .NET API Reference
-description: Returns string representation of the found document.
+description: Returns a string representation of the found document.
 type: docs
 weight: 100
 url: /net/groupdocs.search.results/founddocument/tostring/
 ---
 ## FoundDocument.ToString method
 
-Returns string representation of the found document.
+Returns a string representation of the found document.
 
 ```csharp
 public override string ToString()

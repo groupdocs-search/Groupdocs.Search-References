@@ -1,14 +1,14 @@
 ---
 title: MergeOptions
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides options for merge operation.
+description: Provides options for the merge operation.
 type: docs
 weight: 1020
 url: /net/groupdocs.search.options/mergeoptions/
 ---
 ## MergeOptions class
 
-Provides options for merge operation.
+Provides options for the merge operation.
 
 ```csharp
 public class MergeOptions
@@ -25,14 +25,14 @@ public class MergeOptions
 | Name | Description |
 | --- | --- |
 | [Cancellation](../../groupdocs.search.options/mergeoptions/cancellation) { get; set; } | Gets or sets the operation cancellation object. The default value is `null`. |
-| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
+| [IsAsync](../../groupdocs.search.options/mergeoptions/isasync) { get; set; } | Gets or sets the flag of performing the operation asynchronously. The default value is `false`. |
 
 ### Remarks
 
 **Learn more**
 
-* [Merge indexes](https://docs.groupdocs.com/display/searchnet/Merge+indexes)
-* [Optimize index](https://docs.groupdocs.com/display/searchnet/Optimize+index)
+* [Merge indexes](https://docs.groupdocs.com/search/net/merge-indexes/)
+* [Optimize index](https://docs.groupdocs.com/search/net/optimize-index/)
 
 ### See Also
 

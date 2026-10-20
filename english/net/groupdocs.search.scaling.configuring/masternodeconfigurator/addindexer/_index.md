@@ -16,7 +16,7 @@ public MasterNodeConfigurator AddIndexer(string storagePath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| storagePath | String | The storage path of the adding service. |
+| storagePath | String | The storage path of the service being added. |
 
 ### Return Value
 

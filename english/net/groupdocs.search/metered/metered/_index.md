@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Search for .NET API Reference
-description: Initializes a new instance of Meteredgroupdocs.search/metered class.
+description: Initializes a new instance of the Meteredgroupdocs.search/metered class.
 type: docs
 weight: 10
 url: /net/groupdocs.search/metered/metered/
 ---
 ## Metered constructor
 
-Initializes a new instance of [`Metered`](../../metered) class.
+Initializes a new instance of the [`Metered`](../../metered) class.
 
 ```csharp
 public Metered()

@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: GroupDocs.Search for .NET API Reference
-description: Returns a description of deletion error.
+description: Returns a description of a deletion error.
 type: docs
 weight: 10
 url: /net/groupdocs.search.results/pathdeleteresult/error/
 ---
 ## PathDeleteResult.Error property
 
-Returns a description of deletion error.
+Returns a description of a deletion error.
 
 ```csharp
 public string Error { get; }
@@ -16,7 +16,7 @@ public string Error { get; }
 
 ### Property Value
 
-A description of deletion error.
+A description of a deletion error.
 
 ### See Also
 

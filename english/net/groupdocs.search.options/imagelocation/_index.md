@@ -18,7 +18,7 @@ public enum ImageLocation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Separate | `0` | An image in separate file. |
+| Separate | `0` | An image in a separate file. |
 | Embedded | `1` | An image embedded in another document. |
 | ContainerItem | `2` | An image that is an element in a container file. |
 

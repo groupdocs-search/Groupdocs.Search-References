@@ -1,14 +1,14 @@
 ---
 title: Alphabet
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator as letter or both.
+description: Represents a dictionary of characters that is used during indexing to detect the character type. Each character can be handled as a separator as a letter or both.
 type: docs
 weight: 380
 url: /net/groupdocs.search.dictionaries/alphabet/
 ---
 ## Alphabet class
 
-Represents a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator, as letter, or both.
+Represents a dictionary of characters that is used during indexing to detect the character type. Each character can be handled as a separator, as a letter, or both.
 
 ```csharp
 public class Alphabet : DictionaryBase, IEnumerable<int>
@@ -29,7 +29,7 @@ public class Alphabet : DictionaryBase, IEnumerable<int>
 | [ExportDictionary](../../groupdocs.search.dictionaries/dictionarybase/exportdictionary)(string) | Exports the dictionary to a file with the specified name. |
 | [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype)(char) | Gets a type of a character. |
 | [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype_1)(int) | Gets a type of a Unicode code point. |
-| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype_2)(string) | Gets a type of a character. This method can be used to obtain the type of surrogate pair. |
+| [GetCharacterType](../../groupdocs.search.dictionaries/alphabet/getcharactertype#getcharactertype_2)(string) | Gets a type of a character. This method can be used to obtain the type of a surrogate pair. |
 | [GetEnumerator](../../groupdocs.search.dictionaries/alphabet/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | Imports a dictionary from the specified file. |
 | [SetRange](../../groupdocs.search.dictionaries/alphabet/setrange#setrange)(char[], CharacterType) | Sets the type for each character of the specified collection in this instance of the [`Alphabet`](../alphabet). |
@@ -44,8 +44,8 @@ A change of the dictionary of an index is saved in the index at once. If it cann
 
 **Learn more**
 
-* [Character types](https://docs.groupdocs.com/display/searchnet/Character+types)
-* [Managing alphabet](https://docs.groupdocs.com/display/searchnet/Alphabet)
+* [Character types](https://docs.groupdocs.com/search/net/character-types/)
+* [Managing alphabet](https://docs.groupdocs.com/search/net/alphabet/)
 
 ### See Also
 

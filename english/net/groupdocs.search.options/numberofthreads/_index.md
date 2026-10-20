@@ -32,7 +32,7 @@ public enum NumberOfThreads
 
 **Learn more**
 
-* [Search index settings](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
+* [Search index settings](https://docs.groupdocs.com/search/net/search-index-settings/)
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: HashDifferences
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the maximum number of mismatched bits in the image hash. The default value is 5.
+description: Gets or sets the maximum number of mismatched bits in the image hash. The image hash is 64 bits long so the meaningful values are from 0 to 64 a greater value is treated as 64 and a negative value finds no images. The default value is 5.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/imagesearchoptions/hashdifferences/
 ---
 ## ImageSearchOptions.HashDifferences property
 
-Gets or sets the maximum number of mismatched bits in the image hash. The default value is `5`.
+Gets or sets the maximum number of mismatched bits in the image hash. The image hash is 64 bits long, so the meaningful values are from `0` to `64`: a greater value is treated as `64`, and a negative value finds no images. The default value is `5`.
 
 ```csharp
 public int HashDifferences { get; set; }

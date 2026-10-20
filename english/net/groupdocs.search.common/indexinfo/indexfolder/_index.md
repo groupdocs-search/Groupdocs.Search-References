@@ -1,14 +1,14 @@
 ---
 title: IndexFolder
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the full folder name where index is located.
+description: Gets the full folder name where the index is located.
 type: docs
 weight: 10
 url: /net/groupdocs.search.common/indexinfo/indexfolder/
 ---
 ## IndexInfo.IndexFolder property
 
-Gets the full folder name where index is located.
+Gets the full folder name where the index is located.
 
 ```csharp
 public string IndexFolder { get; }
@@ -16,7 +16,7 @@ public string IndexFolder { get; }
 
 ### Property Value
 
-The full folder name where index is located.
+The full folder name where the index is located.
 
 ### See Also
 

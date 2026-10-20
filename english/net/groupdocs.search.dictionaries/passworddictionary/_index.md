@@ -38,8 +38,8 @@ public class PasswordDictionary : DictionaryBase, IEnumerable<string>
 
 **Learn more**
 
-* [Indexing password protected documents](https://docs.groupdocs.com/display/searchnet/Indexing+password+protected+documents)
-* [Managing document passwords](https://docs.groupdocs.com/display/searchnet/Document+passwords)
+* [Indexing password protected documents](https://docs.groupdocs.com/search/net/indexing-password-protected-documents/)
+* [Managing document passwords](https://docs.groupdocs.com/search/net/document-passwords/)
 
 ### See Also
 

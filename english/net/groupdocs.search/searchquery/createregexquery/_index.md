@@ -41,7 +41,7 @@ public static SearchQuery CreateRegexQuery(string pattern, RegexOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pattern | String | The regular expression pattern to match. |
-| options | RegexOptions | A bitwise combination of the enumeration values that modify the regular expression. This value must contain IgnoreCase flag. |
+| options | RegexOptions | A bitwise combination of the enumeration values that modify the regular expression. This value must contain the IgnoreCase flag. |
 
 ### Return Value
 

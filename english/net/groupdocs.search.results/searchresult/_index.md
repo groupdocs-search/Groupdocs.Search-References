@@ -20,12 +20,12 @@ public class SearchResult : IEnumerable<FoundDocument>
 | --- | --- |
 | [DocumentCount](../../groupdocs.search.results/searchresult/documentcount) { get; } | Gets the number of documents found. |
 | [EndTime](../../groupdocs.search.results/searchresult/endtime) { get; } | Gets the end time of the search. |
-| [NextChunkSearchToken](../../groupdocs.search.results/searchresult/nextchunksearchtoken) { get; } | Gets a chunk search token for searching the next chunk. |
+| [NextChunkSearchToken](../../groupdocs.search.results/searchresult/nextchunksearchtoken) { get; } | Gets a chunk search token for searching the next chunk. The value is `null` if there are no more chunks to search. |
 | [OccurrenceCount](../../groupdocs.search.results/searchresult/occurrencecount) { get; } | Gets the total number of occurrences found. |
 | [SearchDuration](../../groupdocs.search.results/searchresult/searchduration) { get; } | Gets the search duration. |
 | [StartTime](../../groupdocs.search.results/searchresult/starttime) { get; } | Gets the start time of the search. |
 | [Truncated](../../groupdocs.search.results/searchresult/truncated) { get; } | Gets a value indicating that the result is truncated. |
-| [Warnings](../../groupdocs.search.results/searchresult/warnings) { get; } | Gets a warnings describing the result. |
+| [Warnings](../../groupdocs.search.results/searchresult/warnings) { get; } | Gets the warnings describing the result. |
 
 ## Methods
 
@@ -38,8 +38,8 @@ public class SearchResult : IEnumerable<FoundDocument>
 
 **Learn more**
 
-* [Searching](https://docs.groupdocs.com/display/searchnet/Searching)
-* [Search results](https://docs.groupdocs.com/display/searchnet/Search+results)
+* [Searching](https://docs.groupdocs.com/search/net/searching/)
+* [Search results](https://docs.groupdocs.com/search/net/search-results/)
 
 ### Examples
 
@@ -75,7 +75,7 @@ for (int i = 0; i < result.DocumentCount; i++)
     {
         FoundDocumentField field = document.FoundFields[j];
         Console.WriteLine("\t\tField: " + field.FieldName);
-        Console.WriteLine("\t\tOccurrences: " + document.OccurrenceCount);
+        Console.WriteLine("\t\tOccurrences: " + field.OccurrenceCount);
         // Printing found terms
         if (field.Terms != null)
         {

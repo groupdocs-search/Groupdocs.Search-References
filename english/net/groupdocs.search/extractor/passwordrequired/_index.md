@@ -1,14 +1,14 @@
 ---
 title: PasswordRequired
 second_title: GroupDocs.Search for .NET API Reference
-description: Occurs when a document requires password for opening.
+description: Occurs when a document requires a password for opening.
 type: docs
 weight: 50
 url: /net/groupdocs.search/extractor/passwordrequired/
 ---
 ## Extractor.PasswordRequired event
 
-Occurs when a document requires password for opening.
+Occurs when a document requires a password for opening.
 
 ```csharp
 public event EventHandler<PasswordRequiredEventArgs> PasswordRequired;

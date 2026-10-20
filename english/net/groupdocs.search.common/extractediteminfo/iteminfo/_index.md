@@ -1,14 +1,14 @@
 ---
 title: ItemInfo
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets an item information.
+description: Gets the item information.
 type: docs
 weight: 50
 url: /net/groupdocs.search.common/extractediteminfo/iteminfo/
 ---
 ## ExtractedItemInfo.ItemInfo property
 
-Gets an item information.
+Gets the item information.
 
 ```csharp
 public string ItemInfo { get; }

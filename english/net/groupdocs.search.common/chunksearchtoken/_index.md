@@ -18,7 +18,7 @@ public class ChunkSearchToken
 
 **Learn more**
 
-* [Search by chunks](https://docs.groupdocs.com/display/searchnet/Search+by+chunks)
+* [Search by chunks](https://docs.groupdocs.com/search/net/search-by-chunks/)
 
 ### See Also
 

@@ -14,8 +14,8 @@ The namespace provides classes of various dictionaries.
 | --- | --- |
 | [AliasDictionary](./aliasdictionary) | Represents a dictionary of aliases. |
 | [AliasReplacementPair](./aliasreplacementpair) | Represents an alias/replacement pair. |
-| [Alphabet](./alphabet) | Represents a dictionary of characters that is used during indexing to detect character type. Each character can be handled as separator, as letter, or both. |
-| [CharacterReplacementDictionary](./characterreplacementdictionary) | Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make case-insensitive index. |
+| [Alphabet](./alphabet) | Represents a dictionary of characters that is used during indexing to detect the character type. Each character can be handled as a separator, as a letter, or both. |
+| [CharacterReplacementDictionary](./characterreplacementdictionary) | Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make a case-insensitive index. |
 | [CharacterReplacementPair](./characterreplacementpair) | Represents a character/replacement pair. |
 | [DictionaryBase](./dictionarybase) | Represents the base class for a dictionary. |
 | [DictionaryRepository](./dictionaryrepository) | Represents a repository of all dictionaries in the Index. |
@@ -29,7 +29,7 @@ The namespace provides classes of various dictionaries.
 
 | Interface | Description |
 | --- | --- |
-| [IWordFormsProvider](./iwordformsprovider) | Defines interface of a word forms provider. |
+| [IWordFormsProvider](./iwordformsprovider) | Defines the interface of a word forms provider. |
 ## Enumeration
 
 | Enumeration | Description |

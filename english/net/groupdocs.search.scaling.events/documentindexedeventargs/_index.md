@@ -1,14 +1,14 @@
 ---
 title: DocumentIndexedEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of a document indexing is finished.
+description: Represents arguments for the event that occurs when a document indexing is finished.
 type: docs
 weight: 1430
 url: /net/groupdocs.search.scaling.events/documentindexedeventargs/
 ---
 ## DocumentIndexedEventArgs class
 
-Represents arguments for the event of a document indexing is finished.
+Represents arguments for the event that occurs when a document indexing is finished.
 
 ```csharp
 public class DocumentIndexedEventArgs : EventArgs

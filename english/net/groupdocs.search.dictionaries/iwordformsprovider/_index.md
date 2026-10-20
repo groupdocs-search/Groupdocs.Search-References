@@ -1,14 +1,14 @@
 ---
 title: IWordFormsProvider
 second_title: GroupDocs.Search for .NET API Reference
-description: Defines interface of a word forms provider.
+description: Defines the interface of a word forms provider.
 type: docs
 weight: 470
 url: /net/groupdocs.search.dictionaries/iwordformsprovider/
 ---
 ## IWordFormsProvider interface
 
-Defines interface of a word forms provider.
+Defines the interface of a word forms provider.
 
 ```csharp
 public interface IWordFormsProvider
@@ -24,8 +24,8 @@ public interface IWordFormsProvider
 
 **Learn more**
 
-* [Search for different word forms](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
-* [Word forms provider](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
+* [Search for different word forms](https://docs.groupdocs.com/search/net/search-for-different-word-forms/)
+* [Word forms provider](https://docs.groupdocs.com/search/net/word-forms-provider/)
 
 ### Examples
 
@@ -54,7 +54,7 @@ public class SimpleWordFormsProvider : IWordFormsProvider
         if (word.Length > 1 &&
             word.EndsWith("y", StringComparison.InvariantCultureIgnoreCase))
         {
-            result.Add(word.Substring(0, word.Length - 1) + "is");
+            result.Add(word.Substring(0, word.Length - 1) + "ies");
         }
         result.Add(word + "s");
         result.Add(word + "es");
@@ -65,7 +65,7 @@ public class SimpleWordFormsProvider : IWordFormsProvider
 }
 ```
 
-The next example demonstrates how to set a custom word forms provider for using.
+The next example demonstrates how to set a custom word forms provider.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

@@ -1,14 +1,14 @@
 ---
 title: SearchOptions
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides options for search operation.
+description: Provides options for a search operation.
 type: docs
 weight: 1110
 url: /net/groupdocs.search.options/searchoptions/
 ---
 ## SearchOptions class
 
-Provides options for search operation.
+Provides options for a search operation.
 
 ```csharp
 public class SearchOptions
@@ -32,18 +32,18 @@ public class SearchOptions
 | [MaxOccurrenceCountPerTerm](../../groupdocs.search.options/searchoptions/maxoccurrencecountperterm) { get; set; } | Gets or sets the maximum number of occurrences of each term in a search query. The default value is `2000000000`. |
 | [MaxTotalOccurrenceCount](../../groupdocs.search.options/searchoptions/maxtotaloccurrencecount) { get; set; } | Gets or sets the maximum total number of occurrences of all terms in a search query. The default value is `2000000000`. |
 | [RetrieveAttributes](../../groupdocs.search.options/searchoptions/retrieveattributes) { get; set; } | Gets or sets the flag of retrieving attributes associated with found documents. The default value is `false`. |
-| [SearchDocumentFilter](../../groupdocs.search.options/searchoptions/searchdocumentfilter) { get; set; } | Gets or sets the search document filter. [`SearchDocumentFilter`](./searchdocumentfilter) works on the inclusion logic. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of a search document filter instances. The default value is `null`, which means that all found documents will be returned. |
+| [SearchDocumentFilter](../../groupdocs.search.options/searchoptions/searchdocumentfilter) { get; set; } | Gets or sets the search document filter. [`SearchDocumentFilter`](./searchdocumentfilter) works on the inclusion logic. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of search document filter instances. The default value is `null`, which means that all found documents will be returned. |
 | [SpellingCorrector](../../groupdocs.search.options/searchoptions/spellingcorrector) { get; } | Gets the spelling corrector options. |
 | [UseCaseSensitiveSearch](../../groupdocs.search.options/searchoptions/usecasesensitivesearch) { get; set; } | Gets or sets the flag of case sensitive search. The default value is `false`. |
-| [UseHomophoneSearch](../../groupdocs.search.options/searchoptions/usehomophonesearch) { get; set; } | Gets or sets the flag of use homophones in search. The default value is `false`. |
-| [UseSynonymSearch](../../groupdocs.search.options/searchoptions/usesynonymsearch) { get; set; } | Gets or sets the flag of use synonyms in search. The default value is `false`. |
-| [UseWordFormsSearch](../../groupdocs.search.options/searchoptions/usewordformssearch) { get; set; } | Gets or sets the flag of use different word forms in search. The default value is `false`. |
+| [UseHomophoneSearch](../../groupdocs.search.options/searchoptions/usehomophonesearch) { get; set; } | Gets or sets the flag of using homophones in search. The default value is `false`. |
+| [UseSynonymSearch](../../groupdocs.search.options/searchoptions/usesynonymsearch) { get; set; } | Gets or sets the flag of using synonyms in search. The default value is `false`. |
+| [UseWordFormsSearch](../../groupdocs.search.options/searchoptions/usewordformssearch) { get; set; } | Gets or sets the flag of using different word forms in search. The default value is `false`. |
 
 ### Remarks
 
 **Learn more**
 
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
 
 ### See Also
 

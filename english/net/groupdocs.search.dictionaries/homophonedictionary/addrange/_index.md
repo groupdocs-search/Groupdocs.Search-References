@@ -23,7 +23,7 @@ public void AddRange(IEnumerable<string[]> homophones)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *homophones* is `null`. |
-| ArgumentException | Thrown when number of homophones in a group is less than 2. |
+| ArgumentException | Thrown when the number of homophones in a group is less than 2. |
 
 ### See Also
 

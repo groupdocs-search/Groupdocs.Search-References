@@ -31,7 +31,7 @@ public class FragmentContainer
 
 **Learn more**
 
-* [Highlighting search results](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
+* [Highlighting search results](https://docs.groupdocs.com/search/net/highlighting-search-results/)
 
 ### See Also
 

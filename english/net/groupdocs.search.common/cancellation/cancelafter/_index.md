@@ -1,14 +1,14 @@
 ---
 title: CancelAfter
 second_title: GroupDocs.Search for .NET API Reference
-description: Makes a request for cancellation after the expiration of specified number of milliseconds.
+description: Makes a request for cancellation after the expiration of the specified number of milliseconds.
 type: docs
 weight: 40
 url: /net/groupdocs.search.common/cancellation/cancelafter/
 ---
 ## Cancellation.CancelAfter method
 
-Makes a request for cancellation after the expiration of specified number of milliseconds.
+Makes a request for cancellation after the expiration of the specified number of milliseconds.
 
 ```csharp
 public void CancelAfter(int milliseconds)

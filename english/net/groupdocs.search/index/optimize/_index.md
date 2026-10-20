@@ -1,14 +1,14 @@
 ---
 title: Optimize
 second_title: GroupDocs.Search for .NET API Reference
-description: Minimizes the number of index segments by merging them one with another. This operation improves search performance.
+description: Minimizes the number of index segments by merging them one with another. This operation improves search performance and physically removes deleted documents from the index. A very large index is optimized into several segments of limited size.
 type: docs
 weight: 240
 url: /net/groupdocs.search/index/optimize/
 ---
 ## Optimize() {#optimize}
 
-Minimizes the number of index segments by merging them one with another. This operation improves search performance.
+Minimizes the number of index segments by merging them one with another. This operation improves search performance and physically removes deleted documents from the index. A very large index is optimized into several segments of limited size.
 
 ```csharp
 public void Optimize()
@@ -44,7 +44,7 @@ index.Optimize();
 
 ## Optimize(MergeOptions) {#optimize_1}
 
-Minimizes the number of index segments by merging them one with another. This operation improves search performance.
+Minimizes the number of index segments by merging them one with another. This operation improves search performance and physically removes deleted documents from the index. A very large index is optimized into several segments of limited size.
 
 ```csharp
 public void Optimize(MergeOptions options)

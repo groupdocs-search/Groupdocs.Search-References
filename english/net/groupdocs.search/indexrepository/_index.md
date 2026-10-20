@@ -49,15 +49,15 @@ public class IndexRepository : IDisposable
 
 **Learn more**
 
-* [Search index repository](https://docs.groupdocs.com/display/searchnet/Search+index+repository)
+* [Search index repository](https://docs.groupdocs.com/search/net/search-index-repository/)
 
 ### Examples
 
 The example demonstrates a typical usage of the class.
 
 ```csharp
-string indexFolder1 = @"c:\MyIndex\";
-string indexFolder2 = @"c:\MyIndex\";
+string indexFolder1 = @"c:\MyIndex1\";
+string indexFolder2 = @"c:\MyIndex2\";
 string query = "Einstein";
 
 IndexRepository repository = new IndexRepository();

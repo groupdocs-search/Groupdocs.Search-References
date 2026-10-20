@@ -1,14 +1,14 @@
 ---
 title: Highlight
 second_title: GroupDocs.Search for .NET API Reference
-description: Generates HTML formatted text with highlighted found terms.
+description: Highlights the found terms in the text of the found document using the specified highlighter.
 type: docs
 weight: 40
 url: /net/groupdocs.search.scaling/searcher/highlight/
 ---
 ## Searcher.Highlight method
 
-Generates HTML formatted text with highlighted found terms.
+Highlights the found terms in the text of the found document using the specified highlighter.
 
 ```csharp
 public void Highlight(NetworkFoundDocument document, Highlighter highlighter, 

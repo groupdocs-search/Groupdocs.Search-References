@@ -16,7 +16,7 @@ public Index()
 
 ### Examples
 
-The example demonstrates how to create index in memory without saving files to disk.
+The example demonstrates how to create an index in memory without saving files to disk.
 
 ```csharp
 Index index = new Index(); 
@@ -44,7 +44,7 @@ public Index(IndexSettings settings)
 
 ### Examples
 
-The example demonstrates how to create index in memory without saving files to disk with particular index settings.
+The example demonstrates how to create an index in memory without saving files to disk with particular index settings.
 
 ```csharp
 IndexSettings settings = new IndexSettings();
@@ -72,6 +72,12 @@ public Index(string indexFolder)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | indexFolder | String | The index folder path. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
 
 ### Examples
 
@@ -102,6 +108,12 @@ public Index(string indexFolder, IndexSettings settings)
 | --- | --- | --- |
 | indexFolder | String | The index folder path. |
 | settings | IndexSettings | The index settings object. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | The folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
 
 ### Examples
 
@@ -136,6 +148,12 @@ public Index(string indexFolder, bool overwriteIfExists)
 | indexFolder | String | The index folder path. |
 | overwriteIfExists | Boolean | The flag of overwriting the index folder. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | *overwriteIfExists* is `false` and the folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
+
 ### Examples
 
 The example demonstrates how to create a new index in a folder that already contains another index.
@@ -166,6 +184,12 @@ public Index(string indexFolder, IndexSettings settings, bool overwriteIfExists)
 | indexFolder | String | The index folder path. |
 | settings | IndexSettings | The index settings object. |
 | overwriteIfExists | Boolean | The flag of overwriting the index folder. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | *overwriteIfExists* is `false` and the folder contains an index of a previous version that must be updated with [`IndexUpdater`](../../indexupdater), or an index of a version that cannot be updated. |
 
 ### Examples
 

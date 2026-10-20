@@ -1,14 +1,14 @@
 ---
 title: CharacterReplacementDictionary
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used for example to remove accents from accented characters or to make caseinsensitive index.
+description: Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used for example to remove accents from accented characters or to make a caseinsensitive index.
 type: docs
 weight: 390
 url: /net/groupdocs.search.dictionaries/characterreplacementdictionary/
 ---
 ## CharacterReplacementDictionary class
 
-Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make case-insensitive index.
+Represents a character replacement dictionary that is used during the indexing process. Character replacement can be used, for example, to remove accents from accented characters or to make a case-insensitive index.
 
 ```csharp
 public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<int>
@@ -37,8 +37,8 @@ public class CharacterReplacementDictionary : DictionaryBase, IEnumerable<int>
 | [ImportDictionary](../../groupdocs.search.dictionaries/dictionarybase/importdictionary)(string) | Imports a dictionary from the specified file. |
 | [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange)(char[]) | Removes the specified collection of character replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
 | [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange_2)(IEnumerable&lt;char&gt;) | Removes the specified collection of character replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange_3)(IEnumerable&lt;int&gt;) | Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
-| [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange_1)(int[]) | Removes the specified collection of Unicode code points replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange_3)(IEnumerable&lt;int&gt;) | Removes the specified collection of Unicode code point replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
+| [RemoveRange](../../groupdocs.search.dictionaries/characterreplacementdictionary/removerange#removerange_1)(int[]) | Removes the specified collection of Unicode code point replacements from this instance of the [`CharacterReplacementDictionary`](../characterreplacementdictionary). |
 
 ### Remarks
 
@@ -48,8 +48,8 @@ A change of the dictionary of an index is saved in the index at once. If it cann
 
 **Learn more**
 
-* [Character replacement during Indexing](https://docs.groupdocs.com/display/searchnet/Character+replacement+during+Indexing)
-* [Managing character replacements](https://docs.groupdocs.com/display/searchnet/Character+replacements)
+* [Character replacement during Indexing](https://docs.groupdocs.com/search/net/character-replacement-during-indexing/)
+* [Managing character replacements](https://docs.groupdocs.com/search/net/character-replacements/)
 
 ### See Also
 

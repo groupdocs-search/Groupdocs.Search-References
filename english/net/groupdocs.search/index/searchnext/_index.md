@@ -1,14 +1,14 @@
 ---
 title: SearchNext
 second_title: GroupDocs.Search for .NET API Reference
-description: Continues the chunk search started with method Search.
+description: Continues the chunk search started with the Search method.
 type: docs
 weight: 270
 url: /net/groupdocs.search/index/searchnext/
 ---
 ## SearchNext(ChunkSearchToken) {#searchnext}
 
-Continues the chunk search started with method Search.
+Continues the chunk search started with the Search method.
 
 ```csharp
 public SearchResult SearchNext(ChunkSearchToken chunkSearchToken)
@@ -61,7 +61,7 @@ while (result.NextChunkSearchToken != null)
 
 ## SearchNext(ChunkSearchToken, Cancellation) {#searchnext_1}
 
-Continues the chunk search started with method Search.
+Continues the chunk search started with the Search method.
 
 ```csharp
 public SearchResult SearchNext(ChunkSearchToken chunkSearchToken, Cancellation cancellation)
@@ -78,7 +78,7 @@ The search result.
 
 ### Examples
 
-The example demonstrates how to perform search using query in object form.
+The example demonstrates how to perform chunk search with a cancellation object.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

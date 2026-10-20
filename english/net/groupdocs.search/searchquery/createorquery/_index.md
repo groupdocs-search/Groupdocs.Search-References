@@ -1,14 +1,14 @@
 ---
 title: CreateOrQuery
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a combined query that will find all the documents which will be found at least for one of the original queries.
+description: Creates a combined query that will find all the documents that will be found for at least one of the original queries.
 type: docs
 weight: 60
 url: /net/groupdocs.search/searchquery/createorquery/
 ---
 ## CreateOrQuery(SearchQuery, SearchQuery) {#createorquery}
 
-Creates a combined query that will find all the documents which will be found at least for one of the original queries.
+Creates a combined query that will find all the documents that will be found for at least one of the original queries.
 
 ```csharp
 public static SearchQuery CreateOrQuery(SearchQuery leftQuery, SearchQuery rightQuery)
@@ -33,7 +33,7 @@ A combined OR query.
 
 ## CreateOrQuery(params SearchQuery[]) {#createorquery_1}
 
-Creates a combined query that will find all the documents which will be found at least for one of the original queries.
+Creates a combined query that will find all the documents that will be found for at least one of the original queries.
 
 ```csharp
 public static SearchQuery CreateOrQuery(params SearchQuery[] queries)

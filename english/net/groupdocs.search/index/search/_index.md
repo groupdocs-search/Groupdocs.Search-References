@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: GroupDocs.Search for .NET API Reference
-description: Searches in index.
+description: Searches in the index.
 type: docs
 weight: 260
 url: /net/groupdocs.search/index/search/
 ---
 ## Search(string) {#search_3}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(string query)
@@ -74,7 +74,7 @@ SearchResult result = index.Search(query); // Searching
 
 ## Search(string, SearchOptions) {#search_4}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(string query, SearchOptions options)
@@ -104,7 +104,7 @@ SearchOptions options = new SearchOptions();
 options.FuzzySearch.Enabled = true; // Enabling the fuzzy search
 options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1); // Setting the number of possible differences for each word
 
-// Double quotes at the beginning and end tells the index that it is phrase search query
+// Double quotes at the beginning and end tell the index that it is a phrase search query
 string query = "\"The Pursuit of Happiness\"";
 SearchResult result = index.Search(query, options); // Searching
 ```
@@ -137,7 +137,7 @@ SearchResult result = index.Search(query, options); // Searching
 
 ## Search(SearchQuery) {#search_1}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(SearchQuery query)
@@ -153,7 +153,7 @@ The search result.
 
 ### Examples
 
-The following example demonstrates how to perform search using query in object form.
+The following example demonstrates how to perform search using a query in object form.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -192,7 +192,7 @@ SearchResult result = index.Search(query); // Searching
 
 ## Search(SearchQuery, SearchOptions) {#search_2}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(SearchQuery query, SearchOptions options)
@@ -209,7 +209,7 @@ The search result.
 
 ### Examples
 
-The following example demonstrates how to perform search using query in object form.
+The following example demonstrates how to perform search using a query in object form.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

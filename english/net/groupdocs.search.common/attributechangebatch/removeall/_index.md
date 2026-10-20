@@ -36,7 +36,7 @@ public void RemoveAll(string[] paths)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paths | String[] | The documents paths. |
+| paths | String[] | The document paths. |
 
 ### See Also
 

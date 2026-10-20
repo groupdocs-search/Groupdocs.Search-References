@@ -19,7 +19,7 @@ public class FuzzySearchOptions
 | Name | Description |
 | --- | --- |
 | [ConsiderTranspositions](../../groupdocs.search.options/fuzzysearchoptions/considertranspositions) { get; set; } | Gets or sets a value indicating whether the fuzzy search algorithm must consider transposition of two adjacent characters as a single mistake. The default value is `true`. |
-| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Gets or sets a value indicating whether fuzzy search feature is enabled. The default value is `false`. |
+| [Enabled](../../groupdocs.search.options/fuzzysearchoptions/enabled) { get; set; } | Gets or sets a value indicating whether the fuzzy search feature is enabled. The default value is `false`. |
 | [FuzzyAlgorithm](../../groupdocs.search.options/fuzzysearchoptions/fuzzyalgorithm) { get; set; } | Gets or sets the fuzzy search algorithm. The currently available fuzzy search algorithms are [`SimilarityLevel`](../similaritylevel) and [`TableDiscreteFunction`](../tablediscretefunction). The default value is an instance of [`SimilarityLevel`](../similaritylevel) with a similarity level value of `0.5`. |
 | [OnlyBestResults](../../groupdocs.search.options/fuzzysearchoptions/onlybestresults) { get; set; } | Gets or sets a value indicating whether only the best results will be returned. The default value is `false`. |
 | [OnlyBestResultsRange](../../groupdocs.search.options/fuzzysearchoptions/onlybestresultsrange) { get; set; } | Gets or sets the maximum exceeding of the minimum number of mistakes that are found. The default value is `0`. |
@@ -28,8 +28,8 @@ public class FuzzySearchOptions
 
 **Learn more**
 
-* [Fuzzy search](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
+* [Fuzzy search](https://docs.groupdocs.com/search/net/fuzzy-search/)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
 
 ### See Also
 

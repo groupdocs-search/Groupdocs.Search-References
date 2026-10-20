@@ -28,8 +28,8 @@ public class SpellingCorrectorOptions
 
 **Learn more**
 
-* [Spell checking](https://docs.groupdocs.com/display/searchnet/Spell+checking)
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
+* [Spell checking](https://docs.groupdocs.com/search/net/spell-checking/)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: UseWordFormsSearch
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the flag of use different word forms in search. The default value is false.
+description: Gets or sets the flag of using different word forms in search. The default value is false.
 type: docs
 weight: 150
 url: /net/groupdocs.search.options/searchoptions/usewordformssearch/
 ---
 ## SearchOptions.UseWordFormsSearch property
 
-Gets or sets the flag of use different word forms in search. The default value is `false`.
+Gets or sets the flag of using different word forms in search. The default value is `false`.
 
 ```csharp
 public bool UseWordFormsSearch { get; set; }
@@ -16,7 +16,7 @@ public bool UseWordFormsSearch { get; set; }
 
 ### Property Value
 
-The flag of use different word forms in search.
+The flag of using different word forms in search.
 
 ### See Also
 

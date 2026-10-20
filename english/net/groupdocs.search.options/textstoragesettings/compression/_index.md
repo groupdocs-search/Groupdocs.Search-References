@@ -1,14 +1,14 @@
 ---
 title: Compression
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the compression of text storage. The default value is Normal.
+description: Gets or sets the compression of the text storage. The default value is Normal.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/textstoragesettings/compression/
 ---
 ## TextStorageSettings.Compression property
 
-Gets or sets the compression of text storage. The default value is Normal.
+Gets or sets the compression of the text storage. The default value is Normal.
 
 ```csharp
 public Compression Compression { get; set; }
@@ -16,7 +16,7 @@ public Compression Compression { get; set; }
 
 ### Property Value
 
-The compression of text storage.
+The compression of the text storage.
 
 ### Remarks
 

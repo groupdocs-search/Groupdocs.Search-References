@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: GroupDocs.Search for .NET API Reference
-description: Defines interface of a logger that is used for logging events and errors in an index.
+description: Defines the interface of a logger that is used for logging events and errors in an index.
 type: docs
 weight: 200
 url: /net/groupdocs.search.common/ilogger/
 ---
 ## ILogger interface
 
-Defines interface of a logger that is used for logging events and errors in an index.
+Defines the interface of a logger that is used for logging events and errors in an index.
 
 ```csharp
 public interface ILogger
@@ -25,7 +25,7 @@ public interface ILogger
 
 **Learn more**
 
-* [Logging](https://docs.groupdocs.com/display/searchnet/Logging)
+* [Logging](https://docs.groupdocs.com/search/net/logging/)
 
 ### See Also
 

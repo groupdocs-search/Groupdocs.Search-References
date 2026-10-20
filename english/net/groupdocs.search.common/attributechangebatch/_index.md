@@ -38,8 +38,8 @@ public class AttributeChangeBatch
 
 **Learn more**
 
-* [Document attributes](https://docs.groupdocs.com/display/searchnet/Document+attributes)
-* [Document filtering in search result](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
+* [Document attributes](https://docs.groupdocs.com/search/net/document-attributes/)
+* [Document filtering in search result](https://docs.groupdocs.com/search/net/document-filtering-in-search-result/)
 
 ### See Also
 

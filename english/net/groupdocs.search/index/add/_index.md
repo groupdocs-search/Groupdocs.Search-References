@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Search for .NET API Reference
-description: Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
+description: Performs an indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 type: docs
 weight: 80
 url: /net/groupdocs.search/index/add/
 ---
 ## Add(string) {#add_2}
 
-Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
+Performs an indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 
 ```csharp
 public void Add(string path)
@@ -42,7 +42,7 @@ index.Add(filePath); // Indexing the specified document
 
 ## Add(string, IndexingOptions) {#add_3}
 
-Performs indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
+Performs an indexing operation. Adds a file or folder by an absolute or relative path. Documents from all subfolders will be indexed.
 
 ```csharp
 public void Add(string path, IndexingOptions options)
@@ -81,7 +81,7 @@ index.Add(filePath, options); // Indexing the specified document
 
 ## Add(string[]) {#add_4}
 
-Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
+Performs an indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
 
 ```csharp
 public void Add(string[] paths)
@@ -89,7 +89,7 @@ public void Add(string[] paths)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paths | String[] | The paths to a files or folders to be indexed. |
+| paths | String[] | The paths to files or folders to be indexed. |
 
 ### Examples
 
@@ -116,7 +116,7 @@ index.Add(paths); // Indexing documents at the specified paths
 
 ## Add(string[], IndexingOptions) {#add_5}
 
-Performs indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
+Performs an indexing operation. Adds files or folders by an absolute or relative path. Documents from all subfolders will be indexed.
 
 ```csharp
 public void Add(string[] paths, IndexingOptions options)
@@ -124,7 +124,7 @@ public void Add(string[] paths, IndexingOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paths | String[] | The paths to a files or folders to be indexed. |
+| paths | String[] | The paths to files or folders to be indexed. |
 | options | IndexingOptions | The indexing options. |
 
 ### Examples
@@ -155,7 +155,7 @@ index.Add(paths, options); // Indexing documents at the specified paths
 
 ## Add(Document[], IndexingOptions) {#add}
 
-Performs indexing operation. Adds documents from file system, stream or structure.
+Performs an indexing operation. Adds documents from file system, stream or structure.
 
 ```csharp
 public void Add(Document[] documents, IndexingOptions options)
@@ -178,7 +178,7 @@ public void Add(Document[] documents, IndexingOptions options)
 
 ## Add(ExtractedData[], IndexingOptions) {#add_1}
 
-Performs indexing operation. Adds the extracted data to the index.
+Performs an indexing operation. Adds the extracted data to the index.
 
 ```csharp
 public void Add(ExtractedData[] data, IndexingOptions options)

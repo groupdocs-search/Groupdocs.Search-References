@@ -8,7 +8,7 @@ url: /net/groupdocs.search.options/metadataindexingoptions/indexingemptynames/
 ---
 ## MetadataIndexingOptions.IndexingEmptyNames property
 
-Gets or sets a value indicating whether to index empty field names ​​or not. The default value is `true`.
+Gets or sets a value indicating whether to index empty field names or not. The default value is `true`.
 
 ```csharp
 public bool IndexingEmptyNames { get; set; }
@@ -16,7 +16,7 @@ public bool IndexingEmptyNames { get; set; }
 
 ### Property Value
 
-A value indicating whether to index empty field names ​​or not.
+A value indicating whether to index empty field names or not.
 
 ### See Also
 

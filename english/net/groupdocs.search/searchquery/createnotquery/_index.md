@@ -1,14 +1,14 @@
 ---
 title: CreateNotQuery
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates an inverted query that will find the rest documents in an index against ones which will be found for the original query.
+description: Creates an inverted query that will find all documents in an index except the ones that will be found for the original query.
 type: docs
 weight: 40
 url: /net/groupdocs.search/searchquery/createnotquery/
 ---
 ## SearchQuery.CreateNotQuery method
 
-Creates an inverted query that will find the rest documents in an index against ones which will be found for the original query.
+Creates an inverted query that will find all documents in an index except the ones that will be found for the original query.
 
 ```csharp
 public static SearchQuery CreateNotQuery(SearchQuery query)

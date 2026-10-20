@@ -1,14 +1,14 @@
 ---
 title: CreateModificationTimeUpperBound
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a filter for skipping documents with modification date later than the upper bound.
+description: Creates a filter for skipping documents with a modification date later than the upper bound.
 type: docs
 weight: 120
 url: /net/groupdocs.search.options/documentfilter/createmodificationtimeupperbound/
 ---
 ## DocumentFilter.CreateModificationTimeUpperBound method
 
-Creates a filter for skipping documents with modification date later than the upper bound.
+Creates a filter for skipping documents with a modification date later than the upper bound.
 
 ```csharp
 public static DocumentFilter CreateModificationTimeUpperBound(DateTime upperBound)

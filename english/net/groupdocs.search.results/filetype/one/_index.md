@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: GroupDocs.Search for .NET API Reference
-description: File represented by .ONE extension are created by Microsoft OneNote application. Learn more about this file format herehttps//wiki.fileformat.com/notetaking/one/.
+description: Files represented by .ONE extension are created by Microsoft OneNote application. Learn more about this file format herehttps//wiki.fileformat.com/notetaking/one/.
 type: docs
 weight: 420
 url: /net/groupdocs.search.results/filetype/one/
 ---
 ## FileType.ONE field
 
-File represented by .ONE extension are created by Microsoft OneNote application. Learn more about this file format [here](https://wiki.fileformat.com/note-taking/one/).
+Files represented by .ONE extension are created by Microsoft OneNote application. Learn more about this file format [here](https://wiki.fileformat.com/note-taking/one/).
 
 ```csharp
 public static readonly FileType ONE;

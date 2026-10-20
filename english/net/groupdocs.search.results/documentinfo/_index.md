@@ -19,10 +19,10 @@ public class DocumentInfo
 | Name | Description |
 | --- | --- |
 | [DocumentSourceKind](../../groupdocs.search.results/documentinfo/documentsourcekind) { get; } | Gets the document source kind. |
-| [FilePath](../../groupdocs.search.results/documentinfo/filepath) { get; } | Gets the file path for indexed from file or the document key for indexed from stream or structure. |
+| [FilePath](../../groupdocs.search.results/documentinfo/filepath) { get; } | Gets the file path for a document indexed from a file or the document key for a document indexed from a stream or structure. |
 | [FileType](../../groupdocs.search.results/documentinfo/filetype) { get; } | Gets the file type. |
 | [FormatFamily](../../groupdocs.search.results/documentinfo/formatfamily) { get; } | Gets the document format family. |
-| [IndexedWithError](../../groupdocs.search.results/documentinfo/indexedwitherror) { get; } | Gets the indicator of indexing error. |
+| [IndexedWithError](../../groupdocs.search.results/documentinfo/indexedwitherror) { get; } | Gets the indicator of an indexing error. |
 | [InnerPath](../../groupdocs.search.results/documentinfo/innerpath) { get; } | Gets the inner path for the container document item. |
 | [InnerPathParts](../../groupdocs.search.results/documentinfo/innerpathparts) { get; } | Gets the inner path parts for the container document item. |
 | [ModificationTime](../../groupdocs.search.results/documentinfo/modificationtime) { get; } | Gets the modification time. |
@@ -39,8 +39,8 @@ public class DocumentInfo
 
 **Learn more**
 
-* [Search results](https://docs.groupdocs.com/display/searchnet/Search+results)
-* [Getting indexed documents](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
+* [Search results](https://docs.groupdocs.com/search/net/search-results/)
+* [Getting indexed documents](https://docs.groupdocs.com/search/net/getting-indexed-documents/)
 
 ### See Also
 

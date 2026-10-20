@@ -43,8 +43,8 @@ A change of the dictionary of an index is saved in the index at once. If it cann
 
 **Learn more**
 
-* [Indexing with stop words](https://docs.groupdocs.com/display/searchnet/Indexing+with+stop+words)
-* [Managing stop word dictionary](https://docs.groupdocs.com/display/searchnet/Stop+word+dictionary)
+* [Indexing with stop words](https://docs.groupdocs.com/search/net/indexing-with-stop-words/)
+* [Managing stop word dictionary](https://docs.groupdocs.com/search/net/stop-word-dictionary/)
 
 ### See Also
 

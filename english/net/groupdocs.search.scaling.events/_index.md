@@ -12,10 +12,10 @@ The namespace provides classes of event arguments in the search network.
 
 | Class | Description |
 | --- | --- |
-| [DataExtractedEventArgs](./dataextractedeventargs) | Represents arguments for the event of a document data extraction is finished. |
-| [DocumentDeletedEventArgs](./documentdeletedeventargs) | Represents arguments for the event of a document deletion is finished. |
-| [DocumentIndexedEventArgs](./documentindexedeventargs) | Represents arguments for the event of a document indexing is finished. |
-| [ErrorOccurredEventArgs](./erroroccurredeventargs) | Represents arguments for the event of an error occurs in one of the nodes of the search network. |
+| [DataExtractedEventArgs](./dataextractedeventargs) | Represents arguments for the event that occurs when data extraction from a document is finished. |
+| [DocumentDeletedEventArgs](./documentdeletedeventargs) | Represents arguments for the event that occurs when a document deletion is finished. |
+| [DocumentIndexedEventArgs](./documentindexedeventargs) | Represents arguments for the event that occurs when a document indexing is finished. |
+| [ErrorOccurredEventArgs](./erroroccurredeventargs) | Represents arguments for the event of an error in one of the nodes of the search network. |
 | [NetworkIndexingProgressEventArgs](./networkindexingprogresseventargs) | Represents the arguments for the progress change event of the indexing operation. |
 | [NetworkOptimizationProgressEventArgs](./networkoptimizationprogresseventargs) | Represents the arguments for the progress change event of the optimization operation. |
 | [NodeEventHub](./nodeeventhub) | Provides node events for subscribing. |

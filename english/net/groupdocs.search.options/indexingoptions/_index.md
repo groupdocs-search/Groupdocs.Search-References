@@ -28,19 +28,19 @@ public class IndexingOptions : BaseOptions
 | [Cancellation](../../groupdocs.search.options/indexingoptions/cancellation) { get; set; } | Gets or sets the operation cancellation object. The default value is `null`. |
 | [Encoding](../../groupdocs.search.options/baseoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
 | [ImageIndexingOptions](../../groupdocs.search.options/baseoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
-| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
+| [IsAsync](../../groupdocs.search.options/indexingoptions/isasync) { get; set; } | Gets or sets the flag of performing the operation asynchronously. The default value is `false`. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/baseoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/baseoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 | [SeparateProcessOptions](../../groupdocs.search.options/indexingoptions/separateprocessoptions) { get; } | Gets the options for extracting data in a separate process. |
 | [Threads](../../groupdocs.search.options/indexingoptions/threads) { get; set; } | Gets or sets the number of threads used for indexing. The parameter must be in the range from `1` to `4`. The default value is `1`. |
 | [UseBackupPrivilege](../../groupdocs.search.options/baseoptions/usebackupprivilege) { get; set; } | Gets or sets a value indicating whether the process should use the SeBackupPrivilege and FILE_FLAG_BACKUP_SEMANTICS to access files and directories. The default value is `false`. |
-| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but the normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 
 **Learn more**
 
-* [Indexing options](https://docs.groupdocs.com/display/searchnet/Indexing+options)
+* [Indexing options](https://docs.groupdocs.com/search/net/indexing-options/)
 
 ### See Also
 

@@ -26,7 +26,7 @@ public class NetworkSearchResult : IEnumerable<NetworkFoundDocument>
 | [SearchDuration](../../groupdocs.search.scaling.results/networksearchresult/searchduration) { get; } | Gets the search duration. |
 | [StartTime](../../groupdocs.search.scaling.results/networksearchresult/starttime) { get; } | Gets the start time of the search. |
 | [Truncated](../../groupdocs.search.scaling.results/networksearchresult/truncated) { get; } | Gets a value indicating that the result is truncated. |
-| [Warnings](../../groupdocs.search.scaling.results/networksearchresult/warnings) { get; } | Gets a warnings describing the result. |
+| [Warnings](../../groupdocs.search.scaling.results/networksearchresult/warnings) { get; } | Gets the warnings describing the result. |
 
 ## Methods
 

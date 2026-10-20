@@ -1,14 +1,14 @@
 ---
 title: CreateFileExtension
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a filter for skipping documents that do not have allowable extension.
+description: Creates a filter for skipping documents that do not have an allowable extension.
 type: docs
 weight: 50
 url: /net/groupdocs.search.options/documentfilter/createfileextension/
 ---
 ## DocumentFilter.CreateFileExtension method
 
-Creates a filter for skipping documents that do not have allowable extension.
+Creates a filter for skipping documents that do not have an allowable extension.
 
 ```csharp
 public static DocumentFilter CreateFileExtension(params string[] extensions)

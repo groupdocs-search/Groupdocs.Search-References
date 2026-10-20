@@ -31,13 +31,13 @@ public class FoundDocumentField
 | --- | --- |
 | static [Deserialize](../../groupdocs.search.results/founddocumentfield/deserialize)(byte[]) | Deserializes an instance from a byte array. |
 | [Serialize](../../groupdocs.search.results/founddocumentfield/serialize)() | Serializes the current instance to a byte array. |
-| override [ToString](../../groupdocs.search.results/founddocumentfield/tostring)() | Returns string representation of the found document field. |
+| override [ToString](../../groupdocs.search.results/founddocumentfield/tostring)() | Returns a string representation of the found document field. |
 
 ### Remarks
 
 **Learn more**
 
-* [Search results](https://docs.groupdocs.com/display/searchnet/Search+results)
+* [Search results](https://docs.groupdocs.com/search/net/search-results/)
 
 ### See Also
 

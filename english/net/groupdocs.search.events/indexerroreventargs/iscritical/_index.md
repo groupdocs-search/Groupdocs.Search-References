@@ -1,14 +1,14 @@
 ---
 title: IsCritical
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a flag indicating that the error occurred is critical and the index should be restarted.
+description: Gets a flag indicating that the error is critical and the index should be restarted.
 type: docs
 weight: 10
 url: /net/groupdocs.search.events/indexerroreventargs/iscritical/
 ---
 ## IndexErrorEventArgs.IsCritical property
 
-Gets a flag indicating that the error occurred is critical and the index should be restarted.
+Gets a flag indicating that the error is critical and the index should be restarted.
 
 ```csharp
 public bool IsCritical { get; }
@@ -16,7 +16,7 @@ public bool IsCritical { get; }
 
 ### Property Value
 
-The flag indicating that the error occurred is critical and the index should be restarted.
+The flag indicating that the error is critical and the index should be restarted.
 
 ### See Also
 

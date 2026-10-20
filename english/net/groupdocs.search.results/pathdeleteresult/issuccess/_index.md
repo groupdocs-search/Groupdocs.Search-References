@@ -16,7 +16,7 @@ public bool IsSuccess { get; }
 
 ### Property Value
 
-`true` if the delete operation was successful; otherwise, returns `false`.
+`true` if the delete operation was successful; otherwise, `false`.
 
 ### See Also
 

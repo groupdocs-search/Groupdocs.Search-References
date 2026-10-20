@@ -1,14 +1,14 @@
 ---
 title: SimilarityLevel
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as inversely proportional to the word length.
+description: Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as proportional to the word length.
 type: docs
 weight: 1130
 url: /net/groupdocs.search.options/similaritylevel/
 ---
 ## SimilarityLevel class
 
-Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as inversely proportional to the word length.
+Represents an algorithm of the fuzzy search that specifies the similarity level. The similarity level algorithm calculates the maximum number of mistakes for a word as proportional to the word length.
 
 ```csharp
 public class SimilarityLevel : FuzzyAlgorithm
@@ -31,7 +31,7 @@ public class SimilarityLevel : FuzzyAlgorithm
 
 **Learn more**
 
-* [Fuzzy search](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
+* [Fuzzy search](https://docs.groupdocs.com/search/net/fuzzy-search/)
 
 ### Examples
 
@@ -48,9 +48,9 @@ index.Add(documentsFolder); // Indexing documents from the specified folder
 SearchOptions options = new SearchOptions();
 options.FuzzySearch.Enabled = true; // Enabling the fuzzy search
 options.FuzzySearch.FuzzyAlgorithm = new SimilarityLevel(0.8); // Creating the fuzzy search algorithm
-// This function specifies 0 as the maximum number of mistakes for words from 1 to 4 characters.
-// It specifies 1 as the maximum number of mistakes for words from 5 to 9 characters.
-// It specifies 2 as the maximum number of mistakes for words from 10 to 14 characters. And so on.
+// This function specifies 0 as the maximum number of mistakes for words from 1 to 5 characters.
+// It specifies 1 as the maximum number of mistakes for words from 6 to 10 characters.
+// It specifies 2 as the maximum number of mistakes for words from 11 to 15 characters. And so on.
 
 SearchResult result = index.Search(query, options); // Search in index
 ```

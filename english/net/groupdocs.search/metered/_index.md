@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed. Learn more about Metered licenses herehttps//purchase.groupdocs.com/faqs/licensing/metered.
+description: Provides methods that allow activating the product with a metered license and retrieving the amount of MBs processed. Learn more about Metered licenses herehttps//purchase.groupdocs.com/faqs/licensing/metered.
 type: docs
 weight: 760
 url: /net/groupdocs.search/metered/
 ---
 ## Metered class
 
-Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed. Learn more about Metered licenses [here](https://purchase.groupdocs.com/faqs/licensing/metered).
+Provides methods that allow activating the product with a metered license and retrieving the amount of MBs processed. Learn more about Metered licenses [here](https://purchase.groupdocs.com/faqs/licensing/metered).
 
 ```csharp
 public class Metered
@@ -18,13 +18,13 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [Metered](metered)() | Initializes a new instance of [`Metered`](../metered) class. |
+| [Metered](metered)() | Initializes a new instance of the [`Metered`](../metered) class. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.search/metered/setmeteredkey)(string, string) | Sets metered public and private key. |
+| [SetMeteredKey](../../groupdocs.search/metered/setmeteredkey)(string, string) | Sets the metered public and private keys. |
 | static [GetConsumptionCredit](../../groupdocs.search/metered/getconsumptioncredit)() | Gets the consumption credit. |
 | static [GetConsumptionQuantity](../../groupdocs.search/metered/getconsumptionquantity)() | Gets the consumption quantity. |
 
@@ -32,7 +32,7 @@ public class Metered
 
 **Learn more**
 
-* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/display/searchnet/Evaluation+Limitations+and+Licensing)
+* [Evaluation Limitations and Licensing](https://docs.groupdocs.com/search/net/evaluation-limitations-and-licensing/)
 
 ### Examples
 

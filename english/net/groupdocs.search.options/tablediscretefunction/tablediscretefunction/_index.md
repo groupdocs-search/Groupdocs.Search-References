@@ -16,7 +16,7 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| offsetOfInputs | Int32 | The offset of the table indeces relative to the input values. |
+| offsetOfInputs | Int32 | The offset of the table indices relative to the input values. |
 | tableOfOutputs | Int32[] | The table of output values. |
 
 ### Exceptions
@@ -24,7 +24,7 @@ public TableDiscreteFunction(int offsetOfInputs, int[] tableOfOutputs)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *tableOfOutputs* is `null`. |
-| ArgumentException | Thrown when number of table elements is 0. |
+| ArgumentException | Thrown when the number of table elements is 0. |
 
 ### See Also
 

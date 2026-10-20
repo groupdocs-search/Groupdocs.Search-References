@@ -31,7 +31,7 @@ public class Step
 
 **Learn more**
 
-* [Fuzzy search](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
+* [Fuzzy search](https://docs.groupdocs.com/search/net/fuzzy-search/)
 
 ### See Also
 

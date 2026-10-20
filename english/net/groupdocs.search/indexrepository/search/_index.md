@@ -24,7 +24,7 @@ The search result.
 
 ### Examples
 
-The example demonstrates how to perform search in index repository.
+The example demonstrates how to perform a search in an index repository.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -66,7 +66,7 @@ The search result.
 
 ### Examples
 
-The example demonstrates how to perform search in index repository.
+The example demonstrates how to perform a search in an index repository.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -111,7 +111,7 @@ The search result.
 
 ### Examples
 
-The example demonstrates how to perform search in index repository.
+The example demonstrates how to perform a search in an index repository.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -155,7 +155,7 @@ The search result.
 
 ### Examples
 
-The example demonstrates how to perform search in index repository.
+The example demonstrates how to perform a search in an index repository.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

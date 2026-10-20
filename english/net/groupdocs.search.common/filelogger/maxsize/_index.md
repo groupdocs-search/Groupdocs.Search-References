@@ -1,14 +1,14 @@
 ---
 title: MaxSize
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the maximum size of log file in megabytes.
+description: Gets the maximum size of the log file in megabytes.
 type: docs
 weight: 30
 url: /net/groupdocs.search.common/filelogger/maxsize/
 ---
 ## FileLogger.MaxSize property
 
-Gets the maximum size of log file in megabytes.
+Gets the maximum size of the log file in megabytes.
 
 ```csharp
 public double MaxSize { get; }
@@ -16,7 +16,7 @@ public double MaxSize { get; }
 
 ### Property Value
 
-The maximum size of log file in megabytes.
+The maximum size of the log file in megabytes.
 
 ### See Also
 

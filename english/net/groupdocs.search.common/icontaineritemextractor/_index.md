@@ -31,7 +31,7 @@ public interface IContainerItemExtractor : IFieldExtractor
 
 **Learn more**
 
-* [Custom text extractors](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
+* [Custom text extractors](https://docs.groupdocs.com/search/net/custom-text-extractors/)
 
 ### See Also
 

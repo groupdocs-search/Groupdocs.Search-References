@@ -38,8 +38,8 @@ public class SynonymDictionary : DictionaryBase, IEnumerable<string>
 
 **Learn more**
 
-* [Synonym search](https://docs.groupdocs.com/display/searchnet/Synonym+search)
-* [Managing synonym dictionary](https://docs.groupdocs.com/display/searchnet/Synonym+dictionary)
+* [Synonym search](https://docs.groupdocs.com/search/net/synonym-search/)
+* [Managing synonym dictionary](https://docs.groupdocs.com/search/net/synonym-dictionary/)
 
 ### See Also
 

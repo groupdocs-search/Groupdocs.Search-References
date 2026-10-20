@@ -36,8 +36,8 @@ public class SpellingCorrector : DictionaryBase
 
 **Learn more**
 
-* [Spell checking](https://docs.groupdocs.com/display/searchnet/Spell+checking)
-* [Managing spelling corrector](https://docs.groupdocs.com/display/searchnet/Spelling+corrector)
+* [Spell checking](https://docs.groupdocs.com/search/net/spell-checking/)
+* [Managing spelling corrector](https://docs.groupdocs.com/search/net/spelling-corrector/)
 
 ### See Also
 

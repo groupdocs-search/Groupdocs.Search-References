@@ -20,7 +20,7 @@ public string[] GetSynonyms(string word)
 
 ### Return Value
 
-The synonyms for the specified word or empty array if the [`SynonymDictionary`](../../synonymdictionary) object does not contain the specified word.
+The synonyms for the specified word or an empty array if the [`SynonymDictionary`](../../synonymdictionary) object does not contain the specified word.
 
 ### Exceptions
 

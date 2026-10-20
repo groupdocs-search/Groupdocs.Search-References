@@ -1,14 +1,14 @@
 ---
 title: IndexSettings
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents the index settings that allow to customize the indexing operations.
+description: Represents the index settings that allow customizing the indexing operations.
 type: docs
 weight: 730
 url: /net/groupdocs.search/indexsettings/
 ---
 ## IndexSettings class
 
-Represents the index settings that allow to customize the indexing operations.
+Represents the index settings that allow customizing the indexing operations.
 
 ```csharp
 public class IndexSettings
@@ -25,7 +25,7 @@ public class IndexSettings
 | Name | Description |
 | --- | --- |
 | [CustomExtractors](../../groupdocs.search/indexsettings/customextractors) { get; } | Gets the custom extractor collection. |
-| [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Gets or sets a document filter. The [`DocumentFilter`](./documentfilter) works on the inclusion logic. Use the [`DocumentFilter`](../../groupdocs.search.options/documentfilter) class for creation of a document filter instances. The default value is `null`, which means that all added documents are indexed. |
+| [DocumentFilter](../../groupdocs.search/indexsettings/documentfilter) { get; set; } | Gets or sets a document filter. The [`DocumentFilter`](./documentfilter) works on the inclusion logic. Use the [`DocumentFilter`](../../groupdocs.search.options/documentfilter) class for creation of document filter instances. The default value is `null`, which means that all added documents are indexed. |
 | [IndexType](../../groupdocs.search/indexsettings/indextype) { get; set; } | Gets or sets the index type. The default value is NormalIndex. |
 | [InMemoryIndex](../../groupdocs.search/indexsettings/inmemoryindex) { get; } | Gets a value indicating whether the index is stored in memory or on disk. |
 | [Logger](../../groupdocs.search/indexsettings/logger) { get; set; } | Gets or sets a logger that is used for logging events and errors in the index. Note that the logger is not saved and must be created and assigned each time the index is created or loaded. |
@@ -42,7 +42,7 @@ public class IndexSettings
 
 **Learn more**
 
-* [Search index settings](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
+* [Search index settings](https://docs.groupdocs.com/search/net/search-index-settings/)
 
 ### Examples
 

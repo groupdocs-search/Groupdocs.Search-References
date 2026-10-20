@@ -25,7 +25,7 @@ public class DateFormatCollection : ICollection<DateFormat>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../groupdocs.search.options/dateformatcollection/add)(DateFormat) | Adds an date format object to the collection. |
+| [Add](../../groupdocs.search.options/dateformatcollection/add)(DateFormat) | Adds a date format object to the collection. |
 | [Clear](../../groupdocs.search.options/dateformatcollection/clear)() | Removes all elements from the collection. |
 | [Contains](../../groupdocs.search.options/dateformatcollection/contains)(DateFormat) | Determines whether the collection contains a specific item. |
 | [CopyTo](../../groupdocs.search.options/dateformatcollection/copyto)(DateFormat[], int) | Copies the elements of the collection to an Array, starting at a particular Array index. |
@@ -36,7 +36,7 @@ public class DateFormatCollection : ICollection<DateFormat>
 
 **Learn more**
 
-* [Date range search](https://docs.groupdocs.com/display/searchnet/Date+range+search)
+* [Date range search](https://docs.groupdocs.com/search/net/date-range-search/)
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Search for .NET API Reference
-description: Returns string representation of a document filter.
+description: Returns a string representation of a document filter.
 type: docs
 weight: 150
 url: /net/groupdocs.search.options/documentfilter/tostring/
 ---
 ## DocumentFilter.ToString method
 
-Returns string representation of a document filter.
+Returns a string representation of a document filter.
 
 ```csharp
 public abstract string ToString()

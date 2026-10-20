@@ -41,7 +41,7 @@ public class DateFormatElement
 
 **Learn more**
 
-* [Date range search](https://docs.groupdocs.com/display/searchnet/Date+range+search)
+* [Date range search](https://docs.groupdocs.com/search/net/date-range-search/)
 
 ### See Also
 

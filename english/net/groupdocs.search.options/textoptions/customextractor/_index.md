@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the custom text extractor that was used for indexing. The default value is null. Note that this value is used only if document text was not saved into the index.
+description: Gets or sets the custom text extractor that was used for indexing. The default value is null. Note that this value is used only if the document text was not saved into the index.
 type: docs
 weight: 40
 url: /net/groupdocs.search.options/textoptions/customextractor/
 ---
 ## TextOptions.CustomExtractor property
 
-Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index.
+Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if the document text was not saved into the index.
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

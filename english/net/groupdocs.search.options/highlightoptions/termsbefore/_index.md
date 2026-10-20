@@ -1,14 +1,14 @@
 ---
 title: TermsBefore
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the maximum number of words in a text fragment before highlighted word. The value must be in the range from 0 to 10000. The default value is 7.
+description: Gets or sets the maximum number of words in a text fragment before a highlighted word. The value must be in the range from 0 to 10000. The default value is 7.
 type: docs
 weight: 60
 url: /net/groupdocs.search.options/highlightoptions/termsbefore/
 ---
 ## HighlightOptions.TermsBefore property
 
-Gets or sets the maximum number of words in a text fragment before highlighted word. The value must be in the range from 0 to 10000. The default value is `7`.
+Gets or sets the maximum number of words in a text fragment before a highlighted word. The value must be in the range from 0 to 10000. The default value is `7`.
 
 ```csharp
 public int TermsBefore { get; set; }
@@ -16,7 +16,7 @@ public int TermsBefore { get; set; }
 
 ### Property Value
 
-The maximum number of words in a text fragment before highlighted word.
+The maximum number of words in a text fragment before a highlighted word.
 
 ### See Also
 

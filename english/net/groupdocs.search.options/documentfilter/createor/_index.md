@@ -20,7 +20,7 @@ public static DocumentFilter CreateOr(params DocumentFilter[] filters)
 
 ### Return Value
 
-A document filter that represents result of disjunction of the specified filters.
+A document filter that represents the result of disjunction of the specified filters.
 
 ### See Also
 

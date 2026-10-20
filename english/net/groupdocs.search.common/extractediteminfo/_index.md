@@ -1,14 +1,14 @@
 ---
 title: ExtractedItemInfo
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a container item information.
+description: Represents container item information.
 type: docs
 weight: 120
 url: /net/groupdocs.search.common/extractediteminfo/
 ---
 ## ExtractedItemInfo class
 
-Represents a container item information.
+Represents container item information.
 
 ```csharp
 public class ExtractedItemInfo
@@ -24,16 +24,16 @@ public class ExtractedItemInfo
 
 | Name | Description |
 | --- | --- |
-| [Fields](../../groupdocs.search.common/extractediteminfo/fields) { get; } | Gets an extracted fields. |
+| [Fields](../../groupdocs.search.common/extractediteminfo/fields) { get; } | Gets the extracted fields. |
 | [FormatFamily](../../groupdocs.search.common/extractediteminfo/formatfamily) { get; } | Gets a document type. |
 | [InnerPath](../../groupdocs.search.common/extractediteminfo/innerpath) { get; } | Gets an inner path. |
-| [ItemInfo](../../groupdocs.search.common/extractediteminfo/iteminfo) { get; } | Gets an item information. |
+| [ItemInfo](../../groupdocs.search.common/extractediteminfo/iteminfo) { get; } | Gets the item information. |
 
 ### Remarks
 
 **Learn more**
 
-* [Custom text extractors](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
+* [Custom text extractors](https://docs.groupdocs.com/search/net/custom-text-extractors/)
 
 ### See Also
 

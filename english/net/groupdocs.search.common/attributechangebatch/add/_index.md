@@ -37,7 +37,7 @@ public void Add(string[] paths, params string[] attributes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paths | String[] | The documents paths. |
+| paths | String[] | The document paths. |
 | attributes | String[] | The attributes to add. |
 
 ### See Also

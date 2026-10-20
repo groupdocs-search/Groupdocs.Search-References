@@ -1,14 +1,14 @@
 ---
 title: Warnings
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a warnings describing the result.
+description: Gets the warnings describing the result.
 type: docs
 weight: 80
 url: /net/groupdocs.search.results/searchresult/warnings/
 ---
 ## SearchResult.Warnings property
 
-Gets a warnings describing the result.
+Gets the warnings describing the result.
 
 ```csharp
 public string Warnings { get; }
@@ -16,7 +16,7 @@ public string Warnings { get; }
 
 ### Property Value
 
-A warnings describing the result.
+The warnings describing the result.
 
 ### See Also
 

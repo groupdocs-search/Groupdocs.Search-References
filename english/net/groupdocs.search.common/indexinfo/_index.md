@@ -18,7 +18,7 @@ public class IndexInfo
 
 | Name | Description |
 | --- | --- |
-| [IndexFolder](../../groupdocs.search.common/indexinfo/indexfolder) { get; } | Gets the full folder name where index is located. |
+| [IndexFolder](../../groupdocs.search.common/indexinfo/indexfolder) { get; } | Gets the full folder name where the index is located. |
 | [IndexId](../../groupdocs.search.common/indexinfo/indexid) { get; } | Gets the index unique identifier. |
 | [IndexStatus](../../groupdocs.search.common/indexinfo/indexstatus) { get; } | Gets the index status. |
 | [SegmentCount](../../groupdocs.search.common/indexinfo/segmentcount) { get; } | Gets the number of index segments. |

@@ -20,7 +20,7 @@ public int GetNodeIndex(int serviceIndex)
 
 ### Return Value
 
-The index of the node where the service is located. If the service index is incorrect, when -1 is returned.
+The index of the node where the service is located. If the service index is incorrect, then -1 is returned.
 
 ### See Also
 

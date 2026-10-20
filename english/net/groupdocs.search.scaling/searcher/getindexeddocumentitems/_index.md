@@ -20,7 +20,7 @@ public NetworkDocumentInfo[] GetIndexedDocumentItems(NetworkDocumentInfo documen
 
 ### Return Value
 
-An array of a document items.
+An array of document items.
 
 ### See Also
 

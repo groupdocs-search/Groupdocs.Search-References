@@ -31,14 +31,14 @@ public class Cancellation
 | Name | Description |
 | --- | --- |
 | [Cancel](../../groupdocs.search.common/cancellation/cancel)() | Makes a request for cancellation. |
-| [CancelAfter](../../groupdocs.search.common/cancellation/cancelafter)(int) | Makes a request for cancellation after the expiration of specified number of milliseconds. |
+| [CancelAfter](../../groupdocs.search.common/cancellation/cancelafter)(int) | Makes a request for cancellation after the expiration of the specified number of milliseconds. |
 
 ### Remarks
 
 **Learn more**
 
-* [Indexing options](https://docs.groupdocs.com/display/searchnet/Indexing+options)
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
+* [Indexing options](https://docs.groupdocs.com/search/net/indexing-options/)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
 
 ### See Also
 

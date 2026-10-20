@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: GroupDocs.Search for .NET API Reference
-description: Files with .EPUB extension are an ebook file format that provide a standard digital publication format for publishers and consumers. Learn more about this file format herehttps//wiki.fileformat.com/ebook/epub/.
+description: Files with .EPUB extension use an ebook file format that provides a standard digital publication format for publishers and consumers. Learn more about this file format herehttps//wiki.fileformat.com/ebook/epub/.
 type: docs
 weight: 210
 url: /net/groupdocs.search.results/filetype/epub/
 ---
 ## FileType.EPUB field
 
-Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. Learn more about this file format [here](https://wiki.fileformat.com/ebook/epub/).
+Files with .EPUB extension use an e-book file format that provides a standard digital publication format for publishers and consumers. Learn more about this file format [here](https://wiki.fileformat.com/ebook/epub/).
 
 ```csharp
 public static readonly FileType EPUB;

@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: GroupDocs.Search for .NET API Reference
-description: Files with XLSM extension is a type of Spreasheet files that support Macros. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xlsm/.
+description: Files with XLSM extension are spreadsheet files that support macros. Learn more about this file format herehttps//wiki.fileformat.com/specification/spreadsheet/xlsm/.
 type: docs
 weight: 770
 url: /net/groupdocs.search.results/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Files with XLSM extension is a type of Spreasheet files that support Macros. Learn more about this file format [here](https://wiki.fileformat.com/specification/spreadsheet/xlsm/).
+Files with XLSM extension are spreadsheet files that support macros. Learn more about this file format [here](https://wiki.fileformat.com/specification/spreadsheet/xlsm/).
 
 ```csharp
 public static readonly FileType XLSM;

@@ -20,7 +20,7 @@ public static class SpreadsheetFieldNames
 | --- | --- |
 | const [Application](../../groupdocs.search.options/spreadsheetfieldnames/application) | The application field name. |
 | const [ApplicationVersion](../../groupdocs.search.options/spreadsheetfieldnames/applicationversion) | The application version field name. |
-| const [Author](../../groupdocs.search.options/spreadsheetfieldnames/author) | Author field name. |
+| const [Author](../../groupdocs.search.options/spreadsheetfieldnames/author) | The author field name. |
 | const [Category](../../groupdocs.search.options/spreadsheetfieldnames/category) | The category field name. |
 | const [Comments](../../groupdocs.search.options/spreadsheetfieldnames/comments) | The comments field name. |
 | const [Company](../../groupdocs.search.options/spreadsheetfieldnames/company) | The company field name. |
@@ -39,7 +39,7 @@ public static class SpreadsheetFieldNames
 
 **Learn more**
 
-* [Faceted search](https://docs.groupdocs.com/display/searchnet/Faceted+search)
+* [Faceted search](https://docs.groupdocs.com/search/net/faceted-search/)
 
 ### See Also
 

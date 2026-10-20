@@ -1,14 +1,14 @@
 ---
 title: Delete
 second_title: GroupDocs.Search for .NET API Reference
-description: Deletes indexed files or folders from the index. Then updates the index without deleted paths. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder.
+description: Deletes indexed files or folders from the index. The deleted documents are excluded from search immediately and are physically removed from the index when the index is optimized with Optimizegroupdocs.search/index/optimize. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder.
 type: docs
 weight: 110
 url: /net/groupdocs.search/index/delete/
 ---
 ## Delete(string[], UpdateOptions) {#delete_1}
 
-Deletes indexed files or folders from the index. Then updates the index without deleted paths. Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder.
+Deletes indexed files or folders from the index. The deleted documents are excluded from search immediately and are physically removed from the index when the index is optimized with [`Optimize`](../optimize). Note that an individual document cannot be deleted from the index if it was added to the index as part of a folder.
 
 ```csharp
 public DeleteResult Delete(string[] paths, UpdateOptions options)
@@ -75,7 +75,7 @@ foreach (string path in indexedPaths2)
 
 ## Delete(UpdateOptions, string[]) {#delete}
 
-Deletes documents indexed from streams or structures. Then updates the index without deleted documents.
+Deletes documents indexed from streams or structures. The deleted documents are excluded from search immediately and are physically removed from the index when the index is optimized with [`Optimize`](../optimize).
 
 ```csharp
 public DeleteResult Delete(UpdateOptions options, string[] documentKeys)

@@ -18,7 +18,7 @@ public class PathDeleteResult
 
 | Name | Description |
 | --- | --- |
-| [Error](../../groupdocs.search.results/pathdeleteresult/error) { get; } | Returns a description of deletion error. |
+| [Error](../../groupdocs.search.results/pathdeleteresult/error) { get; } | Returns a description of a deletion error. |
 | [IsSuccess](../../groupdocs.search.results/pathdeleteresult/issuccess) { get; } | Returns the success indicator of the delete operation. |
 | [Path](../../groupdocs.search.results/pathdeleteresult/path) { get; } | Returns the path to the file or folder to delete. |
 
@@ -26,7 +26,7 @@ public class PathDeleteResult
 
 **Learn more**
 
-* [Delete indexed paths](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
+* [Delete indexed paths](https://docs.groupdocs.com/search/net/delete-indexed-paths/)
 
 ### See Also
 

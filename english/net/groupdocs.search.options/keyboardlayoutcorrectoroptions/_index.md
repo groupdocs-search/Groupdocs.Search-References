@@ -24,8 +24,8 @@ public class KeyboardLayoutCorrectorOptions
 
 **Learn more**
 
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
-* [Keyboard layout correction](https://docs.groupdocs.com/display/searchnet/Keyboard+layout+correction)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
+* [Keyboard layout correction](https://docs.groupdocs.com/search/net/keyboard-layout-correction/)
 
 ### See Also
 

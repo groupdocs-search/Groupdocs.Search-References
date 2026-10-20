@@ -20,7 +20,7 @@ public static ISearchDocumentFilter CreateAnd(params ISearchDocumentFilter[] fil
 
 ### Return Value
 
-A search document filter that represents result of conjunction of the specified filters.
+A search document filter that represents the result of conjunction of the specified filters.
 
 ### See Also
 

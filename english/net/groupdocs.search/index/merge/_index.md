@@ -16,7 +16,7 @@ public void Merge(Index index, MergeOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Index | The index to merge into. |
+| index | Index | The index to merge into the current index. |
 | options | MergeOptions | The merge options. |
 
 ### Exceptions
@@ -75,7 +75,7 @@ public void Merge(IndexRepository repository, MergeOptions options)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| repository | IndexRepository | The index repository to merge into. |
+| repository | IndexRepository | The index repository to merge into the current index. |
 | options | MergeOptions | The merge options. |
 
 ### Exceptions

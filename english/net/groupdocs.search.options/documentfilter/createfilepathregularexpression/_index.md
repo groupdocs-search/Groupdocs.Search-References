@@ -1,14 +1,14 @@
 ---
 title: CreateFilePathRegularExpression
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
+description: Creates a filter for skipping documents that do not match a regular expression. The regular expression is applied to the full path of a document.
 type: docs
 weight: 90
 url: /net/groupdocs.search.options/documentfilter/createfilepathregularexpression/
 ---
 ## CreateFilePathRegularExpression(string) {#createfilepathregularexpression}
 
-Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
+Creates a filter for skipping documents that do not match a regular expression. The regular expression is applied to the full path of a document.
 
 ```csharp
 public static DocumentFilter CreateFilePathRegularExpression(string pattern)
@@ -32,7 +32,7 @@ A document filter by file name.
 
 ## CreateFilePathRegularExpression(string, RegexOptions) {#createfilepathregularexpression_1}
 
-Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document.
+Creates a filter for skipping documents that do not match a regular expression. The regular expression is applied to the full path of a document.
 
 ```csharp
 public static DocumentFilter CreateFilePathRegularExpression(string pattern, RegexOptions options)

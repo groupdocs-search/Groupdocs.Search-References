@@ -1,14 +1,14 @@
 ---
 title: PasswordRequiredEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event that occurs when document protected by a password is indexing.
+description: Represents arguments for the event that occurs when a document protected by a password is being indexed.
 type: docs
 weight: 610
 url: /net/groupdocs.search.events/passwordrequiredeventargs/
 ---
 ## PasswordRequiredEventArgs class
 
-Represents arguments for the event that occurs when document protected by a password is indexing.
+Represents arguments for the event that occurs when a document protected by a password is being indexed.
 
 ```csharp
 public class PasswordRequiredEventArgs : BaseIndexEventArgs
@@ -29,7 +29,7 @@ public class PasswordRequiredEventArgs : BaseIndexEventArgs
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### See Also
 

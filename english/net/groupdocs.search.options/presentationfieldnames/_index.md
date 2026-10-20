@@ -41,7 +41,7 @@ public static class PresentationFieldNames
 
 **Learn more**
 
-* [Faceted search](https://docs.groupdocs.com/display/searchnet/Faceted+search)
+* [Faceted search](https://docs.groupdocs.com/search/net/faceted-search/)
 
 ### See Also
 

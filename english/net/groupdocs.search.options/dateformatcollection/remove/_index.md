@@ -20,7 +20,7 @@ public bool Remove(DateFormat item)
 
 ### Return Value
 
-`true` if item was successfully removed from the collection; otherwise, `false`. This method also returns `false` if item is not found in the collection.
+`true` if the item was successfully removed from the collection; otherwise, `false`. This method also returns `false` if the item is not found in the collection.
 
 ### See Also
 

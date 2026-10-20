@@ -18,15 +18,15 @@ public enum IndexType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NormalIndex | `0` | Normal index with documents metadata and documents content which supports all search features. |
-| MetadataIndex | `1` | Index that contains only metadata of documents, without content. |
-| CompactIndex | `2` | Index type that takes much less disk space but does not support phrase search and date range search features. |
+| NormalIndex | `0` | A normal index with document metadata and document content that supports all search features. |
+| MetadataIndex | `1` | An index that contains only metadata of documents, without content. |
+| CompactIndex | `2` | An index type that takes much less disk space but does not support phrase search and date range search features. |
 
 ### Remarks
 
 **Learn more**
 
-* [Search index settings](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
+* [Search index settings](https://docs.groupdocs.com/search/net/search-index-settings/)
 
 ### See Also
 

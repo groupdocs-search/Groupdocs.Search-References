@@ -162,7 +162,7 @@ public static class Encodings
 
 **Learn more**
 
-* [Text file encoding detection](https://docs.groupdocs.com/display/searchnet/Text+file+encoding+detection)
+* [Text file encoding detection](https://docs.groupdocs.com/search/net/text-file-encoding-detection/)
 
 ### See Also
 

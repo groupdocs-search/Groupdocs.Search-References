@@ -21,7 +21,7 @@ public sealed class Searcher
 | [GetDocumentText](../../groupdocs.search.scaling/searcher/getdocumenttext)(NetworkDocumentInfo, OutputAdapter) | Generates the text of an indexed document and passes it through an output adapter. |
 | [GetIndexedDocumentItems](../../groupdocs.search.scaling/searcher/getindexeddocumentitems)(NetworkDocumentInfo) | Gets an array of nested items of the specified document (for container documents such as ZIP, OST, PST). |
 | [GetIndexedDocuments](../../groupdocs.search.scaling/searcher/getindexeddocuments)(int) | Gets an array of all indexed documents. |
-| [Highlight](../../groupdocs.search.scaling/searcher/highlight)(NetworkFoundDocument, Highlighter, HighlightOptions) | Generates HTML formatted text with highlighted found terms. |
+| [Highlight](../../groupdocs.search.scaling/searcher/highlight)(NetworkFoundDocument, Highlighter, HighlightOptions) | Highlights the found terms in the text of the found document using the specified highlighter. |
 | [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst)(SearchImage, ImageSearchOptions) | Starts a reverse image search in the distributed search index. |
 | [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_1)(SearchQuery, SearchOptions) | Starts a search with a query in object form in the distributed search index. |
 | [SearchFirst](../../groupdocs.search.scaling/searcher/searchfirst#searchfirst_2)(string, SearchOptions) | Starts a search with a query in text form in the distributed search index. |

@@ -1,14 +1,14 @@
 ---
 title: TotalTermCount
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the total number of terms in index.
+description: Gets the total number of terms in the index.
 type: docs
 weight: 110
 url: /net/groupdocs.search.common/indexingreport/totaltermcount/
 ---
 ## IndexingReport.TotalTermCount property
 
-Gets the total number of terms in index.
+Gets the total number of terms in the index.
 
 ```csharp
 public int TotalTermCount { get; }
@@ -16,7 +16,7 @@ public int TotalTermCount { get; }
 
 ### Property Value
 
-The total number of terms in index.
+The total number of terms in the index.
 
 ### See Also
 

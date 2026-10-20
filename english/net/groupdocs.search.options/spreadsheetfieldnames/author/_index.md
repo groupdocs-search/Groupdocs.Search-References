@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: GroupDocs.Search for .NET API Reference
-description: Author field name.
+description: The author field name.
 type: docs
 weight: 30
 url: /net/groupdocs.search.options/spreadsheetfieldnames/author/
 ---
 ## SpreadsheetFieldNames.Author field
 
-Author field name.
+The author field name.
 
 ```csharp
 public const string Author;

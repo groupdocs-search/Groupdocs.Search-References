@@ -28,7 +28,7 @@ public class DeleteResult
 
 **Learn more**
 
-* [Delete indexed paths](https://docs.groupdocs.com/display/searchnet/Delete+indexed+paths)
+* [Delete indexed paths](https://docs.groupdocs.com/search/net/delete-indexed-paths/)
 
 ### See Also
 

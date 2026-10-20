@@ -1,14 +1,14 @@
 ---
 title: ImageSearchOptions
 second_title: GroupDocs.Search for .NET API Reference
-description: Provides options for reverse image search operation.
+description: Provides options for a reverse image search operation.
 type: docs
 weight: 970
 url: /net/groupdocs.search.options/imagesearchoptions/
 ---
 ## ImageSearchOptions class
 
-Provides options for reverse image search operation.
+Provides options for a reverse image search operation.
 
 ```csharp
 public class ImageSearchOptions
@@ -24,9 +24,9 @@ public class ImageSearchOptions
 
 | Name | Description |
 | --- | --- |
-| [HashDifferences](../../groupdocs.search.options/imagesearchoptions/hashdifferences) { get; set; } | Gets or sets the maximum number of mismatched bits in the image hash. The default value is `5`. |
+| [HashDifferences](../../groupdocs.search.options/imagesearchoptions/hashdifferences) { get; set; } | Gets or sets the maximum number of mismatched bits in the image hash. The image hash is 64 bits long, so the meaningful values are from `0` to `64`: a greater value is treated as `64`, and a negative value finds no images. The default value is `5`. |
 | [MaxResultCount](../../groupdocs.search.options/imagesearchoptions/maxresultcount) { get; set; } | Gets or sets the maximum number of found images for an image reverse search request. The default value is `1000`. |
-| [SearchDocumentFilter](../../groupdocs.search.options/imagesearchoptions/searchdocumentfilter) { get; set; } | Gets or sets the search document filter. [`SearchDocumentFilter`](./searchdocumentfilter) works on the inclusion logic. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of a search document filter instances. The default value is `null`, which means that all found documents will be returned. |
+| [SearchDocumentFilter](../../groupdocs.search.options/imagesearchoptions/searchdocumentfilter) { get; set; } | Gets or sets the search document filter. [`SearchDocumentFilter`](./searchdocumentfilter) works on the inclusion logic. Use [`SearchDocumentFilter`](../searchdocumentfilter) class for creation of search document filter instances. The default value is `null`, which means that all found documents will be returned. |
 
 ### See Also
 

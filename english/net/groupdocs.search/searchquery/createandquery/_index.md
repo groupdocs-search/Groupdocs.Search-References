@@ -1,14 +1,14 @@
 ---
 title: CreateAndQuery
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a combined query that will find only documents which will be found for each original query.
+description: Creates a combined query that will find only documents that will be found for each original query.
 type: docs
 weight: 10
 url: /net/groupdocs.search/searchquery/createandquery/
 ---
 ## CreateAndQuery(SearchQuery, SearchQuery) {#createandquery}
 
-Creates a combined query that will find only documents which will be found for each original query.
+Creates a combined query that will find only documents that will be found for each original query.
 
 ```csharp
 public static SearchQuery CreateAndQuery(SearchQuery leftQuery, SearchQuery rightQuery)
@@ -33,7 +33,7 @@ A combined AND query.
 
 ## CreateAndQuery(params SearchQuery[]) {#createandquery_1}
 
-Creates a combined query that will find only documents which will be found for each original query.
+Creates a combined query that will find only documents that will be found for each original query.
 
 ```csharp
 public static SearchQuery CreateAndQuery(params SearchQuery[] queries)

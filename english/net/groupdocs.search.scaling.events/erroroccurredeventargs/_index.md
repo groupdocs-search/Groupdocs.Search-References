@@ -1,14 +1,14 @@
 ---
 title: ErrorOccurredEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of an error occurs in one of the nodes of the search network.
+description: Represents arguments for the event of an error in one of the nodes of the search network.
 type: docs
 weight: 1440
 url: /net/groupdocs.search.scaling.events/erroroccurredeventargs/
 ---
 ## ErrorOccurredEventArgs class
 
-Represents arguments for the event of an error occurs in one of the nodes of the search network.
+Represents arguments for the event of an error in one of the nodes of the search network.
 
 ```csharp
 public class ErrorOccurredEventArgs : EventArgs

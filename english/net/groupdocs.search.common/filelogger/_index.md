@@ -25,7 +25,7 @@ public class FileLogger : ILogger
 | Name | Description |
 | --- | --- |
 | [FilePath](../../groupdocs.search.common/filelogger/filepath) { get; } | Gets the log file path. |
-| [MaxSize](../../groupdocs.search.common/filelogger/maxsize) { get; } | Gets the maximum size of log file in megabytes. |
+| [MaxSize](../../groupdocs.search.common/filelogger/maxsize) { get; } | Gets the maximum size of the log file in megabytes. |
 
 ## Methods
 
@@ -38,7 +38,7 @@ public class FileLogger : ILogger
 
 **Learn more**
 
-* [Logging](https://docs.groupdocs.com/display/searchnet/Logging)
+* [Logging](https://docs.groupdocs.com/search/net/logging/)
 
 ### Examples
 

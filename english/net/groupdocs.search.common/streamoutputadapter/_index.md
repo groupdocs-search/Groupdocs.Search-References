@@ -31,7 +31,7 @@ public class StreamOutputAdapter : OutputAdapter
 
 **Learn more**
 
-* [Output adapters](https://docs.groupdocs.com/display/searchnet/Output+adapters)
+* [Output adapters](https://docs.groupdocs.com/search/net/output-adapters/)
 
 ### Examples
 
@@ -49,7 +49,7 @@ DocumentInfo[] documents = index.GetIndexedDocuments(); // Getting information o
 
 using (Stream stream = new MemoryStream()) // Creating a stream
 {
-    StreamOutputAdapter adapter = new StreamOutputAdapter(stream); // Creating a stream output adapter
+    StreamOutputAdapter adapter = new StreamOutputAdapter(OutputFormat.Html, stream); // Creating a stream output adapter
     index.GetDocumentText(documents[0], adapter); // Generating a document text into the stream
 }
 ```

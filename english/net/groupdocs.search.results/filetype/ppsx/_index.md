@@ -1,14 +1,14 @@
 ---
 title: PPSX
 second_title: GroupDocs.Search for .NET API Reference
-description: PPSX Power Point Slide Show file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsx/.
+description: PPSX Power Point Slide Show files are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsx/.
 type: docs
 weight: 530
 url: /net/groupdocs.search.results/filetype/ppsx/
 ---
 ## FileType.PPSX field
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsx/).
+PPSX, Power Point Slide Show, files are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsx/).
 
 ```csharp
 public static readonly FileType PPSX;

@@ -34,7 +34,7 @@ public class OperationProgressEventArgs : BaseIndexEventArgs
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### See Also
 

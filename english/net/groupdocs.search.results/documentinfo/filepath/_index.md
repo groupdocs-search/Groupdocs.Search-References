@@ -1,14 +1,14 @@
 ---
 title: FilePath
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets the file path for indexed from file or the document key for indexed from stream or structure.
+description: Gets the file path for a document indexed from a file or the document key for a document indexed from a stream or structure.
 type: docs
 weight: 30
 url: /net/groupdocs.search.results/documentinfo/filepath/
 ---
 ## DocumentInfo.FilePath property
 
-Gets the file path for indexed from file or the document key for indexed from stream or structure.
+Gets the file path for a document indexed from a file or the document key for a document indexed from a stream or structure.
 
 ```csharp
 public string FilePath { get; }

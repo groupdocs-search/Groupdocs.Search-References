@@ -24,24 +24,24 @@ public class TextOptions : BaseOptions
 
 | Name | Description |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Gets or sets the additional document fields that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
+| [AdditionalFields](../../groupdocs.search.options/textoptions/additionalfields) { get; set; } | Gets or sets the additional document fields that were used for indexing. The default value is `null`. Note that this value is used only if the document text was not saved into the index. |
 | [AutoDetectEncoding](../../groupdocs.search.options/baseoptions/autodetectencoding) { get; set; } | Gets or sets a value indicating whether to detect encoding automatically or not. The default value is `false`. |
 | [Cancellation](../../groupdocs.search.options/textoptions/cancellation) { get; set; } | Gets or sets the cancellation object. The default value is `null`. |
-| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index. |
+| [CustomExtractor](../../groupdocs.search.options/textoptions/customextractor) { get; set; } | Gets or sets the custom text extractor that was used for indexing. The default value is `null`. Note that this value is used only if the document text was not saved into the index. |
 | [Encoding](../../groupdocs.search.options/baseoptions/encoding) { get; set; } | Gets or sets the encoding used to extract text from text documents. The default value is `null`, which means that the default encoding UTF-8 is used. If AutoDetectEncoding is `true` then this value is used as the default encoding. |
 | [GenerateHead](../../groupdocs.search.options/textoptions/generatehead) { get; set; } | Gets or sets a value indicating whether the Head tag is generated in the output HTML. The default value is `true`. |
 | [ImageIndexingOptions](../../groupdocs.search.options/baseoptions/imageindexingoptions) { get; } | Gets the image indexing options for reverse image search. |
 | [MetadataIndexingOptions](../../groupdocs.search.options/baseoptions/metadataindexingoptions) { get; } | Gets the options for indexing metadata fields. |
 | [OcrIndexingOptions](../../groupdocs.search.options/baseoptions/ocrindexingoptions) { get; } | Gets the options for OCR processing and indexing recognized text. |
 | [UseBackupPrivilege](../../groupdocs.search.options/baseoptions/usebackupprivilege) { get; set; } | Gets or sets a value indicating whether the process should use the SeBackupPrivilege and FILE_FLAG_BACKUP_SEMANTICS to access files and directories. The default value is `false`. |
-| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but normal mode improves the formatting of the extracted text. |
+| [UseRawTextExtraction](../../groupdocs.search.options/baseoptions/userawtextextraction) { get; set; } | Gets or sets a value indicating whether the raw mode is used for text extraction if possible. The default value is `false`. The raw mode can significantly increase the indexing speed, but the normal mode improves the formatting of the extracted text. |
 
 ### Remarks
 
 **Learn more**
 
-* [Getting indexed documents](https://docs.groupdocs.com/display/searchnet/Getting+indexed+documents)
-* [Highlighting search results](https://docs.groupdocs.com/display/searchnet/Highlighting+search+results)
+* [Getting indexed documents](https://docs.groupdocs.com/search/net/getting-indexed-documents/)
+* [Highlighting search results](https://docs.groupdocs.com/search/net/highlighting-search-results/)
 
 ### See Also
 

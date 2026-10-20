@@ -1,14 +1,14 @@
 ---
 title: UseSynonymSearch
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the flag of use synonyms in search. The default value is false.
+description: Gets or sets the flag of using synonyms in search. The default value is false.
 type: docs
 weight: 140
 url: /net/groupdocs.search.options/searchoptions/usesynonymsearch/
 ---
 ## SearchOptions.UseSynonymSearch property
 
-Gets or sets the flag of use synonyms in search. The default value is `false`.
+Gets or sets the flag of using synonyms in search. The default value is `false`.
 
 ```csharp
 public bool UseSynonymSearch { get; set; }
@@ -16,7 +16,7 @@ public bool UseSynonymSearch { get; set; }
 
 ### Property Value
 
-The flag of use synonyms in search.
+The flag of using synonyms in search.
 
 ### See Also
 

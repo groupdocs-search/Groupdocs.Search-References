@@ -24,14 +24,14 @@ public class TextStorageSettings
 
 | Name | Description |
 | --- | --- |
-| [Compression](../../groupdocs.search.options/textstoragesettings/compression) { get; set; } | Gets or sets the compression of text storage. The default value is Normal. |
+| [Compression](../../groupdocs.search.options/textstoragesettings/compression) { get; set; } | Gets or sets the compression of the text storage. The default value is Normal. |
 
 ### Remarks
 
 **Learn more**
 
-* [Storing text of indexed documents](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
-* [Search index settings](https://docs.groupdocs.com/display/searchnet/Search+index+settings)
+* [Storing text of indexed documents](https://docs.groupdocs.com/search/net/storing-text-of-indexed-documents/)
+* [Search index settings](https://docs.groupdocs.com/search/net/search-index-settings/)
 
 ### See Also
 

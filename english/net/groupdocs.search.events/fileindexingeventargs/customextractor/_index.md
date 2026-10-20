@@ -1,14 +1,14 @@
 ---
 title: CustomExtractor
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or set the custom text extractor.
+description: Gets or sets the custom text extractor.
 type: docs
 weight: 30
 url: /net/groupdocs.search.events/fileindexingeventargs/customextractor/
 ---
 ## FileIndexingEventArgs.CustomExtractor property
 
-Gets or set the custom text extractor.
+Gets or sets the custom text extractor.
 
 ```csharp
 public IFieldExtractor CustomExtractor { get; set; }

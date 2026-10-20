@@ -25,14 +25,14 @@ public class TableDiscreteFunction : FuzzyAlgorithm
 
 | Name | Description |
 | --- | --- |
-| override [GetMaxMistakeCount](../../groupdocs.search.options/tablediscretefunction/getmaxmistakecount)(int) | Gets a maximum allowed number of mistakes for specified term length. |
-| override [GetSimilarityLevel](../../groupdocs.search.options/tablediscretefunction/getsimilaritylevel)(int) | Gets a similarity level for specified term length. |
+| override [GetMaxMistakeCount](../../groupdocs.search.options/tablediscretefunction/getmaxmistakecount)(int) | Gets a maximum allowed number of mistakes for the specified term length. |
+| override [GetSimilarityLevel](../../groupdocs.search.options/tablediscretefunction/getsimilaritylevel)(int) | Gets a similarity level for the specified term length. |
 
 ### Remarks
 
 **Learn more**
 
-* [Fuzzy search](https://docs.groupdocs.com/display/searchnet/Fuzzy+search)
+* [Fuzzy search](https://docs.groupdocs.com/search/net/fuzzy-search/)
 
 ### Examples
 

@@ -1,14 +1,14 @@
 ---
 title: DocumentField
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a document field data.
+description: Represents document field data.
 type: docs
 weight: 60
 url: /net/groupdocs.search.common/documentfield/
 ---
 ## DocumentField class
 
-Represents a document field data.
+Represents document field data.
 
 ```csharp
 public class DocumentField
@@ -31,8 +31,8 @@ public class DocumentField
 
 **Learn more**
 
-* [Custom text extractors](https://docs.groupdocs.com/display/searchnet/Custom+text+extractors)
-* [Indexing additional fields](https://docs.groupdocs.com/display/searchnet/Indexing+additional+fields)
+* [Custom text extractors](https://docs.groupdocs.com/search/net/custom-text-extractors/)
+* [Indexing additional fields](https://docs.groupdocs.com/search/net/indexing-additional-fields/)
 
 ### See Also
 

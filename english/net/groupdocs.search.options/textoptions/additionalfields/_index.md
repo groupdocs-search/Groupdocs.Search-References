@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the additional document fields that was used for indexing. The default value is null. Note that this value is used only if document text was not saved into the index.
+description: Gets or sets the additional document fields that were used for indexing. The default value is null. Note that this value is used only if the document text was not saved into the index.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/textoptions/additionalfields/
 ---
 ## TextOptions.AdditionalFields property
 
-Gets or sets the additional document fields that was used for indexing. The default value is `null`. Note that this value is used only if document text was not saved into the index.
+Gets or sets the additional document fields that were used for indexing. The default value is `null`. Note that this value is used only if the document text was not saved into the index.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }
@@ -16,7 +16,7 @@ public DocumentField[] AdditionalFields { get; set; }
 
 ### Property Value
 
-The additional document fields that was used for indexing.
+The additional document fields that were used for indexing.
 
 ### See Also
 

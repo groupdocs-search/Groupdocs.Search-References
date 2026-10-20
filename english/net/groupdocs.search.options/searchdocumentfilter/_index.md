@@ -21,8 +21,8 @@ public static class SearchDocumentFilter
 | static [CreateAnd](../../groupdocs.search.options/searchdocumentfilter/createand)(params ISearchDocumentFilter[]) | Creates a logical conjunction of the specified filters. |
 | static [CreateAttribute](../../groupdocs.search.options/searchdocumentfilter/createattribute)(params string[]) | Creates a filter for skipping documents that do not have any value from the specified list of allowable attributes. |
 | static [CreateFileExtension](../../groupdocs.search.options/searchdocumentfilter/createfileextension)(params string[]) | Creates a filter for skipping documents that are not in the specified list of possible extensions. |
-| static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression)(string) | Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document. |
-| static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression_1)(string, RegexOptions) | Creates a filter for skipping documents that are not match a regular expression. The regular expression is applied to the full path of a document. |
+| static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression)(string) | Creates a filter for skipping documents that do not match a regular expression. The regular expression is applied to the full path of a document. |
+| static [CreateFilePathRegularExpression](../../groupdocs.search.options/searchdocumentfilter/createfilepathregularexpression#createfilepathregularexpression_1)(string, RegexOptions) | Creates a filter for skipping documents that do not match a regular expression. The regular expression is applied to the full path of a document. |
 | static [CreateNot](../../groupdocs.search.options/searchdocumentfilter/createnot)(ISearchDocumentFilter) | Creates a filter that has inverse logic in relation to the specified inner filter. |
 | static [CreateOr](../../groupdocs.search.options/searchdocumentfilter/createor)(params ISearchDocumentFilter[]) | Creates a logical disjunction of the specified filters. |
 
@@ -30,8 +30,8 @@ public static class SearchDocumentFilter
 
 **Learn more**
 
-* [Document filtering in search result](https://docs.groupdocs.com/display/searchnet/Document+filtering+in+search+result)
-* [Search options](https://docs.groupdocs.com/display/searchnet/Search+options)
+* [Document filtering in search result](https://docs.groupdocs.com/search/net/document-filtering-in-search-result/)
+* [Search options](https://docs.groupdocs.com/search/net/search-options/)
 
 ### See Also
 

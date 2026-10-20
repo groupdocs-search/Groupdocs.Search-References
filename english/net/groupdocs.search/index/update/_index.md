@@ -1,14 +1,14 @@
 ---
 title: Update
 second_title: GroupDocs.Search for .NET API Reference
-description: Reindexes documents that have been changed or deleted since last update. Adds new files that have been added to the indexed folders.
+description: Reindexes documents that have been changed or deleted since the last update. Adds new files that have been added to the indexed folders.
 type: docs
 weight: 280
 url: /net/groupdocs.search/index/update/
 ---
 ## Update() {#update}
 
-Re-indexes documents that have been changed or deleted since last update. Adds new files that have been added to the indexed folders.
+Re-indexes documents that have been changed or deleted since the last update. Adds new files that have been added to the indexed folders.
 
 ```csharp
 public void Update()
@@ -40,7 +40,7 @@ index.Update(); // Updating the index
 
 ## Update(UpdateOptions) {#update_1}
 
-Re-indexes documents that have been changed or deleted since last update. Adds new files that have been added to the indexed folders.
+Re-indexes documents that have been changed or deleted since the last update. Adds new files that have been added to the indexed folders.
 
 ```csharp
 public void Update(UpdateOptions options)

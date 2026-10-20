@@ -1,14 +1,14 @@
 ---
 title: CreateModificationTimeRange
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a filter for skipping documents with modification date out of the specified range.
+description: Creates a filter for skipping documents with a modification date out of the specified range.
 type: docs
 weight: 110
 url: /net/groupdocs.search.options/documentfilter/createmodificationtimerange/
 ---
 ## DocumentFilter.CreateModificationTimeRange method
 
-Creates a filter for skipping documents with modification date out of the specified range.
+Creates a filter for skipping documents with a modification date out of the specified range.
 
 ```csharp
 public static DocumentFilter CreateModificationTimeRange(DateTime lowerBound, DateTime upperBound)

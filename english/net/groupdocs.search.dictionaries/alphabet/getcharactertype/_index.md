@@ -16,7 +16,7 @@ public CharacterType GetCharacterType(char character)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character | Char | The character to get a type. |
+| character | Char | The character to get the type of. |
 
 ### Return Value
 
@@ -41,7 +41,7 @@ public CharacterType GetCharacterType(int codePoint)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codePoint | Int32 | The Unicode code point to get a type. |
+| codePoint | Int32 | The Unicode code point to get the type of. |
 
 ### Return Value
 
@@ -58,7 +58,7 @@ A type of the Unicode code point.
 
 ## GetCharacterType(string) {#getcharactertype_2}
 
-Gets a type of a character. This method can be used to obtain the type of surrogate pair.
+Gets a type of a character. This method can be used to obtain the type of a surrogate pair.
 
 ```csharp
 public CharacterType GetCharacterType(string character)
@@ -66,7 +66,7 @@ public CharacterType GetCharacterType(string character)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| character | String | The character or surrogate pair to get a type. |
+| character | String | The character or surrogate pair to get the type of. |
 
 ### Return Value
 

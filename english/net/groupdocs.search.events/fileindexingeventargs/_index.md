@@ -18,9 +18,9 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 
 | Name | Description |
 | --- | --- |
-| [AdditionalFields](../../groupdocs.search.events/fileindexingeventargs/additionalfields) { get; set; } | Gets or set the additional fields for the document. |
-| [Attributes](../../groupdocs.search.events/fileindexingeventargs/attributes) { get; set; } | Gets or set the attributes of the document. |
-| [CustomExtractor](../../groupdocs.search.events/fileindexingeventargs/customextractor) { get; set; } | Gets or set the custom text extractor. |
+| [AdditionalFields](../../groupdocs.search.events/fileindexingeventargs/additionalfields) { get; set; } | Gets or sets the additional fields for the document. |
+| [Attributes](../../groupdocs.search.events/fileindexingeventargs/attributes) { get; set; } | Gets or sets the attributes of the document. |
+| [CustomExtractor](../../groupdocs.search.events/fileindexingeventargs/customextractor) { get; set; } | Gets or sets the custom text extractor. |
 | [Document](../../groupdocs.search.events/fileindexingeventargs/document) { get; } | Gets the document. |
 | [DocumentFullPath](../../groupdocs.search.events/fileindexingeventargs/documentfullpath) { get; } | Gets the document full path. |
 | [DocumentKey](../../groupdocs.search.events/fileindexingeventargs/documentkey) { get; } | Gets the document key. |
@@ -36,7 +36,7 @@ public class FileIndexingEventArgs : BaseIndexEventArgs
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### See Also
 

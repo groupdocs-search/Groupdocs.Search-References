@@ -1,14 +1,14 @@
 ---
 title: CreateCreationTimeLowerBound
 second_title: GroupDocs.Search for .NET API Reference
-description: Creates a filter for skipping documents with creation date earlier than the lower bound.
+description: Creates a filter for skipping documents with a creation date earlier than the lower bound.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/documentfilter/createcreationtimelowerbound/
 ---
 ## DocumentFilter.CreateCreationTimeLowerBound method
 
-Creates a filter for skipping documents with creation date earlier than the lower bound.
+Creates a filter for skipping documents with a creation date earlier than the lower bound.
 
 ```csharp
 public static DocumentFilter CreateCreationTimeLowerBound(DateTime lowerBound)

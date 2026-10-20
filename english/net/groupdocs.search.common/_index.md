@@ -15,25 +15,25 @@ The namespace provides common classes of the library.
 | [AttributeChangeBatch](./attributechangebatch) | Represents a container for attribute changes. |
 | [Cancellation](./cancellation) | Represents an object for requesting cancellation of an operation. |
 | [ChunkSearchToken](./chunksearchtoken) | Represents a token for the continuation of the chunk search (search by pages). |
-| [CustomExtractorCollection](./customextractorcollection) | Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by build-in extractors, then this extractor will be used instead of built-in one. |
+| [CustomExtractorCollection](./customextractorcollection) | Contains a collection of custom extractors. If the collection contains an extractor for some file extension that is covered by built-in extractors, then this extractor will be used instead of the built-in one. |
 | [Document](./document) | Represents the base class for documents added to an index from file system, stream, or structure. Contains static methods for creating documents from different types of sources. |
-| [DocumentField](./documentfield) | Represents a document field data. |
-| [DocumentImage](./documentimage) | Represents a document image data. |
+| [DocumentField](./documentfield) | Represents document field data. |
+| [DocumentImage](./documentimage) | Represents document image data. |
 | [Encodings](./encodings) | Contains names of possible encodings. |
 | [ExtractedData](./extracteddata) | Represents data retrieved from a document and prepared for indexing. |
-| [ExtractedItemInfo](./extractediteminfo) | Represents a container item information. |
+| [ExtractedItemInfo](./extractediteminfo) | Represents container item information. |
 | [ExtractorSettings](./extractorsettings) | Contains settings for the document data extractor. |
 | [FileLogger](./filelogger) | Represents a logger that logs events and errors to a local file. |
 | [FileOutputAdapter](./fileoutputadapter) | Represents an output adapter that collects output into a file. |
 | [FragmentContainer](./fragmentcontainer) | Represents a container for text fragments with highlighted found terms of one document field. |
 | [ImageFrame](./imageframe) | Represents an image frame. |
 | [IndexInfo](./indexinfo) | Contains basic information on an Index. |
-| [IndexingReport](./indexingreport) | Represents a detailed information on an indexing operation. |
+| [IndexingReport](./indexingreport) | Represents detailed information on an indexing operation. |
 | [Notification](./notification) | The base class for all notifications to the index. This class also contains methods for creating notification objects. |
 | [OutputAdapter](./outputadapter) | Represents the base class of an output adapter that is used to collect an output in a generalized form. The currently available adapters are [`FileOutputAdapter`](../groupdocs.search.common/fileoutputadapter), [`StreamOutputAdapter`](../groupdocs.search.common/streamoutputadapter), [`StructureOutputAdapter`](../groupdocs.search.common/structureoutputadapter), and [`StringOutputAdapter`](../groupdocs.search.common/stringoutputadapter). |
 | [ResultBuilderFactory](./resultbuilderfactory) | Represents the base class of a result builder factory. |
 | [SearchImage](./searchimage) | Represents an image to search. |
-| [SearchReport](./searchreport) | Represents a detailed information on a search operation. |
+| [SearchReport](./searchreport) | Represents detailed information on a search operation. |
 | [StreamOutputAdapter](./streamoutputadapter) | Represents an output adapter that collects output into a Stream. |
 | [StringOutputAdapter](./stringoutputadapter) | Represents an output adapter that collects output as a String. |
 | [StructureOutputAdapter](./structureoutputadapter) | Represents an output adapter that collects output as a structure containing each field separately. |
@@ -45,7 +45,7 @@ The namespace provides common classes of the library.
 | [IContainerItemExtractor](./icontaineritemextractor) | Provides methods for extracting items from container documents. |
 | [IDocumentLoader](./idocumentloader) | Defines the document loader interface that is used to load lazy documents. |
 | [IFieldExtractor](./ifieldextractor) | Provides methods for extracting fields from a document. |
-| [ILogger](./ilogger) | Defines interface of a logger that is used for logging events and errors in an index. |
+| [ILogger](./ilogger) | Defines the interface of a logger that is used for logging events and errors in an index. |
 | [IWordSplitter](./iwordsplitter) | Defines a method for splitting text into individual words. |
 ## Enumeration
 

@@ -20,7 +20,7 @@ public string[] GetWordForms(string word)
 
 ### Return Value
 
-The word forms for the specified word or empty array if the [`IWordFormsProvider`](../../iwordformsprovider) does not provide word forms for the specified word.
+The word forms for the specified word or an empty array if the [`IWordFormsProvider`](../../iwordformsprovider) does not provide word forms for the specified word.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Search for .NET API Reference
-description: Adds an date format object to the collection.
+description: Adds a date format object to the collection.
 type: docs
 weight: 30
 url: /net/groupdocs.search.options/dateformatcollection/add/
 ---
 ## DateFormatCollection.Add method
 
-Adds an date format object to the collection.
+Adds a date format object to the collection.
 
 ```csharp
 public void Add(DateFormat item)

@@ -24,7 +24,7 @@ public class DeleteOptions
 
 | Name | Description |
 | --- | --- |
-| [IsAsync](../../groupdocs.search.options/deleteoptions/isasync) { get; set; } | Gets or sets the flag of asynchronous performing the operation. The default value is `false`. |
+| [IsAsync](../../groupdocs.search.options/deleteoptions/isasync) { get; set; } | Gets or sets the flag of performing the operation asynchronously. The default value is `false`. |
 
 ### See Also
 

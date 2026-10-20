@@ -16,7 +16,7 @@ public IndexSettingsConfigurator SetTextStorageSettings(bool isUsed, Compression
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isUsed | Boolean | The flag of using the text storage in index. |
+| isUsed | Boolean | The flag of using the text storage in the index. |
 | compression | Compression | The compression level. |
 
 ### Return Value

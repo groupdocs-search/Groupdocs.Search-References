@@ -30,8 +30,8 @@ public class EnglishWordFormsProvider : IWordFormsProvider
 
 **Learn more**
 
-* [Search for different word forms](https://docs.groupdocs.com/display/searchnet/Search+for+different+word+forms)
-* [Word forms provider](https://docs.groupdocs.com/display/searchnet/Word+forms+provider)
+* [Search for different word forms](https://docs.groupdocs.com/search/net/search-for-different-word-forms/)
+* [Word forms provider](https://docs.groupdocs.com/search/net/word-forms-provider/)
 
 ### See Also
 

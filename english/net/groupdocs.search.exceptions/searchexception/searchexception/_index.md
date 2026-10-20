@@ -32,7 +32,7 @@ public SearchException(string message)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Exception message. |
+| message | String | The exception message. |
 
 ### See Also
 
@@ -52,8 +52,8 @@ public SearchException(string message, Exception inner)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | String | Exception message. |
-| inner | Exception | Inner exception. |
+| message | String | The exception message. |
+| inner | Exception | The inner exception. |
 
 ### See Also
 

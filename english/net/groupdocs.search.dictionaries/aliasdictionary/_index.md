@@ -41,8 +41,8 @@ public class AliasDictionary : DictionaryBase, IEnumerable<string>
 
 **Learn more**
 
-* [Using aliases](https://docs.groupdocs.com/display/searchnet/Using+aliases)
-* [Managing alias dictionary](https://docs.groupdocs.com/display/searchnet/Alias+dictionary)
+* [Using aliases](https://docs.groupdocs.com/search/net/using-aliases/)
+* [Managing alias dictionary](https://docs.groupdocs.com/search/net/alias-dictionary/)
 
 ### See Also
 

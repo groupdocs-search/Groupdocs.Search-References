@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets a value indicating whether fuzzy search feature is enabled. The default value is false.
+description: Gets or sets a value indicating whether the fuzzy search feature is enabled. The default value is false.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/fuzzysearchoptions/enabled/
 ---
 ## FuzzySearchOptions.Enabled property
 
-Gets or sets a value indicating whether fuzzy search feature is enabled. The default value is `false`.
+Gets or sets a value indicating whether the fuzzy search feature is enabled. The default value is `false`.
 
 ```csharp
 public bool Enabled { get; set; }
@@ -16,7 +16,7 @@ public bool Enabled { get; set; }
 
 ### Property Value
 
-A value indicating whether fuzzy search feature is enabled.
+A value indicating whether the fuzzy search feature is enabled.
 
 ### See Also
 

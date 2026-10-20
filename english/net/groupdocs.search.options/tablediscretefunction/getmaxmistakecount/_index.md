@@ -1,14 +1,14 @@
 ---
 title: GetMaxMistakeCount
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a maximum allowed number of mistakes for specified term length.
+description: Gets a maximum allowed number of mistakes for the specified term length.
 type: docs
 weight: 20
 url: /net/groupdocs.search.options/tablediscretefunction/getmaxmistakecount/
 ---
 ## TableDiscreteFunction.GetMaxMistakeCount method
 
-Gets a maximum allowed number of mistakes for specified term length.
+Gets a maximum allowed number of mistakes for the specified term length.
 
 ```csharp
 public override int GetMaxMistakeCount(int termLength)

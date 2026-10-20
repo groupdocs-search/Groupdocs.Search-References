@@ -39,7 +39,7 @@ DocumentInfo[] documents = index.GetIndexedDocuments();
 // Getting a document text
 if (documents.Length > 0)
 {
-    FileOutputAdapter outputAdapter = new FileOutputAdapter(@"C:\Text.html");
+    FileOutputAdapter outputAdapter = new FileOutputAdapter(OutputFormat.Html, @"C:\Text.html");
     index.GetDocumentText(documents[0], outputAdapter);
 }
 ```
@@ -56,7 +56,7 @@ if (documents.Length > 0)
 
 ## GetDocumentText(DocumentInfo, OutputAdapter, TextOptions) {#getdocumenttext_1}
 
-Generates HTML formatted text for indexed document and transfers it through the output adapter.
+Generates the text of an indexed document with the specified options and passes it through an output adapter.
 
 ```csharp
 public void GetDocumentText(DocumentInfo documentInfo, OutputAdapter adapter, TextOptions options)

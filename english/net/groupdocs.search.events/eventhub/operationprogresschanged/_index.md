@@ -30,7 +30,7 @@ index.Events.OperationProgressChanged += (sender, args) =>
 {
     Console.WriteLine("Last processed: " + args.LastDocumentPath);
     Console.WriteLine("Result: " + args.LastDocumentStatus);
-    Console.WriteLine("Processed documents: " + args.TotalDocuments);
+    Console.WriteLine("Processed documents: " + args.ProcessedDocuments);
     Console.WriteLine("Progress percentage: " + args.ProgressPercentage);
 };
 

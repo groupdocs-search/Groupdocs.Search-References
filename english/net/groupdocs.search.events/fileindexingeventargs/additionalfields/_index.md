@@ -1,14 +1,14 @@
 ---
 title: AdditionalFields
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or set the additional fields for the document.
+description: Gets or sets the additional fields for the document.
 type: docs
 weight: 10
 url: /net/groupdocs.search.events/fileindexingeventargs/additionalfields/
 ---
 ## FileIndexingEventArgs.AdditionalFields property
 
-Gets or set the additional fields for the document.
+Gets or sets the additional fields for the document.
 
 ```csharp
 public DocumentField[] AdditionalFields { get; set; }

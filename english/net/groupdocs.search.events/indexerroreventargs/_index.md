@@ -1,14 +1,14 @@
 ---
 title: IndexErrorEventArgs
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents arguments for the event of index error occurred.
+description: Represents arguments for the event of an index error.
 type: docs
 weight: 560
 url: /net/groupdocs.search.events/indexerroreventargs/
 ---
 ## IndexErrorEventArgs class
 
-Represents arguments for the event of index error occurred.
+Represents arguments for the event of an index error.
 
 ```csharp
 public class IndexErrorEventArgs : BaseIndexEventArgs
@@ -20,7 +20,7 @@ public class IndexErrorEventArgs : BaseIndexEventArgs
 | --- | --- |
 | [IndexFolder](../../groupdocs.search.events/baseindexeventargs/indexfolder) { get; } | Gets the index folder. |
 | [IndexId](../../groupdocs.search.events/baseindexeventargs/indexid) { get; } | Gets the index ID. |
-| [IsCritical](../../groupdocs.search.events/indexerroreventargs/iscritical) { get; } | Gets a flag indicating that the error occurred is critical and the index should be restarted. |
+| [IsCritical](../../groupdocs.search.events/indexerroreventargs/iscritical) { get; } | Gets a flag indicating that the error is critical and the index should be restarted. |
 | [Message](../../groupdocs.search.events/indexerroreventargs/message) { get; } | Gets the error message. |
 | [Status](../../groupdocs.search.events/baseindexeventargs/status) { get; } | Gets the index status. |
 | [Time](../../groupdocs.search.events/baseindexeventargs/time) { get; } | Gets the time of an event. |
@@ -29,7 +29,7 @@ public class IndexErrorEventArgs : BaseIndexEventArgs
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### See Also
 

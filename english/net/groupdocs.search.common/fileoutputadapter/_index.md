@@ -31,7 +31,7 @@ public class FileOutputAdapter : OutputAdapter
 
 **Learn more**
 
-* [Output adapters](https://docs.groupdocs.com/display/searchnet/Output+adapters)
+* [Output adapters](https://docs.groupdocs.com/search/net/output-adapters/)
 
 ### Examples
 
@@ -47,7 +47,7 @@ index.Add(documentsFolder); // Indexing documents from the specified folder
 
 DocumentInfo[] documents = index.GetIndexedDocuments(); // Getting information on indexed documents
 
-FileOutputAdapter adapter = new FileOutputAdapter(@"c:\DocumentText.htm"); // Creating a file output adapter
+FileOutputAdapter adapter = new FileOutputAdapter(OutputFormat.Html, @"c:\DocumentText.htm"); // Creating a file output adapter
 index.GetDocumentText(documents[0], adapter); // Generating a document text into the output file
 ```
 

@@ -38,8 +38,8 @@ public class HomophoneDictionary : DictionaryBase, IEnumerable<string>
 
 **Learn more**
 
-* [Homophone search](https://docs.groupdocs.com/display/searchnet/Homophone+search)
-* [Managing homophone dictionary](https://docs.groupdocs.com/display/searchnet/Homophone+dictionary)
+* [Homophone search](https://docs.groupdocs.com/search/net/homophone-search/)
+* [Managing homophone dictionary](https://docs.groupdocs.com/search/net/homophone-dictionary/)
 
 ### See Also
 

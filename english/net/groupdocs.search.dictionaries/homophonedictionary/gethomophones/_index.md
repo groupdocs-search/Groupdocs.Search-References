@@ -20,7 +20,7 @@ public string[] GetHomophones(string word)
 
 ### Return Value
 
-The homophones for the specified word or empty array if the [`HomophoneDictionary`](../../homophonedictionary) object does not contain the specified word.
+The homophones for the specified word or an empty array if the [`HomophoneDictionary`](../../homophonedictionary) object does not contain the specified word.
 
 ### Exceptions
 

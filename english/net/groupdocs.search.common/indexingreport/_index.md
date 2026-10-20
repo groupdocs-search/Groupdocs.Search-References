@@ -1,14 +1,14 @@
 ---
 title: IndexingReport
 second_title: GroupDocs.Search for .NET API Reference
-description: Represents a detailed information on an indexing operation.
+description: Represents detailed information on an indexing operation.
 type: docs
 weight: 250
 url: /net/groupdocs.search.common/indexingreport/
 ---
 ## IndexingReport class
 
-Represents a detailed information on an indexing operation.
+Represents detailed information on an indexing operation.
 
 ```csharp
 public class IndexingReport
@@ -23,19 +23,19 @@ public class IndexingReport
 | [IndexedDocuments](../../groupdocs.search.common/indexingreport/indexeddocuments) { get; } | Gets the list of indexed documents. |
 | [IndexedDocumentsSize](../../groupdocs.search.common/indexingreport/indexeddocumentssize) { get; } | Gets the total length of indexed documents in MB. |
 | [IndexingTime](../../groupdocs.search.common/indexingreport/indexingtime) { get; } | Gets the indexing duration. |
-| [RemovedDocuments](../../groupdocs.search.common/indexingreport/removeddocuments) { get; } | Gets the list of removed from index documents. |
+| [RemovedDocuments](../../groupdocs.search.common/indexingreport/removeddocuments) { get; } | Gets the list of documents removed from the index. |
 | [SegmentCount](../../groupdocs.search.common/indexingreport/segmentcount) { get; } | Gets the number of index segments. |
 | [StartTime](../../groupdocs.search.common/indexingreport/starttime) { get; } | Gets the indexing start time. |
 | [TotalDocumentsInIndex](../../groupdocs.search.common/indexingreport/totaldocumentsinindex) { get; } | Gets the total number of documents in the index. |
 | [TotalIndexSize](../../groupdocs.search.common/indexingreport/totalindexsize) { get; } | Gets the total index size in bytes. |
-| [TotalTermCount](../../groupdocs.search.common/indexingreport/totaltermcount) { get; } | Gets the total number of terms in index. |
+| [TotalTermCount](../../groupdocs.search.common/indexingreport/totaltermcount) { get; } | Gets the total number of terms in the index. |
 | [UpdatedDocuments](../../groupdocs.search.common/indexingreport/updateddocuments) { get; } | Gets the list of updated documents. |
 
 ### Remarks
 
 **Learn more**
 
-* [Indexing reports](https://docs.groupdocs.com/display/searchnet/Indexing+reports)
+* [Indexing reports](https://docs.groupdocs.com/search/net/indexing-reports/)
 
 ### Examples
 

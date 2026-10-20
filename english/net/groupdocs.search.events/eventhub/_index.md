@@ -24,7 +24,7 @@ public class EventHub
 | event [OperationFinished](../../groupdocs.search.events/eventhub/operationfinished) | Occurs when an index operation is finished. |
 | event [OperationProgressChanged](../../groupdocs.search.events/eventhub/operationprogresschanged) | Occurs when the progress of the indexing or update operation changes. |
 | event [OptimizationProgressChanged](../../groupdocs.search.events/eventhub/optimizationprogresschanged) | Occurs when the progress of the optimization operation changes. |
-| event [PasswordRequired](../../groupdocs.search.events/eventhub/passwordrequired) | Occurs when a document requires password for opening. |
+| event [PasswordRequired](../../groupdocs.search.events/eventhub/passwordrequired) | Occurs when a document requires a password for opening. |
 | event [SearchPhaseCompleted](../../groupdocs.search.events/eventhub/searchphasecompleted) | Occurs when the search phase is completed. |
 | event [StatusChanged](../../groupdocs.search.events/eventhub/statuschanged) | Occurs when the index status changes. |
 
@@ -32,11 +32,11 @@ public class EventHub
 
 **Learn more**
 
-* [Search index events](https://docs.groupdocs.com/display/searchnet/Search+index+events)
+* [Search index events](https://docs.groupdocs.com/search/net/search-index-events/)
 
 ### Examples
 
-The example demonstrates a typical usage of the interface.
+The example demonstrates a typical usage of the class.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";

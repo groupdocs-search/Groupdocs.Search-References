@@ -26,7 +26,7 @@ public enum Compression
 
 **Learn more**
 
-* [Storing text of indexed documents](https://docs.groupdocs.com/display/searchnet/Storing+text+of+indexed+documents)
+* [Storing text of indexed documents](https://docs.groupdocs.com/search/net/storing-text-of-indexed-documents/)
 
 ### See Also
 

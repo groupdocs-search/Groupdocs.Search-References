@@ -1,14 +1,14 @@
 ---
 title: IsAsync
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets or sets the flag of asynchronous performing the operation. The default value is false.
+description: Gets or sets the flag of performing the operation asynchronously. The default value is false.
 type: docs
 weight: 30
 url: /net/groupdocs.search.options/updateoptions/isasync/
 ---
 ## UpdateOptions.IsAsync property
 
-Gets or sets the flag of asynchronous performing the operation. The default value is `false`.
+Gets or sets the flag of performing the operation asynchronously. The default value is `false`.
 
 ```csharp
 public bool IsAsync { get; set; }
@@ -16,7 +16,7 @@ public bool IsAsync { get; set; }
 
 ### Property Value
 
-The flag of asynchronous performing the operation.
+The flag of performing the operation asynchronously.
 
 ### See Also
 

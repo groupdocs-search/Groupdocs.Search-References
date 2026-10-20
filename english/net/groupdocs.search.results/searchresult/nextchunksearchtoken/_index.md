@@ -1,14 +1,14 @@
 ---
 title: NextChunkSearchToken
 second_title: GroupDocs.Search for .NET API Reference
-description: Gets a chunk search token for searching the next chunk.
+description: Gets a chunk search token for searching the next chunk. The value is null if there are no more chunks to search.
 type: docs
 weight: 30
 url: /net/groupdocs.search.results/searchresult/nextchunksearchtoken/
 ---
 ## SearchResult.NextChunkSearchToken property
 
-Gets a chunk search token for searching the next chunk.
+Gets a chunk search token for searching the next chunk. The value is `null` if there are no more chunks to search.
 
 ```csharp
 public ChunkSearchToken NextChunkSearchToken { get; }
