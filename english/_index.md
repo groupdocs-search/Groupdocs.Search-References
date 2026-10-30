@@ -12,20 +12,26 @@ lead: "Index and full-text search with fuzzy, synonym, regex, and faceted querie
 
 platforms:
   - name: ".NET"
-    version: "26.6.1"
-    versionUrl: "https://www.nuget.org/packages/groupdocs.search/26.6.1"
+    version: "26.10.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.search/26.10.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Search"
   - name: "Java"
-    version: "26.6.0"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/26.6/"
+    version: "26.9.1"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-search/26.9.1/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-search"
+  - name: "Python via .NET"
+    version: "26.10.0"
+    versionUrl: "https://releases.groupdocs.com/search/python-net/"
+    key: python
+    ref: "/python-net/"
+    install: "Download the wheel from releases.groupdocs.com"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "Text"]
-formatsCount: "70+"
+formatsCount: "80+"
 formatsNote: "…and 60+ more document, email, and text formats."
 
 capabilities:
