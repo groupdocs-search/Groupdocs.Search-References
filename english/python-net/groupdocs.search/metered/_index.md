@@ -1,0 +1,31 @@
+---
+title: Metered class
+second_title: GroupDocs.Search for Python via .NET API References
+description: "Manages metered (pay-per-use) licensing."
+type: docs
+url: /python-net/groupdocs.search/metered/
+is_root: false
+weight: 90
+---
+
+
+## Metered class
+
+Manages metered (pay-per-use) licensing.
+
+Metered licenses bill on actual consumption (typically pages or
+documents processed). Set the public/private key pair once at
+application startup; the wrapper reports usage back to the GroupDocs
+license server in the background.
+
+The Metered type exposes the following members:
+
+### Methods
+| Method | Description |
+| :- | :- |
+| [get_consumption_credit](/search/python-net/groupdocs.search/metered/get_consumption_credit/) | Return the remaining metered credit for the current key. |
+| [get_consumption_quantity](/search/python-net/groupdocs.search/metered/get_consumption_quantity/) | Return the total metered quantity consumed so far. |
+| [set_metered_key](/search/python-net/groupdocs.search/metered/set_metered_key/#public_key-private_key) | Activate metered billing with the given public/private key pair. |
+
+### See Also
+* module [`groupdocs.search`](/search/python-net/groupdocs.search/)
