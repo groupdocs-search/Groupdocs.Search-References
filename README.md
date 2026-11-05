@@ -11,6 +11,7 @@ API reference:
 
 - **.NET** — <https://reference.groupdocs.com/search/net/>
 - **Java** — <https://reference.groupdocs.com/search/java/>
+- **Python via .NET** — <https://reference.groupdocs.com/search/python-net/>
 
 ## Repository purpose
 
