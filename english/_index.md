@@ -25,10 +25,10 @@ platforms:
     install: "com.groupdocs:groupdocs-search"
   - name: "Python via .NET"
     version: "26.10.0"
-    versionUrl: "https://releases.groupdocs.com/search/python-net/"
+    versionUrl: "https://pypi.org/project/groupdocs-search-net/26.10.0/"
     key: python
     ref: "/python-net/"
-    install: "Download the wheel from releases.groupdocs.com"
+    install: "pip install groupdocs-search-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Email", "Text"]
 formatsCount: "80+"
