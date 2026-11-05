@@ -12,8 +12,6 @@ weight: 10
 
 GroupDocs.Search for Python via .NET is distributed as a pre-built wheel on [PyPI](https://pypi.org/project/groupdocs-search-net/). The PyPI index hosts a separate wheel for each supported platform, and `pip` picks the correct one automatically. Each wheel is self-contained: it bundles the embedded .NET runtime and every managed dependency, so no Microsoft Office, OpenOffice, or separate runtime install is required.
 
-The 26.10 wheels are on the [GroupDocs Releases website](https://releases.groupdocs.com/search/python-net/), and PyPI will carry them as the `groupdocs-search-net` package. Until it does, `pip install groupdocs-search-net` finds no release: [install a pre-downloaded wheel](#install-from-a-pre-downloaded-wheel) instead.
-
 Before you install, review the [System Requirements](https://docs.groupdocs.com/search/python-net/system-requirements/). The wheels need 64-bit Python 3.5-3.14 and pip 20.3 or newer, and run on Windows, on Linux with glibc 2.27 or newer, and on macOS 13 or newer. On Linux, install ICU and `libgdiplus`; on macOS, install `mono-libgdiplus` (see [Platform Prerequisites](#platform-prerequisites)).
 
 ## Install Package from PyPI
@@ -42,8 +40,8 @@ After running the command you should see output similar to:
 
 ```bash
 Collecting groupdocs-search-net
-  Downloading groupdocs_search_net-26.10.0-py3-none-win_amd64.whl (256.9 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 256.9/256.9 MB 3.1 MB/s eta 0:00:00
+  Downloading groupdocs_search_net-26.10.0-py3-none-win_amd64.whl (255.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 255.3/255.3 MB 3.1 MB/s eta 0:00:00
 Installing collected packages: groupdocs-search-net
 Successfully installed groupdocs-search-net-26.10.0
 ```
