@@ -1,14 +1,15 @@
 ---
 title: Search
 second_title: GroupDocs.Search for .NET API Reference
-description: Searches in index.
+description: Searches in the index.
 type: docs
 weight: 260
 url: /net/groupdocs.search/index/search/
 ---
+
 ## Search(string) {#search_3}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(string query)
@@ -21,6 +22,21 @@ public SearchResult Search(string query)
 ### Return Value
 
 The search result.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The query is `null`. |
+| ObjectDisposedException | The index is disposed. |
+
+### Remarks
+
+The errors of a search are reported by the [`ErrorOccurred`](../../../groupdocs.search.events/eventhub/erroroccurred) event of the index, and [`Warnings`](../../../groupdocs.search.results/searchresult/warnings) of the result tells them as well. The method throws an exception only for an argument that is not valid and for a disposed index.
+
+* A query that cannot be parsed or used, search options that cannot be used together and a failure of the search give an empty result, which has no token of the next chunk in a search by chunks.
+* A part of the query that cannot be used, for example a regular expression that is not valid, finds nothing, and the other parts of the query are searched.
+* A part of the index that cannot be read is passed over, and [`Truncated`](../../../groupdocs.search.results/searchresult/truncated) of the result is `true`.
 
 ### Examples
 
@@ -74,7 +90,7 @@ SearchResult result = index.Search(query); // Searching
 
 ## Search(string, SearchOptions) {#search_4}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(string query, SearchOptions options)
@@ -88,6 +104,21 @@ public SearchResult Search(string query, SearchOptions options)
 ### Return Value
 
 The search result.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The query is `null`. |
+| ObjectDisposedException | The index is disposed. |
+
+### Remarks
+
+The errors of a search are reported by the [`ErrorOccurred`](../../../groupdocs.search.events/eventhub/erroroccurred) event of the index, and [`Warnings`](../../../groupdocs.search.results/searchresult/warnings) of the result tells them as well. The method throws an exception only for an argument that is not valid and for a disposed index.
+
+* A query that cannot be parsed or used, search options that cannot be used together and a failure of the search give an empty result, which has no token of the next chunk in a search by chunks.
+* A part of the query that cannot be used, for example a regular expression that is not valid, finds nothing, and the other parts of the query are searched.
+* A part of the index that cannot be read is passed over, and [`Truncated`](../../../groupdocs.search.results/searchresult/truncated) of the result is `true`.
 
 ### Examples
 
@@ -104,7 +135,7 @@ SearchOptions options = new SearchOptions();
 options.FuzzySearch.Enabled = true; // Enabling the fuzzy search
 options.FuzzySearch.FuzzyAlgorithm = new TableDiscreteFunction(1); // Setting the number of possible differences for each word
 
-// Double quotes at the beginning and end tells the index that it is phrase search query
+// Double quotes at the beginning and end tell the index that it is a phrase search query
 string query = "\"The Pursuit of Happiness\"";
 SearchResult result = index.Search(query, options); // Searching
 ```
@@ -137,7 +168,7 @@ SearchResult result = index.Search(query, options); // Searching
 
 ## Search(SearchQuery) {#search_1}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(SearchQuery query)
@@ -151,9 +182,25 @@ public SearchResult Search(SearchQuery query)
 
 The search result.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The query is `null`. |
+| ArgumentException | The query cannot be the root of a query: it is a wildcard of words, see [`CreateWildcardQuery`](../../searchquery/createwildcardquery). |
+| ObjectDisposedException | The index is disposed. |
+
+### Remarks
+
+The errors of a search are reported by the [`ErrorOccurred`](../../../groupdocs.search.events/eventhub/erroroccurred) event of the index, and [`Warnings`](../../../groupdocs.search.results/searchresult/warnings) of the result tells them as well. The method throws an exception only for an argument that is not valid and for a disposed index.
+
+* A query that cannot be parsed or used, search options that cannot be used together and a failure of the search give an empty result, which has no token of the next chunk in a search by chunks.
+* A part of the query that cannot be used, for example a regular expression that is not valid, finds nothing, and the other parts of the query are searched.
+* A part of the index that cannot be read is passed over, and [`Truncated`](../../../groupdocs.search.results/searchresult/truncated) of the result is `true`.
+
 ### Examples
 
-The following example demonstrates how to perform search using query in object form.
+The following example demonstrates how to perform search using a query in object form.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -192,7 +239,7 @@ SearchResult result = index.Search(query); // Searching
 
 ## Search(SearchQuery, SearchOptions) {#search_2}
 
-Searches in index.
+Searches in the index.
 
 ```csharp
 public SearchResult Search(SearchQuery query, SearchOptions options)
@@ -207,9 +254,25 @@ public SearchResult Search(SearchQuery query, SearchOptions options)
 
 The search result.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The query is `null`. |
+| ArgumentException | The query cannot be the root of a query: it is a wildcard of words, see [`CreateWildcardQuery`](../../searchquery/createwildcardquery). |
+| ObjectDisposedException | The index is disposed. |
+
+### Remarks
+
+The errors of a search are reported by the [`ErrorOccurred`](../../../groupdocs.search.events/eventhub/erroroccurred) event of the index, and [`Warnings`](../../../groupdocs.search.results/searchresult/warnings) of the result tells them as well. The method throws an exception only for an argument that is not valid and for a disposed index.
+
+* A query that cannot be parsed or used, search options that cannot be used together and a failure of the search give an empty result, which has no token of the next chunk in a search by chunks.
+* A part of the query that cannot be used, for example a regular expression that is not valid, finds nothing, and the other parts of the query are searched.
+* A part of the index that cannot be read is passed over, and [`Truncated`](../../../groupdocs.search.results/searchresult/truncated) of the result is `true`.
+
 ### Examples
 
-The following example demonstrates how to perform search using query in object form.
+The following example demonstrates how to perform search using a query in object form.
 
 ```csharp
 string indexFolder = @"c:\MyIndex\";
@@ -269,6 +332,17 @@ public ImageSearchResult Search(SearchImage image, ImageSearchOptions options)
 
 The result of a reverse image search.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | The image is `null`. |
+| ObjectDisposedException | The index is disposed. |
+
+### Remarks
+
+The result has the found images with the fewest mismatched bits first, at most [`MaxResultCount`](../../../groupdocs.search.options/imagesearchoptions/maxresultcount) of them. The images with the same number of mismatched bits are in the same order in every search while the index is not changed, so a result that the limit cuts has the same images.
+
 ### See Also
 
 * class [ImageSearchResult](../../../groupdocs.search.results/imagesearchresult)
@@ -278,4 +352,4 @@ The result of a reverse image search.
 * namespace [GroupDocs.Search](../../../groupdocs.search)
 * assembly [GroupDocs.Search](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.search.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Search.dll -->
